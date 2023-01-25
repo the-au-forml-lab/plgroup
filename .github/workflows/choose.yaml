@@ -27,13 +27,9 @@ jobs:
       - name: Run chooser
         run: node src/index.js choose
 
-      - name: Get selection description
+      - name: Get selection details
         id: vars
-        run: echo "desc=$(cat ./files/desc.txt)" >> $GITHUB_OUTPUT
-
-      - name: Get selection DOI
-        id: vars
-        run: echo "doi=$(cat ./files/next.txt)" >> $GITHUB_OUTPUT
+        run: echo "desc=$(cat ./files/desc.txt)" >> $GITHUB_OUTPUT && "doi=$(cat ./files/next.txt)" >> $GITHUB_OUTPUT
 
       - name: Create commit
         run: |
