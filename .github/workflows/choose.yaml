@@ -31,6 +31,10 @@ jobs:
         id: vars
         run: echo "desc=$(cat ./files/desc.txt)" >> $GITHUB_OUTPUT
 
+      - name: Get selection DOI
+        id: vars
+        run: echo "doi=$(cat ./files/next.txt)" >> $GITHUB_OUTPUT
+
       - name: Create commit
         run: |
           git config user.name 'Neea Rusch'
@@ -42,4 +46,6 @@ jobs:
         uses: peter-evans/create-pull-request@v4
         with:
           add-paths: files/*.txt
+          commit-message: Next paper selection ${{ steps.vars.outputs.doi }}
           body: ${{ steps.vars.outputs.desc }}
+          reviewers: nkrusch
