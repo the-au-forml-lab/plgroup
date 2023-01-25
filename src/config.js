@@ -10,38 +10,38 @@ export const FILES = {
      * @constant
      * @type {string}
      */
-    PAPERS: '../files/papers.json',
+    PAPERS: './files/papers.json',
     /**
      * SIGPLAN website URLs where to look for papers
      * @constant
      * @type {string}
      */
-    SRC_FILE: '../files/sources.txt',
+    SRC_FILE: './files/sources.txt',
     /**
      * DOI of the "next paper" to be read.
      * @constant
      * @type {string}
      */
-    NEXT_FILE: '../files/next.txt',
+    NEXT_FILE: './files/next.txt',
     /**
      * Metadata of the next paper to be read.
      * @constant
      * @type {string}
      */
-    NEXT_DESC: '../files/desc.txt',
+    NEXT_DESC: './files/desc.txt',
     /**
      * List of DOIs of previously read or rejected papers.
      * @constant
      * @type {string}
      */
-    PAST_FILE: '../files/past.txt',
+    PAST_FILE: './files/past.txt',
     /**
      * List of stop words. Papers containing stop words are
      * automatically omitted from dataset.
      * @constant
      * @type {string}
      */
-    STOPWORDS: '../files/stopwords.txt'
+    STOPWORDS: './files/stopwords.txt'
 }
 
 /**
