@@ -36,12 +36,18 @@ jobs:
           git config user.name 'Neea Rusch'
           git config user.email 'nkrusch@users.noreply.github.com'
           git add -A
-          git commit -m "Choose next paper"
+          git commit -m "Chose next paper"
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
         with:
           add-paths: files/*.txt
-          commit-message: Next paper selection ${{ steps.vars.outputs.doi }}
-          body: ${{ steps.vars.outputs.desc }}
-          reviewers: nkrusch
+          title: Next paper selection ${{ steps.vars.outputs.doi }}
+          body: |
+            This paper was randomly selected as next reading:
+            ${{ steps.vars.outputs.desc }}
+            
+            Merge this PR to apply selection.
+          team-reviewers: |
+            owners
+            maintainers
