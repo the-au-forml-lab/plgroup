@@ -29,7 +29,7 @@ jobs:
 
       - name: Get selection details
         id: vars
-        run: echo "desc=$(cat ./files/desc.txt)" >> $GITHUB_OUTPUT && "doi=$(cat ./files/next.txt)" >> $GITHUB_OUTPUT
+        run: echo "desc=$(cat ./files/desc.txt)" >> $GITHUB_OUTPUT && echo "doi=$(cat ./files/next.txt)" >> $GITHUB_OUTPUT
 
       - name: Create commit
         run: |
