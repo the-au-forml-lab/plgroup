@@ -1,0 +1,36 @@
+name: Choose paper
+
+on:
+  schedule:
+            # ┌─────────── minute (0 - 59)
+            # │  ┌────────── hour (0 - 23)
+            # │  │ ┌────────── day of the month (1 - 31)
+            # │  │ │ ┌────────── month (1 - 12 or JAN-DEC)
+            # │  │ │ │ ┌────────── day of the week (0 - 6 or SUN-SAT)
+            # │  │ │ │ │
+            # │  │ │ │ │
+            # │  │ │ │ │
+            # *  * * * *
+    - cron:  '0 20 * * 5'
+  workflow_dispatch:
+    branches: [ main ]
+
+jobs:
+  choose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Run chooser
+        run: node src/index.js choose
+
+      - name: Get selection
+        id: vars
+        run: echo "desc=$(cat ./files/desc.txt)" >> $GITHUB_OUTPUT
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
+        body: echo ${{ steps.vars.outputs.desc }}
