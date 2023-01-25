@@ -27,11 +27,17 @@ jobs:
       - name: Run chooser
         run: node src/index.js choose
 
-      - name: Get selection
+      - name: Get selection description
         id: vars
         run: echo "desc=$(cat ./files/desc.txt)" >> $GITHUB_OUTPUT
 
+      - name: Create commit
+        run: |
+          git add -A
+          git commit -m "Choose next paper"
+          
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
         with:
-          body: echo ${{ steps.vars.outputs.desc }}
+          add-paths: files/*.txt
+          body: ${{ steps.vars.outputs.desc }}
