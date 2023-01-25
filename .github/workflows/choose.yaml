@@ -33,4 +33,5 @@ jobs:
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
-        body: echo ${{ steps.vars.outputs.desc }}
+        with:
+          body: echo ${{ steps.vars.outputs.desc }}
