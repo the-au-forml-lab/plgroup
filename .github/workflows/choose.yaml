@@ -29,7 +29,9 @@ jobs:
 
       - name: Get selection details
         id: vars
-        run: echo "desc=$(cat ./files/desc.txt)" >> $GITHUB_OUTPUT && echo "doi=$(cat ./files/next.txt)" >> $GITHUB_OUTPUT
+        run: |
+          echo "desc=$(head -1 ./files/desc.txt)" >> $GITHUB_OUTPUT && 
+          echo "doi=$(cat ./files/next.txt)" >> $GITHUB_OUTPUT
 
       - name: Create commit
         run: |
@@ -42,10 +44,11 @@ jobs:
         uses: peter-evans/create-pull-request@v4
         with:
           add-paths: files/*.txt
-          title: Next paper selection ${{ steps.vars.outputs.doi }}
+          title: Next paper selection
           body: |
-            This paper was randomly selected as next reading:
-            ${{ steps.vars.outputs.desc }}
+            This paper was randomly selected as your next reading:
+            
+            > ${{ steps.vars.outputs.desc }}
             
             Merge this PR to apply selection.
           team-reviewers: |
