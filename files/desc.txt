@@ -1,1 +1,1 @@
-Abreu, Pedro, et al. “A Type-Based Approach to Divide-and-Conquer Recursion in Coq.” Proceedings of the ACM on Programming Languages, vol. 7, no. POPL, Jan. 2023, pp. 61–90. Crossref, https://doi.org/10.1145/3571196.
+Pitts, Andrew M. “Locally Nameless Sets.” Proceedings of the ACM on Programming Languages, vol. 7, no. POPL, Jan. 2023, pp. 488–514. Crossref, https://doi.org/10.1145/3571210.
