@@ -46,7 +46,8 @@ in this list.
 Edit files in [`docs`](docs) in markdown. Note that in some places there are
 clear markers for automatically injecting text. Do not remove these
 markers, or make edits between these markers. Editing anywhere else is
-fine.
+fine. The website theme is from [here](https://github.com/the-au-forml-lab/the-au-forml-lab.github.io)
+but you can override desired parts, see [Jekyll docs](https://jekyllrb.com/docs/themes/#overriding-theme-defaults).
 
 **How to get a suggestion for next paper?**
 
