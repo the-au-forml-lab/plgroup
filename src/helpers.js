@@ -18,7 +18,7 @@ export const readFile = async fileName =>
  * @returns {Promise<*>} - String array of lines of text.
  */
 export const readLines = async fileName =>
-    (await readFile(fileName)).split("\n")
+    ((await readFile(fileName)).split("\n")).filter(w => w)
 
 /**
  * Write some text to a file.

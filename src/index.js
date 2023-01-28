@@ -79,7 +79,10 @@ const getDetails = async doiURL => {
 const matchesStopWord = (words, str) => {
     for (let i = 0; i < words.length; i++) {
         const exp = new RegExp(words[i], 'gmi');
-        if (exp.test(str)) return true;
+        if (exp.test(str)) {
+            console.log(words[i], str)
+            return true;
+        }
     }
     return false
 }
@@ -100,24 +103,25 @@ const setNext = async doi => {
  * Crawl for papers for each URL in files/sources.txt
  * @returns {Promise<void>}
  */
-const findPapers = async _ => {
+const findPapers = async () => {
     let papers = await loadJson(F.PAPERS);
     const sources = await readLines(F.SRC_FILE);
     const stop = await readLines(F.STOPWORDS);
     for (const src of sources) {
         let rawResp = await readURL(src)
-        let foundPapers = Array.from(
-            rawResp.matchAll(DoiRE), m => m[0]);
+        let foundPapers = [...new Set(Array.from(
+            rawResp.matchAll(DoiRE), m => m[0]))];
+        console.log(`${src} found ${foundPapers.length} papers...`)
         for (let i = 0; i < foundPapers.length; i++) {
             const doi = foundPapers[i]
-            if (Object.keys(papers).indexOf(doi) > -1) {
-                if (matchesStopWord(stop, papers[doi][metaKey]))
-                    delete papers[doi]
-                continue;
-            }
-            const meta = await getMeta(doi)
-            if (meta && !matchesStopWord(stop, meta))
-                papers[doi] = {metaKey: meta}
+            const exists = Object.keys(papers).indexOf(doi) >= 0
+            const meta = exists ?
+                papers[doi][metaKey] : (await getMeta(doi))
+            const stopMatch = matchesStopWord(stop, meta)
+            if (stopMatch && exists)
+                delete papers[doi];
+            else if (!stopMatch && !exists && meta)
+                papers[doi] = {[metaKey]: meta}
         }
     }
     writeFile(F.PAPERS, JSON.stringify(papers))
@@ -127,7 +131,7 @@ const findPapers = async _ => {
  * Randomly choose next paper
  * @returns {Promise<void>}
  */
-const chooseNext = async _ => {
+const chooseNext = async () => {
     const paperKeys = Object.keys(await loadJson(F.PAPERS))
     const pastPapers = await readFile(F.PAST_FILE);
     const selectable = paperKeys.filter(
