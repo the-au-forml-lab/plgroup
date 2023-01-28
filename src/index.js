@@ -76,7 +76,7 @@ const getDetails = async doiURL => {
     const xmlAddr = XREF(new URL(doiURL).pathname.substring(1))
     const html = await readURL(xmlAddr)
     const title = html.match(/<title[^>]*>([^<]+)<\/title>/)[1];
-    let abs = ''
+    let abs = doiURL
     let aIdx = html.indexOf("<jats:abstract")
     if (aIdx > 0) {
         const absETag = "</jats:abstract>"

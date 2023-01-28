@@ -53,8 +53,7 @@ jobs:
             
             **${{ steps.vars.outputs.title }}**
             
-            ${{ if(steps.vars.outputs.abs) }} ${{ steps.vars.outputs.abs }} 
-            ${{ else }} See: ${{ steps.vars.outputs.doi }} ${{ endif }}
+            ${{ steps.vars.outputs.abs }} 
             
             <sub><sup>${{ steps.vars.outputs.mla }}</sup></sub>
 
