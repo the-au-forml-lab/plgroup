@@ -1,5 +1,5 @@
 import https from 'https';
-import {FILES as F, ACTIONS, XREF, DoiRE} from './config.js';
+import {FILES as F, ACTIONS, DoiRE} from './config.js';
 import {
     readLines,
     readFile,
@@ -36,7 +36,8 @@ const readURL = (url, headers = {}) => {
                     if (counter < 20)
                         req(response.headers.location,
                             counter + 1);
-                    else reject('too many redirects')
+                    else
+                        reject('too many redirects')
                 } else {
                     let chunks = [];
                     response.on('data', chunk => {
@@ -64,32 +65,23 @@ const getMeta = async doiUrl => {
     })).trim()
 }
 
-const getDetails = async doiURL => {
-    const doiOnly = new URL(doiURL).pathname
-    const detailsURL = XREF(doiOnly)
-    console.log('DOI:', doiOnly, detailsURL)
-}
-
 /**
  * Check is string matches any of bad keyword (stopword).
- * @param words - list of stopwords
- * @param str - string to test
- * @returns {boolean} - true if match exists.
+ * @param words - Array of stopwords.
+ * @param str - String to test.
+ * @returns {boolean} - True if match exists.
  */
 const matchesStopWord = (words, str) => {
     for (let i = 0; i < words.length; i++) {
         const exp = new RegExp(words[i], 'gmi');
-        if (exp.test(str)) {
-            console.log(words[i], str)
-            return true;
-        }
+        if (exp.test(str)) return true;
     }
     return false
 }
 
 /**
  * Update the next paper selection
- * @param doi - the DOI of next paper.
+ * @param doi - The DOI of next paper.
  * @returns {Promise<void>}
  */
 const setNext = async doi => {
@@ -111,7 +103,6 @@ const findPapers = async () => {
         let rawResp = await readURL(src)
         let foundPapers = [...new Set(Array.from(
             rawResp.matchAll(DoiRE), m => m[0]))];
-        console.log(`${src} found ${foundPapers.length} papers...`)
         for (let i = 0; i < foundPapers.length; i++) {
             const doi = foundPapers[i]
             const exists = Object.keys(papers).indexOf(doi) >= 0
