@@ -1,4 +1,4 @@
-# PL Reading Group :wave:
+# PL Reading Group
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/nkrusch/plgroup)
 [![Choose paper](https://github.com/nkrusch/plgroup/actions/workflows/choose.yaml/badge.svg)](https://github.com/nkrusch/plgroup/actions/workflows/choose.yaml)
@@ -6,18 +6,17 @@
 **This project includes information about our Programming Languages (PL)
 reading group.** 
 
-This repository contains the source of that website, and
-tooling for selecting papers to read. We select papers ~randomly from
-top PL conferences from their most recent year.
+This repository contains a small website and tooling for selecting
+papers to read. We select papers ~randomly from top PL conferences.
 
 ## In this Repository
 
 The content of this repository is organized as follows:
 
-- **`.github/workflows`** -- github actions definitions.
-- **`data`** -- mostly generate files, for paper selection purpose.
-- **`docs`** -- the website content, in markdown.
-- **`src`** -- source code for randomly choosing papers.
+- **`.github/workflows`** — github actions definitions.
+- **`data`** — mostly generate files, for paper selection purpose.
+- **`docs`** — the website content, in markdown.
+- **`src`** — source code for randomly choosing papers.
 
 The paper selection is mostly automatic, with an automatic GitHub action
 set to suggest the next paper. Repo maintainers are asked to approve or
@@ -44,20 +43,20 @@ in this list.
 
 **How to change the website content?**
 
-Edit files in `docs` in markdown. Note that in some places there are
+Edit files in [`docs`](docs) in markdown. Note that in some places there are
 clear markers for automatically injecting text. Do not remove these
 markers, or make edits between these markers. Editing anywhere else is
 fine.
 
 **How to get a suggestion for next paper?**
 
-Run the ["Choose paper"](./actions/workflows/choose.yaml) action.
+Run the ["Choose paper"](https://github.com/nkrusch/plgroup/actions) action.
 Look for "run workflow". This will generate a PR with a suggestion.
 
 ## Notes for forking
 
-To get the automatic actions to work properly, you must enable,
-in settings > action, workflow permissions:  
+To get the automatic actions to work properly, you must enable
+(in settings > action) workflow permissions:  
 
 1. read and write permissions
 2. permission to create and approve pull requests.
