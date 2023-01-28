@@ -1,4 +1,12 @@
 /**
+ * Build request URL for paper details.
+ * @param doi - DOI -only- (not URL)
+ * @returns - CrossRef url for DOI.
+ */
+export const XREF = doi =>
+    `https://api.crossref.org/works/${doi}/transform/application/vnd.crossref.unixsd+xml`
+
+/**
  * Regular expression to match DOI urls.
  * @type {RegExp}
  */

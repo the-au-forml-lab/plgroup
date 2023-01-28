@@ -1,5 +1,5 @@
 import https from 'https';
-import {FILES as F, ACTIONS, DoiRE} from './config.js';
+import {FILES as F, ACTIONS, XREF, DoiRE} from './config.js';
 import {
     readLines,
     readFile,
@@ -66,6 +66,31 @@ const getMeta = async doiUrl => {
 }
 
 /**
+ * This method attempts to extract paper title and abstract.
+ * @param doiURL - DOI with domain, e.g. http:/doi.org/xyz/123
+ * @returns {Promise<string>}
+ */
+const getDetails = async doiURL => {
+    const papers = await loadJson(F.PAPERS);
+    const mla = papers[doiURL][metaKey]
+    const xmlAddr = XREF(new URL(doiURL).pathname.substring(1))
+    const html = await readURL(xmlAddr)
+    const title = html.match(/<title[^>]*>([^<]+)<\/title>/)[1];
+    let abs = ''
+    let aIdx = html.indexOf("<jats:abstract")
+    if (aIdx > 0) {
+        const absETag = "</jats:abstract>"
+        const absE = html.indexOf(absETag) - 1
+        const absS = aIdx + html.substring(aIdx).indexOf(">") + 1
+        abs = html.substring(absS, absE)
+            .replace(/[^\S ]+/g, '')
+            .replace(/<(\/?)jats:([a-z]+)>/g, '')
+            .replace(/\s\s+/g, ' ').trim()
+    }
+    return [title, mla, abs].join('\n')
+}
+
+/**
  * Check is string matches any of bad keyword (stopword).
  * @param words - Array of stopwords.
  * @param str - String to test.
@@ -85,7 +110,7 @@ const matchesStopWord = (words, str) => {
  * @returns {Promise<void>}
  */
 const setNext = async doi => {
-    const meta = await getMeta(doi)
+    const meta = await getDetails(doi)
     writeFile(F.NEXT_FILE, doi)
     append(F.PAST_FILE, doi)
     writeFile(F.NEXT_DESC, meta)
@@ -103,6 +128,7 @@ const findPapers = async () => {
         let rawResp = await readURL(src)
         let foundPapers = [...new Set(Array.from(
             rawResp.matchAll(DoiRE), m => m[0]))];
+        console.log(`${src} found ${foundPapers.length} papers...`)
         for (let i = 0; i < foundPapers.length; i++) {
             const doi = foundPapers[i]
             const exists = Object.keys(papers).indexOf(doi) >= 0
