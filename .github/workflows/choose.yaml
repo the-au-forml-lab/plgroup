@@ -33,14 +33,15 @@ jobs:
           echo "title=$(sed -n '1p' ./files/desc.txt)" >> $GITHUB_OUTPUT && 
           echo "mla=$(sed -n '2p' ./files/desc.txt)" >> $GITHUB_OUTPUT && 
           echo "abs=$(sed -n '3p' ./files/desc.txt)" >> $GITHUB_OUTPUT && 
-          echo "doi=$(cat ./files/next.txt)" >> $GITHUB_OUTPUT
+          echo "doi=$(cat ./files/next.txt)" >> $GITHUB_OUTPUT &&
+          echo "NOW=$(date +'%d %B')" >> $GITHUB_ENV
 
       - name: Create commit
         run: |
           git config user.name 'Bot'
-          git config user.email 'yayay@users.noreply.github.com'
+          git config user.email 'the-au-forml-lab@users.noreply.github.com'
           git add -A
-          git commit -m "Chose next paper"
+          git commit -m "Next paper ${{ NOW }}"
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
@@ -53,13 +54,11 @@ jobs:
           body: |
             This paper was randomly selected as your next reading.
             
-            **${{ steps.vars.outputs.title }}**
+            ### ${{ steps.vars.outputs.title }}
             
             ${{ steps.vars.outputs.abs }} 
             
             > ${{ steps.vars.outputs.mla }}
-
-            ---
 
             **Merge this PR to apply selection.**
           reviewers: |

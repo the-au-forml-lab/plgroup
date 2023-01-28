@@ -128,7 +128,6 @@ const findPapers = async () => {
         let rawResp = await readURL(src)
         let foundPapers = [...new Set(Array.from(
             rawResp.matchAll(DoiRE), m => m[0]))];
-        console.log(`${src} found ${foundPapers.length} papers...`)
         for (let i = 0; i < foundPapers.length; i++) {
             const doi = foundPapers[i]
             const exists = Object.keys(papers).indexOf(doi) >= 0

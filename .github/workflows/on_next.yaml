@@ -1,0 +1,19 @@
+name: On Select
+
+on:
+  pull_request:
+    types:
+      - closed
+
+jobs:
+  on-select:
+    if: ${{ (github.event.pull_request.merged == true) && 
+        (contains(github.event.pull_request.labels.*.name, 'next-paper')) }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+    # do more stuff...
