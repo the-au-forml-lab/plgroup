@@ -1,60 +1,59 @@
 import https from 'https';
 import {FILES as F, ACTIONS, XREF, DoiRE} from './config.js';
-import {
-    readLines,
-    readFile,
-    writeFile,
-    loadJson,
-    append
-} from './helpers.js';
+import {readLines, readFile, writeFile} from './helpers.js';
+import {loadJson, append} from './helpers.js';
+import {metaK, DocKEYS} from './config.js';
 
-
-/**
- * Key for accessing paper metadata (in papers dataset).
- * @constant
- * @type {string}
- */
-export const metaKey = 'mla'
 
 /**
  * GET response for some url.
- * This will follow redirects up to 20 times.
+ * This will follow (cross-domain) redirects up to 20 times.
  *
- * @param url - the URL to read
- * @param headers - request headers (if any)
+ * @param {string} url - the URL to read
+ * @param {Object} headers - request headers (if any)
  * @returns {Promise<unknown>}
  */
 const readURL = (url, headers = {}) => {
     return new Promise((resolve, reject) => {
-        const req = function (reqUrl, counter = 0) {
-            const {host, pathname} = new URL(reqUrl)
-            const options = {
-                host, path: pathname, method: 'GET', ...headers
-            }
-            https.request(options, response => {
-                if (response.statusCode === 302) {
-                    if (counter < 20)
-                        req(response.headers.location,
-                            counter + 1);
-                    else
-                        reject('too many redirects')
-                } else {
-                    let chunks = [];
-                    response.on('data', chunk => {
-                        chunks.push(chunk);
-                    });
-                    response.on('end', _ => resolve(
-                        Buffer.concat(chunks).toString()));
-                }
-            }).on('error', reject).end();
+        const req = function (reqUrl, redirs = 0) {
+            const {host, pathname: path} = new URL(reqUrl)
+            https.request({host, path, ...headers},
+                response => {
+                    if (response.statusCode === 302) {
+                        if (redirs > 20)
+                            reject('too many redirects')
+                        else
+                            // FYI, location could be a path,
+                            // assuming here it is a full URL redirect
+                            req(response.headers.location,
+                                redirs + 1);
+                    } else {
+                        let chunks = [];
+                        response.on('data', chunks.push);
+                        response.on('end', _ =>
+                            resolve(Buffer.concat(chunks).toString()));
+                    }
+                }).on('error', reject).end();
         };
         req(url)
     });
 }
 
 /**
- * Gets basic metadata (MLA citation) from some DOI
- * @param doiUrl - DOI with domain, e.g. http:/doi.org/xyz/123
+ * Get the paper details from the local dataset.
+ * @param {string} doiURL - DOI to lookup.
+ * @param {Object} papers - Papers dataset (optional)
+ * @returns {Promise<*>}
+ */
+const getDesc = async (doiURL, papers = null) => {
+    const src = papers || (await loadJson(F.PAPERS));
+    return src[doiURL][metaK]
+}
+
+/**
+ * Gets basic metadata (MLA citation) from some DOI over network.
+ *
+ * @param {string} doiUrl - DOI with domain, e.g. http:/doi.org/xyz/123
  * @returns {Promise<string>}
  */
 const getMeta = async doiUrl => {
@@ -67,12 +66,11 @@ const getMeta = async doiUrl => {
 
 /**
  * This method attempts to extract paper title and abstract.
- * @param doiURL - DOI with domain, e.g. http:/doi.org/xyz/123
+ * @param {string} doiURL - DOI with domain, e.g. http:/doi.org/xyz/123
  * @returns {Promise<string>}
  */
 const getDetails = async doiURL => {
-    const papers = await loadJson(F.PAPERS);
-    const mla = papers[doiURL][metaKey]
+    const mla = await getDesc(doiURL)
     const xmlAddr = XREF(new URL(doiURL).pathname.substring(1))
     const html = await readURL(xmlAddr)
     const title = html.match(/<title[^>]*>([^<]+)<\/title>/)[1];
@@ -92,8 +90,8 @@ const getDetails = async doiURL => {
 
 /**
  * Check is string matches any of bad keyword (stopword).
- * @param words - Array of stopwords.
- * @param str - String to test.
+ * @param {string[]} words - Array of stopwords.
+ * @param  {string} str - String to test.
  * @returns {boolean} - True if match exists.
  */
 const matchesStopWord = (words, str) => {
@@ -105,8 +103,10 @@ const matchesStopWord = (words, str) => {
 }
 
 /**
- * Update the next paper selection
- * @param doi - The DOI of next paper.
+ * Update the next paper selection, and capture this change in the
+ * appropriate files.
+ *
+ * @param  {string} doi - The DOI of next paper.
  * @returns {Promise<void>}
  */
 const setNext = async doi => {
@@ -117,7 +117,8 @@ const setNext = async doi => {
 }
 
 /**
- * Crawl for papers for each URL in files/sources.txt
+ * Crawl for papers for each URL in files/sources.txt.
+ * At completion, this method will generate a dataset of papers.
  * @returns {Promise<void>}
  */
 const findPapers = async () => {
@@ -132,19 +133,19 @@ const findPapers = async () => {
             const doi = foundPapers[i]
             const exists = Object.keys(papers).indexOf(doi) >= 0
             const meta = exists ?
-                papers[doi][metaKey] : (await getMeta(doi))
+                papers[doi][metaK] : (await getMeta(doi))
             const stopMatch = matchesStopWord(stop, meta)
             if (stopMatch && exists)
                 delete papers[doi];
             else if (!stopMatch && !exists && meta)
-                papers[doi] = {[metaKey]: meta}
+                papers[doi] = {[metaK]: meta}
         }
     }
     writeFile(F.PAPERS, JSON.stringify(papers))
 }
 
 /**
- * Randomly choose next paper
+ * Randomly choose next paper from the dataset.
  * @returns {Promise<void>}
  */
 const chooseNext = async () => {
@@ -157,6 +158,35 @@ const chooseNext = async () => {
     await setNext(randDOI)
 }
 
+const writeWeb = async () => {
+    const pastPapers = await readLines(F.PAST_FILE);
+    const papers = await loadJson(F.PAPERS);
+    let web = await readFile(F.WEBPAGE);
+    // update next paper details; must find the anchors
+    const nextS = web.indexOf(DocKEYS.NEXT.START);
+    const nextE = web.indexOf(DocKEYS.NEXT.END);
+    const nextDOI = await readFile(F.NEXT_FILE);
+    if (nextS > 0 && nextE > 0) {
+        const nextDesc = await getDesc(nextDOI, papers)
+        web = web.substring(0, nextS + DocKEYS.NEXT.START.length) +
+            '\n' + nextDesc + '\n' + web.substring(nextE);
+    }
+    // update the paper history
+    const histS = web.indexOf(DocKEYS.HIST.START);
+    const histE = web.indexOf(DocKEYS.HIST.END);
+    if (histS > 0 && histE > 0) {
+        let history = []
+        const pp = pastPapers.filter(d => d !== nextDOI)
+        for (let i = 0; i < pp.length; i++) {
+            const meta = await getDesc(pp[i], papers)
+            history.unshift(`${pp.length - i}. ${meta}`)
+        }
+        web = web.substring(0, histS + DocKEYS.HIST.START.length) +
+            '\n' + history.join('\n') + '\n' + web.substring(histE);
+    }
+    writeFile(F.WEBPAGE, web)
+}
+
 /**
  * Handle selected action (if recognizable); from process args.
  */
@@ -165,5 +195,6 @@ const chooseNext = async () => {
     if (action === ACTIONS.FETCH) return findPapers()
     if (action === ACTIONS.CHOOSE) return chooseNext()
     if (action === ACTIONS.SET && param) return setNext(param)
+    if (action === ACTIONS.WEB) return writeWeb()
     return console.log('Unknown action')
 })();

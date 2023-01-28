@@ -7,6 +7,13 @@ export const XREF = doi =>
     `https://api.crossref.org/works/${doi}/transform/application/vnd.crossref.unixsd+xml`
 
 /**
+ * Key for accessing paper metadata (in papers dataset).
+ * @constant
+ * @type {string}
+ */
+export const metaK = 'mla'
+
+/**
  * Regular expression to match DOI urls.
  * @type {RegExp}
  */
@@ -24,25 +31,31 @@ export const FILES = {
      * @constant
      * @type {string}
      */
-    PAPERS: './files/papers.json',
+    WEBPAGE: './docs/index.md',
+    /**
+     * A dataset of papers and brief metadata.
+     * @constant
+     * @type {string}
+     */
+    PAPERS: './data/papers.json',
     /**
      * SIGPLAN website URLs, from where to find papers.
      * @constant
      * @type {string}
      */
-    SRC_FILE: './files/sources.txt',
+    SRC_FILE: './data/sources.txt',
     /**
      * DOI of the next paper to be read.
      * @constant
      * @type {string}
      */
-    NEXT_FILE: './files/next.txt',
+    NEXT_FILE: './data/next.txt',
     /**
      * Metadata (title, authors, etc.) of the next paper to be read.
      * @constant
      * @type {string}
      */
-    NEXT_DESC: './files/desc.txt',
+    NEXT_DESC: './data/desc.txt',
     /**
      * List of DOIs of previously read papers.
      * We maintain this history for many reasons, one of which is to
@@ -50,14 +63,14 @@ export const FILES = {
      * @constant
      * @type {string}
      */
-    PAST_FILE: './files/past.txt',
+    PAST_FILE: './data/past.txt',
     /**
      * List of stop words. Papers containing stop words are
      * automatically omitted from papers dataset.
      * @constant
      * @type {string}
      */
-    STOPWORDS: './files/stopwords.txt'
+    STOPWORDS: './data/stopwords.txt'
 }
 
 /**
@@ -82,5 +95,32 @@ export const ACTIONS = {
      * @constant
      * @type {string}
      */
-    CHOOSE: 'choose'
+    CHOOSE: 'choose',
+    /**
+     * Update website paper details.
+     * @constant
+     * @type {string}
+     */
+    WEB: 'web'
+}
+
+export const DocKEYS = {
+    /**
+     * Anchor for where to write paper history.
+     * @constant
+     * @type {Object}
+     */
+    NEXT: {
+        START: "<!-- next_start -->",
+        END: "<!-- next_end -->"
+    },
+    /**
+     * Anchor for where to write paper history.
+     * @constant
+     * @type {Object}
+     */
+    HIST: {
+        START: "<!-- prev_start -->",
+        END: "<!-- prev_end -->"
+    }
 }

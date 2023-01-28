@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "update": "node src/index.js fetch",
-    "choose": "node src/index.js choose"
+    "choose": "node src/index.js choose",
+    "web": "node src/index.js web"
   },
   "license": "GPL-2.0"
 }

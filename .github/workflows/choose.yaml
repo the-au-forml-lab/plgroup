@@ -25,7 +25,7 @@ jobs:
           node-version: 16
 
       - name: Run chooser
-        run: npm run choose
+        run: npm run choose && npm run web
 
       - name: Get selection details
         id: vars
