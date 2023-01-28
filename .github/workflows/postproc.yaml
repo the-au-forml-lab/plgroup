@@ -1,4 +1,4 @@
-name: On Select
+name: After Select
 
 on:
   pull_request:
@@ -6,7 +6,7 @@ on:
       - closed
 
 jobs:
-  on-select:
+  after-select:
     if: ${{ (github.event.pull_request.merged == true) && 
         (contains(github.event.pull_request.labels.*.name, 'next-paper')) }}
     runs-on: ubuntu-latest
