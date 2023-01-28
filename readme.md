@@ -1,25 +1,29 @@
-# PL Reading Group
+# PL Reading Group :wave:
 
-This project includes information about our Programming Languages (PL)
-reading group. See the website link (in sidebar) for a more detailed
-description. This repository contains the source of that website, and
+![GitHub last commit](https://img.shields.io/github/last-commit/nkrusch/plgroup)
+[![Choose paper](https://github.com/nkrusch/plgroup/actions/workflows/choose.yaml/badge.svg)](https://github.com/nkrusch/plgroup/actions/workflows/choose.yaml)
+
+**This project includes information about our Programming Languages (PL)
+reading group.** 
+
+This repository contains the source of that website, and
 tooling for selecting papers to read. We select papers ~randomly from
 top PL conferences from their most recent year.
 
-## In this Repository :wave:
+## In this Repository
 
 The content of this repository is organized as follows:
 
-- **`docs`** -- the website content, in markdown.
-- **`data`** -- mostly generate files, for paper selection purpose.
-- **`src`** -- source code for randomly choosing papers.
 - **`.github/workflows`** -- github actions definitions.
+- **`data`** -- mostly generate files, for paper selection purpose.
+- **`docs`** -- the website content, in markdown.
+- **`src`** -- source code for randomly choosing papers.
 
 The paper selection is mostly automatic, with an automatic GitHub action
 set to suggest the next paper. Repo maintainers are asked to approve or
-reject and rerun this suggestion.
+reject this suggestion.
 
-## Guide for editing this repository :pencil2:
+## Guide for editing this repository
 
 This section describes to most commonly expected changes.
 
@@ -47,13 +51,13 @@ fine.
 
 **How to get a suggestion for next paper?**
 
-Run the ["Choose paper"](/actions/workflows/choose.yaml) action.
+Run the ["Choose paper"](./actions/workflows/choose.yaml) action.
 Look for "run workflow". This will generate a PR with a suggestion.
 
 ## Notes for forking
 
-To get the automatic actions to work properly, you must enable
-in repository [settings > action](settings/actions) under workflow permissions:  
+To get the automatic actions to work properly, you must enable,
+in settings > action, workflow permissions:  
 
 1. read and write permissions
 2. permission to create and approve pull requests.

@@ -1,7 +1,7 @@
 import https from 'https';
 import {FILES as F, ACTIONS, XREF, DoiRE} from './config.js';
 import {readLines, readFile, writeFile} from './helpers.js';
-import {loadJson, append} from './helpers.js';
+import {loadJson, append, hyperDOI} from './helpers.js';
 import {metaK, DocKEYS} from './config.js';
 
 
@@ -167,9 +167,10 @@ const writeWeb = async () => {
     const nextE = web.indexOf(DocKEYS.NEXT.END);
     const nextDOI = await readFile(F.NEXT_FILE);
     if (nextS > 0 && nextE > 0) {
-        const nextDesc = await getDesc(nextDOI, papers)
-        web = web.substring(0, nextS + DocKEYS.NEXT.START.length) +
-            '\n' + nextDesc + '\n' + web.substring(nextE);
+        const nextDesc = hyperDOI(
+            (await getDesc(nextDOI, papers)), nextDOI)
+        web = [web.substring(0, nextS + DocKEYS.NEXT.START.length),
+            nextDesc, web.substring(nextE)].join('\n');
     }
     // update the paper history
     const histS = web.indexOf(DocKEYS.HIST.START);
@@ -178,11 +179,11 @@ const writeWeb = async () => {
         let history = []
         const pp = pastPapers.filter(d => d !== nextDOI)
         for (let i = 0; i < pp.length; i++) {
-            const meta = await getDesc(pp[i], papers)
+            const meta = hyperDOI((await getDesc(pp[i], papers)), pp[i])
             history.unshift(`${pp.length - i}. ${meta}`)
         }
-        web = web.substring(0, histS + DocKEYS.HIST.START.length) +
-            '\n' + history.join('\n') + '\n' + web.substring(histE);
+        web = [web.substring(0, histS + DocKEYS.HIST.START.length)]
+            .concat(history).concat(web.substring(histE)).join('\n');
     }
     writeFile(F.WEBPAGE, web)
 }
