@@ -25,7 +25,7 @@ jobs:
           node-version: 16
 
       - name: Run chooser
-        run: node src/index.js choose
+        run: npm run choose
 
       - name: Get selection details
         id: vars
@@ -61,8 +61,9 @@ jobs:
             > ${{ steps.vars.outputs.mla }}
 
             **Merge this PR to apply selection.**
-          reviewers: |
-            nkrusch
-          team-reviewers: |
-            owners
-            maintainers
+#          reviewers: |
+#            nkrusch
+#            phanukaev
+#          team-reviewers: |
+#            owners
+#            maintainers
