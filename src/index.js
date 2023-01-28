@@ -1,12 +1,13 @@
-import {readLines, readFile, writeFile, loadJson, appendLine} from './helpers.js';
-import {FILES as F, ACTIONS} from './config.js';
 import https from 'https';
+import {FILES as F, ACTIONS, XREF, DoiRE} from './config.js';
+import {
+    readLines,
+    readFile,
+    writeFile,
+    loadJson,
+    append
+} from './helpers.js';
 
-/**
- * Regular expression to match DOI urls.
- * @type {RegExp}
- */
-const DOI_RE = /https?:\/\/(www\.|)?doi\.org\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)/g
 
 /**
  * Key for accessing paper metadata (in papers dataset).
@@ -15,12 +16,21 @@ const DOI_RE = /https?:\/\/(www\.|)?doi\.org\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)/g
  */
 export const metaKey = 'mla'
 
-const readURL = (initUrl, headers = {}) => {
+/**
+ * GET response for some url.
+ * This will follow redirects up to 20 times.
+ *
+ * @param url - the URL to read
+ * @param headers - request headers (if any)
+ * @returns {Promise<unknown>}
+ */
+const readURL = (url, headers = {}) => {
     return new Promise((resolve, reject) => {
-        const req = function (url, counter = 0) {
-            const {host, pathname} = new URL(url)
+        const req = function (reqUrl, counter = 0) {
+            const {host, pathname} = new URL(reqUrl)
             const options = {
-                host, path: pathname, method: 'GET', ...headers}
+                host, path: pathname, method: 'GET', ...headers
+            }
             https.request(options, response => {
                 if (response.statusCode === 302) {
                     if (counter < 20)
@@ -37,18 +47,35 @@ const readURL = (initUrl, headers = {}) => {
                 }
             }).on('error', reject).end();
         };
-        req(initUrl)
+        req(url)
     });
 }
 
+/**
+ * Gets basic metadata (MLA citation) from some DOI
+ * @param doiUrl - DOI with domain, e.g. http:/doi.org/xyz/123
+ * @returns {Promise<string>}
+ */
 const getMeta = async doiUrl => {
-    return (await readURL(doiUrl,
-        {headers: {
+    return (await readURL(doiUrl, {
+        headers: {
             'Accept': 'text/bibliography; style=mla'
-        }}
-    )).trim()
+        }
+    })).trim()
 }
 
+const getDetails = async doiURL => {
+    const doiOnly = new URL(doiURL).pathname
+    const detailsURL = XREF(doiOnly)
+    console.log('DOI:', doiOnly, detailsURL)
+}
+
+/**
+ * Check is string matches any of bad keyword (stopword).
+ * @param words - list of stopwords
+ * @param str - string to test
+ * @returns {boolean} - true if match exists.
+ */
 const matchesStopWord = (words, str) => {
     for (let i = 0; i < words.length; i++) {
         const exp = new RegExp(words[i], 'gmi');
@@ -57,13 +84,22 @@ const matchesStopWord = (words, str) => {
     return false
 }
 
+/**
+ * Update the next paper selection
+ * @param doi - the DOI of next paper.
+ * @returns {Promise<void>}
+ */
 const setNext = async doi => {
     const meta = await getMeta(doi)
     writeFile(F.NEXT_FILE, doi)
-    appendLine(F.PAST_FILE, doi)
+    append(F.PAST_FILE, doi)
     writeFile(F.NEXT_DESC, meta)
 }
 
+/**
+ * Crawl for papers for each URL in files/sources.txt
+ * @returns {Promise<void>}
+ */
 const findPapers = async _ => {
     let papers = await loadJson(F.PAPERS);
     const sources = await readLines(F.SRC_FILE);
@@ -71,7 +107,7 @@ const findPapers = async _ => {
     for (const src of sources) {
         let rawResp = await readURL(src)
         let foundPapers = Array.from(
-            rawResp.matchAll(DOI_RE), m => m[0]);
+            rawResp.matchAll(DoiRE), m => m[0]);
         for (let i = 0; i < foundPapers.length; i++) {
             const doi = foundPapers[i]
             if (Object.keys(papers).indexOf(doi) > -1) {
@@ -87,7 +123,11 @@ const findPapers = async _ => {
     writeFile(F.PAPERS, JSON.stringify(papers))
 }
 
-const chooseNext = async () => {
+/**
+ * Randomly choose next paper
+ * @returns {Promise<void>}
+ */
+const chooseNext = async _ => {
     const paperKeys = Object.keys(await loadJson(F.PAPERS))
     const pastPapers = await readFile(F.PAST_FILE);
     const selectable = paperKeys.filter(
@@ -97,7 +137,10 @@ const chooseNext = async () => {
     await setNext(randDOI)
 }
 
-(() => {
+/**
+ * Handle selected action (if recognizable); from process args.
+ */
+(_ => {
     const [action, param] = process.argv.slice(2);
     if (action === ACTIONS.FETCH) return findPapers()
     if (action === ACTIONS.CHOOSE) return chooseNext()

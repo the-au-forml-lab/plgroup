@@ -1,43 +1,59 @@
 /**
+ * Build request URL for paper details.
+ * @param doi - DOI -only- (not URL)
+ * @returns - CrossRef url for DOI.
+ */
+export const XREF = doi =>
+    `https://api.crossref.org/works/${doi}.xml`
+
+/**
+ * Regular expression to match DOI urls.
+ * @type {RegExp}
+ */
+export const DoiRE = /https?:\/\/(www\.|)?doi\.org\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)/g
+
+/**
  * Paths to data files.
- * Read description to understand role of each file.
+ * Read descriptions below to understand purpose of each file.
  *
  * Note: All text files (.txt) should contain one entry per line.
  */
 export const FILES = {
     /**
-     * A dataset of papers and their metadata.
+     * A dataset of papers and brief metadata.
      * @constant
      * @type {string}
      */
     PAPERS: './files/papers.json',
     /**
-     * SIGPLAN website URLs where to look for papers
+     * SIGPLAN website URLs, from where to find papers.
      * @constant
      * @type {string}
      */
     SRC_FILE: './files/sources.txt',
     /**
-     * DOI of the "next paper" to be read.
+     * DOI of the next paper to be read.
      * @constant
      * @type {string}
      */
     NEXT_FILE: './files/next.txt',
     /**
-     * Metadata of the next paper to be read.
+     * Metadata (title, authors, etc.) of the next paper to be read.
      * @constant
      * @type {string}
      */
     NEXT_DESC: './files/desc.txt',
     /**
-     * List of DOIs of previously read or rejected papers.
+     * List of DOIs of previously read papers.
+     * We maintain this history for many reasons, one of which is to
+     * prevent previous paper from being selected again.
      * @constant
      * @type {string}
      */
     PAST_FILE: './files/past.txt',
     /**
      * List of stop words. Papers containing stop words are
-     * automatically omitted from dataset.
+     * automatically omitted from papers dataset.
      * @constant
      * @type {string}
      */
@@ -45,7 +61,8 @@ export const FILES = {
 }
 
 /**
- * Available commands.
+ * Available CLI commands.
+ * This is handled my "main method" in index.js.
  */
 export const ACTIONS = {
     /**
