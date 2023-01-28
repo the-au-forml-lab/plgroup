@@ -5,13 +5,13 @@ on:
             # ┌─────────── minute (0 - 59)
             # │  ┌────────── hour (0 - 23)
             # │  │ ┌────────── day of the month (1 - 31)
-            # │  │ │ ┌────────── month (1 - 12 or JAN-DEC)
-            # │  │ │ │ ┌────────── day of the week (0 - 6 or SUN-SAT)
-            # │  │ │ │ │
-            # │  │ │ │ │
-            # │  │ │ │ │
-            # *  * * * *
-    - cron:  '0 20 * * 5'
+            # │  │ │  ┌────────── month (1 - 12 or JAN-DEC)
+            # │  │ │  │  ┌────────── day of the week (0 - 6 or SUN-SAT)
+            # │  │ │  │  │
+            # │  │ │  │  │
+            # │  │ │  │  │
+            # *  * *  *  *
+    - cron:  '0 15 * 1-4 5'
   workflow_dispatch:
     branches: [ main ]
 
@@ -30,13 +30,15 @@ jobs:
       - name: Get selection details
         id: vars
         run: |
-          echo "desc=$(head -1 ./files/desc.txt)" >> $GITHUB_OUTPUT && 
+          echo "title=$(sed -n '1p' ./files/desc.txt)" >> $GITHUB_OUTPUT && 
+          echo "mla=$(sed -n '2p' ./files/desc.txt)" >> $GITHUB_OUTPUT && 
+          echo "abs=$(sed -n '3p' ./files/desc.txt)" >> $GITHUB_OUTPUT && 
           echo "doi=$(cat ./files/next.txt)" >> $GITHUB_OUTPUT
 
       - name: Create commit
         run: |
-          git config user.name 'Neea Rusch'
-          git config user.email 'nkrusch@users.noreply.github.com'
+          git config user.name 'Bot'
+          git config user.email 'example@users.noreply.github.com'
           git add -A
           git commit -m "Chose next paper"
 
@@ -44,13 +46,21 @@ jobs:
         uses: peter-evans/create-pull-request@v4
         with:
           add-paths: files/*.txt
-          title: Next paper selection
+          labels: next-paper
+          title: Next paper selection - ${{ steps.vars.outputs.title }}
           body: |
-            This paper was randomly selected as your next reading:
+            This paper was randomly selected as your next reading.
             
-            > ${{ steps.vars.outputs.desc }}
+            **${{ steps.vars.outputs.title }}**
             
-            Merge this PR to apply selection.
+            ${{ if(steps.vars.outputs.abs) }} ${{ steps.vars.outputs.abs }} 
+            ${{ else }} See: ${{ steps.vars.outputs.doi }} ${{ endif }}
+            
+            <sub><sup>${{ steps.vars.outputs.mla }}</sup></sub>
+
+            ---
+
+            **Merge this PR to apply selection.**
           team-reviewers: |
             owners
             maintainers
