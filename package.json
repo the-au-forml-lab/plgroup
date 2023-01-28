@@ -1,9 +1,11 @@
 {
   "name": "reading-group",
   "version": "1.0.0",
+  "description": "Reading group random paper selector.",
   "type": "module",
   "scripts": {
     "update": "node src/index.js fetch",
     "choose": "node src/index.js choose"
-  }
+  },
+  "license": "GPL-2.0"
 }
