@@ -23,3 +23,7 @@ Thokair, Mosaad Al, et al. “Dynamic Race Detection with O(1) Samples.” Proce
 <!-- prev_start -->
 1. Abreu, Pedro, et al. “A Type-Based Approach to Divide-and-Conquer Recursion in Coq.” Proceedings of the ACM on Programming Languages, vol. 7, no. POPL, Jan. 2023, pp. 61–90. Crossref, https://doi.org/10.1145/3571196.
 <!-- prev_end -->
+
+### Discussion
+
+We have a `#plgroup` channel at AU CS Grad Students slack ([invitation link here](https://join.slack.com/t/aucsgradstudents/shared_invite/zt-1o2j9gvie-n2GttzW~KNJ5jdYpUxWkDw)).

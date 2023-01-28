@@ -61,9 +61,4 @@ jobs:
             > ${{ steps.vars.outputs.mla }}
 
             **Merge this PR to apply selection.**
-#          reviewers: |
-#            nkrusch
-#            phanukaev
-#          team-reviewers: |
-#            owners
-#            maintainers
+          team-reviewers: maintainers
