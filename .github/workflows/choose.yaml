@@ -30,10 +30,10 @@ jobs:
       - name: Get selection details
         id: vars
         run: |
-          echo "title=$(sed -n '1p' ./files/desc.txt)" >> $GITHUB_OUTPUT && 
-          echo "mla=$(sed -n '2p' ./files/desc.txt)" >> $GITHUB_OUTPUT && 
-          echo "abs=$(sed -n '3p' ./files/desc.txt)" >> $GITHUB_OUTPUT && 
-          echo "doi=$(cat ./files/next.txt)" >> $GITHUB_OUTPUT &&
+          echo "title=$(sed -n '1p' ./data/desc.txt)" >> $GITHUB_OUTPUT && 
+          echo "mla=$(sed -n '2p' ./data/desc.txt)" >> $GITHUB_OUTPUT && 
+          echo "abs=$(sed -n '3p' ./data/desc.txt)" >> $GITHUB_OUTPUT && 
+          echo "doi=$(cat ./data/next.txt)" >> $GITHUB_OUTPUT &&
           echo "NOW=$(date +'%d %B')" >> $GITHUB_ENV
 
       - name: Create commit
