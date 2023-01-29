@@ -29,7 +29,8 @@ const readURL = (url, headers = {}) => {
                                 redirs + 1);
                     } else {
                         let chunks = [];
-                        response.on('data', chunks.push);
+                        response.on('data', chunk =>
+                            chunks.push(chunk));
                         response.on('end', _ =>
                             resolve(Buffer.concat(chunks).toString()));
                     }
