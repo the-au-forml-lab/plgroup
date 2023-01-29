@@ -61,3 +61,7 @@ To get the automatic actions to work properly, you must enable
 
 1. read and write permissions
 2. permission to create and approve pull requests.
+
+There is also a slack app integration, which requires creating a slack
+app, and adding a repository secret for "incoming webhook" URL.
+Otherwise, disable the notification workflow.
