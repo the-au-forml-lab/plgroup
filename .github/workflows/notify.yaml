@@ -1,16 +1,17 @@
 name: Notifications
 
 on:
-#  pull_request:
-#    types:
-#      - closed
+  pull_request:
+    types:
+      - closed
   workflow_dispatch:
     branches: [ main ]
 
 jobs:
   notifications:
-#    if: ${{ (github.event.pull_request.merged == true) &&
-#        (contains(github.event.pull_request.labels.*.name, 'next-paper')) }}
+    if: ${{ github.event_name == 'workflow_dispatch' }} ||
+        (${{ (github.event.pull_request.merged == true) &&
+        (contains(github.event.pull_request.labels.*.name, 'next-paper')) }})
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
