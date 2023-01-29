@@ -1,4 +1,4 @@
-# PL Reading Group
+# Programming Languages Reading Group
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/nkrusch/plgroup)
 [![Choose paper](https://github.com/nkrusch/plgroup/actions/workflows/choose.yaml/badge.svg)](https://github.com/nkrusch/plgroup/actions/workflows/choose.yaml)

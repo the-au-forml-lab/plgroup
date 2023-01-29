@@ -1,14 +1,16 @@
-name: After Select
+name: Notifications
 
 on:
-  pull_request:
-    types:
-      - closed
+#  pull_request:
+#    types:
+#      - closed
+  workflow_dispatch:
+    branches: [ main ]
 
 jobs:
-  after-select:
-    if: ${{ (github.event.pull_request.merged == true) && 
-        (contains(github.event.pull_request.labels.*.name, 'next-paper')) }}
+  notifications:
+#    if: ${{ (github.event.pull_request.merged == true) &&
+#        (contains(github.event.pull_request.labels.*.name, 'next-paper')) }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -16,4 +18,25 @@ jobs:
         with:
           node-version: 16
 
-    # post next paper to slack
+      - name: Get selection details
+        id: vars
+        run: |
+          echo "title=$(sed -n '1p' ./files/desc.txt)" >> $GITHUB_OUTPUT && 
+          echo "mla=$(sed -n '2p' ./files/desc.txt)" >> $GITHUB_OUTPUT
+
+      - name: Send custom JSON data to Slack workflow
+        id: slack
+        uses: slackapi/slack-github-action@v1.23.0
+        with:
+          payload: |
+            { "text": "Next paper: ${{ steps.vars.outputs.title }}\n\n${{ steps.vars.outputs.mla }}",
+              "blocks": [{
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "Next paper: ${{ steps.vars.outputs.title }}\n\n${{ steps.vars.outputs.mla }}"
+                  }
+            }]}
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
