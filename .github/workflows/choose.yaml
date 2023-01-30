@@ -1,0 +1,66 @@
+name: Choose paper
+
+on:
+  schedule:
+            # ┌─────────── minute (0 - 59)
+            # │  ┌────────── hour (0 - 23)
+            # │  │ ┌────────── day of the month (1 - 31)
+            # │  │ │  ┌────────── month (1 - 12 or JAN-DEC)
+            # │  │ │  │  ┌────────── day of the week (0 - 6 or SUN-SAT)
+            # │  │ │  │  │
+            # │  │ │  │  │
+            # │  │ │  │  │
+            # *  * *  *  *
+    - cron:  '0 15 * 1-4 5'
+  workflow_dispatch:
+    branches: [ main ]
+
+jobs:
+  choose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Run chooser
+        run: |
+          npm run choose 
+          npm run web
+
+      - name: Get selection details
+        id: vars
+        run: |
+          echo "title=$(sed -n '1p' ./data/desc.txt)" >> $GITHUB_OUTPUT && 
+          echo "mla=$(sed -n '2p' ./data/desc.txt)" >> $GITHUB_OUTPUT && 
+          echo "abs=$(sed -n '3p' ./data/desc.txt)" >> $GITHUB_OUTPUT && 
+          echo "doi=$(cat ./data/next.txt)" >> $GITHUB_OUTPUT &&
+          echo "NOW=$(date +'%d %B')" >> $GITHUB_ENV
+
+      - name: Create commit
+        run: |
+          git config user.name 'Bot'
+          git config user.email 'the-au-forml-lab@users.noreply.github.com'
+          git add -A
+          git commit -m "Next paper $NOW"
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
+        with:
+          add-paths: files/*.txt
+          labels: next-paper
+          branch: next-paper
+          delete-branch: true
+          title: ${{ steps.vars.outputs.title }}
+          body: |
+            This paper was randomly selected as your next reading.
+            
+            ### ${{ steps.vars.outputs.title }}
+            
+            ${{ steps.vars.outputs.abs }} 
+            
+            > ${{ steps.vars.outputs.mla }}
+
+            **Merge this PR to apply selection.**
+          team-reviewers: maintainers
