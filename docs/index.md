@@ -20,7 +20,7 @@ We randomly select papers from leading PL conferences: [POPL](https://popl23.sig
 
 <!-- this section is automatically generated; do not edit between the markers -->
 <!-- next_start -->
-Thokair, Mosaad Al, et al. “Dynamic Race Detection with O(1) Samples.” Proceedings of the ACM on Programming Languages, vol. 7, no. POPL, Jan. 2023, pp. 1308–37. Crossref, <a href='https://doi.org/10.1145/3571238' target='_blank'>https://doi.org/10.1145/3571238</a>.
+Song, Youngju, et al. “Conditional Contextual Refinement.” Proceedings of the ACM on Programming Languages, vol. 7, no. POPL, Jan. 2023, pp. 1121–51. Crossref, <a href='https://doi.org/10.1145/3571232' target='_blank'>https://doi.org/10.1145/3571232</a>.
 <!-- next_end -->
 
 <br/>
@@ -29,5 +29,6 @@ Thokair, Mosaad Al, et al. “Dynamic Race Detection with O(1) Samples.” Proce
 
 <!-- this section is automatically generated; do not edit between the markers -->
 <!-- prev_start -->
+2. Thokair, Mosaad Al, et al. “Dynamic Race Detection with O(1) Samples.” Proceedings of the ACM on Programming Languages, vol. 7, no. POPL, Jan. 2023, pp. 1308–37. Crossref, <a href='https://doi.org/10.1145/3571238' target='_blank'>https://doi.org/10.1145/3571238</a>.
 1. Abreu, Pedro, et al. “A Type-Based Approach to Divide-and-Conquer Recursion in Coq.” Proceedings of the ACM on Programming Languages, vol. 7, no. POPL, Jan. 2023, pp. 61–90. Crossref, <a href='https://doi.org/10.1145/3571196' target='_blank'>https://doi.org/10.1145/3571196</a>.
 <!-- prev_end -->
