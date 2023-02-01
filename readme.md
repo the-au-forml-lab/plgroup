@@ -3,11 +3,11 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/the-au-forml-lab/plgroup)
 [![Choose paper](https://github.com/the-au-forml-lab/plgroup/actions/workflows/choose.yaml/badge.svg)](https://github.com/the-au-forml-lab/plgroup/actions/workflows/choose.yaml)
 
-**This project includes information about our Programming Languages (PL)
+**This project includes information about our Programming Languages 
 reading group.** 
 
 This repository contains a small website and tooling for selecting
-papers to read. We select papers ~randomly from top PL conferences.
+papers to read. We select papers ~randomly from top programming languages conferences.
 
 ## In this Repository
 
@@ -54,14 +54,7 @@ but you can override desired parts, following [Jekyll docs](https://jekyllrb.com
 Run the ["Choose paper"](https://github.com/the-au-forml-lab/plgroup/actions) action.
 Look for "run workflow". This will generate a PR with a suggestion.
 
-## Notes for forking
-
-To get the automatic actions to work properly, you must enable
-(in settings > action) workflow permissions:  
-
-1. read and write permissions
-2. permission to create and approve pull requests.
-
-There is also a slack app integration, which requires creating a slack
-app, and adding a repository secret for "incoming webhook" URL.
-Otherwise, disable the notification workflow.
+<details>
+<summary><strong>Notes for forking</strong></summary>
+<p>To get the automatic actions to work properly, you must enable (in settings > action) workflow permissions:</p> <ol><li>read and write permissions</li> <li>permission to create and approve pull requests.</li></ol> <p>There is also a slack app integration, which requires creating a slack app, and adding a repository secret for "incoming webhook" URL. Otherwise, disable the notification workflow.</p>
+</details>
