@@ -27,13 +27,14 @@ export const DoiRE = /https?:\/\/(www\.|)?doi\.org\b([-a-zA-Z0-9()@:%_+.~#?&/=]*
  */
 export const FILES = {
     /**
-     * A dataset of papers and brief metadata.
+     * Website index page.
+     * Used to write current and list of previous papers.
      * @constant
      * @type {string}
      */
     WEBPAGE: './docs/index.md',
     /**
-     * A dataset of papers and brief metadata.
+     * A dataset of papers.
      * @constant
      * @type {string}
      */
@@ -58,6 +59,7 @@ export const FILES = {
     NEXT_DESC: './data/desc.txt',
     /**
      * List of DOIs of previously read papers.
+     *
      * We maintain this history for many reasons, one of which is to
      * prevent previous paper from being selected again.
      * @constant
@@ -65,8 +67,10 @@ export const FILES = {
      */
     PAST_FILE: './data/past.txt',
     /**
-     * List of stop words. Papers containing stop words are
-     * automatically omitted from papers dataset.
+     * List of stop words.
+     *
+     * Papers containing stop words are automatically omitted from
+     * papers dataset.
      * @constant
      * @type {string}
      */
@@ -79,19 +83,19 @@ export const FILES = {
  */
 export const ACTIONS = {
     /**
-     * Set next paper to specific DOI
+     * Set the next paper to specific DOI.
      * @constant
      * @type {string}
      */
     SET: 'set',
     /**
-     * Update papers database
+     * Update papers database.
      * @constant
      * @type {string}
      */
     FETCH: 'fetch',
     /**
-     * Choose next paper
+     * Choose next paper.
      * @constant
      * @type {string}
      */
@@ -106,11 +110,12 @@ export const ACTIONS = {
 
 /**
  * Keys for finding content markers in the web page.
+ * The webpage is specified by FILES.WEBPAGE.
  * @type {Object}
  */
 export const KEYS = {
     /**
-     * Anchor for where to write paper history.
+     * Anchor for where to write next paper details.
      * @constant
      * @type {Object}
      */
@@ -119,7 +124,7 @@ export const KEYS = {
         END: "<!-- next_end -->"
     },
     /**
-     * Anchor for where to write paper history.
+     * Anchor for where to write papers history.
      * @constant
      * @type {Object}
      */
