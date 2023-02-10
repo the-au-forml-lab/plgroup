@@ -24,7 +24,7 @@ reject this suggestion.
 
 ## Guide for editing this repository
 
-This section describes to edit the most commonly expected changes.
+This section describes to how to apply the most commonly expected changes.
 
 **How to edit source conferences?**
 
