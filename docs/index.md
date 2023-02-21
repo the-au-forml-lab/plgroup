@@ -19,7 +19,7 @@ It is also simply fun to hang out with us.
 
 <!-- this section is automatically generated; do not edit between the markers -->
 <!-- next_start -->
-Labrada, Elizabeth, et al. “Plausible Sealing for Gradual Parametricity.” Proceedings of the ACM on Programming Languages, vol. 6, no. OOPSLA1, Apr. 2022, pp. 1–28. Crossref, <a href='https://doi.org/10.1145/3527314' target='_blank'>https://doi.org/10.1145/3527314</a>.
+Baumann, Pascal, et al. “Context-Bounded Verification of Context-Free Specifications.” Proceedings of the ACM on Programming Languages, vol. 7, no. POPL, Jan. 2023, pp. 2141–70. Crossref, <a href='https://doi.org/10.1145/3571266' target='_blank'>https://doi.org/10.1145/3571266</a>.
 <!-- next_end -->
 
 <br/>
@@ -28,6 +28,7 @@ Labrada, Elizabeth, et al. “Plausible Sealing for Gradual Parametricity.” Pr
 
 <!-- this section is automatically generated; do not edit between the markers -->
 <!-- prev_start -->
+4. Labrada, Elizabeth, et al. “Plausible Sealing for Gradual Parametricity.” Proceedings of the ACM on Programming Languages, vol. 6, no. OOPSLA1, Apr. 2022, pp. 1–28. Crossref, <a href='https://doi.org/10.1145/3527314' target='_blank'>https://doi.org/10.1145/3527314</a>.
 3. Ding, Shuo, and Qirun Zhang. “Witnessability of Undecidable Problems.” Proceedings of the ACM on Programming Languages, vol. 7, no. POPL, Jan. 2023, pp. 982–1002. Crossref, <a href='https://doi.org/10.1145/3571227' target='_blank'>https://doi.org/10.1145/3571227</a>.
 2. Thokair, Mosaad Al, et al. “Dynamic Race Detection with O(1) Samples.” Proceedings of the ACM on Programming Languages, vol. 7, no. POPL, Jan. 2023, pp. 1308–37. Crossref, <a href='https://doi.org/10.1145/3571238' target='_blank'>https://doi.org/10.1145/3571238</a>.
 1. Abreu, Pedro, et al. “A Type-Based Approach to Divide-and-Conquer Recursion in Coq.” Proceedings of the ACM on Programming Languages, vol. 7, no. POPL, Jan. 2023, pp. 61–90. Crossref, <a href='https://doi.org/10.1145/3571196' target='_blank'>https://doi.org/10.1145/3571196</a>.
