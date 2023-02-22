@@ -3,7 +3,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/the-au-forml-lab/plgroup)
 [![Choose paper](https://github.com/the-au-forml-lab/plgroup/actions/workflows/choose.yaml/badge.svg)](https://github.com/the-au-forml-lab/plgroup/actions/workflows/choose.yaml)
 
-**This project includes information about our Programming Languages 
+**This project includes information about our programming languages 
 reading group.** 
 
 This repository contains a small website and tooling for selecting
@@ -13,14 +13,24 @@ papers to read. We select papers ~randomly from top programming languages confer
 
 The content of this repository is organized as follows:
 
-- **`.github/workflows`** — github actions definitions.
+- **`.github/workflows`** — GitHub actions definitions.
 - **`data`** — mostly generate files, for paper selection purpose.
-- **`docs`** — the website content, in markdown.
+- **`docs`** — the website content, in markdown (jekyll).
 - **`src`** — source code for randomly choosing papers.
 
-The paper selection is mostly automatic, with an automatic GitHub action
-set to suggest the next paper. Repo maintainers are asked to approve or
-reject this suggestion.
+The paper selection is mostly automatic, with an automatic GitHub action set to suggest the next paper. 
+Repo maintainers are asked to approve or reject this suggestion.
+
+**Available commands**
+
+```
+npm run choose  -- choose next paper (randomly)
+npm run update  -- update paper dataset
+npm run stats   -- display paper dataset statistics
+npm run web     -- auto-update web page 
+```
+
+Running these commands requires [Node.js](https://nodejs.org/en/download/)
 
 ## Guide for editing this repository
 
@@ -39,13 +49,15 @@ on the number of new papers.
 paper title, that paper is not considered for selection. Edit this list
 by changing [`stopwords.txt`](data/stopwords.txt). Each line is
 considered a separate stopword, and paper is evaluated against each word
-in this list.
+in this list. Lastly run `npm run update`, to update the dataset of
+papers, relative to the edited stopwords. (The stopword-check is applied
+at dataset generation, not again at paper selection).
 
 **How to change the website content?**
 
-Edit files in [`docs`](docs) in markdown. Note that in some places there are
+Edit files in [`docs`](docs), in markdown. Note that in some places there are
 clear markers for automatically injecting text. Do not remove these
-markers, or make edits between these markers. Editing anywhere else is
+markers or make edits between these markers. Editing anywhere else is
 fine. The website theme is from [here](https://github.com/the-au-forml-lab/the-au-forml-lab.github.io),
 but you can override desired parts, following [Jekyll docs](https://jekyllrb.com/docs/themes/#overriding-theme-defaults).
 
