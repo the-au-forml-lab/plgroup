@@ -81,5 +81,5 @@ jobs:
         uses: peter-evans/enable-pull-request-automerge@v2
         with:
           token: ${{ secrets.AUTOMERGE_PAT }}
-          pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
+          pull-request-number: ${{ steps.paperpr.outputs.pull-request-number }}
           merge-method: squash
