@@ -105,7 +105,13 @@ export const ACTIONS = {
      * @constant
      * @type {string}
      */
-    WEB: 'web'
+    WEB: 'web',
+    /**
+     * Display paper data statistics.
+     * @constant
+     * @type {string}
+     */
+    STATS: 'stats'
 }
 
 /**

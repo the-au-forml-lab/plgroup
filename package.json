@@ -6,7 +6,8 @@
   "scripts": {
     "update": "node src/index.js fetch",
     "choose": "node src/index.js choose",
-    "web": "node src/index.js web"
+    "web": "node src/index.js web",
+    "stats": "node src/index.js stats"
   },
   "license": "GPL-2.0"
 }

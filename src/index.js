@@ -143,6 +143,30 @@ const findPapers = async () => {
         }
     }
     writeFile(F.PAPERS, JSON.stringify(papers))
+    await stats()
+}
+
+/**
+ * Display dataset paper counts by different conferences.
+ * @returns {Promise<void>}
+ */
+const stats = async () => {
+    const papers = Object.values(await loadJson(F.PAPERS));
+    const names = [...new Set(papers.map(paper => {
+        let temp = (paper[metaK].split(/["”“]+/g).pop())
+        return temp.substring(0, Math.min(
+            temp.indexOf('pp.') > 0 ?
+                temp.indexOf('pp.') : temp.length,
+            temp.indexOf("Crossref"))).trim()
+    }))]
+    const conferences = Object.fromEntries(
+        names.map(name => [name, papers.filter(p =>
+            (p[metaK]).indexOf(name) > 0).length]))
+    for (const [key, value] of
+        Object.entries(conferences).sort((
+            [, a], [, b]) => b - a)) {
+        console.log(value, `-- ${key}`);
+    }
 }
 
 /**
@@ -154,6 +178,7 @@ const chooseNext = async () => {
     const pastPapers = await readFile(F.PAST_FILE);
     const selectable = paperKeys.filter(
         x => pastPapers.indexOf(x) < 0);
+    console.log(`selectable:`, selectable.length)
     const randDOI = selectable[Math.floor(
         Math.random() * selectable.length)];
     await setNext(randDOI)
@@ -212,5 +237,6 @@ const writeWeb = async () => {
     if (action === ACTIONS.CHOOSE) return chooseNext()
     if (action === ACTIONS.SET && param) return setNext(param)
     if (action === ACTIONS.WEB) return writeWeb()
+    if (action === ACTIONS.STATS) return stats()
     return console.log('Unknown action')
 })();
