@@ -14,9 +14,14 @@ on:
     - cron:  '0 15 * 1-4 5'
   workflow_dispatch:
     branches: [ main ]
+  pull_request:
+    branches: [ next-paper ]
+    types: [ closed ]
 
 jobs:
   choose:
+    if: ${{ (github.event_name != 'pull_request' ||
+            (github.event.pull_request.merged == false)  }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
