@@ -53,9 +53,9 @@ export const loadJson = async (fileName) => {
 }
 
 /**
- * Replace plaintext DOI with a hyperlink.
- * @param {string} plain - Plain text string
- * @param {string} doi - Doi to match
+ * Replace plaintext DOI URL with a hyperlink.
+ * @param {string} plain - Plain text string to search.
+ * @param {string} doi - DOI to match.
  */
 export const hyperDOI = (plain, doi) =>
     (plain || '').replace(doi,

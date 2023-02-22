@@ -54,6 +54,7 @@ jobs:
           git commit -m "Next paper $NOW"
 
       - name: Create Pull Request
+        id: paperpr
         uses: peter-evans/create-pull-request@v4
         with:
           add-paths: files/*.txt
@@ -74,3 +75,11 @@ jobs:
           reviewers: |
             nkrusch
             phanukaev
+
+      - name: Enable PR Automerge
+        if: steps.paperpr.outputs.pull-request-operation == 'created'
+        uses: peter-evans/enable-pull-request-automerge@v2
+        with:
+          token: ${{ secrets.AUTOMERGE_PAT }}
+          pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
+          merge-method: squash

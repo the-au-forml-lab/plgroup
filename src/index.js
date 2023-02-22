@@ -178,7 +178,6 @@ const chooseNext = async () => {
     const pastPapers = await readFile(F.PAST_FILE);
     const selectable = paperKeys.filter(
         x => pastPapers.indexOf(x) < 0);
-    console.log(`selectable:`, selectable.length)
     const randDOI = selectable[Math.floor(
         Math.random() * selectable.length)];
     await setNext(randDOI)

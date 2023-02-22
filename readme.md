@@ -7,7 +7,7 @@
 reading group.** 
 
 This repository contains a small website and tooling for selecting
-papers to read. We select papers ~randomly from top programming languages conferences.
+papers to read. We select papers randomly from top programming languages conferences.
 
 ## In this Repository
 
@@ -24,7 +24,7 @@ Repo maintainers are asked to approve or reject this suggestion.
 **Available commands**
 
 ```
-npm run choose  -- choose next paper (randomly)
+npm run choose  -- choose next paper
 npm run update  -- update paper dataset
 npm run stats   -- display paper dataset statistics
 npm run web     -- auto-update web page 

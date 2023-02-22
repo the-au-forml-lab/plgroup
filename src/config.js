@@ -52,7 +52,7 @@ export const FILES = {
      */
     NEXT_FILE: './data/next.txt',
     /**
-     * Metadata (title, authors, etc.) of the next paper to be read.
+     * Meta data (title, authors, etc.) of the next paper to be read.
      * @constant
      * @type {string}
      */
@@ -79,7 +79,7 @@ export const FILES = {
 
 /**
  * Available CLI commands.
- * This is handled my "main method" in index.js.
+ * This is handled by "main method" in index.js.
  */
 export const ACTIONS = {
     /**
