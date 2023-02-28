@@ -74,7 +74,9 @@ const getDetails = async doiURL => {
     const mla = await getDesc(doiURL)
     const xmlAddr = XREF(new URL(doiURL).pathname.substring(1))
     const html = await readURL(xmlAddr)
-    const title = html.match(/<title[^>]*>([^<]+)<\/title>/)[1];
+    const mtitle = html.match(/<title[^>]*>([^<]+)<\/title>/)
+    // FIXME: see https://doi.org/10.1145/3563317 that raises this error.
+    const title = mtitle ? mtitle[1] : "Unable to read title";
     let abs = doiURL
     let aIdx = html.indexOf("<jats:abstract")
     if (aIdx > 0) {
@@ -176,10 +178,11 @@ const stats = async () => {
 const chooseNext = async () => {
     const paperKeys = Object.keys(await loadJson(F.PAPERS))
     const pastPapers = await readFile(F.PAST_FILE);
-    const selectable = paperKeys.filter(
-        x => pastPapers.indexOf(x) < 0);
-    const randDOI = selectable[Math.floor(
-        Math.random() * selectable.length)];
+    const selectable = paperKeys.filter(x => pastPapers.indexOf(x) < 0);
+    if (!selectable.length)
+        return console.log('There are 0 papers available for selection :(');
+    const index = Math.floor(Math.random() * selectable.length)
+    const randDOI = selectable[index];
     await setNext(randDOI)
 }
 
