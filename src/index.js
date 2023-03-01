@@ -1,13 +1,11 @@
 import https from 'https';
-import {FILES as F, ACTIONS, XREF, DoiRE} from './config.js';
-import {readLines, readFile, writeFile} from './helpers.js';
-import {loadJson, append, hyperDOI} from './helpers.js';
-import {metaK, KEYS} from './config.js';
+import {FILES as F, ACTIONS, KEYS, CONFIG, XREF} from './config.js';
+import {FileSystem as FS, TextParser} from './helpers.js';
 
 
 /**
  * GET response for some url.
- * This will follow (cross-domain) redirects up to 20 times.
+ * This will follow (cross-domain) redirects.
  *
  * @param {string} url - the URL to read
  * @param {Object} headers - request headers (if any)
@@ -15,55 +13,52 @@ import {metaK, KEYS} from './config.js';
  */
 const readURL = (url, headers = {}) => {
     return new Promise((resolve, reject) => {
-        const req = function (reqUrl, redirs = 0) {
+        const req = (reqUrl, redirs = 0) => {
             const {host, pathname: path} = new URL(reqUrl)
-            https.request({host, path, ...headers},
-                response => {
-                    if (response.statusCode === 302) {
-                        if (redirs > 20)
-                            reject('too many redirects')
-                        else
-                            // FYI, location could be a path,
-                            // assuming here it is a full URL redirect
-                            req(response.headers.location,
-                                redirs + 1);
-                    } else {
-                        let chunks = [];
-                        response.on('data', chunk =>
-                            chunks.push(chunk));
-                        response.on('end', _ =>
-                            resolve(Buffer.concat(chunks).toString()));
-                    }
-                }).on('error', reject).end();
+            https.request({host, path, ...headers}, response => {
+                if (response.statusCode === 302) {
+                    if (redirs > CONFIG.MAX_REDIRS)
+                        reject('too many redirects')
+                    else
+                        // FYI, location could be a path,
+                        // assuming here it is a full URL redirect
+                        req(response.headers.location,
+                            redirs + 1);
+                } else {
+                    let chunks = [];
+                    response.on('data', chunk =>
+                        chunks.push(chunk));
+                    response.on('end', _ =>
+                        resolve(Buffer.concat(chunks).toString()));
+                }
+            }).on('error', reject).end();
         };
         req(url)
     });
 }
 
 /**
- * Get the paper details from the local dataset.
- * @param {string} doiURL - DOI to lookup.
- * @param {Object} papers - Papers dataset (optional)
- * @returns {Promise<*>}
+ * Gets basic metadata (MLA citation) from some DOI over network.
+ *
+ * @param {string} doiUrl - DOI with domain, e.g. http:/doi.org/xyz/123
+ * @param {string} style - bibtex or mla
+ * @returns {Promise<string>}
  */
-const getDesc = async (doiURL, papers = null) => {
-    const src = papers || (await loadJson(F.PAPERS));
-    return src[doiURL][metaK]
+const requestCite = async (doiUrl, style = 'mla') => {
+    return (await readURL(doiUrl, {
+        headers: {'Accept': `text/bibliography; style=${style}`}
+    })).trim()
 }
 
 /**
- * Gets basic metadata (MLA citation) from some DOI over network.
+ * Get Bibtex citation for a paper
  *
  * @param {string} doiUrl - DOI with domain, e.g. http:/doi.org/xyz/123
  * @returns {Promise<string>}
  */
-const getMeta = async doiUrl => {
-    return (await readURL(doiUrl, {
-        headers: {
-            'Accept': 'text/bibliography; style=mla'
-        }
-    })).trim()
-}
+const requestBib = async (doiUrl) =>
+    requestCite(doiUrl, 'bibtex')
+
 
 /**
  * This method attempts to extract paper title and abstract.
@@ -71,23 +66,12 @@ const getMeta = async doiUrl => {
  * @returns {Promise<string>}
  */
 const getDetails = async doiURL => {
-    const mla = await getDesc(doiURL)
+    const papers = (await FS.loadPapers());
     const xmlAddr = XREF(new URL(doiURL).pathname.substring(1))
     const html = await readURL(xmlAddr)
-    const mtitle = html.match(/<title[^>]*>([^<]+)<\/title>/)
-    // FIXME: see https://doi.org/10.1145/3563317 that raises this error.
-    const title = mtitle ? mtitle[1] : "Unable to read title";
-    let abs = doiURL
-    let aIdx = html.indexOf("<jats:abstract")
-    if (aIdx > 0) {
-        const absETag = "</jats:abstract>"
-        const absE = html.indexOf(absETag) - 1
-        const absS = aIdx + html.substring(aIdx).indexOf(">") + 1
-        abs = html.substring(absS, absE)
-            .replace(/[^\S ]+/g, '')
-            .replace(/<(\/?)jats:([a-z]+)>/g, '')
-            .replace(/\s\s+/g, ' ').trim()
-    }
+    const title = TextParser.title(papers[doiURL][KEYS.b])
+    const abs = TextParser.abstract(html) || doiURL
+    const mla = papers[doiURL][KEYS.m]
     return [title, mla, abs].join('\n')
 }
 
@@ -114,9 +98,9 @@ const matchesStopWord = (words, str) => {
  */
 const setNext = async doi => {
     const meta = await getDetails(doi)
-    writeFile(F.NEXT_FILE, doi)
-    append(F.PAST_FILE, doi)
-    writeFile(F.NEXT_DESC, meta)
+    FS.writeFile(F.NEXT_FILE, doi)
+    FS.writeFile(F.NEXT_DESC, meta)
+    FS.append(F.PAST_FILE, doi)
 }
 
 /**
@@ -125,26 +109,34 @@ const setNext = async doi => {
  * @returns {Promise<void>}
  */
 const findPapers = async () => {
-    let papers = await loadJson(F.PAPERS);
-    const sources = await readLines(F.SRC_FILE);
-    const stop = await readLines(F.STOPWORDS);
+    let papers = await FS.loadPapers()
+    const paperKeys = Object.keys(papers)
+    const sources = await FS.readLines(F.SRC_FILE);
+    const stop = await FS.readLines(F.STOPWORDS);
+    let foundPapers = []
+    console.log('Processing', sources.length, 'source(s)')
     for (const src of sources) {
         let rawResp = await readURL(src)
-        let foundPapers = [...new Set(Array.from(
-            rawResp.matchAll(DoiRE), m => m[0]))];
-        for (let i = 0; i < foundPapers.length; i++) {
-            const doi = foundPapers[i]
-            const exists = Object.keys(papers).indexOf(doi) >= 0
-            const meta = exists ?
-                papers[doi][metaK] : (await getMeta(doi))
-            const stopMatch = matchesStopWord(stop, meta)
-            if (stopMatch && exists)
-                delete papers[doi];
-            else if (!stopMatch && !exists && meta)
-                papers[doi] = {[metaK]: meta}
-        }
+        let reMatch = rawResp.matchAll(TextParser.DoiRE)
+        const DOIs = [...new Set(Array.from(reMatch, m => m[0]))]
+        foundPapers = foundPapers.concat(DOIs);
     }
-    writeFile(F.PAPERS, JSON.stringify(papers))
+    console.log('Found', foundPapers.length, 'papers...')
+    for (const doi of foundPapers) {
+        const exists = paperKeys.includes(doi)
+        const mla = exists ?
+            papers[doi][KEYS.m] : (await requestCite(doi))
+        const stopMatch = matchesStopWord(stop, mla)
+        if (stopMatch) {
+            if (exists) delete papers[doi];
+            continue;
+        }
+        const bib = exists ?
+            papers[doi][KEYS.b] : (await requestBib(doi))
+        if (mla && bib)
+            papers[doi] = {[KEYS.m]: mla, [KEYS.b]: bib}
+    }
+    FS.writeFile(F.PAPERS, JSON.stringify(papers))
     await stats()
 }
 
@@ -153,22 +145,21 @@ const findPapers = async () => {
  * @returns {Promise<void>}
  */
 const stats = async () => {
-    const papers = Object.values(await loadJson(F.PAPERS));
-    const names = [...new Set(papers.map(paper => {
-        let temp = (paper[metaK].split(/["”“]+/g).pop())
-        return temp.substring(0, Math.min(
-            temp.indexOf('pp.') > 0 ?
-                temp.indexOf('pp.') : temp.length,
-            temp.indexOf("Crossref"))).trim()
-    }))]
-    const conferences = Object.fromEntries(
-        names.map(name => [name, papers.filter(p =>
-            (p[metaK]).indexOf(name) > 0).length]))
-    for (const [key, value] of
-        Object.entries(conferences).sort((
-            [, a], [, b]) => b - a)) {
-        console.log(value, `-- ${key}`);
-    }
+    const papers = Object.values(await FS.loadPapers());
+    const nameFormat = name => (name.length < 20) ? name :
+        name.split(' ').slice(1).slice(-5).join(' ')
+    const freq = papers.map(
+        ({[KEYS.b]: bib}) => bib).map(TextParser.conference)
+
+    // group by name, count occurrence and sort DESC
+    const confCounts = Object.entries(
+        Object.fromEntries([...new Set(freq)].map(n =>
+            [nameFormat(n), freq.filter(p => p === n).length])))
+        .sort(([, a], [, b]) => b - a)
+
+    for (const [name, count] of confCounts)
+        console.log(count, `-- ${name}`);
+    console.log('TOTAL: ', freq.length)
 }
 
 /**
@@ -176,11 +167,15 @@ const stats = async () => {
  * @returns {Promise<void>}
  */
 const chooseNext = async () => {
-    const paperKeys = Object.keys(await loadJson(F.PAPERS))
-    const pastPapers = await readFile(F.PAST_FILE);
-    const selectable = paperKeys.filter(x => pastPapers.indexOf(x) < 0);
-    if (!selectable.length)
-        return console.log('There are 0 papers available for selection :(');
+    const papers = await FS.loadPapers()
+    const paperKeys = Object.keys(papers)
+    const pastPapers = await FS.readFile(F.PAST_FILE);
+    const stop = await FS.readLines(F.STOPWORDS);
+    const selectable = paperKeys.filter(x =>
+        pastPapers.indexOf(x) < 0 &&
+        !matchesStopWord(stop, papers[x][KEYS.m]));
+    if (!selectable.length) return console.log(
+        'There are 0 papers available for selection :(');
     const index = Math.floor(Math.random() * selectable.length)
     const randDOI = selectable[index];
     await setNext(randDOI)
@@ -193,27 +188,27 @@ const chooseNext = async () => {
  * DOI, then add to the webpage between specified markers the list of
  * papers. If the markers are not found, it does nothing.
  *
- * @param doiList - list of DOIs to lookup.
  * @param web - web page content (HTML as a string).
  * @param keys - content start and end key markers.
  * @param numbered - number the entries.
+ * @param DOIs - iterable of DOIs
  * @returns {Promise<string|*>}
  */
-const updateWeb = async (doiList, web, keys, numbered) => {
-    const papers = await loadJson(F.PAPERS);
+const updateWeb = async (web, keys, numbered, ...DOIs) => {
+    const papers = await FS.loadPapers();
     const startIdx = web.indexOf(keys.START);
     const endIdx = web.indexOf(keys.END);
     if (startIdx < 0 || endIdx < 0) return web;
-    let entries = []
-    for (let i = 0; i < doiList.length; i++) {
-        const meta = hyperDOI(
-            (await getDesc(doiList[i], papers)), doiList[i])
-        const number = numbered ? `${i + 1}. ` : ''
-        entries.unshift(`${number}${meta}`)
+    const prefix = web.substring(0, startIdx + keys.START.length)
+    const postfix = web.substring(endIdx)
+    let queue = [...DOIs], entries = [];
+    while (queue.length) {
+        const doi = queue.shift()
+        const mla = TextParser.hyperDOI(papers[doi][KEYS.m], doi)
+        const entry = numbered ? `${queue.length + 1}. ${mla}` : mla
+        entries.unshift(entry)
     }
-    return [web.substring(0, startIdx + keys.START.length)]
-        .concat(entries)
-        .concat(web.substring(endIdx)).join('\n');
+    return [prefix, ...entries, postfix].join('\n');
 }
 
 /**
@@ -221,13 +216,13 @@ const updateWeb = async (doiList, web, keys, numbered) => {
  * @returns {Promise<void>}
  */
 const writeWeb = async () => {
-    const pastPapers = await readLines(F.PAST_FILE);
-    const nxt = await readFile(F.NEXT_FILE);
+    const pastPapers = await FS.readLines(F.PAST_FILE);
+    const nxt = await FS.readFile(F.NEXT_FILE);
     const pp = pastPapers.filter(d => d !== nxt)
-    let web = await readFile(F.WEBPAGE);
-    web = await updateWeb([nxt], web, KEYS.NEXT, false)
-    web = await updateWeb(pp, web, KEYS.HIST, true)
-    writeFile(F.WEBPAGE, web)
+    let web = await FS.readFile(F.WEBPAGE);
+    web = await updateWeb(web, KEYS.NEXT, false, nxt)
+    web = await updateWeb(web, KEYS.HIST, true, ...pp)
+    FS.writeFile(F.WEBPAGE, web)
 }
 
 /**
@@ -240,5 +235,7 @@ const writeWeb = async () => {
     if (action === ACTIONS.SET && param) return setNext(param)
     if (action === ACTIONS.WEB) return writeWeb()
     if (action === ACTIONS.STATS) return stats()
+    if (action === ACTIONS.DETAILS && param)
+        return getDetails(param).then(console.log)
     return console.log('Unknown action')
 })();

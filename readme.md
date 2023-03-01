@@ -49,9 +49,7 @@ on the number of new papers.
 paper title, that paper is not considered for selection. Edit this list
 by changing [`stopwords.txt`](data/stopwords.txt). Each line is
 considered a separate stopword, and paper is evaluated against each word
-in this list. Lastly run `npm run update`, to update the dataset of
-papers, relative to the edited stopwords. (The stopword-check is applied
-at dataset generation, not again at paper selection).
+in this list (case-insensitive match). 
 
 **How to change the website content?**
 

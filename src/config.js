@@ -1,23 +1,10 @@
 /**
- * Build request URL for paper details.
+ * Crossref request URL - used to get paper details.
  * @param doi - DOI -only- (not URL)
  * @returns - CrossRef url for DOI.
  */
 export const XREF = doi =>
     `https://api.crossref.org/works/${doi}/transform/application/vnd.crossref.unixsd+xml`
-
-/**
- * Key for accessing paper metadata (in papers dataset).
- * @constant
- * @type {string}
- */
-export const metaK = 'mla'
-
-/**
- * Regular expression to match DOI urls.
- * @type {RegExp}
- */
-export const DoiRE = /https?:\/\/(www\.|)?doi\.org\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)/g
 
 /**
  * Paths to data files.
@@ -89,6 +76,12 @@ export const ACTIONS = {
      */
     SET: 'set',
     /**
+     * Get paper meta data for a specific DOI.
+     * @constant
+     * @type {string}
+     */
+    DETAILS: 'details',
+    /**
      * Update papers database.
      * @constant
      * @type {string}
@@ -115,13 +108,25 @@ export const ACTIONS = {
 }
 
 /**
- * Keys for finding content markers in the web page.
- * The webpage is specified by FILES.WEBPAGE.
+ * Keys Enum
  * @type {Object}
  */
 export const KEYS = {
     /**
-     * Anchor for where to write next paper details.
+     * For accessing paper citation in papers dataset in MLA format.
+     * @constant
+     * @type {string}
+     */
+    m: 'mla',
+    /**
+     * For accessing paper citation in papers dataset in bibtex format
+     * @constant
+     * @type {string}
+     */
+    b: 'bib',
+    /**
+     * Anchor for where to write next paper details,
+     * on the webpage is specified by FILES.WEBPAGE.
      * @constant
      * @type {Object}
      */
@@ -130,7 +135,8 @@ export const KEYS = {
         END: "<!-- next_end -->"
     },
     /**
-     * Anchor for where to write papers history.
+     * Anchor for where to write papers history,
+     * on the webpage is specified by FILES.WEBPAGE.
      * @constant
      * @type {Object}
      */
@@ -138,4 +144,14 @@ export const KEYS = {
         START: "<!-- prev_start -->",
         END: "<!-- prev_end -->"
     }
+}
+
+/**
+ * Other config options
+ */
+export const CONFIG = {
+    /**
+     * Max allowed URL request redirects.
+     */
+    MAX_REDIRS: 20
 }
