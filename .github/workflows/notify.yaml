@@ -4,14 +4,11 @@ on:
   pull_request:
     types:
       - closed
-  workflow_dispatch:
-    branches: [ main ]
 
 jobs:
   notifications:
-    if: ${{ github.event_name != 'pull_request' ||
-        (github.event.pull_request.merged == true &&
-         contains(github.event.pull_request.labels.*.name, 'next-paper')) }}
+    if: ${{ github.event.pull_request.merged == true &&
+            contains(github.event.pull_request.labels.*.name, 'next-paper') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -26,9 +23,9 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
         uses: Ilshidur/action-discord@master
         with:
-          args: 'Test 👋'
+          args: "Next paper: ${{ steps.vars.outputs.title }}\n\n${{ steps.vars.outputs.mla }}"
 
-#      SLACK WORKFLOW INTEGRATION
+#      SLACK WORKFLOW INTEGRATION (RETIRED)
 #      - name: Send custom JSON data to Slack workflow
 #        id: slack
 #        uses: slackapi/slack-github-action@v1.23.0

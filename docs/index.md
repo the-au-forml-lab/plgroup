@@ -11,7 +11,7 @@ We randomly select papers from the major PL conferences.
 We encourage everyone to join our reading group. Even if your primary focus is not PL, this is a chance to learn about various new topics that may become relevant to you later. 
 It is also simply fun to hang out with us.
 
-**Discussion** We also have a `#plgroup` channel at AU CS Grad Students slack ([invitation link](https://join.slack.com/t/aucsgradstudents/shared_invite/zt-1o2j9gvie-n2GttzW~KNJ5jdYpUxWkDw)).
+**Discussion** We have a PL discussion channel at SCCS Grad Students discord.
 
 <br/>
 
