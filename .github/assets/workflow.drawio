@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T02:23:58.306Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="ngydth7w2Y6eZkAugFk9" version="21.1.5" type="device">
+<mxfile host="app.diagrams.net" modified="2023-04-11T02:27:03.384Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="lMtrSv3S6nQ_LWC7icVQ" version="21.1.5" type="device">
   <diagram name="Page-1" id="bRhJk8HzBOOXPFuxm7CE">
     <mxGraphModel dx="996" dy="906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -46,7 +46,7 @@
         <mxCell id="OB-dxN5LZebSLA3xzodv-34" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/48-bubbles/48/43.Bell-128.png" parent="1" vertex="1">
           <mxGeometry x="850" y="249" width="68" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="OB-dxN5LZebSLA3xzodv-37" value="Notify&lt;br&gt;(optional)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Tahoma;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="OB-dxN5LZebSLA3xzodv-37" value="Update&lt;br&gt;website" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Tahoma;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="849" y="181" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="INSDCjLmlAj5Y4JtULXQ-2" value="manual -- run commands" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#30363c;strokeColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
@@ -60,6 +60,9 @@
         </mxCell>
         <mxCell id="OB-dxN5LZebSLA3xzodv-15" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.json_2;fillColor=none;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="382" y="290.63" width="70" height="21.94" as="geometry" />
+        </mxCell>
+        <mxCell id="wlrQgJPOBC26v2cOr7MJ-2" value="Notify&lt;br&gt;(optional)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Tahoma;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="850" y="360" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
