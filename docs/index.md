@@ -19,7 +19,7 @@ It is also simply fun to hang out with us.
 
 <!-- this section is automatically generated; do not edit between the markers -->
 <!-- next_start -->
-Accattoli, Beniamino, and Giulio Guerrieri. “The Theory of Call-by-Value Solvability.” Proceedings of the ACM on Programming Languages, vol. 6, no. ICFP, Aug. 2022, pp. 855–85. Crossref, <a href='https://doi.org/10.1145/3547652' target='_blank'>https://doi.org/10.1145/3547652</a>.
+Liu, Mengqi, et al. “Compositional Virtual Timelines: Verifying Dynamic-Priority Partitions with Algorithmic Temporal Isolation.” Proceedings of the ACM on Programming Languages, vol. 6, no. OOPSLA2, Oct. 2022, pp. 60–88. Crossref, <a href='https://doi.org/10.1145/3563290' target='_blank'>https://doi.org/10.1145/3563290</a>.
 <!-- next_end -->
 
 <br/>
@@ -28,14 +28,15 @@ Accattoli, Beniamino, and Giulio Guerrieri. “The Theory of Call-by-Value Solva
 
 <!-- this section is automatically generated; do not edit between the markers -->
 <!-- prev_start -->
-1. Rioux, Nick, et al. “A Bowtie for a Beast: Overloading, Eta Expansion, and Extensible Data Types in F⋈.” Proceedings of the ACM on Programming Languages, vol. 7, no. POPL, Jan. 2023, pp. 515–43. Crossref, <a href='https://doi.org/10.1145/3571211' target='_blank'>https://doi.org/10.1145/3571211</a>.
-2. Fu, Peng, et al. “Proto-Quipper with Dynamic Lifting.” Proceedings of the ACM on Programming Languages, vol. 7, no. POPL, Jan. 2023, pp. 309–34. Crossref, <a href='https://doi.org/10.1145/3571204' target='_blank'>https://doi.org/10.1145/3571204</a>.
-3. Dash, Swaraj, et al. “Affine Monads and Lazy Structures for Bayesian Programming.” Proceedings of the ACM on Programming Languages, vol. 7, no. POPL, Jan. 2023, pp. 1338–68. Crossref, <a href='https://doi.org/10.1145/3571239' target='_blank'>https://doi.org/10.1145/3571239</a>.
-4. Baumann, Pascal, et al. “Context-Bounded Verification of Context-Free Specifications.” Proceedings of the ACM on Programming Languages, vol. 7, no. POPL, Jan. 2023, pp. 2141–70. Crossref, <a href='https://doi.org/10.1145/3571266' target='_blank'>https://doi.org/10.1145/3571266</a>.
-5. Labrada, Elizabeth, et al. “Plausible Sealing for Gradual Parametricity.” Proceedings of the ACM on Programming Languages, vol. 6, no. OOPSLA1, Apr. 2022, pp. 1–28. Crossref, <a href='https://doi.org/10.1145/3527314' target='_blank'>https://doi.org/10.1145/3527314</a>.
-6. Ding, Shuo, and Qirun Zhang. “Witnessability of Undecidable Problems.” Proceedings of the ACM on Programming Languages, vol. 7, no. POPL, Jan. 2023, pp. 982–1002. Crossref, <a href='https://doi.org/10.1145/3571227' target='_blank'>https://doi.org/10.1145/3571227</a>.
-7. Thokair, Mosaad Al, et al. “Dynamic Race Detection with O(1) Samples.” Proceedings of the ACM on Programming Languages, vol. 7, no. POPL, Jan. 2023, pp. 1308–37. Crossref, <a href='https://doi.org/10.1145/3571238' target='_blank'>https://doi.org/10.1145/3571238</a>.
-8. Abreu, Pedro, et al. “A Type-Based Approach to Divide-and-Conquer Recursion in Coq.” Proceedings of the ACM on Programming Languages, vol. 7, no. POPL, Jan. 2023, pp. 61–90. Crossref, <a href='https://doi.org/10.1145/3571196' target='_blank'>https://doi.org/10.1145/3571196</a>.
+1. Accattoli, Beniamino, and Giulio Guerrieri. “The Theory of Call-by-Value Solvability.” Proceedings of the ACM on Programming Languages, vol. 6, no. ICFP, Aug. 2022, pp. 855–85. Crossref, <a href='https://doi.org/10.1145/3547652' target='_blank'>https://doi.org/10.1145/3547652</a>.
+2. Rioux, Nick, et al. “A Bowtie for a Beast: Overloading, Eta Expansion, and Extensible Data Types in F⋈.” Proceedings of the ACM on Programming Languages, vol. 7, no. POPL, Jan. 2023, pp. 515–43. Crossref, <a href='https://doi.org/10.1145/3571211' target='_blank'>https://doi.org/10.1145/3571211</a>.
+3. Fu, Peng, et al. “Proto-Quipper with Dynamic Lifting.” Proceedings of the ACM on Programming Languages, vol. 7, no. POPL, Jan. 2023, pp. 309–34. Crossref, <a href='https://doi.org/10.1145/3571204' target='_blank'>https://doi.org/10.1145/3571204</a>.
+4. Dash, Swaraj, et al. “Affine Monads and Lazy Structures for Bayesian Programming.” Proceedings of the ACM on Programming Languages, vol. 7, no. POPL, Jan. 2023, pp. 1338–68. Crossref, <a href='https://doi.org/10.1145/3571239' target='_blank'>https://doi.org/10.1145/3571239</a>.
+5. Baumann, Pascal, et al. “Context-Bounded Verification of Context-Free Specifications.” Proceedings of the ACM on Programming Languages, vol. 7, no. POPL, Jan. 2023, pp. 2141–70. Crossref, <a href='https://doi.org/10.1145/3571266' target='_blank'>https://doi.org/10.1145/3571266</a>.
+6. Labrada, Elizabeth, et al. “Plausible Sealing for Gradual Parametricity.” Proceedings of the ACM on Programming Languages, vol. 6, no. OOPSLA1, Apr. 2022, pp. 1–28. Crossref, <a href='https://doi.org/10.1145/3527314' target='_blank'>https://doi.org/10.1145/3527314</a>.
+7. Ding, Shuo, and Qirun Zhang. “Witnessability of Undecidable Problems.” Proceedings of the ACM on Programming Languages, vol. 7, no. POPL, Jan. 2023, pp. 982–1002. Crossref, <a href='https://doi.org/10.1145/3571227' target='_blank'>https://doi.org/10.1145/3571227</a>.
+8. Thokair, Mosaad Al, et al. “Dynamic Race Detection with O(1) Samples.” Proceedings of the ACM on Programming Languages, vol. 7, no. POPL, Jan. 2023, pp. 1308–37. Crossref, <a href='https://doi.org/10.1145/3571238' target='_blank'>https://doi.org/10.1145/3571238</a>.
+9. Abreu, Pedro, et al. “A Type-Based Approach to Divide-and-Conquer Recursion in Coq.” Proceedings of the ACM on Programming Languages, vol. 7, no. POPL, Jan. 2023, pp. 61–90. Crossref, <a href='https://doi.org/10.1145/3571196' target='_blank'>https://doi.org/10.1145/3571196</a>.
 <!-- prev_end -->
 
 <br/>
