@@ -204,6 +204,7 @@ const updateWeb = async (web, keys, numbered, ...DOIs) => {
     let queue = [...DOIs], entries = [];
     while (queue.length) {
         const doi = queue.shift()
+        if (!doi) break
         const mla = TextParser.hyperDOI(papers[doi][KEYS.m], doi)
         const entry = numbered ? `${queue.length + 1}. ${mla}` : mla
         entries.unshift(entry)
