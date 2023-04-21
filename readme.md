@@ -62,8 +62,15 @@ The website theme is from [here](https://github.com/the-au-forml-lab/the-au-form
 
 **How to get a suggestion for next paper?**
 
-Run the ["Choose paper"](https://github.com/the-au-forml-lab/plgroup/actions) action. Look for "run workflow".
+Run the ["choose paper"](https://github.com/the-au-forml-lab/plgroup/actions) action. Look for "run workflow".
 This will generate a PR with a suggestion.
+
+**How to change the paper selection schedule**
+
+The ["choose paper" workflow](https://github.com/the-au-forml-lab/plgroup/blob/main/.github/workflows/choose.yaml) runs on schedule.
+It can be customized using [these instructions](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule).
+It is also possible to pause the workflow, without code changes, from repository actions settings.
+To pause the workflow change `PAPER_CHOOSE_ON` variable to `0`. To resume action set the value to `1`.
 
 **Notes for forking**
 
@@ -71,4 +78,5 @@ This will generate a PR with a suggestion.
 - To get the automatic actions to work properly, enable workflow permissions (in settings > action):
   1. read and write permissions,
   2. permission to create and approve pull requests.
+- In repository settings, Add actions environment variable named `PAPER_CHOOSE_ON`, with binary value `0` (off) or `1` (on).
 - There is also a slack/discord integration, which requires a repository secret for "incoming webhook" URL. Otherwise, disable the notification workflow.

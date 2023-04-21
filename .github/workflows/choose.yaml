@@ -20,7 +20,7 @@ on:
 
 jobs:
   choose:
-    if: ${{ PAPER_CHOOSE_ON == 1 && (
+    if: ${{ vars.PAPER_CHOOSE_ON == 1 && (
             github.event_name != 'pull_request' ||
            (contains(github.event.pull_request.labels.*.name, 'next-paper') && 
             github.event.pull_request.merged == false)
