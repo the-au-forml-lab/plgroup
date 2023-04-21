@@ -1,17 +1,17 @@
 name: Choose paper
 
 on:
-#  schedule:
+  schedule:
             # ┌─────────── minute (0 - 59)
             # │  ┌────────── hour (0 - 23)
-            # │  │ ┌────────── day of the month (1 - 31)
-            # │  │ │  ┌────────── month (1 - 12 or JAN-DEC)
-            # │  │ │  │  ┌────────── day of the week (0 - 6 or SUN-SAT)
-            # │  │ │  │  │
-            # │  │ │  │  │
-            # │  │ │  │  │
-            # *  * *  *  *
-#    - cron:  '0 15 * 1-4 5'
+            # │  │  ┌────────── day of the month (1 - 31)
+            # │  │  │  ┌────────── month (1 - 12 or JAN-DEC)
+            # │  │  │  │  ┌────────── day of the week (0 - 6 or SUN-SAT)
+            # │  │  │  │  │
+            # │  │  │  │  │
+            # │  │  │  │  │
+            # *  *  *  *  *
+    - cron:  '0 17  *  *  5'
   workflow_dispatch:
     branches: [ main ]
   pull_request:
@@ -20,9 +20,11 @@ on:
 
 jobs:
   choose:
-    if: ${{ github.event_name != 'pull_request' ||
-           (contains(github.event.pull_request.labels.*.name, 'next-paper') &&
-            github.event.pull_request.merged == false)  }}
+    if: ${{ PAPER_CHOOSE_ON == 1 && (
+            github.event_name != 'pull_request' ||
+           (contains(github.event.pull_request.labels.*.name, 'next-paper') && 
+            github.event.pull_request.merged == false)
+        )}}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
