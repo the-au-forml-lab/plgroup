@@ -5,7 +5,7 @@
 **The Great Teacher Inspires**
 
 With dense figures, symbols, syntax, and semantics, PL research is revered for its traditions and high standards. This sometimes makes papers look intimidating to novice students.
-This award and recognizes a publication for presenting a rigorous technical contribution, while also including aspects of teaching, and making the topic accessible to junior community members.
+This award recognizes a publication for presenting a rigorous technical contribution, while also including aspects of teaching to make the topic accessible to junior community members.
 
 **The Rolex**
 
