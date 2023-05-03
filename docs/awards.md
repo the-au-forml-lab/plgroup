@@ -23,6 +23,7 @@ Similarly some papers just leave you thinking
 and this award recognizes such a paper.
 
 **Ahead of its Time**
+
 Some publications endure the test of time,
 and remain relevant for decades to come.
 While we cannot know which recent of publications will end up among the stars,
