@@ -11,3 +11,21 @@ This award recognizes a publication for presenting a rigorous technical contribu
 
 The famous Swiss watch is a symbol of quality, precision, durability and elegance.
 Just like its namesake, this award recognizes a publication for its refinement and expertise in artisanship and careful perfection of details.
+
+**The Cool Guy 😎**
+
+Some people just pull you in with the way they are.
+It does not necessarily matter what exactly they say,
+or whether all of it makes sense to you.
+But just thinking about them makes you feel good.
+Similarly some papers just leave you thinking
+"This is so cool, I really want to learn more about this,"
+and this award recognizes such a paper.
+
+**Ahead of its Time**
+Some publications endure the test of time,
+and remain relevant for decades to come.
+While we cannot know which recent of publications will end up among the stars,
+we can take a guess.
+And that's always fun.
+This award is for the paper we think will remain relevant the longest.
