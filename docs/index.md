@@ -32,9 +32,11 @@ It is also simply fun to hang out with us.
 <!-- prev_start -->
 <!-- prev_end -->
 
+
 ---
 
-### Spring 2023 Papers
+
+#### Spring 2023 Papers
 
 1. Accattoli, Beniamino, and Giulio Guerrieri. “The Theory of Call-by-Value Solvability.” Proceedings of the ACM on Programming Languages, vol. 6, no. ICFP, Aug. 2022, pp. 855–85. Crossref, <a href='https://doi.org/10.1145/3547652' target='_blank'>https://doi.org/10.1145/3547652</a>.
 2. Rioux, Nick, et al. “A Bowtie for a Beast: Overloading, Eta Expansion, and Extensible Data Types in F⋈.” Proceedings of the ACM on Programming Languages, vol. 7, no. POPL, Jan. 2023, pp. 515–43. Crossref, <a href='https://doi.org/10.1145/3571211' target='_blank'>https://doi.org/10.1145/3571211</a>.
@@ -51,4 +53,4 @@ It is also simply fun to hang out with us.
 
 [Edit this page](https://github.com/the-au-forml-lab/plgroup/blob/main/docs/index.md)
 
-<style>li {margin-bottom:1em}</style>
+<style>li {margin-bottom:1em} h4{margin-top:2rem; margin-bottom:1rem}</style>
