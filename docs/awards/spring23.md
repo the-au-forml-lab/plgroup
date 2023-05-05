@@ -1,16 +1,19 @@
-# PL Reading Group Awards Spring 2023
+## PL Reading Group Awards Spring 2023
 
-## Winners
+<br/>
 
-* The Great Teacher Inspires: “Dynamic Race Detection with O(1) Samples.” by Thokair, Mosaad Al, et al.
-* The Rolex: “A Type-Based Approach to Divide-and-Conquer Recursion in Coq.” by Abreu, Pedro, et al.
-* The Cool Guy 😎: “Affine Monads and Lazy Structures for Bayesian Programming.” by Dash, Swaraj, et al.
-* Ahead of its Time: “Proto-Quipper with Dynamic Lifting.” by Fu, Peng, et al.
-* The Close Shave: “Dynamic Race Detection with O(1) Samples.” by Thokair, Mosaad Al, et al.
-* Teaching a Researcher to Fish: “The Theory of Call-by-Value Solvability.” by Accattoli and Guerrieri.
+### Winners
 
+* The Great Teacher Inspires: **“Dynamic Race Detection with O(1) Samples.”** by Thokair, Mosaad Al, et al.
+* The Rolex: **“A Type-Based Approach to Divide-and-Conquer Recursion in Coq.”** by Abreu, Pedro, et al.
+* The Cool Guy 😎: **“Affine Monads and Lazy Structures for Bayesian Programming.”** by Dash, Swaraj, et al.
+* Ahead of its Time: **“Proto-Quipper with Dynamic Lifting.”** by Fu, Peng, et al.
+* The Close Shave: **“Dynamic Race Detection with O(1) Samples.”** by Thokair, Mosaad Al, et al.
+* Teaching a Researcher to Fish: **“The Theory of Call-by-Value Solvability.”** by Accattoli and Guerrieri.
 
-## Award Categories
+<br/>
+
+### Award Categories
 
 **The Great Teacher Inspires**
 
