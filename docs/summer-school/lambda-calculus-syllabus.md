@@ -9,7 +9,7 @@
 - Beta Reduction and Reduction Order: Understanding of alpha conversion, basic lambda calculus operations, and reduction strategies (normal, applicative, etc.).
 - Call-by-Name and Call-by-Value: Understanding of these evaluation strategies in lambda calculus.
 
-## Week 3-4: Not so basics (but still kinda basics)
+## Week 3-4: Not so basics
 
 - Church Encoding: Understanding of basic lambda calculus operations and principles. Introduction to if/else expressions in the context of Church encoding.
 - Combinators: Introduction to the canonical combinators S, K, I, and the Y combinator for recursion.
