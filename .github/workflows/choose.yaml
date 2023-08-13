@@ -75,8 +75,6 @@ jobs:
 
             **Merge this PR to apply selection.**
           reviewers: ${{ fromJSON(vars.REVIEWERS) }}
-            nkrusch
-            phanukaev
 
       - name: Enable PR Automerge
         if: steps.paperpr.outputs.pull-request-operation == 'created'
