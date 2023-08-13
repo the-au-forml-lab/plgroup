@@ -21,8 +21,7 @@ bundle exec jekyll serve
 
 ### Update semesters
 
-First, archive the previous semester.
-Set appropriate values for `YEAR` and `SEM` variables, then run the command.
+First, archive the previous semester by setting appropriate values for `YEAR` and `SEM` variables, then run the command.
 
 ````shell
 YEAR=2023 && SEM=fall \

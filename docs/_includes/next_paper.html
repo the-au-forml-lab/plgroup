@@ -1,4 +1,5 @@
 {% capture next %}{% include_relative next.md %}{% endcapture %}
+{% if next != '' %}
 <section>
     <h3>Next Paper</h3>
     <div class="container">
@@ -9,3 +10,4 @@
         {% endif %}
     </div>
 </section>
+{% endif %}

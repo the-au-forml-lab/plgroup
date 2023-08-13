@@ -77,7 +77,21 @@ It is also possible to pause the workflow without code changes from repository s
 - to pause the workflow set `PAPER_CHOOSE_ON` value to `0`. 
 - to resume action set `PAPER_CHOOSE_ON` value to `1`.
 
-### Notes for forking
+## Semester maintenance
+
+**End of a semester**
+
+1. Turn off paper selection workflow (in settings) set `PAPER_CHOOSE_ON` value to `0`
+2. Run `echo '' > docs/next.md`
+  
+**Start of semester**
+
+1. Review and update [`sources.txt`](data/sources.txt)
+2. If sources were updated, run `rm -rf data/papers.json && npm run update`
+3. [Update semester docs](docs/readme.md)
+4. Turn on paper selection workflow (in settings) set `PAPER_CHOOSE_ON` value to `1`
+
+## Notes for forking
 
 The repository code is generic in the sense that, by changing the conference [`sources.txt`](data/sources.txt), it can be made to suggest any kinds of papers that have DOIs.
 To get the automatic actions to work properly, complete the following steps.
@@ -93,7 +107,7 @@ Create expected environment secrets, in settings > secrets and variables > actio
 - [ ] add variable `REVIEWERS` whose value is a whitespace-separated string of GH usernames. 
   The identified users will be asked to approve paper suggestion. 
   Reviewers must have sufficient repo/org permissions to perform this task (for an org, they must be members). 
-- [ ] To enable auto-merge (once reviewers accept a PR, the PR will automatically be merged to main branch), 
-  add `AUTOMERGE_PAT` secret whose value is a personal access token of a repository maintainer.
-- [ ] add secret incoming webhook URL to enable discord or slack integration, `DISCORD_WEBHOOK_URL` or `SLACK_WEBHOOK_URL`. 
+- [ ] add secret `AUTOMERGE_PAT` whose value is a personal access token of a repository maintainer.
+  This is to enable auto-merge of PR into main branch, after reviewers accept a PR.
+- [ ] add secret `DISCORD_WEBHOOK_URL` or `SLACK_WEBHOOK_URL` to enable discord or slack integration. 
   Otherwise, the notification step will be skipped during workflow runs.
