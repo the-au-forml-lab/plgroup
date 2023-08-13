@@ -48,6 +48,7 @@ This section describes to how to apply the most commonly expected changes.
 The conference sources are in [`sources.txt`](data/sources.txt), one per line.
 Change these sources, then run `npm run update` to regenerate a dataset of papers.
 This process will take up to a few minutes, depending on the number of new papers.
+Note, the update is additive. To remove older entries, first delete `data/papers.json`.
 
 **How to filter papers by specific keywords?**
 
@@ -57,14 +58,14 @@ Each line is considered a separate stopword, and paper is evaluated against each
 
 **How to change the website content?**
 
-Edit files in [`docs`](docs), in markdown. Note that in some places there are clear markers for automatically injecting text.
-Do not remove these markers or make edits between these markers.
-Editing anywhere else is fine.
-The website theme is from [here](https://github.com/the-au-forml-lab/the-au-forml-lab.github.io), but you can override desired parts, following [Jekyll docs](https://jekyllrb.com/docs/themes/#overriding-theme-defaults).
+Edit files in [`docs`](docs) written in markdown.
+The website theme is from [here](https://github.com/the-au-forml-lab/the-au-forml-lab.github.io). 
+You can override desired parts and customize the site following [Jekyll docs](https://jekyllrb.com/docs/themes/#overriding-theme-defaults).
 
 **How to get a suggestion for next paper?**
 
-Run the ["choose paper"](https://github.com/the-au-forml-lab/plgroup/actions) action. Look for "run workflow".
+Run the ["choose paper"](https://github.com/the-au-forml-lab/plgroup/actions) action. 
+Look for "run workflow" which is available based on repository permission.
 This will generate a PR with a suggestion.
 
 **How to change the paper selection schedule**

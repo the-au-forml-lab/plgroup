@@ -2,7 +2,7 @@
  * Collection of helper methods, mostly for various I/O operations.
  */
 import fs from 'fs'
-import {FILES as F, KEYS} from './config.js';
+import {FILES as F} from './config.js';
 
 /**
  * Wrapper for file system operations.
@@ -114,8 +114,12 @@ export const TextParser = class {
      * Try to get conference name.
      * @param {string} bib
      */
-    static conference = (bib) =>
-        this.bibMatch(bib, 'number', 'journal')
+    static conference = (bib) => {
+        let x = this.bibMatch(bib, 'number', 'journal')
+        if (!x || /^\d+$/.test(x))
+            x = this.bibMatch(bib, 'journal')
+        return x
+    }
 
     /**
      * Try parse abstract text from crossref xml format.

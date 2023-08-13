@@ -52,14 +52,21 @@ export const FILES = {
      */
     NEXT_DESC: './data/desc.txt',
     /**
-     * List of DOIs of previously read papers.
+     * List of DOIs of previously read papers for current semester.
+     *
+     * @constant
+     * @type {string}
+     */
+    PAST_FILE: './data/past.txt',
+    /**
+     * List of DOIs of previously read papers, for all time.
      *
      * We maintain this history for many reasons, one of which is to
      * prevent previous paper from being selected again.
      * @constant
      * @type {string}
      */
-    PAST_FILE: './data/past.txt',
+    HISTORY_FILE: './data/historical.txt',
     /**
      * List of stop words.
      *

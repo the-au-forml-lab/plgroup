@@ -101,6 +101,7 @@ const setNext = async doi => {
     FS.writeFile(F.NEXT_FILE, doi)
     FS.writeFile(F.NEXT_DESC, meta)
     FS.append(F.PAST_FILE, doi)
+    FS.append(F.HISTORY_FILE, doi)
 }
 
 /**
@@ -133,7 +134,9 @@ const findPapers = async () => {
         }
         const bib = exists ?
             papers[doi][KEYS.b] : (await requestBib(doi))
-        if (mla && bib)
+        const knownConf = TextParser.conference(bib)
+        if (!knownConf && exists) delete papers[doi]
+        else if (mla && bib && knownConf)
             papers[doi] = {[KEYS.m]: mla, [KEYS.b]: bib}
     }
     FS.writeFile(F.PAPERS, JSON.stringify(papers))
@@ -148,13 +151,14 @@ const stats = async () => {
     const papers = Object.values(await FS.loadPapers());
     const nameFormat = name => (name.length < 20) ? name :
         name.split(' ').slice(1).slice(-5).join(' ')
+            .replace(/^(on )/, "");
     const freq = papers.map(
         ({[KEYS.b]: bib}) => bib).map(TextParser.conference)
 
     // group by name, count occurrence and sort DESC
-    const confCounts = Object.entries(
-        Object.fromEntries([...new Set(freq)].map(n =>
-            [nameFormat(n), freq.filter(p => p === n).length])))
+    const confCounts = Object.entries(Object.fromEntries(
+        [...new Set(freq)].map(n => [n ? nameFormat(n) : n,
+            freq.filter(p => p === n).length])))
         .sort(([, a], [, b]) => b - a)
 
     for (const [name, count] of confCounts)
@@ -169,7 +173,7 @@ const stats = async () => {
 const chooseNext = async () => {
     const papers = await FS.loadPapers()
     const paperKeys = Object.keys(papers)
-    const pastPapers = await FS.readFile(F.PAST_FILE);
+    const pastPapers = await FS.readFile(F.HISTORY_FILE);
     const stop = await FS.readLines(F.STOPWORDS);
     const selectable = paperKeys.filter(x =>
         pastPapers.indexOf(x) < 0 &&
