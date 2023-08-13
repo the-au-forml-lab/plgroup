@@ -1,0 +1,1 @@
+Isemann, Raphael, et al. “Don’t Look UB: Exposing Sanitizer-Eliding Compiler Optimizations.” Proceedings of the ACM on Programming Languages, vol. 7, no. PLDI, June 2023, pp. 907–27. Crossref, <a href='https://doi.org/10.1145/3591257' target='_blank'>https://doi.org/10.1145/3591257</a>.
