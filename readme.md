@@ -82,11 +82,18 @@ It is also possible to pause the workflow without code changes from repository s
 The repository code is generic in the sense that, by changing the conference [`sources.txt`](data/sources.txt), it can be made to suggest any kinds of papers that have DOIs.
 To get the automatic actions to work properly, complete the following steps.
 
-- Enable workflow permissions, in settings > action
-  - [ ] read and write permissions
-  - [ ] permission to create and approve pull requests
-- Create expected environment secrets, in settings > secrets and variables > actions
-  - [ ] add variable `PAPER_CHOOSE_ON` with value `0` or `1` (off or on).
-  - [ ] add variable `REVIEWERS` whose value is a comma-separated list of GH usernames. The identified users will be asked to approve paper suggestion. Reviewers must have sufficient repo/org permissions (for and org, they have to be members). 
-  - [ ] add secret incoming webhook URL to enable discord or slack integration (`DISCORD_WEBHOOK_URL` or `SLACK_WEBHOOK_URL`). 
-    Otherwise, the notification step will be skipped during workflow runs.
+Enable workflow permissions, in settings > action
+
+- [ ] read and write permissions
+- [ ] permission to create and approve pull requests
+
+Create expected environment secrets, in settings > secrets and variables > actions
+
+- [ ] add variable `PAPER_CHOOSE_ON` with value `0` or `1` (off or on).
+- [ ] add variable `REVIEWERS` whose value is a whitespace-separated string of GH usernames. 
+  The identified users will be asked to approve paper suggestion. 
+  Reviewers must have sufficient repo/org permissions to perform this task (for an org, they must be members). 
+- [ ] To enable auto-merge (once reviewers accept a PR, the PR will automatically be merged to main branch), 
+  add `AUTOMERGE_PAT` secret whose value is a personal access token of a repository maintainer.
+- [ ] add secret incoming webhook URL to enable discord or slack integration, `DISCORD_WEBHOOK_URL` or `SLACK_WEBHOOK_URL`. 
+  Otherwise, the notification step will be skipped during workflow runs.

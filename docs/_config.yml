@@ -5,17 +5,15 @@ remote_theme: the-au-forml-lab/the-au-forml-lab.github.io
 baseurl: "/plgroup"
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "past_semesters"
     values:
       layout: "semester"
-  -
-    scope:
+  - scope:
       path: ""
     values:
-      layout: "default"
+      layout: "current"
 
 collections:
   past_semesters:
@@ -25,3 +23,4 @@ exclude:
   - next.md
   - papers.md
   - Gemfile
+  - readme.md

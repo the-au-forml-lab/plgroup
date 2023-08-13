@@ -1,0 +1,11 @@
+{% capture next %}{% include_relative next.md %}{% endcapture %}
+<section>
+    <h3>Next Paper</h3>
+    <div class="container">
+        {% if next != '' %}
+        {{ next | markdownify }}
+        {% else %}
+        ~* Coming soon *~
+        {% endif %}
+    </div>
+</section>
