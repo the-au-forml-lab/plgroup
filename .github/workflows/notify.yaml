@@ -19,7 +19,7 @@ jobs:
           echo "mla=$(sed -n '2p' ./data/desc.txt)" >> $GITHUB_OUTPUT
 
       - name: Discord notification
-        if: ${{ DISCORD_WEBHOOK != '' }}
+        if: ${{ env.DISCORD_WEBHOOK != '' }}
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
         uses: Ilshidur/action-discord@master
@@ -27,7 +27,7 @@ jobs:
           args: "Next paper: ${{ steps.vars.outputs.title }}\n\n${{ steps.vars.outputs.mla }}"
 
       - name: Send custom JSON data to Slack workflow
-        if: ${{ SLACK_WEBHOOK_URL != '' }}
+        if: ${{ env.SLACK_WEBHOOK_URL != '' }}
         id: slack
         uses: slackapi/slack-github-action@v1.23.0
         with:
