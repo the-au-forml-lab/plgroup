@@ -101,6 +101,7 @@ const setNext = async doi => {
     FS.writeFile(F.NEXT_FILE, doi)
     FS.writeFile(F.NEXT_DESC, meta)
     FS.append(F.PAST_FILE, doi)
+    FS.append(F.HISTORY_FILE, doi)
 }
 
 /**
@@ -133,7 +134,9 @@ const findPapers = async () => {
         }
         const bib = exists ?
             papers[doi][KEYS.b] : (await requestBib(doi))
-        if (mla && bib)
+        const knownConf = TextParser.conference(bib)
+        if (!knownConf && exists) delete papers[doi]
+        else if (mla && bib && knownConf)
             papers[doi] = {[KEYS.m]: mla, [KEYS.b]: bib}
     }
     FS.writeFile(F.PAPERS, JSON.stringify(papers))
@@ -148,13 +151,14 @@ const stats = async () => {
     const papers = Object.values(await FS.loadPapers());
     const nameFormat = name => (name.length < 20) ? name :
         name.split(' ').slice(1).slice(-5).join(' ')
+            .replace(/^(on )/, "");
     const freq = papers.map(
         ({[KEYS.b]: bib}) => bib).map(TextParser.conference)
 
     // group by name, count occurrence and sort DESC
-    const confCounts = Object.entries(
-        Object.fromEntries([...new Set(freq)].map(n =>
-            [nameFormat(n), freq.filter(p => p === n).length])))
+    const confCounts = Object.entries(Object.fromEntries(
+        [...new Set(freq)].map(n => [n ? nameFormat(n) : n,
+            freq.filter(p => p === n).length])))
         .sort(([, a], [, b]) => b - a)
 
     for (const [name, count] of confCounts)
@@ -169,7 +173,7 @@ const stats = async () => {
 const chooseNext = async () => {
     const papers = await FS.loadPapers()
     const paperKeys = Object.keys(papers)
-    const pastPapers = await FS.readFile(F.PAST_FILE);
+    const pastPapers = await FS.readFile(F.HISTORY_FILE);
     const stop = await FS.readLines(F.STOPWORDS);
     const selectable = paperKeys.filter(x =>
         pastPapers.indexOf(x) < 0 &&
@@ -184,32 +188,24 @@ const chooseNext = async () => {
 /**
  * Generate web page content from paper details.
  *
- * This function takes a list of DOIs, looks up the metadata for each
- * DOI, then add to the webpage between specified markers the list of
- * papers. If the markers are not found, it does nothing.
+ * This function takes a list of DOIs, then looks up the metadata
+ * for each DOI and returns a corresponding string.
  *
- * @param web - web page content (HTML as a string).
- * @param keys - content start and end key markers.
  * @param numbered - number the entries.
  * @param DOIs - iterable of DOIs
- * @returns {Promise<string|*>}
+ * @returns {Promise<string>}
  */
-const updateWeb = async (web, keys, numbered, ...DOIs) => {
+const updateWeb = async (numbered, ...DOIs) => {
     const papers = await FS.loadPapers();
-    const startIdx = web.indexOf(keys.START);
-    const endIdx = web.indexOf(keys.END);
-    if (startIdx < 0 || endIdx < 0) return web;
-    const prefix = web.substring(0, startIdx + keys.START.length)
-    const postfix = web.substring(endIdx)
     let queue = [...DOIs], entries = [];
     while (queue.length) {
         const doi = queue.shift()
-        if (!doi) break
+        if (!doi || !papers[doi]) break
         const mla = TextParser.hyperDOI(papers[doi][KEYS.m], doi)
         const entry = numbered ? `${queue.length + 1}. ${mla}` : mla
         entries.unshift(entry)
     }
-    return [prefix, ...entries, postfix].join('\n');
+    return entries.join('\n');
 }
 
 /**
@@ -217,13 +213,11 @@ const updateWeb = async (web, keys, numbered, ...DOIs) => {
  * @returns {Promise<void>}
  */
 const writeWeb = async () => {
-    const pastPapers = await FS.readLines(F.PAST_FILE);
-    const nxt = await FS.readFile(F.NEXT_FILE);
-    const pp = pastPapers.filter(d => d !== nxt)
-    let web = await FS.readFile(F.WEBPAGE);
-    web = await updateWeb(web, KEYS.NEXT, false, nxt)
-    web = await updateWeb(web, KEYS.HIST, true, ...pp)
-    FS.writeFile(F.WEBPAGE, web)
+    const all = await FS.readLines(F.PAST_FILE)
+    const first = all.length ? all[0] : null
+    all.reverse()
+    FS.writeFile(F.WEB_NEXT, await updateWeb(false, first))
+    FS.writeFile(F.WEB_PAPERS, await updateWeb(true, ...all))
 }
 
 /**

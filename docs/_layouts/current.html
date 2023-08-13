@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<div class="jumbotron">
+{%- include page_header.html -%}
+<hr class="my-4">
+<section>{{ content }}</section>
+</div>
+
+<article class="mb-5">
+
+    {% capture next %}{% include_relative next.md %}{% endcapture %}
+    <section>
+        <h3>Next Paper</h3>
+        <div class="container">
+            {% if next != '' %}
+                {{ next | markdownify }}
+            {% else %}
+                ~* Coming soon *~
+            {% endif %}
+        </div>
+    </section>
+
+    {%- include render_papers.html -%}
+
+    <section>
+    <h3>Past Semesters</h3>
+    <ul>
+        {% for sem in site.past_semesters %}
+        <li><a href="{{site.baseurl}}{{ sem.url | relative_path }}">
+            {{ sem.semester }} {{ sem.year }}
+        </a></li>
+        {% endfor %}
+    </ul>
+    </section>
+
+</article>
+
+<a href="https://github.com/the-au-forml-lab/plgroup/blob/main/docs/index.md" target="_blank">
+Edit this page
+</a>
+

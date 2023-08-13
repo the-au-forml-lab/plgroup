@@ -8,7 +8,7 @@
 This repository contains a small website and tooling for selecting papers to read.
 We select papers randomly from top programming languages conferences.
 
-HOW IT WORKS
+**HOW IT WORKS**
 
 <p align="center">
 <img width="700" alt="workflow" src='https://raw.githubusercontent.com/the-au-forml-lab/plgroup/main/.github/assets/workflow.png' />
@@ -18,13 +18,15 @@ HOW IT WORKS
 
 The content of this repository is organized as follows:
 
-- **`.github/workflows`** — GitHub actions definitions.
-- **`data`** — mostly generate files, for paper selection purpose.
-- **`docs`** — the website content, in markdown (jekyll).
-- **`src`** — source code for randomly choosing papers.
+| Directory               | Description                                       |
+|:------------------------|:--------------------------------------------------|
+| **`.github/workflows`** | GitHub actions                                    |
+| **`data`**              | mostly generate files for paper selection purpose |
+| **`docs`**              | the website content (jekyll and markdown)         |
+| **`src`**               | source code for randomly choosing papers          |
 
 The paper selection is mostly automatic, with a scheduled GitHub action set to suggest the next paper.
-Repo maintainers are asked to approve or reject this suggestion.
+Repository reviewers are asked to approve or reject this suggestion.
 
 **Available commands**
 
@@ -46,6 +48,7 @@ This section describes to how to apply the most commonly expected changes.
 The conference sources are in [`sources.txt`](data/sources.txt), one per line.
 Change these sources, then run `npm run update` to regenerate a dataset of papers.
 This process will take up to a few minutes, depending on the number of new papers.
+Note, the update is additive. To remove older entries, first delete `data/papers.json`.
 
 **How to filter papers by specific keywords?**
 
@@ -55,14 +58,14 @@ Each line is considered a separate stopword, and paper is evaluated against each
 
 **How to change the website content?**
 
-Edit files in [`docs`](docs), in markdown. Note that in some places there are clear markers for automatically injecting text.
-Do not remove these markers or make edits between these markers.
-Editing anywhere else is fine.
-The website theme is from [here](https://github.com/the-au-forml-lab/the-au-forml-lab.github.io), but you can override desired parts, following [Jekyll docs](https://jekyllrb.com/docs/themes/#overriding-theme-defaults).
+Edit files in [`docs`](docs) written in markdown.
+The website theme is from [here](https://github.com/the-au-forml-lab/the-au-forml-lab.github.io). 
+You can override desired parts and customize the site following [Jekyll docs](https://jekyllrb.com/docs/themes/#overriding-theme-defaults).
 
 **How to get a suggestion for next paper?**
 
-Run the ["choose paper"](https://github.com/the-au-forml-lab/plgroup/actions) action. Look for "run workflow".
+Run the ["choose paper"](https://github.com/the-au-forml-lab/plgroup/actions) action. 
+Look for "run workflow" which is available based on repository permission.
 This will generate a PR with a suggestion.
 
 **How to change the paper selection schedule**
@@ -74,11 +77,16 @@ It is also possible to pause the workflow without code changes from repository s
 - to pause the workflow set `PAPER_CHOOSE_ON` value to `0`. 
 - to resume action set `PAPER_CHOOSE_ON` value to `1`.
 
-**Notes for forking**
+### Notes for forking
 
-- The repository code is generic in the sense that, by changing the conference sources, it can be made to suggest any kinds of papers (that have DOIs)
-- To get the automatic actions to work properly, enable workflow permissions (in settings > action):
-  1. read and write permissions,
-  2. permission to create and approve pull requests.
-- In repository settings, add actions environment variable named `PAPER_CHOOSE_ON`, with value `0` (off) or `1` (on).
-- There is also a slack/discord integration, which requires a repository secret for incoming webhook URL. Otherwise, disable the notification workflow.
+The repository code is generic in the sense that, by changing the conference [`sources.txt`](data/sources.txt), it can be made to suggest any kinds of papers that have DOIs.
+To get the automatic actions to work properly, complete the following steps.
+
+- Enable workflow permissions, in settings > action
+  - [ ] read and write permissions
+  - [ ] permission to create and approve pull requests
+- Create expected environment secrets, in settings > secrets and variables > actions
+  - [ ] add variable `PAPER_CHOOSE_ON` with value `0` or `1` (off or on).
+  - [ ] add variable `REVIEWERS` whose value is a comma-separated list of GH usernames. The identified users will be asked to approve paper suggestion. Reviewers must have sufficient repo/org permissions (for and org, they have to be members). 
+  - [ ] add secret incoming webhook URL to enable discord or slack integration (`DISCORD_WEBHOOK_URL` or `SLACK_WEBHOOK_URL`). 
+    Otherwise, the notification step will be skipped during workflow runs.

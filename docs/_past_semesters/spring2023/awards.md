@@ -1,19 +1,4 @@
-## PL Reading Group Awards Spring 2023
-
-<br/>
-
-### Winners
-
-* The Great Teacher Inspires: **“Dynamic Race Detection with O(1) Samples.”** by Thokair, Mosaad Al, et al.
-* The Rolex: **“A Type-Based Approach to Divide-and-Conquer Recursion in Coq.”** by Abreu, Pedro, et al.
-* The Cool Guy 😎: **“Affine Monads and Lazy Structures for Bayesian Programming.”** by Dash, Swaraj, et al.
-* Ahead of its Time: **“Proto-Quipper with Dynamic Lifting.”** by Fu, Peng, et al.
-* The Close Shave: **“Dynamic Race Detection with O(1) Samples.”** by Thokair, Mosaad Al, et al.
-* Teaching a Researcher to Fish: **“The Theory of Call-by-Value Solvability.”** by Accattoli and Guerrieri.
-
-<br/>
-
-### Award Categories
+#### Award Categories
 
 **The Great Teacher Inspires**
 
@@ -56,3 +41,12 @@ conquered them with surprisingly elegent or simple solutions.
 Some paper's offer elegent solutions to hard problems. 
 This award however is awarded to those who went the extra mile and applied novel and interesting techniques to achieve this. 
 This work is awarded to a paper that elegently exemplifies a tool that should be in every researchers belt.
+
+#### Winners
+
+* The Great Teacher Inspires: **“Dynamic Race Detection with O(1) Samples.”** by Thokair, Mosaad Al, et al.
+* The Rolex: **“A Type-Based Approach to Divide-and-Conquer Recursion in Coq.”** by Abreu, Pedro, et al.
+* The Cool Guy 😎: **“Affine Monads and Lazy Structures for Bayesian Programming.”** by Dash, Swaraj, et al.
+* Ahead of its Time: **“Proto-Quipper with Dynamic Lifting.”** by Fu, Peng, et al.
+* The Close Shave: **“Dynamic Race Detection with O(1) Samples.”** by Thokair, Mosaad Al, et al.
+* Teaching a Researcher to Fish: **“The Theory of Call-by-Value Solvability.”** by Accattoli and Guerrieri.

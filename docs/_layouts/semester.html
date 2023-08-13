@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+{%- include bread.html -%}
+
+{%- include page_header.html -%}
+
+<article class="mb-5">
+
+    <section>{{ content }}</section>
+
+    {%- include render_papers.html -%}
+
+    {%- include render_awards.html -%}
+
+</article>
+
+{%- include bread.html -%}
