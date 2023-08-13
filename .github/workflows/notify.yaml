@@ -15,7 +15,7 @@ jobs:
       - name: Get selection details
         id: vars
         run: |
-          echo "title=$(sed -n '1p' ./data/desc.txt)" >> $GITHUB_OUTPUT && 
+          echo "title=$(sed -n '1p' ./data/desc.txt)" >> $GITHUB_OUTPUT &&
           echo "mla=$(sed -n '2p' ./data/desc.txt)" >> $GITHUB_OUTPUT
 
       - name: Discord notification

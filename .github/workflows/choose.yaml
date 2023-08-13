@@ -22,7 +22,7 @@ jobs:
   choose:
     if: ${{ vars.PAPER_CHOOSE_ON == 1 && (
             github.event_name != 'pull_request' ||
-           (contains(github.event.pull_request.labels.*.name, 'next-paper') && 
+           (contains(github.event.pull_request.labels.*.name, 'next-paper') &&
             github.event.pull_request.merged == false)
         )}}
     runs-on: ubuntu-latest
@@ -36,15 +36,15 @@ jobs:
 
       - name: Run chooser
         run: |
-          npm run choose 
+          npm run choose
           npm run web
 
       - name: Get selection details
         id: vars
         run: |
-          echo "title=$(sed -n '1p' ./data/desc.txt)" >> $GITHUB_OUTPUT && 
-          echo "mla=$(sed -n '2p' ./data/desc.txt)" >> $GITHUB_OUTPUT && 
-          echo "abs=$(sed -n '3p' ./data/desc.txt)" >> $GITHUB_OUTPUT && 
+          echo "title=$(sed -n '1p' ./data/desc.txt)" >> $GITHUB_OUTPUT &&
+          echo "mla=$(sed -n '2p' ./data/desc.txt)" >> $GITHUB_OUTPUT &&
+          echo "abs=$(sed -n '3p' ./data/desc.txt)" >> $GITHUB_OUTPUT &&
           echo "doi=$(cat ./data/next.txt)" >> $GITHUB_OUTPUT &&
           echo "NOW=$(date +'%d %B')" >> $GITHUB_ENV
 
@@ -66,11 +66,11 @@ jobs:
           title: ${{ steps.vars.outputs.title }}
           body: |
             This paper was randomly selected as your next reading.
-            
+
             ### ${{ steps.vars.outputs.title }}
-            
+
             ${{ steps.vars.outputs.abs }} 
-            
+
             > ${{ steps.vars.outputs.mla }}
 
             **Merge this PR to apply selection.**
