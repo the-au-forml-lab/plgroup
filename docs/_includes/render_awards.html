@@ -1,0 +1,9 @@
+{% capture awards %}{% include_relative awards.md %}{% endcapture %}
+{% if awards != '' %}
+<section>
+    <h3>Awards</h3>
+    <div class="container">
+        {{ awards | markdownify }}
+    </div>
+</section>
+{% endif %}

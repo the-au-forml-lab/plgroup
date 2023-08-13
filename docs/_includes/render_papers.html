@@ -1,0 +1,9 @@
+{% capture papers %}{% include_relative papers.md %}{% endcapture %}
+{% if papers != '' %}
+<section>
+    <h3>Semester Papers</h3>
+    <div class="container">
+        {{ papers | markdownify }}
+    </div>
+</section>
+{% endif %}

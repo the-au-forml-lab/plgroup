@@ -184,32 +184,24 @@ const chooseNext = async () => {
 /**
  * Generate web page content from paper details.
  *
- * This function takes a list of DOIs, looks up the metadata for each
- * DOI, then add to the webpage between specified markers the list of
- * papers. If the markers are not found, it does nothing.
+ * This function takes a list of DOIs, then looks up the metadata
+ * for each DOI and returns a corresponding string.
  *
- * @param web - web page content (HTML as a string).
- * @param keys - content start and end key markers.
  * @param numbered - number the entries.
  * @param DOIs - iterable of DOIs
- * @returns {Promise<string|*>}
+ * @returns {Promise<string>}
  */
-const updateWeb = async (web, keys, numbered, ...DOIs) => {
+const updateWeb = async (numbered, ...DOIs) => {
     const papers = await FS.loadPapers();
-    const startIdx = web.indexOf(keys.START);
-    const endIdx = web.indexOf(keys.END);
-    if (startIdx < 0 || endIdx < 0) return web;
-    const prefix = web.substring(0, startIdx + keys.START.length)
-    const postfix = web.substring(endIdx)
     let queue = [...DOIs], entries = [];
     while (queue.length) {
         const doi = queue.shift()
-        if (!doi) break
+        if (!doi || !papers[doi]) break
         const mla = TextParser.hyperDOI(papers[doi][KEYS.m], doi)
         const entry = numbered ? `${queue.length + 1}. ${mla}` : mla
         entries.unshift(entry)
     }
-    return [prefix, ...entries, postfix].join('\n');
+    return entries.join('\n');
 }
 
 /**
@@ -217,13 +209,11 @@ const updateWeb = async (web, keys, numbered, ...DOIs) => {
  * @returns {Promise<void>}
  */
 const writeWeb = async () => {
-    const pastPapers = await FS.readLines(F.PAST_FILE);
-    const nxt = await FS.readFile(F.NEXT_FILE);
-    const pp = pastPapers.filter(d => d !== nxt)
-    let web = await FS.readFile(F.WEBPAGE);
-    web = await updateWeb(web, KEYS.NEXT, false, nxt)
-    web = await updateWeb(web, KEYS.HIST, true, ...pp)
-    FS.writeFile(F.WEBPAGE, web)
+    const all = await FS.readLines(F.PAST_FILE)
+    const first = all.length ? all[0] : null
+    all.reverse()
+    FS.writeFile(F.WEB_NEXT, await updateWeb(false, first))
+    FS.writeFile(F.WEB_PAPERS, await updateWeb(true, ...all))
 }
 
 /**

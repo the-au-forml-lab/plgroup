@@ -1,5 +1,27 @@
 title: PL Reading Group
-description: >- 
-  PL Reading Group
+description: Augusta University Programming  Reading Group
 markdown: kramdown
 remote_theme: the-au-forml-lab/the-au-forml-lab.github.io
+baseurl: "/plgroup"
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "past_semesters"
+    values:
+      layout: "semester"
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
+collections:
+  past_semesters:
+    output: true
+
+exclude:
+  - next.md
+  - papers.md
+  - Gemfile

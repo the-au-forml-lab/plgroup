@@ -1,0 +1,12 @@
+article section {
+    margin-bottom: 1rem;
+}
+
+article li {
+    margin-bottom: 1em
+}
+
+article h3, article h4 {
+    margin-top: 2rem;
+    margin-bottom: 1rem
+}

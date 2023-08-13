@@ -14,12 +14,19 @@ export const XREF = doi =>
  */
 export const FILES = {
     /**
-     * Website index page.
-     * Used to write current and list of previous papers.
+     * Website "next paper" file
+     * Used to write current paper selection.
      * @constant
      * @type {string}
      */
-    WEBPAGE: './docs/index.md',
+    WEB_NEXT: './docs/next.md',
+    /**
+     * Website "papers list" file
+     * Used to write a list of papers.
+     * @constant
+     * @type {string}
+     */
+    WEB_PAPERS: './docs/papers.md',
     /**
      * A dataset of papers.
      * @constant
@@ -123,27 +130,7 @@ export const KEYS = {
      * @constant
      * @type {string}
      */
-    b: 'bib',
-    /**
-     * Anchor for where to write next paper details,
-     * on the webpage is specified by FILES.WEBPAGE.
-     * @constant
-     * @type {Object}
-     */
-    NEXT: {
-        START: "<!-- next_start -->",
-        END: "<!-- next_end -->"
-    },
-    /**
-     * Anchor for where to write papers history,
-     * on the webpage is specified by FILES.WEBPAGE.
-     * @constant
-     * @type {Object}
-     */
-    HIST: {
-        START: "<!-- prev_start -->",
-        END: "<!-- prev_end -->"
-    }
+    b: 'bib'
 }
 
 /**
