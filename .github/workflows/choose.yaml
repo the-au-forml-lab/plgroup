@@ -74,7 +74,7 @@ jobs:
             > ${{ steps.vars.outputs.mla }}
 
             **Merge this PR to apply selection.**
-          reviewers: |
+          reviewers: ${{ fromJSON(vars.REVIEWERS) }}
             nkrusch
             phanukaev
 
