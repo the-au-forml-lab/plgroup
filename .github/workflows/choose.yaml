@@ -69,7 +69,7 @@ jobs:
 
             ### ${{ steps.vars.outputs.title }}
 
-            ${{ steps.vars.outputs.abs }} 
+            ${{ steps.vars.outputs.abs }}
 
             > ${{ steps.vars.outputs.mla }}
 

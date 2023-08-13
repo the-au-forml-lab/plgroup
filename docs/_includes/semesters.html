@@ -1,0 +1,10 @@
+<section>
+    <h3>Past Semesters</h3>
+    <ul>
+        {% for sem in site.past_semesters %}
+        <li><a href="{{site.baseurl}}{{ sem.url | relative_path }}">
+            {{ sem.semester }} {{ sem.year }}
+        </a></li>
+        {% endfor %}
+    </ul>
+</section>
