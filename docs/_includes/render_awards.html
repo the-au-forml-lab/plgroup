@@ -1,3 +1,4 @@
+{% if page.awards %}
 {% capture awards %}{% include_relative awards.md %}{% endcapture %}
 {% if awards != '' %}
 <section>
@@ -6,4 +7,5 @@
         {{ awards | markdownify }}
     </div>
 </section>
+{% endif %}
 {% endif %}

@@ -4,6 +4,10 @@ markdown: kramdown
 remote_theme: the-au-forml-lab/the-au-forml-lab.github.io
 baseurl: "/plgroup"
 
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
 defaults:
   - scope:
       path: ""
@@ -18,9 +22,13 @@ defaults:
 collections:
   past_semesters:
     output: true
+    permalink: /:path
 
 exclude:
+  - Gemfile
+  - /*/papers.md
+  - /*/awards.md
   - next.md
   - papers.md
-  - Gemfile
+  - awards.md
   - readme.md

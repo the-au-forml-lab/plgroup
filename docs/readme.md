@@ -30,6 +30,7 @@ YEAR=2023 && SEM=fall \
 && mkdir $OLD_DIR \
 && cp index.md $OLD_DIR"/index.md" \
 && mv papers.md $OLD_DIR"/papers.md" \
+&& [ ! -f awards.md ] || mv awards.md $OLD_DIR"/awards.md" \
 && echo '' > next.md \
 && touch papers.md
 ````
