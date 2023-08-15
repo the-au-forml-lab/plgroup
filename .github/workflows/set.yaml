@@ -7,8 +7,6 @@ on:
       doi:
         description: DOI, e.g. 10.1122/9991234
         required: true
-      environment:
-        type: environment
 
 jobs:
   set_paper:
