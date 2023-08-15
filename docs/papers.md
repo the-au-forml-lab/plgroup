@@ -1,0 +1,1 @@
+1. Haselwarter, Philipp G., et al. “SSProve: A Foundational Framework for Modular Cryptographic Proofs in Coq.” ACM Transactions on Programming Languages and Systems, vol. 45, no. 3, July 2023, pp. 1–61. Crossref, <a href='https://doi.org/10.1145/3594735' target='_blank'>https://doi.org/10.1145/3594735</a>.
