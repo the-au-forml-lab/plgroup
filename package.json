@@ -6,7 +6,7 @@
   "scripts": {
     "set": "node src/index.js set",
     "details": "node src/index.js details",
-    "update": "node src/index.js fetch",
+    "update": "node src/index.js update",
     "choose": "node src/index.js choose",
     "stats": "node src/index.js stats",
     "web": "node src/index.js web"
