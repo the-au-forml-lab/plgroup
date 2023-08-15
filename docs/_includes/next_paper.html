@@ -1,5 +1,6 @@
 {% capture next %}{% include_relative next.md %}{% endcapture %}
-{% if next != '' %}
+{% assign next_text = next | strip | strip_newlines %}
+{% if next_text != '' %}
 <section>
     <h3>Next Paper</h3>
     <div class="container">

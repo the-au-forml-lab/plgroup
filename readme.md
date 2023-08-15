@@ -18,12 +18,12 @@ We select papers randomly from top programming languages conferences.
 
 The content of this repository is organized as follows:
 
-| Directory               | Description                                       |
-|:------------------------|:--------------------------------------------------|
-| **`.github/workflows`** | GitHub actions                                    |
-| **`data`**              | mostly generate files for paper selection purpose |
-| **`docs`**              | the website content (jekyll and markdown)         |
-| **`src`**               | source code for randomly choosing papers          |
+| Directory               | Description                                          |
+|:------------------------|:-----------------------------------------------------|
+| **`.github/workflows`** | GitHub actions                                       |
+| **`data`**              | static & generated files for paper selection purpose |
+| **`docs`**              | the website content (jekyll and markdown)            |
+| **`src`**               | source code for choosing papers                      |
 
 The paper selection is mostly automatic, with a scheduled GitHub action set to suggest the next paper.
 Repository reviewers are asked to approve or reject this suggestion.
@@ -31,13 +31,17 @@ Repository reviewers are asked to approve or reject this suggestion.
 **Available commands**
 
 ```
-npm run update  -- update paper dataset
-npm run stats   -- display paper dataset statistics
-npm run choose  -- choose next paper
-npm run web     -- auto-update web page 
+npm run update             : update paper dataset
+npm run stats              : display paper dataset statistics
+npm run choose             : choose next paper
+npm run web                : auto-update web page 
+npm run set -- [doi]       : manually set the next paper
+npm run details -- [doi]   : print meta data about a paper
 ```
 
-Running these commands requires [Node.js](https://nodejs.org/en/download/)
+Running these commands requires [Node.js](https://nodejs.org/en/download/).
+
+The back-end for DOI lookups is [Crossref API](https://github.com/the-au-forml-lab/plgroup/blob/main/src/config.js#L6).
 
 ## Guide for editing this repository
 
@@ -82,18 +86,45 @@ It is also possible to pause the workflow without code changes from repository s
 **End of a semester**
 
 1. Turn off paper selection workflow (in settings) set `PAPER_CHOOSE_ON` value to `0`
-2. Run `echo '' > docs/next.md`
+2. Clear the next paper selection (you can include a message in the quotes): 
+
+   ```
+   echo '' > docs/next.md
+   ```
   
 **Start of semester**
 
 1. Review and update [`sources.txt`](data/sources.txt)
-2. If sources were updated, run `rm -rf data/papers.json && npm run update`
-3. [Update semester docs](docs/readme.md)
+2. If sources were updated in step 1, run 
+
+   ```
+   rm -rf data/papers.json && npm run update
+   ```
+   
+3.  Update semester docs
+
+    First, set appropriate values for `YEAR` and `SEM` variables. 
+    Then, run the following command, to archive the corresponding semester.
+    
+    ````shell
+    SEM=fall && YEAR=2023 \
+    && DOCS=docs/ \
+    && OLD_DIR=$DOCS"_past_semesters/"$YEAR"_"$SEM \
+    && mkdir $OLD_DIR \
+    && cp $DOCS"index.md" $OLD_DIR"/index.md" \
+    && mv $DOCS"papers.md" $OLD_DIR"/papers.md" \
+    && [ ! -f $DOCS"awards.md" ] || mv $DOCS"awards.md" $OLD_DIR"/awards.md" \
+    && echo '' > $DOCS"/next.md" \
+    && touch $DOCS"papers.md"
+    ````
+    
+    Next, edit `docs/index.md` front-matter to describe the current or upcoming semester.
+
 4. Turn on paper selection workflow (in settings) set `PAPER_CHOOSE_ON` value to `1`
 
 ## Notes for forking
 
-The repository code is generic in the sense that, by changing the conference [`sources.txt`](data/sources.txt), it can be made to suggest any kinds of papers that have DOIs.
+The repository code is generic in the sense that, by changing the conference [`sources.txt`](data/sources.txt), it can be made to suggest any kinds of papers that have DOIs indexed by Crossref.
 To get the automatic actions to work properly, complete the following steps.
 
 Enable workflow permissions, in settings > action
@@ -103,11 +134,16 @@ Enable workflow permissions, in settings > action
 
 Create expected environment secrets, in settings > secrets and variables > actions
 
-- [ ] add variable `PAPER_CHOOSE_ON` with value `0` or `1` (off or on).
-- [ ] add variable `REVIEWERS` whose value is a whitespace-separated string of GH usernames. 
+Variables
+
+- [ ] `PAPER_CHOOSE_ON` with value `0` or `1` (off or on).
+- [ ] `REVIEWERS` whose value is a whitespace-separated string of GH usernames. 
   The identified users will be asked to approve paper suggestion. 
-  Reviewers must have sufficient repo/org permissions to perform this task (for an org, they must be members). 
-- [ ] add secret `AUTOMERGE_PAT` whose value is a personal access token of a repository maintainer.
-  This is to enable auto-merge of PR into main branch, after reviewers accept a PR.
-- [ ] add secret `DISCORD_WEBHOOK_URL` or `SLACK_WEBHOOK_URL` to enable discord or slack integration. 
+  Reviewers must have sufficient repo/org permissions to perform this task. For an org, they must be members. 
+
+Secrets
+
+- [ ] `AUTOMERGE_PAT` whose value is a personal access token of a repository maintainer.
+  This allows auto-merging a PR into main branch, after PR merge conditions are satisfied.
+- [ ] `DISCORD_WEBHOOK_URL` or `SLACK_WEBHOOK_URL` to enable discord or slack integration. 
   Otherwise, the notification step will be skipped during workflow runs.

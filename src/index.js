@@ -1,5 +1,5 @@
 import https from 'https';
-import {FILES as F, ACTIONS, KEYS, CONFIG, XREF} from './config.js';
+import {FILES as F, ACTIONS, CONFIG, KEYS, XREF} from './config.js';
 import {FileSystem as FS, TextParser} from './helpers.js';
 
 
@@ -59,19 +59,26 @@ const requestCite = async (doiUrl, style = 'mla') => {
 const requestBib = async (doiUrl) =>
     requestCite(doiUrl, 'bibtex')
 
-
 /**
- * This method attempts to extract paper title and abstract.
- * @param {string} doiURL - DOI with domain, e.g. http:/doi.org/xyz/123
+ * This method attempts to extract paper title, abstract, and citation in
+ * MLA format.
+ * @param {string} doi - DOI without domain, e.g. 10.1093/ajae/aaq063
+ * @param {boolean} additive - set True to add to database if not exists.
  * @returns {Promise<string>}
  */
-const getDetails = async doiURL => {
+const getDetails = async (doi, additive = false) => {
     const papers = (await FS.loadPapers());
-    const xmlAddr = XREF(new URL(doiURL).pathname.substring(1))
-    const html = await readURL(xmlAddr)
-    const title = TextParser.title(papers[doiURL][KEYS.b])
+    const doiURL = `${CONFIG.DOI_ORG_DOMAIN}/${doi}`
+    const exists = Object.keys(papers).includes(doi)
+    const bib = exists ? papers[doiURL][KEYS.bib] : (await requestBib(doiURL))
+    const title = TextParser.title(bib)
+    const html = await readURL(XREF(doi))
     const abs = TextParser.abstract(html) || doiURL
-    const mla = papers[doiURL][KEYS.m]
+    const mla = exists ? papers[doiURL][KEYS.mla] : (await requestCite(doiURL))
+    if (additive && !exists) {
+        papers[doiURL] = {[KEYS.mla]: mla, [KEYS.bib]: bib}
+        FS.writeFile(F.PAPERS, JSON.stringify(papers))
+    }
     return [title, mla, abs].join('\n')
 }
 
@@ -93,15 +100,16 @@ const matchesStopWord = (words, str) => {
  * Update the next paper selection, and capture this change in the
  * appropriate files.
  *
- * @param  {string} doi - The DOI of next paper.
+ * @param  {string} doi - The DOI of next paper, without domain.
  * @returns {Promise<void>}
  */
 const setNext = async doi => {
-    const meta = await getDetails(doi)
-    FS.writeFile(F.NEXT_FILE, doi)
+    const doiURL = `${CONFIG.DOI_ORG_DOMAIN}/${doi}`
+    const meta = await getDetails(doi, true)
     FS.writeFile(F.NEXT_DESC, meta)
-    FS.append(F.PAST_FILE, doi)
-    FS.append(F.HISTORY_FILE, doi)
+    FS.writeFile(F.NEXT_FILE, doiURL)
+    FS.append(F.SEMESTER_PAPERS, doiURL)
+    FS.append(F.ALLTIME_HISTORY, doiURL)
 }
 
 /**
@@ -112,7 +120,7 @@ const setNext = async doi => {
 const findPapers = async () => {
     let papers = await FS.loadPapers()
     const paperKeys = Object.keys(papers)
-    const sources = await FS.readLines(F.SRC_FILE);
+    const sources = await FS.readLines(F.SOURCES);
     const stop = await FS.readLines(F.STOPWORDS);
     let foundPapers = []
     console.log('Processing', sources.length, 'source(s)')
@@ -126,18 +134,18 @@ const findPapers = async () => {
     for (const doi of foundPapers) {
         const exists = paperKeys.includes(doi)
         const mla = exists ?
-            papers[doi][KEYS.m] : (await requestCite(doi))
+            papers[doi][KEYS.mla] : (await requestCite(doi))
         const stopMatch = matchesStopWord(stop, mla)
         if (stopMatch) {
             if (exists) delete papers[doi];
             continue;
         }
         const bib = exists ?
-            papers[doi][KEYS.b] : (await requestBib(doi))
+            papers[doi][KEYS.bib] : (await requestBib(doi))
         const knownConf = TextParser.conference(bib)
         if (!knownConf && exists) delete papers[doi]
         else if (mla && bib && knownConf)
-            papers[doi] = {[KEYS.m]: mla, [KEYS.b]: bib}
+            papers[doi] = {[KEYS.mla]: mla, [KEYS.bib]: bib}
     }
     FS.writeFile(F.PAPERS, JSON.stringify(papers))
     await stats()
@@ -153,7 +161,7 @@ const stats = async () => {
         name.split(' ').slice(1).slice(-5).join(' ')
             .replace(/^(on )/, "");
     const freq = papers.map(
-        ({[KEYS.b]: bib}) => bib).map(TextParser.conference)
+        ({[KEYS.bib]: bib}) => bib).map(TextParser.conference)
 
     // group by name, count occurrence and sort DESC
     const confCounts = Object.entries(Object.fromEntries(
@@ -173,16 +181,17 @@ const stats = async () => {
 const chooseNext = async () => {
     const papers = await FS.loadPapers()
     const paperKeys = Object.keys(papers)
-    const pastPapers = await FS.readFile(F.HISTORY_FILE);
+    const pastPapers = await FS.readFile(F.ALLTIME_HISTORY);
     const stop = await FS.readLines(F.STOPWORDS);
     const selectable = paperKeys.filter(x =>
         pastPapers.indexOf(x) < 0 &&
-        !matchesStopWord(stop, papers[x][KEYS.m]));
+        !matchesStopWord(stop, papers[x][KEYS.mla]));
     if (!selectable.length) return console.log(
         'There are 0 papers available for selection :(');
     const index = Math.floor(Math.random() * selectable.length)
     const randDOI = selectable[index];
-    await setNext(randDOI)
+    const doiOnly = new URL(randDOI).pathname.substring(1)
+    await setNext(doiOnly)
 }
 
 /**
@@ -200,8 +209,11 @@ const updateWeb = async (numbered, ...DOIs) => {
     let queue = [...DOIs], entries = [];
     while (queue.length) {
         const doi = queue.shift()
-        if (!doi || !papers[doi]) break
-        const mla = TextParser.hyperDOI(papers[doi][KEYS.m], doi)
+        if (!doi || !papers[doi]) {
+            console.log('not found', doi)
+            break
+        }
+        const mla = TextParser.hyperDOI(papers[doi][KEYS.mla], doi)
         const entry = numbered ? `${queue.length + 1}. ${mla}` : mla
         entries.unshift(entry)
     }
@@ -213,9 +225,8 @@ const updateWeb = async (numbered, ...DOIs) => {
  * @returns {Promise<void>}
  */
 const writeWeb = async () => {
-    const all = await FS.readLines(F.PAST_FILE)
-    const first = all.length ? all[0] : null
-    all.reverse()
+    const all = await FS.readLines(F.SEMESTER_PAPERS)
+    const first = all.length > 0 ? all[all.length - 1] : null
     FS.writeFile(F.WEB_NEXT, await updateWeb(false, first))
     FS.writeFile(F.WEB_PAPERS, await updateWeb(true, ...all))
 }
@@ -225,7 +236,7 @@ const writeWeb = async () => {
  */
 (_ => {
     const [action, param] = process.argv.slice(2);
-    if (action === ACTIONS.FETCH) return findPapers()
+    if (action === ACTIONS.UPDATE) return findPapers()
     if (action === ACTIONS.CHOOSE) return chooseNext()
     if (action === ACTIONS.SET && param) return setNext(param)
     if (action === ACTIONS.WEB) return writeWeb()

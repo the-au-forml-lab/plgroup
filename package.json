@@ -4,10 +4,12 @@
   "description": "Reading group random paper selector.",
   "type": "module",
   "scripts": {
+    "set": "node src/index.js set",
+    "details": "node src/index.js details",
     "update": "node src/index.js fetch",
     "choose": "node src/index.js choose",
-    "web": "node src/index.js web",
-    "stats": "node src/index.js stats"
+    "stats": "node src/index.js stats",
+    "web": "node src/index.js web"
   },
   "license": "GPL-2.0"
 }
