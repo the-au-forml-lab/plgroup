@@ -14,20 +14,6 @@ export const XREF = doi =>
  */
 export const FILES = {
     /**
-     * Website "next paper" file
-     * Used to write current paper selection.
-     * @constant
-     * @type {string}
-     */
-    WEB_NEXT: './docs/next.md',
-    /**
-     * Website "papers list" file
-     * Used to write a list of papers.
-     * @constant
-     * @type {string}
-     */
-    WEB_PAPERS: './docs/papers.md',
-    /**
      * A dataset of papers.
      * @constant
      * @type {string}
@@ -38,7 +24,7 @@ export const FILES = {
      * @constant
      * @type {string}
      */
-    SRC_FILE: './data/sources.txt',
+    SOURCES: './data/sources.txt',
     /**
      * DOI of the next paper to be read.
      * @constant
@@ -57,7 +43,7 @@ export const FILES = {
      * @constant
      * @type {string}
      */
-    PAST_FILE: './data/past.txt',
+    SEMESTER_PAPERS: './data/past.txt',
     /**
      * List of DOIs of previously read papers, for all time.
      *
@@ -66,7 +52,7 @@ export const FILES = {
      * @constant
      * @type {string}
      */
-    HISTORY_FILE: './data/historical.txt',
+    ALLTIME_HISTORY: './data/history.txt',
     /**
      * List of stop words.
      *
@@ -75,7 +61,21 @@ export const FILES = {
      * @constant
      * @type {string}
      */
-    STOPWORDS: './data/stopwords.txt'
+    STOPWORDS: './data/stopwords.txt',
+    /**
+     * Website "next paper" file
+     * Used to write current paper selection.
+     * @constant
+     * @type {string}
+     */
+    WEB_NEXT: './docs/next.md',
+    /**
+     * Website "papers list" file
+     * Used to write a list of papers.
+     * @constant
+     * @type {string}
+     */
+    WEB_PAPERS: './docs/papers.md'
 }
 
 /**
@@ -84,11 +84,11 @@ export const FILES = {
  */
 export const ACTIONS = {
     /**
-     * Set the next paper to specific DOI.
+     * Choose next paper.
      * @constant
      * @type {string}
      */
-    SET: 'set',
+    CHOOSE: 'choose',
     /**
      * Get paper meta data for a specific DOI.
      * @constant
@@ -96,29 +96,29 @@ export const ACTIONS = {
      */
     DETAILS: 'details',
     /**
-     * Update papers database.
+     * Set the next paper to specific DOI.
      * @constant
      * @type {string}
      */
-    FETCH: 'fetch',
-    /**
-     * Choose next paper.
-     * @constant
-     * @type {string}
-     */
-    CHOOSE: 'choose',
-    /**
-     * Update website paper details.
-     * @constant
-     * @type {string}
-     */
-    WEB: 'web',
+    SET: 'set',
     /**
      * Display paper data statistics.
      * @constant
      * @type {string}
      */
-    STATS: 'stats'
+    STATS: 'stats',
+    /**
+     * Update papers database.
+     * @constant
+     * @type {string}
+     */
+    UPDATE: 'update',
+    /**
+     * Update website paper details.
+     * @constant
+     * @type {string}
+     */
+    WEB: 'web'
 }
 
 /**
@@ -131,13 +131,13 @@ export const KEYS = {
      * @constant
      * @type {string}
      */
-    m: 'mla',
+    mla: 'mla',
     /**
      * For accessing paper citation in papers dataset in bibtex format
      * @constant
      * @type {string}
      */
-    b: 'bib'
+    bib: 'bib'
 }
 
 /**
@@ -147,5 +147,6 @@ export const CONFIG = {
     /**
      * Max allowed URL request redirects.
      */
-    MAX_REDIRS: 20
+    MAX_REDIRS: 20,
+    DOI_ORG_DOMAIN: 'https://doi.org'
 }
