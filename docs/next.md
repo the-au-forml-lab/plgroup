@@ -1,1 +1,1 @@
-Liao, Kevin, et al. “ILC: A Calculus for Composable, Computational Cryptography.” Proceedings of the 40th ACM SIGPLAN Conference on Programming Language Design and Implementation, June 2019. Crossref, <a href='https://doi.org/10.1145/3314221.3314607' target='_blank'>https://doi.org/10.1145/3314221.3314607</a>.
+Dexter, Philip, et al. “The Essence of Online Data Processing.” Proceedings of the ACM on Programming Languages, vol. 6, no. OOPSLA2, Oct. 2022, pp. 899–928. Crossref, <a href='https://doi.org/10.1145/3563320' target='_blank'>https://doi.org/10.1145/3563320</a>.
