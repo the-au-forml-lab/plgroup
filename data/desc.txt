@@ -1,0 +1,3 @@
+ILC: a calculus for composable, computational cryptography
+Liao, Kevin, et al. “ILC: A Calculus for Composable, Computational Cryptography.” Proceedings of the 40th ACM SIGPLAN Conference on Programming Language Design and Implementation, June 2019. Crossref, https://doi.org/10.1145/3314221.3314607.
+https://doi.org/10.1145/3314221.3314607
