@@ -11,7 +11,7 @@ on:
             # │  │  │  │  │
             # │  │  │  │  │
             # *  *  *  *  *
-    - cron:  '0 17  *  *  5'
+    - cron:  '0 14  *  *  5'
   workflow_dispatch:
     branches: [ main ]
   pull_request:
@@ -74,7 +74,8 @@ jobs:
             > ${{ steps.vars.outputs.mla }}
 
             **Merge this PR to apply selection.**
-          reviewers: ${{ fromJSON(vars.REVIEWERS) }}
+          reviewers: |
+            ${{ fromJSON(vars.REVIEWERS) }}
 
       - name: Enable PR Automerge
         if: steps.paperpr.outputs.pull-request-operation == 'created'
