@@ -18,12 +18,12 @@ We select papers randomly from top programming languages conferences.
 
 The content of this repository is organized as follows:
 
-| Directory               | Description                                          |
-|:------------------------|:-----------------------------------------------------|
-| **`.github/workflows`** | GitHub actions                                       |
-| **`data`**              | static & generated files for paper selection purpose |
-| **`docs`**              | the website content (jekyll and markdown)            |
-| **`src`**               | source code for choosing papers                      |
+| Directory               | Description                                    |
+|:------------------------|:-----------------------------------------------|
+| **`.github/workflows`** | GitHub actions: automation                     |
+| **`data`**              | static and generated files for paper selection |
+| **`docs`**              | website content                                |
+| **`src`**               | source code for choosing papers                |
 
 The paper selection is mostly automatic, with a scheduled GitHub action set to suggest the next paper.
 Repository reviewers are asked to approve or reject this suggestion.
@@ -52,13 +52,13 @@ This section describes to how to apply the most commonly expected changes.
 The conference sources are in [`sources.txt`](data/sources.txt), one per line.
 Change these sources, then run `npm run update` to regenerate a dataset of papers.
 This process will take up to a few minutes, depending on the number of new papers.
-Note, the update is additive. To remove older entries, first delete `data/papers.json`.
+The update is additive. To remove older entries, first delete `data/papers.json`.
 
 **How to filter papers by specific keywords?**
 
 "Stopwords" is a list of keywords where, if any of them appear in the paper title, that paper is not considered for selection.
 Edit this list by changing [`stopwords.txt`](data/stopwords.txt).
-Each line is considered a separate stopword, and paper is evaluated against each word in this list (case-insensitive match).
+Each line is considered a separate stop word, and paper is evaluated against each word in this list (case-insensitive match).
 
 **How to change the website content?**
 
@@ -85,8 +85,8 @@ It is also possible to pause the workflow without code changes from repository s
 
 **End of a semester**
 
-1. Turn off paper selection workflow (in settings) set `PAPER_CHOOSE_ON` value to `0`
-2. Clear the next paper selection (you can include a message in the quotes): 
+1. Turn off paper selection workflow in settings: set `PAPER_CHOOSE_ON` value to `0`
+2. Clear the next paper selection. You can include a custom message in the quotes: 
 
    ```
    echo '' > docs/next.md
@@ -103,8 +103,8 @@ It is also possible to pause the workflow without code changes from repository s
    
 3.  Update semester docs
 
-    First, set appropriate values for `YEAR` and `SEM` variables. 
-    Then, run the following command, to archive the corresponding semester.
+    First, set appropriate values for `SEM` and `YEAR` variables. 
+    Then, run the command to archive the corresponding semester.
     
     ````shell
     SEM=fall && YEAR=2023 \
@@ -118,9 +118,9 @@ It is also possible to pause the workflow without code changes from repository s
     && touch $DOCS"papers.md"
     ````
     
-    Next, edit `docs/index.md` front-matter to describe the current or upcoming semester.
+    Lastly, edit `docs/index.md` front-matter to describe the current or upcoming semester.
 
-4. Turn on paper selection workflow (in settings) set `PAPER_CHOOSE_ON` value to `1`
+4. Turn on paper selection workflow in settings: set `PAPER_CHOOSE_ON` value to `1`
 
 ## Notes for forking
 
@@ -137,13 +137,12 @@ Create expected environment secrets, in settings > secrets and variables > actio
 Variables
 
 - [ ] `PAPER_CHOOSE_ON` with value `0` or `1` (off or on).
-- [ ] `REVIEWERS` whose value is a whitespace-separated string of GH usernames. 
-  The identified users will be asked to approve paper suggestion. 
-  Reviewers must have sufficient repo/org permissions to perform this task. For an org, they must be members. 
+- [ ] `REVIEWERS` whose value is a newline-separated string of GH usernames. 
+  Reviewers must have sufficient repo/org permissions to perform this task.
 
 Secrets
 
-- [ ] `AUTOMERGE_PAT` whose value is a personal access token of a repository maintainer.
-  This allows auto-merging a PR into main branch, after PR merge conditions are satisfied.
+- [ ] `AUTOMERGE_PAT` whose value is a personal access token of a user with repository write access.
+  This allows auto-merging a PR into the main branch after merge conditions are satisfied.
 - [ ] `DISCORD_WEBHOOK_URL` or `SLACK_WEBHOOK_URL` to enable discord or slack integration. 
   Otherwise, the notification step will be skipped during workflow runs.
