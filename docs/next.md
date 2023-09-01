@@ -1,1 +1,1 @@
-Zhang, Jialun, et al. “Interval Parsing Grammars for File Format Parsing.” Proceedings of the ACM on Programming Languages, vol. 7, no. PLDI, June 2023, pp. 1073–95. Crossref, <a href='https://doi.org/10.1145/3591264' target='_blank'>https://doi.org/10.1145/3591264</a>.
+Sundararajah, Kirshanthan, et al. “UniRec: A Unimodular-like Framework for Nested Recursions and Loops.” Proceedings of the ACM on Programming Languages, vol. 6, no. OOPSLA2, Oct. 2022, pp. 1264–90. Crossref, <a href='https://doi.org/10.1145/3563333' target='_blank'>https://doi.org/10.1145/3563333</a>.
