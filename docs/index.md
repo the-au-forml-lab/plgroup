@@ -15,4 +15,4 @@ It is also simply fun to hang out with us.
 The PL Reading Group is a regular meeting of [ΔΛΔ](https://augusta.presence.io/organization/delta-lambda-delta) student organization.
 In Fall 2023, PL reading group is also the scheduled class activity for CSCI 8970 Research Exposure Section A.
 
-[plgroup on Github &nearr;](https://github.com/the-au-forml-lab/plgroup)
+[plgroup on Github ↗](https://github.com/the-au-forml-lab/plgroup)
