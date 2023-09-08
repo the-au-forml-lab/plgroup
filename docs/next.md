@@ -1,1 +1,1 @@
-Gopinathan, Kiran, et al. “Mostly Automated Proof Repair for Verified Libraries.” Proceedings of the ACM on Programming Languages, vol. 7, no. PLDI, June 2023, pp. 25–49. Crossref, <a href='https://doi.org/10.1145/3591221' target='_blank'>https://doi.org/10.1145/3591221</a>.
+Wang, Yanjun, et al. “Comparative Synthesis: Learning Near-Optimal Network Designs by Query.” Proceedings of the ACM on Programming Languages, vol. 7, no. POPL, Jan. 2023, pp. 91–120. Crossref, <a href='https://doi.org/10.1145/3571197' target='_blank'>https://doi.org/10.1145/3571197</a>.
