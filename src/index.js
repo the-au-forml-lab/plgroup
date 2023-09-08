@@ -1,6 +1,6 @@
 import https from 'https';
 import {FILES as F, ACTIONS, CONFIG, KEYS, XREF} from './config.js';
-import {FileSystem as FS, TextParser} from './helpers.js';
+import {FileSystem as FS, TextParser, shuffle} from './helpers.js';
 
 
 /**
@@ -188,6 +188,7 @@ const chooseNext = async () => {
         !matchesStopWord(stop, papers[x][KEYS.mla]));
     if (!selectable.length) return console.log(
         'There are 0 papers available for selection :(');
+    shuffle(selectable)
     const index = Math.floor(Math.random() * selectable.length)
     const randDOI = selectable[index];
     const doiOnly = new URL(randDOI).pathname.substring(1)
