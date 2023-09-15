@@ -1,1 +1,1 @@
-Gopinathan, Kiran, et al. “Mostly Automated Proof Repair for Verified Libraries.” Proceedings of the ACM on Programming Languages, vol. 7, no. PLDI, June 2023, pp. 25–49. Crossref, <a href='https://doi.org/10.1145/3591221' target='_blank'>https://doi.org/10.1145/3591221</a>.
+Dexter, Philip, et al. “The Essence of Online Data Processing.” Proceedings of the ACM on Programming Languages, vol. 6, no. OOPSLA2, Oct. 2022, pp. 899–928. Crossref, <a href='https://doi.org/10.1145/3563320' target='_blank'>https://doi.org/10.1145/3563320</a>.
