@@ -1,1 +1,1 @@
-Zwaan, Aron, et al. “Incremental Type-Checking for Free: Using Scope Graphs to Derive Incremental Type-Checkers.” Proceedings of the ACM on Programming Languages, vol. 6, no. OOPSLA2, Oct. 2022, pp. 424–48. Crossref, <a href='https://doi.org/10.1145/3563303' target='_blank'>https://doi.org/10.1145/3563303</a>.
+Lamport, Leslie. “Time, Clocks, and the Ordering of Events in a Distributed System.” Communications of the ACM, vol. 21, no. 7, July 1978, pp. 558–65. Crossref, <a href='https://doi.org/10.1145/359545.359563' target='_blank'>https://doi.org/10.1145/359545.359563</a>.
