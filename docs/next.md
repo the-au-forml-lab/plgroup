@@ -1,1 +1,1 @@
-Lamport, Leslie. “Time, Clocks, and the Ordering of Events in a Distributed System.” Communications of the ACM, vol. 21, no. 7, July 1978, pp. 558–65. Crossref, <a href='https://doi.org/10.1145/359545.359563' target='_blank'>https://doi.org/10.1145/359545.359563</a>.
+SWIERSTRA, WOUTER. “A Well-Known Representation of Monoids and Its Application to the Function ‘Vector Reverse.’” Journal of Functional Programming, vol. 32, 2022. Crossref, https://doi.org/10.1017/s0956796822000065.
