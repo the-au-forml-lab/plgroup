@@ -1,1 +1,1 @@
-Lamport, Leslie. “Time, Clocks, and the Ordering of Events in a Distributed System.” Communications of the ACM, vol. 21, no. 7, July 1978, pp. 558–65. Crossref, <a href='https://doi.org/10.1145/359545.359563' target='_blank'>https://doi.org/10.1145/359545.359563</a>.
+Wang, Jingbo, et al. “Synthesizing MILP Constraints for Efficient and Robust Optimization.” Proceedings of the ACM on Programming Languages, vol. 7, no. PLDI, June 2023, pp. 1896–919. Crossref, <a href='https://doi.org/10.1145/3591298' target='_blank'>https://doi.org/10.1145/3591298</a>.
