@@ -1,1 +1,1 @@
-Lamport, Leslie. “Time, Clocks, and the Ordering of Events in a Distributed System.” Communications of the ACM, vol. 21, no. 7, July 1978, pp. 558–65. Crossref, <a href='https://doi.org/10.1145/359545.359563' target='_blank'>https://doi.org/10.1145/359545.359563</a>.
+Ostermann, Klaus, et al. “Introduction and Elimination, Left and Right.” Proceedings of the ACM on Programming Languages, vol. 6, no. ICFP, Aug. 2022, pp. 438–65. Crossref, <a href='https://doi.org/10.1145/3547637' target='_blank'>https://doi.org/10.1145/3547637</a>.
