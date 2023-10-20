@@ -1,1 +1,1 @@
-Lamport, Leslie. “Time, Clocks, and the Ordering of Events in a Distributed System.” Communications of the ACM, vol. 21, no. 7, July 1978, pp. 558–65. Crossref, <a href='https://doi.org/10.1145/359545.359563' target='_blank'>https://doi.org/10.1145/359545.359563</a>.
+Huang, Yulong, and Jeremy Yallop. “Defunctionalization with Dependent Types.” Proceedings of the ACM on Programming Languages, vol. 7, no. PLDI, June 2023, pp. 516–38. Crossref, <a href='https://doi.org/10.1145/3591241' target='_blank'>https://doi.org/10.1145/3591241</a>.
