@@ -1,5 +1,5 @@
 https://popl23.sigplan.org/track/POPL-2023-popl-research-papers
 https://pldi23.sigplan.org/track/pldi-2023-pldi
 https://icfp22.sigplan.org/track/icfp-2022-papers
-https://2022.splashcon.org/track/splash-2022-oopsla
 https://icfp23.sigplan.org/track/icfp-2023-papers
+https://2023.splashcon.org/track/splash-2023-oopsla
