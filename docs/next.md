@@ -1,1 +1,1 @@
-Ostermann, Klaus, et al. “Introduction and Elimination, Left and Right.” Proceedings of the ACM on Programming Languages, vol. 6, no. ICFP, Aug. 2022, pp. 438–65. Crossref, <a href='https://doi.org/10.1145/3547637' target='_blank'>https://doi.org/10.1145/3547637</a>.
+Lee, Edward, and Ondřej Lhoták. “Simple Reference Immutability for System F            &lt;:” Proceedings of the ACM on Programming Languages, vol. 7, no. OOPSLA2, Oct. 2023, pp. 857–81. Crossref, <a href='https://doi.org/10.1145/3622828' target='_blank'>https://doi.org/10.1145/3622828</a>.
