@@ -1,1 +1,1 @@
-Ostermann, Klaus, et al. “Introduction and Elimination, Left and Right.” Proceedings of the ACM on Programming Languages, vol. 6, no. ICFP, Aug. 2022, pp. 438–65. Crossref, <a href='https://doi.org/10.1145/3547637' target='_blank'>https://doi.org/10.1145/3547637</a>.
+Chen, Zilin, et al. “Dargent: A Silver Bullet for Verified Data Layout Refinement.” Proceedings of the ACM on Programming Languages, vol. 7, no. POPL, Jan. 2023, pp. 1369–95. Crossref, <a href='https://doi.org/10.1145/3571240' target='_blank'>https://doi.org/10.1145/3571240</a>.
