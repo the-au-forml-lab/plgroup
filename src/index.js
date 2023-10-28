@@ -210,11 +210,13 @@ const updateWeb = async (numbered, ...DOIs) => {
     let queue = [...DOIs], entries = [];
     while (queue.length) {
         const doi = queue.shift()
-        if (!doi || !papers[doi]) {
+        if (!doi) {
             console.log('not found', doi)
-            break
+            continue
         }
-        const mla = TextParser.hyperDOI(papers[doi][KEYS.mla], doi)
+        const plain_mla = papers[doi] ?
+            papers[doi][KEYS.mla] : (await requestCite(doi))
+        const mla = TextParser.hyperDOI(plain_mla, doi)
         const entry = numbered ? `${queue.length + 1}. ${mla}` : mla
         entries.unshift(entry)
     }
