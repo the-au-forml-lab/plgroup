@@ -74,7 +74,8 @@ const getDetails = async (doi, additive = false) => {
     const title = TextParser.title(bib)
     const html = await readURL(XREF(doi))
     const abs = TextParser.abstract(html) || doiURL
-    const mla = exists ? papers[doiURL][KEYS.mla] : (await requestCite(doiURL))
+    const mla = TextParser.spaceFix(exists ?
+        papers[doiURL][KEYS.mla] : (await requestCite(doiURL)))
     if (additive && !exists) {
         papers[doiURL] = {[KEYS.mla]: mla, [KEYS.bib]: bib}
         FS.writeFile(F.PAPERS, JSON.stringify(papers))
