@@ -1,1 +1,1 @@
-Tardieu, Olivier, et al. “Reliable Actors with Retry Orchestration.” Proceedings of the ACM on Programming Languages, vol. 7, no. PLDI, June 2023, pp. 1293–316. Crossref, <a href='https://doi.org/10.1145/3591273' target='_blank'>https://doi.org/10.1145/3591273</a>.
+Koppel, James, et al. “Automatically Deriving Control-Flow Graph Generators from Operational Semantics.” Proceedings of the ACM on Programming Languages, vol. 6, no. ICFP, Aug. 2022, pp. 742–71. Crossref, <a href='https://doi.org/10.1145/3547648' target='_blank'>https://doi.org/10.1145/3547648</a>.
