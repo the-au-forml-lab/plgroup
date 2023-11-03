@@ -108,8 +108,7 @@ export const TextParser = class {
      * @param {string} bib: string
      */
     static title = (bib) =>
-        TextParser.spaceFix(TextParser.sanitize(
-            this.bibMatch(bib, 'title')))
+        TextParser.spaceFix(this.bibMatch(bib, 'title'))
 
     /**
      * Try to get conference name.
@@ -132,35 +131,10 @@ export const TextParser = class {
         const absETag = "</jats:abstract>"
         const absE = xml.indexOf(absETag) - 1
         const absS = aIdx + xml.substring(aIdx).indexOf(">") + 1
-        return TextParser.spaceFix(TextParser.sanitize(
+        return TextParser.spaceFix(
             xml.substring(absS, absE)
                 .replace(/[^\S ]+/g, '')
-                .replace(/<(\/?)jats:([a-z]+)>/g, '')))
-    }
-
-    /**
-     * Apply filtering to avoid markdown rendering issues
-     * @param str
-     * @returns {*}
-     */
-    static sanitize(str){
-        return (str || '')
-            .replace(/#/g, '&#35;')
-            .replace(/\*/g, '\\*')
-            .replace(/\_/g, '\\_')
-            .replace(/>/g, '&gt;')
-            .replace(/</g, '&lt;').trim()
-    }
-}
-
-/**
- *  Randomize array in-place using Durstenfeld shuffle algorithm
- *  credit: https://stackoverflow.com/a/12646864
- */
-export const shuffle = function (array) {
-    for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
+                .replace(/<(\/?)jats:([a-z]+)>/g, ''))
     }
 }
 
