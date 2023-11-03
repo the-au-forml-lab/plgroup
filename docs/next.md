@@ -1,1 +1,3 @@
-Tardieu, Olivier, et al. “Reliable Actors with Retry Orchestration.” Proceedings of the ACM on Programming Languages, vol. 7, no. PLDI, June 2023, pp. 1293–316. Crossref, <a href='https://doi.org/10.1145/3591273' target='_blank'>https://doi.org/10.1145/3591273</a>.
+Nov 17: finalize award categories
+
+Around Dec 1: awards discussion
