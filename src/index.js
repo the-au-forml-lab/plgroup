@@ -208,7 +208,7 @@ const chooseNext = async () => {
  */
 const updateWeb = async (numbered, ...DOIs) => {
     const papers = await FS.loadPapers();
-    let queue = [...DOIs], entries = [];
+    let queue = [...DOIs.reverse()], entries = [];
     while (queue.length) {
         const doi = queue.shift()
         if (!doi) {
