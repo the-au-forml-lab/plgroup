@@ -11,7 +11,7 @@ jobs:
             contains(github.event.pull_request.labels.*.name, 'next-paper') }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Get selection details
         id: vars
         run: |
