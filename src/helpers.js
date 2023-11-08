@@ -148,3 +148,5 @@ export const shuffle = function (array) {
         [array[i], array[j]] = [array[j], array[i]];
     }
 }
+
+export const invalid
