@@ -32,7 +32,7 @@ jobs:
           ref: 'main'
       - uses: actions/setup-node@v3
         with:
-          node-version: "latest"
+          node-version: 16
 
       - name: Run chooser
         run: |
