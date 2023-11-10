@@ -2,6 +2,7 @@
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/the-au-forml-lab/plgroup)
 [![Choose paper](https://github.com/the-au-forml-lab/plgroup/actions/workflows/choose.yaml/badge.svg)](https://github.com/the-au-forml-lab/plgroup/actions/workflows/choose.yaml)
+[![Maintainability](https://api.codeclimate.com/v1/badges/b10b07ed0fded196aaa2/maintainability)](https://codeclimate.com/github/the-au-forml-lab/plgroup/maintainability)
 
 **This project includes information about our programming languages reading group.**
 

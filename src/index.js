@@ -102,20 +102,17 @@ const extractDOIs = async pageURL => {
  * @returns {Promise<{}|*>} - Constructed dataset
  */
 const buildDataset = async DOIs => {
-    if (!DOIs || !DOIs.length) return {}
     let papers = await FS.loadPapers()
     const stop = await FS.readLines(F.STOPWORDS);
     for (const doi of DOIs) {
         const paper = papers[doi]
         const mla = paper ? paper[KEYS.mla] : await requestCite(doi)
         const bib = paper ? paper[KEYS.bib] : await requestBib(doi)
-        const confName = TextParser.conference(bib)
         // basic sanity checks
-        if (!confName || matchesStopWord(stop, mla)) {
-            // if exists, remove from dataset
+        if (!TextParser.conference(bib) || matchesStopWord(stop, mla)) {
             if (paper) delete papers[doi]
         }
-        // if not exists, add to dataset
+        // add to dataset
         else if (!paper && mla && bib)
             papers[doi] = {[KEYS.mla]: mla, [KEYS.bib]: bib}
     }
