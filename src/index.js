@@ -38,8 +38,8 @@ const getDetails = async (
     const papers = await FS.loadPapers();
     const doiURL = `${CONFIG.DOI_ORG_DOMAIN}/${doi}`
     const exists = Object.keys(papers).includes(doi)
-    const bib = await (exists ? papers[doiURL][KEYS.bib] :
-        requestBib(doiURL))
+    const bib = exists ? papers[doiURL][KEYS.bib] :
+        await (requestBib(doiURL))
     const title = TextParser.title(bib)
     const html = await readURL(XREF(doi))
     const abs = TextParser.abstract(html) || doiURL
@@ -50,7 +50,7 @@ const getDetails = async (
         FS.writeFile(F.PAPERS, JSON.stringify(papers))
     }
     const result = [title, mla, abs].join('\n')
-    if (log) console.log('Details\n\n', result)
+    if (log) console.log(result)
     return result
 }
 
@@ -85,40 +85,55 @@ const setNext = async doi => {
 }
 
 /**
+ * Find DOI patterns at some webpage.
+ *
+ * @param pageURL -- full HTTP url of the page to crawl
+ * @returns {Promise<*[String]>} -- llist of unique DOIs on that page.
+ */
+const extractDOIs = async pageURL => {
+    let reMatch = (await readURL(pageURL))
+        .matchAll(TextParser.DoiRE)
+    return [...new Set(Array.from(reMatch, m => m[0]))]
+}
+
+/**
+ * Build a dataset from a list of DOIs
+ * @param DOIs - Dataset input DOIs
+ * @returns {Promise<{}|*>} - Constructed dataset
+ */
+const buildDataset = async DOIs => {
+    if (!DOIs || !DOIs.length) return {}
+    let papers = await FS.loadPapers()
+    const stop = await FS.readLines(F.STOPWORDS);
+    for (const doi of DOIs) {
+        const paper = papers[doi]
+        const mla = paper ? paper[KEYS.mla] : await requestCite(doi)
+        const bib = paper ? paper[KEYS.bib] : await requestBib(doi)
+        const confName = TextParser.conference(bib)
+        // basic sanity checks
+        if (!confName || matchesStopWord(stop, mla)) {
+            // if exists, remove from dataset
+            if (paper) delete papers[doi]
+        }
+        // if not exists, add to dataset
+        else if (!paper && mla && bib)
+            papers[doi] = {[KEYS.mla]: mla, [KEYS.bib]: bib}
+    }
+    return papers
+}
+
+/**
  * Crawl for papers for each URL in files/sources.txt.
- * At completion, this method will generate a dataset of papers.
+ * At completion, this method has generated a dataset of papers.
  * @returns {Promise<void>}
  */
 const findPapers = async () => {
-    let papers = await FS.loadPapers()
-    const paperKeys = Object.keys(papers)
-    const sources = await FS.readLines(F.SOURCES);
-    const stop = await FS.readLines(F.STOPWORDS);
-    let foundPapers = []
-    console.log('Processing', sources.length, 'source(s)')
-    for (const src of sources) {
-        let rawResp = await readURL(src)
-        let reMatch = rawResp.matchAll(TextParser.DoiRE)
-        const DOIs = [...new Set(Array.from(reMatch, m => m[0]))]
-        foundPapers = foundPapers.concat(DOIs);
-    }
-    console.log('Found', foundPapers.length, 'papers...')
-    for (const doi of foundPapers) {
-        const exists = paperKeys.includes(doi)
-        const mla = exists ?
-            papers[doi][KEYS.mla] : (await requestCite(doi))
-        const stopMatch = matchesStopWord(stop, mla)
-        if (stopMatch) {
-            if (exists) delete papers[doi];
-            continue;
-        }
-        const bib = exists ?
-            papers[doi][KEYS.bib] : (await requestBib(doi))
-        const knownConf = TextParser.conference(bib)
-        if (!knownConf && exists) delete papers[doi]
-        else if (mla && bib && knownConf)
-            papers[doi] = {[KEYS.mla]: mla, [KEYS.bib]: bib}
-    }
+    const sourceURLs = await FS.readLines(F.SOURCES);
+    console.log('Searching in ', sourceURLs.length, 'source(s)')
+    const DOIs = (await Promise.all(
+        sourceURLs.map(async s => await extractDOIs(s)))).flat()
+    console.log('Found', DOIs.length, 'papers, processing...')
+    const papers = await buildDataset(DOIs)
     FS.writeFile(F.PAPERS, JSON.stringify(papers))
     await stats()
 }
@@ -168,30 +183,27 @@ const chooseNext = async () => {
 }
 
 /**
- * Generate web page content from paper details.
+ * Generate a  list of paper citations from a list of DOIs.
  *
- * This function takes a list of DOIs, then looks up the metadata
- * for each DOI and returns a corresponding string.
+ * This function takes a list of DOIs, then looks up the MLA citation
+ * for each DOI, and returns a corresponding (optionally numbered)
+ * string.
  *
  * @param numbered - number the entries.
  * @param DOIs - iterable of DOIs
  * @returns {Promise<string>}
  */
-const updateWeb = async (numbered, ...DOIs) => {
-    const papers = await FS.loadPapers();
-    let queue = [...DOIs.reverse()], entries = [];
-    while (queue.length) {
-        const doi = queue.shift()
-        if (!doi) {
-            console.log('not found', doi)
-            continue
-        }
-        const plain_mla = papers[doi] ?
-            papers[doi][KEYS.mla] : (await requestCite(doi))
-        const mla = TextParser.hyperDOI(plain_mla, doi)
-        const entry = numbered ? `${queue.length + 1}. ${mla}` : mla
-        entries.unshift(entry)
-    }
+const paperList = async (numbered, ...DOIs) => {
+    const papers = await FS.loadPapers()
+    const queue = DOIs.filter(x => x).reverse()
+    const entries = await Promise.all(
+        queue.map(async (doi, index) => {
+            const cite = papers[doi] ?
+                papers[doi][KEYS.mla] : await requestCite(doi)
+            const mla = TextParser.hyperDOI(
+                TextParser.spaceFix(cite), doi)
+            return numbered ? `${index + 1}. ${mla}` : mla
+        }))
     return entries.join('\n');
 }
 
@@ -202,18 +214,16 @@ const updateWeb = async (numbered, ...DOIs) => {
 const writeWeb = async () => {
     const all = await FS.readLines(F.SEMESTER_PAPERS)
     const first = all.length > 0 ? all[all.length - 1] : null
-    FS.writeFile(F.WEB_NEXT, await updateWeb(false, first))
-    FS.writeFile(F.WEB_PAPERS, await updateWeb(true, ...all))
+    FS.writeFile(F.WEB_NEXT, await paperList(false, first))
+    FS.writeFile(F.WEB_PAPERS, await paperList(true, ...all))
 }
 
 /**
  * Handle selected action
  */
 (async _ => {
-    /* get process args */
     const [action, param] = process.argv.slice(2);
 
-    /* determine the appropriate action */
     let todo;
     switch (action) {
         case(ACTIONS.UPDATE):
@@ -232,8 +242,7 @@ const writeWeb = async () => {
             todo = stats;
             break;
         case (ACTIONS.DETAILS):
-            todo = (() =>
-                getDetails(param, false, true));
+            todo = (() => getDetails(param, false, true));
             break;
         default:
             todo = () => console.log('Unknown action')
