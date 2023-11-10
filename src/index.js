@@ -1,41 +1,7 @@
-import https from 'https';
-import {FILES as F, ACTIONS, CONFIG, KEYS, XREF} from './config.js';
-import {FileSystem as FS, TextParser, shuffle} from './helpers.js';
+import {ACTIONS, CONFIG, FILES as F, KEYS, XREF} from './config.js';
+import {FileSystem as FS, shuffle, TextParser} from './helpers.js';
+import {readURL} from "./request.js";
 
-
-/**
- * GET response for some url.
- * This will follow (cross-domain) redirects.
- *
- * @param {string} url - the URL to read
- * @param {Object} headers - request headers (if any)
- * @returns {Promise<unknown>}
- */
-const readURL = (url, headers = {}) => {
-    return new Promise((resolve, reject) => {
-        const req = (reqUrl, redirs = 0) => {
-            const {host, pathname: path} = new URL(reqUrl)
-            https.request({host, path, ...headers}, response => {
-                if (response.statusCode === 302) {
-                    if (redirs > CONFIG.MAX_REDIRS)
-                        reject('too many redirects')
-                    else
-                        // FYI, location could be a path,
-                        // assuming here it is a full URL redirect
-                        req(response.headers.location,
-                            redirs + 1);
-                } else {
-                    let chunks = [];
-                    response.on('data', chunk =>
-                        chunks.push(chunk));
-                    response.on('end', _ =>
-                        resolve(Buffer.concat(chunks).toString()));
-                }
-            }).on('error', reject).end();
-        };
-        req(url)
-    });
-}
 
 /**
  * Gets basic metadata (MLA citation) from some DOI over network.
@@ -64,23 +30,28 @@ const requestBib = async (doiUrl) =>
  * MLA format.
  * @param {string} doi - DOI without domain, e.g. 10.1093/ajae/aaq063
  * @param {boolean} additive - set True to add to database if not exists.
+ * @param {boolean} log - output the details
  * @returns {Promise<string>}
  */
-const getDetails = async (doi, additive = false) => {
-    const papers = (await FS.loadPapers());
+const getDetails = async (
+    doi, additive = false, log = false) => {
+    const papers = await FS.loadPapers();
     const doiURL = `${CONFIG.DOI_ORG_DOMAIN}/${doi}`
     const exists = Object.keys(papers).includes(doi)
-    const bib = exists ? papers[doiURL][KEYS.bib] : (await requestBib(doiURL))
+    const bib = await (exists ? papers[doiURL][KEYS.bib] :
+        requestBib(doiURL))
     const title = TextParser.title(bib)
     const html = await readURL(XREF(doi))
     const abs = TextParser.abstract(html) || doiURL
     const mla = TextParser.spaceFix(exists ?
-        papers[doiURL][KEYS.mla] : (await requestCite(doiURL)))
+        papers[doiURL][KEYS.mla] : await requestCite(doiURL))
     if (additive && !exists) {
         papers[doiURL] = {[KEYS.mla]: mla, [KEYS.bib]: bib}
         FS.writeFile(F.PAPERS, JSON.stringify(papers))
     }
-    return [title, mla, abs].join('\n')
+    const result = [title, mla, abs].join('\n')
+    if (log) console.log('Details\n\n', result)
+    return result
 }
 
 /**
@@ -236,16 +207,38 @@ const writeWeb = async () => {
 }
 
 /**
- * Handle selected action (if recognizable); from process args.
+ * Handle selected action
  */
-(_ => {
+(async _ => {
+    /* get process args */
     const [action, param] = process.argv.slice(2);
-    if (action === ACTIONS.UPDATE) return findPapers()
-    if (action === ACTIONS.CHOOSE) return chooseNext()
-    if (action === ACTIONS.SET && param) return setNext(param)
-    if (action === ACTIONS.WEB) return writeWeb()
-    if (action === ACTIONS.STATS) return stats()
-    if (action === ACTIONS.DETAILS && param)
-        return getDetails(param).then(console.log)
-    return console.log('Unknown action')
+
+    /* determine the appropriate action */
+    let todo;
+    switch (action) {
+        case(ACTIONS.UPDATE):
+            todo = findPapers;
+            break;
+        case(ACTIONS.CHOOSE):
+            todo = chooseNext;
+            break;
+        case (ACTIONS.SET):
+            todo = (() => setNext(param));
+            break;
+        case (ACTIONS.WEB):
+            todo = writeWeb;
+            break;
+        case (ACTIONS.STATS):
+            todo = stats;
+            break;
+        case (ACTIONS.DETAILS):
+            todo = (() =>
+                getDetails(param, false, true));
+            break;
+        default:
+            todo = () => console.log('Unknown action')
+    }
+
+    await todo();
+    process.exit()
 })();
