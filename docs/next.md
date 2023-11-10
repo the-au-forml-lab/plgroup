@@ -1,3 +1,3 @@
-Nov 17: finalize award categories
+* Nov 17: we will finalize award categories
 
-Around Dec 1: awards discussion
+* Around Dec 1 (TBD): **The Awesome Fall Finale & Awards Gala** 🎊 🥂
