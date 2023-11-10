@@ -109,9 +109,9 @@ const buildDataset = async DOIs => {
         const mla = paper ? paper[KEYS.mla] : await requestCite(doi)
         const bib = paper ? paper[KEYS.bib] : await requestBib(doi)
         // basic sanity checks
-        if (paper && (!TextParser.conference(bib) ||
-            matchesStopWord(stop, mla)))
-            delete papers[doi]
+        if (!TextParser.conference(bib) || matchesStopWord(stop, mla)) {
+            if (paper) delete papers[doi]
+        }
         // add to dataset
         else if (!paper && mla && bib)
             papers[doi] = {[KEYS.mla]: mla, [KEYS.bib]: bib}
