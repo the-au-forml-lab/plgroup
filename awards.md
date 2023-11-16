@@ -18,3 +18,16 @@ Think of the traditional saying: a picture is worth a thousand words. The best v
 
 This award is for the paper that looks hype at a glance,
 but turns out to be maxiamlly uninteresting upon any further inspection.
+
+
+#### Sisyphus Award
+    
+> For the intellectual odysseys that echo the eternal uphill climb, where understanding feels always a step away. This accolade is for those papers where the journey of learning is arduous yet enlightening, with each breakthrough leading only to more questions, never quite reaching the peak of comprehension. Alternatively: for the journey that leaves you feeling constantly on the cusp of breakthrough, only to realize the only thing that broke was you.
+
+#### Through the Looking Glass Award
+    
+> Bestowed upon works that reveal a world beyond the mirror, where conventional views are turned upside down. This award celebrates papers that lead to unexpected realms of thought, turning the ordinary into the extraordinary and reshaping familiar landscapes into realms of wonder.
+
+#### Ligma Award
+    
+> Honoring those deceptively simple revelations that dawn slowly, this award is for papers whose true genius is hidden in plain sight. They are the works that, once understood, seem self-evident, casting a light on truths that were always there, waiting to be seen in their straightforward simplicity.
