@@ -18,3 +18,7 @@ Think of the traditional saying: a picture is worth a thousand words. The best v
 
 This award is for the paper that looks hype at a glance,
 but turns out to be maxiamlly uninteresting upon any further inspection.
+
+#### Proofs and Toil Make Me Boil
+
+> This accolade is for papers that cast a spell of frustration, with each theorem and proof a bewitching yet maddening ingredient in an academic potion. They are like arcane scrolls, bubbling with a complexity that stirs the mind into a cauldron of irritation. Reading them is like a journey through an enigmatic grimoire, where the pursuit of knowledge is more akin to a vexing witch's toil.
