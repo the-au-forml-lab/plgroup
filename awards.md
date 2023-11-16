@@ -15,5 +15,6 @@ Think of the traditional saying: a picture is worth a thousand words. The best v
 > BUT, BUT, the unique part is that he has a unique skill that makes him
 > overpowered even at level 1!
 > And then, get this, he even befriends a talking sword.
+
 This award is for the paper that looks hype at a glance,
 but turns out to be maxiamlly uninteresting upon any further inspection.
