@@ -7,3 +7,13 @@ The room is cold. _How did I even end up here?_ you wonder. _This shouldn't have
 
 Think of the traditional saying: a picture is worth a thousand words. The best visuals are not just decorative illustrations, but add exhilarating twists and captivating details to the reading experience, and enhance the reader's understanding of the story. This award recognizes the paper that best leverages the power of visual storytelling to show to the reader the world that the authors wishes for them to see.
 
+#### Self-Inserty Main Character
+> Ok, get this: We have a fantasy protagonist,
+> but he's cool because he wears a dark cloak with black hair.
+> Except initially, he's super weak and gets bullied.
+> But luckily, he has a knight who protects him for some reason.
+> BUT, BUT, the unique part is that he has a unique skill that makes him
+> overpowered even at level 1!
+> And then, get this, he even befriends a talking sword.
+This award is for the paper that looks hype at a glance,
+but turns out to be maxiamlly uninteresting upon any further inspection.
