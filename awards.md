@@ -34,3 +34,10 @@ but turns out to be maxiamlly uninteresting upon any further inspection.
 #### Ligma Award
     
 > Honoring those deceptively simple revelations that dawn slowly, this award is for papers whose true genius is hidden in plain sight. They are the works that, once understood, seem self-evident, casting a light on truths that were always there, waiting to be seen in their straightforward simplicity.
+
+#### The Magician's Hat
+> This award is reserved for papers that, like a magician's hat, manage to fit far more into their pages than seems physically possible. It honors those works where every new paragraph pulls another unexpected yet perfectly relevant concept out of thin air, leaving the reader both baffled and amused by the academic sleight of hand.
+
+#### The Arcane Archives Award
+> This award is reserved for papers that seem to hold the keys to a hidden library of "forbidden knowledge." They tantalize readers with fleeting references to prior work, akin to ancient tomes mentioned in whispers but never displayed. Each citation is like a cryptic clue to a vast, unseen intellectual treasure, inviting the curious to embark on a quest through the labyrinth of academia in search of these elusive, almost mythical sources.
+
