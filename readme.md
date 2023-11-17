@@ -116,11 +116,13 @@ It is also possible to pause the workflow without code changes from repository s
     
     Edit `docs/index.md` front-matter to describe the current or upcoming semester.
 
-4. Turn on paper selection workflow in _settings > secrets and variables > actions_: set `PAPER_CHOOSE_ON` value to `1`
+4. Turn on paper selection workflow in _settings > secrets and variables > actions_:  
+   set `PAPER_CHOOSE_ON` value to `1`
 
 ### End of semester
 
-1. Turn off paper selection workflow in _settings > secrets and variables > actions_: set `PAPER_CHOOSE_ON` value to `0`
+1. Turn off paper selection workflow in _settings > secrets and variables > actions_:  
+   set `PAPER_CHOOSE_ON` value to `0`
 2. Clear the next paper selection. You can include a custom message in the quotes: 
 
    ```
