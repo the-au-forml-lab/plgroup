@@ -134,12 +134,12 @@ To get the automatic actions to work properly, complete the following steps.
 
 #### Configuration tasks TODO
 
-* **Enable workflow permissions** in _settings > action_:
-    - read and write permissions
-    - permission to create and approve pull requests
+* **Enable workflow permissions** in _settings > actions > general_:
+    - choose "Read and write permissions"
+    - check "Allow GitHub Actions to create and approve pull requests"
 * **Create expected environment variables** in _settings > secrets and variables > actions (variables)_:
     - `PAPER_CHOOSE_ON` with value `0` or `1`, off or on.
-    - `REVIEWERS` a newline-separated string of GH usernames affiliated with repo/org.
+    - `REVIEWERS` a newline-separated string of GitHub usernames affiliated with repository/organization.
 * **Create expected environment secrets** in _settings > secrets and variables > actions (secrets)_:
-    - `AUTOMERGE_PAT` a personal access token of a user with repo write access, to auto-merge PRs.
+    - `AUTOMERGE_PAT` a personal access token of a user with repository write access, to auto-merge PRs.
     - `DISCORD_WEBHOOK_URL` or `SLACK_WEBHOOK_URL` to enable discord or slack integration.
