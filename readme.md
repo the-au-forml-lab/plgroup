@@ -85,17 +85,8 @@ It is also possible to pause the workflow without code changes from repository s
 - to resume action set `PAPER_CHOOSE_ON` value to `1`.
 
 ## Semester maintenance
-
-**End of a semester**
-
-1. Turn off paper selection workflow in settings: set `PAPER_CHOOSE_ON` value to `0`
-2. Clear the next paper selection. You can include a custom message in the quotes: 
-
-   ```
-   echo '' > docs/next.md
-   ```
   
-**Start of semester**
+### Start of semester
 
 1. Review and update [`sources.txt`](data/sources.txt)
 2. If sources were updated in step 1, run 
@@ -123,9 +114,18 @@ It is also possible to pause the workflow without code changes from repository s
     && touch $DOCS"papers.md"
     ````
     
-    Lastly, edit `docs/index.md` front-matter to describe the current or upcoming semester.
+    Edit `docs/index.md` front-matter to describe the current or upcoming semester.
 
-4. Turn on paper selection workflow in settings: set `PAPER_CHOOSE_ON` value to `1`
+4. Turn on paper selection workflow in _settings > secrets and variables > actions_: set `PAPER_CHOOSE_ON` value to `1`
+
+### End of semester
+
+1. Turn off paper selection workflow in _settings > secrets and variables > actions_: set `PAPER_CHOOSE_ON` value to `0`
+2. Clear the next paper selection. You can include a custom message in the quotes: 
+
+   ```
+   echo '' > docs/next.md
+   ```
 
 ## Notes for forking
 
