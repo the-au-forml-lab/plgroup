@@ -41,3 +41,13 @@ but turns out to be maxiamlly uninteresting upon any further inspection.
 #### The Arcane Archives Award
 > This award is reserved for papers that seem to hold the keys to a hidden library of "forbidden knowledge." They tantalize readers with fleeting references to prior work, akin to ancient tomes mentioned in whispers but never displayed. Each citation is like a cryptic clue to a vast, unseen intellectual treasure, inviting the curious to embark on a quest through the labyrinth of academia in search of these elusive, almost mythical sources.
 
+#### Michael Jackson, King of Pop
+> Michael Jackson; A world renowned pop artist; the man who arguably changed the music forever; his impact still being felt to this day. (Also a Psych reference ;) )
+
+This award is for a paper so prolific, so renowned, that it stands the test of time and shows how timeless and revolutionary the research it holds.
+
+#### Judging a Book By It's Cover
+This award goes to the paper where, just by looking at the first page, we can determine how this paper is going to go, for better or for worse.
+
+#### The Barbenheimer
+This award is for two papers so dramatically different from one another, yet somehow compliment each other in a unintended but convenient/funny way. 
