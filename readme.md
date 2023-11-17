@@ -6,6 +6,8 @@
 
 **This project includes information about our programming languages reading group.**
 
+Augusta University Programming Languages (PL) Reading Group is a regular meeting to discuss exciting recent results in programming languages research. 
+The intent of the group is to learn about various ideas and generally broaden perspectives on PL research topics.
 This repository contains a small website and tooling for selecting papers to read.
 We select papers randomly from top programming languages conferences.
 
@@ -21,7 +23,7 @@ The content of this repository is organized as follows:
 
 | Directory               | Description                                    |
 |:------------------------|:-----------------------------------------------|
-| **`.github/workflows`** | GitHub actions: automation                     |
+| **`.github/workflows`** | GitHub actions for automation                  |
 | **`data`**              | static and generated files for paper selection |
 | **`docs`**              | website content                                |
 | **`src`**               | source code for choosing papers                |
@@ -109,13 +111,15 @@ It is also possible to pause the workflow without code changes from repository s
     
     ````shell
     SEM=fall && YEAR=2023 \
-    && DOCS=docs/ \
+    && DOCS=docs/ && DATA=data/ \
     && OLD_DIR=$DOCS"_past_semesters/"$YEAR"_"$SEM \
-    && mkdir $OLD_DIR \
+    && mkdir -p $OLD_DIR \
     && cp $DOCS"index.md" $OLD_DIR"/index.md" \
     && mv $DOCS"papers.md" $OLD_DIR"/papers.md" \
     && [ ! -f $DOCS"awards.md" ] || mv $DOCS"awards.md" $OLD_DIR"/awards.md" \
     && echo '' > $DOCS"/next.md" \
+    && echo '' > $DATA"/past.txt" \
+    && echo '' > $DATA"/next.txt" \
     && touch $DOCS"papers.md"
     ````
     
@@ -128,22 +132,14 @@ It is also possible to pause the workflow without code changes from repository s
 The repository code is generic in the sense that, by changing the conference [`sources.txt`](data/sources.txt), it can be made to suggest any kinds of papers that have DOIs indexed by Crossref.
 To get the automatic actions to work properly, complete the following steps.
 
-Enable workflow permissions, in settings > action
+#### Configuration tasks TODO
 
-- [ ] read and write permissions
-- [ ] permission to create and approve pull requests
-
-Create expected environment secrets, in settings > secrets and variables > actions
-
-Variables
-
-- [ ] `PAPER_CHOOSE_ON` with value `0` or `1` (off or on).
-- [ ] `REVIEWERS` whose value is a newline-separated string of GH usernames. 
-  Reviewers must have sufficient repo/org permissions to perform this task.
-
-Secrets
-
-- [ ] `AUTOMERGE_PAT` whose value is a personal access token of a user with repository write access.
-  This allows auto-merging a PR into the main branch after merge conditions are satisfied.
-- [ ] `DISCORD_WEBHOOK_URL` or `SLACK_WEBHOOK_URL` to enable discord or slack integration. 
-  Otherwise, the notification step will be skipped during workflow runs.
+* **Enable workflow permissions** in _settings > action_:
+    - read and write permissions
+    - permission to create and approve pull requests
+* **Create expected environment variables** in _settings > secrets and variables > actions (variables)_:
+    - `PAPER_CHOOSE_ON` with value `0` or `1`, off or on.
+    - `REVIEWERS` a newline-separated string of GH usernames affiliated with repo/org.
+* **Create expected environment secrets** in _settings > secrets and variables > actions (secrets)_:
+    - `AUTOMERGE_PAT` a personal access token of a user with repo write access, to auto-merge PRs.
+    - `DISCORD_WEBHOOK_URL` or `SLACK_WEBHOOK_URL` to enable discord or slack integration.
