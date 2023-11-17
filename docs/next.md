@@ -1,3 +1,1 @@
-* Nov 17: we will finalize award categories
-
-* Around Dec 1 (TBD): **The Awesome Fall Finale & Awards Gala** 🎊 🥂
+* Nov 30 12:00-14:00 **The Awesome Fall 2023 Finale & Awards Gala** at Hildebrandt's 🎊 🥂
