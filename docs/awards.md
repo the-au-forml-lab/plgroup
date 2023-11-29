@@ -23,8 +23,10 @@
 
 #### Judging a Book By Its Cover
 
-> This award goes to the paper where, just by looking at the first page, we can determine how this paper is going to go, for better or for worse.
+> Similar to the title of this award, this category is for the paper where, just by looking at the first page, we can determine how this paper is going to go, for better or for worse.
 
 #### The Barbenheimer
 
-> This award is for two papers so dramatically different from one another, yet somehow compliment each other in a unintended but convenient/funny way. 
+> Barbenheimer: A rare anomoly in pop culture where two seemingly polar opposite films pair together in such a way that compliments one another, in some weird sort of harmony nobody would think would work. Who new atomic bombs would look good in Barbie Pink?
+> This award goes to a pair of papers that, while seemingly entirely different from one another, compliment each other in a way that just makes sense.
+> (Note: A paper must be nominated for one of the other categories to be eligible for this award).
