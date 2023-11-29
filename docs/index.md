@@ -1,6 +1,7 @@
 ---
 semester: Fall
 year: 2023
+awards: true
 ---
 
 Augusta University Programming Languages (PL) Reading Group is a regular meeting to discuss exciting recent results in programming languages research.
