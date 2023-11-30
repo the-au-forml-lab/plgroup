@@ -8,10 +8,9 @@
 
 > Art is not what you see, but what you make others see. The best visuals are not just decorative illustrations, but add informing perspectives to the reading experience. This award recognizes the paper that best leverages the power of illustrations to enhance the author's story. 
 
-#### Proofs and Toil Make Me Boil / Sisyphus Award
-
-> This accolade is for papers that cast a spell of frustration, with each theorem and proof a bewitching yet maddening ingredient in an academic potion. They are like arcane scrolls, bubbling with a complexity that stirs the mind into a cauldron of irritation. Reading them is like a journey through an enigmatic grimoire, where the pursuit of knowledge is more akin to a vexing witch's toil.    
-> For the intellectual odysseys that echo the eternal uphill climb, where understanding feels always a step away. This accolade is for those papers where the journey of learning is arduous yet enlightening, with each breakthrough leading only to more questions, never quite reaching the peak of comprehension. Alternatively: for the journey that leaves you feeling constantly on the cusp of breakthrough, only to realize the only thing that broke was you.
+#### Sisyphus Award
+  
+> For the intellectual odysseys that echo the eternal uphill climb, where understanding feels always a step away. This accolade is for those papers where the journey of learning is arduous yet, with each bear breakthrough leading only to more questions, never quite reaching the peak of comprehension. This is for the journey that leaves you feeling constantly on the cusp of breakthrough, only to realize the only thing that broke was you.
 
 #### Through the Looking Glass Award
     
