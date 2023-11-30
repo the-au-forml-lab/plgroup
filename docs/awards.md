@@ -13,8 +13,8 @@
 > This accolade is for papers that cast a spell of frustration, with each theorem and proof a bewitching yet maddening ingredient in an academic potion. They are like arcane scrolls, bubbling with a complexity that stirs the mind into a cauldron of irritation. Reading them is like a journey through an enigmatic grimoire, where the pursuit of knowledge is more akin to a vexing witch's toil.
 
 ##### The Sisyphus
-
-> For the intellectual odysseys that echo the eternal uphill climb, where understanding feels always a step away. This accolade is for those papers where the journey of learning is arduous yet enlightening, with each breakthrough leading only to more questions, never quite reaching the peak of comprehension. Alternatively: for the journey that leaves you feeling constantly on the cusp of breakthrough, only to realize the only thing that broke was you.
+  
+> For the intellectual odysseys that echo the eternal uphill climb, where understanding feels always a step away. This accolade is for those papers where the journey of learning is arduous yet, with each bear breakthrough leading only to more questions, never quite reaching the peak of comprehension. This is for the journey that leaves you feeling constantly on the cusp of breakthrough, only to realize the only thing that broke was you.
 
 ##### Through the Looking Glass
 
@@ -26,11 +26,11 @@
 
 ##### Judging a Book By Its Cover
 
-> This award goes to the paper where, just by looking at the first page, we can determine how this paper is going to go, for better or for worse.
+> Similar to the title of this award, this category is for the paper where, just by looking at the first page, we can determine how this paper is going to go, for better or for worse.
 
 ##### The Barbenheimer
 
-> Barbenheimer: A rare anomoly in pop culture where two seemingly polar opposite films pair together in such a way that compliments one another, in some weird sort of harmony nobody would think would work. Who new atomic bombs would look good in Barbie Pink?
+> Barbenheimer: A rare anomaly in pop culture where two seemingly polar opposite films pair together in such a way that compliments one another, in some weird sort of harmony nobody would think would work. Who new atomic bombs would look good in Barbie Pink?
 > This award goes to a pair of papers that, while seemingly entirely different from one another, compliment each other in a way that just makes sense.
 > (Note: A paper must be nominated for one of the other categories to be eligible for this award).
 
