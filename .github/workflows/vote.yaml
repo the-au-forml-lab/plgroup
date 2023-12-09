@@ -59,7 +59,7 @@ jobs:
         with:
           add-paths: files/*.txt
           labels: paper-vote
-          branch: paper-vote
+          branch: paper-vote-${{ matrix.options }}
           delete-branch: true
           title: ${{ steps.vars.outputs.title }}
           body: |
