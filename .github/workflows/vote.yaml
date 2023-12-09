@@ -24,6 +24,8 @@ jobs:
         # number of vote options to generate;
         # The values are not relevant, just the list length.
         options: [ 1, 2, 3 ]
+      # to generate and post options sequentially
+      max-parallel: 1
     # Generate #{matrix} PRs with a paper option,
     # then report vote options to Discord
     steps:
@@ -71,14 +73,14 @@ jobs:
 
             **Merge this PR to apply selection.**
       - name: Record PR number and URL
-        if: ${{ steps.cpr.outputs.pull-request-number }}
+        if: ${{ steps.paperpr.outputs.pull-request-number }}
         run: |
-          echo "PR=${{ steps.cpr.outputs.pull-request-number }}" >> $GITHUB_ENV
-          echo "PR_URL=${{ steps.cpr.outputs.pull-request-url }}" >> $GITHUB_ENV
+          echo "PR=${{ steps.paperpr.outputs.pull-request-number }}" >> $GITHUB_ENV
+          echo "PR_URL=${{ steps.paperpr.outputs.pull-request-url }}" >> $GITHUB_ENV
       - name: Post vote option
         if: ${{ env.DISCORD_WEBHOOK != '' }}
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_TEST }}
         uses: Ilshidur/action-discord@master
         with:
-          args: "Vote Option ${{ matrix.options }} ${{ steps.vars.outputs.NOW }}: **${{ steps.vars.outputs.title }}**\n\n${{ steps.vars.outputs.abs }}\n\n${{ steps.vars.outputs.mla }}\n\nMerge PR ${{ steps.vars.outputs.PR }} to apply: ${{ steps.vars.outputs.PR_URL }}"
+          args: "Vote Option ${{ matrix.options }} ${{ steps.vars.outputs.NOW }}: **${{ steps.vars.outputs.title }}**\n\n${{ steps.vars.outputs.abs }}\n\n${{ steps.vars.outputs.mla }}\n\nMerge [PR\#${{ steps.vars.outputs.PR }} to apply](${{ steps.vars.outputs.PR_URL }})"
