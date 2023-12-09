@@ -1,1 +1,1 @@
-Winter break, see you in the spring
+Milovančević, Dragana, and Viktor Kunčak. “Proving and Disproving Equivalence of Functional Programming Assignments.” Proceedings of the ACM on Programming Languages, vol. 7, no. PLDI, June 2023, pp. 928–51. Crossref, <a href='https://doi.org/10.1145/3591258' target='_blank'>https://doi.org/10.1145/3591258</a>.
