@@ -1,0 +1,84 @@
+name: Vote for paper
+
+on:
+#  schedule:
+#            # ┌─────────── minute (0 - 59)
+#            # │  ┌────────── hour (0 - 23, UTC)
+#            # │  │  ┌────────── day of the month (1 - 31)
+#            # │  │  │  ┌────────── month (1 - 12 or JAN-DEC)
+#            # │  │  │  │  ┌────────── day of the week (0 - 6 or SUN-SAT)
+#            # │  │  │  │  │
+#            # │  │  │  │  │
+#            # │  │  │  │  │
+#            # *  *  *  *  *
+#    - cron:  '0 14  *  *  5'
+  workflow_dispatch:
+    branches: [ main ]
+
+jobs:
+  vote_option:
+#    if: ${{ vars.PAPER_VOTE_ON == 1 }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        # number of vote options to generate;
+        # The values are not relevant, just the list length.
+        options: [ 1, 2, 3 ]
+    # Generate #{matrix} PRs with a paper option,
+    # then report vote options to Discord
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: 'main'
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 20
+      - name: Run chooser
+        run: |
+          npm run choose
+          npm run web
+      - name: Get selection details
+        id: vars
+        run: |
+          echo "title=$(sed -n '1p' ./data/desc.txt)" >> $GITHUB_OUTPUT &&
+          echo "mla=$(sed -n '2p' ./data/desc.txt)" >> $GITHUB_OUTPUT &&
+          echo "abs=$(sed -n '3p' ./data/desc.txt)" >> $GITHUB_OUTPUT &&
+          echo "doi=$(cat ./data/next.txt)" >> $GITHUB_OUTPUT &&
+          echo "NOW=$(date +'%d %B')" >> $GITHUB_ENV
+      - name: Create commit
+        run: |
+          git config user.name 'Bot'
+          git config user.email 'the-au-forml-lab@users.noreply.github.com'
+          git add -A
+          git commit -m "Next paper option $NOW"
+      - name: Create Pull Request
+        id: paperpr
+        uses: peter-evans/create-pull-request@v4
+        with:
+          add-paths: files/*.txt
+          labels: paper-vote
+          branch: paper-vote
+          delete-branch: true
+          title: ${{ steps.vars.outputs.title }}
+          body: |
+            This paper was randomly selected as your next reading option.
+
+            ### ${{ steps.vars.outputs.title }}
+
+            ${{ steps.vars.outputs.abs }}
+
+            > ${{ steps.vars.outputs.mla }}
+
+            **Merge this PR to apply selection.**
+      - name: Record PR number and URL
+        if: ${{ steps.cpr.outputs.pull-request-number }}
+        run: |
+          echo "PR=${{ steps.cpr.outputs.pull-request-number }}" >> $GITHUB_ENV
+          echo "PR_URL=${{ steps.cpr.outputs.pull-request-url }}" >> $GITHUB_ENV
+      - name: Post vote option
+        if: ${{ env.DISCORD_WEBHOOK != '' }}
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_TEST }}
+        uses: Ilshidur/action-discord@master
+        with:
+          args: "Vote Option ${{ matrix.options }} ${{ steps.vars.outputs.NOW }}: **${{ steps.vars.outputs.title }}**\n\n${{ steps.vars.outputs.abs }}\n\n${{ steps.vars.outputs.mla }}\n\nMerge PR ${{ steps.vars.outputs.PR }} to apply: ${{ steps.vars.outputs.PR_URL }}"
