@@ -83,4 +83,4 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_TEST }}
         uses: Ilshidur/action-discord@master
         with:
-          args: "Vote Option ${{ matrix.options }} ${{ steps.vars.outputs.NOW }}: **${{ steps.vars.outputs.title }}**\n\n${{ steps.vars.outputs.abs }}\n\n${{ steps.vars.outputs.mla }}\n\nMerge [PR\#${{ steps.vars.outputs.PR }} to apply](${{ steps.vars.outputs.PR_URL }})"
+          args: "Vote Option ${{ matrix.options }} ${{ steps.vars.outputs.NOW }}: **${{ steps.vars.outputs.title }}**\n\n${{ steps.vars.outputs.abs }}\n\n${{ steps.vars.outputs.mla }}\n\nMerge [PR ${{ steps.vars.outputs.PR }} to apply](${{ steps.vars.outputs.PR_URL }})"
