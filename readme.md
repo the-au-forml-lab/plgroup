@@ -117,12 +117,13 @@ It is also possible to pause the workflow without code changes from repository s
     Edit `docs/index.md` front-matter to describe the current or upcoming semester.
 
 4. Turn on paper selection workflow in _settings > secrets and variables > actions_:  
-   set `PAPER_CHOOSE_ON` value to `1`
+   - To use random-paper suggestion, set `PAPER_CHOOSE_ON` value to `1`
+   - To use random-paper voting, set `PAPER_VOTE_ON` value to `1`
 
 ### End of semester
 
 1. Turn off paper selection workflow in _settings > secrets and variables > actions_:  
-   set `PAPER_CHOOSE_ON` value to `0`
+   Confirm `PAPER_CHOOSE_ON` and `PAPER_VOTE_ON` values are set to `0`
 2. Clear the next paper selection. You can include a custom message in the quotes: 
 
    ```
@@ -141,7 +142,9 @@ To get the automatic actions to work properly, complete the following steps.
     - check "Allow GitHub Actions to create and approve pull requests"
 * **Create expected environment variables** in _settings > secrets and variables > actions (variables)_:
     - `PAPER_CHOOSE_ON` with value `0` or `1`, off or on.
+    - `PAPER_VOTE_ON` with value `0` or `1`, off or on.
     - `REVIEWERS` a newline-separated string of GitHub usernames affiliated with repository/organization.
 * **Create expected environment secrets** in _settings > secrets and variables > actions (secrets)_:
     - `AUTOMERGE_PAT` a personal access token of a user with repository write access, to auto-merge PRs.
     - `DISCORD_WEBHOOK_URL` or `SLACK_WEBHOOK_URL` to enable discord or slack integration.
+* **Create issue labels** `next-paper` and `paper-vote`
