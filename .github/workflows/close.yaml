@@ -17,33 +17,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: Find Pull Request
         uses: juliangruber/find-pull-request-action@v1
-        id: find-pull-request
+        id: find-pull-request-1
         with:
           branch: paper-vote-1
       - run: echo "Pull Request ${number} (${sha})"
         env:
-          number: ${{ steps.find-pull-request.outputs.number }}
-          sha: ${{ steps.find-pull-request.outputs.head-sha }}
-#      - name: Get selection details
-#        id: vars
-#        run: |
-#          array=${{ steps.list.outputs.pulls }}
-#          echo "CNT=$(echo ${#array[@]})" >> $GITHUB_ENV
-#      - name: Close Pull 1
-#        if: ${{ 0 < env.CNT }}
-#        uses: peter-evans/close-pull@v3
-#        with:
-#          pull-request-number: ${{ steps.list.outputs.pulls[0] }}
-#          delete-branch: true
-#      - name: Close Pull 2
-#        if: ${{ 1 < env.CNT }}
-#        uses: peter-evans/close-pull@v3
-#        with:
-#          pull-request-number: ${{ steps.list.outputs.pulls[1] }}
-#          delete-branch: true
-#      - name: Close Pull 3
-#        if: ${{ 2 < env.CNT }}
-#        uses: peter-evans/close-pull@v3
-#        with:
-#          pull-request-number: ${{ steps.list.outputs.pulls[1] }}
-#          delete-branch: true
+          number: ${{ steps.find-pull-request-1.outputs.number }}
+          sha: ${{ steps.find-pull-request-1.outputs.head-sha }}
+      - name: Close Pull 1
+        if: ${{ steps.find-pull-request-1.outputs.number }}
+        uses: peter-evans/close-pull@v3
+        with:
+          pull-request-number: ${{ steps.find-pull-request-1.outputs.number }}
+          delete-branch: true
