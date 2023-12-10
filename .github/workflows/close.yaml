@@ -14,12 +14,14 @@ jobs:
            contains(github.event.pull_request.labels.*.name, 'paper-vote')) }}
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - name: Pull Requests
         uses: buildsville/list-pull-requests@v1
         id: list
         with:
           token: ${{ secrets.AUTOMERGE_PAT }}
           labels: '["paper-vote"]'
+      - run: echo '${{ steps.list.outputs.pulls }}'
       - name: Get selection details
         id: vars
         run: |
