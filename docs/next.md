@@ -1,1 +1,1 @@
-Winter break, see you in the spring
+Kovach, Scott, et al. “Indexed Streams: A Formal Intermediate Representation for Fused Contraction Programs.” Proceedings of the ACM on Programming Languages, vol. 7, no. PLDI, June 2023, pp. 1169–93. Crossref, <a href='https://doi.org/10.1145/3591268' target='_blank'>https://doi.org/10.1145/3591268</a>.
