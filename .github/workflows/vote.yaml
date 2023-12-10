@@ -15,6 +15,9 @@ on:
   workflow_dispatch:
     branches: [ main ]
 
+env:
+  COLORS: ("", "26367" "16750848" "65433" "10027263")
+
 jobs:
   vote_option:
 #    if: ${{ vars.PAPER_VOTE_ON == 1 }}
@@ -26,8 +29,6 @@ jobs:
         options: [ 1, 2, 3 ]
       # to generate and post options sequentially
       max-parallel: 1
-    # Generate #{matrix} PRs with a paper option,
-    # then report vote options to Discord
     steps:
       - uses: actions/checkout@v4
         with:
@@ -42,12 +43,13 @@ jobs:
       - name: Get selection details
         id: vars
         run: |
-          echo "subabs=$(echo $(sed -n '3p' ./data/desc.txt) | cut -c 1-1500)" >> $GITHUB_OUTPUT && 
+          echo "subabs=$(echo $(sed -n '3p' ./data/desc.txt) | cut -c 1-1500 | sed 's/[^\x00-\x7F]//g' )" >> $GITHUB_OUTPUT && 
           echo "title=$(sed -n '1p' ./data/desc.txt)" >> $GITHUB_OUTPUT &&
           echo "mla=$(sed -n '2p' ./data/desc.txt)" >> $GITHUB_OUTPUT &&
           echo "abs=$(sed -n '3p' ./data/desc.txt)" >> $GITHUB_OUTPUT &&
           echo "doi=$(cat ./data/next.txt)" >> $GITHUB_OUTPUT &&
-          echo "NOW=$(date +'%d %B')" >> $GITHUB_ENV
+          echo "NOW=$(date +'%d %B')" >> $GITHUB_ENV &&
+          echo "color=$COLORS[${{matrix.options}}]" >> $GITHUB_OUTPUT
       - name: Create commit
         run: |
           git config user.name 'Bot'
@@ -77,7 +79,7 @@ jobs:
         if: ${{ env.DISCORD_WEBHOOK != '' }}
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_TEST }}
-          DISCORD_EMBEDS: '[{"title":"${{ steps.vars.outputs.title }}","description":"${{ steps.vars.outputs.subabs }}"}]'
+          DISCORD_EMBEDS: '[{"color":"${{ steps.vars.outputs.color }}", "title":"${{ steps.vars.outputs.title }}", "description":"${{ steps.vars.outputs.subabs }}"}]'
         uses: Ilshidur/action-discord@master
         with:
-          args: "Vote option :${{ matrix.options }}: **PR ${{ steps.paperpr.outputs.pull-request-number }}** ${{ steps.paperpr.outputs.pull-request-url }}"
+          args: "${{ env.NOW }} Vote option ${{ matrix.options }} **PR ${{ steps.paperpr.outputs.pull-request-number }}** ${{ steps.paperpr.outputs.pull-request-url }}"
