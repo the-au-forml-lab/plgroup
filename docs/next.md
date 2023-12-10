@@ -1,1 +1,1 @@
-Winter break, see you in the spring
+Lew, Alexander K., et al. “ADEV: Sound Automatic Differentiation of Expected Values of Probabilistic Programs.” Proceedings of the ACM on Programming Languages, vol. 7, no. POPL, Jan. 2023, pp. 121–53. Crossref, <a href='https://doi.org/10.1145/3571198' target='_blank'>https://doi.org/10.1145/3571198</a>.
