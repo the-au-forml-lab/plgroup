@@ -1,0 +1,41 @@
+name: Close vote
+
+on:
+  pull_request:
+    types:
+      - closed
+  workflow_dispatch:
+    branches: [ main ]
+
+jobs:
+  get_prs:
+    if: ${{ github.event_name != 'pull_request' ||
+          github.event.pull_request.merged == false
+          # github.event.pull_request.merged == true &&
+          contains(github.event.pull_request.labels.*.name, 'paper-vote') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pull Requests
+        uses: buildsville/list-pull-requests@v1
+        id: list
+        with:
+          token: ${{secrets.GITHUB_TOKEN}}
+          labels: '["paper-vote"]'
+      - name: Close vote options
+        run: |
+          echo "PRS=${{ steps.list.outputs.pulls }}" >> $GITHUB_ENV
+
+  close_prs:
+    needs: get_prs
+    if: ${{ env.PRS }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        pr: ${{ env.PRS }}
+    steps:
+      - name: Close Pull
+        uses: peter-evans/close-pull@v3
+        with:
+          pull-request-number: ${{ matrix.pr }}
+          comment: Auto-closing pull request
+          delete-branch: true

@@ -63,7 +63,7 @@ jobs:
         uses: peter-evans/create-pull-request@v4
         with:
           add-paths: files/*.txt
-          labels: paper-vote
+          labels: paper-vote next-paper
           branch: paper-vote-${{ matrix.options }}
           delete-branch: true
           title: ${{ steps.vars.outputs.title }}
@@ -97,4 +97,4 @@ jobs:
           DISCORD_AVATAR: ${{ env.AVATAR }}
         uses: Ilshidur/action-discord@master
         with:
-          args: "**Voting Instructions.**\n- Rank vote papers using numbers :one: — :three: favorite -- least favorite.\n- Set the winner by merging its PR."
+          args: "**Voting Instructions.**\n- Rank papers using number reactions :one: favorite — :three: least favorite.\n- Set the winner by merging its PR."
