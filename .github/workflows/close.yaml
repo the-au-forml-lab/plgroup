@@ -20,20 +20,25 @@ jobs:
         with:
           token: ${{secrets.GITHUB_TOKEN}}
           labels: '["paper-vote"]'
+      - name: Get selection details
+        id: vars
+        run: |
+          array=${{ steps.list.outputs.pulls }}
+          echo "CNT=$(echo ${#array[@]})" >> $GITHUB_ENV
       - name: Close Pull 1
-        if: ${{ 0 < steps.list.outputs.pulls.size() }}
+        if: ${{ 0 < env.CNT }}
         uses: peter-evans/close-pull@v3
         with:
           pull-request-number: ${{ steps.list.outputs.pulls[0] }}
           delete-branch: true
       - name: Close Pull 2
-        if: ${{ 1 < steps.list.outputs.pulls.size() }}
+        if: ${{ 1 < env.CNT }}
         uses: peter-evans/close-pull@v3
         with:
           pull-request-number: ${{ steps.list.outputs.pulls[1] }}
           delete-branch: true
       - name: Close Pull 3
-        if: ${{ 2 < steps.list.outputs.pulls.size() }}
+        if: ${{ 2 < env.CNT }}
         uses: peter-evans/close-pull@v3
         with:
           pull-request-number: ${{ steps.list.outputs.pulls[1] }}

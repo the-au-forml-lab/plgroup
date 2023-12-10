@@ -25,10 +25,8 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        # number of vote options to generate;
-        # The values are not relevant, just the list length.
+        # number of vote options to generate
         options: [1, 2, 3]
-      # to generate and post options sequentially
       max-parallel: 1
     steps:
       - uses: actions/checkout@v4
