@@ -1,4 +1,4 @@
-name: Choose paper
+name: Random paper
 
 on:
   schedule:
@@ -23,6 +23,7 @@ jobs:
     if: ${{ vars.PAPER_CHOOSE_ON == 1 && (
             github.event_name != 'pull_request' ||
            (contains(github.event.pull_request.labels.*.name, 'next-paper') &&
+           !contains(github.event.pull_request.labels.*.name, 'paper-vote') &&
             github.event.pull_request.merged == false)
         )}}
     runs-on: ubuntu-latest

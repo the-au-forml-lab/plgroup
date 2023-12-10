@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" modified="2023-12-10T03:34:56.676Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="fc9pv3P7puCQRRv3mhsW" version="22.1.7" type="device">
+  <diagram name="Page-1" id="bRhJk8HzBOOXPFuxm7CE">
+    <mxGraphModel dx="1065" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OB-dxN5LZebSLA3xzodv-38" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=default;strokeWidth=2;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="140" width="990" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="OB-dxN5LZebSLA3xzodv-2" value="" style="endArrow=open;html=1;rounded=0;strokeWidth=2;endFill=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="288" as="sourcePoint" />
+            <mxPoint x="339" y="288.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OB-dxN5LZebSLA3xzodv-19" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/control-shuffle-mix-random-drag-128.png" parent="1" vertex="1">
+          <mxGeometry x="476" y="260" width="58" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="OB-dxN5LZebSLA3xzodv-27" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#30363C;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.website;" parent="1" vertex="1">
+          <mxGeometry x="150" y="246.89" width="99" height="82.22" as="geometry" />
+        </mxCell>
+        <mxCell id="OB-dxN5LZebSLA3xzodv-28" value="Find papers on &lt;br&gt;&quot;source&quot; websites" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Tahoma;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="150" y="181" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OB-dxN5LZebSLA3xzodv-29" value="Build a data set &lt;br&gt;of papers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Tahoma;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="332" y="360" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OB-dxN5LZebSLA3xzodv-30" value="Select random papers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Tahoma;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="550" y="190" width="140" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="OB-dxN5LZebSLA3xzodv-31" value="" style="endArrow=open;html=1;rounded=0;strokeWidth=2;endFill=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="669" y="288.5" as="sourcePoint" />
+            <mxPoint x="748" y="289" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OB-dxN5LZebSLA3xzodv-33" value="Ranked&amp;nbsp;vote&lt;br&gt;by readers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Tahoma;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="753" y="330.11" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OB-dxN5LZebSLA3xzodv-34" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/48-bubbles/48/43.Bell-128.png" parent="1" vertex="1">
+          <mxGeometry x="981" y="254" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="OB-dxN5LZebSLA3xzodv-37" value="Update&lt;br&gt;website" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Tahoma;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="980" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="INSDCjLmlAj5Y4JtULXQ-2" value="manual -- run commands" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#30363c;strokeColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="139" y="420" width="337" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="INSDCjLmlAj5Y4JtULXQ-3" value="automated -- by actions" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2db34b;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="480" y="420" width="590" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OB-dxN5LZebSLA3xzodv-20" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="358" y="248" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OB-dxN5LZebSLA3xzodv-15" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.json_2;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="368" y="290.63" width="70" height="21.94" as="geometry" />
+        </mxCell>
+        <mxCell id="wlrQgJPOBC26v2cOr7MJ-2" value="Notify&lt;br&gt;(optional)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Tahoma;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="981" y="349" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wr4hFd0BVsU5aNDaOko6-3" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.documents;" vertex="1" parent="1">
+          <mxGeometry x="575" y="249" width="64" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="wr4hFd0BVsU5aNDaOko6-4" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-regular-vol-3/256/list-bullets-128.png" vertex="1" parent="1">
+          <mxGeometry x="777" y="253.5" width="69" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="wr4hFd0BVsU5aNDaOko6-5" value="" style="endArrow=open;html=1;rounded=0;strokeWidth=2;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="877" y="286.11" as="sourcePoint" />
+            <mxPoint x="956" y="286.61" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wr4hFd0BVsU5aNDaOko6-6" value="merge&lt;br&gt;winner" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Tahoma;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="874" y="220" width="60" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

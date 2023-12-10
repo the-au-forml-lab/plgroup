@@ -13,9 +13,19 @@ We select papers randomly from top programming languages conferences.
 
 **HOW IT WORKS**
 
+There are two available workflows. We use the "ranked choice voting" workflow.
+
+<p align="center">
+<img width="700" alt="workflow" src='https://raw.githubusercontent.com/the-au-forml-lab/plgroup/main/.github/assets/voting.png' />
+</p>
+
+<details>
+<summary>Alternative workflow</summary>
+The "random paper" workflow automatically generates 1 paper suggestion for approval.<br/><br/>
 <p align="center">
 <img width="700" alt="workflow" src='https://raw.githubusercontent.com/the-au-forml-lab/plgroup/main/.github/assets/workflow.png' />
 </p>
+</details>
 
 ## In this Repository
 
@@ -71,18 +81,16 @@ You can override desired parts and customize the site following [Jekyll docs](ht
 
 **How to get a suggestion for next paper?**
 
-Run the ["choose paper"](https://github.com/the-au-forml-lab/plgroup/actions) action. 
-Look for "run workflow" which is available based on repository permission.
-This will generate a PR with a suggestion.
+The workflows are set to run automatically, but they can be triggered manually if needed and enabled.
+Run the "random paper" action or "vote open" action in [actions]](https://github.com/the-au-forml-lab/plgroup/actions). 
+The option to "run workflow" is available based on repository permissions.
+This will generate appropriate PRs with a paper suggestion.
 
 **How to change the paper selection schedule**
 
-The ["choose paper" workflow](https://github.com/the-au-forml-lab/plgroup/blob/main/.github/workflows/choose.yaml) runs on schedule.
+The paper selections workflows run on schedule.
 To change the schedule, follow [these instructions](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule).
-It is also possible to pause the workflow without code changes from repository settings (secrets and variables > actions > variables):
-
-- to pause the workflow set `PAPER_CHOOSE_ON` value to `0`. 
-- to resume action set `PAPER_CHOOSE_ON` value to `1`.
+It is also possible to pause the workflows without code changes from repository settings (secrets and variables > actions > variables).
 
 ## Semester maintenance
   
@@ -117,8 +125,8 @@ It is also possible to pause the workflow without code changes from repository s
     Edit `docs/index.md` front-matter to describe the current or upcoming semester.
 
 4. Turn on paper selection workflow in _settings > secrets and variables > actions_:  
-   - To use random-paper suggestion, set `PAPER_CHOOSE_ON` value to `1`
-   - To use random-paper voting, set `PAPER_VOTE_ON` value to `1`
+   - To use random paper suggestion, set `PAPER_CHOOSE_ON` value to `1`
+   - To use ranked choice voting, set `PAPER_VOTE_ON` value to `1`
 
 ### End of semester
 
@@ -146,5 +154,5 @@ To get the automatic actions to work properly, complete the following steps.
     - `REVIEWERS` a newline-separated string of GitHub usernames affiliated with repository/organization.
 * **Create expected environment secrets** in _settings > secrets and variables > actions (secrets)_:
     - `AUTOMERGE_PAT` a personal access token of a user with repository write access, to auto-merge PRs.
-    - `DISCORD_WEBHOOK_URL` or `SLACK_WEBHOOK_URL` to enable discord or slack integration.
-* **Create issue labels** `next-paper` and `paper-vote`
+    - `DISCORD_WEBHOOK_URL` to enable discord integration (this is required for voting workflow).
+* **Create issue labels** `next-paper` and `paper-vote`.

@@ -9,39 +9,41 @@ on:
 
 jobs:
   close:
-    if: ${{ github.event_name != 'pull_request' ||
-          (github.event.pull_request.merged == true &&
-           contains(github.event.pull_request.labels.*.name, 'paper-vote')) }}
+    if: ${{ github.event_name != 'pull_request' }}
+           # || (github.event.pull_request.merged == true &&
+           # contains(github.event.pull_request.labels.*.name, 'paper-vote')) }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Pull Requests
-        uses: buildsville/list-pull-requests@v1
-        id: list
+      - name: Find Pull Request
+        uses: juliangruber/find-pull-request-action@v1
+        id: find-pull-request
         with:
-          token: ${{ secrets.AUTOMERGE_PAT }}
-          labels: '["paper-vote"]'
-      - run: echo '${{ steps.list.outputs.pulls }}'
-      - name: Get selection details
-        id: vars
-        run: |
-          array=${{ steps.list.outputs.pulls }}
-          echo "CNT=$(echo ${#array[@]})" >> $GITHUB_ENV
-      - name: Close Pull 1
-        if: ${{ 0 < env.CNT }}
-        uses: peter-evans/close-pull@v3
-        with:
-          pull-request-number: ${{ steps.list.outputs.pulls[0] }}
-          delete-branch: true
-      - name: Close Pull 2
-        if: ${{ 1 < env.CNT }}
-        uses: peter-evans/close-pull@v3
-        with:
-          pull-request-number: ${{ steps.list.outputs.pulls[1] }}
-          delete-branch: true
-      - name: Close Pull 3
-        if: ${{ 2 < env.CNT }}
-        uses: peter-evans/close-pull@v3
-        with:
-          pull-request-number: ${{ steps.list.outputs.pulls[1] }}
-          delete-branch: true
+          branch: paper-vote
+      - run: echo "Pull Request ${number} (${sha})"
+        env:
+          number: ${{ steps.find-pull-request.outputs.number }}
+          sha: ${{ steps.find-pull-request.outputs.head-sha }}
+#      - name: Get selection details
+#        id: vars
+#        run: |
+#          array=${{ steps.list.outputs.pulls }}
+#          echo "CNT=$(echo ${#array[@]})" >> $GITHUB_ENV
+#      - name: Close Pull 1
+#        if: ${{ 0 < env.CNT }}
+#        uses: peter-evans/close-pull@v3
+#        with:
+#          pull-request-number: ${{ steps.list.outputs.pulls[0] }}
+#          delete-branch: true
+#      - name: Close Pull 2
+#        if: ${{ 1 < env.CNT }}
+#        uses: peter-evans/close-pull@v3
+#        with:
+#          pull-request-number: ${{ steps.list.outputs.pulls[1] }}
+#          delete-branch: true
+#      - name: Close Pull 3
+#        if: ${{ 2 < env.CNT }}
+#        uses: peter-evans/close-pull@v3
+#        with:
+#          pull-request-number: ${{ steps.list.outputs.pulls[1] }}
+#          delete-branch: true
