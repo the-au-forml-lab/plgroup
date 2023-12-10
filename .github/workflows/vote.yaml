@@ -49,7 +49,7 @@ jobs:
           echo "abs=$(sed -n '3p' ./data/desc.txt)" >> $GITHUB_OUTPUT &&
           echo "doi=$(cat ./data/next.txt)" >> $GITHUB_OUTPUT &&
           echo "NOW=$(date +'%d %B')" >> $GITHUB_ENV &&
-          echo "color=$COLORS[${{matrix.options}}]" >> $GITHUB_OUTPUT
+          echo "color=${{ fromJSON(env.COLORS)[${{ matrix.options }}] }}" >> $GITHUB_OUTPUT
       - name: Create commit
         run: |
           git config user.name 'Bot'
@@ -79,7 +79,7 @@ jobs:
         if: ${{ env.DISCORD_WEBHOOK != '' }}
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_TEST }}
-          DISCORD_EMBEDS: '[{"color":"${{ steps.vars.outputs.color }}", "title":"${{ steps.vars.outputs.title }}", "description":"${{ steps.vars.outputs.subabs }}"}]'
+          DISCORD_EMBEDS: '[{ "color":"${{ steps.vars.outputs.color }}", "title":"${{ steps.vars.outputs.title }}", "description":"${{ steps.vars.outputs.subabs }}"}]'
         uses: Ilshidur/action-discord@master
         with:
           args: "${{ env.NOW }} Vote option ${{ matrix.options }} **PR ${{ steps.paperpr.outputs.pull-request-number }}** ${{ steps.paperpr.outputs.pull-request-url }}"
