@@ -1,4 +1,4 @@
-name: Vote for paper
+name: Paper vote
 
 on:
 #  schedule:
@@ -16,7 +16,9 @@ on:
     branches: [ main ]
 
 env:
-  COLORS: ("", "26367" "16750848" "65433" "10027263")
+  COLORS: ("" "26367" "16750848" "65433" "10027263")
+  OPTIONS: (1 2 3)
+  AVATAR: https://raw.githubusercontent.com/the-au-forml-lab/plgroup/main/.github/assets/vote.png
 
 jobs:
   vote_options:
@@ -26,7 +28,7 @@ jobs:
       matrix:
         # number of vote options to generate;
         # The values are not relevant, just the list length.
-        options: [ 1, 2, 3 ]
+        options: ${{ env.OPTIONS }}
       # to generate and post options sequentially
       max-parallel: 1
     steps:
@@ -79,6 +81,7 @@ jobs:
       - name: Post vote option
         if: ${{ env.DISCORD_WEBHOOK != '' }}
         env:
+          DISCORD_AVATAR: ${{ env.AVATAR }}
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_TEST }}
           DISCORD_EMBEDS: '[{ "color":"${{ steps.vars.outputs.color }}", "title":"${{ steps.vars.outputs.title }}", "description":"${{ steps.vars.outputs.subabs }} [Merge PR ${{ steps.paperpr.outputs.pull-request-number }}](${{ steps.paperpr.outputs.pull-request-url }})" }]'
         uses: Ilshidur/action-discord@master
@@ -92,6 +95,7 @@ jobs:
         if: ${{ env.DISCORD_WEBHOOK != '' }}
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_TEST }}
+          DISCORD_AVATAR: ${{ env.AVATAR }}
         uses: Ilshidur/action-discord@master
         with:
-          args: "**Voting Instructions.**\n\n- Rank vote papers using numbers :one: -- :three: favorite -- least favorite.\n- Set the winner by merging its PR."
+          args: "**Voting Instructions.**\n- Rank vote papers using numbers :${{ env.COLORS[0] }}: — :${{ (env.COLORS).size() }}: favorite -- least favorite.\n- Set the winner by merging its PR."
