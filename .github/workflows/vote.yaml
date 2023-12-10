@@ -50,7 +50,7 @@ jobs:
           echo "abs=$(sed -n '3p' ./data/desc.txt)" >> $GITHUB_OUTPUT &&
           echo "doi=$(cat ./data/next.txt)" >> $GITHUB_OUTPUT &&
           echo "NOW=$(date +'%d %B')" >> $GITHUB_ENV &&
-          echo "color=array[${{ matrix.options }}]" >> $GITHUB_OUTPUT
+          echo "color=${array[${{ matrix.options }}]}" >> $GITHUB_OUTPUT
       - name: Create commit
         run: |
           git config user.name 'Bot'
