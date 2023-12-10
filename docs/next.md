@@ -1,1 +1,1 @@
-Winter break, see you in the spring
+Lu, Sirui, and Rastislav Bodík. “Grisette: Symbolic Compilation as a Functional Programming Library.” Proceedings of the ACM on Programming Languages, vol. 7, no. POPL, Jan. 2023, pp. 455–87. Crossref, <a href='https://doi.org/10.1145/3571209' target='_blank'>https://doi.org/10.1145/3571209</a>.
