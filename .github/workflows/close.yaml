@@ -13,20 +13,18 @@ jobs:
            # || (github.event.pull_request.merged == true &&
            # contains(github.event.pull_request.labels.*.name, 'paper-vote')) }}
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        options: [1, 2, 3]
     steps:
-      - uses: actions/checkout@v4
       - name: Find Pull Request
         uses: juliangruber/find-pull-request-action@v1
-        id: find-pull-request-1
+        id: find-pr
         with:
-          branch: paper-vote-1
-      - run: echo "Pull Request ${number} (${sha})"
-        env:
-          number: ${{ steps.find-pull-request-1.outputs.number }}
-          sha: ${{ steps.find-pull-request-1.outputs.head-sha }}
-      - name: Close Pull 1
-        if: ${{ steps.find-pull-request-1.outputs.number }}
+          branch: paper-vote-${{ matrix.options }}
+      - name: Close Pull ${{ matrix.options }}
+        if: ${{ steps.find-pr.outputs.number }}
         uses: peter-evans/close-pull@v3
         with:
-          pull-request-number: ${{ steps.find-pull-request-1.outputs.number }}
+          pull-request-number: ${{ steps.find-pr.outputs.number }}
           delete-branch: true
