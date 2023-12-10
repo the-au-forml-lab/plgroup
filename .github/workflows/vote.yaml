@@ -17,7 +17,6 @@ on:
 
 env:
   COLORS: ("" "26367" "16750848" "65433" "10027263")
-  OPTIONS: (1 2 3)
   AVATAR: https://raw.githubusercontent.com/the-au-forml-lab/plgroup/main/.github/assets/vote.png
 
 jobs:
@@ -28,7 +27,7 @@ jobs:
       matrix:
         # number of vote options to generate;
         # The values are not relevant, just the list length.
-        options: ${{ env.OPTIONS }}
+        options: [1, 2, 3]
       # to generate and post options sequentially
       max-parallel: 1
     steps:
@@ -98,4 +97,4 @@ jobs:
           DISCORD_AVATAR: ${{ env.AVATAR }}
         uses: Ilshidur/action-discord@master
         with:
-          args: "**Voting Instructions.**\n- Rank vote papers using numbers :${{ env.COLORS[0] }}: — :${{ (env.COLORS).size() }}: favorite -- least favorite.\n- Set the winner by merging its PR."
+          args: "**Voting Instructions.**\n- Rank vote papers using numbers :one: — :three: favorite -- least favorite.\n- Set the winner by merging its PR."
