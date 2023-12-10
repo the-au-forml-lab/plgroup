@@ -39,7 +39,7 @@ The content of this repository is organized as follows:
 | **`src`**               | source code for choosing papers                |
 
 The paper selection is mostly automatic, with a scheduled GitHub action set to suggest the next paper.
-Repository reviewers are asked to approve or reject this suggestion.
+The suggestions appear as pull requests. The paper selection is completed by merging a PR. The merge is always done by human user.
 
 **Available commands**
 

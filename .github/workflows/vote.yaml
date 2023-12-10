@@ -81,12 +81,7 @@ jobs:
           DISCORD_AVATAR: ${{ env.AVATAR }}
           DISCORD_USERNAME: ${{ env.USERNAME }}
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_TEST }}
-          DISCORD_EMBEDS: >
-            '[{ "color":"${{ steps.vars.outputs.color }}", 
-                "title":"${{ steps.vars.outputs.title }}", 
-                "description":"${{ steps.vars.outputs.subabs }} 
-                [Merge PR ${{ steps.paperpr.outputs.pull-request-number }}](${{ steps.paperpr.outputs.pull-request-url }})" 
-              }]'
+          DISCORD_EMBEDS: '[{ "color":"${{ steps.vars.outputs.color }}", "title":"${{ steps.vars.outputs.title }}", "description":"${{ steps.vars.outputs.subabs }} [Merge PR ${{ steps.paperpr.outputs.pull-request-number }}](${{ steps.paperpr.outputs.pull-request-url }})" }]'
         uses: Ilshidur/action-discord@master
         with:
           args: "**Vote option ${{ matrix.options }} | ${{ env.NOW }}**"
@@ -102,7 +97,4 @@ jobs:
           DISCORD_USERNAME: ${{ env.USERNAME }}
         uses: Ilshidur/action-discord@master
         with:
-          args: >
-            "**Voting Instructions.**\n
-            - Rank papers using number reactions :one: favorite — :three: least favorite.\n
-            - Set the winner by merging its PR."
+          args: "**Voting Instructions.**\n- Rank papers using number reactions :one: favorite — :three: least favorite.\n- Set the winner by merging its PR."
