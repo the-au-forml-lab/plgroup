@@ -13,7 +13,7 @@ We select papers randomly from top programming languages conferences.
 
 **HOW IT WORKS**
 
-There are two available workflows. We use the "ranked choice voting" workflow.
+There are two available workflows. We use the **ranked choice voting** workflow.
 
 <p align="center">
 <img width="800" alt="workflow" src='https://raw.githubusercontent.com/the-au-forml-lab/plgroup/main/.github/assets/voting.png' />
@@ -21,7 +21,7 @@ There are two available workflows. We use the "ranked choice voting" workflow.
 
 <details>
   <summary>Alternative workflow</summary>
-  The "random paper" workflow automatically generates 1 paper suggestion for approval.<br/><br/>
+  The <strong>random paper suggestion</strong> workflow automatically generates 1 paper suggestion for approval.<br/><br/>
   <p align="center">
     <img width="700" alt="workflow" src='https://raw.githubusercontent.com/the-au-forml-lab/plgroup/main/.github/assets/workflow.png' />
   </p>
@@ -81,16 +81,16 @@ You can override desired parts and customize the site following [Jekyll docs](ht
 
 **How to get a suggestion for next paper?**
 
-The workflows are set to run automatically, but they can be triggered manually if needed and enabled.
-Run the "random paper" action or "vote open" action in [actions]](https://github.com/the-au-forml-lab/plgroup/actions). 
+Paper selection workflows can be triggered manually if needed and enabled.
+Run the "random paper" action or "vote open" action in [actions](https://github.com/the-au-forml-lab/plgroup/actions). 
 The option to "run workflow" is available based on repository permissions.
-This will generate appropriate PRs with a paper suggestion.
+Running the workflow will generate appropriate PRs with a paper suggestion.
 
 **How to change the paper selection schedule**
 
 The paper selections workflows run on schedule.
 To change the schedule, follow [these instructions](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule).
-It is also possible to pause the workflows without code changes from repository settings (secrets and variables > actions > variables).
+It is also possible to pause the workflows without code changes from repository settings in _secrets and variables > actions > variables_.
 
 ## Semester maintenance
   
@@ -125,13 +125,13 @@ It is also possible to pause the workflows without code changes from repository 
     Edit `docs/index.md` front-matter to describe the current or upcoming semester.
 
 4. Turn on paper selection workflow in _settings > secrets and variables > actions_:  
-   - To use random paper suggestion, set `PAPER_CHOOSE_ON` value to `1`
-   - To use ranked choice voting, set `PAPER_VOTE_ON` value to `1`
+   - To use random paper suggestion workflow, set `PAPER_CHOOSE_ON` value to `1`
+   - To use ranked choice voting workflow, set `PAPER_VOTE_ON` value to `1`
 
 ### End of semester
 
 1. Turn off paper selection workflow in _settings > secrets and variables > actions_:  
-   Confirm `PAPER_CHOOSE_ON` and `PAPER_VOTE_ON` values are set to `0`
+   Set `PAPER_CHOOSE_ON` and `PAPER_VOTE_ON` values to `0`.
 2. Clear the next paper selection. You can include a custom message in the quotes: 
 
    ```
@@ -155,8 +155,7 @@ To get the automatic actions to work properly, complete the following steps.
     - `REVIEWERS` a newline-separated string of GitHub usernames affiliated with repository/organization.
 * **Create expected environment secrets** in _settings > secrets and variables > actions (secrets)_:
     - `AUTOMERGE_PAT` a personal access token of a user with repository write access, to auto-merge PRs.
-    - `DISCORD_WEBHOOK_URL` to enable discord integration (this is required for voting workflow).
-* If using the random selection workflow: 
-    - create a branch protection rule on `main` branch
-    - set _Require a pull request before merging_ on
-    - set _Require approvals_ count > 0
+    - `DISCORD_WEBHOOK_URL` to enable discord integration, this is required for voting workflow.
+* **Create a branch protection rule on `main` branch**
+    - check "Require a pull request before merging".
+    - set "Require approvals" count to some number above 0.
