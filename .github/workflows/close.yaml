@@ -20,21 +20,21 @@ jobs:
         with:
           token: ${{secrets.GITHUB_TOKEN}}
           labels: '["paper-vote"]'
-      - name: Close vote options
-        run: |
-          echo "PRS=${{ steps.list.outputs.pulls }}" >> $GITHUB_ENV
-
-  close_prs:
-    needs: get_prs
-    if: ${{ env.PRS }}
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        pr: ${{ env.PRS }}
-    steps:
-      - name: Close Pull
+      - name: Close Pull 1
+        if: ${{ 0 < steps.list.outputs.pulls.size() }}
         uses: peter-evans/close-pull@v3
         with:
-          pull-request-number: ${{ matrix.pr }}
-          comment: Auto-closing pull request
+          pull-request-number: ${{ steps.list.outputs.pulls[0] }}
+          delete-branch: true
+      - name: Close Pull 2
+        if: ${{ 1 < steps.list.outputs.pulls.size() }}
+        uses: peter-evans/close-pull@v3
+        with:
+          pull-request-number: ${{ steps.list.outputs.pulls[1] }}
+          delete-branch: true
+      - name: Close Pull 3
+        if: ${{ 2 < steps.list.outputs.pulls.size() }}
+        uses: peter-evans/close-pull@v3
+        with:
+          pull-request-number: ${{ steps.list.outputs.pulls[1] }}
           delete-branch: true
