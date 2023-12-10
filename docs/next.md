@@ -1,1 +1,1 @@
-Winter break, see you in the spring
+Lee, Wonyeol, et al. “Smoothness Analysis for Probabilistic Programs with Application to Optimised Variational Inference.” Proceedings of the ACM on Programming Languages, vol. 7, no. POPL, Jan. 2023, pp. 335–66. Crossref, <a href='https://doi.org/10.1145/3571205' target='_blank'>https://doi.org/10.1145/3571205</a>.
