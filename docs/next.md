@@ -1,1 +1,1 @@
-Winter break, see you in the spring
+Breitner, Joachim. “More Fixpoints! (Functional Pearl).” Proceedings of the ACM on Programming Languages, vol. 7, no. ICFP, Aug. 2023, pp. 686–710. Crossref, <a href='https://doi.org/10.1145/3607853' target='_blank'>https://doi.org/10.1145/3607853</a>.
