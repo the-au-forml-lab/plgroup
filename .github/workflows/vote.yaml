@@ -77,6 +77,10 @@ jobs:
         if: ${{ env.DISCORD_WEBHOOK != '' }}
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_TEST }}
+          DISCORD_EMBEDS: [{
+            "title": "Vote Option ${{ matrix.options }} ${{ NOW }}: ${{ steps.vars.outputs.title }}",
+            "description": "${{ steps.vars.outputs.subabs }}\n\n${{ steps.vars.outputs.mla }}"
+          }]
         uses: Ilshidur/action-discord@master
         with:
-          args: "Vote Option ${{ matrix.options }} ${{ steps.vars.outputs.NOW }}: **${{ steps.vars.outputs.title }}**\n\n${{ steps.vars.outputs.subabs }}\n\n${{ steps.vars.outputs.mla }}\n\nMerge PR ${{ steps.paperpr.outputs.pull-request-number }} to apply ${{ steps.paperpr.outputs.pull-request-url }}"
+          args: "Merge PR ${{ steps.paperpr.outputs.pull-request-number }} to apply ${{ steps.paperpr.outputs.pull-request-url }}"
