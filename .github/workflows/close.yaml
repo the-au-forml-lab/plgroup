@@ -1,4 +1,4 @@
-name: Close vote
+name: Vote close
 
 on:
   pull_request:
@@ -8,17 +8,17 @@ on:
     branches: [ main ]
 
 jobs:
-  get_prs:
+  close:
     if: ${{ github.event_name != 'pull_request' ||
-          (github.event.pull_request.merged == false &&
-          contains(github.event.pull_request.labels.*.name, 'paper-vote')) }}
+          (github.event.pull_request.merged == true &&
+           contains(github.event.pull_request.labels.*.name, 'paper-vote')) }}
     runs-on: ubuntu-latest
     steps:
       - name: Pull Requests
         uses: buildsville/list-pull-requests@v1
         id: list
         with:
-          token: ${{secrets.GITHUB_TOKEN}}
+          token: ${{ secrets.AUTOMERGE_PAT }}
           labels: '["paper-vote"]'
       - name: Get selection details
         id: vars
