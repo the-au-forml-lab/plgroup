@@ -1,1 +1,1 @@
-Winter break, see you in the spring
+Bertram, Noah, et al. “Cutting the Cake: A Language for Fair Division.” Proceedings of the ACM on Programming Languages, vol. 7, no. PLDI, June 2023, pp. 1779–800. Crossref, <a href='https://doi.org/10.1145/3591293' target='_blank'>https://doi.org/10.1145/3591293</a>.
