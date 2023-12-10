@@ -19,7 +19,7 @@ env:
   COLORS: ("", "26367" "16750848" "65433" "10027263")
 
 jobs:
-  vote_option:
+  vote_options:
 #    if: ${{ vars.PAPER_VOTE_ON == 1 }}
     runs-on: ubuntu-latest
     strategy:
@@ -80,7 +80,18 @@ jobs:
         if: ${{ env.DISCORD_WEBHOOK != '' }}
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_TEST }}
-          DISCORD_EMBEDS: '[{ "color":"${{ steps.vars.outputs.color }}", "title":"${{ steps.vars.outputs.title }}", "description":"${{ steps.vars.outputs.subabs }}"}]'
+          DISCORD_EMBEDS: '[{ "color":"${{ steps.vars.outputs.color }}", "title":"${{ steps.vars.outputs.title }}", "description":"${{ steps.vars.outputs.subabs }}"},{ "title": "Merge PR ${{ steps.paperpr.outputs.pull-request-number }}", "url": "${{ steps.paperpr.outputs.pull-request-url }}" }]'
         uses: Ilshidur/action-discord@master
         with:
-          args: "${{ env.NOW }} Vote option ${{ matrix.options }} **PR ${{ steps.paperpr.outputs.pull-request-number }}** ${{ steps.paperpr.outputs.pull-request-url }}"
+          args: "**Vote option ${{ matrix.options }} | ${{ env.NOW }}**"
+  post_actions:
+    needs: vote_options
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post vote option
+        if: ${{ env.DISCORD_WEBHOOK != '' }}
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_TEST }}
+        uses: Ilshidur/action-discord@master
+        with:
+          args: "**Instructions** Rank paper options with numbers :one: (favorite) -- :three: (least favorite). Merge selected PR to confirm next paper."
