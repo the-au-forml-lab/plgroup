@@ -1,1 +1,1 @@
-Winter break, see you in the spring
+Nguyen, Minh, et al. “Modular Probabilistic Models via Algebraic Effects.” Proceedings of the ACM on Programming Languages, vol. 6, no. ICFP, Aug. 2022, pp. 381–410. Crossref, <a href='https://doi.org/10.1145/3547635' target='_blank'>https://doi.org/10.1145/3547635</a>.
