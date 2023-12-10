@@ -1,1 +1,1 @@
-Winter break, see you in the spring
+Tunç, Hünkar Can, et al. “Sound Dynamic Deadlock Prediction in Linear Time.” Proceedings of the ACM on Programming Languages, vol. 7, no. PLDI, June 2023, pp. 1733–58. Crossref, <a href='https://doi.org/10.1145/3591291' target='_blank'>https://doi.org/10.1145/3591291</a>.
