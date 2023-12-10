@@ -80,7 +80,7 @@ jobs:
         if: ${{ env.DISCORD_WEBHOOK != '' }}
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_TEST }}
-          DISCORD_EMBEDS: '[{ "color":"${{ steps.vars.outputs.color }}", "title":"${{ steps.vars.outputs.title }}", "description":"${{ steps.vars.outputs.subabs }}"},{ "title": "Merge PR ${{ steps.paperpr.outputs.pull-request-number }}", "url": "${{ steps.paperpr.outputs.pull-request-url }}" }]'
+          DISCORD_EMBEDS: '[{ "color":"${{ steps.vars.outputs.color }}", "fields": [{ "name":"${{ steps.vars.outputs.title }}", "value":"${{ steps.vars.outputs.subabs }}"}, { "name": "Github PR", "value": "[Merge PR ${{ steps.paperpr.outputs.pull-request-number }}](${{ steps.paperpr.outputs.pull-request-url }})"} ] }]'
         uses: Ilshidur/action-discord@master
         with:
           args: "**Vote option ${{ matrix.options }} | ${{ env.NOW }}**"
@@ -94,4 +94,4 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_TEST }}
         uses: Ilshidur/action-discord@master
         with:
-          args: "**Instructions** Rank paper options with numbers :one: (favorite) -- :three: (least favorite). Merge selected PR to confirm next paper."
+          args: "**Voting Instructions.**\n\n- Rank vote papers using numbers :one: -- :three: favorite -- least favorite.\n- Set the winner by merging its PR."
