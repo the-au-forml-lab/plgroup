@@ -156,3 +156,7 @@ To get the automatic actions to work properly, complete the following steps.
 * **Create expected environment secrets** in _settings > secrets and variables > actions (secrets)_:
     - `AUTOMERGE_PAT` a personal access token of a user with repository write access, to auto-merge PRs.
     - `DISCORD_WEBHOOK_URL` to enable discord integration (this is required for voting workflow).
+* If using the random selection workflow: 
+    - create a branch protection rule on `main` branch
+    - set _Require a pull request before merging_ on
+    - set _Require approvals_ count > 0

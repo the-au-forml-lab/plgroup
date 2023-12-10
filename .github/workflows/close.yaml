@@ -11,8 +11,7 @@ jobs:
   close:
     if: ${{ github.event_name != 'pull_request' ||
            (github.event.pull_request.merged == true
-            && contains(github.event.pull_request.labels.*.name, 'paper-vote')) 
-         }}
+            && contains(github.event.pull_request.labels.*.name, 'paper-vote')) }}
     runs-on: ubuntu-latest
     strategy:
       matrix:
