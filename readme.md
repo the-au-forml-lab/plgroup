@@ -16,15 +16,15 @@ We select papers randomly from top programming languages conferences.
 There are two available workflows. We use the "ranked choice voting" workflow.
 
 <p align="center">
-<img width="700" alt="workflow" src='https://raw.githubusercontent.com/the-au-forml-lab/plgroup/main/.github/assets/voting.png' />
+<img width="800" alt="workflow" src='https://raw.githubusercontent.com/the-au-forml-lab/plgroup/main/.github/assets/voting.png' />
 </p>
 
 <details>
-<summary>Alternative workflow</summary>
-The "random paper" workflow automatically generates 1 paper suggestion for approval.<br/><br/>
-<p align="center">
-<img width="700" alt="workflow" src='https://raw.githubusercontent.com/the-au-forml-lab/plgroup/main/.github/assets/workflow.png' />
-</p>
+  <summary>Alternative workflow</summary>
+  The "random paper" workflow automatically generates 1 paper suggestion for approval.<br/><br/>
+  <p align="center">
+    <img width="700" alt="workflow" src='https://raw.githubusercontent.com/the-au-forml-lab/plgroup/main/.github/assets/workflow.png' />
+  </p>
 </details>
 
 ## In this Repository
@@ -145,6 +145,7 @@ To get the automatic actions to work properly, complete the following steps.
 
 #### Configuration tasks TODO
 
+* **Create issue labels** `next-paper` and `paper-vote`.
 * **Enable workflow permissions** in _settings > actions > general_:
     - choose "Read and write permissions"
     - check "Allow GitHub Actions to create and approve pull requests"
@@ -155,4 +156,3 @@ To get the automatic actions to work properly, complete the following steps.
 * **Create expected environment secrets** in _settings > secrets and variables > actions (secrets)_:
     - `AUTOMERGE_PAT` a personal access token of a user with repository write access, to auto-merge PRs.
     - `DISCORD_WEBHOOK_URL` to enable discord integration (this is required for voting workflow).
-* **Create issue labels** `next-paper` and `paper-vote`.
