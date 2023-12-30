@@ -163,7 +163,7 @@ This workflow assumes Discord integration, to conduct voting, and is not usable 
 <table align="center"><tr><td>
 <p align="center">
 <img width="700" alt="workflow" src='https://raw.githubusercontent.com/the-au-forml-lab/plgroup/main/.github/assets/voting.png' />
-</p><strong>Ranked choice voting</strong> workflow suggest multiple papers. Readers vote for a winner then merge it to close the vote.
+</p><strong>Ranked choice voting</strong> workflow suggest multiple papers and readers vote for a winner.
 </td></tr></table>
 
 <details>
