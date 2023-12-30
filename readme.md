@@ -152,7 +152,7 @@ One workflow should be enabled during a semester.
 
 ### Workflow I: ranked choice voting
 
-This workflow generates random suggestions of 3 papers selected randomly from the papers data set.
+This workflow generates suggestions of 3 papers selected randomly from the papers data set.
 Those suggestions are then posted to a Discord channel for voting by channel members.
 A corresponding PR is generated for each paper suggestion.
 The vote is concluded manually by merging the winning suggestion PR.
