@@ -177,9 +177,10 @@ This workflow assumes Discord integration, to conduct voting, and is not usable 
 
 ### Workflow II: random paper suggestion
 
-This workflow chooses randomly one paper suggestion and creates a matching PR.
-The selection is approved by reviewers and sufficient number of accepting reviewers will merge and accept the suggestion.
-Closing the suggestion generated automatically a new PR.
+This workflow chooses randomly one paper suggestion. 
+It creates a matching PR that designated reviewers must approve.
+Once a sufficient number of reviewers accept the suggestion, it will be merged.
+Closing a suggestion without approval automatically generates a new paper-suggestion PR.
 This process repeats until a satisfactory suggestion has been found.
 The relevant GitHub actions is "Random paper".
 
