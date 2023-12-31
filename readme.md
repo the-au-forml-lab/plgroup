@@ -36,14 +36,14 @@ The suggestions appear as pull requests. The paper selection is completed by mer
 
 **Available commands**
 
-```
+<pre>
 npm run update             : update paper dataset
 npm run stats              : display paper dataset statistics
 npm run choose             : choose next paper
 npm run web                : auto-update web page 
 npm run set -- [doi]       : manually set the next paper
 npm run details -- [doi]   : print meta data about a paper
-```
+</pre>
 
 Running these commands requires [Node.js](https://nodejs.org/en/download/).
 
