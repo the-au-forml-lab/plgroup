@@ -15,6 +15,9 @@ on:
   workflow_dispatch:
     branches: [ main ]
 
+# Discord message options
+# see: https://github.com/Ilshidur/action-discord
+# see: https://birdie0.github.io/discord-webhooks-guide/discord_webhook.html
 env:
   COLORS: ("" "26367" "16750848" "65433" "10027263")
   AVATAR: https://raw.githubusercontent.com/the-au-forml-lab/plgroup/main/.github/assets/vote.png
@@ -22,6 +25,8 @@ env:
 
 jobs:
   vote_options:
+
+    # Sequentially generate 3 suggestions, if paper vote is enabled
     if: ${{ vars.PAPER_VOTE_ON == 1 }}
     runs-on: ubuntu-latest
     strategy:
@@ -29,17 +34,20 @@ jobs:
         options: [1, 2, 3]
       max-parallel: 1
     steps:
+
       - uses: actions/checkout@v4
         with:
           ref: 'main'
       - uses: actions/setup-node@v3
         with:
           node-version: 20
-      - name: Run chooser
+
+      - name: 🔮 Choose random paper and update website
         run: |
           npm run choose
           npm run web
-      - name: Get selection details
+
+      - name: 🔎 Lookup selection details
         id: vars
         run: |
           array=${{ env.COLORS }}
@@ -50,13 +58,15 @@ jobs:
           echo "doi=$(cat ./data/next.txt)" >> $GITHUB_OUTPUT &&
           echo "NOW=$(date +'%d %B')" >> $GITHUB_ENV &&
           echo "color=${array[${{ matrix.options }}]}" >> $GITHUB_OUTPUT
-      - name: Create commit
+
+      - name: ✅ Commit paper selection changes
         run: |
           git config user.name 'Bot'
           git config user.email 'the-au-forml-lab@users.noreply.github.com'
           git add -A
           git commit -m "Next paper option $NOW"
-      - name: Create Pull Request
+
+      - name: ⬆️ Create a pull request
         id: paperpr
         uses: peter-evans/create-pull-request@v4
         with:
@@ -75,7 +85,8 @@ jobs:
             > ${{ steps.vars.outputs.mla }}
 
             **Merge this PR to apply selection.**
-      - name: Post vote option
+
+      - name: 🗳️ Post vote option to Discord
         if: ${{ env.DISCORD_WEBHOOK != '' }}
         env:
           DISCORD_AVATAR: ${{ env.AVATAR }}
@@ -85,11 +96,12 @@ jobs:
         uses: Ilshidur/action-discord@master
         with:
           args: "**Vote option ${{ matrix.options }} | ${{ env.NOW }}**"
+
   post_actions:
     needs: vote_options
     runs-on: ubuntu-latest
     steps:
-      - name: Post vote option
+      - name: 🧑‍🏫 Post voting instructions
         if: ${{ env.DISCORD_WEBHOOK != '' }}
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}

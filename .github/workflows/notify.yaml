@@ -7,18 +7,22 @@ on:
 
 jobs:
   notifications:
+
+    # Run whenever next-paper labelled PR is merged to main branch
     if: ${{ github.event.pull_request.merged == true &&
             contains(github.event.pull_request.labels.*.name, 'next-paper') }}
     runs-on: ubuntu-latest
     steps:
+
       - uses: actions/checkout@v4
-      - name: Get selection details
+
+      - name: 🔎 Lookup selection details
         id: vars
         run: |
           echo "title=$(sed -n '1p' ./data/desc.txt)" >> $GITHUB_OUTPUT &&
           echo "mla=$(sed -n '2p' ./data/desc.txt)" >> $GITHUB_OUTPUT
 
-      - name: Discord notification
+      - name: 💬 Send Discord notification
         if: ${{ env.DISCORD_WEBHOOK != '' }}
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}

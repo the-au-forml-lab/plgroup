@@ -20,6 +20,11 @@ on:
 
 jobs:
   choose:
+
+    # This workflow runs when:
+    #  1. "random paper workflow" is enabled and
+    #  2. (a) Workflow was dispatched manually
+    #  2. (b) Paper suggestion PR was closed without merging
     if: ${{ vars.PAPER_CHOOSE_ON == 1 && (
             github.event_name != 'pull_request' ||
            (contains(github.event.pull_request.labels.*.name, 'next-paper') &&
@@ -28,19 +33,21 @@ jobs:
         )}}
     runs-on: ubuntu-latest
     steps:
+
       - uses: actions/checkout@v4
         with:
           ref: 'main'
+
       - uses: actions/setup-node@v3
         with:
           node-version: 20
 
-      - name: Run chooser
+      - name: 🔮 Choose random paper and update website
         run: |
           npm run choose
           npm run web
 
-      - name: Get selection details
+      - name: 🔎 Lookup selection details
         id: vars
         run: |
           echo "title=$(sed -n '1p' ./data/desc.txt)" >> $GITHUB_OUTPUT &&
@@ -49,14 +56,14 @@ jobs:
           echo "doi=$(cat ./data/next.txt)" >> $GITHUB_OUTPUT &&
           echo "NOW=$(date +'%d %B')" >> $GITHUB_ENV
 
-      - name: Create commit
+      - name: ✅ Commit paper selection changes
         run: |
           git config user.name 'Bot'
           git config user.email 'the-au-forml-lab@users.noreply.github.com'
           git add -A
           git commit -m "Next paper $NOW"
 
-      - name: Create Pull Request
+      - name: ⬆️ Create a pull request
         id: paperpr
         uses: peter-evans/create-pull-request@v4
         with:
@@ -78,7 +85,7 @@ jobs:
           reviewers: |
             ${{ fromJSON(vars.REVIEWERS) }}
 
-      - name: Enable PR Automerge
+      - name: 🦾 Enable automatic merge
         if: steps.paperpr.outputs.pull-request-operation == 'created'
         uses: peter-evans/enable-pull-request-automerge@v2
         with:

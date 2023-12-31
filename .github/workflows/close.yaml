@@ -9,6 +9,9 @@ on:
 
 jobs:
   close:
+    # This workflow runs when:
+    # 1. dispatched manually or
+    # 2. "paper-vote"-labelled PR was merged to main branch
     if: ${{ github.event_name != 'pull_request' ||
            (github.event.pull_request.merged == true
             && contains(github.event.pull_request.labels.*.name, 'paper-vote')) }}
@@ -17,12 +20,14 @@ jobs:
       matrix:
         options: [1, 2, 3]
     steps:
-      - name: Find Pull Request
+
+      - name: 🕵️ Locate remaining vote option pull requests
         uses: juliangruber/find-pull-request-action@v1
         id: find-pr
         with:
           branch: paper-vote-${{ matrix.options }}
-      - name: Close Pull ${{ matrix.options }}
+
+      - name: 🏁 Close pull request ${{ matrix.options }}
         if: ${{ steps.find-pr.outputs.number }}
         uses: peter-evans/close-pull@v3
         with:

@@ -91,14 +91,7 @@ Light maintenance is needed at the beginning and end of each semester to boot/sh
   
 ### Start of semester
 
-1. Review and update [`sources.txt`](data/sources.txt)
-2. If sources were updated in step 1, run 
-
-   ```
-   rm -rf data/papers.json && npm run update
-   ```
-   
-3.  Update semester docs
+1. Update semester docs
 
     First, set appropriate values for `SEM` and `YEAR` variables. 
     Then, run the command to archive the corresponding semester.
@@ -120,7 +113,7 @@ Light maintenance is needed at the beginning and end of each semester to boot/sh
     
     Edit `docs/index.md` front-matter to describe the current or upcoming semester.
 
-4. Turn on paper selection workflow in _settings > secrets and variables > actions_:  
+2. Turn on paper selection workflow in _settings > secrets and variables > actions_:  
    - For random paper suggestions, set `PAPER_CHOOSE_ON` value to `1`
    - For ranked choice voting, set `PAPER_VOTE_ON` value to `1`
 
@@ -160,12 +153,6 @@ The other PRs will be closes/discarded automatically.
 The relevant GitHub actions are "Vote open" and "Vote close".
 This workflow assumes Discord integration, to conduct voting, and is not usable without a server.
 
-<table align="center"><tr><td>
-<p align="center">
-<img width="700" alt="workflow" src='https://raw.githubusercontent.com/the-au-forml-lab/plgroup/main/.github/assets/voting.png' />
-</p><strong>Ranked choice voting</strong> workflow suggest multiple papers and readers vote for a winner.
-</td></tr></table>
-
 <details>
   <summary><strong>Configuration</strong></summary>
   <br/>This workflow requires the following minimal environment configurations, in <i>settings > secrets and variables > actions (variables)</i>.<br/><br/>
@@ -175,6 +162,12 @@ This workflow assumes Discord integration, to conduct voting, and is not usable 
   </ol>
 </details>
 
+<table align="center"><tr><td>
+<p align="center">
+<img width="600" alt="workflow" src='https://raw.githubusercontent.com/the-au-forml-lab/plgroup/main/.github/assets/voting.png' />
+</p><strong>Ranked choice voting</strong> workflow suggests multiple papers and readers vote for a winner.
+</td></tr></table>
+
 ### Workflow II: random paper suggestion
 
 This workflow chooses randomly one paper suggestion. 
@@ -183,13 +176,6 @@ Once a sufficient number of reviewers accept the suggestion, it will be merged.
 Closing a suggestion without approval automatically generates a new paper-suggestion PR.
 This process repeats until a satisfactory suggestion has been found.
 The relevant GitHub actions is "Random paper".
-
-<table align="center"><tr><td>
-<p align="center">
-<img width="700" alt="workflow" src='https://raw.githubusercontent.com/the-au-forml-lab/plgroup/main/.github/assets/workflow.png' />
-</p>
-<strong>Random paper suggestion</strong> workflow automatically generates 1 paper suggestion for approval.
-</td></tr></table>
 
 <details>
   <summary><strong>Configuration</strong></summary>
@@ -207,3 +193,11 @@ The relevant GitHub actions is "Random paper".
     <li>(Optional) To enable notifications of paper selection, add <code>DISCORD_WEBHOOK_URL</code> secret, directing to appropriate Discord server for posting notifications.</li>
   </ol>
 </details>
+
+<table align="center"><tr><td>
+<p align="center">
+<img width="580" alt="workflow" src='https://raw.githubusercontent.com/the-au-forml-lab/plgroup/main/.github/assets/workflow.png' />
+</p>
+<strong>Random paper suggestion</strong> workflow generates one paper suggestion for reviewers to approve.
+</td></tr></table>
+
