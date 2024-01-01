@@ -18,7 +18,12 @@ We use ranked choice voting to choose papers to read.
 <p align="center">
 <img width="700" alt="workflow" src='https://raw.githubusercontent.com/the-au-forml-lab/plgroup/main/.github/assets/voting.png' />
 </p>
- 
+
+Although the selection is random, the selection pool is controlled by the initial sources.
+The paper selection process is mostly automated with a scheduled GitHub action set to suggest the next paper.
+The suggestions appear as pull requests. 
+The paper selection is completed by merging a PR. 
+After a merge, the website is updated and readers are notified of the selected paper.
 
 ## In this repository
 
@@ -31,8 +36,7 @@ The content of this repository is organized as follows:
 | **`docs`**              | website content                                |
 | **`src`**               | source code for choosing papers                |
 
-The paper selection is mostly automatic, with a scheduled GitHub action set to suggest the next paper.
-The suggestions appear as pull requests. The paper selection is completed by merging a PR. The merge is always done by human user.
+
 
 **Available commands**
 
@@ -74,28 +78,27 @@ You can override desired parts and customize the site following [Jekyll docs](ht
 
 **How to get a suggestion for next paper?**
 
-Paper selection workflows can be triggered manually if needed and enabled.
+Paper selection actions can be discpatched manually if needed.
 Run the "random paper" action or "vote open" action in [actions](https://github.com/the-au-forml-lab/plgroup/actions). 
-The option to "run workflow" is available based on repository permissions.
-Running the workflow will generate appropriate PRs with a paper suggestion.
+The option to dispatch an action is available based on repository permissions.
+Running a paper-selection action will generate appropriate PRs with paper suggestions.
 
 **How to change the paper selection schedule**
 
-The paper selections workflows run on schedule.
+The paper-selection actions run on automated schedule.
 To change the schedule, follow [these instructions](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule).
-It is also possible to pause the workflows without code changes from repository settings in _secrets and variables > actions > variables_.
 
 ## Semester maintenance
 
-Light maintenance is needed at the beginning and end of each semester to boot/shutdown the automated workflows.
+Light maintenance is needed between semesters/reading periods to boot and shutdown the automated actions.
   
 ### Start of semester
 
 1. Update semester docs
 
-    First, set appropriate values for `SEM` and `YEAR` variables. 
-    Then, run the command to archive the corresponding semester.
-    It archives the appropriate files, and initializes a new semester.
+    Set appropriate values for `SEM` and `YEAR` variables. 
+    Run the command to archive the corresponding semester.
+    It archives the appropriate files and initializes a new semester.
     
     ````shell
     SEM=fall && YEAR=2023 \
@@ -130,67 +133,69 @@ Light maintenance is needed at the beginning and end of each semester to boot/sh
 ## Initial setup & guidance for forking
 
 The repository code is generic in the sense that, by changing the conference [`sources.txt`](data/sources.txt), it can be made to suggest any kinds of papers that have DOIs indexed by Crossref.
-Complete the following steps to activate the automated tooling.
+Complete the following steps to activate the automated actions.
 
 * **Enable workflow permissions** in _settings > actions > general_:
     - choose "Read and write permissions"
     - check "Allow GitHub Actions to create and approve pull requests
-* **[Configure a paper selection workflow](#paper-selection-workflow-configuration)** to enable paper suggestions.
-
+* **Create environment secrets and variables**, with empty default values, in _settings > secrets and variables > actions_:
+    - secrets: `DISCORD_WEBHOOK_URL` and `AUTOMERGE_PAT` 
+    - variables: `PAPER_CHOOSE_ON` and `PAPER_VOTE_ON` and `REVIEWERS`
+* **[Configure a paper selection workflow](#paper-selection-workflow-configuration)** to enable automated paper suggestions.
 
 ## Paper selection workflow configuration
 
 There are two available workflows: _ranked choice voting_ and _random paper suggestion_.
-One workflow should be enabled during a semester.
+One workflow should be enabled during a semester/reading period.
 
 ### Workflow I: ranked choice voting
 
-This workflow generates suggestions of 3 papers selected randomly from the papers data set.
+This workflow generates 3 random paper suggestions.
 Those suggestions are then posted to a Discord channel for voting by channel members.
 A corresponding PR is generated for each paper suggestion.
 The vote is concluded manually by merging the winning suggestion PR.
-The other PRs will be closes/discarded automatically.
+The remaining PRs will be closes/discarded automatically.
 The relevant GitHub actions are "Vote open" and "Vote close".
-This workflow assumes Discord integration, to conduct voting, and is not usable without a server.
+This workflow requires Discord integration to conduct voting.
 
 <details>
   <summary><strong>Configuration</strong></summary>
-  <br/>This workflow requires the following minimal environment configurations, in <i>settings > secrets and variables > actions (variables)</i>.<br/><br/>
+  <br/>In <i>settings > secrets and variables > actions (variables)</i>:<br/><br/>
   <ol>
-    <li>Ensure <code>DISCORD_WEBHOOK_URL</code> secret exists and points to the intended discord channel.</li>
-    <li>Create <code>PAPER_VOTE_ON</code> variable and set it to <code>1</code> to enable voting.</li>
+    <li>Set <code>DISCORD_WEBHOOK_URL</code> secret to direct to the intended discord channel.</li>
+    <li>Set <code>PAPER_VOTE_ON</code> variable to <code>1</code> to enable voting.</li>
   </ol>
 </details>
 
 <table align="center"><tr><td>
 <p align="center">
 <img width="600" alt="workflow" src='https://raw.githubusercontent.com/the-au-forml-lab/plgroup/main/.github/assets/voting.png' />
-</p><strong>Ranked choice voting</strong> workflow suggests multiple papers and readers vote for a winner.
+</p><strong>Ranked choice voting</strong> generates multiple paper suggestions and readers vote for a winner.
 </td></tr></table>
 
 ### Workflow II: random paper suggestion
 
 This workflow chooses randomly one paper suggestion. 
-It creates a matching PR that designated reviewers must approve.
+It creates a matching PR and designated reviewers must approve the PR.
 Once a sufficient number of reviewers accept the suggestion, it will be merged.
-Closing a suggestion without approval automatically generates a new paper-suggestion PR.
+Closing a suggestion without approval automatically generates a new suggestion.
 This process repeats until a satisfactory suggestion has been found.
 The relevant GitHub actions is "Random paper".
 
 <details>
   <summary><strong>Configuration</strong></summary>
-  <br/>This workflow requires the following minimal environment configurations.
-  Environment secrets and variables are configured in repository settings, in <i>settings > secrets and variables > actions (variables)</i>.<br/><br/>
+  <br/>
+  Environment secrets and variables are configured in <i>settings > secrets and variables > actions</i>.<br/><br/>
   <ol>
-    <li>Create a branch protection rule for <code>main</code> branch, to enforce reviewer approval of a paper suggestion.
+    <li>Create a branch protection rule for <code>main</code> branch, to enforce reviewer approval of a paper suggestion, in <i>settings > branches</i>
     <ul>
         <li>Check "Require a pull request before merging".</li>
         <li>Set "Require approvals" count to the minimum number of reviewer required to approve paper suggestion.</li>
     </ul></li>
-    <li>Create <code>REVIEWERS</code> variable; the value is a newline-separated string of GitHub usernames. The users must have sufficient repository and organization permissions to perform PR reviews.</li>
-    <li>Create <code>PAPER_CHOOSE_ON</code> variable and set it to <code>1</code> to enable automatic suggestions.</li>
-    <li>Add <code>AUTOMERGE_PAT</code> secret, a personal access token of a user with repository write access, to auto-merge PRs approved by reviewers.</li>
-    <li>(Optional) To enable notifications of paper selection, add <code>DISCORD_WEBHOOK_URL</code> secret, directing to appropriate Discord server for posting notifications.</li>
+    <li>Set <code>REVIEWERS</code> variable value to a newline-separated string of GitHub usernames. The users must have sufficient repository and organization permissions to perform PR reviews.</li>
+    <li>Set <code>PAPER_CHOOSE_ON</code> variable to <code>1</code> to enable automatic suggestions.</li>
+    <li>Set <code>AUTOMERGE_PAT</code> secret to a personal access token of a user with repository write access, to enable auto-merge of PRs approved by reviewers.</li>
+    <li>(Optional) To enable notifications of paper selection, set <code>DISCORD_WEBHOOK_URL</code> secret to appropriate Discord channel URL.</li>
   </ol>
 </details>
 
@@ -198,6 +203,6 @@ The relevant GitHub actions is "Random paper".
 <p align="center">
 <img width="580" alt="workflow" src='https://raw.githubusercontent.com/the-au-forml-lab/plgroup/main/.github/assets/workflow.png' />
 </p>
-<strong>Random paper suggestion</strong> workflow generates one paper suggestion for reviewers to approve.
+<strong>Random paper suggestion</strong> generates one paper suggestion for reviewers to approve.
 </td></tr></table>
 
