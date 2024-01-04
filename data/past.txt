@@ -1,11 +1,1 @@
 
-https://doi.org/10.1145/3314221.3314607
-https://doi.org/10.1145/3591264
-https://doi.org/10.1145/3563333
-https://doi.org/10.1145/3591221
-https://doi.org/10.1145/3591244
-https://doi.org/10.1145/3563313
-https://doi.org/10.1145/3563303
-https://doi.org/10.1145/359545.359563
-https://doi.org/10.1145/3547637
-https://doi.org/10.1145/3591273
