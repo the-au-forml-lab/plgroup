@@ -1,0 +1,1 @@
+1. Katsura, Hiroyuki, et al. “Higher-Order Property-Directed Reachability.” Proceedings of the ACM on Programming Languages, vol. 7, no. ICFP, Aug. 2023, pp. 48–77. Crossref, <a href='https://doi.org/10.1145/3607831' target='_blank'>https://doi.org/10.1145/3607831</a>.
