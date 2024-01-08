@@ -1,0 +1,1 @@
+1. Gao, Pengfei, et al. “Compositional Verification of Efficient Masking Countermeasures against Side-Channel Attacks.” Proceedings of the ACM on Programming Languages, vol. 7, no. OOPSLA2, Oct. 2023, pp. 1817–47. Crossref, <a href='https://doi.org/10.1145/3622862' target='_blank'>https://doi.org/10.1145/3622862</a>.
