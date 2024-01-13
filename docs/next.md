@@ -1,1 +1,1 @@
-Breitner, Joachim. “More Fixpoints! (Functional Pearl).” Proceedings of the ACM on Programming Languages, vol. 7, no. ICFP, Aug. 2023, pp. 686–710. Crossref, <a href='https://doi.org/10.1145/3607853' target='_blank'>https://doi.org/10.1145/3607853</a>.
+SWIERSTRA, WOUTER. “A Well-Known Representation of Monoids and Its Application to the Function ‘Vector Reverse.’” Journal of Functional Programming, vol. 32, 2022. Crossref, https://doi.org/10.1017/s0956796822000065.
