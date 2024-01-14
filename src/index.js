@@ -27,7 +27,9 @@ const requestBib = async (doiUrl) =>
 
 /**
  * Get bib and MLA format references for some paper, by DOI.
- * @param papers - local set of papers.
+ *
+ * @param papers - local set of papers; if the paper exists locally
+ * the returned values will come from the local data.
  * @param doiURL - DOI url of interest.
  * @returns {Promise<(Object|string)[]>} [bib, MLA] for the given DOI.
  */
@@ -40,9 +42,10 @@ const getRefs = async (papers, doiURL) => {
 
 
 /**
- * This method attempts to extract paper title, abstract, and citation in
- * MLA format.
- * @param {string} doi - DOI without domain, e.g. 10.1093/ajae/aaq063
+ * This method attempts to extract paper title, abstract, and citation
+ * in MLA format.
+ *
+ * @param {string} doi - DOI without domain, e.g. 10.1093/aaq063
  * @param {boolean} additive - set True to add entry to database,
  * if it does not already exist.
  * @param {boolean} log - output the details
@@ -69,6 +72,7 @@ const getDetails = async (
 
 /**
  * Check is string matches any of bad keyword (stopword).
+ *
  * @param {string[]} words - Array of stopwords.
  * @param  {string} str - String to test.
  * @returns {boolean} - True if match exists.
@@ -98,10 +102,10 @@ const setNext = async doi => {
 }
 
 /**
- * Find DOI patterns at some webpage.
+ * Find DOI patterns on some webpage.
  *
- * @param pageURL -- full HTTP url of the page to crawl
- * @returns {Promise<*[String]>} -- llist of unique DOIs on that page.
+ * @param pageURL -- full HTTP url of the page to crawl.
+ * @returns {Promise<*[String]>} -- list of unique DOIs found.
  */
 const extractDOIs = async pageURL => {
     let reMatch = (await readURL(pageURL))
@@ -110,7 +114,8 @@ const extractDOIs = async pageURL => {
 }
 
 /**
- * Build a dataset from a list of DOIs
+ * Build a dataset from a list of DOIs.
+ *
  * @param DOIs - Dataset input DOIs
  * @returns {Promise<{}|*>} - Constructed dataset
  */
@@ -132,7 +137,8 @@ const buildDataset = async DOIs => {
 
 /**
  * Crawl for papers for each URL in files/sources.txt.
- * At completion, this method has generated a dataset of papers.
+ * At completion, this method has generated a dataset of papers and
+ * displays data set statistics.
  * @returns {Promise<void>}
  */
 const findPapers = async () => {
@@ -191,7 +197,7 @@ const chooseNext = async () => {
 }
 
 /**
- * Generate a  list of paper citations from a list of DOIs.
+ * Generate a list of paper citations from a list of DOIs.
  *
  * This function takes a list of DOIs, then looks up the MLA citation
  * for each DOI, and returns a corresponding (optionally numbered)
