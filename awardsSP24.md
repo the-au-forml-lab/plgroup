@@ -7,4 +7,4 @@ Sometimes the best is from an outsider or the worst is from an insider. Expectat
 
 # The Hat-Trick
 
-In sports, a hat-trick describes 3 positive feats in a single match. In PL, a hat-trick is a combination of three spectacular qualities in a single paper (main idea, writing, visuals, evaluation, polished presentation, etc.). The winner of the hat-trick is a paper that best captures this quality.
+In sports, a hat-trick describes three positive feats in a single match. In PL, a hat-trick is a combination of three spectacular qualities in a single paper (main idea, writing, examples, visuals, evaluation, polished presentation, etc.). The winner of the hat-trick is a paper that best captures this quality.
