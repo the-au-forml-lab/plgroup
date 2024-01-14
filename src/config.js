@@ -1,5 +1,5 @@
 /**
- * Crossref request URL - used to get paper details.
+ * Crossref request URL - where to request paper details.
  * @param doi - DOI -only- (not URL)
  * @returns - CrossRef url for DOI.
  */
@@ -20,7 +20,7 @@ export const FILES = {
      */
     PAPERS: './data/papers.json',
     /**
-     * SIGPLAN website URLs, from where to find papers.
+     * List of website URLs from where to find papers.
      * @constant
      * @type {string}
      */
@@ -38,15 +38,13 @@ export const FILES = {
      */
     NEXT_DESC: './data/desc.txt',
     /**
-     * List of DOIs of previously read papers for current semester.
-     *
+     * List of DOIs of previously read papers for the current semester.
      * @constant
      * @type {string}
      */
     SEMESTER_PAPERS: './data/past.txt',
     /**
      * List of DOIs of previously read papers, for all time.
-     *
      * We maintain this history for many reasons, one of which is to
      * prevent previous paper from being selected again.
      * @constant
@@ -55,7 +53,6 @@ export const FILES = {
     ALLTIME_HISTORY: './data/history.txt',
     /**
      * List of stop words.
-     *
      * Papers containing stop words are automatically omitted from
      * papers dataset.
      * @constant
@@ -63,15 +60,15 @@ export const FILES = {
      */
     STOPWORDS: './data/stopwords.txt',
     /**
-     * Website "next paper" file
-     * Used to write current paper selection.
+     * Website "next paper" file (auto-updated).
+     * Used to display current paper selection.
      * @constant
      * @type {string}
      */
     WEB_NEXT: './docs/next.md',
     /**
-     * Website "papers list" file
-     * Used to write a list of papers.
+     * Website "papers list" file (auto-updated).
+     * Used to display a list of papers.
      * @constant
      * @type {string}
      */

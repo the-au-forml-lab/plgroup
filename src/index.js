@@ -4,7 +4,7 @@ import {readURL} from "./request.js";
 
 
 /**
- * Gets basic metadata (MLA citation) from some DOI over network.
+ * Request basic metadata (MLA citation) from some DOI.
  *
  * @param {string} doiUrl - DOI with domain, e.g. http:/doi.org/xyz/123
  * @param {string} style - bibtex or mla
@@ -17,7 +17,7 @@ const requestCite = async (doiUrl, style = 'mla') => {
 }
 
 /**
- * Get Bibtex citation for a paper
+ * Request Bibtex citation for a paper
  *
  * @param {string} doiUrl - DOI with domain, e.g. http:/doi.org/xyz/123
  * @returns {Promise<string>}
@@ -26,10 +26,10 @@ const requestBib = async (doiUrl) =>
     requestCite(doiUrl, 'bibtex')
 
 /**
- * Get bib and MLA format data for some doi
+ * Get bib and MLA format references for some paper, by DOI.
  * @param papers - local set of papers.
  * @param doiURL - DOI url of interest.
- * @returns {Promise<(Object|string)[]>} [Bib, MLA] for the given DOI.
+ * @returns {Promise<(Object|string)[]>} [bib, MLA] for the given DOI.
  */
 const getRefs = async (papers, doiURL) => {
     const paper = papers[doiURL]
@@ -43,7 +43,8 @@ const getRefs = async (papers, doiURL) => {
  * This method attempts to extract paper title, abstract, and citation in
  * MLA format.
  * @param {string} doi - DOI without domain, e.g. 10.1093/ajae/aaq063
- * @param {boolean} additive - set True to add to database if not exists.
+ * @param {boolean} additive - set True to add entry to database,
+ * if it does not already exist.
  * @param {boolean} log - output the details
  * @returns {Promise<string>}
  */
