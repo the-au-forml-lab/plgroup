@@ -26,6 +26,20 @@ const requestBib = async (doiUrl) =>
     requestCite(doiUrl, 'bibtex')
 
 /**
+ * Get bib and MLA format data for some doi
+ * @param papers - local set of papers.
+ * @param doiURL - DOI url of interest.
+ * @returns {Promise<(Object|string)[]>} [Bib, MLA] for the given DOI.
+ */
+const getRefs = async (papers, doiURL) => {
+    const paper = papers[doiURL]
+    const mla = paper ? paper[KEYS.mla] : await requestCite(doiURL)
+    const bib = paper ? paper[KEYS.bib] : await requestBib(doiURL)
+    return [bib, TextParser.spaceFix(mla)]
+}
+
+
+/**
  * This method attempts to extract paper title, abstract, and citation in
  * MLA format.
  * @param {string} doi - DOI without domain, e.g. 10.1093/ajae/aaq063
@@ -34,17 +48,15 @@ const requestBib = async (doiUrl) =>
  * @returns {Promise<string>}
  */
 const getDetails = async (
-    doi, additive = false, log = false) => {
+    doi, additive = false, log = false
+) => {
     const papers = await FS.loadPapers();
     const doiURL = `${CONFIG.DOI_ORG_DOMAIN}/${doi}`
     const exists = Object.keys(papers).includes(doi)
-    const bib = exists ? papers[doiURL][KEYS.bib] :
-        await (requestBib(doiURL))
+    const [bib, mla] = await getRefs(papers, doiURL)
     const title = TextParser.title(bib)
     const html = await readURL(XREF(doi))
     const abs = TextParser.abstract(html) || doiURL
-    const mla = TextParser.spaceFix(exists ?
-        papers[doiURL][KEYS.mla] : await requestCite(doiURL))
     if (additive && !exists) {
         papers[doiURL] = {[KEYS.mla]: mla, [KEYS.bib]: bib}
         FS.writeFile(F.PAPERS, JSON.stringify(papers))
@@ -105,15 +117,13 @@ const buildDataset = async DOIs => {
     let papers = await FS.loadPapers()
     const stop = await FS.readLines(F.STOPWORDS);
     for (const doi of DOIs) {
-        const paper = papers[doi]
-        const mla = paper ? paper[KEYS.mla] : await requestCite(doi)
-        const bib = paper ? paper[KEYS.bib] : await requestBib(doi)
+        const [bib, mla] = await getRefs(papers, doi)
         // basic sanity checks
         if (!TextParser.conference(bib) || matchesStopWord(stop, mla)) {
-            if (paper) delete papers[doi]
+            if (papers[doi]) delete papers[doi]
         }
         // add to dataset
-        else if (!paper && mla && bib)
+        else if (!papers[doi] && mla && bib)
             papers[doi] = {[KEYS.mla]: mla, [KEYS.bib]: bib}
     }
     return papers
@@ -126,7 +136,7 @@ const buildDataset = async DOIs => {
  */
 const findPapers = async () => {
     const sourceURLs = await FS.readLines(F.SOURCES);
-    console.log('Searching in ', sourceURLs.length, 'source(s)')
+    console.log('Searching in', sourceURLs.length, 'source(s)')
     const DOIs = (await Promise.all(
         sourceURLs.map(async s => await extractDOIs(s)))).flat()
     console.log('Found', DOIs.length, 'papers, processing...')
@@ -136,26 +146,26 @@ const findPapers = async () => {
 }
 
 /**
- * Display dataset paper counts by different conferences.
+ * Display dataset paper counts grouped by different conferences.
  * @returns {Promise<void>}
  */
 const stats = async () => {
     const papers = Object.values(await FS.loadPapers());
-    const nameFormat = name => (name.length < 20) ? name :
-        name.split(' ').slice(1).slice(-5).join(' ')
-            .replace(/^(on )/, "");
-    const freq = papers.map(
-        ({[KEYS.bib]: bib}) => bib).map(TextParser.conference)
 
-    // group by name, count occurrence and sort DESC
-    const confCounts = Object.entries(Object.fromEntries(
-        [...new Set(freq)].map(n => [n ? nameFormat(n) : n,
-            freq.filter(p => p === n).length])))
-        .sort(([, a], [, b]) => b - a)
+    // extract conference name only, from each paper, into a list
+    const confNames = papers.map(({[KEYS.bib]: bib}) => bib)
+        .map(TextParser.conference)
+    const uniqueNames = [...new Set(confNames)]
 
-    for (const [name, count] of confCounts)
-        console.log(count, `-- ${name}`);
-    console.log('TOTAL: ', freq.length)
+    // count conference name occurrences, sort high to low
+    const confFreq = uniqueNames.map(n =>
+        [confNames.filter(p => p === n).length, n])
+        .sort(([a,], [b,]) => b - a)
+
+    // display
+    for (const [count, name] of confFreq)
+        console.log(+count, '--', name);
+    console.log('TOTAL:', confNames.length)
 }
 
 /**
