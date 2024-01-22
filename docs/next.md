@@ -1,1 +1,1 @@
-Muller, Stefan K., et al. “Responsive Parallelism with Synchronization.” Proceedings of the ACM on Programming Languages, vol. 7, no. PLDI, June 2023, pp. 712–35. Crossref, <a href='https://doi.org/10.1145/3591249' target='_blank'>https://doi.org/10.1145/3591249</a>.
+Elsman, Martin. “Garbage-Collection Safety for Region-Based Type-Polymorphic Programs.” Proceedings of the ACM on Programming Languages, vol. 7, no. PLDI, June 2023, pp. 221–43. Crossref, <a href='https://doi.org/10.1145/3591229' target='_blank'>https://doi.org/10.1145/3591229</a>.
