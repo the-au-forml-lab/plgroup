@@ -16,3 +16,7 @@ Imagine yourself at your desk, head in your hands after what seemed like an eter
 # :construction:[UNDER CONSTRUCTION]:construction:
 
 This award is for the paper that, however promising the contents are, feels unfinished and somewhat half-baked, as if the ideas and concepts within are still under construction.
+
+# An Experience Like No Other
+
+For a paper that _most feels like_ it could have come from Augusta University.
