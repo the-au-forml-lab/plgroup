@@ -21,6 +21,8 @@ This award is for the paper that, however promising the contents are, feels unfi
 
 For a paper that _most feels like_ it could have come from Augusta University.
 
+# Chicken scratch
+Sometimes a great paper is ruined by a small detail. it's even worse when this is something that the reviewers could have caught, and especially so if bad choices introduce unnecessary complexity. worst of all though, is when bad mathematical notation makes an otherwise good paper impenetrable. this award goes to the authors of the paper with the worst notational choices.
 
 # The Kindling for the Fire
 
