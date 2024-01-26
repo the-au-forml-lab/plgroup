@@ -29,3 +29,9 @@ The kindling used to light a fire may seem somewhat sacrificial, but the ability
 
 ## Option 2
 As fuel, the kindling for a fire is very quickly burnt up to create a big, roaring fire, which utterly dwarfs the embers created within the initial kindling. This dual-paper award aims to capture that vision, being awarded to the papers that, while similar, one utterly dwarfs the other in scale, work done, and/or conclusions made.
+
+# Oreo
+This award is for a paper that has a terrible intro, terrible conclusion, but the bulk of the middle is amazing and sweet (like an oreo).
+
+# Technical Jumpscare
+This award is for a paper that is very understandable and readable at first glance, before suddenly blindsiding you with the necessity to read thousands of papers of background to understand anything.
