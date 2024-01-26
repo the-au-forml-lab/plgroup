@@ -20,3 +20,12 @@ This award is for the paper that, however promising the contents are, feels unfi
 # An Experience Like No Other
 
 For a paper that _most feels like_ it could have come from Augusta University.
+
+
+# The Kindling for the Fire
+
+## Option 1
+The kindling used to light a fire may seem somewhat sacrificial, but the ability for the kindling to create a roaring flame out of the supplied firewood is a great and impressive feat. This dual-paper award goes to the papers that do just that, the two papers that work hand in hand, one boosting the other up to reach impressive conclusions that compares to a roaring flame.
+
+## Option 2
+As fuel, the kindling for a fire is very quickly burnt up to create a big, roaring fire, which utterly dwarfs the embers created within the initial kindling. This dual-paper award aims to capture that vision, being awarded to the papers that, while similar, one utterly dwarfs the other in scale, work done, and/or conclusions made.
