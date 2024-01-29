@@ -104,12 +104,14 @@ const setNext = async doi => {
 /**
  * Find DOI patterns on some webpage.
  *
- * @param pageURL -- full HTTP url of the page to crawl.
+ * @param pageAddress -- full HTTP url of the page to crawl -or- a filepath.
  * @returns {Promise<*[String]>} -- list of unique DOIs found.
  */
-const extractDOIs = async pageURL => {
-    let reMatch = (await readURL(pageURL))
-        .matchAll(TextParser.DoiRE)
+const extractDOIs = async pageAddress => {
+    const fetchSource = pageAddress.startsWith("http") ?
+        () => readURL(pageAddress) : () => FS.readFile(pageAddress)
+    const regData = await fetchSource(pageAddress)
+    let reMatch = regData.matchAll(TextParser.DoiRE)
     return [...new Set(Array.from(reMatch, m => m[0]))]
 }
 
