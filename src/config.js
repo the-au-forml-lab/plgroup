@@ -20,7 +20,10 @@ export const FILES = {
      */
     PAPERS: './data/papers.json',
     /**
-     * List of website URLs from where to find papers.
+     * List of full website URLs ("https://...") from where to find papers.
+     * Alternatively, since some webpages can be difficult to crawl, lazy load,
+     * set cookies, redirect, etc., this a list item can be a physical, local
+     * cached file, of a website with DOIs.
      * @constant
      * @type {string}
      */
