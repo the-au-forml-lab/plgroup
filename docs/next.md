@@ -1,1 +1,1 @@
-Barthe, Gilles, et al. “On Feller Continuity and Full Abstraction.” Proceedings of the ACM on Programming Languages, vol. 6, no. ICFP, Aug. 2022, pp. 826–54. Crossref, <a href='https://doi.org/10.1145/3547651' target='_blank'>https://doi.org/10.1145/3547651</a>.
+Leijen, Daan, and Anton Lorenzen. “Tail Recursion Modulo Context: An Equational Approach.” Proceedings of the ACM on Programming Languages, vol. 7, no. POPL, Jan. 2023, pp. 1152–81. Crossref, <a href='https://doi.org/10.1145/3571233' target='_blank'>https://doi.org/10.1145/3571233</a>.
