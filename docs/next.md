@@ -1,1 +1,1 @@
-Barthe, Gilles, et al. “On Feller Continuity and Full Abstraction.” Proceedings of the ACM on Programming Languages, vol. 6, no. ICFP, Aug. 2022, pp. 826–54. Crossref, <a href='https://doi.org/10.1145/3547651' target='_blank'>https://doi.org/10.1145/3547651</a>.
+Farzan, Azadeh, et al. “Stratified Commutativity in Verification Algorithms for Concurrent Programs.” Proceedings of the ACM on Programming Languages, vol. 7, no. POPL, Jan. 2023, pp. 1426–53. Crossref, <a href='https://doi.org/10.1145/3571242' target='_blank'>https://doi.org/10.1145/3571242</a>.
