@@ -49,9 +49,13 @@ jobs:
 
       - name: 🔎 Lookup selection details
         id: vars
+        # the subabs is abstract posted to Discord.
+        # It adds some restrictions, of which I know so far:
+        # - max length (limit 1500 is "safe enough" with link, etc.)
+        # - characters: sed are to remove special chars, double quotes (post is JSON)
         run: |
           array=${{ env.COLORS }}
-          echo "subabs=$(echo $(sed -n '3p' ./data/desc.txt) | cut -c 1-1500 | sed 's/[^\x00-\x7F]//g' )" >> $GITHUB_OUTPUT && 
+          echo "subabs=$(echo $(sed -n '3p' ./data/desc.txt) | cut -c 1-1500 | sed 's/[^\x00-\x7F]//g' | 's/\"//g' )" >> $GITHUB_OUTPUT && 
           echo "title=$(sed -n '1p' ./data/desc.txt)" >> $GITHUB_OUTPUT &&
           echo "mla=$(sed -n '2p' ./data/desc.txt)" >> $GITHUB_OUTPUT &&
           echo "abs=$(sed -n '3p' ./data/desc.txt)" >> $GITHUB_OUTPUT &&
