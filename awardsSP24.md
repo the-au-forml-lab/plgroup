@@ -1,10 +1,3 @@
-Add your rewards below
-
-# Pearls Before Swine or Wine After Perl
-
-Sometimes the best is from an outsider or the worst is from an insider. Expectations are meant to be subverted be it from without or within. For without the in you are without a doubt without a means to express an out. This award is for a paper that subverts insitutional boundaries and traditional ways people publish.
-
-
 # The Hat-Trick
 
 In sports, a hat-trick describes three positive feats in a single match. In PL, a hat-trick is a combination of three spectacular qualities in a single paper (main idea, writing, examples, visuals, evaluation, polished presentation, etc.). The winner of the hat-trick is a paper that best captures this quality.
@@ -21,39 +14,15 @@ This award is for the paper that, however promising the contents are, feels unfi
 
 For a paper that _most feels like_ it could have come from Augusta University.
 
-# Ride in the ATV
-
-Nothing quite beats the thrill of taking a ride in an ATV. Such a ride is especially thrilling when the _all terrain_ capabilities are used to their full extent. This award is for the paper that takes the reader on a wild ride, connecting many different areas and ideas to and bringing them together into one complete, thrilling experience.  
-
 # Chicken Scratch
 
 Sometimes a great paper is ruined by a small detail. it's even worse when this is something that the reviewers could have caught, and especially so if bad choices introduce unnecessary complexity. worst of all though, is when bad mathematical notation makes an otherwise good paper impenetrable. this award goes to the paper with the worst notational choices.
 
-# Descent from the Ivory Tower
-
-Papers in PL can get quite theoretical. And sometimes, the authors lose sight of the real world in the process. This award can be given to either of the following:
-- a paper whose practical implications are unclear and nowhere explained -or-
-- a paper in which the authors conveniently brush aside some of the problematic implications of their paper.
-
-# The Kindling for the Fire
-
-## Option 1
-The kindling used to light a fire may seem somewhat sacrificial, but the ability for the kindling to create a roaring flame out of the supplied firewood is a great and impressive feat. This dual-paper award goes to the papers that do just that, the two papers that work hand in hand, one boosting the other up to reach impressive conclusions that compares to a roaring flame.
-
-## Option 2
-As fuel, the kindling for a fire is very quickly burnt up to create a big, roaring fire, which utterly dwarfs the embers created within the initial kindling. This dual-paper award aims to capture that vision, being awarded to the papers that, while similar, one utterly dwarfs the other in scale, work done, and/or conclusions made.
-
-# Oreo
-This award is for a paper that has a terrible intro, terrible conclusion, but the bulk of the middle is amazing and sweet (like an oreo).
-
 # Homework Required
 This award is for a paper that is very understandable and readable at first glance, before suddenly blindsiding you with the necessity to read thousands of papers of background to understand anything.
-
-# The Marathoner
-For the paper that just keeps going and going, tackling a tough problem with relentless determination. It might not be fast, but it sure is persistent.
 
 # The "That's cool! But why tho?"
 This award is for the paper that wows you with its cleverness and innovation, presenting a concept so slick it slides right off the practical path. It's the paper that leaves you applauding the performance while quietly wondering, "That's genius, but what's it actually for?"
 
 # Some Dual Category Title
-[Insert description here :)]
+Two complementary papers that form a third idea/paper from their two parts.
