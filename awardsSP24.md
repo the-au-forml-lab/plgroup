@@ -27,7 +27,7 @@ Nothing quite beats the thrill of taking a ride in an ATV. Such a ride is especi
 
 # Chicken Scratch
 
-Sometimes a great paper is ruined by a small detail. it's even worse when this is something that the reviewers could have caught, and especially so if bad choices introduce unnecessary complexity. worst of all though, is when bad mathematical notation makes an otherwise good paper impenetrable. this award goes to the authors of the paper with the worst notational choices.
+Sometimes a great paper is ruined by a small detail. it's even worse when this is something that the reviewers could have caught, and especially so if bad choices introduce unnecessary complexity. worst of all though, is when bad mathematical notation makes an otherwise good paper impenetrable. this award goes to the paper with the worst notational choices.
 
 # Descent from the Ivory Tower
 
