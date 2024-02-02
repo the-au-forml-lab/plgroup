@@ -1,1 +1,1 @@
-Barthe, Gilles, et al. “On Feller Continuity and Full Abstraction.” Proceedings of the ACM on Programming Languages, vol. 6, no. ICFP, Aug. 2022, pp. 826–54. Crossref, <a href='https://doi.org/10.1145/3547651' target='_blank'>https://doi.org/10.1145/3547651</a>.
+Spiwack, Arnaud, et al. “Linearly Qualified Types: Generic Inference for Capabilities and Uniqueness.” Proceedings of the ACM on Programming Languages, vol. 6, no. ICFP, Aug. 2022, pp. 137–64. Crossref, <a href='https://doi.org/10.1145/3547626' target='_blank'>https://doi.org/10.1145/3547626</a>.
