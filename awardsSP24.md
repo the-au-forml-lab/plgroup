@@ -29,6 +29,12 @@ Nothing quite beats the thrill of taking a ride in an ATV. Such a ride is especi
 
 Sometimes a great paper is ruined by a small detail. it's even worse when this is something that the reviewers could have caught, and especially so if bad choices introduce unnecessary complexity. worst of all though, is when bad mathematical notation makes an otherwise good paper impenetrable. this award goes to the authors of the paper with the worst notational choices.
 
+# Descent from the Ivory Tower
+
+Papers in PL can get quite theoretical. And sometimes, the authors lose sight of the real world in the process. This award can be given to either of the following:
+- a paper whose practical implications are unclear and nowhere explained -or-
+- a paper in which the authors conveniently brush aside some of the problematic implications of their paper.
+
 # The Kindling for the Fire
 
 ## Option 1
