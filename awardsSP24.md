@@ -48,3 +48,9 @@ This award is for a paper that has a terrible intro, terrible conclusion, but th
 
 # Technical Jumpscare
 This award is for a paper that is very understandable and readable at first glance, before suddenly blindsiding you with the necessity to read thousands of papers of background to understand anything.
+
+# The Marathoner
+For the paper that just keeps going and going, tackling a tough problem with relentless determination. It might not be fast, but it sure is persistent.
+
+# The "That's cool! But why tho?"
+This award is for the paper that wows you with its cleverness and innovation, presenting a concept so slick it slides right off the practical path. It's the paper that leaves you applauding the performance while quietly wondering, "That's genius, but what's it actually for?"
