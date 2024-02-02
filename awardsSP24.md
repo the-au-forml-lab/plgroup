@@ -25,7 +25,7 @@ For a paper that _most feels like_ it could have come from Augusta University.
 
 Nothing quite beats the thrill of taking a ride in an ATV. Such a ride is especially thrilling when the _all terrain_ capabilities are used to their full extent. This award is for the paper that takes the reader on a wild ride, connecting many different areas and ideas to and bringing them together into one complete, thrilling experience.  
 
-# Chicken scratch
+# Chicken Scratch
 
 Sometimes a great paper is ruined by a small detail. it's even worse when this is something that the reviewers could have caught, and especially so if bad choices introduce unnecessary complexity. worst of all though, is when bad mathematical notation makes an otherwise good paper impenetrable. this award goes to the authors of the paper with the worst notational choices.
 
