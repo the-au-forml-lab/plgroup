@@ -46,7 +46,7 @@ As fuel, the kindling for a fire is very quickly burnt up to create a big, roari
 # Oreo
 This award is for a paper that has a terrible intro, terrible conclusion, but the bulk of the middle is amazing and sweet (like an oreo).
 
-# Technical Jumpscare
+# Homework Required
 This award is for a paper that is very understandable and readable at first glance, before suddenly blindsiding you with the necessity to read thousands of papers of background to understand anything.
 
 # The Marathoner
