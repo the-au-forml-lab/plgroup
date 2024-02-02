@@ -54,3 +54,6 @@ For the paper that just keeps going and going, tackling a tough problem with rel
 
 # The "That's cool! But why tho?"
 This award is for the paper that wows you with its cleverness and innovation, presenting a concept so slick it slides right off the practical path. It's the paper that leaves you applauding the performance while quietly wondering, "That's genius, but what's it actually for?"
+
+# Some Dual Category Title
+[Insert description here :)]
