@@ -1,1 +1,1 @@
-Spiwack, Arnaud, et al. “Linearly Qualified Types: Generic Inference for Capabilities and Uniqueness.” Proceedings of the ACM on Programming Languages, vol. 6, no. ICFP, Aug. 2022, pp. 137–64. Crossref, <a href='https://doi.org/10.1145/3547626' target='_blank'>https://doi.org/10.1145/3547626</a>.
+Sun, Yican, et al. “Synthesizing Efficient Memoization Algorithms.” Proceedings of the ACM on Programming Languages, vol. 7, no. OOPSLA2, Oct. 2023, pp. 89–115. Crossref, <a href='https://doi.org/10.1145/3622800' target='_blank'>https://doi.org/10.1145/3622800</a>.
