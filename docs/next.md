@@ -1,1 +1,1 @@
-Spiwack, Arnaud, et al. “Linearly Qualified Types: Generic Inference for Capabilities and Uniqueness.” Proceedings of the ACM on Programming Languages, vol. 6, no. ICFP, Aug. 2022, pp. 137–64. Crossref, <a href='https://doi.org/10.1145/3547626' target='_blank'>https://doi.org/10.1145/3547626</a>.
+Arora, Jatin, et al. “Disentanglement with Futures, State, and Interaction.” Proceedings of the ACM on Programming Languages, vol. 8, no. POPL, Jan. 2024, pp. 1569–99. Crossref, <a href='https://doi.org/10.1145/3632895' target='_blank'>https://doi.org/10.1145/3632895</a>.
