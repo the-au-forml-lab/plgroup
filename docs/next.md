@@ -1,1 +1,1 @@
-Sun, Yican, et al. “Synthesizing Efficient Memoization Algorithms.” Proceedings of the ACM on Programming Languages, vol. 7, no. OOPSLA2, Oct. 2023, pp. 89–115. Crossref, <a href='https://doi.org/10.1145/3622800' target='_blank'>https://doi.org/10.1145/3622800</a>.
+Smeding, Tom J., and Matthijs I. L. Vákár. “Efficient CHAD.” Proceedings of the ACM on Programming Languages, vol. 8, no. POPL, Jan. 2024, pp. 1060–88. Crossref, <a href='https://doi.org/10.1145/3632878' target='_blank'>https://doi.org/10.1145/3632878</a>.
