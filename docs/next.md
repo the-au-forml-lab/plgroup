@@ -1,1 +1,1 @@
-Sun, Yican, et al. “Synthesizing Efficient Memoization Algorithms.” Proceedings of the ACM on Programming Languages, vol. 7, no. OOPSLA2, Oct. 2023, pp. 89–115. Crossref, <a href='https://doi.org/10.1145/3622800' target='_blank'>https://doi.org/10.1145/3622800</a>.
+Cui, Chen, et al. “Greedy Implicit Bounded Quantification.” Proceedings of the ACM on Programming Languages, vol. 7, no. OOPSLA2, Oct. 2023, pp. 2083–111. Crossref, <a href='https://doi.org/10.1145/3622871' target='_blank'>https://doi.org/10.1145/3622871</a>.
