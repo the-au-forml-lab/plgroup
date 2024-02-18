@@ -154,7 +154,7 @@ This workflow generates 3 random paper suggestions.
 Those suggestions are then posted to a Discord channel for voting by channel members.
 A corresponding PR is generated for each paper suggestion.
 The vote is concluded manually by merging the winning suggestion PR.
-The remaining PRs will be closes/discarded automatically.
+The remaining PRs will be closed/discarded automatically.
 The relevant GitHub actions are "Vote open" and "Vote close".
 This workflow requires Discord integration to conduct voting.
 
