@@ -194,7 +194,7 @@ The relevant GitHub actions is "Random paper".
     <li>Set <code>REVIEWERS</code> variable to a newline-separated string of GitHub usernames, for example <code>"user1 \n user2 \n user3"</code>. The users must have sufficient permissions to perform PR reviews.</li>
     <li>Set <code>PAPER_CHOOSE_ON</code> variable to <code>1</code> to enable automatic suggestions.</li>
     <li>Set <code>AUTOMERGE_PAT</code> secret to a personal access token of a user with repository write access, to enable auto-merging approved PRs.</li>
-    <li>(Optional) To enable notifications of paper selection, set <code>DISCORD_WEBHOOK_URL</code> secret to appropriate Discord channel URL.</li>
+    <li>(Optional) Set <code>DISCORD_WEBHOOK_URL</code> secret to a Discord channel URL to enable notifications.</li>
   </ol>
 </details>
 
