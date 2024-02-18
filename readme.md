@@ -117,7 +117,7 @@ Light maintenance is needed between semesters/reading periods to boot and shutdo
     Edit `docs/index.md` front-matter to describe the current or upcoming semester.
 
 2. Turn on paper selection workflow in _settings > secrets and variables > actions_:  
-   - For random paper suggestions, set `PAPER_CHOOSE_ON` value to `1`
+   - For reviewer approval, set `PAPER_CHOOSE_ON` value to `1`
    - For ranked choice voting, set `PAPER_VOTE_ON` value to `1`
 
 ### End of semester
@@ -145,7 +145,7 @@ Complete the following steps to activate the automated actions.
 
 ## Paper selection workflow configuration
 
-There are two available workflows: _ranked choice voting_ and _random paper suggestion_.
+There are two available workflows: _ranked choice voting_ and _reviewer approval_.
 One workflow should be enabled during a semester/reading period.
 
 ### Workflow I: ranked choice voting
@@ -173,11 +173,10 @@ This workflow requires Discord integration to conduct voting.
 </p><strong>Ranked choice voting</strong> generates multiple paper suggestions and readers vote for a winner.
 </td></tr></table>
 
-### Workflow II: random paper suggestion
+### Workflow II: reviewer approval
 
-This workflow chooses randomly one paper suggestion. 
-It creates a matching PR and designated reviewers must approve the PR.
-Once a sufficient number of reviewers accept the suggestion, it will be merged.
+This workflow chooses randomly one paper suggestion and designated reviewers must approve the PR.
+Once a sufficient number of reviewers accept the suggestion, the PR is merged.
 Closing a suggestion without approval automatically generates a new suggestion.
 This process repeats until a satisfactory suggestion has been found.
 The relevant GitHub actions is "Random paper".
@@ -192,9 +191,9 @@ The relevant GitHub actions is "Random paper".
         <li>Check "Require a pull request before merging".</li>
         <li>Set "Require approvals" count to the minimum number of reviewer required to approve paper suggestion.</li>
     </ul></li>
-    <li>Set <code>REVIEWERS</code> variable value to a newline-separated string of GitHub usernames, for example <code>"user1 \n user2 \n user3"</code>. The users must have sufficient repository and organization permissions to perform PR reviews.</li>
+    <li>Set <code>REVIEWERS</code> variable to a newline-separated string of GitHub usernames, for example <code>"user1 \n user2 \n user3"</code>. The users must have sufficient permissions to perform PR reviews.</li>
     <li>Set <code>PAPER_CHOOSE_ON</code> variable to <code>1</code> to enable automatic suggestions.</li>
-    <li>Set <code>AUTOMERGE_PAT</code> secret to a personal access token of a user with repository write access, to enable auto-merge of PRs approved by reviewers.</li>
+    <li>Set <code>AUTOMERGE_PAT</code> secret to a personal access token of a user with repository write access, to enable auto-merging approved PRs.</li>
     <li>(Optional) To enable notifications of paper selection, set <code>DISCORD_WEBHOOK_URL</code> secret to appropriate Discord channel URL.</li>
   </ol>
 </details>
