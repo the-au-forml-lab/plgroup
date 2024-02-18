@@ -96,8 +96,8 @@ Light maintenance is needed between semesters/reading periods to boot and shutdo
 
 1. Update semester docs
 
-    Set appropriate values for `SEM` and `YEAR` variables. 
-    Run the command to archive the corresponding semester.
+    Set values for `SEM` and `YEAR` variables to the most recently concluded semester. 
+    Then, run the command to archive the corresponding semester.
     It archives the appropriate files and initializes a new semester.
     
     ````shell
