@@ -1,1 +1,1 @@
-Heim, Philippe, and Rayna Dimitrova. “Solving Infinite-State Games via Acceleration.” Proceedings of the ACM on Programming Languages, vol. 8, no. POPL, Jan. 2024, pp. 1696–726. Crossref, <a href='https://doi.org/10.1145/3632899' target='_blank'>https://doi.org/10.1145/3632899</a>.
+Koppel, James, et al. “Searching Entangled Program Spaces.” Proceedings of the ACM on Programming Languages, vol. 6, no. ICFP, Aug. 2022, pp. 23–51. Crossref, <a href='https://doi.org/10.1145/3547622' target='_blank'>https://doi.org/10.1145/3547622</a>.
