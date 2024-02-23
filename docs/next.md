@@ -1,1 +1,1 @@
-Heim, Philippe, and Rayna Dimitrova. “Solving Infinite-State Games via Acceleration.” Proceedings of the ACM on Programming Languages, vol. 8, no. POPL, Jan. 2024, pp. 1696–726. Crossref, <a href='https://doi.org/10.1145/3632899' target='_blank'>https://doi.org/10.1145/3632899</a>.
+Wang, Jingbo, et al. “Synthesizing MILP Constraints for Efficient and Robust Optimization.” Proceedings of the ACM on Programming Languages, vol. 7, no. PLDI, June 2023, pp. 1896–919. Crossref, <a href='https://doi.org/10.1145/3591298' target='_blank'>https://doi.org/10.1145/3591298</a>.
