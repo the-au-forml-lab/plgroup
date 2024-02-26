@@ -1,1 +1,1 @@
-Wang, Jingbo, et al. “Synthesizing MILP Constraints for Efficient and Robust Optimization.” Proceedings of the ACM on Programming Languages, vol. 7, no. PLDI, June 2023, pp. 1896–919. Crossref, <a href='https://doi.org/10.1145/3591298' target='_blank'>https://doi.org/10.1145/3591298</a>.
+Grodin, Harrison, et al. “Decalf: A Directed, Effectful Cost-Aware Logical Framework.” Proceedings of the ACM on Programming Languages, vol. 8, no. POPL, Jan. 2024, pp. 273–301. Crossref, <a href='https://doi.org/10.1145/3632852' target='_blank'>https://doi.org/10.1145/3632852</a>.
