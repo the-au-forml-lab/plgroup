@@ -134,7 +134,8 @@ export const TextParser = class {
         return TextParser.spaceFix(
             xml.substring(absS, absE)
                 .replace(/[^\S ]+/g, '')
-                .replace(/<(\/?)jats:([a-z]+)>/g, ''))
+                .replace(/<!\[CDATA\[(.*)]]>/gm,'')
+                .replace(/<(\/?)jats:([^>]+)>/g, ''))
     }
 }
 
