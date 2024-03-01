@@ -204,4 +204,3 @@ The relevant GitHub actions is "Random paper".
 </p>
 <strong>Random paper suggestion</strong> generates one paper suggestion for reviewers to approve.
 </td></tr></table>
-
