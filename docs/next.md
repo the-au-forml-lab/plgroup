@@ -1,1 +1,1 @@
-Grodin, Harrison, et al. “Decalf: A Directed, Effectful Cost-Aware Logical Framework.” Proceedings of the ACM on Programming Languages, vol. 8, no. POPL, Jan. 2024, pp. 273–301. Crossref, <a href='https://doi.org/10.1145/3632852' target='_blank'>https://doi.org/10.1145/3632852</a>.
+Hague, Matthew, et al. “Parikh’s Theorem Made Symbolic.” Proceedings of the ACM on Programming Languages, vol. 8, no. POPL, Jan. 2024, pp. 1945–77. Crossref, <a href='https://doi.org/10.1145/3632907' target='_blank'>https://doi.org/10.1145/3632907</a>.
