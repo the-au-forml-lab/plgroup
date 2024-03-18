@@ -1,1 +1,1 @@
-Westrick, Sam, et al. “Entanglement Detection with Near-Zero Cost.” Proceedings of the ACM on Programming Languages, vol. 6, no. ICFP, Aug. 2022, pp. 679–710. Crossref, <a href='https://doi.org/10.1145/3547646' target='_blank'>https://doi.org/10.1145/3547646</a>.
+Ang, Zhendong, and Umang Mathur. “Predictive Monitoring against Pattern Regular Languages.” Proceedings of the ACM on Programming Languages, vol. 8, no. POPL, Jan. 2024, pp. 2191–225. Crossref, <a href='https://doi.org/10.1145/3632915' target='_blank'>https://doi.org/10.1145/3632915</a>.
