@@ -1,1 +1,1 @@
-Westrick, Sam, et al. “Entanglement Detection with Near-Zero Cost.” Proceedings of the ACM on Programming Languages, vol. 6, no. ICFP, Aug. 2022, pp. 679–710. Crossref, <a href='https://doi.org/10.1145/3547646' target='_blank'>https://doi.org/10.1145/3547646</a>.
+Andrici, Cezar-Constantin, et al. “Securing Verified IO Programs Against Unverified Code in F*.” Proceedings of the ACM on Programming Languages, vol. 8, no. POPL, Jan. 2024, pp. 2226–59. Crossref, <a href='https://doi.org/10.1145/3632916' target='_blank'>https://doi.org/10.1145/3632916</a>.
