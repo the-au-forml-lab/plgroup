@@ -28,6 +28,6 @@ This award is for a paper that is very understandable and readable at first glan
 
 This award is for the paper that wows you with its cleverness and innovation, presenting a concept so slick it slides right off the practical path. It's the paper that leaves you applauding the performance while quietly wondering, "That's genius, but what's it actually for?"
 
-##### Some Dual Category Title
+##### Two's Complement
 
 Two complementary papers that form a third idea/paper from their two parts.
