@@ -1,1 +1,1 @@
-Andrici, Cezar-Constantin, et al. “Securing Verified IO Programs Against Unverified Code in F*.” Proceedings of the ACM on Programming Languages, vol. 8, no. POPL, Jan. 2024, pp. 2226–59. Crossref, <a href='https://doi.org/10.1145/3632916' target='_blank'>https://doi.org/10.1145/3632916</a>.
+Ghalayini, Jad Elkhaleq, and Neel Krishnaswami. “Explicit Refinement Types.” Proceedings of the ACM on Programming Languages, vol. 7, no. ICFP, Aug. 2023, pp. 187–214. Crossref, <a href='https://doi.org/10.1145/3607837' target='_blank'>https://doi.org/10.1145/3607837</a>.
