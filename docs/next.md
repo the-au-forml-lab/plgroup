@@ -1,1 +1,3 @@
-Schröer, Philipp, et al. “A Deductive Verification Infrastructure for Probabilistic Programs.” Proceedings of the ACM on Programming Languages, vol. 7, no. OOPSLA2, Oct. 2023, pp. 2052–82. Crossref, <a href='https://doi.org/10.1145/3622870' target='_blank'>https://doi.org/10.1145/3622870</a>.
+Spring 2024 Awards Gala
+
+April 26, 12:00 PM - 2:00 PM
