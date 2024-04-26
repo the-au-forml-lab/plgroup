@@ -31,3 +31,15 @@ This award is for the paper that wows you with its cleverness and innovation, pr
 ##### Two's Complement
 
 Two complementary papers that form a third idea/paper from their two parts.
+
+
+#### Winners
+
+* The Hat-Trick: **“More Fixpoints!”** by Joachim Breitner.
+* Who Woulda Thunk It: **“Entanglement Detection with Near-Zero Cost.”** by Westrick, Sam, et al.
+* 🚧[UNDER CONSTRUCTION]🚧: **“Synthesizing Efficient Memoization Algorithms.”** by Sun, Yican, et al.
+* An Experience Like No Other: **“Synthesizing Efficient Memoization Algorithms.”** by Sun, Yican, et al.
+* Chicken Scratch: **“Solving Infinite-State Games via Acceleration.”** by  Philippe Heim and Rayna Dimitrova
+* Homework Required: **“Linearly Qualified Types: Generic Inference for Capabilities and Uniqueness.”** by Spiwack, Arnaud, et al.
+* The "That's cool! But why tho?": **“Decalf: A Directed, Effectful Cost-Aware Logical Framework.”** by Grodin, Harrison, et al.
+* Two's Complement: **“Securing Verified IO Programs Against Unverified Code in F\*.”** and **“More Fixpoints!"**.
