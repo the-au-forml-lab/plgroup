@@ -113,4 +113,4 @@ jobs:
           DISCORD_USERNAME: ${{ env.USERNAME }}
         uses: Ilshidur/action-discord@master
         with:
-          args: "**Voting Instructions.**\n- Rank papers using number reactions :one: favorite — :four: least favorite.\n- Any participant may volunteer to be the _discussion leader_ by selecting a paper from the current pool and announcing this to the group (use :coin:). In this case, the vote is void and the paper selected by the discussion leader is selected automatically.\n- Vote concludes by merging the PR of the selected paper."
+          args: "**Voting Instructions.**\n- Rank papers using number reactions :one: favorite — :four: least favorite.\n- Any participant may volunteer to be the **discussion leader** by selecting a paper from the current pool and announcing this to the group (use :coin:). In this case, the vote is void and the paper selected by the discussion leader is selected automatically.\n- Vote concludes by merging the PR of the selected paper."
