@@ -31,7 +31,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        options: [1, 2, 3]
+        options: [1, 2, 3, 4]
       max-parallel: 1
     steps:
 
@@ -113,4 +113,4 @@ jobs:
           DISCORD_USERNAME: ${{ env.USERNAME }}
         uses: Ilshidur/action-discord@master
         with:
-          args: "**Voting Instructions.**\n- Rank papers using number reactions :one: favorite — :three: least favorite.\n- Set the winner by merging its PR."
+          args: "**Voting Instructions.**\n- Rank papers using number reactions :one: favorite — :four: least favorite.\n- Any participant may volunteer to be the _discussion leader_ by selecting a paper from the current pool and announcing this to the group. In this case, the vote is void and the paper selected by the discussion leader is selected automatically.\n- Vote concludes by merging the PR of the selected paper.\n[Details](https://github.com/the-au-forml-lab/plgroup/blob/main/voting.md)"
