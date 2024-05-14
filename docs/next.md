@@ -1,3 +1,1 @@
-Have a nice summer break.
-
-On June 28: [ICFP Contest 2024](https://augusta.presence.io/event/icfp-contest-2024-lightning-session)
+Qin, Xueying, et al. “Shoggoth: A Formal Foundation for Strategic Rewriting.” Proceedings of the ACM on Programming Languages, vol. 8, no. POPL, Jan. 2024, pp. 61–89. Crossref, <a href='https://doi.org/10.1145/3633211' target='_blank'>https://doi.org/10.1145/3633211</a>.
