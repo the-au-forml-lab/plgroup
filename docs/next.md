@@ -1,3 +1,1 @@
-Have a nice summer break.
-
-On June 28: [ICFP Contest 2024](https://augusta.presence.io/event/icfp-contest-2024-lightning-session)
+BAHR, PATRICK. “Modal FRP for All: Functional Reactive Programming without Space Leaks in Haskell.” Journal of Functional Programming, vol. 32, 2022. Crossref, https://doi.org/10.1017/s0956796822000132.
