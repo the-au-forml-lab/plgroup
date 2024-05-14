@@ -1,3 +1,1 @@
-Have a nice summer break.
-
-On June 28: [ICFP Contest 2024](https://augusta.presence.io/event/icfp-contest-2024-lightning-session)
+Zilberstein, Noam, et al. “Outcome Logic: A Unifying Foundation for Correctness and Incorrectness Reasoning.” Proceedings of the ACM on Programming Languages, vol. 7, no. OOPSLA1, Apr. 2023, pp. 522–50. Crossref, <a href='https://doi.org/10.1145/3586045' target='_blank'>https://doi.org/10.1145/3586045</a>.
