@@ -1,3 +1,1 @@
-Have a nice summer break.
-
-On June 28: [ICFP Contest 2024](https://augusta.presence.io/event/icfp-contest-2024-lightning-session)
+Liu, Fengyun, et al. “Initializing Global Objects: Time and Order.” Proceedings of the ACM on Programming Languages, vol. 7, no. OOPSLA2, Oct. 2023, pp. 1310–37. Crossref, <a href='https://doi.org/10.1145/3622844' target='_blank'>https://doi.org/10.1145/3622844</a>.
