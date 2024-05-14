@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        options: [1, 2, 3]
+        options: [1, 2, 3, 4]
     steps:
 
       - name: 🕵️ Locate remaining vote option pull requests
