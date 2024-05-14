@@ -1,3 +1,1 @@
-Have a nice summer break.
-
-On June 28: [ICFP Contest 2024](https://augusta.presence.io/event/icfp-contest-2024-lightning-session)
+Mangipudi, Shamiek, et al. “Generalized Policy-Based Noninterference for Efficient Confidentiality-Preservation.” Proceedings of the ACM on Programming Languages, vol. 7, no. PLDI, June 2023, pp. 267–91. Crossref, <a href='https://doi.org/10.1145/3591231' target='_blank'>https://doi.org/10.1145/3591231</a>.
