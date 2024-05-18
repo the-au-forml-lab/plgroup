@@ -1,15 +1,19 @@
 This directory contains documents for the PL Reading Group website.
 It is build using Jekyll and markdown.
-You need Ruby, bundle, and various gems to run Jekyll. 
+Development requires Ruby, jekyll, and various Ruby gems (listed in `Gemfile`). 
 
-To install jekyll dependencies, run:
+### Setup
 
-```
-bundle install
-```
+1. [Jekyll installation guide](https://jekyllrb.com/docs/installation/)
 
-To debug locally, run:
+2. To install jekyll dependencies, run:
 
-```
-bundle exec jekyll serve
-```
+    ```
+    bundle install
+    ```
+
+3. To debug the website locally, run:
+
+    ```
+    bundle exec jekyll serve
+    ```

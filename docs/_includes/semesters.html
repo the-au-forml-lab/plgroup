@@ -1,10 +1,20 @@
-<section>
-    <h3>Past Semesters</h3>
-    <ul>
+<div class="mb-3 text-right">
+<div class="dropdown show">
+    <a class="btn btn-sm btn-secondary dropdown-toggle"
+            href="#" role="button" id="semesterMenu"
+            data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">&nbsp; Semester</a>
+    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="semesterMenu">
+        <a class="dropdown-item" href="{{site.baseurl}}/">
+           Latest
+        </a>
+        <div class="dropdown-divider"></div>
+        <h6 class="dropdown-header">Archived</h6>
         {% for sem in site.past_semesters %}
-        <li><a href="{{site.baseurl}}{{ sem.url | relative_path }}">
+        <a class="dropdown-item" href="{{site.baseurl}}{{ sem.url | relative_path }}">
             {{ sem.semester }} {{ sem.year }}
-        </a></li>
+        </a>
         {% endfor %}
-    </ul>
-</section>
+    </div>
+</div>
+</div>
