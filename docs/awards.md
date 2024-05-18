@@ -42,4 +42,4 @@ Two complementary papers that form a third idea/paper from their two parts.
 * Chicken Scratch: **“Solving Infinite-State Games via Acceleration.”** by  Philippe Heim and Rayna Dimitrova
 * Homework Required: **“Linearly Qualified Types: Generic Inference for Capabilities and Uniqueness.”** by Spiwack, Arnaud, et al.
 * The "That's cool! But why tho?": **“Decalf: A Directed, Effectful Cost-Aware Logical Framework.”** by Grodin, Harrison, et al.
-* Two's Complement: **“Securing Verified IO Programs Against Unverified Code in F\*.”** and **“More Fixpoints!"**.
+* Two's Complement: **“Securing Verified IO Programs Against Unverified Code in F\*.”** by Andrici, Cezar-Constantin, et al. and **“More Fixpoints!"** by Joachim Breitner. 
