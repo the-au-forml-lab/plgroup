@@ -8,37 +8,23 @@
 
 Augusta University Programming Languages (PL) Reading Group is a regular meeting to discuss exciting recent results in programming languages research. 
 The intent of the group is to learn about various ideas and generally broaden perspectives on PL research topics.
-This repository contains a small website and tooling for selecting papers to read.
 We select papers randomly from top programming languages conferences.
-
-**PAPER SELECTION: HOW IT WORKS**
-
+We gather weekly in person to discuss the selected papers.
+This repository contains a small website and tooling for selecting papers to read.
 We use ranked choice voting to choose papers to read.
-
-<p align="center">
-<img width="700" alt="workflow" src='https://raw.githubusercontent.com/the-au-forml-lab/plgroup/main/.github/assets/voting.png' />
-</p>
-
-Although the selection is random, the selection pool is controlled by the initial sources.
-The paper selection process is mostly automated with a scheduled GitHub action set to suggest the next paper.
-The suggestions appear as pull requests. 
-The paper selection is completed by merging a PR. 
-After a merge, the website is updated and readers are notified of the selected paper.
 
 ## In this repository
 
-The content of this repository is organized as follows:
-
 | Directory               | Description                                    |
 |:------------------------|:-----------------------------------------------|
-| **`.github/workflows`** | GitHub actions for automation                  |
+| **`.github/workflows`** | automation workflows                           |
 | **`data`**              | static and generated files for paper selection |
 | **`docs`**              | website content                                |
 | **`src`**               | source code for choosing papers                |
 
-
-
 **Available commands**
+
+Running these commands requires [Node.js](https://nodejs.org/en/download/).
 
 <pre>
 npm run update             : update paper dataset
@@ -48,10 +34,6 @@ npm run web                : auto-update web page
 npm run set -- [doi]       : manually set the next paper
 npm run details -- [doi]   : print meta data about a paper
 </pre>
-
-Running these commands requires [Node.js](https://nodejs.org/en/download/).
-
-The back-end for DOI lookups is [Crossref API](https://github.com/the-au-forml-lab/plgroup/blob/main/src/config.js#L6).
 
 ## Guide for repository editing
 
@@ -78,7 +60,7 @@ You can override desired parts and customize the site following [Jekyll docs](ht
 
 **How to get a suggestion for next paper?**
 
-Paper selection actions can be discpatched manually if needed.
+Paper selection actions can be dispatched manually if needed.
 Run the "random paper" action or "vote open" action in [actions](https://github.com/the-au-forml-lab/plgroup/actions). 
 The option to dispatch an action is available based on repository permissions.
 Running a paper-selection action will generate appropriate PRs with paper suggestions.
@@ -132,7 +114,7 @@ Light maintenance is needed between semesters/reading periods to boot and shutdo
 
 ## Initial setup & guidance for forking
 
-The repository code is generic in the sense that, by changing the conference [`sources.txt`](data/sources.txt), it can be made to suggest any kinds of papers that have DOIs indexed by Crossref.
+The repository code is generic in the sense that, by changing the conference [`sources.txt`](data/sources.txt), it can be made to suggest any kinds of papers that have DOIs indexed by [Crossref](https://github.com/the-au-forml-lab/plgroup/blob/main/src/config.js#L6).
 Complete the following steps to activate the automated actions.
 
 * **Enable workflow permissions** in _settings > actions > general_:
