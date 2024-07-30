@@ -1,7 +1,7 @@
 ---
-semester: Fall
+semester: Spring
 year: 2024
-awards: false
+awards: true
 ---
 
 Augusta University Programming Languages (PL) Reading Group is a regular meeting to discuss exciting recent results in programming languages research.
