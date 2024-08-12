@@ -1,0 +1,1 @@
+1. Li, Shaohua, and Zhendong Su. “Accelerating Fuzzing through Prefix-Guided Execution.” Proceedings of the ACM on Programming Languages, vol. 7, no. OOPSLA1, Apr. 2023, pp. 1–27. Crossref, <a href='https://doi.org/10.1145/3586027' target='_blank'>https://doi.org/10.1145/3586027</a>.
