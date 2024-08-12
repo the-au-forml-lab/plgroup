@@ -1,0 +1,1 @@
+1. Shapira, Yuval, et al. “Deep Learning Robustness Verification for Few-Pixel Attacks.” Proceedings of the ACM on Programming Languages, vol. 7, no. OOPSLA1, Apr. 2023, pp. 434–61. Crossref, <a href='https://doi.org/10.1145/3586042' target='_blank'>https://doi.org/10.1145/3586042</a>.
