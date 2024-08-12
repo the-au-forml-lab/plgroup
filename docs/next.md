@@ -1,9 +1,1 @@
-The [first meeting is on August 16](https://augusta.presence.io/event/pl-reading-group-fall-session-1).
-The first meeting is to determine and share the first paper. 
-Due to [new voting policies](https://github.com/the-au-forml-lab/plgroup/blob/main/voting.md) the paper reading time is now two weeks.
-
-The [second meeting is on August 23](https://augusta.presence.io/event/pl-reading-group-fall-session-2-3).
-The second meeting is to decide [the semester award categories](https://github.com/the-au-forml-lab/plgroup/blob/main/awards.md).
-Suggestions for award categories are expected by this date.
-
-**The first paper discussion is August 30.**
+Zhao, Eric, et al. “Total Type Error Localization and Recovery with Holes.” Proceedings of the ACM on Programming Languages, vol. 8, no. POPL, Jan. 2024, pp. 2041–68. Crossref, <a href='https://doi.org/10.1145/3632910' target='_blank'>https://doi.org/10.1145/3632910</a>.
