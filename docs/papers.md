@@ -1,0 +1,1 @@
+1. Kellison, Ariel E., and Justin Hsu. “Numerical Fuzz: A Type System for Rounding Error Analysis.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1954–78. Crossref, <a href='https://doi.org/10.1145/3656456' target='_blank'>https://doi.org/10.1145/3656456</a>.
