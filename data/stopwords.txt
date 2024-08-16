@@ -1,5 +1,6 @@
 blockchain
 machine learning
+deep learning
 keynote
 sql
 neural network
