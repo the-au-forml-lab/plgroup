@@ -1,4 +1,4 @@
-## New Awards Procedure (Fall 2024)
+#### New Awards Procedure (Fall 2024)
 
 At the end of the semester, each participant nominates any number
 of papers which they believe should receive an award.
