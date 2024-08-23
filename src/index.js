@@ -211,7 +211,7 @@ const chooseNext = async () => {
  */
 const paperList = async (numbered, ...DOIs) => {
     const papers = await FS.loadPapers()
-    const queue = DOIs.filter(x => x).reverse()
+    const queue = DOIs.filter(x => x)
     const entries = await Promise.all(
         queue.map(async (doi, index) => {
             const cite = papers[doi] ?
