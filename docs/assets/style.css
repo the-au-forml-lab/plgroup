@@ -18,3 +18,33 @@ article h3, article h4 {
     margin-top: 2rem;
     margin-bottom: 1rem
 }
+
+table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 300px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15);
+    background: #fff9;
+}
+table thead tr {
+    background-color: var(--primary);
+    color: #ffffff;
+    text-align: left;
+}
+table th, table td {
+    padding: 12px 15px;
+}
+
+table tbody tr {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+table tbody tr:last-of-type {
+    border-bottom: none;
+}
+
+table tbody tr.active-row {
+    font-weight: bold;
+    color: var(--primary);
+}
