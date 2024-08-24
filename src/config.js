@@ -68,7 +68,13 @@ export const FILES = {
      * @constant
      * @type {string}
      */
-    WEB_PAPERS: './docs/papers.md'
+    WEB_PAPERS: './docs/papers.md',
+    /**
+     * Website index page
+     * @constant
+     * @type {string}
+     */
+    WEB_INDEX: './docs/index.md'
 }
 
 /**

@@ -99,6 +99,8 @@ const setNext = async doi => {
     FS.writeFile(F.NEXT_FILE, doiURL)
     FS.append(F.SEMESTER_PAPERS, doiURL)
     FS.append(F.ALLTIME_HISTORY, doiURL)
+    if (meta && meta.indexOf('\n') > 0)
+        await writeSchedule(meta.split('\n')[0])
 }
 
 /**
@@ -229,8 +231,21 @@ const paperList = async (numbered, ...DOIs) => {
  */
 const writeWeb = async () => {
     const all = await FS.readLines(F.SEMESTER_PAPERS)
-    const first = all.length > 0 ? all[all.length - 1] : null
     FS.writeFile(F.WEB_PAPERS, await paperList(true, ...all))
+}
+
+/**
+ * Update index page with selected title.
+ * @param title of selected paper.
+ * @returns {Promise<void>}
+ */
+const writeSchedule = async (title) => {
+    const index = await FS.readFile(F.WEB_INDEX)
+    const match = TextParser.ScheduleRE.exec(index)
+    if (match){
+        const new_index = index.replace(match[0], title)
+        FS.writeFile(F.WEB_INDEX, new_index)
+    }
 }
 
 /**

@@ -72,6 +72,9 @@ export const TextParser = class {
     static get DoiRE() {
         return /https?:\/\/(www\.|)?doi\.org\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)/g
     }
+    static get ScheduleRE(){
+        return /Paper \d+ discussion/
+    }
 
     /**
      * Remove excess whitespace; double-space, etc.
