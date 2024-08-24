@@ -230,7 +230,6 @@ const paperList = async (numbered, ...DOIs) => {
 const writeWeb = async () => {
     const all = await FS.readLines(F.SEMESTER_PAPERS)
     const first = all.length > 0 ? all[all.length - 1] : null
-    FS.writeFile(F.WEB_NEXT, await paperList(false, first))
     FS.writeFile(F.WEB_PAPERS, await paperList(true, ...all))
 }
 

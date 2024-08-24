@@ -28,7 +28,6 @@ exclude:
   - Gemfile
   - /*/papers.md
   - /*/awards.md
-  - next.md
   - papers.md
   - awards.md
   - readme.md

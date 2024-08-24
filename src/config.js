@@ -63,13 +63,6 @@ export const FILES = {
      */
     STOPWORDS: './data/stopwords.txt',
     /**
-     * Website "next paper" file (auto-updated).
-     * Used to display current paper selection.
-     * @constant
-     * @type {string}
-     */
-    WEB_NEXT: './docs/next.md',
-    /**
      * Website "papers list" file (auto-updated).
      * Used to display a list of papers.
      * @constant

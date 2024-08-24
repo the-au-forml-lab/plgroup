@@ -89,9 +89,8 @@ Light maintenance is needed between semesters/reading periods to boot and shutdo
     && cp $DOCS"index.md" $OLD_DIR"/index.md" \
     && mv $DOCS"papers.md" $OLD_DIR"/papers.md" \
     && [ ! -f $DOCS"awards.md" ] || mv $DOCS"awards.md" $OLD_DIR"/awards.md" \
-    && echo '' > $DOCS"/next.md" \
-    && echo '' > $DATA"/past.txt" \
-    && echo '' > $DATA"/next.txt" \
+    && echo -n '' > $DATA"/past.txt" \
+    && echo -n '' > $DATA"/next.txt" \
     && touch $DOCS"papers.md"
     ````
     
@@ -105,11 +104,6 @@ Light maintenance is needed between semesters/reading periods to boot and shutdo
 
 1. Turn off paper selection workflows in _settings > secrets and variables > actions_:  
    Set `PAPER_CHOOSE_ON` and `PAPER_VOTE_ON` values to `0`.
-2. Clear the next paper selection. You can include a custom message in the quotes: 
-
-   ```
-   echo '' > docs/next.md
-   ```
 
 ## Initial setup & guidance for forking
 
