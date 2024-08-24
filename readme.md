@@ -4,14 +4,13 @@
 [![Test changes](https://github.com/the-au-forml-lab/plgroup/actions/workflows/test.yaml/badge.svg)](https://github.com/the-au-forml-lab/plgroup/actions/workflows/test.yaml)
 [![Maintainability](https://api.codeclimate.com/v1/badges/b10b07ed0fded196aaa2/maintainability)](https://codeclimate.com/github/the-au-forml-lab/plgroup/maintainability)
 
-**This project includes information about and tooling for our programming languages reading group.**
+**This repository contains tooling for our programming languages reading group.**
 
 Augusta University Programming Languages (PL) Reading Group is a regular meeting to discuss exciting recent results in programming languages research. 
 The intent of the group is to learn about various ideas and generally broaden perspectives on PL research topics.
-We select papers randomly from top programming languages conferences.
+We select papers randomly from top programming languages conferences, with final selection made by ranked choice voting by reading group members.
 We gather weekly in person to discuss the selected papers.
-This repository contains a small website and tooling for selecting papers to read.
-We use ranked choice voting to choose papers to read.
+This repository contains a small website and tooling to assist in selecting papers to read.
 
 ## In this repository
 
@@ -61,7 +60,7 @@ You can override desired parts and customize the site following [Jekyll docs](ht
 **How to get a suggestion for next paper?**
 
 Paper selection actions can be dispatched manually if needed.
-Run the "random paper" action or "vote open" action in [actions](https://github.com/the-au-forml-lab/plgroup/actions). 
+Run the "random paper" action or "vote open" action, in [actions](https://github.com/the-au-forml-lab/plgroup/actions), depending on the [configured workflow](#paper-selection-workflow-configuration). 
 The option to dispatch an action is available based on repository permissions.
 Running a paper-selection action will generate appropriate PRs with paper suggestions.
 

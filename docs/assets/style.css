@@ -26,18 +26,14 @@ table {
     font-family: sans-serif;
     min-width: 300px;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15);
-    background: #fff9;
-}
-table thead tr {
-    background-color: var(--primary);
-    color: #ffffff;
-    text-align: left;
+    background: #fff;
+    border-radius: 0.3rem;
 }
 table th, table td {
     padding: 12px 15px;
 }
 
-table tbody tr {
+table tr {
     border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
 table tbody tr:last-of-type {
