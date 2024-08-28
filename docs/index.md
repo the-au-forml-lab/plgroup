@@ -37,4 +37,4 @@ Our tools for paper selection: [plgroup on Github](https://github.com/the-au-for
 | 12. | November 22  | Fall Finale and Awards Gala                                           |
 
 No meeting on August 23 and November 15.   
-The weeks of November 8--15 are reserved for preparing for the awards discussion.
+The weeks of November 8--22 are reserved for preparing for the awards discussion.
