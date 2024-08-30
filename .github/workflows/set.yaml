@@ -47,7 +47,7 @@ jobs:
 
       - name: ⬆️ Create a pull request
         id: paperpr
-        uses: peter-evans/create-pull-request@v5
+        uses: peter-evans/create-pull-request@v6
         with:
           add-paths: files/*.txt
           labels: next-paper
@@ -64,13 +64,3 @@ jobs:
             > ${{ steps.vars.outputs.mla }}
 
             **Merge this PR to apply selection.**
-          reviewers: |
-            ${{ fromJSON(vars.REVIEWERS) }}
-
-#      - name: 🦾 Enable automatic merge
-#        if: steps.paperpr.outputs.pull-request-operation == 'created'
-#        uses: peter-evans/enable-pull-request-automerge@v2
-#        with:
-#          token: ${{ secrets.AUTOMERGE_PAT }}
-#          pull-request-number: ${{ steps.paperpr.outputs.pull-request-number }}
-#          merge-method: squash

@@ -65,7 +65,7 @@ jobs:
 
       - name: ⬆️ Create a pull request
         id: paperpr
-        uses: peter-evans/create-pull-request@v5
+        uses: peter-evans/create-pull-request@v6
         with:
           add-paths: files/*.txt
           labels: next-paper
@@ -87,7 +87,7 @@ jobs:
 
       - name: 🦾 Enable automatic merge
         if: steps.paperpr.outputs.pull-request-operation == 'created'
-        uses: peter-evans/enable-pull-request-automerge@v2
+        uses: peter-evans/enable-pull-request-automerge@v3
         with:
           token: ${{ secrets.AUTOMERGE_PAT }}
           pull-request-number: ${{ steps.paperpr.outputs.pull-request-number }}
