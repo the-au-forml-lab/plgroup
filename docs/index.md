@@ -23,9 +23,9 @@ Our tools for paper selection: [plgroup on Github](https://github.com/the-au-for
 | \#  | Date         | Description                                                           |
 |:---:|:-------------|:----------------------------------------------------------------------|
 | 0.  | August 16    | Kick-off meeting                                                      |
-| 1.  | August 30    | Numerical Fuzz: A Type System for Rounding Error Analysis             |
-| 2.  | September 6  | Simple Reference Immutability for System F <:                         | 
-| 3.  | September 13 | Paper 3 discussion                                                    |
+| 1.  | August 30    | Discussion: Numerical Fuzz: A Type System for Rounding Error Analysis |
+| 2.  | September 6  | Discussion: Simple Reference Immutability for System F <:             | 
+| 3.  | September 13 | Polymorphic Type Inference for Dynamic Languages                                                    |
 | 4.  | September 20 | Paper 4 discussion                                                    |
 | 5.  | September 27 | Paper 5 discussion                                                    |
 | 6.  | October 4    | Paper 6 discussion                                                    |
