@@ -20,7 +20,6 @@ on:
 
 jobs:
   choose:
-
     # This workflow runs when:
     #  1. "random paper workflow" is enabled and
     #  2. (a) Workflow was dispatched manually
@@ -85,10 +84,8 @@ jobs:
           reviewers: |
             ${{ fromJSON(vars.REVIEWERS) }}
 
-      - name: 🦾 Enable automatic merge
+      - name: 🦾 Enable PR automatic merge
         if: steps.paperpr.outputs.pull-request-operation == 'created'
-        uses: peter-evans/enable-pull-request-automerge@v3
-        with:
-          token: ${{ secrets.AUTOMERGE_PAT }}
-          pull-request-number: ${{ steps.paperpr.outputs.pull-request-number }}
-          merge-method: squash
+        run: gh pr merge --merge --squash --auto ${{ steps.paperpr.outputs.pull-request-number }}
+        env:
+          GH_TOKEN: ${{ secrets.AUTOMERGE_PAT }}
