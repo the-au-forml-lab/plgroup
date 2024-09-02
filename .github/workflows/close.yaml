@@ -29,7 +29,6 @@ jobs:
 
       - name: 🏁 Close pull request ${{ matrix.options }}
         if: ${{ steps.find-pr.outputs.number }}
-        uses: peter-evans/close-pull@v3
-        with:
-          pull-request-number: ${{ steps.find-pr.outputs.number }}
-          delete-branch: true
+        run: gh pr close --delete-branch ${{ steps.find-pr.outputs.number }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
