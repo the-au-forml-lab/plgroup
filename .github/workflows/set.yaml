@@ -39,7 +39,7 @@ jobs:
           echo "NOW=$(date +'%d %B')" >> $GITHUB_ENV
 
       - name: ✅ Commit paper selection changes
-        run: .github/utils/commit.sh
+        run: bash ${PWD}/.github/utils/commit.sh
 #          git config user.name 'Bot'
 #          git config user.email 'the-au-forml-lab@users.noreply.github.com'
 #          git add -A
