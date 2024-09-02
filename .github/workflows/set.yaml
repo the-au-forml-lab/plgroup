@@ -39,11 +39,11 @@ jobs:
           echo "NOW=$(date +'%d %B')" >> $GITHUB_ENV
 
       - name: ✅ Commit paper selection changes
-        run: |
-          git config user.name 'Bot'
-          git config user.email 'the-au-forml-lab@users.noreply.github.com'
-          git add -A
-          git commit -m "Next paper $NOW"
+        run: .github/utils/commit.sh
+#          git config user.name 'Bot'
+#          git config user.email 'the-au-forml-lab@users.noreply.github.com'
+#          git add -A
+#          git commit -m "Next paper $NOW"
 
       - name: ⬆️ Create a pull request
         id: paperpr
