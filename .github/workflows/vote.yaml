@@ -53,7 +53,7 @@ jobs:
           U="${{ steps.pr.outputs.pull-request-url }}"
           T="${{ steps.vars.outputs.title }}"
           A="${{ steps.vars.outputs.abs }}"
-          echo "data=\"$(bash .github/utils/embed.sh $I $P $U \"$T\" \"$A\")\"" >> $GITHUB_OUTPUT
+          echo "data=\"$(bash .github/utils/embed.sh $I $P \"$U\" \"$T\" \"$A\")\"" >> $GITHUB_OUTPUT
         id: embed
       - name: 🗳️ Post vote option to Discord
         uses: Ilshidur/action-discord@master
