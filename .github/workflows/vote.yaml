@@ -35,6 +35,7 @@ jobs:
         run: |
           echo "body=\"$(bash .github/utils/pr.sh)\"" >> $GITHUB_OUTPUT
           echo "title=$(bash .github/utils/title.sh)" >> $GITHUB_OUTPUT
+          echo "abs=$(bash .github/utils/abs.sh)" >> $GITHUB_OUTPUT
       - name: 🔖️ Create a pull request
         uses: peter-evans/create-pull-request@v6
         id: pr
@@ -49,7 +50,9 @@ jobs:
           I=${{ matrix.options }}
           P=${{ steps.pr.outputs.pull-request-number }}
           U=${{ steps.pr.outputs.pull-request-url }}
-          echo "data=\"$(bash .github/utils/embed.sh $I $P $U)\"" >> $GITHUB_OUTPUT
+          T=${{ steps.vars.outputs.title }}
+          A=${{ steps.vars.outputs.abs }}
+          echo "data=\"$(bash .github/utils/embed.sh $I $P $U $T $A)\"" >> $GITHUB_OUTPUT
         id: embed
       - name: 🗳️ Post vote option to Discord
         uses: Ilshidur/action-discord@master
