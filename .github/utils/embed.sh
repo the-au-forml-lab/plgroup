@@ -21,4 +21,4 @@ JSON="[{
   \"description\" : \"$ABS [Merge PR $PR_NUM]($PR_URL)\" }]"
 
 JSON=${JSON//$'\n'/}
-echo "${JSON//\"/\\\"}"
+echo "$JSON"
