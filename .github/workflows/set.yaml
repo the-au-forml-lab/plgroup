@@ -1,10 +1,5 @@
 name: Set suggestion
 
-# This is a mirror of the "choose" workflow but without randomization.
-# This workflow sets the next paper suggestion manually from a DOI.
-# It generates a paper suggestion PR and matching website edits.
-# The generated PR still needs to be merged by reviewers/admin.
-
 on:
   workflow_dispatch:
     branches: [ main ]
@@ -13,54 +8,36 @@ on:
         description: DOI, e.g. 10.1122/9991234
         required: true
 
+# This is a mirror of the "choose" workflow, but without randomization.
+# The next paper suggestion is set manually from a DOI.
+# It generates a pull request and applies website edits.
+# The generated PR still needs to be merged by repository maintainer.
 jobs:
   set_paper:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: 'main'
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-
-      - name: 📃 Set paper selection and update website
-        run: |
-          npm run set -- ${{ github.event.inputs.doi }}
-          npm run web
-
-      - name: 🔎 Lookup selection details
-        id: vars
-        run: |
-          echo "title=$(sed -n '1p' ./data/desc.txt)" >> $GITHUB_OUTPUT &&
-          echo "mla=$(sed -n '2p' ./data/desc.txt)" >> $GITHUB_OUTPUT &&
-          echo "abs=$(sed -n '3p' ./data/desc.txt)" >> $GITHUB_OUTPUT &&
-          echo "doi=$(cat ./data/next.txt)" >> $GITHUB_OUTPUT &&
-          echo "NOW=$(date +'%d %B')" >> $GITHUB_ENV
-
+      - name: 🎯 Set paper selection
+        run: npm run set -- ${{ github.event.inputs.doi }}
+      - name: 📝 Update website
+        run: npm run web
       - name: ✅ Commit paper selection changes
         run: bash ${PWD}/.github/utils/commit.sh
-#          git config user.name 'Bot'
-#          git config user.email 'the-au-forml-lab@users.noreply.github.com'
-#          git add -A
-#          git commit -m "Next paper $NOW"
-
-      - name: ⬆️ Create a pull request
+      - name: 🔎 Lookup paper details
+        id: vars
+        run: |
+          echo "title=$(bash .github/utils/title.sh)" >> $GITHUB_OUTPUT
+          echo "body=$(bash .github/utils/pr.sh)" >> $GITHUB_OUTPUT
+      - name: 🔖️ Create a pull request
         id: paperpr
         uses: peter-evans/create-pull-request@v6
         with:
           add-paths: files/*.txt
           labels: next-paper
           branch: next-paper
-          delete-branch: true
           title: ${{ steps.vars.outputs.title }}
-          body: |
-            This paper was randomly selected as your next reading.
-
-            ### ${{ steps.vars.outputs.title }}
-
-            ${{ steps.vars.outputs.abs }}
-
-            > ${{ steps.vars.outputs.mla }}
-
-            **Merge this PR to apply selection.**
+          body: ${{ steps.vars.outputs.body }}
+          delete-branch: true
