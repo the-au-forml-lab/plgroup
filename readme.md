@@ -59,7 +59,7 @@ You can override desired parts and customize the site following [Jekyll docs](ht
 
 **How to get a suggestion for next paper?**
 
-Paper selection actions can be dispatched manually if needed.
+The paper-selection actions run on automated schedule, but paper selection can be dispatched manually if needed.
 Run the "random paper" action or "vote open" action, in [actions](https://github.com/the-au-forml-lab/plgroup/actions), depending on the [configured workflow](#paper-selection-workflow-configuration). 
 The option to dispatch an action is available based on repository permissions.
 Running a paper-selection action will generate appropriate PRs with paper suggestions.
