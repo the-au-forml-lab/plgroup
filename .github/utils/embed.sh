@@ -11,14 +11,14 @@ PR_NUM="${ARGV[1]}"
 PR_URL="${ARGV[2]}"
 COLOR=${COLORS[MAT_ID]}
 TITLE=$(bash .github/utils/title.sh)
-ABS=$(bash .github/utils/mla.sh)
+ABS=$(bash .github/utils/abs.sh)
 
 # https://birdie0.github.io/discord-webhooks-guide/discord_webhook.html
 JSON="[{
   \"url\": \"$PR_URL\",
   \"color\": \"$COLOR\",
   \"title\": \"($MAT_ID) $TITLE\",
-  \"description\" : \"$ABS [Merge PR $PR_NUM]($PR_URL)\" }]"
+  \"description\": \"$ABS [Merge PR $PR_NUM]($PR_URL)\" }]"
 
 JSON=${JSON//$'\n'/}
-echo "$JSON"
+echo "${JSON//\"/\\\"}"
