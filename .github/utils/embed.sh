@@ -17,7 +17,7 @@ COLOR=${COLORS[MAT_ID]}
 JSON="[{
   \"url\": \"$PR_URL\",
   \"color\": \"$COLOR\",
-  \"title\": \"($MAT_ID) $TITLE\",
+  \"title\": \"$MAT_ID │ $TITLE\",
   \"description\": \"$ABSTR [Merge PR $PR_NUM]($PR_URL)\" }]"
 
 JSON=${JSON//$'\n'/}
