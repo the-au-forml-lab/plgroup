@@ -4,26 +4,21 @@ on:
   pull_request:
     types:
       - closed
+  workflow_dispatch:
+    branches: [ main ]
 
 jobs:
   notifications:
     # Run whenever next-paper labelled PR is merged to main branch
-    if: ${{ github.event.pull_request.merged == true &&
+    if: ${{ secrets.DISCORD_WEBHOOK_URL != '' &&
+            github.event.pull_request.merged == true &&
             contains(github.event.pull_request.labels.*.name, 'next-paper') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - name: 🔎 Lookup selection details
-        id: vars
-        run: |
-          echo "title=$(sed -n '1p' ./data/desc.txt)" >> $GITHUB_OUTPUT &&
-          echo "mla=$(sed -n '2p' ./data/desc.txt)" >> $GITHUB_OUTPUT
-
-      - name: 💬 Send Discord notification
-        if: ${{ env.DISCORD_WEBHOOK != '' }}
+      - run: echo "NEXT=\"$(bash .github/utils/next.sh)\"" >> $GITHUB_ENV
+      - uses: Ilshidur/action-discord@master
+        with:
+          args: ${{ fromJSON(env.NEXT) }}
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        uses: Ilshidur/action-discord@master
-        with:
-          args: "Next paper: ${{ steps.vars.outputs.title }}\n\n${{ steps.vars.outputs.mla }}"

@@ -4,7 +4,7 @@ cd "$(git rev-parse --show-toplevel)" || return
 # Format abstract so it can be used in JSON+Discord post
 # * remove double quotes
 # * characters: remove special chars ==> allow only certain chars
-abs=$(sed -n '3p' ./data/desc.txt | sed "s/\"/'/g" | sed 's/[^a-z\.,; 0-9A-Z]//g' )
+abs=$(sed -n '3p' ./data/desc.txt | sed "s/\"/'/g" | sed 's/[^a-z\.\-\(\),; 0-9A-Z]//g' )
 
 # * max length: limit number of characters
 mx_len=1200

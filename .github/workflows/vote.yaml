@@ -17,7 +17,7 @@ env:
 jobs:
   vote_options:
     # Sequentially generate suggestions, if paper vote is enabled
-    if: ${{ vars.PAPER_VOTE_ON == 1 }}
+    if: ${{ vars.PAPER_VOTE_ON == 1 && secrets.DISCORD_WEBHOOK_URL != '' }}
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -55,7 +55,6 @@ jobs:
           delete-branch: true
       - name: 🗳️ Post vote option to Discord
         uses: Ilshidur/action-discord@master
-        if: ${{ env.DISCORD_WEBHOOK != '' }}
         env:
           DISCORD_AVATAR: ${{ env.AVATAR }}
           DISCORD_USERNAME: ${{ env.USERNAME }}
@@ -69,13 +68,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: echo "VOTING=\"$(bash .github/utils/voting.sh)\"" >> $GITHUB_ENV
-      - name: 🧑‍🏫 Post voting instructions
-        uses: Ilshidur/action-discord@master
-        if: ${{ env.DISCORD_WEBHOOK != '' }}
+      - run: echo "INSTRUCTIONS=\"$(bash .github/utils/voting.sh)\"" >> $GITHUB_ENV
+      - uses: Ilshidur/action-discord@master
         env:
           DISCORD_AVATAR: ${{ env.AVATAR }}
           DISCORD_USERNAME: ${{ env.USERNAME }}
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
         with:
-          args: ${{ fromJSON(env.VOTING) }}
+          args: ${{ fromJSON(env.INSTRUCTIONS) }}
