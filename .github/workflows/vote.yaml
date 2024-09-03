@@ -54,7 +54,7 @@ jobs:
         uses: Ilshidur/action-discord@master
         if: ${{ env.DISCORD_WEBHOOK != '' }}
         env:
-          DISCORD_EMBEDS: '${{ env.EMBED }}'
+          DISCORD_EMBEDS: ${{ fromJSON(env.EMBED) }}
           DISCORD_AVATAR: ${{ env.AVATAR }}
           DISCORD_USERNAME: ${{ env.USERNAME }}
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
