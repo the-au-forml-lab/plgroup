@@ -64,11 +64,7 @@ jobs:
           echo "color=${array[${{ matrix.options }}]}" >> $GITHUB_OUTPUT
 
       - name: ✅ Commit paper selection changes
-        run: |
-          git config user.name 'Bot'
-          git config user.email 'the-au-forml-lab@users.noreply.github.com'
-          git add -A
-          git commit -m "Next paper option $NOW"
+        run: bash ${PWD}/.github/utils/commit.sh
 
       - name: ⬆️ Create a pull request
         id: paperpr
