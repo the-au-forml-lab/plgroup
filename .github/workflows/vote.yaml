@@ -69,7 +69,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: echo "VOTING=\"$(cat .github/assets/voting.md)\"" >> $GITHUB_ENV
+      - run: echo "VOTING=\"$(bash .github/utils/voting.sh)\"" >> $GITHUB_ENV
       - name: 🧑‍🏫 Post voting instructions
         uses: Ilshidur/action-discord@master
         if: ${{ env.DISCORD_WEBHOOK != '' }}

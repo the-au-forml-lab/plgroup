@@ -20,13 +20,12 @@ jobs:
       matrix:
         options: [1, 2, 3, 4]
     steps:
-
+      - uses: actions/checkout@v4
       - name: 🕵️ Locate remaining vote option pull requests
         uses: juliangruber/find-pull-request-action@v1
         id: find-pr
         with:
           branch: paper-vote-${{ matrix.options }}
-
       - name: 🏁 Close pull request ${{ matrix.options }}
         if: ${{ steps.find-pr.outputs.number }}
         run: gh pr close --delete-branch ${{ steps.find-pr.outputs.number }}
