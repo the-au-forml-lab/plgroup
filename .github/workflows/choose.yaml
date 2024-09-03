@@ -2,15 +2,6 @@ name: Random paper
 
 on:
   schedule:
-            # ┌─────────── minute (0 - 59)
-            # │  ┌────────── hour (0 - 23)
-            # │  │  ┌────────── day of the month (1 - 31)
-            # │  │  │  ┌────────── month (1 - 12 or JAN-DEC)
-            # │  │  │  │  ┌────────── day of the week (0 - 6 or SUN-SAT)
-            # │  │  │  │  │
-            # │  │  │  │  │
-            # │  │  │  │  │
-            # *  *  *  *  *
     - cron:  '0 14  *  *  5'
   workflow_dispatch:
     branches: [ main ]
@@ -21,66 +12,43 @@ on:
 jobs:
   choose:
     # This workflow runs when:
-    #  1. "random paper workflow" is enabled and
-    #  2. (a) Workflow was dispatched manually
-    #  2. (b) Paper suggestion PR was closed without merging
+    # "random paper workflow" is enabled and
+    #  (a) Workflow was dispatched manually -or-
+    #  (b) Paper suggestion PR was closed without merging
     if: ${{ vars.PAPER_CHOOSE_ON == 1 && (
             github.event_name != 'pull_request' ||
            (contains(github.event.pull_request.labels.*.name, 'next-paper') &&
            !contains(github.event.pull_request.labels.*.name, 'paper-vote') &&
-            github.event.pull_request.merged == false)
-        )}}
+            github.event.pull_request.merged == false))}}
     runs-on: ubuntu-latest
     steps:
-
       - uses: actions/checkout@v4
-        with:
-          ref: 'main'
-
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-
-      - name: 🔮 Choose random paper and update website
-        run: |
-          npm run choose
-          npm run web
-
-      - name: 🔎 Lookup selection details
-        id: vars
-        run: |
-          echo "title=$(sed -n '1p' ./data/desc.txt)" >> $GITHUB_OUTPUT &&
-          echo "mla=$(sed -n '2p' ./data/desc.txt)" >> $GITHUB_OUTPUT &&
-          echo "abs=$(sed -n '3p' ./data/desc.txt)" >> $GITHUB_OUTPUT &&
-          echo "doi=$(cat ./data/next.txt)" >> $GITHUB_OUTPUT &&
-          echo "NOW=$(date +'%d %B')" >> $GITHUB_ENV
-
+      - name: 🔮 Choose random paper
+        run: npm run choose
+      - name: 📝 Update website
+        run: npm run web
       - name: ✅ Commit paper selection changes
         run: bash ${PWD}/.github/utils/commit.sh
-
-      - name: ⬆️ Create a pull request
-        id: paperpr
+      - name: 🔎 Lookup paper details
+        id: vars
+        run: |
+          echo "title=$(bash .github/utils/title.sh)" >> $GITHUB_OUTPUT
+          echo "body=\"$(bash .github/utils/pr.sh)\"" >> $GITHUB_OUTPUT
+      - name: 🔖️ Create a pull request
         uses: peter-evans/create-pull-request@v6
+        id: paperpr
         with:
           add-paths: files/*.txt
           labels: next-paper
           branch: next-paper
-          delete-branch: true
           title: ${{ steps.vars.outputs.title }}
-          body: |
-            This paper was randomly selected as your next reading.
-
-            ### ${{ steps.vars.outputs.title }}
-
-            ${{ steps.vars.outputs.abs }}
-
-            > ${{ steps.vars.outputs.mla }}
-
-            **Merge this PR to apply selection.**
-          reviewers: |
-            ${{ fromJSON(vars.REVIEWERS) }}
-
-      - name: 🦾 Enable PR automatic merge
+          body: ${{ fromJSON(steps.vars.outputs.body) }}
+          delete-branch: true
+          reviewers: ${{ fromJSON(vars.REVIEWERS) }}
+      - name: 🤖 Enable automatic merge
         if: steps.paperpr.outputs.pull-request-operation == 'created'
         run: gh pr merge --merge --squash --auto ${{ steps.paperpr.outputs.pull-request-number }}
         env:

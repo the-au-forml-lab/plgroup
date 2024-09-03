@@ -1,8 +1,9 @@
+name: Set suggestion
+
 # This is a mirror of the "choose" workflow, but without randomization.
 # The next paper suggestion is set manually from a DOI.
 # It generates a pull request and applies website edits.
 # The generated PR still needs to be merged by repository maintainer.
-name: Set suggestion
 
 on:
   workflow_dispatch:
@@ -32,8 +33,8 @@ jobs:
           echo "title=$(bash .github/utils/title.sh)" >> $GITHUB_OUTPUT
           echo "body=\"$(bash .github/utils/pr.sh)\"" >> $GITHUB_OUTPUT
       - name: 🔖️ Create a pull request
-        id: paperpr
         uses: peter-evans/create-pull-request@v6
+        id: paperpr
         with:
           add-paths: files/*.txt
           labels: next-paper
