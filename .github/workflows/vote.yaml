@@ -49,15 +49,16 @@ jobs:
           I=${{ matrix.options }}
           P=${{ steps.pr.outputs.pull-request-number }}
           U=${{ steps.pr.outputs.pull-request-url }}
-          echo "EMBED=\"$(bash .github/utils/embed.sh $I $P $U)\"" >> $GITHUB_ENV
+          echo "data=\"$(bash .github/utils/embed.sh $I $P $U)\"" >> $GITHUB_OUTPUT
+        id: embed
       - name: 🗳️ Post vote option to Discord
         uses: Ilshidur/action-discord@master
         if: ${{ env.DISCORD_WEBHOOK != '' }}
         env:
-          DISCORD_EMBEDS: ${{ fromJSON(env.EMBED) }}
           DISCORD_AVATAR: ${{ env.AVATAR }}
           DISCORD_USERNAME: ${{ env.USERNAME }}
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DISCORD_EMBEDS: ${{ fromJSON(steps.embed.outputs.data) }}
 
   post_actions:
     needs: vote_options
