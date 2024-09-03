@@ -10,14 +10,14 @@ on:
 jobs:
   notifications:
     # Run whenever next-paper labelled PR is merged to main branch
-    if: ${{ secrets.DISCORD_WEBHOOK_URL != '' &&
-            github.event.pull_request.merged == true &&
+    if: ${{ github.event.pull_request.merged == true &&
             contains(github.event.pull_request.labels.*.name, 'next-paper') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - run: echo "NEXT=\"$(bash .github/utils/next.sh)\"" >> $GITHUB_ENV
       - uses: Ilshidur/action-discord@master
+        if: ${{ env.DISCORD_WEBHOOK != '' }}
         with:
           args: ${{ fromJSON(env.NEXT) }}
         env:
