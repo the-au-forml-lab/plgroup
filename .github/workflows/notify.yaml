@@ -4,15 +4,12 @@ on:
   pull_request:
     types:
       - closed
-  workflow_dispatch:
-    branches: [ main ]
 
 jobs:
   notifications:
     # Run whenever next-paper labelled PR is merged to main branch
-    if: ${{ github.event_name != 'pull_request' ||
-            (github.event.pull_request.merged == true &&
-            contains(github.event.pull_request.labels.*.name, 'next-paper')) }}
+    if: ${{ github.event.pull_request.merged == true &&
+            contains(github.event.pull_request.labels.*.name, 'next-paper') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

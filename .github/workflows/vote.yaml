@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        options: [1] #, 2, 3, 4]
+        options: [1, 2, 3, 4]
       max-parallel: 1
     steps:
       - uses: actions/checkout@v4
@@ -39,13 +39,13 @@ jobs:
         run: |
           array=${{ env.COLORS }}
           echo "color=${array[${{ matrix.options }}]}" >> $GITHUB_OUTPUT
-          echo "title=$(bash .github/utils/title.sh)" >> $GITHUB_OUTPUT
-          echo "body=\"$(bash .github/utils/pr.sh)\"" >> $GITHUB_OUTPUT
           echo "abs=$(bash .github/utils/abs.sh)" >> $GITHUB_OUTPUT
-          echo "NOW=$(date +'%d %B')" >> $GITHUB_ENV
+          echo "body=\"$(bash .github/utils/pr.sh)\"" >> $GITHUB_OUTPUT
+          echo "title=$(bash .github/utils/title.sh)" >> $GITHUB_OUTPUT
+
       - name: 🔖️ Create a pull request
-        id: paperpr
         uses: peter-evans/create-pull-request@v6
+        id: pr
         with:
           add-paths: files/*.txt
           labels: paper-vote,next-paper
@@ -53,6 +53,7 @@ jobs:
           title: ${{ steps.vars.outputs.title }}
           body: ${{ fromJSON(steps.vars.outputs.body) }}
           delete-branch: true
+
       - name: 🗳️ Post vote option to Discord
         uses: Ilshidur/action-discord@master
         if: ${{ env.DISCORD_WEBHOOK != '' }}
@@ -60,20 +61,24 @@ jobs:
           DISCORD_AVATAR: ${{ env.AVATAR }}
           DISCORD_USERNAME: ${{ env.USERNAME }}
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          DISCORD_EMBEDS: '[{ "color":"${{ steps.vars.outputs.color }}", "title":"${{ steps.vars.outputs.title }}", "description":"${{ steps.vars.outputs.abs }} [Merge PR ${{ steps.paperpr.outputs.pull-request-number }}](${{ steps.paperpr.outputs.pull-request-url }})" }]'
-        with:
-          args: "**Vote option ${{ matrix.options }} | ${{ env.NOW }}**"
+          DISCORD_EMBEDS: |-
+            [{ "color": "${{ steps.vote.outputs.color }}", 
+               "title": "Option ${{ matrix.options }} | ${{ steps.vars.outputs.title }}",
+               "url": "${{ steps.pr.outputs.pull-request-url }}",
+               "description" : 
+                  "${{ steps.vars.outputs.abs }} 
+                  [Merge PR ${{ steps.pr.outputs.pull-request-number }}](${{ steps.pr.outputs.pull-request-url }})" }]
 
   post_actions:
     needs: vote_options
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: echo "INSTRUCTIONS=\"$(bash .github/utils/voting.sh)\"" >> $GITHUB_ENV
+      - run: echo "VOTING=\"$(bash .github/utils/voting.sh)\"" >> $GITHUB_ENV
       - uses: Ilshidur/action-discord@master
         env:
           DISCORD_AVATAR: ${{ env.AVATAR }}
           DISCORD_USERNAME: ${{ env.USERNAME }}
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
         with:
-          args: ${{ fromJSON(env.INSTRUCTIONS) }}
+          args: ${{ fromJSON(env.VOTING) }}
