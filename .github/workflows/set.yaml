@@ -1,3 +1,7 @@
+# This is a mirror of the "choose" workflow, but without randomization.
+# The next paper suggestion is set manually from a DOI.
+# It generates a pull request and applies website edits.
+# The generated PR still needs to be merged by repository maintainer.
 name: Set suggestion
 
 on:
@@ -8,10 +12,6 @@ on:
         description: DOI, e.g. 10.1122/9991234
         required: true
 
-# This is a mirror of the "choose" workflow, but without randomization.
-# The next paper suggestion is set manually from a DOI.
-# It generates a pull request and applies website edits.
-# The generated PR still needs to be merged by repository maintainer.
 jobs:
   set_paper:
     runs-on: ubuntu-latest
