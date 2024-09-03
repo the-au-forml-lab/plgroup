@@ -30,7 +30,7 @@ jobs:
         id: vars
         run: |
           echo "title=$(bash .github/utils/title.sh)" >> $GITHUB_OUTPUT
-          echo -e "body=$(bash .github/utils/pr.sh)" >> $GITHUB_OUTPUT
+          echo -e "body=\"$(bash .github/utils/pr.sh)\"" >> $GITHUB_OUTPUT
       - name: 🔖️ Create a pull request
         id: paperpr
         uses: peter-evans/create-pull-request@v6
