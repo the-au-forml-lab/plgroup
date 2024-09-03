@@ -16,4 +16,4 @@ ${mla}
 **Merge this PR to apply selection.**"
 
 # output to terminal
-"$body"
+echo "$body"
