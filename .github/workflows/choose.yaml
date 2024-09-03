@@ -49,7 +49,6 @@ jobs:
           delete-branch: true
           reviewers: ${{ fromJSON(vars.REVIEWERS) }}
       - name: 🤖 Enable automatic merge
-        if: steps.paperpr.outputs.pull-request-operation == 'created'
         run: gh pr merge --merge --auto ${{ steps.paperpr.outputs.pull-request-number }}
         env:
           GH_TOKEN: ${{ secrets.AUTOMERGE_PAT }}
