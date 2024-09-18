@@ -28,7 +28,7 @@ Our tools for paper selection: [plgroup on Github](https://github.com/the-au-for
 | 3.  | September 13 | Polymorphic Type Inference for Dynamic Languages                                                    |
 | 4.  | September 20 | A Graded Modal Dependent Type Theory with a Universe and Erasure, Formalized                                                    |
 | 5.  | September 27 | Fat Pointers for Temporal Memory Safety of C                                                    |
-| 6.  | October 4    | Paper 6 discussion                                                    |
+| 6.  | October 4    | Generic Programming with Extensible Data Types: Or, Making Ad Hoc Extensible Data Types Less Ad Hoc                                                    |
 | 7.  | October 11   | Paper 7 discussion                                                    |
 | 8.  | October 18   | Paper 8 discussion                                                    |
 | 9.  | October 25   | Paper 9 discussion                                                    |
