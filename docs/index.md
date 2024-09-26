@@ -27,7 +27,7 @@ Our tools for paper selection: [plgroup on Github](https://github.com/the-au-for
 | 2.  | September 6  | Simple Reference Immutability for System F <:             | 
 | 3.  | September 13 | Polymorphic Type Inference for Dynamic Languages                                                    |
 | 4.  | September 20 | A Graded Modal Dependent Type Theory with a Universe and Erasure, Formalized                                                    |
-| 5.  | September 27 | ⚠️ _meeting cancelled for bad weather_ ⚠️
+| 5.  | September 27 | ⚠️ _meeting canceled for bad weather_ ⚠️
 | 6.  | October 4    | Fat Pointers for Temporal Memory Safety of C                                                     |
 | 7.  | October 11   | A Pretty Expressive Printer                                                    |
 | 8.  | October 18   | Paper 8 discussion                                                    |
