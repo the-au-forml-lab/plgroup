@@ -30,10 +30,10 @@ Our tools for paper selection: [plgroup on Github](https://github.com/the-au-for
 | 5.  | September 27 | ⚠️ _meeting canceled for bad weather_ ⚠️
 | 6.  | October 4    | Fat Pointers for Temporal Memory Safety of C                                                     |
 | 7.  | October 11   | A Pretty Expressive Printer                                                    |
-| 8.  | October 18   | Paper 8 discussion                                                    |
-| 9.  | October 25   | Paper 9 discussion                                                    |
-| 10. | November 1   | Paper 10 discussion                                                   |
-| 11. | November 8   | Paper 11 discussion                                                   |
+| 8.  | October 18   | Paper 7 discussion                                                    |
+| 9.  | October 25   | Paper 8 discussion                                                    |
+| 10. | November 1   | Paper 9 discussion                                                   |
+| 11. | November 8   | Paper 10 discussion                                                   |
 | 12. | November 22  | Fall Finale and Awards Gala                                           |
 
 No meeting on August 23 and November 15.   
