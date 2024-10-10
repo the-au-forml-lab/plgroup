@@ -57,12 +57,17 @@ Edit files in [`docs`](docs) written in markdown.
 The website theme is from [here](https://github.com/the-au-forml-lab/the-au-forml-lab.github.io). 
 You can override desired parts and customize the site following [Jekyll docs](https://jekyllrb.com/docs/themes/#overriding-theme-defaults).
 
-**How to get a suggestion for next paper?**
+**How to get a suggestion for the next paper?**
 
 The paper-selection actions run on automated schedule, but paper selection can be dispatched manually if needed.
 Run the "random paper" action or "vote open" action, in [actions](https://github.com/the-au-forml-lab/plgroup/actions), depending on the [configured workflow](#paper-selection-workflow-configuration). 
 The option to dispatch an action is available based on repository permissions.
 Running a paper-selection action will generate appropriate PRs with paper suggestions.
+
+**How to set the next paper (bypassing randomness)?**
+
+Manually run the ["set paper"](https://github.com/the-au-forml-lab/plgroup/actions/workflows/set.yaml) workflow with a DOI as a parameter.
+The workflow will run all necessary updates and generates a PR of changes. Approve the PR to confirm the next paper.
 
 **How to change the paper selection schedule**
 
