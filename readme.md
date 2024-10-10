@@ -110,6 +110,12 @@ Light maintenance is needed between semesters/reading periods to boot and shutdo
 1. Turn off paper selection workflows in _settings > secrets and variables > actions_:  
    Set `PAPER_CHOOSE_ON` and `PAPER_VOTE_ON` values to `0`.
 
+### Unexpected Interruptions
+
+Pause or restart the workflows as necessary, by toggling the paper section workflows in repository settings.
+- To pause: set `PAPER_CHOOSE_ON` and `PAPER_VOTE_ON` values to `0`.
+- To restart: set `PAPER_CHOOSE_ON` or `PAPER_VOTE_ON` value to `1`, based on configured paper-section workflow.
+
 ## Initial setup & guidance for forking
 
 The repository code is generic in the sense that, by changing the conference [`sources.txt`](data/sources.txt), it can be made to suggest any kinds of papers that have DOIs indexed by [Crossref](https://github.com/the-au-forml-lab/plgroup/blob/main/src/config.js#L6).
