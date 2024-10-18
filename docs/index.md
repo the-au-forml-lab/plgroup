@@ -32,7 +32,7 @@ Our tools for paper selection: [plgroup on Github](https://github.com/the-au-for
 | 7.  | October 11   | _Fall pause_                                                                 |
 | 8.  | October 18   | Fat Pointers for Temporal Memory Safety of C                                 |
 | 9.  | October 25   | A Pretty Expressive Printer                                                  |
-| 10. | November 1   | Paper 7 discussion                                                           |
+| 10. | November 1   | Spirea: A Mechanized Concurrent Separation Logic for Weak Persistent Memory  |
 | 11. | November 8   | Paper 8 discussion                                                           |
 | 12. | November 22  | Fall Finale and Awards Gala                                                  |
 
