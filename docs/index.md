@@ -20,21 +20,21 @@ Our tools for paper selection: [plgroup on Github](https://github.com/the-au-for
 
 #### Semester schedule
 
-| \#  | Date         | Description                                                           |
-|:---:|:-------------|:----------------------------------------------------------------------|
-| 0.  | August 16    | Kick-off meeting                                                      |
-| 1.  | August 30    | Numerical Fuzz: A Type System for Rounding Error Analysis |
-| 2.  | September 6  | Simple Reference Immutability for System F <:             | 
-| 3.  | September 13 | Polymorphic Type Inference for Dynamic Languages                                                    |
-| 4.  | September 20 | A Graded Modal Dependent Type Theory with a Universe and Erasure, Formalized                                                    |
-| 5.  | September 27 | Fat Pointers for Temporal Memory Safety of C                                                    |
-| 6.  | October 4    | A Pretty Expressive Printer                                                    |
-| 7.  | October 11   | Spirea: A Mechanized Concurrent Separation Logic for Weak Persistent Memory                                                    |
-| 8.  | October 18   | Paper 8 discussion                                                    |
-| 9.  | October 25   | Paper 9 discussion                                                    |
-| 10. | November 1   | Paper 10 discussion                                                   |
-| 11. | November 8   | Paper 11 discussion                                                   |
-| 12. | November 22  | Fall Finale and Awards Gala                                           |
+| \#  | Date         | Description                                                                  |
+|:---:|:-------------|:-----------------------------------------------------------------------------|
+| 0.  | August 16    | Kick-off meeting                                                             |
+| 1.  | August 30    | Numerical Fuzz: A Type System for Rounding Error Analysis                    |
+| 2.  | September 6  | Simple Reference Immutability for System F <:                                | 
+| 3.  | September 13 | Polymorphic Type Inference for Dynamic Languages                             |
+| 4.  | September 20 | A Graded Modal Dependent Type Theory with a Universe and Erasure, Formalized |
+| 5.  | September 27 | ⚠️ _meeting canceled for Hurricane Helene_                                   |
+| 6.  | October 4    | ⚠️ _meeting canceled for storm recovery and campus closure_                  |
+| 7.  | October 11   | _Fall pause_                                                                 |
+| 8.  | October 18   | Fat Pointers for Temporal Memory Safety of C                                 |
+| 9.  | October 25   | A Pretty Expressive Printer                                                  |
+| 10. | November 1   | Spirea: A Mechanized Concurrent Separation Logic for Weak Persistent Memory  |
+| 11. | November 8   | Paper 8 discussion                                                           |
+| 12. | November 22  | Fall Finale and Awards Gala                                                  |
 
 No meeting on August 23 and November 15.   
 The weeks of November 8--22 are reserved for preparing for the awards discussion.

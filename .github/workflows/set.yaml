@@ -1,4 +1,4 @@
-name: Set suggestion
+name: Set paper
 
 # This is a mirror of the "choose" workflow, but without randomization.
 # The next paper suggestion is set manually from a DOI.
