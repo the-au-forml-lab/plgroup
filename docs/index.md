@@ -18,7 +18,7 @@ The PL Reading Group is a regular meeting of [ΔΛΔ](https://augusta.presence.i
 
 Our tools for paper selection: [plgroup on Github](https://github.com/the-au-forml-lab/plgroup).
 
-#### Semester schedule
+#### Semester Schedule
 
 | \#  | Date         | Description                                                                  |
 |:---:|:-------------|:-----------------------------------------------------------------------------|
@@ -27,14 +27,13 @@ Our tools for paper selection: [plgroup on Github](https://github.com/the-au-for
 | 2.  | September 6  | Simple Reference Immutability for System F <:                                | 
 | 3.  | September 13 | Polymorphic Type Inference for Dynamic Languages                             |
 | 4.  | September 20 | A Graded Modal Dependent Type Theory with a Universe and Erasure, Formalized |
-| 5.  | September 27 | ⚠️ _meeting canceled for Hurricane Helene_                                   |
-| 6.  | October 4    | ⚠️ _meeting canceled for storm recovery and campus closure_                  |
-| 7.  | October 11   | _Fall pause_                                                                 |
-| 8.  | October 18   | Fat Pointers for Temporal Memory Safety of C                                 |
-| 9.  | October 25   | A Pretty Expressive Printer                                                  |
-| 10. | November 1   | Spirea: A Mechanized Concurrent Separation Logic for Weak Persistent Memory  |
-| 11. | November 8   | Paper 8 discussion                                                           |
-| 12. | November 22  | Fall Finale and Awards Gala                                                  |
+| 5.  | September 27 | ⚠️ _meeting canceled for Hurricane Helene_                                    |
+| 6.  | October 4    | ⚠️ _meeting canceled for storm recovery and campus closure_                   |
+| 7.  | October 18   | Fat Pointers for Temporal Memory Safety of C                                 |
+| 8.  | October 25   | A Pretty Expressive Printer                                                  |
+| 9.  | November 1   | Spirea: A Mechanized Concurrent Separation Logic for Weak Persistent Memory  |
+| 10. | November 8   | Paper 8 discussion                                                           |
+| 11. | November 22  | Fall Finale and Awards Gala                                                  |
 
-No meeting on August 23 and November 15.   
+No meeting on August 23, October 11 (fall pause), and November 15.   
 The weeks of November 8--22 are reserved for preparing for the awards discussion.
