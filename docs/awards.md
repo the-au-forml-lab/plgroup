@@ -13,8 +13,8 @@ should receive awards, and coming up with funny award names for the winners.
 **Cthulhu's Diary.** This award is for the paper that presents the
 reader with machinations uncomprehensible in the human mind, that of
 which is likens to Lovecraftian horrors of a different age.  Winner:
-**A Graded Modal Dependent Type Theory with a Universe and Erasure,
-Formalized**
+*A Graded Modal Dependent Type Theory with a Universe and Erasure,
+Formalized*
 
 **The Librarian.** This award is for the paper that, like a librarian,
 shows unmatched dedication to their bookkeeping and organization of
