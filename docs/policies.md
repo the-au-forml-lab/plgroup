@@ -9,7 +9,7 @@ Current reading group policies.
 ### Voting Procedure
 
 1. Each week, a pool of four papers is selected randomly.
-2. Participants select one of those papers by ranked choice vote, and the winning paper is discussed two weeks after concluding the vote.
+2. Participants select one of those papers by ranked choice vote, and the winning paper is discussed one week after concluding the vote.
 3. During the voting period, any participant may volunteer to be the **discussion leader**. To do so, they select a paper from the current pool and announce this to the group. In this case, the vote is void and the paper selected by the discussion leader is selected automatically.
 4. Once a participant has volunteered to be a discussion leader, they may not do so again until the paper they have selected has been discussed during reading group.
 5. At the end of any session where a discussion leader was present, the participants of that session vote on whether the leader succeeded on leading the discussion and clarifying difficult points in the paper for the remaining attendees. If the outcome of the vote is "NO", the discussion leader may not volunteer to read another discussion until the end of the semester.
