@@ -1,4 +1,12 @@
-# Voting Procedure
+---
+layout: page
+---
+
+Current reading group policies.
+
+[Edit this page](https://github.com/the-au-forml-lab/plgroup/blob/main/docs/policies.md)
+
+### Voting Procedure
 
 1. Each week, a pool of four papers is selected randomly.
 2. Participants select one of those papers by ranked choice vote, and the winning paper is discussed two weeks after concluding the vote.
@@ -9,3 +17,5 @@
    - If they all selected different papers, then
      all selected papers are discussed in subsequent sessions of reading group, and no new voting pools are generated for those session. The exact order of the selected papers is left up to the discussion leaders, but they must announce it to the remaining participants in a timely manner.
    - If two or more volunteers selected the same paper, they may either agree to be co-discussion leaders or for some of them to withdraw from being discussion leader.
+
+   

@@ -17,7 +17,9 @@ It is also simply fun to hang out with us.
 
 The PL Reading Group is a regular meeting of [ΔΛΔ](https://augusta.presence.io/organization/delta-lambda-delta) student organization.
 
-Our tools for paper selection: [plgroup on Github](https://github.com/the-au-forml-lab/plgroup).
+Our tools for paper selection: [plgroup on GitHub](https://github.com/the-au-forml-lab/plgroup).
+
+Current [reading group policies](policies).
 
 #### Semester Schedule
 
@@ -39,3 +41,4 @@ Our tools for paper selection: [plgroup on Github](https://github.com/the-au-for
 
 No meeting on March 7 (spring pause) and April 11 (spring break).  
 The week of April 18 is reserved for awards gala preparation.
+
