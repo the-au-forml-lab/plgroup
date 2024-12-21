@@ -1,7 +1,7 @@
 ---
 semester: Spring
 year: 2025
-{% comment %} IMPORTANT: Set awards to "true" if awards.md exists; Set awards to "false" if awards.md does not exist {% endcomment %}
+{% comment %} IMPORTANT: Set awards to "true" if awards.md exists, and "false" otherwise {% endcomment %}
 awards: false
 ---
 

@@ -97,7 +97,7 @@ Light maintenance is needed between semesters/reading periods to boot and shutdo
     && [ ! -f $DOCS"awards.md" ] || mv $DOCS"awards.md" $OLD_DIR"/awards.md" \
     && echo -n '' > $DATA"/past.txt" \
     && echo -n '' > $DATA"/next.txt" \
-    && touch $DOCS"awards.md"
+    && touch $DOCS"awards.md" \
     && touch $DOCS"papers.md"
     ````
     
