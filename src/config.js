@@ -147,5 +147,14 @@ export const CONFIG = {
      * Max allowed URL request redirects.
      */
     MAX_REDIRS: 20,
-    DOI_ORG_DOMAIN: 'https://doi.org'
+    /**
+     * Domain for converting a DOI# to a complete URL.
+     */
+    DOI_ORG_DOMAIN: 'https://doi.org',
+    /**
+     * Regex pattern for auto-completing a semester schedule.
+     * First match for this pattern in WEB_INDEX will be replaced
+     * with a paper title.
+     */
+    SCHEDULE_RE: /Paper \d+ discussion/
 }

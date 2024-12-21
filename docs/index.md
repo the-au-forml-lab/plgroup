@@ -1,6 +1,6 @@
 ---
-semester: Fall
-year: 2024
+semester: Spring
+year: 2025
 awards: true
 ---
 
@@ -20,20 +20,21 @@ Our tools for paper selection: [plgroup on Github](https://github.com/the-au-for
 
 #### Semester Schedule
 
-| \#  | Date         | Description                                                                  |
-|:---:|:-------------|:-----------------------------------------------------------------------------|
-| 0.  | August 16    | Kick-off meeting                                                             |
-| 1.  | August 30    | Numerical Fuzz: A Type System for Rounding Error Analysis                    |
-| 2.  | September 6  | Simple Reference Immutability for System F <:                                | 
-| 3.  | September 13 | Polymorphic Type Inference for Dynamic Languages                             |
-| 4.  | September 20 | A Graded Modal Dependent Type Theory with a Universe and Erasure, Formalized |
-| 5.  | September 27 | ⚠️ _meeting canceled for Hurricane Helene_                                    |
-| 6.  | October 4    | ⚠️ _meeting canceled for storm recovery and campus closure_                   |
-| 7.  | October 18   | Fat Pointers for Temporal Memory Safety of C                                 |
-| 8.  | October 25   | A Pretty Expressive Printer                                                  |
-| 9.  | November 1   | Spirea: A Mechanized Concurrent Separation Logic for Weak Persistent Memory  |
-| 10. | November 8   | Parikh’s Theorem Made Symbolic                                                           |
-| 11. | November 22  | Fall Finale and Awards Gala                                                  |
+| \#  | Date        | Description         |
+|:---:|:------------|:--------------------|
+| 0.  | January 10  | First meeting       |
+| 1.  | January 17  | Paper 1 discussion  |
+| 2.  | January 24  | Paper 2 discussion  | 
+| 3.  | January 31  | Paper 3 discussion  |
+| 4.  | February 7  | Paper 4 discussion  |
+| 5.  | February 14 | Paper 5 discussion  |
+| 6.  | February 21 | Paper 6 discussion  |
+| 7.  | February 28 | Paper 7 discussion  |
+| 9.  | March 14    | Paper 9 discussion  |
+| 10. | March 21    | Paper 10 discussion |
+| 11. | March 28    | Paper 11 discussion |
+| 12. | April 4     | Paper 12 discussion |
+| 11. | April 25    | Awards Gala         |
 
-No meeting on August 23, October 11 (fall pause), and November 15.   
-The weeks of November 8--22 are reserved for preparing for the awards discussion.
+No meeting on March 7 (spring pause and April 11 (spring break).  
+The week of April 18 is reserved for awards gala preparation.

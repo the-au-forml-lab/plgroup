@@ -2,7 +2,7 @@
  * Collection of helper methods, mostly for various I/O operations.
  */
 import fs from 'fs'
-import {FILES as F} from './config.js';
+import {FILES as F, CONFIG} from './config.js';
 
 /**
  * Wrapper for file system operations.
@@ -73,7 +73,7 @@ export const TextParser = class {
         return /https?:\/\/(www\.|)?doi\.org\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)/g
     }
     static get ScheduleRE(){
-        return /Paper \d+ discussion/
+        return CONFIG.SCHEDULE_RE
     }
 
     /**
