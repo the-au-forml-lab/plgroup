@@ -37,5 +37,5 @@ Our tools for paper selection: [plgroup on Github](https://github.com/the-au-for
 | 12. | April 4     | Paper 12 discussion |
 | 11. | April 25    | Awards Gala         |
 
-No meeting on March 7 (spring pause and April 11 (spring break).  
+No meeting on March 7 (spring pause) and April 11 (spring break).  
 The week of April 18 is reserved for awards gala preparation.
