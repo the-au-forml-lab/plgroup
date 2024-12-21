@@ -99,7 +99,7 @@ Light maintenance is needed between semesters/reading periods to boot and shutdo
     && touch $DOCS"papers.md"
     ````
     
-    Edit `docs/index.md` front-matter to describe the current or upcoming semester.
+    Edit `docs/index.md` to describe the current or upcoming semester.
 
 2. Turn on paper selection workflow in _settings > secrets and variables > actions_:  
    - For reviewer approval, set `PAPER_CHOOSE_ON` value to `1`
