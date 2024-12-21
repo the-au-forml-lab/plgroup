@@ -125,8 +125,8 @@ It is build using Jekyll and markdown.
 Local development requires Ruby, Jekyll, and various Ruby gems.
 Follow these steps for local setup.
 
-1. Install Jekyll: jekyllrb.com/docs/installation
-2. Install Jekyll dependencies: `bundle install`
+1. [Install Jekyll](https://jekyllrb.com/docs/installation)
+2. Install dependencies: `bundle install`
 3. Run the website locally: `bundle exec jekyll serve`
 
 ## Initial setup & guidance for forking
