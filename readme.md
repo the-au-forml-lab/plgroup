@@ -112,7 +112,7 @@ Light maintenance is needed between semesters/reading periods to boot and shutdo
 1. Turn off paper selection workflows in _settings > secrets and variables > actions_:  
    Set `PAPER_CHOOSE_ON` and `PAPER_VOTE_ON` values to `0`.
 
-### Unexpected Interruptions during a semester
+### Unexpected interruptions during a semester
 
 Pause or restart the workflows as necessary, by toggling the paper section workflows in repository settings.
 - To pause: set `PAPER_CHOOSE_ON` and `PAPER_VOTE_ON` values to `0`.
@@ -125,7 +125,7 @@ It is build using Jekyll and markdown.
 Local development requires Ruby, Jekyll, and various Ruby gems.
 Follow these steps for local setup.
 
-1. [Install Jekyll](https://jekyllrb.com/docs/installation)
+1. [Install Jekyll](https://jekyllrb.com/docs/installation) then cd `docs/`.
 2. Install dependencies: `bundle install`
 3. Run the website locally: `bundle exec jekyll serve`
 
