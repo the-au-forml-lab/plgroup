@@ -37,8 +37,7 @@ Current [reading group policies](policies).
 | 10. | March 21    | Paper 10 discussion |
 | 11. | March 28    | Paper 11 discussion |
 | 12. | April 4     | Paper 12 discussion |
-| 11. | April 25    | Awards Gala         |
+| 13. | April 25    | Awards Gala         |
 
 No meeting on March 7 (spring pause) and April 11 (spring break).  
 The week of April 18 is reserved for awards gala preparation.
-
