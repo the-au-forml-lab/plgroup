@@ -56,6 +56,7 @@ Each line is considered a separate stop word, and paper is evaluated against eac
 Edit files in [`docs`](docs) written in markdown.
 The website theme is from [here](https://github.com/the-au-forml-lab/the-au-forml-lab.github.io). 
 You can override desired parts and customize the site following [Jekyll docs](https://jekyllrb.com/docs/themes/#overriding-theme-defaults).
+For more comprehensive edits, or to debug build issues, follow the instructions for [website development](#website-development).
 
 **How to get a suggestion for the next paper?**
 
@@ -96,6 +97,7 @@ Light maintenance is needed between semesters/reading periods to boot and shutdo
     && [ ! -f $DOCS"awards.md" ] || mv $DOCS"awards.md" $OLD_DIR"/awards.md" \
     && echo -n '' > $DATA"/past.txt" \
     && echo -n '' > $DATA"/next.txt" \
+    && touch $DOCS"awards.md"
     && touch $DOCS"papers.md"
     ````
     
@@ -110,11 +112,22 @@ Light maintenance is needed between semesters/reading periods to boot and shutdo
 1. Turn off paper selection workflows in _settings > secrets and variables > actions_:  
    Set `PAPER_CHOOSE_ON` and `PAPER_VOTE_ON` values to `0`.
 
-### Unexpected Interruptions
+### Unexpected Interruptions during a semester
 
 Pause or restart the workflows as necessary, by toggling the paper section workflows in repository settings.
 - To pause: set `PAPER_CHOOSE_ON` and `PAPER_VOTE_ON` values to `0`.
 - To restart: set `PAPER_CHOOSE_ON` or `PAPER_VOTE_ON` value to `1`, based on configured paper-section workflow.
+
+### Website development
+
+The `docs/` directory contains documents for the PL Reading Group website.
+It is build using Jekyll and markdown.
+Local development requires Ruby, Jekyll, and various Ruby gems.
+Follow these steps for local setup.
+
+1. Install Jekyll: jekyllrb.com/docs/installation
+2. Install Jekyll dependencies: `bundle install`
+3. Run the website locally: `bundle exec jekyll serve`
 
 ## Initial setup & guidance for forking
 
@@ -144,20 +157,18 @@ The remaining PRs will be closed/discarded automatically.
 The relevant GitHub actions are "Vote open" and "Vote close".
 This workflow requires Discord integration to conduct voting.
 
+<img width="600" alt="workflow" src='https://raw.githubusercontent.com/the-au-forml-lab/plgroup/main/.github/assets/voting.png' /><br/>
+**Ranked choice voting** generates multiple paper suggestions and readers vote for a winner.
+
 <details>
-  <summary><strong>Configuration</strong></summary>
-  <br/>In <i>settings > secrets and variables > actions (variables)</i>:<br/><br/>
-  <ol>
-    <li>Set <code>DISCORD_WEBHOOK_URL</code> secret to direct to the intended discord channel.</li>
-    <li>Set <code>PAPER_VOTE_ON</code> variable to <code>1</code> to enable voting.</li>
-  </ol>
+  <summary><kbd>Configuration for ranked choice voting</kbd></summary><br/>
+
+* In _settings > secrets and variables > actions (variables)_:   
+  * Set `DISCORD_WEBHOOK_URL` secret to direct to the intended discord channel.
+  * Set `PAPER_VOTE_ON` variable to <code>1</code> to enable voting.
+
 </details>
 
-<table align="center"><tr><td>
-<p align="center">
-<img width="600" alt="workflow" src='https://raw.githubusercontent.com/the-au-forml-lab/plgroup/main/.github/assets/voting.png' />
-</p><strong>Ranked choice voting</strong> generates multiple paper suggestions and readers vote for a winner.
-</td></tr></table>
 
 ### Workflow II: reviewer approval
 
@@ -167,26 +178,27 @@ Closing a suggestion without approval automatically generates a new suggestion.
 This process repeats until a satisfactory suggestion has been found.
 The relevant GitHub actions is "Random paper".
 
+<img width="580" alt="workflow" src='https://raw.githubusercontent.com/the-au-forml-lab/plgroup/main/.github/assets/workflow.png' /><br/>
+**Random paper suggestion** generates one paper suggestion for reviewers to approve.
+
 <details>
-  <summary><strong>Configuration</strong></summary>
-  <br/>
-  Environment secrets and variables are configured in <i>settings > secrets and variables > actions</i>.<br/><br/>
-  <ol>
-    <li>Create a branch protection rule for <code>main</code> branch, to enforce reviewer approval of a paper suggestion, in <i>settings > branches</i>
-    <ul>
-        <li>Check "Require a pull request before merging".</li>
-        <li>Set "Require approvals" count to the minimum number of reviewer required to approve paper suggestion.</li>
-    </ul></li>
-    <li>Set <code>REVIEWERS</code> variable to a newline-separated string of GitHub usernames, for example <code>"user1 \n user2 \n user3"</code>. The users must have sufficient permissions to perform PR reviews.</li>
-    <li>Set <code>PAPER_CHOOSE_ON</code> variable to <code>1</code> to enable automatic suggestions.</li>
-    <li>Set <code>AUTOMERGE_PAT</code> secret to a personal access token of a user with repository write access, to enable auto-merging approved PRs. Permission scopes -- classic token: repo, or fine-grained token: pull requests write and contents write.</li>
-    <li>(Optional) Set <code>DISCORD_WEBHOOK_URL</code> secret to a Discord channel URL to enable notifications.</li>
-  </ol>
+  <summary><kbd>Configuration for reviewer approval</kbd></summary><br/>
+
+  Environment secrets and variables are configured in _settings > secrets and variables > actions_.
+
+  * Create a branch protection rule for `main` branch, to enforce reviewer approval of a paper suggestion, in _settings > branches_.
+    * Check "Require a pull request before merging".
+    * Set "Require approvals" count to the minimum number of reviewer required to approve paper suggestion.
+
+  * Set `REVIEWERS` variable to a newline-separated string of GitHub usernames.    
+    * For example: `"user1 \n user2 \n user3"`   
+    * The users must have sufficient permissions to perform PR reviews.
+  * Set `PAPER_CHOOSE_ON` variable to <code>1</code> to enable automatic suggestions.
+  * Set `AUTOMERGE_PAT` secret to a personal access token of a user with repository write access, to enable auto-merging approved PRs. 
+    * Permission scopes for classic token: repo
+    * Permission scopes for fine-grained token: pull requests write and contents write.
+  * (Optional) Set `DISCORD_WEBHOOK_URL` secret to a Discord channel URL to enable notifications.
+
 </details>
 
-<table align="center"><tr><td>
-<p align="center">
-<img width="580" alt="workflow" src='https://raw.githubusercontent.com/the-au-forml-lab/plgroup/main/.github/assets/workflow.png' />
-</p>
-<strong>Random paper suggestion</strong> generates one paper suggestion for reviewers to approve.
-</td></tr></table>
+

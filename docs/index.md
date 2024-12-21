@@ -1,7 +1,8 @@
 ---
 semester: Spring
 year: 2025
-awards: true
+{% comment %} IMPORTANT: Set awards to "true" if awards.md exists; Set awards to "false" if awards.md does not exist {% endcomment %}
+awards: false
 ---
 
 Augusta University Programming Languages (PL) Reading Group is a regular meeting to discuss exciting recent results in programming languages research.
