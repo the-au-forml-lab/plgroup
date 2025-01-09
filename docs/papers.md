@@ -1,0 +1,1 @@
+1. Elad, Neta, et al. “An Infinite Needle in a Finite Haystack: Finding Infinite Counter-Models in Deductive Verification.” Proceedings of the ACM on Programming Languages, vol. 8, no. POPL, Jan. 2024, pp. 970–1000. Crossref, <a href='https://doi.org/10.1145/3632875' target='_blank'>https://doi.org/10.1145/3632875</a>.
