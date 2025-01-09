@@ -1,0 +1,1 @@
+1. MOY, CAMERON. “Knuth–Morris–Pratt Illustrated.” Journal of Functional Programming, vol. 34, 2024. Crossref, https://doi.org/10.1017/s0956796824000017.
