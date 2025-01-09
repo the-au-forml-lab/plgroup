@@ -1,0 +1,1 @@
+1. Pottier, François, et al. “Thunks and Debits in Separation Logic with Time Credits.” Proceedings of the ACM on Programming Languages, vol. 8, no. POPL, Jan. 2024, pp. 1482–508. Crossref, <a href='https://doi.org/10.1145/3632892' target='_blank'>https://doi.org/10.1145/3632892</a>.
