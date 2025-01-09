@@ -26,7 +26,7 @@ Current [reading group policies](policies).
 | \#  | Date        | Description         |
 |:---:|:------------|:--------------------|
 | 0.  | January 10  | ⚠️ _First meeting is canceled for snow storm_ |
-| 1.  | January 17  | Paper 1 discussion  |
+| 1.  | January 17  | Automated Verification of Fundamental Algebraic Laws  |
 | 2.  | January 24  | Paper 2 discussion  | 
 | 3.  | January 31  | Paper 3 discussion  |
 | 4.  | February 7  | Paper 4 discussion  |

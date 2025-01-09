@@ -1,0 +1,1 @@
+1. Zakhour, George, et al. “Automated Verification of Fundamental Algebraic Laws.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 766–89. Crossref, <a href='https://doi.org/10.1145/3656408' target='_blank'>https://doi.org/10.1145/3656408</a>.
