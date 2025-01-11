@@ -1,1 +1,1 @@
-1. MOY, CAMERON. “Knuth–Morris–Pratt Illustrated.” Journal of Functional Programming, vol. 34, 2024. Crossref, https://doi.org/10.1017/s0956796824000017.
+1. MOY, CAMERON. “Knuth–Morris–Pratt Illustrated.” Journal of Functional Programming, vol. 34, 2024. Crossref, <a href='https://doi.org/10.1017/S0956796824000017' target='_blank'>https://doi.org/10.1017/S0956796824000017</a>.

@@ -92,7 +92,7 @@ export const TextParser = class {
      */
     static hyperDOI(plain, doi) {
         const href = `<a href='${doi}' target='_blank'>${doi}</a>`
-        return (plain || '').replace(doi, href)
+        return (plain || '').replace(new RegExp(doi, "i"), href)
     }
 
     static bibMatch(bib, ...keys) {
