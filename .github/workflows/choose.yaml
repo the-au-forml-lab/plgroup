@@ -30,8 +30,8 @@ jobs:
         run: npm run choose
       - name: 📝 Update website
         run: npm run web
-      - name: ✅ Commit paper selection changes
-        run: bash ${PWD}/.github/utils/commit.sh
+#      - name: ✅ Commit paper selection changes
+#        run: bash ${PWD}/.github/utils/commit.sh
       - name: 🔎 Lookup paper details
         id: vars
         run: |

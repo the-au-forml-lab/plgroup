@@ -9,7 +9,7 @@ on:
 env:
   USERNAME: "PL Reading Group Paper Vote"
   AVATAR: https://raw.githubusercontent.com/the-au-forml-lab/plgroup/main/.github/assets/vote.png
-  COLORS: ("" "26367" "16750848" "65433" "10027263")
+  COLORS: ("" "26367" "16750848" "65433" "10027263" "2609060" "2605775" "13579303" "13593639")
 
 jobs:
   vote_options:
@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        options: [1, 2, 3]
+        options: ${{ vars.OPTIONS }}
       max-parallel: 1
     steps:
       - uses: actions/checkout@v4
@@ -74,4 +74,4 @@ jobs:
           DISCORD_USERNAME: ${{ env.USERNAME }}
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
         with:
-          args: ${{ fromJSON(env.VOTING) }}
+          args: ${{ fromJSON(env.VOTING).replace('OPTION_COUNT', vars.OPTION_COUNT) }}

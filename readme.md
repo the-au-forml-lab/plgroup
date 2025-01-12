@@ -139,7 +139,7 @@ Complete the following steps to activate the automated actions.
     - check "Allow GitHub Actions to create and approve pull requests
 * **Create environment secrets and variables**, with empty default values, in _settings > secrets and variables > actions_:
     - secrets: `DISCORD_WEBHOOK_URL` and `AUTOMERGE_PAT` 
-    - variables: `PAPER_CHOOSE_ON` and `PAPER_VOTE_ON` and `REVIEWERS`
+    - variables: `PAPER_CHOOSE_ON` and `PAPER_VOTE_ON` and `REVIEWERS` and `OPTIONS` and `OPTION_COUNT`
 * **[Configure a paper selection workflow](#paper-selection-workflow-configuration)** to enable automated paper suggestions.
 
 ## Paper selection workflow configuration
@@ -166,6 +166,8 @@ This workflow requires Discord integration to conduct voting.
 * In _settings > secrets and variables > actions (variables)_:   
   * Set `DISCORD_WEBHOOK_URL` secret to direct to the intended discord channel.
   * Set `PAPER_VOTE_ON` variable to <code>1</code> to enable voting.
+  * Set `OPTIONS` to a numerical list of options, e.g. `[1, 2, 3]` means 3 options.
+  * set `OPTION_COUNT` to a word to reflect the option count e.g., `three`
 
 </details>
 
