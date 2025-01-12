@@ -37,4 +37,3 @@ https://doi.org/10.1145/3622837
 https://doi.org/10.1145/3622820
 https://doi.org/10.1145/3632907
 https://doi.org/10.1017/S0956796824000017
-https://doi.org/10.1145/3674628
