@@ -1,1 +1,2 @@
 1. MOY, CAMERON. “Knuth–Morris–Pratt Illustrated.” Journal of Functional Programming, vol. 34, 2024. Crossref, <a href='https://doi.org/10.1017/S0956796824000017' target='_blank'>https://doi.org/10.1017/S0956796824000017</a>.
+2. Yao, Peisen, et al. “Falcon: A Fused Approach to Path-Sensitive Sparse Data Dependence Analysis.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 567–92. Crossref, <a href='https://doi.org/10.1145/3656400' target='_blank'>https://doi.org/10.1145/3656400</a>.
