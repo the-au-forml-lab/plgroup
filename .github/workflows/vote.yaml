@@ -56,8 +56,7 @@ jobs:
             [{ "color": "${{ steps.vars.outputs.color }}", 
                "title": "Option ${{ matrix.options }}│ ${{ steps.vars.outputs.title }}",
                "url": "${{ steps.pr.outputs.pull-request-url }}",
-               "description" : "${{ steps.vars.outputs.abs }} [Merge PR ${{ steps.pr.outputs.pull-request-number }}](${{ steps.pr.outputs.pull-request-url }})" 
-            }]
+               "description" : "${{ steps.vars.outputs.abs }} [Merge PR ${{ steps.pr.outputs.pull-request-number }}](${{ steps.pr.outputs.pull-request-url }})" }]
 
   post_actions:
     needs: vote_options
