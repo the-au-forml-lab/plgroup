@@ -74,4 +74,4 @@ jobs:
           DISCORD_USERNAME: ${{ env.USERNAME }}
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
         with:
-          args: ${{ fromJSON(env.VOTING).replace('OPTION_COUNT', vars.OPTION_COUNT) }}
+          args: ${{ fromJSON(env.VOTING).replace('OPTION_COUNT', ${{ vars.OPTION_COUNT }} ) }}
