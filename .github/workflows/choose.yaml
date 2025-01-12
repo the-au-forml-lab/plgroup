@@ -20,7 +20,7 @@ jobs:
            (contains(github.event.pull_request.labels.*.name, 'next-paper') &&
            !contains(github.event.pull_request.labels.*.name, 'paper-vote') &&
             github.event.pull_request.merged == false))}}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -30,8 +30,8 @@ jobs:
         run: npm run choose
       - name: 📝 Update website
         run: npm run web
-      - name: ✅ Commit paper selection changes
-        run: bash ${PWD}/.github/utils/commit.sh
+#      - name: ✅ Commit paper selection changes
+#        run: bash ${PWD}/.github/utils/commit.sh
       - name: 🔎 Lookup paper details
         id: vars
         run: |
@@ -41,7 +41,6 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         id: paperpr
         with:
-          add-paths: files/*.txt
           labels: next-paper
           branch: next-paper
           title: ${{ steps.vars.outputs.title }}

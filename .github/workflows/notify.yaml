@@ -10,7 +10,7 @@ jobs:
     # Run whenever next-paper labelled PR is merged to main branch
     if: ${{ github.event.pull_request.merged == true &&
             contains(github.event.pull_request.labels.*.name, 'next-paper') }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
       - run: echo "NEXT=\"$(bash .github/utils/next.sh)\"" >> $GITHUB_ENV

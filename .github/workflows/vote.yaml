@@ -15,7 +15,7 @@ jobs:
   vote_options:
     # Sequentially generate suggestions, if paper vote is enabled
     if: ${{ vars.PAPER_VOTE_ON == 1 }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     strategy:
       matrix:
         options: ${{ fromJSON(vars.OPTIONS) }}
@@ -29,8 +29,8 @@ jobs:
         run: npm run choose
       - name: 📝 Update website
         run: npm run web
-      - name: ✅ Commit paper selection changes
-        run: bash ${PWD}/.github/utils/commit.sh
+#      - name: ✅ Commit paper selection changes
+#        run: bash ${PWD}/.github/utils/commit.sh
       - name: 🔎 Lookup selection details
         id: vars
         run: |
@@ -43,7 +43,6 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         id: pr
         with:
-          add-paths: files/*.txt
           labels: paper-vote,next-paper
           branch: paper-vote-${{ matrix.options }}
           title: ${{ steps.vars.outputs.title }}
@@ -68,9 +67,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: |
-          VOTING=\"$(bash .github/utils/voting.sh)\"
-          VOTING="${VOTING/OPTION_COUNT/${{ vars.OPTION_COUNT }}}"
-          echo "VOTING=\"$VOTING\"" >> $GITHUB_OUTPUT
+          VT=\"$(bash .github/utils/voting.sh)\"
+          echo "VOTING=${VT/OPTION_COUNT/${{ vars.OPTION_COUNT }}}" >> $GITHUB_OUTPUT
       - uses: Ilshidur/action-discord@master
         env:
           DISCORD_AVATAR: ${{ env.AVATAR }}
