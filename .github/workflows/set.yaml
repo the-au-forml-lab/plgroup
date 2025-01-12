@@ -25,8 +25,6 @@ jobs:
         run: npm run set -- ${{ github.event.inputs.doi }}
       - name: 📝 Update website
         run: npm run web
-#      - name: ✅ Commit paper selection changes
-#        run: bash ${PWD}/.github/utils/commit.sh
       - name: 🔎 Lookup paper details
         id: vars
         run: |
@@ -34,7 +32,6 @@ jobs:
           echo "body=\"$(bash .github/utils/pr.sh)\"" >> $GITHUB_OUTPUT
       - name: 🔖️ Create a pull request
         uses: peter-evans/create-pull-request@v6
-        id: paperpr
         with:
           labels: next-paper
           branch: next-paper
