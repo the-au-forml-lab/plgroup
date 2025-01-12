@@ -27,7 +27,7 @@ Current [reading group policies](policies).
 |:---:|:------------|:--------------------|
 | 0.  | January 10  | ⚠️ _First meeting is canceled for snow storm_ |
 | 1.  | January 17  | Knuth–Morris–Pratt illustrated  |
-| 2.  | January 24  | Paper 2 discussion  | 
+| 2.  | January 24  | Qubit Recycling Revisited  | 
 | 3.  | January 31  | Paper 3 discussion  |
 | 4.  | February 7  | Paper 4 discussion  |
 | 5.  | February 14 | Paper 5 discussion  |
