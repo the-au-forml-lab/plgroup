@@ -1,1 +1,2 @@
 1. MOY, CAMERON. “Knuth–Morris–Pratt Illustrated.” Journal of Functional Programming, vol. 34, 2024. Crossref, <a href='https://doi.org/10.1017/S0956796824000017' target='_blank'>https://doi.org/10.1017/S0956796824000017</a>.
+2. Song, Yahui, et al. “Specification and Verification for Unrestricted Algebraic Effects and Handling.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 909–37. Crossref, <a href='https://doi.org/10.1145/3674656' target='_blank'>https://doi.org/10.1145/3674656</a>.
