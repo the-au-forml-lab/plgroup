@@ -67,11 +67,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: echo "VOTING=\"$(bash .github/utils/voting.sh)\"" >> $GITHUB_ENV
+      - run: |
+          VOTING=\"$(bash .github/utils/voting.sh)\"
+          VOTING="${VOTING/OPTION_COUNT/${{ vars.OPTION_COUNT }}}"
+          echo "VOTING=\"$VOTING\"" >> $GITHUB_OUTPUT
       - uses: Ilshidur/action-discord@master
         env:
           DISCORD_AVATAR: ${{ env.AVATAR }}
           DISCORD_USERNAME: ${{ env.USERNAME }}
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
         with:
-          args: ${{ fromJSON(env.VOTING).replace('OPTION_COUNT', ${{ vars.OPTION_COUNT }} ) }}
+          args: ${{ fromJSON(env.VOTING) }}
