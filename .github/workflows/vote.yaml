@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        options: ${{ vars.OPTIONS }}
+        options: ${{ fromJSON(vars.OPTIONS) }}
       max-parallel: 1
     steps:
       - uses: actions/checkout@v4
