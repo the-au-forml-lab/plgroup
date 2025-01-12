@@ -68,7 +68,7 @@ jobs:
       - uses: actions/checkout@v4
       - run: |
           VT=\"$(bash .github/utils/voting.sh)\"
-          echo "VOTING=${VT/OPTION_COUNT/${{ vars.OPTION_COUNT }}}" >> $GITHUB_OUTPUT
+          echo "VOTING=${VT/OPTION_COUNT/${{ vars.OPTION_COUNT }}}" >> $GITHUB_ENV
       - uses: Ilshidur/action-discord@master
         env:
           DISCORD_AVATAR: ${{ env.AVATAR }}
