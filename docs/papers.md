@@ -1,1 +1,2 @@
 1. MOY, CAMERON. “Knuth–Morris–Pratt Illustrated.” Journal of Functional Programming, vol. 34, 2024. Crossref, <a href='https://doi.org/10.1017/S0956796824000017' target='_blank'>https://doi.org/10.1017/S0956796824000017</a>.
+2. Lecoeur, Bastien, et al. “Program Reconditioning: Avoiding Undefined Behaviour When Finding and Reducing Compiler Bugs.” Proceedings of the ACM on Programming Languages, vol. 7, no. PLDI, June 2023, pp. 1801–25. Crossref, <a href='https://doi.org/10.1145/3591294' target='_blank'>https://doi.org/10.1145/3591294</a>.
