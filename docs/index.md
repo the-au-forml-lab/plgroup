@@ -10,7 +10,8 @@ The intent of the group is to learn about various ideas and generally broaden pe
 We randomly select papers from the major PL conferences. 
 At the end of the semester we gather for a lively discussion to give prestigious awards to select papers.
 
-**We meet weekly on Fridays, 2-3 pm in room UH 117 (Summerville).**
+**We meet weekly on Fridays, 2-3 pm in room <mark>UH 227</mark> (Summerville)**   
+_(room subject to dynamic change)_
 
 We encourage everyone to join our reading group. Even if your primary focus is not PL, this is a chance to learn about various new topics that may become relevant to you later.
 It is also simply fun to hang out with us.
