@@ -34,10 +34,10 @@ Current [reading group policies](policies).
 | 5.  | February 14 | Paper 5 discussion  | UH 227 |
 | 6.  | February 21 | Paper 6 discussion  | UH 227 |
 | 7.  | February 28 | Paper 7 discussion  | UH 227 |
-| 9.  | March 14    | Paper 9 discussion  | UH 227 |
-| 10. | March 21    | Paper 10 discussion | UH 227 |
-| 11. | March 28    | Paper 11 discussion | UH 227 |
-| 12. | April 4     | Paper 12 discussion | UH 227 |
+| 9.  | March 14    | Paper 8 discussion  | UH 227 |
+| 10. | March 21    | Paper 9 discussion | UH 227 |
+| 11. | March 28    | Paper 10 discussion | UH 227 |
+| 12. | April 4     | Paper 11 discussion | UH 227 |
 | 13. | April 25    | Awards Gala         |
 
 No meeting on March 7 (spring pause) and April 11 (spring break).  
