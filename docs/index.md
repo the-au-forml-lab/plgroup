@@ -29,7 +29,7 @@ Current [reading group policies](policies).
 | 0.  | January 10  | ⚠️ _First meeting is canceled for snow storm_ | -- |
 | 1.  | January 17  | Knuth–Morris–Pratt illustrated  | UH 227 |
 | 2.  | January 24  | Fully Verified Instruction Scheduling  | TBD |
-| 3.  | January 31  | Paper 3 discussion  | UH 227 |
+| 3.  | January 31  | An Iris Instance for Verifying CompCert C Programs  | UH 227 |
 | 4.  | February 7  | Paper 4 discussion  | UH 227 |
 | 5.  | February 14 | Paper 5 discussion  | UH 227 |
 | 6.  | February 21 | Paper 6 discussion  | UH 227 |
