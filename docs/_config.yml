@@ -1,9 +1,7 @@
-title: PL Reading Group
+title: Programming Languages Reading Group
 description: Augusta University Programming Languages Reading Group
 markdown: kramdown
-remote_theme: the-au-forml-lab/the-au-forml-lab.github.io
 baseurl: "/plgroup"
-
 plugins:
   - jekyll-feed
   - jekyll-sitemap
