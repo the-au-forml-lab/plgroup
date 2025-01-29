@@ -2,14 +2,9 @@
 layout: default
 ---
 
-<link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
-
 {%- include jumbo_header.html -%}
 
 <article class="mb-5">
-
-    {%- include render_papers.html -%}
-
-    {%- include render_awards.html -%}
-
+    {%- include papers.html -%}
+    {%- include awards.html -%}
 </article>

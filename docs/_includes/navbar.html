@@ -1,0 +1,35 @@
+<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <li class="nav-item">
+        <a class="nav-link active" aria-current="page"
+           href="{{site.baseurl}}/">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" aria-current="page"
+           href="{{site.baseurl}}/policies">Policies</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active"
+           target="_blank"
+           href="https://github.com/the-au-forml-lab/plgroup">Source code</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active"
+           target="_blank"
+           href="https://augusta.presence.io/organization/delta-lambda-delta">Student Org</a>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#"
+           role="button" data-bs-toggle="dropdown"
+           aria-expanded="false">
+            Archive
+        </a>
+        <ul class="dropdown-menu">
+            {% for sem in site.past_semesters %}
+            <li><a class="dropdown-item"
+                   href="{{site.baseurl}}{{ sem.url | relative_path }}">
+                {{ sem.semester }} {{ sem.year }}
+            </a></li>
+            {% endfor %}
+        </ul>
+    </li>
+</ul>
