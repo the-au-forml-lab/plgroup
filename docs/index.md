@@ -2,7 +2,7 @@
 semester: Spring
 year: 2025
 awards: false
-special_note: IMPORTANT! Set awards to true if awards.md exists, and false otherwise
+note: IMPORTANT! Set awards to true if awards.md exists and false otherwise
 ---
 
 Augusta University Programming Languages (PL) Reading Group is a regular meeting to discuss exciting recent results in programming languages research.
@@ -17,12 +17,7 @@ It is also simply fun to hang out with us.
 
 The PL Reading Group is a regular meeting of [ΔΛΔ](https://augusta.presence.io/organization/delta-lambda-delta) student organization.
 
-Our tools for paper selection: [plgroup on GitHub](https://github.com/the-au-forml-lab/plgroup).
-
-Current [reading group policies](policies).
-
-#### Semester Schedule
-
+### Semester Schedule
 
 | \#  | Date        | Description         | Location |
 |:---:|:------------|:--------------------|:-----|

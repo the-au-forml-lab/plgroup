@@ -1,10 +1,12 @@
 ---
+title: "Reading Group Policies"
+lead: Current reading group policies.
 layout: page
 ---
 
-Current reading group policies.
+## Paper Voting
 
-[Edit this page](https://github.com/the-au-forml-lab/plgroup/blob/main/docs/policies.md)
+Our tools for paper selection: [plgroup on GitHub](https://github.com/the-au-forml-lab/plgroup).
 
 ### Voting Procedure
 
@@ -17,5 +19,3 @@ Current reading group policies.
    - If they all selected different papers, then
      all selected papers are discussed in subsequent sessions of reading group, and no new voting pools are generated for those session. The exact order of the selected papers is left up to the discussion leaders, but they must announce it to the remaining participants in a timely manner.
    - If two or more volunteers selected the same paper, they may either agree to be co-discussion leaders or for some of them to withdraw from being discussion leader.
-
-   
