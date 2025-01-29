@@ -2,16 +2,10 @@
 layout: default
 ---
 
-<link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
-
-{%- include page_header.html -%}
+{%- include semester_head.html -%}
 
 <article class="mb-5">
-
     <section>{{ content }}</section>
-
-    {%- include render_papers.html -%}
-
-    {%- include render_awards.html -%}
-
+    {%- include papers.html -%}
+    {%- include awards.html -%}
 </article>
