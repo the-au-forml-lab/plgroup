@@ -30,7 +30,7 @@ Current [reading group policies](policies).
 | 1.  | January 17  | Knuth–Morris–Pratt illustrated  | UH 227 |
 | 2.  | January 24  | Fully Verified Instruction Scheduling  | TBD |
 | 3.  | January 31  | Embedding by Unembedding  | UH 227 |
-| 4.  | February 7  | Paper 4 discussion  | UH 227 |
+| 4.  | February 7  | Verification under Intel-x86 with Persistency  | UH 227 |
 | 5.  | February 14 | Paper 5 discussion  | UH 227 |
 | 6.  | February 21 | Paper 6 discussion  | UH 227 |
 | 7.  | February 28 | Paper 7 discussion  | UH 227 |
