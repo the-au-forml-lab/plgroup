@@ -26,7 +26,7 @@ The PL Reading Group is a regular meeting of [ΔΛΔ](https://augusta.presence.i
 | 2.  | January 24  | Fully Verified Instruction Scheduling  | TBD |
 | 3.  | January 31  | Embedding by Unembedding  | UH 227 |
 | 4.  | February 7  | Message-Observing Sessions  | UH 227 |
-| 5.  | February 14 | Paper 5 discussion  | UH 227 |
+| 5.  | February 14 | Choral: Object-oriented Choreographic Programming  | UH 227 |
 | 6.  | February 21 | Paper 6 discussion  | UH 227 |
 | 7.  | February 28 | Paper 7 discussion  | UH 227 |
 | 9.  | March 14    | Paper 8 discussion  | UH 227 |
