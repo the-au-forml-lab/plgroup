@@ -50,6 +50,7 @@ The update is additive. To remove older entries, first delete `data/papers.json`
 "Stopwords" is a list of keywords where, if any of them appear in the paper title, that paper is not considered for selection.
 Edit this list by changing [`stopwords.txt`](data/stopwords.txt).
 Each line is considered a separate stop word, and paper is evaluated against each word in this list (case-insensitive match).
+After editing the stopwords, run `npm run update` to apply the change to the papers dataset.
 
 **How to change the website content?**
 
