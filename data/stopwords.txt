@@ -7,3 +7,6 @@ neural network
 TF-Coder
 replication study
 experience report
+Transactions on Programming Languages and Systems
+Transactions on Software Engineering and Methodology
+Journal of Functional Programming
