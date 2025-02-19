@@ -28,7 +28,7 @@ The PL Reading Group is a regular meeting of [ΔΛΔ](https://augusta.presence.i
 | 4.  | February 7  | Message-Observing Sessions  | UH 227 |
 | 5.  | February 14 | Choral: Object-oriented Choreographic Programming  | UH 227 |
 | 6.  | February 21 | A Modal Type Theory of Expected Cost in Higher-Order Probabilistic Programs  | UH 227 |
-| 7.  | February 28 | Paper 7 discussion  | UH 227 |
+| 7.  | February 28 | Programmable MCMC with Soundly Composed Guide Programs  | UH 227 |
 | 9.  | March 14    | Paper 8 discussion  | UH 227 |
 | 10. | March 21    | Paper 9 discussion | UH 227 |
 | 11. | March 28    | Paper 10 discussion | UH 227 |
