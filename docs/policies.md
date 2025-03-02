@@ -4,6 +4,11 @@ lead: Current reading group policies.
 layout: page
 ---
 
+## Constitution and bylaws
+
+* For latest version, see [ΔΛΔ student organization documents](https://augusta.presence.io/organization/delta-lambda-delta/documents) on Presence.
+* For editable sources, see: [ΔΛΔ (private) documents](https://github.com/the-au-forml-lab/-) on GitHub.
+
 ## Paper Voting
 
 Our tools for paper selection: [plgroup on GitHub](https://github.com/the-au-forml-lab/plgroup).
