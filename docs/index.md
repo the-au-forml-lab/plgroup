@@ -31,7 +31,7 @@ The PL Reading Group is a regular meeting of [ΔΛΔ](https://augusta.presence.i
 | 7.  | February 28 | Staged Compilation with Module Functors  | UH 227 |
 | 9.  | March 14    | The Ultimate Conditional Syntax  | UH 227 |
 | 10. | March 21    | Identifying and Correcting Programming Language Behavior Misconceptions | UH 227 |
-| 11. | March 28    | Paper 10 discussion | UH 227 |
+| 11. | March 28    | LiDO: Linearizable Byzantine Distributed Objects with Refinement-Based Liveness Proofs | UH 227 |
 | 12. | April 4     | Paper 11 discussion | UH 227 |
 | 13. | April 25    | Awards Gala         |
 
