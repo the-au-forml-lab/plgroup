@@ -12,8 +12,8 @@ In sports, a hat-trick describes three positive feats in a single match. In PL, 
 # Homework Required
 This award is for a paper that is very understandable and readable at first glance, before suddenly blindsiding you with the necessity to read thousands of papers of background to understand anything.
 
-# The Cybertruck
-What a sight to behold! So futuristic, so sleek, so- wait... the tow hitch is made of _plastic_, the accelerator pedal gets stuck to the floor, and a sheets of steel are flying off?! This award is meant for a paper that, while impressive on initial observation, quite literally falls apart upon further reading (like the overpriced lemon of a car that this award is named after).
+# The Lemon
+What a sight to behold! So futuristic, so sleek, so- wait... the gas tank is in the trunk, the accelerator pedal gets stuck to the floor, and a sheets of steel are flying off?! This award is meant for a paper that, while impressive on initial observation, quite literally falls apart upon further reading.
 
 # The Catalyst
 The best papers are the ones that provoke deep thought on a topic, but why not provoke violent, aggressive discussion as well? This award goes to the paper that was the most controversial for the group. That is, this award goes to the paper that sparked the most heated debate amongst our members, almost certainly resulting in the arguing shifting from the paper to topics loosely connected to it.
