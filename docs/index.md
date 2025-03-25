@@ -1,7 +1,7 @@
 ---
 semester: Spring
 year: 2025
-awards: false
+awards: true
 note: IMPORTANT! Set awards to true if awards.md exists and false otherwise
 ---
 
