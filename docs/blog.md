@@ -11,7 +11,7 @@ layout: page
 
 Good afternoon everyone!
 
-If you're seeing this, that means that I have successfully made the Outlook group for our organization! I wanted to send out a preliminary email to recap the results of our awards gala, as well as the discussed changes to ΔΛΔ leadership and meeting structure (yes, it's a bit of a long one, but bear with me).
+If you're seeing this, that means that I have successfully made the blog for our organization! I wanted to send out a preliminary email to recap the results of our awards gala, as well as the discussed changes to ΔΛΔ leadership and meeting structure (yes, it's a bit of a long one, but bear with me).
 
 ### Awards Gala Results
 
@@ -46,7 +46,7 @@ As is tradition at the end of the Awards Gala, we discussed potential changes to
 - We will be shifting the paper selection pool away from SIGPLAN conferences in an effort to select more concise papers.
 - We will be implementing a system to randomly select two members to argue in support and opposition before paper selection each week. Failure to effectively do so will result in having to continue to support/oppose the proceeding papers until effective.
 
-If you actually read all that, thank you! Future emails will hopefully be much more concise; I just wanted to cover _everything_ important discussed in today's meeting. Have a good Summer and see you all next Fall!
+If you actually read all that, thank you! Future blog posts will hopefully be much more concise; I just wanted to cover _everything_ important discussed in today's meeting. Have a good Summer and see you all next Fall!
 
 <!---
 Below is a template for new blog posts! Please use this template for any future posts! (Yes I realize that this is not the most high-tech or automated setup, but for now, it works)
