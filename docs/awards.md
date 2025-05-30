@@ -17,3 +17,12 @@ What a sight to behold! So futuristic, so sleek, so- wait... the gas tank is in 
 
 #### The Catalyst
 The best papers are the ones that provoke deep thought on a topic, but why not provoke violent, aggressive discussion as well? This award goes to the paper that was the most controversial for the group. That is, this award goes to the paper that sparked the most heated debate amongst our members, almost certainly resulting in the arguing shifting from the paper to topics loosely connected to it.
+
+## Winners
+
+* Through the Looking Glass - _Knuth–Morris–Pratt illustrated_
+* The Librarian - _Choral: Object-oriented Choreographic Programming_
+* The Hat-Trick - _Decidable Subtyping of Existential Types for Julia_
+* Homework Required - _Message-Observing Sessions_
+* The Lemon - _The Ultimate Conditional Syntax_
+* The Catalyst - _Staged Compilation with Module Functors_
