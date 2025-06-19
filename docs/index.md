@@ -8,16 +8,16 @@ note: Set awards to true when there is a file awards.md
 Augusta University Programming Languages (PL) Reading Group is a regular
 meeting to discuss exciting recent results in programming languages research.
 The intent of the group is to learn about various ideas and generally broaden
-perspectives on PL research topics.  We randomly select papers from the major
-PL conferences.  At the end of the semester we gather for a lively discussion
+perspectives on PL research topics. We randomly select papers from the major
+PL conferences. At the end of the semester we gather for a lively discussion
 to give prestigious awards to select papers.
 
-**We meet weekly on Fridays, on <mark>Summerville Campus</mark>**
+**We meet weekly on Fridays, on <mark>Summerville Campus</mark>.**
 The exact meeting time and location for the 2025 Fall Semester is TBD.
 
 We encourage everyone to join our reading group. Even if your primary focus
 is not PL, this is a chance to learn about various new topics that may become
-relevant to you later.  It is also simply fun to hang out with us.
+relevant to you later. It is also simply fun to hang out with us.
 
 The PL Reading Group is a regular meeting of
 [ΔΛΔ](https://augusta.presence.io/organization/delta-lambda-delta) student
