@@ -27,7 +27,7 @@ organization.
 
 | \#  | Date | Description         | Location |
 |:---:|:-----|:--------------------|:---------|
-| 0.  | TBD  | First Meeting       | --       |
+| 0.  | TBD  | First Meeting       | TBD      |
 | 1.  | TBD  | Paper 01 Discussion | TBD      |
 | 2.  | TBD  | Paper 02 Discussion | TBD      |
 | 3.  | TBD  | Paper 03 Discussion | TBD      |
