@@ -1,2 +1,4 @@
 docs/_site
 Gemfile.lock
+shell.nix
+.envrc
