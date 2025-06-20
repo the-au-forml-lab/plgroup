@@ -1006,3 +1006,9 @@ Rejecting paper: Reward Augmentation in Reinforcement Learning for Testing Distr
 Rejecting paper: Evaluating the Effectiveness of Deep Learning Models for Foundational Program Analysis Tasks.
 Rejecting paper: VeriEQL: Bounded Equivalence Verification for Complex SQL Queries with Integrity Constraints.
 Rejecting paper: TorchQL: A Programming Framework for Integrity Constraints in Machine Learning.
+Rejecting paper: Functional Programming in Financial Markets (Experience Report).
+Rejecting paper: GenSQL: A Probabilistic Programming System for Querying Generative Models of Database Tables.
+Rejecting paper: Reward Augmentation in Reinforcement Learning for Testing Distributed Systems.
+Rejecting paper: Evaluating the Effectiveness of Deep Learning Models for Foundational Program Analysis Tasks.
+Rejecting paper: VeriEQL: Bounded Equivalence Verification for Complex SQL Queries with Integrity Constraints.
+Rejecting paper: TorchQL: A Programming Framework for Integrity Constraints in Machine Learning.
