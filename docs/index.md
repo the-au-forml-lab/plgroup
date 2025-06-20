@@ -25,18 +25,21 @@ organization.
 
 ### Semester Schedule
 
+
 | \#  | Date | Description         | Location |
 |:---:|:-----|:--------------------|:---------|
 | 0.  | TBD  | First Meeting       | TBD      |
-| 1.  | TBD  | Paper 01 Discussion | TBD      |
-| 2.  | TBD  | Paper 02 Discussion | TBD      |
-| 3.  | TBD  | Paper 03 Discussion | TBD      |
-| 4.  | TBD  | Paper 04 Discussion | TBD      |
-| 5.  | TBD  | Paper 05 Discussion | TBD      |
-| 6.  | TBD  | Paper 06 Discussion | TBD      |
-| 7.  | TBD  | Paper 07 Discussion | TBD      |
-| 9.  | TBD  | Paper 08 Discussion | TBD      |
-| 10. | TBD  | Paper 08 Discussion | TBD      |
-| 11. | TBD  | Paper 10 Discussion | TBD      |
-| 12. | TBD  | Paper 11 Discussion | TBD      |
-| 13. | TBD  | Paper 12 Discussion | TBD      |
+| 1.  | TBD  | Input-Relational Verification of Deep Neural Networks. | TBD      |
+| 2.  | TBD  | LiDO: Linearizable Byzantine Distributed Objects with Refinement-Based Liveness Proofs. | TBD      |
+| 3.  | TBD  | Boundedness of Cost Register Automata over the Integer Min-Plus Semiring. | TBD      |
+| 4.  | TBD  | Error Credits: Resourceful Reasoning about Error Bounds for Higher-Order Probabilistic Programs. | TBD      |
+| 5.  | TBD  | Paper 01 discussion | TBD      |
+| 6.  | TBD  | Paper 01 discussion | TBD      |
+| 7.  | TBD  | Paper 01 discussion | TBD      |
+| 8.  | TBD  | Paper 01 discussion | TBD      |
+| 9.  | TBD  | Paper 01 discussion | TBD      |
+| 10. | TBD  | Paper 01 discussion | TBD      |
+| 11. | TBD  | Paper 01 discussion | TBD      |
+| 12. | TBD  | Paper 01 discussion | TBD      |
+| 13. | TBD  | Paper 01 discussion | TBD      |
+

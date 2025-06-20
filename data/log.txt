@@ -1,0 +1,1008 @@
+
+Getting papers from popl
+fetching https://dblp.org/search/publ/api/?q=stream:conf/popl:%20year:2025&format=json&h=1000
+... retrieved https://dblp.org/search/publ/api/?q=stream:conf/popl:%20year:2025&format=json&h=1000
+fetching https://citation.doi.org/format?doi=10.1145%2F3704868&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704868&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704891&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704891&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704909&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704909&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704915&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704915&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704873&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704873&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704865&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704865&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704876&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704876&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704879&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704879&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704894&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704894&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704902&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704902&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704893&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704893&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704905&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704905&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704861&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704861&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704844&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704844&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704846&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704846&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704848&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704848&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704883&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704883&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704854&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704854&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704889&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704889&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704852&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704852&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704856&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704856&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704853&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704853&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704867&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704867&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704859&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704859&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704882&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704882&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704863&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704863&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704906&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704906&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704871&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704871&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704866&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704866&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704877&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704877&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704888&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704888&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704842&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704842&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704851&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704851&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704907&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704907&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704892&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704892&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704881&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704881&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704897&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704897&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704875&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704875&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704860&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704860&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704845&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704845&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704885&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704885&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704840&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704840&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704890&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704890&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704843&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704843&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704899&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704899&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704862&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704862&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704911&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704911&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704849&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704849&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704870&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704870&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704908&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704908&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704839&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704839&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704898&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704898&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704880&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704880&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704912&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704912&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704864&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704864&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704858&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704858&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704841&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704841&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704914&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704914&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704884&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704884&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704904&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704904&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704872&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704872&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704837&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704837&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704838&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704838&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704850&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704850&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704896&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704896&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704847&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704847&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704887&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704887&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704910&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704910&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704878&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704878&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704903&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704903&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704895&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704895&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704886&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704886&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704874&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704874&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704913&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704913&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704857&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704857&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704900&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704900&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704901&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704901&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704869&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704869&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3704855&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3704855&style=modern-language-association&lang=en-US
+... retrieved 79 papers from popl
+Getting papers from icfp
+fetching https://dblp.org/search/publ/api/?q=stream:conf/icfp:%20year:2024&format=json&h=1000
+... retrieved https://dblp.org/search/publ/api/?q=stream:conf/icfp:%20year:2024&format=json&h=1000
+fetching https://citation.doi.org/format?doi=10.1145%2F3674662&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674662&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3674635&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674635&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3674637&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674637&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3674638&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674638&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3674627&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674627&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3674652&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674652&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3674639&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674639&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3674625&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674625&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3674657&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674657&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3674634&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674634&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3674649&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674649&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3674633&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674633&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3674654&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674654&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3674628&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674628&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3674632&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674632&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3674640&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674640&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3674648&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674648&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3674653&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674653&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3674642&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674642&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3674644&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674644&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3674629&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674629&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3674646&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674646&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3674636&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674636&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3674650&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674650&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3674666&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674666&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3674631&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674631&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3674656&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674656&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3674645&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674645&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3674630&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674630&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3674643&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674643&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3674647&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674647&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3674626&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674626&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3674651&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674651&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3674655&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674655&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3674641&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3674641&style=modern-language-association&lang=en-US
+... retrieved 35 papers from icfp
+Getting papers from pldi
+fetching https://dblp.org/search/publ/api/?q=stream:conf/pldi:%20year:2024&format=json&h=1000
+... retrieved https://dblp.org/search/publ/api/?q=stream:conf/pldi:%20year:2024&format=json&h=1000
+fetching https://citation.doi.org/format?doi=10.1145%2F3656427&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656427&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656425&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656425&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656435&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656435&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656389&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656389&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656405&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656405&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656377&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656377&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656431&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656431&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656463&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656463&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656421&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656421&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656459&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656459&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656396&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656396&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656430&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656430&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656462&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656462&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656442&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656442&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656401&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656401&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656447&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656447&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656434&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656434&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656437&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656437&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656410&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656410&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656446&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656446&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656419&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656419&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656394&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656394&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656444&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656444&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656379&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656379&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656422&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656422&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656412&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656412&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656391&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656391&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656407&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656407&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656403&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656403&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656439&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656439&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656455&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656455&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656381&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656381&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656406&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656406&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656436&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656436&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656409&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656409&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656441&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656441&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656378&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656378&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656464&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656464&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656415&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656415&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656458&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656458&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656428&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656428&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656383&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656383&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656385&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656385&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656456&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656456&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656429&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656429&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656449&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656449&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656411&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656411&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656382&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656382&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656445&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656445&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656424&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656424&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656451&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656451&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656392&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656392&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656386&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656386&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656448&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656448&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656390&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656390&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656414&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656414&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656398&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656398&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656453&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656453&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656393&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656393&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656461&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656461&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656460&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656460&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656387&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656387&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656454&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656454&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656450&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656450&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3658851&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3658851&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656384&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656384&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656438&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656438&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656420&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656420&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656380&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656380&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656452&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656452&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656423&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656423&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656402&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656402&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656395&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656395&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656388&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656388&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656413&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656413&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656399&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656399&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656404&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656404&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656457&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656457&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656418&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656418&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656432&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656432&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656416&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656416&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656417&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656417&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656400&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656400&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656443&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656443&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656440&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656440&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656397&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656397&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656408&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656408&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656426&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656426&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3656433&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3656433&style=modern-language-association&lang=en-US
+... retrieved 89 papers from pldi
+Getting papers from oopsla
+fetching https://dblp.org/search/publ/api/?q=stream:conf/oopsla:%20year:2024&format=json&h=1000
+... retrieved https://dblp.org/search/publ/api/?q=stream:conf/oopsla:%20year:2024&format=json&h=1000
+fetching https://citation.doi.org/format?doi=10.1145%2F3689719&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689719&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689774&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689774&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689742&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689742&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689766&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689766&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689711&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689711&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649819&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649819&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689798&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689798&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689781&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689781&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649839&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649839&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689787&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689787&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689754&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689754&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649846&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649846&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689747&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689747&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649818&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649818&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689728&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689728&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689779&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689779&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689751&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689751&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689717&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689717&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689743&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689743&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689786&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689786&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689735&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689735&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649830&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649830&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649824&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649824&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689741&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689741&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649829&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649829&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649834&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649834&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689746&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689746&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689761&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689761&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689723&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689723&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649812&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649812&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649835&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649835&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689738&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689738&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689756&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689756&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689730&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689730&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689759&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689759&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649825&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649825&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689799&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689799&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689778&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689778&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649857&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649857&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689772&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689772&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689727&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689727&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649842&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649842&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689771&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689771&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689801&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689801&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689796&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689796&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689758&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689758&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689803&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689803&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689753&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689753&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649849&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649849&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689762&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689762&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649826&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649826&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689731&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689731&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689744&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689744&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689737&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689737&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649847&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649847&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689716&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689716&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649859&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649859&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689790&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689790&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649844&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649844&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689713&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689713&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689767&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689767&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649836&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649836&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649817&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649817&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689775&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689775&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649832&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649832&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689722&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689722&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649828&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649828&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689776&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689776&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649831&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649831&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689804&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689804&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649858&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649858&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689797&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689797&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689729&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689729&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689724&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689724&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689721&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689721&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649816&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649816&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649860&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649860&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649823&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649823&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689770&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689770&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689789&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689789&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649848&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649848&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649843&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649843&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649837&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649837&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689802&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689802&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689715&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689715&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649841&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649841&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649833&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649833&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689791&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689791&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689714&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689714&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649813&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649813&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689748&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689748&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689777&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689777&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689788&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689788&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689720&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689720&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689725&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689725&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689773&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689773&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689752&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689752&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649863&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649863&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649840&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649840&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689763&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689763&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689784&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689784&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649851&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649851&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649838&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649838&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689769&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689769&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689805&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689805&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689712&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689712&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689760&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689760&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649852&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649852&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689732&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689732&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649855&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649855&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649820&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649820&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689733&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689733&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689800&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689800&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689750&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689750&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689792&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689792&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689785&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689785&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689726&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689726&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689749&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689749&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689755&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689755&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689780&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689780&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649856&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649856&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649822&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649822&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689745&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689745&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689795&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689795&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689793&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689793&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689783&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689783&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649853&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649853&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649827&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649827&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649862&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649862&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649814&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649814&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689765&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689765&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689794&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689794&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689736&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689736&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689739&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689739&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649861&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649861&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689734&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689734&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689782&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689782&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689764&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689764&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649811&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649811&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649850&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649850&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689768&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689768&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649845&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649845&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649815&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649815&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689740&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689740&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649854&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649854&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689757&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689757&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3689718&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3689718&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3649821&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3649821&style=modern-language-association&lang=en-US
+... retrieved 148 papers from oopsla
+Getting papers from csl
+fetching https://dblp.org/search/publ/api/?q=stream:conf/csl:%20year:2025&format=json&h=1000
+... retrieved https://dblp.org/search/publ/api/?q=stream:conf/csl:%20year:2025&format=json&h=1000
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.37&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.37&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.35&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.35&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.3&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.3&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.29&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.29&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.26&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.26&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.19&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.19&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.44&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.44&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.36&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.36&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.24&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.24&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.27&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.27&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.48&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.48&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.39&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.39&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.8&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.8&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.15&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.15&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.28&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.28&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.2&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.2&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.22&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.22&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.30&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.30&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.11&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.11&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.16&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.16&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.20&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.20&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.7&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.7&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.47&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.47&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.1&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.1&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.33&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.33&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.10&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.10&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.23&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.23&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.12&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.12&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.46&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.46&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.31&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.31&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.38&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.38&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.17&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.17&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.40&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.40&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.9&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.9&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.13&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.13&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.42&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.42&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.41&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.41&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.34&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.34&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.21&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.21&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.25&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.25&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.4&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.4&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.43&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.43&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.45&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.45&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.14&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.14&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.6&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.6&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.18&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.18&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.5&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.5&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.49&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.49&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.32&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.4230%2FLIPICS.CSL.2025.32&style=modern-language-association&lang=en-US
+... retrieved 49 papers from csl
+Getting papers from lics
+fetching https://dblp.org/search/publ/api/?q=stream:conf/lics:%20year:2024&format=json&h=1000
+... retrieved https://dblp.org/search/publ/api/?q=stream:conf/lics:%20year:2024&format=json&h=1000
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662104&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662104&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662099&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662099&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662074&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662074&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662110&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662110&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662101&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662101&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662133&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662133&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662113&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662113&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662080&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662080&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662124&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662124&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662072&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662072&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662091&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662091&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662076&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662076&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662119&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662119&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662131&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662131&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662086&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662086&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662071&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662071&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662083&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662083&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662090&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662090&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662078&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662078&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662096&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662096&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662136&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662136&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662109&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662109&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662115&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662115&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662087&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662087&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662145&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662145&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662118&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662118&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662069&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662069&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662134&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662134&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662092&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662092&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662088&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662088&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662068&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662068&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662138&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662138&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662127&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662127&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662095&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662095&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662102&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662102&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662097&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662097&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662094&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662094&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662108&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662108&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662126&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662126&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662093&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662093&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662100&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662100&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662098&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662098&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662123&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662123&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662117&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662117&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662112&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662112&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662073&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662073&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662137&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662137&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662120&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662120&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662106&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662106&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662116&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662116&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662122&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662122&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662128&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662128&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662139&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662139&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662103&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662103&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662114&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662114&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662135&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662135&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662111&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662111&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662077&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662077&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662081&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662081&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662075&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662075&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662130&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662130&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662070&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662070&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662085&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662085&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662107&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662107&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662082&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662082&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662084&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662084&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662129&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662129&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662089&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662089&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662132&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662132&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662125&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662125&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662121&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662121&style=modern-language-association&lang=en-US
+fetching https://citation.doi.org/format?doi=10.1145%2F3661814.3662105&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1145%2F3661814.3662105&style=modern-language-association&lang=en-US
+... retrieved 72 papers from lics
+fetching https://citation.doi.org/format?doi=10.1080%2F09555803.2024.2410388&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1080%2F09555803.2024.2410388&style=modern-language-association&lang=en-US
+fetching https://doi.org/10.1080/09555803.2024.2410388
+... redirecting to https://api.crossref.org/v1/works/10.1080%2F09555803.2024.2410388/transform
+... retrieved https://api.crossref.org/v1/works/10.1080%2F09555803.2024.2410388/transform
+fetching https://citation.doi.org/format?doi=10.1080%2F09555803.2024.2410388&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1080%2F09555803.2024.2410388&style=modern-language-association&lang=en-US
+fetching https://doi.org/10.1080/09555803.2024.2410388
+... redirecting to https://api.crossref.org/v1/works/10.1080%2F09555803.2024.2410388/transform
+... retrieved https://api.crossref.org/v1/works/10.1080%2F09555803.2024.2410388/transform
+fetching https://citation.doi.org/format?doi=10.1017%2FS0956796824000017&style=modern-language-association&lang=en-US
+... retrieved https://citation.doi.org/format?doi=10.1017%2FS0956796824000017&style=modern-language-association&lang=en-US
+fetching https://doi.org/10.1017/S0956796824000017
+... redirecting to https://api.crossref.org/v1/works/10.1017%2FS0956796824000017/transform
+... retrieved https://api.crossref.org/v1/works/10.1017%2FS0956796824000017/transform
+match: null
+it's gonna throw
+match: null
+it's gonna throw
+match: null
+it's gonna throw
+match: null
+it's gonna throw
+match: null
+it's gonna throw
+match: null
+it's gonna throw
+Rejecting: Functional Programming in Financial Markets (Experience Report).
+Rejecting: GenSQL: A Probabilistic Programming System for Querying Generative Models of Database Tables.
+Rejecting: Reward Augmentation in Reinforcement Learning for Testing Distributed Systems.
+Rejecting: Evaluating the Effectiveness of Deep Learning Models for Foundational Program Analysis Tasks.
+Rejecting: VeriEQL: Bounded Equivalence Verification for Complex SQL Queries with Integrity Constraints.
+Rejecting: TorchQL: A Programming Framework for Integrity Constraints in Machine Learning.
+Rejecting paper: Functional Programming in Financial Markets (Experience Report).
+Rejecting paper: GenSQL: A Probabilistic Programming System for Querying Generative Models of Database Tables.
+Rejecting paper: Reward Augmentation in Reinforcement Learning for Testing Distributed Systems.
+Rejecting paper: Evaluating the Effectiveness of Deep Learning Models for Foundational Program Analysis Tasks.
+Rejecting paper: VeriEQL: Bounded Equivalence Verification for Complex SQL Queries with Integrity Constraints.
+Rejecting paper: TorchQL: A Programming Framework for Integrity Constraints in Machine Learning.
