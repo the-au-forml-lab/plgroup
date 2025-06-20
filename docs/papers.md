@@ -33,3 +33,4 @@
 1. Qiu, Longfei, et al. “LiDO: Linearizable Byzantine Distributed Objects with Refinement-Based Liveness Proofs.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1140–64. Crossref, <https://doi.org/10.1145/3656423>.
 1. Draghici, Andrei, et al. Boundedness of Cost Register Automata over the Integer Min-Plus Semiring. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, <https://doi.org/10.4230/LIPICS.CSL.2025.20>.
 1. Aguirre, Alejandro, et al. “Error Credits: Resourceful Reasoning about Error Bounds for Higher-Order Probabilistic Programs.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 284–316. Crossref, <https://doi.org/10.1145/3674635>.
+1. Kim, Yonghyun, et al. “Archmage and CompCertCast: End-to-End Verification Supporting Integer-Pointer Casting.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1326–54. Crossref, <https://doi.org/10.1145/3704881>.
