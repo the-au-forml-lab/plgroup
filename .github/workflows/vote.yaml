@@ -27,8 +27,6 @@ jobs:
           node-version: 20
       - name: 🔮 Choose random paper
         run: npm run choose
-      - name: 📝 Update website
-        run: npm run web
       - name: 🔎 Lookup selection details
         id: vars
         run: |
