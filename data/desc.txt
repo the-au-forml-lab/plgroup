@@ -1,3 +1,3 @@
-Error Credits: Resourceful Reasoning about Error Bounds for Higher-Order Probabilistic Programs.
-Aguirre, Alejandro, et al. “Error Credits: Resourceful Reasoning about Error Bounds for Higher-Order Probabilistic Programs.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 284–316. Crossref, https://doi.org/10.1145/3674635.
-10.1145/3674635
+On the Expressive Power of Languages for Static Variability.
+Bittner, Paul Maximilian, et al. “On the Expressive Power of Languages for Static Variability.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1018–50. Crossref, https://doi.org/10.1145/3689747.
+10.1145/3689747
