@@ -27,7 +27,7 @@ jobs:
           node-version: 20
       - name: 🏗 Compile the code
         run: |
-          npm run install
+          npm install
           npm run build
       - name: 🔮 Choose random paper
         run: npm run choose
