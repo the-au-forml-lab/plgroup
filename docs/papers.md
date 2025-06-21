@@ -38,3 +38,4 @@
 1. Liu, Amanda, et al. “A Verified Compiler for a Functional Tensor Language.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 320–42. Crossref, <https://doi.org/10.1145/3656390>.
 1. Paradis, Anouk, et al. “Synthetiq: Fast and Versatile Quantum Circuit Synthesis.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 55–82. Crossref, <https://doi.org/10.1145/3649813>.
 1. Mulleners, Niek, et al. “Example-Based Reasoning about the Realizability of Polymorphic Programs.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 317–37. Crossref, <https://doi.org/10.1145/3674636>.
+1. Antoine, Thibaut, et al. A Complete Diagrammatic Calculus for Automata Simulation. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, <https://doi.org/10.4230/LIPICS.CSL.2025.27>.
