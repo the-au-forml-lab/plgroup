@@ -38,7 +38,7 @@ organization.
 | 7.  | TBD  | A Verified Compiler for a Functional Tensor Language. | TBD      |
 | 8.  | TBD  | Synthetiq: Fast and Versatile Quantum Circuit Synthesis. | TBD      |
 | 9.  | TBD  | Example-Based Reasoning about the Realizability of Polymorphic Programs. | TBD      |
-| 10. | TBD  | Paper 01 discussion | TBD      |
+| 10. | TBD  | Natural numbers from integers. | TBD      |
 | 11. | TBD  | Paper 01 discussion | TBD      |
 | 12. | TBD  | Paper 01 discussion | TBD      |
 | 13. | TBD  | Paper 01 discussion | TBD      |
