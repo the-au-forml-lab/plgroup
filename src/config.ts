@@ -26,7 +26,7 @@ export const DOI = {
     DOI_DOMAIN: 'https://doi.org/',
 };
 
-export const LOG_LEVEL: LogLv = LogLv.debug;
+export const LOG_LEVEL: LogLv = LogLv.normal;
 export const MAX_REDIRECTS: number = 20;
 
 export const ACTIONS = {
