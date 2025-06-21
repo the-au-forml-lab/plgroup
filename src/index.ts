@@ -38,6 +38,7 @@ function updateVars(paper: Paper): void{
                  '',
                  '**Merge this PR to apply selection.**'].join('\\n'),
         'title': paper.title,
+        'doi': doiURL(paper.doi, 'plain'),
         'discord': [`**${paper.title}**`,
                     doiURL(paper.doi, 'discord')
                    ].join('\\n'),
