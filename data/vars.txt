@@ -1,0 +1,3 @@
+body=This paper was randomly selected as your next reading:\n### Example-Based Reasoning about the Realizability of Polymorphic Programs.\nMulleners, Niek, et al. “Example-Based Reasoning about the Realizability of Polymorphic Programs.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 317–37. Crossref, https://doi.org/10.1145/3674636.\n\n**Merge this PR to apply selection.**
+title=Example-Based Reasoning about the Realizability of Polymorphic Programs.
+discord=**Example-Based Reasoning about the Realizability of Polymorphic Programs.**\nhttps://doi.org/10.1145/3674636

@@ -30,14 +30,29 @@ async function chooseNext(): Promise<void>{
     await setNext(selectable[idx]);
 }
 
-function formatDescription(p: Paper): string{
-    return [p.title, p.cite, p.doi].join('\n');
+function updateVars(paper: Paper): void{
+    const vars: {[_:string]: string} = {
+        'body': ['This paper was randomly selected as your next reading:',
+                 `### ${paper.title}`,
+                 paper.cite,
+                 '',
+                 '**Merge this PR to apply selection.**'].join('\\n'),
+        'title': paper.title,
+        'discord': [`**${paper.title}**`,
+                    doiURL(paper.doi, 'discord')
+                   ].join('\\n'),
+    }
+    let out: string[] = [];
+    for(const v in vars){
+        out.push(`${v}=${vars[v]}`);
+    }
+    FS.writeFile(F.ACTION_VARS, out.join('\n'));
 }
 
 async function setNext(doi: string): Promise<void>{
     const paper: Paper = await fetchDetails({doi}, {additive: true});
     updateWeb(paper); // do this first since it can throw.
-    FS.writeFile(F.NEXT_DESC, formatDescription(paper));
+    updateVars(paper);
     FS.writeFile(F.NEXT_FILE, doi);
     FS.append(F.SEMESTER_PAPERS, doi);
     FS.append(F.ALLTIME_HISTORY, doi);
@@ -81,14 +96,24 @@ export async function details(doi: string): Promise<void>{
     console.table(await fetchDetails({doi}));
 }
 
+function doiURL(doi: string, target: 'gfm'|'discord'|'plain'): string{
+    const baseURL = 'https://doi.org/';
+    switch(target){
+        case 'plain':
+            return baseURL + doi;
+        case 'discord':
+            return baseURL + doi;
+        case 'gfm':
+            return `<${baseURL + doi}>`;
+    }
+}
 /**
  * add a leading number to a citation and doi link in <angle backets> so that
  * github pages formats it as a link
  */
 function formatWebCitation(paper: Paper): string{
     const {doi, cite} = paper;
-    const doiURL = `https://doi.org/${doi}`;
-    return '1. ' + cite.replace(doiURL, `<${doiURL}>`);
+    return `1. ${cite.replace(doiURL(doi, 'plain'), doiURL(doi, 'gfm'))}`;
 }
 
 function updateWeb(paper: Paper): void{
@@ -125,9 +150,6 @@ export const main = async () => {
             break;
         case(ACTIONS.UPDATE):
             todo = (() => makeDataSet(Boolean(param)));
-            break;
-        case(ACTIONS.WEB):
-            todo = updateWeb;
             break;
         default:
             todo = (() => console.log('Unknown action'));

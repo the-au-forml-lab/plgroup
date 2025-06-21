@@ -6,7 +6,8 @@ export const FILES = {
     SEMESTER_PAPERS: './data/past.txt',
     ALLTIME_HISTORY: './data/history.txt',
     STOPWORDS: './data/stopwords.txt',
-    NEXT_DESC: './data/desc.txt',
+    // NEXT_DESC: './data/desc.txt',
+    ACTION_VARS: './data/vars.txt',
     NEXT_FILE: './data/next.txt',
     WEB_PAPERS: './docs/papers.md',
     WEB_INDEX: './docs/index.md',
@@ -35,5 +36,5 @@ export const ACTIONS = {
     SET: 'set',
     STATS: 'stats',
     UPDATE: 'update',
-    WEB: 'web',
+    VARS: 'vars',
 }

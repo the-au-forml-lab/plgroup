@@ -33,11 +33,11 @@ organization.
 | 2.  | TBD  | LiDO: Linearizable Byzantine Distributed Objects with Refinement-Based Liveness Proofs. | TBD      |
 | 3.  | TBD  | Boundedness of Cost Register Automata over the Integer Min-Plus Semiring. | TBD      |
 | 4.  | TBD  | Error Credits: Resourceful Reasoning about Error Bounds for Higher-Order Probabilistic Programs. | TBD      |
-| 5.  | TBD  | Paper 01 discussion | TBD      |
-| 6.  | TBD  | Paper 01 discussion | TBD      |
-| 7.  | TBD  | Paper 01 discussion | TBD      |
-| 8.  | TBD  | Paper 01 discussion | TBD      |
-| 9.  | TBD  | Paper 01 discussion | TBD      |
+| 5.  | TBD  | RefinedRust: A Type System for High-Assurance Verification of Rust Programs. | TBD      |
+| 6.  | TBD  | Slice closures of indexed languages and word equations with counting constraints. | TBD      |
+| 7.  | TBD  | A Verified Compiler for a Functional Tensor Language. | TBD      |
+| 8.  | TBD  | Synthetiq: Fast and Versatile Quantum Circuit Synthesis. | TBD      |
+| 9.  | TBD  | Example-Based Reasoning about the Realizability of Polymorphic Programs. | TBD      |
 | 10. | TBD  | Paper 01 discussion | TBD      |
 | 11. | TBD  | Paper 01 discussion | TBD      |
 | 12. | TBD  | Paper 01 discussion | TBD      |

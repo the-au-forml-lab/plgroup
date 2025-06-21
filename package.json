@@ -10,7 +10,7 @@
         "update": "node dist/index.js update",
         "choose": "node dist/index.js choose",
         "stats": "node dist/index.js stats",
-        "clean": "rm -rf docs/_site && rm -rf docs/Gemfile.lock",
+        "clean": "rm -rf docs/_site && rm -rf docs/Gemfile.lock && rm -rf dist/",
         "jekyll": "cd docs && bundle exec jekyll serve",
         "build": "npx tsc"
     },
