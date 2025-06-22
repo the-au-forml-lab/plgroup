@@ -25,16 +25,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npm install
+      - run: npm ci
       - run: npm run build
       - name: 🔮 Choose random paper
         run: npm run choose
       - name: 🔎 Lookup selection details
         id: vars
-        run: |
-          #array=${{ env.COLORS }}
-          #echo "color=${array[${{ matrix.options }}]}" >> $GITHUB_OUTPUT          
-          cat data/vars.txt >> $GITHUB_OUTPUT
+        run: cat data/vars.txt >> $GITHUB_OUTPUT
       - name: 🔖️ Create a pull request
         uses: peter-evans/create-pull-request@v6
         id: pr

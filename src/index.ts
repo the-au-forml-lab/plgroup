@@ -40,6 +40,11 @@ function updateVars(paper: Paper): void{
         'title': paper.title,
         'cite': paper.cite,
         'doi': doiURL(paper.doi, 'plain'),
+        'discordNext': [
+            `Next Paper ${paper.title}`,
+            '', '',
+            paper.cite,
+        ].join('\n'),
     }
     let out: string[] = [];
     for(const v in vars){

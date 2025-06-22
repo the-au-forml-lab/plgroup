@@ -25,15 +25,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - run: npm ci
+      - run: npm run build
       - name: 🔮 Choose random paper
         run: npm run choose
-      - name: 📝 Update website
-        run: npm run web
       - name: 🔎 Lookup paper details
         id: vars
-        run: |
-          echo "title=$(bash .github/utils/title.sh)" >> $GITHUB_OUTPUT
-          echo "body=\"$(bash .github/utils/pr.sh)\"" >> $GITHUB_OUTPUT
+        run: cat data/vars.txt >> $GITHUB_OUTPUT
       - name: 🔖️ Create a pull request
         uses: peter-evans/create-pull-request@v6
         id: paperpr
