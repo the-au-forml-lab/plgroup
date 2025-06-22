@@ -2,7 +2,7 @@ name: "Test changes"
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, new-semester-dev ]
   pull_request:
     branches: [ main, "!next-paper" ]
 
