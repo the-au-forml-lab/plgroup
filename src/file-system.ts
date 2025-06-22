@@ -33,4 +33,8 @@ export class FileSystem {
             return;
         }
     }
+
+    static writeJSON(fileName: string, obj: any): void{
+        FileSystem.writeFile(fileName, JSON.stringify(obj));
+    }
 }

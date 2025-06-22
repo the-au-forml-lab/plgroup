@@ -36,17 +36,17 @@ function updateVars(paper: Paper): void{
                  `### ${paper.title}`,
                  paper.cite,
                  '',
-                 '**Merge this PR to apply selection.**'].join('\\n'),
+                 '**Merge this PR to apply selection.**'].join('\n'),
         'title': paper.title,
         'cite': paper.cite,
         'doi': doiURL(paper.doi, 'plain'),
         'discord': [`**${paper.title}**`,
                     doiURL(paper.doi, 'discord')
-                   ].join('\\n'),
+                   ].join('\n'),
     }
     let out: string[] = [];
     for(const v in vars){
-        out.push(`${v}=${vars[v]}`);
+        out.push(`${v}=${JSON.stringify(vars[v])}`);
     }
     FS.writeFile(F.ACTION_VARS, out.join('\n'));
 }
