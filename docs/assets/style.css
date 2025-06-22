@@ -1,3 +1,9 @@
+html {
+    max-width: 50rem;
+    margin: .5rem auto;
+    text-align: justify;
+}
+
 article section {
     margin-bottom: 1rem;
 }
@@ -77,6 +83,11 @@ footer .navbar-nav li, footer .nav-item .nav-link {
 
 footer .nav-item .nav-link {
     padding: .75rem 1rem;
+}
+
+p.date {
+    font-style: italic;
+    font-size: 1.4rem;
 }
 
 @media only screen and (max-width: 600px) {

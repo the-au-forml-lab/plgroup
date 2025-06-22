@@ -28,12 +28,13 @@
             Archive
         </a>
         <ul class="dropdown-menu">
-            {% for sem in site.past_semesters %}
-            <li><a class="dropdown-item"
-                   href="{{site.baseurl}}{{ sem.url | relative_path }}">
-                {{ sem.semester }} {{ sem.year }}
-            </a></li>
-            {% endfor %}
+          {% assign semesters = site.past_semesters | reverse | sort: 'year' | reverse %}
+          {% for sem in semesters | reverse %}
+          <li><a class="dropdown-item"
+                 href="{{site.baseurl}}{{ sem.url | relative_path }}">
+              {{ sem.semester }} {{ sem.year }}
+          </a></li>
+          {% endfor %}
         </ul>
     </li>
 </ul>
