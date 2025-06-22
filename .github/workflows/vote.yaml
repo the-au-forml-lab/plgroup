@@ -34,15 +34,15 @@ jobs:
         run: |
           #array=${{ env.COLORS }}
           #echo "color=${array[${{ matrix.options }}]}" >> $GITHUB_OUTPUT          
-          cat data/vars.txt >> $GITHUB_OUTPUT
+          cat json=$(cat data/vars.txt) >> $GITHUB_OUTPUT
       - name: 🔖️ Create a pull request
         uses: peter-evans/create-pull-request@v6
         id: pr
         with:
           labels: paper-vote,next-paper
           branch: paper-vote-${{ matrix.options }}
-          title: ${{ steps.vars.outputs.title }}
-          body: ${{ steps.vars.outputs.body }}
+          title: ${{ fromJSON(steps.vars.outputs.title) }}
+          body: ${{ fromJSON(steps.vars.outputs.body) }}
           delete-branch: true
       - name: 🗳️ Post vote option to Discord
         uses: Ilshidur/action-discord@master
@@ -54,9 +54,9 @@ jobs:
           DISCORD_USERNAME: ${{ env.USERNAME }}
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
           DISCORD_EMBEDS: |-
-            [{ "title": "Option ${{ matrix.options }}: ${{ steps.vars.outputs.title }}",
-               "url": "${{ steps.vars.outputs.doi }}",
-               "description" : " ${{ steps.vars.outputs.cite }}\n[Merge PR ${{ steps.pr.outputs.pull-request-number }}](${{ steps.pr.outputs.pull-request-url }})" 
+            [{ "title": "Option ${{ matrix.options }}: ${{ fromJSON(steps.vars.outputs.title )}}",
+               "url": "${{ fromJSON(steps.vars.outputs.doi )}}",
+               "description" : " ${{ fromJSON(steps.vars.outputs.cite )}}\n\n[Merge PR ${{ steps.pr.outputs.pull-request-number }}](${{ steps.pr.outputs.pull-request-url }})" 
             }]
 
   post_actions:
