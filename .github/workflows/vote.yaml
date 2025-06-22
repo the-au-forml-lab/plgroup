@@ -34,7 +34,7 @@ jobs:
         run: |
           #array=${{ env.COLORS }}
           #echo "color=${array[${{ matrix.options }}]}" >> $GITHUB_OUTPUT          
-          cat json=$(cat data/vars.txt) >> $GITHUB_OUTPUT
+          echo json=$(cat data/vars.txt) >> $GITHUB_OUTPUT
       - name: 🔖️ Create a pull request
         uses: peter-evans/create-pull-request@v6
         id: pr
