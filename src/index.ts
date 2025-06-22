@@ -40,9 +40,6 @@ function updateVars(paper: Paper): void{
         'title': paper.title,
         'cite': paper.cite,
         'doi': doiURL(paper.doi, 'plain'),
-        'discord': [`**${paper.title}**`,
-                    doiURL(paper.doi, 'discord')
-                   ].join('\n'),
     }
     let out: string[] = [];
     for(const v in vars){
@@ -55,7 +52,6 @@ async function setNext(doi: string): Promise<void>{
     const paper: Paper = await fetchDetails({doi}, {additive: true});
     updateWeb(paper); // do this first since it can throw.
     updateVars(paper);
-    FS.writeFile(F.NEXT_FILE, doi);
     FS.append(F.SEMESTER_PAPERS, doi);
     FS.append(F.ALLTIME_HISTORY, doi);
 }
