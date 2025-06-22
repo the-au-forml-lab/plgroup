@@ -3,7 +3,6 @@ import {LogLv} from './util.js';
 export const FILES = {
     PAPERS: './data/papers.json',
     VENUES: './data/sources.csv',
-    SEMESTER_PAPERS: './data/past.txt',
     ALLTIME_HISTORY: './data/history.txt',
     STOPWORDS: './data/stopwords.txt',
     ACTION_VARS: './data/vars.txt',
