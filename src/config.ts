@@ -33,5 +33,4 @@ export const ACTIONS = {
     SET: 'set',
     STATS: 'stats',
     UPDATE: 'update',
-    VARS: 'vars',
 }

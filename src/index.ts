@@ -137,7 +137,7 @@ export const main = async () => {
     let todo: Function;
     switch (action) {
         case(ACTIONS.CHOOSE):
-            todo = chooseNext;
+            todo = (() => chooseNext());
             break;
         case (ACTIONS.DETAILS):
             todo = (() => details(param));
@@ -153,9 +153,10 @@ export const main = async () => {
             break;
         default:
             todo = (() => console.log('Unknown action'));
+            break;
     }
     await todo();
-    process.exit()
+    process.exit();
 };
 
 await main();
