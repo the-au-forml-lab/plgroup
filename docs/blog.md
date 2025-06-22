@@ -1,18 +1,12 @@
 ---
 title: "PL Reading Group Blog"
-lead: One stop place for all PL Reading Group news and updates.
 layout: page
 ---
 
-<ul>
 {% for post in site.posts %}
-{% assign currentdate = post.date | date: "%B %Y" %}
-{% if currentdate != date %}
-</ul>
-##### {{ currentdate }}
-<ul>
-{% assign date = currentdate %} 
-{% endif %}
-<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+{% capture anchor %}{{ post.date }}-{{ post.title }}{% endcapture %}
+<h1 id="{{ anchor | escape }}">{{ post.title }}</h1>
+<p class="date">{{ post.date | date: "%B %d %Y" }}</p>
+{{ post.excerpt }}
+<a href="{{ post.url | relative_url }}" >[...read more]</a>
 {% endfor %}
-</ul>

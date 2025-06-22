@@ -11,5 +11,8 @@ layout: default
 </header>
 
 <article class="mb-5">
-    <section>{{ content }}</section>
+    {{ content }}
 </article>
+
+{% capture anchor %}{{ page.date }}-{{ page.title }}{% endcapture %}
+<a href='/plgroup/blog#{{ anchor | escape }}'>Back to main Blog</a>
