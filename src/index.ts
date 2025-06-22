@@ -57,7 +57,6 @@ async function setNext(doi: string): Promise<void>{
     const paper: Paper = await fetchDetails({doi}, {additive: true});
     updateWeb(paper); // do this first since it can throw.
     updateVars(paper);
-    FS.append(F.SEMESTER_PAPERS, doi);
     FS.append(F.ALLTIME_HISTORY, doi);
 }
 
@@ -71,23 +70,21 @@ export function stats(): void{
     const counter: {[_:string]: number} = {};
     let width = 0;
     let total = 0;
-    for(const v of venues){
+    venues.forEach(v => {
         counter[v] = counter[v] ? counter[v] + 1 : 1;
         total++;
         width = Math.max(width, v.length + 3);
-    }
+    });
 
     // sort low to high
-    const sorted: Array<[string, number]> = Object.keys(counter)
-        .map(k => [k, counter[k]]);
+    const sorted: Array<[string, number]> =
+        Object.keys(counter).map(k => [k, counter[k]]);
     sorted.sort(([,n], [,m]) => n - m);
 
-    const printLine = (s: string, num: number) => {
+    const printLine = (s: string, num: number) =>
         console.log(
             (s + ' ').padEnd(width, '.'),
-            num.toString().padStart(3, ' ')
-        );
-    }
+            num.toString().padStart(3, ' '));
 
     for(const line of sorted){
         printLine(...line);
