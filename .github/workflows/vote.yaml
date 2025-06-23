@@ -9,7 +9,7 @@ on:
 env:
   USERNAME: "PL Reading Group Paper Vote"
   AVATAR: https://raw.githubusercontent.com/the-au-forml-lab/plgroup/main/.github/assets/vote.png
-  #COLORS: ("" "26367" "16750848" "65433" "10027263" "2609060" "2605775" "13579303" "13593639")
+  COLORS: ("" "26367" "16750848" "65433" "10027263" "2609060" "2605775" "13579303" "13593639")
 
 jobs:
   vote_options:
@@ -31,7 +31,10 @@ jobs:
         run: npm run choose
       - name: 🔎 Lookup selection details
         id: vars
-        run: cat data/vars.txt >> $GITHUB_OUTPUT
+        run: |
+          array=${{ env.COLORS }}
+          echo "color=${array[${{ matrix.options }}]}" >> $GITHUB_OUTPUT
+          cat data/vars.txt >> $GITHUB_OUTPUT
       - name: 🔖️ Create a pull request
         uses: peter-evans/create-pull-request@v6
         id: pr
@@ -51,7 +54,8 @@ jobs:
           DISCORD_USERNAME: ${{ env.USERNAME }}
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
           DISCORD_EMBEDS: |-
-            [{ "title": "Option ${{ matrix.options }}: ${{ fromJSON(steps.vars.outputs.title )}}",
+            [{ "color": "${{ steps.vars.outputs.color }}",
+               "title": "Option ${{ matrix.options }}: ${{ fromJSON(steps.vars.outputs.title )}}",
                "url": "${{ fromJSON(steps.vars.outputs.doi )}}",
                "description" : " ${{ fromJSON(steps.vars.outputs.cite )}}\n\n[Merge PR ${{ steps.pr.outputs.pull-request-number }}](${{ steps.pr.outputs.pull-request-url }})" 
             }]
