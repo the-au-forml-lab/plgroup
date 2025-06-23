@@ -74,4 +74,4 @@ jobs:
           DISCORD_USERNAME: ${{ env.USERNAME }}
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
         with:
-          args: debugging! ${{ fromJSON(env.VOTING) }}
+          args: ${{ fromJSON(env.VOTING) }}
