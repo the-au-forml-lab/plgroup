@@ -1,0 +1,5 @@
+body="This paper was randomly selected as your next reading:\n### Synthetiq: Fast and Versatile Quantum Circuit Synthesis.\nParadis, Anouk, et al. “Synthetiq: Fast and Versatile Quantum Circuit Synthesis.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 55–82. Crossref, https://doi.org/10.1145/3649813.\n\n**Merge this PR to apply selection.**"
+title="Synthetiq: Fast and Versatile Quantum Circuit Synthesis."
+cite="Paradis, Anouk, et al. “Synthetiq: Fast and Versatile Quantum Circuit Synthesis.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 55–82. Crossref, https://doi.org/10.1145/3649813."
+doi="https://doi.org/10.1145/3649813"
+discordNext="Next Paper Synthetiq: Fast and Versatile Quantum Circuit Synthesis.\n\n\nParadis, Anouk, et al. “Synthetiq: Fast and Versatile Quantum Circuit Synthesis.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 55–82. Crossref, https://doi.org/10.1145/3649813."

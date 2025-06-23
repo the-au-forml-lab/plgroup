@@ -1,0 +1,2 @@
+
+1. Paradis, Anouk, et al. “Synthetiq: Fast and Versatile Quantum Circuit Synthesis.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 55–82. Crossref, <https://doi.org/10.1145/3649813>.
