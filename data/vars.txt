@@ -1,0 +1,5 @@
+body="This paper was randomly selected as your next reading:\n### From Batch to Stream: Automatic Generation of Online Algorithms.\nWang, Ziteng, et al. “From Batch to Stream: Automatic Generation of Online Algorithms.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1014–39. Crossref, https://doi.org/10.1145/3656418.\n\n**Merge this PR to apply selection.**"
+title="From Batch to Stream: Automatic Generation of Online Algorithms."
+cite="Wang, Ziteng, et al. “From Batch to Stream: Automatic Generation of Online Algorithms.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1014–39. Crossref, https://doi.org/10.1145/3656418."
+doi="https://doi.org/10.1145/3656418"
+discordNext="Next Paper From Batch to Stream: Automatic Generation of Online Algorithms.\n\n\nWang, Ziteng, et al. “From Batch to Stream: Automatic Generation of Online Algorithms.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1014–39. Crossref, https://doi.org/10.1145/3656418."
