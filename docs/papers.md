@@ -1,0 +1,2 @@
+
+1. Arrial, Victor, et al. “Genericity Through Stratification.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–15. Crossref, <https://doi.org/10.1145/3661814.3662113>.

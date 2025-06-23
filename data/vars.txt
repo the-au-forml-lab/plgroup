@@ -1,0 +1,5 @@
+body="This paper was randomly selected as your next reading:\n### Genericity Through Stratification.\nArrial, Victor, et al. “Genericity Through Stratification.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–15. Crossref, https://doi.org/10.1145/3661814.3662113.\n\n**Merge this PR to apply selection.**"
+title="Genericity Through Stratification."
+cite="Arrial, Victor, et al. “Genericity Through Stratification.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–15. Crossref, https://doi.org/10.1145/3661814.3662113."
+doi="https://doi.org/10.1145/3661814.3662113"
+discordNext="Next Paper Genericity Through Stratification.\n\n\nArrial, Victor, et al. “Genericity Through Stratification.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–15. Crossref, https://doi.org/10.1145/3661814.3662113."
