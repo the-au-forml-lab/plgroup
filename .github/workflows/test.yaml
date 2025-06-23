@@ -6,6 +6,10 @@ on:
   pull_request:
     branches: [ main, "!next-paper" ]
 
+env:
+  USERNAME: "PL Reading Group Paper Vote"
+  AVATAR: https://raw.githubusercontent.com/the-au-forml-lab/plgroup/main/.github/assets/vote.png
+
 jobs:
   test:
     name: Command tests
@@ -20,3 +24,22 @@ jobs:
       - run: npm run choose
       - run: npm run set 10.1080/09555803.2024.2410388
       - run: npm run stats
+
+
+  post_actions:
+    needs: test
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          VT=\"$(cat .github/assets/voting.md | jq --raw-input --slurp)\"
+          echo "VOTING=${VT/OPTION_COUNT/${{ vars.OPTION_COUNT }}}" >> $GITHUB_ENV
+          echo $VT
+          echo ${{ env.VOTING }}
+      - uses: Ilshidur/action-discord@master
+        env:
+          DISCORD_AVATAR: ${{ env.AVATAR }}
+          DISCORD_USERNAME: ${{ env.USERNAME }}
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        with:
+          args: debugging! ${{ fromJSON(env.VOTING) }}
