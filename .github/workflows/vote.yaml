@@ -66,7 +66,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: |
-          VT=\"$(cat .github/utils/voting.sh | jq --raw-input --slurp)\"
+          VT=\"$(cat .github/assets/voting.md | jq --raw-input --slurp)\"
           echo "VOTING=${VT/OPTION_COUNT/${{ vars.OPTION_COUNT }}}" >> $GITHUB_ENV
       - uses: Ilshidur/action-discord@master
         env:
