@@ -75,3 +75,4 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
         with:
           args: ${{ fromJSON(env.VOTING) }}
+        run: echo "${{ fromJSON(env.VOTING) }}"
