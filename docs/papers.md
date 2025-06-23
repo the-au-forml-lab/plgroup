@@ -1,0 +1,2 @@
+
+1. Hinrichsen, Jonas Kastberg, et al. “Multris: Functional Verification of Multiparty Message Passing in Separation Logic.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1446–74. Crossref, <https://doi.org/10.1145/3689762>.
