@@ -1,8 +1,9 @@
 ---
+layout: semester
 semester: Fall
 year: 2025
 awards: false
-note: Set awards to true when there is a file awards.md 
+note: set awards to true when there is a file awards.md and false otherwise
 ---
 
 Augusta University Programming Languages (PL) Reading Group is a regular
@@ -28,18 +29,18 @@ organization.
 
 | \#  | Date | Description         | Location |
 |:---:|:-----|:--------------------|:---------|
-| 0.  | TBD  | First Meeting       | TBD      |
-| 1.  | TBD  | Input-Relational Verification of Deep Neural Networks. | TBD      |
-| 2.  | TBD  | LiDO: Linearizable Byzantine Distributed Objects with Refinement-Based Liveness Proofs. | TBD      |
-| 3.  | TBD  | Boundedness of Cost Register Automata over the Integer Min-Plus Semiring. | TBD      |
-| 4.  | TBD  | Error Credits: Resourceful Reasoning about Error Bounds for Higher-Order Probabilistic Programs. | TBD      |
-| 5.  | TBD  | RefinedRust: A Type System for High-Assurance Verification of Rust Programs. | TBD      |
-| 6.  | TBD  | Slice closures of indexed languages and word equations with counting constraints. | TBD      |
-| 7.  | TBD  | A Verified Compiler for a Functional Tensor Language. | TBD      |
-| 8.  | TBD  | Synthetiq: Fast and Versatile Quantum Circuit Synthesis. | TBD      |
-| 9.  | TBD  | Example-Based Reasoning about the Realizability of Polymorphic Programs. | TBD      |
-| 10. | TBD  | Paper 01 discussion | TBD      |
-| 11. | TBD  | Paper 01 discussion | TBD      |
-| 12. | TBD  | Paper 01 discussion | TBD      |
-| 13. | TBD  | Paper 01 discussion | TBD      |
+| 0.  | TBD  | opening meeting     | TBD      |
+| 1.  | TBD  | Paper 01 discussion | TBD      |
+| 2.  | TBD  | Paper 02 discussion | TBD      |
+| 3.  | TBD  | Paper 03 discussion | TBD      |
+| 4.  | TBD  | Paper 04 discussion | TBD      |
+| 5.  | TBD  | Paper 05 discussion | TBD      |
+| 6.  | TBD  | Paper 06 discussion | TBD      |
+| 7.  | TBD  | Paper 07 discussion | TBD      |
+| 8.  | TBD  | Paper 08 discussion | TBD      |
+| 9.  | TBD  | Paper 09 discussion | TBD      |
+| 10. | TBD  | Paper 10 discussion | TBD      |
+| 11. | TBD  | Paper 11 discussion | TBD      |
+| 12. | TBD  | Paper 12 discussion | TBD      |
+| 13. | TBD  | Paper 13 discussion | TBD      |
 

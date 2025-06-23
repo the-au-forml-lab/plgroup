@@ -38,7 +38,7 @@ jobs:
         with:
           labels: next-paper
           branch: next-paper
-          title: ${{ steps.vars.outputs.title }}
+          title: ${{ fromJSON(steps.vars.outputs.title) }}
           body: ${{ fromJSON(steps.vars.outputs.body) }}
           delete-branch: true
           reviewers: ${{ fromJSON(vars.REVIEWERS) }}
