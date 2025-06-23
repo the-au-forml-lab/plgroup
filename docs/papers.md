@@ -1,0 +1,2 @@
+
+1. Vandenbogaerde, Bram, et al. “Blame-Correct Support for Receiver Properties in Recursively-Structured Actor Contracts.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 515–43. Crossref, <https://doi.org/10.1145/3674643>.
