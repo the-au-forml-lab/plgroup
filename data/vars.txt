@@ -1,0 +1,5 @@
+body="This paper was randomly selected as your next reading:\n### Approximate Relational Reasoning for Higher-Order Probabilistic Programs.\nHaselwarter, Philipp G., et al. “Approximate Relational Reasoning for Higher-Order Probabilistic Programs.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1196–226. Crossref, https://doi.org/10.1145/3704877.\n\n**Merge this PR to apply selection.**"
+title="Approximate Relational Reasoning for Higher-Order Probabilistic Programs."
+cite="Haselwarter, Philipp G., et al. “Approximate Relational Reasoning for Higher-Order Probabilistic Programs.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1196–226. Crossref, https://doi.org/10.1145/3704877."
+doi="https://doi.org/10.1145/3704877"
+discordNext="Next Paper Approximate Relational Reasoning for Higher-Order Probabilistic Programs.\n\n\nHaselwarter, Philipp G., et al. “Approximate Relational Reasoning for Higher-Order Probabilistic Programs.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1196–226. Crossref, https://doi.org/10.1145/3704877."

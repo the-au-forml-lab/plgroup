@@ -1,0 +1,2 @@
+
+1. Haselwarter, Philipp G., et al. “Approximate Relational Reasoning for Higher-Order Probabilistic Programs.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1196–226. Crossref, <https://doi.org/10.1145/3704877>.
