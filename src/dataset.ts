@@ -6,7 +6,6 @@ import {log, LogLv, sleep, JSON_pretty, spaceFix} from './util.js';
 interface DBLPVenue {
     name: string,
     year: number,
-    url: string
 }
 
 export interface Paper {
@@ -42,8 +41,8 @@ export interface DataSet {
 function loadVenues(): DBLPVenue[] {
     const lines: string[] = FS.readLines(F.VENUES);
     function parseVenue(line: string): DBLPVenue {
-        const [name, year, url] = line.split(',');
-        return {name, url, year: +year};
+        const [name, year] = line.split(',');
+        return {name, year: +year};
     }
     return lines.map(l => parseVenue(l));
 }
