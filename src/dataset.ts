@@ -1,4 +1,4 @@
-import {FILES as F, DBLP} from './config.js';
+import {FILES as F, DBLP, CONFIG, DATASET} from './config.js';
 import {FileSystem as FS} from './file-system.js';
 import {readURL, Headers} from './request.js';
 import {log, LogLv, sleep, JSON_pretty, spaceFix} from './util.js';
@@ -69,7 +69,7 @@ function isPaper(info: {type: string, pages: string}): boolean {
 async function fetchCitation(doi: string): Promise<string> {
     const searchParams = new URLSearchParams({
         doi,
-        style: 'modern-language-association',
+        style: DATASET.citationStyle,
         lang: 'en-US',
     });
     const url = `https://citation.doi.org/format?${searchParams}`;
@@ -118,20 +118,18 @@ export async function fetchVenuePapers(venue: DBLPVenue): Promise<Paper[]> {
         + DBLP.PATH
         + DBLP.QUERY(venue.name, venue.year)
     log(LogLv.normal, `Getting papers from ${venue.name}`);
-    const response =
-        await readURL(reqURL)
-            .then(good => good,
-                  ()   => readURL(reqURL_backup));
+    const response = await readURL(reqURL)
+        .then(good => good,
+              ()   => readURL(reqURL_backup));
     const fetched: DBLPInfo[] = JSON.parse(response)
         .result.hits.hit.map((x: {info: DBLPInfo}) => x.info);
-    const hits = fetched
-        .filter((ifo: DBLPInfo) => isPaper(ifo))
+    const hits = fetched.filter((ifo: DBLPInfo) => isPaper(ifo))
     const papers: Paper[] = [];
     for(const ifo of hits){
         const paper: Paper =
             await fetchDetails({...ifo, venue: `${venue.name} ${venue.year}`});
         papers.push(paper);
-        sleep(500); // be (kinda) nice to api providers.
+        sleep(CONFIG.API_CALL_DELAY); // be (kinda) nice to api providers.
     }
     log(LogLv.normal, `... retrieved ${papers.length} papers from ${venue.name}`);
     return papers;

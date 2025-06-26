@@ -8,7 +8,6 @@ export const FILES = {
     ACTION_VARS: './data/vars.txt',
     WEB_PAPERS: './docs/papers.md',
     WEB_INDEX: './docs/index.md',
-    LOG: './data/log.txt',
 };
 
 export const DBLP = {
@@ -20,17 +19,21 @@ export const DBLP = {
         + '&format=json&h=1000',
 };
 
-export const DOI = {
-    DOI_DOMAIN: 'https://doi.org/',
-};
-
-export const LOG_LEVEL: LogLv = LogLv.normal;
-export const MAX_REDIRECTS: number = 20;
-
 export const ACTIONS = {
     CHOOSE: 'choose',
     DETAILS: 'details',
     SET: 'set',
     STATS: 'stats',
     UPDATE: 'update',
+}
+
+export const DATASET = {
+    citationStyle: 'modern-language-association',
+}
+
+
+export const CONFIG = {
+    LOG_LEVEL: LogLv.normal,
+    API_CALL_DELAY: 500,
+    MAX_REDIRECTS: 20,
 }
