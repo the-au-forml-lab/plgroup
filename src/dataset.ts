@@ -100,12 +100,13 @@ export async function fetchDetails
         : await fetchTitle(doi);
     const venue = obj.venue
         ? obj.venue
-        : 'unknown venue'
+        : 'Added Manually'
     const details: Paper = {doi, title, cite, venue};
     if(options.additive){
         dataSet[doi] = details;
         writePapers(dataSet)
     }
+    log(LogLv.normal, `Retrieved details for DOI ${details.doi}`);
     return details;
 }
 
@@ -136,13 +137,28 @@ export async function fetchVenuePapers(venue: DBLPVenue): Promise<Paper[]> {
 
 export async function makeDataSet(additive = true) {
     const venues = loadVenues();
-    const dataSet: DataSet = additive ? loadPapers() : {};
+    if(!additive){
+        clearDataSet();
+    }
+    const dataSet: DataSet = loadPapers();
     for(const v of venues){
         (await fetchVenuePapers(v)).forEach(p => {dataSet[p.doi] = p;});
         writePapers(dataSet);
     }
 }
 
-export function clearDataSet(){
+function clearDataSet(){
     writePapers({});
+}
+
+export function hasStopwords(paper: Paper): boolean {
+    const stopwords: string[] = FS.readLines(F.STOPWORDS);
+    for (const stop of stopwords){
+        const re = new RegExp(stop, 'gmi');
+        if(re.test(paper.title)){
+            log(LogLv.debug, `Rejecting paper: ${paper.title}`);
+            return true;
+        }
+    }
+    return false;
 }

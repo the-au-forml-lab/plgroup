@@ -1,19 +1,7 @@
 import {ACTIONS, FILES as F} from './config.js';
 import {FileSystem as FS} from './file-system.js';
-import {Paper, DataSet, loadPapers, fetchDetails, makeDataSet} from './dataset.js';
+import {Paper, DataSet, loadPapers, fetchDetails, makeDataSet, hasStopwords} from './dataset.js';
 import {LogLv, log} from './util.js';
-
-function hasStopwords(paper: Paper): boolean {
-    const stopwords: string[] = FS.readLines(F.STOPWORDS);
-    for (const stop of stopwords){
-        const re = new RegExp(stop, 'gmi');
-        if(re.test(paper.title)){
-            log(LogLv.debug, `Rejecting paper: ${paper.title}`);
-            return true;
-        }
-    }
-    return false;
-}
 
 async function chooseNext(): Promise<void>{
     const dataSet: DataSet = loadPapers();
@@ -134,6 +122,7 @@ function updateSchedule(paper: Paper): void{
 
 export const main = async () => {
     const [action, param] = process.argv.slice(2);
+    log(LogLv.debug, action, param);
     let todo: Function;
     switch (action) {
         case(ACTIONS.CHOOSE):

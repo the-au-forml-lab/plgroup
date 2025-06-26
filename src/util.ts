@@ -1,5 +1,4 @@
-import {LOG_LEVEL, FILES as F} from './config.js';
-import {FileSystem as FS} from './file-system.js';
+import {CONFIG, FILES as F} from './config.js';
 
 export enum LogLv {
     quiet = 0,
@@ -9,11 +8,10 @@ export enum LogLv {
     debug,
 }
 
-export function log(lv: LogLv, s: string) {
-    if(lv > LOG_LEVEL)
+export function log(lv: LogLv, ...s: any) {
+    if(lv > CONFIG.LOG_LEVEL)
         return;
-    console.log(s);
-    FS.append(F.LOG, s);
+    console.log(...s);
 }
 
 export function sleep(ms: number){
