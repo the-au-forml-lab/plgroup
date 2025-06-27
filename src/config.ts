@@ -10,30 +10,17 @@ export const FILES = {
     WEB_INDEX: './docs/index.md',
 };
 
-export const DBLP = {
-    DOMAIN: 'https://dblp.org',
-    DOMAIN_BACKUP: 'https://dblp.uni-trier.de',
-    PATH: '/search/publ/api',
-    QUERY: (venue: string, year: number) =>
-        `/?q=stream:conf/${venue}: year:${year}`
-        + '&format=json&h=1000',
-};
-
-export const ACTIONS = {
-    CHOOSE: 'choose',
-    DETAILS: 'details',
-    SET: 'set',
-    STATS: 'stats',
-    UPDATE: 'update',
-}
-
 export const DATASET = {
     citationStyle: 'modern-language-association',
 }
 
+export const LOG_LEVEL = LogLv.normal;
 
-export const CONFIG = {
-    LOG_LEVEL: LogLv.normal,
+export const DEBUG_JSON = false;
+
+export const REQUEST = {
     API_CALL_DELAY: 500,
     MAX_REDIRECTS: 20,
-}
+};
+
+export const SCHEDULE_EMPTY_LINE_RE: RegExp = /Paper\s+\d+\s+discussion/;

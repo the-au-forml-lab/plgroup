@@ -1,7 +1,6 @@
-import {FILES as F, DBLP, CONFIG, DATASET} from './config.js';
-import {FileSystem as FS} from './file-system.js';
+import {FILES as F, REQUEST, DATASET} from './config.js';
 import {readURL, Headers} from './request.js';
-import {log, LogLv, sleep, JSON_pretty, spaceFix} from './util.js';
+import {FileSystem as FS, log, LogLv, sleep, spaceFix} from './util.js';
 
 interface DBLPVenue {
     name: string,
@@ -48,11 +47,11 @@ function loadVenues(): DBLPVenue[] {
 }
 
 export function loadPapers(): DataSet {
-    return JSON.parse(FS.readFile(F.PAPERS));
+    return FS.loadJSON(F.PAPERS);
 }
 
 function writePapers(dataSet: DataSet): void {
-    FS.writeFile(F.PAPERS, JSON_pretty(dataSet));
+    FS.writeJSON(F.PAPERS, dataSet);
 }
 
 /**
@@ -110,7 +109,15 @@ export async function fetchDetails
     return details;
 }
 
-export async function fetchVenuePapers(venue: DBLPVenue): Promise<Paper[]> {
+async function fetchVenuePapers(venue: DBLPVenue): Promise<Paper[]> {
+    const DBLP = {
+        DOMAIN: 'https://dblp.org',
+        DOMAIN_BACKUP: 'https://dblp.uni-trier.de',
+        PATH: '/search/publ/api',
+        QUERY: (venue: string, year: number) =>
+            `/?q=stream:conf/${venue}: year:${year}`
+            + '&format=json&h=1000',
+    };
     const reqURL = DBLP.DOMAIN
         + DBLP.PATH
         + DBLP.QUERY(venue.name, venue.year)
@@ -129,7 +136,7 @@ export async function fetchVenuePapers(venue: DBLPVenue): Promise<Paper[]> {
         const paper: Paper =
             await fetchDetails({...ifo, venue: `${venue.name} ${venue.year}`});
         papers.push(paper);
-        sleep(CONFIG.API_CALL_DELAY); // be (kinda) nice to api providers.
+        sleep(REQUEST.API_CALL_DELAY); // be (kinda) nice to api providers.
     }
     log(LogLv.normal, `... retrieved ${papers.length} papers from ${venue.name}`);
     return papers;
@@ -149,16 +156,4 @@ export async function makeDataSet(additive = true) {
 
 function clearDataSet(){
     writePapers({});
-}
-
-export function hasStopwords(paper: Paper): boolean {
-    const stopwords: string[] = FS.readLines(F.STOPWORDS);
-    for (const stop of stopwords){
-        const re = new RegExp(stop, 'gmi');
-        if(re.test(paper.title)){
-            log(LogLv.debug, `Rejecting paper: ${paper.title}`);
-            return true;
-        }
-    }
-    return false;
 }

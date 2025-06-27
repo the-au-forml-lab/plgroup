@@ -1,7 +1,7 @@
 import https from 'https';
 import {OutgoingHttpHeaders} from 'http';
 import {log, LogLv as LogLv} from './util.js';
-import {CONFIG} from './config.js';
+import {REQUEST} from './config.js';
 
 export type Headers = OutgoingHttpHeaders;
 
@@ -15,7 +15,7 @@ export function readURL(url: string|URL, headers: Headers={}): Promise<string>
         const req = (v: URL, redirects: number = 0) => {
             https.get(v, {headers}, res => {
                 if(res.statusCode === 302){
-                    if(redirects < CONFIG.MAX_REDIRECTS){
+                    if(redirects < REQUEST.MAX_REDIRECTS){
                         const newUrl = URL.parse(res.headers.location!, url);
                         log(LogLv.debug, `... redirecting to ${newUrl}`);
                         req(newUrl!, redirects+1);
