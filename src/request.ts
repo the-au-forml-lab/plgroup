@@ -1,7 +1,10 @@
 import https from 'https';
-import {OutgoingHttpHeaders} from 'http';
-import {log, LogLv as LogLv} from './util.js';
-import {REQUEST} from './config.js';
+import {type OutgoingHttpHeaders} from 'http';
+import {log} from './util.ts';
+import {REQUEST} from './config.ts';
+
+
+
 
 export type Headers = OutgoingHttpHeaders;
 

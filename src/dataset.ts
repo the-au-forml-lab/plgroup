@@ -1,6 +1,6 @@
-import {FILES as F, REQUEST, DATASET} from './config.js';
-import {readURL, Headers} from './request.js';
-import {FileSystem as FS, log, LogLv, sleep, spaceFix} from './util.js';
+import {FILES as F, REQUEST, DATASET} from './config.ts';
+import {readURL, type Headers} from './request.ts';
+import {FileSystem as FS, log, sleep, spaceFix} from './util.ts';
 
 interface DBLPVenue {
     name: string,

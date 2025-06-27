@@ -1,6 +1,6 @@
-import {Paper, loadPapers, fetchDetails, makeDataSet} from './dataset.js';
-import {LogLv, log} from './util.js';
-import {setNext, chooseNext} from './workflow.js';
+import {type Paper, loadPapers, fetchDetails, makeDataSet} from './dataset.ts';
+import {log} from './util.ts';
+import {setNext, chooseNext} from './workflow.ts';
 
 function stats(): void{
     const papers: Paper[] = Object.values(loadPapers());
@@ -35,7 +35,7 @@ function stats(): void{
 }
 
 async function details(doi: string): Promise<void>{
-    console.table(await fetchDetails({doi}));
+    console.log(await fetchDetails({doi}));
 }
 
 const ACTIONS = {

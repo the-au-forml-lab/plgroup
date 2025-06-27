@@ -1,6 +1,6 @@
-import {FILES as F, SCHEDULE_EMPTY_LINE_RE} from './config.js';
-import {Paper, DataSet, fetchDetails, loadPapers} from './dataset.js';
-import {FileSystem as FS, log, LogLv} from './util.js';
+import {FILES as F, SCHEDULE_EMPTY_LINE_RE} from './config.ts';
+import {type Paper, type DataSet, fetchDetails, loadPapers} from './dataset.ts';
+import {FileSystem as FS, log} from './util.ts';
 
 function doiURL(doi: string, target: 'gfm'|'discord'|'plain'): string{
     const baseURL = 'https://doi.org/';

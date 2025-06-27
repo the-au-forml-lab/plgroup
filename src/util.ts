@@ -1,5 +1,5 @@
 import fs from 'fs'
-import {LOG_LEVEL, DEBUG_JSON} from './config.js';
+import {LOG_LEVEL, DEBUG_JSON} from './config.ts';
 
 const LogLvMap = {
     quiet: 0,
@@ -8,6 +8,7 @@ const LogLvMap = {
     verbose: 3,
     debug: 4,
 }
+
 export type LogLv = keyof(typeof LogLvMap);
 
 export function log(lv: LogLv, ...s: any) {
