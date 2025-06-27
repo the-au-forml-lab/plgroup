@@ -22,7 +22,7 @@
         "url": "https://github.com/the-au-forml-lab/plgroup/issues"
     },
     "engines": {
-        "node": ">=23.6.0"
+        "node": ">=22.6.0"
     },
     "devDependencies": {
         "@types/node": "^24.0.3",
