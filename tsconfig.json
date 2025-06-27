@@ -8,8 +8,9 @@
         "skipLibCheck": true,
         "outDir": "dist",
         "rootDir": "./src",
+	"erasableSyntaxOnly": true
     },
     "include": [
-        "./src/*",
+        "./src/*"
     ]
 }

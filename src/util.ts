@@ -1,19 +1,26 @@
 import fs from 'fs'
 import {LOG_LEVEL, DEBUG_JSON} from './config.js';
 
-export enum LogLv {
-    quiet = 0,
-    error,
-    normal,
-    verbose,
-    debug,
+const LogLvMap = {
+    quiet: 0,
+    error: 1,
+    normal: 2,
+    verbose: 3,
+    debug: 4,
 }
+export type LogLv = keyof(typeof LogLvMap);
 
 export function log(lv: LogLv, ...s: any) {
-    if(lv > LOG_LEVEL)
+    if(LogLvMap[lv] > LogLvMap[LOG_LEVEL]){
         return;
+    }
     console.log(...s);
 }
+/**
+ * This implementation of `LogLv` and `log` is a bit ugly, but necessary so
+ * that the file compiles with the erasableSyntaxOnly flag. Otherwise I would
+ * have used an enum.
+ */
 
 export function sleep(ms: number){
     return new Promise(resolve => setTimeout(resolve, ms));

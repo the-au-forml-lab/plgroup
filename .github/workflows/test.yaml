@@ -18,9 +18,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
-      - run: npm ci
-      - run: npm run build
+          node-version: 24
       - run: npm run choose
       - run: npm run set 10.1080/09555803.2024.2410388
       - run: npm run stats

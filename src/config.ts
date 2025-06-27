@@ -14,7 +14,7 @@ export const DATASET = {
     citationStyle: 'modern-language-association',
 }
 
-export const LOG_LEVEL = LogLv.normal;
+export const LOG_LEVEL = 'normal';
 
 export const DEBUG_JSON = false;
 

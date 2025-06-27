@@ -49,7 +49,7 @@ const ACTIONS = {
 
 const main = async () => {
     const [action, param] = process.argv.slice(2);
-    log(LogLv.debug, action, param);
+    log('debug', action, param);
     let todo: Function;
     switch (action) {
         case(ACTIONS.CHOOSE):

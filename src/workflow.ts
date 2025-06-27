@@ -26,7 +26,7 @@ function hasStopwords(paper: Paper): boolean {
     for (const stop of stopwords){
         const re = new RegExp(stop, 'gmi');
         if(re.test(paper.title)){
-            log(LogLv.debug, `Rejecting paper: ${paper.title}`);
+            log('debug', `Rejecting paper: ${paper.title}`);
             return true;
         }
     }

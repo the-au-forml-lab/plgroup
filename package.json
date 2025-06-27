@@ -5,14 +5,13 @@
     "homepage": "https://the-au-forml-lab.github.io/plgroup/",
     "type": "module",
     "scripts": {
-        "build": "npx tsc",
-        "choose": "node dist/index.js choose",
-        "clean": "rm -rf docs/_site docs/Gemfile.lock dist/ node_modules/",
-        "details": "node dist/index.js details",
+        "choose": "node src/index.ts choose",
+        "clean": "rm -rf docs/_site docs/Gemfile.lock node_modules/",
+        "details": "node src/index.ts details",
         "jekyll": "cd docs && bundle exec jekyll serve",
-        "set": "node dist/index.js set",
-        "stats": "node dist/index.js stats",
-        "update": "node dist/index.js update"
+        "set": "node src/index.ts set",
+        "stats": "node src/index.ts stats",
+        "update": "node src/index.ts update"
     },
     "license": "GPL-2.0",
     "repository": {
@@ -23,13 +22,11 @@
         "url": "https://github.com/the-au-forml-lab/plgroup/issues"
     },
     "engines": {
-        "node": ">=20.0.0"
+        "node": ">=23.6.0"
     },
     "devDependencies": {
         "@types/node": "^24.0.3",
-        "typescript": "^5.8.3"
-    },
-    "dependencies": {
+        "typescript": "^5.8.3",
         "typescript-language-server": "^4.3.4"
     }
 }

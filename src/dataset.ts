@@ -105,7 +105,7 @@ export async function fetchDetails
         dataSet[doi] = details;
         writePapers(dataSet)
     }
-    log(LogLv.normal, `Retrieved details for DOI ${details.doi}`);
+    log('normal', `Retrieved details for DOI ${details.doi}`);
     return details;
 }
 
@@ -124,7 +124,7 @@ async function fetchVenuePapers(venue: DBLPVenue): Promise<Paper[]> {
     const reqURL_backup = DBLP.DOMAIN_BACKUP
         + DBLP.PATH
         + DBLP.QUERY(venue.name, venue.year)
-    log(LogLv.normal, `Getting papers from ${venue.name}`);
+    log('normal', `Getting papers from ${venue.name}`);
     const response = await readURL(reqURL)
         .then(good => good,
               ()   => readURL(reqURL_backup));
@@ -138,7 +138,7 @@ async function fetchVenuePapers(venue: DBLPVenue): Promise<Paper[]> {
         papers.push(paper);
         sleep(REQUEST.API_CALL_DELAY); // be (kinda) nice to api providers.
     }
-    log(LogLv.normal, `... retrieved ${papers.length} papers from ${venue.name}`);
+    log('normal', `... retrieved ${papers.length} papers from ${venue.name}`);
     return papers;
 }
 
