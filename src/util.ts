@@ -31,11 +31,11 @@ export function spaceFix(s: string): string{
     return (s || '').replace(/\s+/g, ' ').trim();
 }
 
-/**
- * Randomize array in-place using Durstenfeld shuffle algorithm
- * credit: https://stackoverflow.com/a/12646864
- */
-export function shuffle(xs: any[]){
+export function shuffle<T>(xs: Array<T>){
+    /**
+     * Randomize array in-place using Durstenfeld shuffle algorithm.
+     * credit: https://stackoverflow.com/a/12646864
+     */
     for (let i = xs.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [xs[i], xs[j]] = [xs[j], xs[i]];
@@ -64,11 +64,12 @@ export class FileSystem {
         fs.appendFileSync(fileName, `\n${content}`);
     }
 
-    static loadJSON(fileName: string): any {
+    static loadJSON(fileName: string){
         try {
             return JSON.parse(FileSystem.readFile(fileName));
-        } catch {
-            return;
+        } catch (err) {
+            log('error', `Failed to parse JSON from ${fileName}`);
+            throw err;
         }
     }
 
