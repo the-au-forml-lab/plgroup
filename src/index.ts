@@ -6,9 +6,10 @@ function stats(): void{
     const papers: Paper[] = Object.values(loadPapers());
     const venues: string[] = papers.map(p => p.venue);
 
-    // count using a hash map;
-    // while we're at it, accumulate the total number of papers and
-    // a width for displaying later
+    /**
+     * count using a hash map; while we're at it, accumulate the `total`
+     * number of papers and a `width` for displaying later.
+     */
     const counter: {[_:string]: number} = {};
     let width = 0;
     let total = 0;
