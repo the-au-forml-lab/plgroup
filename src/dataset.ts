@@ -110,33 +110,50 @@ export async function fetchDetails
 }
 
 async function fetchVenuePapers(venue: DBLPVenue): Promise<Paper[]> {
-    const DBLP = {
-        DOMAIN: 'https://dblp.org',
-        DOMAIN_BACKUP: 'https://dblp.uni-trier.de',
-        PATH: '/search/publ/api',
-        QUERY: (venue: string, year: number) =>
-            `/?q=stream:conf/${venue}: year:${year}`
-            + '&format=json&h=1000',
-    };
-    const reqURL = DBLP.DOMAIN
-        + DBLP.PATH
-        + DBLP.QUERY(venue.name, venue.year)
-    const reqURL_backup = DBLP.DOMAIN_BACKUP
-        + DBLP.PATH
-        + DBLP.QUERY(venue.name, venue.year)
-    log('normal', `Getting papers from ${venue.name}`);
-    const response = await readURL(reqURL)
-        .then(good => good,
-              ()   => readURL(reqURL_backup));
-    const fetched: DBLPInfo[] = JSON.parse(response)
-        .result.hits.hit.map((x: {info: DBLPInfo}) => x.info);
-    const hits = fetched.filter((ifo: DBLPInfo) => isPaper(ifo))
+    const DBLP_Domains = [
+            'https://dblp.org',
+            'https://dblp.uni-trier.de',
+    ];
+    const DBLP_Path = '/search/publ/api';
+    function getQuery(v: DBLPVenue): string{
+        return `/?q=stream:conf/${v.name}: year:${v.year}&format=json&h=1000`;
+    }
+    const urls = DBLP_Domains
+        .map(domain => domain + DBLP_Path + getQuery(venue));
+
+    log('normal', `Getting papers from ${venue.name} ${venue.year}`);
+    const response = await (async () => {
+        try {
+            return await Promise.any(urls.map(url => readURL(url)));
+        } catch (err) {
+            const errorMessage =
+                `All DBLP endpoints failed for ${venue.name} ${venue.year}: ${err}`;
+            log('error', errorMessage);
+            throw err;
+        }
+    })();
+
+    const hits: DBLPInfo[] = (() => {
+        const json = JSON.parse(response);
+        try {
+            if(!json.result?.hits?.hit){
+                throw new Error('Unexpected DBLP response shape. Maybe the API changed?');
+            }
+            return json.result.hits.hit
+                .map((x: {info: DBLPInfo}) => x.info)
+                .filter((info: DBLPInfo) => isPaper(info));
+        } catch (err) {
+            log('error', `Failed to parse respose for ${venue.name} ${venue.year}`);
+            throw err;
+        }
+    })();
+
     const papers: Paper[] = [];
-    for(const ifo of hits){
+    for(const info of hits){
         const paper: Paper =
-            await fetchDetails({...ifo, venue: `${venue.name} ${venue.year}`});
+            await fetchDetails({...info, venue: `${venue.name} ${venue.year}`});
         papers.push(paper);
-        sleep(REQUEST.API_CALL_DELAY); // be (kinda) nice to api providers.
+        await sleep(REQUEST.API_CALL_DELAY);
     }
     log('normal', `... retrieved ${papers.length} papers from ${venue.name}`);
     return papers;
