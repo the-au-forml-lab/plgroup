@@ -15,7 +15,10 @@ export interface Paper {
 }
 
 interface DBLPInfo {
-    authors: {author: {text:string} | Array<{text:string}>},
+    authors: {
+        author: {text:string, '@pid': string}
+            | Array<{text:string, '@pid': string}>
+    },
     /**^^^
      * for single author papers, there is an author object,
      * otherwise there is an array of author objects.
@@ -29,7 +32,6 @@ interface DBLPInfo {
     type: string,
     key: string,
     doi: string,
-    ee: string,
     url: string,
 }
 
@@ -80,12 +82,10 @@ async function fetchTitle(doi:string): Promise<string> {
     return spaceFix(JSON.parse(await readURL(url, headers)).title);
 }
 
-export async function fetchDetails
-(
+export async function fetchDetails (
     obj: {doi: string, title?: string, cite?: string, venue?: string},
     options = {additive: false}
-): Promise<Paper>
-{
+): Promise<Paper> {
     const doi = obj.doi
     const dataSet = loadPapers();
     if(Object.keys(dataSet).includes(doi)){
@@ -111,8 +111,8 @@ export async function fetchDetails
 
 async function fetchVenuePapers(venue: DBLPVenue): Promise<Paper[]> {
     const DBLP_Domains = [
-            'https://dblp.org',
-            'https://dblp.uni-trier.de',
+        'https://dblp.org',
+        'https://dblp.uni-trier.de',
     ];
     const DBLP_Path = '/search/publ/api';
     function getQuery(v: DBLPVenue): string{
