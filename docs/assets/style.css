@@ -115,3 +115,7 @@ p.date {
         display: block
     }
 }
+
+div.papers {
+    text-align: left;
+}
