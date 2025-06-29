@@ -55,10 +55,10 @@ function writePapers(dataSet: DataSet): void {
 }
 
 /**
- * Basic checker to verify that an entry is acutally a paper (as
+ * Basic checker to verify that an entry is actually a paper (as
  * opposed to e.g. an "editorship" or a keynote).
  */
-function isPaper(info: {type: string, pages: string}): boolean {
+function isPaper(info: DBLPInfo): boolean {
     const typeRegex = /paper|article/i;
     const pagesRegex = /\d+-\d+/;
     return typeRegex.test(info.type) && pagesRegex.test(info.pages);
