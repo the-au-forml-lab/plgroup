@@ -62,7 +62,7 @@ export class DataSet {
         this.data = {};
         for(const line of FS.readLines(fileName)){
             const paper: Paper = JSON.parse(line);
-            this.insert(paper);
+            this.data[paper.doi] = paper;
         }
     }
 
