@@ -1,6 +1,6 @@
 import {FILES as F, DATASET} from './config.ts';
 import {type Headers, readURL} from './request.ts';
-import {FileSystem as FS, log, LogLv, spaceFix, delay, promiseAnySequential} from './util.ts';
+import {FileSystem as FS, log, LogLv, spaceFix} from './util.ts';
 
 class DBLPVenue {
     constructor(name: string, year: string|number){
