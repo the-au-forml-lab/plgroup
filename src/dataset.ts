@@ -219,23 +219,27 @@ function parseDBLPResponse(response: string): DBLPInfo[]{
     }
 }
 
-async function getVenuePapers(venue: DBLPVenue): Promise<Paper[]> {
-    log(LogLv.normal, `Getting papers from ${venue.name} ${venue.year}`);
-    const response = await requestVenueData(venue);
-    const hits = parseDBLPResponse(response);
-    const requests: Promise<Paper>[] = hits.map(async h => {
-        const { doi, title } = h;
-        const cite = await requestCite(doi);
-        return { doi, title, cite, venue: venue.toString() };
-    })
-    const papers: Paper[] = await Promise.all(requests);
-    log(LogLv.normal, `... retrieved ${papers.length} papers from ${venue.name}`);
-    return papers;
-}
-
 export async function makeDataSet(clear=false) {
-    const venues = loadVenues();
     const dataSet: DataSet = new DataSet();
+
+    async function getVenuePapers(venue: DBLPVenue): Promise<Paper[]> {
+        log(LogLv.normal, `Getting papers from ${venue.name} ${venue.year}`);
+        const response = await requestVenueData(venue);
+        const hits = parseDBLPResponse(response);
+        const requests: Promise<Paper>[] = hits.map(async h => {
+            const { doi, title } = h;
+            if(dataSet.includes(doi)){
+                return dataSet.lookup(doi);
+            }
+            const cite = await requestCite(doi);
+            return { doi, title, cite, venue: venue.toString() };
+        })
+        const papers: Paper[] = await Promise.all(requests);
+        log(LogLv.normal,
+            `... retrieved ${papers.length} papers from ${venue.name}`);
+        return papers;
+    }
+    const venues = loadVenues();
     if(clear){
         dataSet.clear();
     }
