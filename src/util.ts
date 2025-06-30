@@ -1,7 +1,7 @@
 import fs from 'fs'
-import {LOG_LEVEL, DEBUG_JSON} from './config.ts';
+import {LOG_LEVEL, DEBUG_JSON, REQUEST} from './config.ts'; 
 
-const LogLvMap = {
+export const LogLv = {
     quiet: 0,
     error: 1,
     normal: 2,
@@ -9,10 +9,8 @@ const LogLvMap = {
     debug: 4,
 }
 
-export type LogLv = keyof(typeof LogLvMap);
-
-export function log(lv: LogLv, ...s: any) {
-    if(LogLvMap[lv] > LogLvMap[LOG_LEVEL]){
+export function log(lv: number, ...s: any) {
+    if(lv > LOG_LEVEL){
         return;
     }
     console.log(...s);
@@ -51,9 +49,7 @@ export class FileSystem {
     }
 
     static readLines(fileName: string): string[] {
-        return (FileSystem.readFile(fileName))
-            .split('\n')
-            .filter(w => w);
+        return (FileSystem.readFile(fileName)).split('\n').filter(w => w);
     }
 
     static writeFile(fileName: string, content: string): void {
@@ -68,7 +64,7 @@ export class FileSystem {
         try {
             return JSON.parse(FileSystem.readFile(fileName));
         } catch (err) {
-            log('error', `Failed to parse JSON from ${fileName}`);
+            log(LogLv.error, `Failed to parse JSON from ${fileName}`);
             throw err;
         }
     }

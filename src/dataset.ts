@@ -1,17 +1,35 @@
 import {FILES as F, REQUEST, DATASET} from './config.ts';
-import {readURL, type Headers} from './request.ts';
-import {FileSystem as FS, log, sleep, spaceFix} from './util.ts';
+import {type Headers, readURL} from './request.ts';
+import {FileSystem as FS, log, LogLv, spaceFix} from './util.ts';
 
-interface DBLPVenue {
-    name: string,
-    year: number,
+class DBLPVenue {
+    constructor(name: string, year: string|number){
+        this.name = name;
+        this.year = +year;
+    }
+    name: string;
+    year: number;
+    toString(){
+        return `${this.name} ${this.year}`;
+    }
+    static parse(line: string): DBLPVenue {
+        const lineRE = /^[a-zA-Z]+,\d+$/;
+        if (!lineRE.test(line)){
+            const errorMessage = `Improperly formatted venue:\n${line}`;
+            log(LogLv.error, errorMessage);
+            throw new Error(errorMessage);
+        }
+        const [name, year] = line.split(',');
+        return new DBLPVenue(name, year);
+    }
+
 }
 
 export interface Paper {
     doi: string,
     title: string,
     cite: string,
-    venue: string
+    venue?: string
 }
 
 interface DBLPInfo {
@@ -35,25 +53,94 @@ interface DBLPInfo {
     url: string,
 }
 
-export interface DataSet {
-    [doi: string] : Paper
-};
+export class DataSet {
+    private data: {[doi:string]: Paper};
+    private fileName: string;
+
+    constructor(fileName: string = F.PAPERS){
+        this.fileName = fileName;
+        this.data = {};
+        for(const line of FS.readLines(fileName)){
+            const paper: Paper = JSON.parse(line);
+            this.insert(paper);
+        }
+    }
+
+    DOIs(): string[] {
+        return Object.keys(this.data);
+    }
+
+    papers(): Paper[] {
+        return Object.values(this.data);
+    }
+
+    includes(doi: string): boolean {
+        return this.DOIs().includes(doi);
+    }
+
+    lookup(doi: string, options={additive: false}): Paper|undefined {
+        return this.data[doi];
+    }
+
+    insert(paper: Paper){
+        if(this.includes(paper.doi)){
+            return;
+        }
+        this.data[paper.doi] = paper;
+        if(this.DOIs().length === 0){
+            FS.writeFile(this.fileName, JSON.stringify(paper));
+        } else {
+            FS.append(this.fileName, JSON.stringify(paper));
+        }
+    }
+
+    write(){
+        FS.writeFile(this.fileName, '')
+        for(const paper of this.papers()){
+            FS.append(this.fileName, JSON.stringify(paper));
+        }
+    }
+
+    clear(): void {
+        this.data = {};
+        this.write();
+    }
+
+    stats(): void {
+        const venues = this.papers().map(p => p.venue ?? '');
+        /**
+         * count using a hash map; while we're at it, accumulate the `total`
+         * number of papers and a `width` for displaying later.
+         */
+        const counter: {[_:string]: number} = {};
+        let width = 0;
+        let total = 0;
+        venues.forEach(v => {
+            counter[v] = counter[v] ? counter[v] + 1 : 1;
+            total++;
+            width = Math.max(width, v.length + 3);
+        });
+
+        // sort low to high
+        const sorted: Array<[string, number]> =
+            Object.keys(counter).map(k => [k, counter[k]]);
+        sorted.sort(([,n], [,m]) => n - m);
+
+        const printLine = (s: string, num: number) =>
+            console.log(
+                (s + ' ').padEnd(width, '.'),
+                num.toString().padStart(3, ' '));
+
+        for(const line of sorted){
+            printLine(...line);
+        }
+        printLine('TOTAL', total);
+    }
+}
 
 function loadVenues(): DBLPVenue[] {
     const lines: string[] = FS.readLines(F.VENUES);
-    function parseVenue(line: string): DBLPVenue {
-        const [name, year] = line.split(',');
-        return {name, year: +year};
-    }
-    return lines.map(l => parseVenue(l));
-}
-
-export function loadPapers(): DataSet {
-    return FS.loadJSON(F.PAPERS);
-}
-
-function writePapers(dataSet: DataSet): void {
-    FS.writeJSON(F.PAPERS, dataSet);
+    return lines.map(l => DBLPVenue.parse(l));
 }
 
 /**
@@ -66,7 +153,13 @@ function isPaper(info: DBLPInfo): boolean {
     return typeRegex.test(info.type) && pagesRegex.test(info.pages);
 }
 
-async function fetchCitation(doi: string): Promise<string> {
+async function requestTitle(doi:string): Promise<string> {
+    const url = `https://doi.org/${doi}`;
+    const headers: Headers = {Accept: 'application/vnd.citationstyles.csl+json'}
+    return spaceFix(JSON.parse(await readURL(url, headers)).title);
+}
+
+async function requestCite(doi: string): Promise<string> {
     const searchParams = new URLSearchParams({
         doi,
         style: DATASET.citationStyle,
@@ -76,101 +169,77 @@ async function fetchCitation(doi: string): Promise<string> {
     return spaceFix(await readURL(url));
 }
 
-async function fetchTitle(doi:string): Promise<string> {
-    const url = `https://doi.org/${doi}`;
-    const headers: Headers = {Accept: 'application/vnd.citationstyles.csl+json'}
-    return spaceFix(JSON.parse(await readURL(url, headers)).title);
+async function requestDetails(doi:string): Promise<Paper>{
+    const title = await requestTitle(doi);
+    const cite = await requestCite(doi);
+    return {doi, title, cite};
 }
 
-export async function fetchDetails (
-    obj: {doi: string, title?: string, cite?: string, venue?: string},
-    options = {additive: false}
-): Promise<Paper> {
-    const doi = obj.doi
-    const dataSet = loadPapers();
-    if(Object.keys(dataSet).includes(doi)){
-        return dataSet[doi];
-    }
-    const cite = obj.cite
-        ? obj.cite
-        : await fetchCitation(doi);
-    const title: string = obj.title
-        ? obj.title
-        : await fetchTitle(doi);
-    const venue = obj.venue
-        ? obj.venue
-        : 'Added Manually'
-    const details: Paper = {doi, title, cite, venue};
+export async function getDetails (doi: string, options={additive: false}): Promise<Paper> {
+    const dataSet = new DataSet();
+    const paper = dataSet.lookup(doi) ?? await requestDetails(doi);
     if(options.additive){
-        dataSet[doi] = details;
-        writePapers(dataSet)
+        dataSet.insert(paper);
     }
-    log('normal', `Retrieved details for DOI ${details.doi}`);
-    return details;
+    log(LogLv.debug, `Retrieved details for DOI ${paper.doi}`);
+    return paper;
 }
 
-async function fetchVenuePapers(venue: DBLPVenue): Promise<Paper[]> {
+async function requestVenueData(venue: DBLPVenue){
     const DBLP_Domains = [
         'https://dblp.org',
         'https://dblp.uni-trier.de',
     ];
-    const DBLP_Path = '/search/publ/api';
+    const ApiPath = '/search/publ/api';
     function getQuery(v: DBLPVenue): string{
         return `/?q=stream:conf/${v.name}: year:${v.year}&format=json&h=1000`;
     }
-    const urls = DBLP_Domains
-        .map(domain => domain + DBLP_Path + getQuery(venue));
-
-    log('normal', `Getting papers from ${venue.name} ${venue.year}`);
-    const response = await (async () => {
-        try {
-            return await Promise.any(urls.map(url => readURL(url)));
-        } catch (err) {
-            const errorMessage =
-                `All DBLP endpoints failed for ${venue.name} ${venue.year}: ${err}`;
-            log('error', errorMessage);
-            throw err;
-        }
-    })();
-
-    const hits: DBLPInfo[] = (() => {
-        const json = JSON.parse(response);
-        try {
-            if(!json.result?.hits?.hit){
-                throw new Error('Unexpected DBLP response shape. Maybe the API changed?');
-            }
-            return json.result.hits.hit
-                .map((x: {info: DBLPInfo}) => x.info)
-                .filter((info: DBLPInfo) => isPaper(info));
-        } catch (err) {
-            log('error', `Failed to parse respose for ${venue.name} ${venue.year}`);
-            throw err;
-        }
-    })();
-
-    const papers: Paper[] = [];
-    for(const info of hits){
-        const paper: Paper =
-            await fetchDetails({...info, venue: `${venue.name} ${venue.year}`});
-        papers.push(paper);
-        await sleep(REQUEST.API_CALL_DELAY);
+    const urls = DBLP_Domains.map(domain => domain + ApiPath + getQuery(venue));
+    try {
+        return await Promise.any(urls.map(url => readURL(url)));
+    } catch (err) {
+        const errorMessage =
+            `All DBLP endpoints failed for ${venue.name} ${venue.year}:\n${err}`;
+        log(LogLv.error, errorMessage);
+        throw err;
     }
-    log('normal', `... retrieved ${papers.length} papers from ${venue.name}`);
+}
+
+function parseDBLPResponse(response: string): DBLPInfo[]{
+    const json = JSON.parse(response);
+    try {
+        if(!json.result?.hits?.hit){
+            throw new Error('Unexpected DBLP response shape. Maybe the API changed?');
+        }
+        return json.result.hits.hit
+            .map((x: {info: DBLPInfo}) => x.info)
+            .filter((info: DBLPInfo) => isPaper(info));
+    } catch (err) {
+        throw err;
+    }
+}
+
+async function getVenuePapers(venue: DBLPVenue): Promise<Paper[]> {
+    log(LogLv.normal, `Getting papers from ${venue.name} ${venue.year}`);
+    const response = await requestVenueData(venue);
+    const hits = parseDBLPResponse(response);
+    const requests: Promise<Paper>[] = hits.map(async h => {
+        const { doi, title } = h;
+        const cite = await requestCite(doi);
+        return { doi, title, cite, venue: venue.toString() };
+    })
+    const papers: Paper[] = await Promise.all(requests);
+    log(LogLv.normal, `... retrieved ${papers.length} papers from ${venue.name}`);
     return papers;
 }
 
-export async function makeDataSet(additive = true) {
+export async function makeDataSet(clear=false) {
     const venues = loadVenues();
-    if(!additive){
-        clearDataSet();
+    const dataSet: DataSet = new DataSet();
+    if(clear){
+        dataSet.clear();
     }
-    const dataSet: DataSet = loadPapers();
     for(const v of venues){
-        (await fetchVenuePapers(v)).forEach(p => {dataSet[p.doi] = p;});
-        writePapers(dataSet);
+        (await getVenuePapers(v)).forEach(p => dataSet.insert(p));
     }
-}
-
-function clearDataSet(){
-    writePapers({});
 }

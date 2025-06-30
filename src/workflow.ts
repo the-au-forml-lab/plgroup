@@ -1,6 +1,6 @@
 import {FILES as F, SCHEDULE_EMPTY_LINE_RE} from './config.ts';
-import {type Paper, type DataSet, fetchDetails, loadPapers} from './dataset.ts';
-import {FileSystem as FS, log} from './util.ts';
+import {type Paper, DataSet, getDetails} from './dataset.ts';
+import {FileSystem as FS, log, LogLv} from './util.ts';
 
 function doiURL(doi: string, target: 'gfm'|'discord'|'plain'): string{
     const baseURL = 'https://doi.org/';
@@ -26,7 +26,7 @@ function hasStopwords(paper: Paper): boolean {
     for (const stop of stopwords){
         const re = new RegExp(stop, 'gmi');
         if(re.test(paper.title)){
-            log('debug', `Rejecting paper: ${paper.title}`);
+            log(LogLv.debug, `Rejecting paper: ${paper.title}`);
             return true;
         }
     }
@@ -73,19 +73,19 @@ function updateVars(paper: Paper): void{
 }
 
 export async function setNext(doi: string): Promise<void>{
-    const paper: Paper = await fetchDetails({doi}, {additive: true});
+    const paper: Paper = await getDetails(doi, {additive: true});
     updateWeb(paper); // do this first since it can throw.
     updateVars(paper);
     FS.append(F.ALLTIME_HISTORY, doi);
 }
 
 export async function chooseNext(): Promise<void>{
-    const dataSet: DataSet = loadPapers();
-    const DOIs: string[] = Object.keys(dataSet);
+    const dataSet: DataSet = new DataSet();
+    const DOIs: string[] = dataSet.DOIs();
     const pastPapers = FS.readLines(F.ALLTIME_HISTORY);
     const selectable = DOIs
         .filter(x => !pastPapers.includes(x))
-        .filter(x => !hasStopwords(dataSet[x]));
+        .filter(x => !hasStopwords(dataSet.lookup(x)!));
     // shuffle(selectable); //turn on for more shuffles.
     if(selectable.length === 0){
         throw new Error('no selctable papers');

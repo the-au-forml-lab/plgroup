@@ -1,4 +1,4 @@
-import {type LogLv} from './util.ts';
+import {LogLv} from './util.ts';
 
 export const FILES = {
     PAPERS: './data/papers.json',
@@ -14,12 +14,12 @@ export const DATASET = {
     citationStyle: 'modern-language-association',
 }
 
-export const LOG_LEVEL: LogLv = 'normal';
+export const LOG_LEVEL = LogLv.normal;
 
 export const DEBUG_JSON = false;
 
 export const REQUEST = {
-    API_CALL_DELAY: 500,
+    API_CALL_DELAY: 1000,
     MAX_REDIRECTS: 20,
 };
 

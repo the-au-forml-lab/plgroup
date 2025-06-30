@@ -1,42 +1,13 @@
-import {type Paper, loadPapers, fetchDetails, makeDataSet} from './dataset.ts';
-import {log} from './util.ts';
+import {DataSet, makeDataSet, getDetails} from './dataset.ts';
+import {log, LogLv} from './util.ts';
 import {setNext, chooseNext} from './workflow.ts';
 
 function stats(): void{
-    const papers: Paper[] = Object.values(loadPapers());
-    const venues: string[] = papers.map(p => p.venue);
-
-    /**
-     * count using a hash map; while we're at it, accumulate the `total`
-     * number of papers and a `width` for displaying later.
-     */
-    const counter: {[_:string]: number} = {};
-    let width = 0;
-    let total = 0;
-    venues.forEach(v => {
-        counter[v] = counter[v] ? counter[v] + 1 : 1;
-        total++;
-        width = Math.max(width, v.length + 3);
-    });
-
-    // sort low to high
-    const sorted: Array<[string, number]> =
-        Object.keys(counter).map(k => [k, counter[k]]);
-    sorted.sort(([,n], [,m]) => n - m);
-
-    const printLine = (s: string, num: number) =>
-        console.log(
-            (s + ' ').padEnd(width, '.'),
-            num.toString().padStart(3, ' '));
-
-    for(const line of sorted){
-        printLine(...line);
-    }
-    printLine('TOTAL', total);
+    new DataSet().stats();
 }
 
 async function details(doi: string): Promise<void>{
-    console.log(await fetchDetails({doi}));
+    console.log(await getDetails(doi));
 }
 
 const ACTIONS = {
@@ -50,7 +21,7 @@ const ACTIONS = {
 
 const main = async () => {
     const [action, param] = process.argv.slice(2);
-    log('debug', action, param);
+    log(LogLv.debug, action, param);
     let todo: Function;
     switch (action) {
         case(ACTIONS.CHOOSE):
@@ -63,7 +34,7 @@ const main = async () => {
             todo = (() => setNext(param));
             break;
         case (ACTIONS.STATS):
-            todo = stats;
+            todo = (() => stats());
             break;
         case(ACTIONS.UPDATE):
             todo = (() => makeDataSet(Boolean(param)));
