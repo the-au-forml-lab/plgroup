@@ -1,6 +1,6 @@
-import {FILES as F, REQUEST, DATASET} from './config.ts';
+import {FILES as F, DATASET} from './config.ts';
 import {type Headers, readURL} from './request.ts';
-import {FileSystem as FS, log, LogLv, spaceFix} from './util.ts';
+import {FileSystem as FS, log, LogLv, spaceFix, delay, promiseAnySequential} from './util.ts';
 
 class DBLPVenue {
     constructor(name: string, year: string|number){
@@ -78,11 +78,14 @@ export class DataSet {
         return this.DOIs().includes(doi);
     }
 
-    lookup(doi: string, options={additive: false}): Paper|undefined {
+    lookup(doi: string): Paper{
+        if(!this.includes(doi)){
+            throw new Error(`Looked up nonexistent DOI ${doi}`);
+        }
         return this.data[doi];
     }
 
-    insert(paper: Paper){
+    insert(paper: Paper): void{
         if(this.includes(paper.doi)){
             return;
         }
@@ -95,10 +98,10 @@ export class DataSet {
     }
 
     write(){
-        FS.writeFile(this.fileName, '')
-        for(const paper of this.papers()){
-            FS.append(this.fileName, JSON.stringify(paper));
-        }
+        const fileContent = this.papers()
+            .map(p => JSON.stringify(p))
+            .join('\n')
+        FS.writeFile(this.fileName, fileContent);
     }
 
     clear(): void {
@@ -165,6 +168,7 @@ async function requestCite(doi: string): Promise<string> {
         style: DATASET.citationStyle,
         lang: 'en-US',
     });
+    log(LogLv.debug, `Requesting citation for DOI ${doi}`);
     const url = `https://citation.doi.org/format?${searchParams}`;
     return spaceFix(await readURL(url));
 }
@@ -177,7 +181,10 @@ async function requestDetails(doi:string): Promise<Paper>{
 
 export async function getDetails (doi: string, options={additive: false}): Promise<Paper> {
     const dataSet = new DataSet();
-    const paper = dataSet.lookup(doi) ?? await requestDetails(doi);
+    if(dataSet.includes(doi)){
+        return dataSet.lookup(doi);
+    }
+    const paper = await requestDetails(doi);
     if(options.additive){
         dataSet.insert(paper);
     }

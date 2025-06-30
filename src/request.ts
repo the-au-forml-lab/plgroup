@@ -16,7 +16,6 @@ export function readURL(url: RequestTarget, headers: Headers={}): Promise<string
     return new Promise((resolve, reject) => {
         const req = (v: URL, redirects: number = 0) => {
             https.get(v, {headers}, res => {
-                log(LogLv.debug, res.headers);
                 if(res.statusCode === 302){
                     if(redirects < REQUEST.MAX_REDIRECTS){
                         const newUrl = URL.parse(res.headers.location!, url);
