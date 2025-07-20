@@ -95,7 +95,7 @@ export async function chooseNext(): Promise<void>{
 
 export async function setNext(doi: string): Promise<void>{
     const paper = await details(doi);
-    return writeNext(paper);
+    await writeNext(paper);
 }
 
 export async function stats(): Promise<void> {
