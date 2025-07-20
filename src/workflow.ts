@@ -71,7 +71,7 @@ function updateVars(paper: Paper): Promise<void> {
     return FS.writeFile(F.ACTION_VARS, out.join('\n'));
 }
 
-export async function setNext(paper: Paper): Promise<void>{
+export async function writeNext(paper: Paper): Promise<void>{
     await updateWeb(paper); // do this first since it can throw.
     await updateVars(paper);
     await FS.append(F.ALLTIME_HISTORY, paper.doi);
@@ -90,9 +90,13 @@ export async function chooseNext(): Promise<void>{
         throw new Error('no selectable papers');
     }
     const idx: number = Math.floor(Math.random() * selectable.length);
-    await setNext(selectable[idx]);
+    await writeNext(selectable[idx]);
 }
 
+export async function setNext(doi: string): Promise<void>{
+    const paper = await details(doi);
+    await writeNext(paper);
+}
 
 export async function stats(): Promise<void> {
     const dataSet = await DataSet.load();

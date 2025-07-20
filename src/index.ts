@@ -1,6 +1,6 @@
 import {makeDataSet, details} from './dataset.ts';
 import {log, LogLv} from './util.ts';
-import {setNext, chooseNext, stats} from './workflow.ts';
+import {writeNext, chooseNext, stats} from './workflow.ts';
 
 const ACTIONS = {
     CHOOSE: 'choose',
@@ -23,7 +23,7 @@ const main = async () => {
             todo = (() => details(param));
             break;
         case (ACTIONS.SET):
-            todo = (() => setNext(param));
+            todo = (() => writeNext(param));
             break;
         case (ACTIONS.STATS):
             todo = (() => stats());
