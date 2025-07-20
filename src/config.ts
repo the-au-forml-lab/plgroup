@@ -14,12 +14,17 @@ export const DATASET = {
     citationStyle: 'modern-language-association',
 }
 
+export const DBLP_DOMAINS = [
+    'https://dblp.org',
+    'https://dblp.uni-trier.de',
+];
+
 export const LOG_LEVEL = LogLv.debug;
 
 export const DEBUG_JSON = false;
 
 export const REQUEST = {
-    API_CALL_DELAY: 1000,
+    API_CALL_DELAY: 500,
     MAX_REDIRECTS: 20,
 };
 

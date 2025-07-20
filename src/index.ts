@@ -1,14 +1,6 @@
-import {DataSet, makeDataSet, getDetails} from './dataset.ts';
+import {makeDataSet, details} from './dataset.ts';
 import {log, LogLv} from './util.ts';
-import {setNext, chooseNext} from './workflow.ts';
-
-function stats(): void{
-    new DataSet().stats();
-}
-
-async function details(doi: string): Promise<void>{
-    console.log(await getDetails(doi));
-}
+import {setNext, chooseNext, stats} from './workflow.ts';
 
 const ACTIONS = {
     CHOOSE: 'choose',

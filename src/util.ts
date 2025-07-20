@@ -1,5 +1,5 @@
 import fs from 'fs'
-import {LOG_LEVEL, DEBUG_JSON, REQUEST} from './config.ts'; 
+import {LOG_LEVEL, REQUEST} from './config.ts'; 
 
 export const LogLv = {
     quiet: 0,
@@ -16,12 +16,15 @@ export function log(lv: number, ...s: any) {
     console.log(...s);
 }
 /**
- * This implementation of `LogLv` and `log` is a bit ugly, but necessary so
- * that the file compiles with the erasableSyntaxOnly flag. Otherwise I would
- * have used an enum.
+ * This implementation of `LogLv` and `log` is a bit ugly, but
+ * necessary so that the file compiles with the erasableSyntaxOnly
+ * flag. Otherwise I would have used an enum. In future versions of
+ * node, it may be possible to change this back to an enum. See the
+ * nodejs documentation on the "--experimental-transform-types"
+ * command line option.
  */
 
-export function sleep(ms: number){
+export function sleep(ms: number): Promise<void> {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
@@ -29,49 +32,81 @@ export function spaceFix(s: string): string{
     return (s || '').replace(/\s+/g, ' ').trim();
 }
 
-export function shuffle<T>(xs: Array<T>){
+export function shuffle<T>(xs: T[]): T[] {
     /**
      * Randomize array in-place using Durstenfeld shuffle algorithm.
+     * Also returns a reference to the array, like most array methods.
      * credit: https://stackoverflow.com/a/12646864
      */
     for (let i = xs.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [xs[i], xs[j]] = [xs[j], xs[i]];
     }
+    return xs;
 }
 
 export class FileSystem {
-    static readFile(fileName: string): string {
-        if (!fs.existsSync(fileName))
-            return '';
-        const content = (fs.readFileSync(fileName)) || '';
-        return content.toString();
+    static async readFile(fileName: string): Promise<string> {
+        if (!fs.existsSync(fileName)){
+            throw new Error(`File ${fileName} does not exits.`);
+        }
+        return (await fs.promises.readFile(fileName)).toString();
     }
 
-    static readLines(fileName: string): string[] {
-        return (FileSystem.readFile(fileName)).split('\n').filter(w => w);
+    static async readLines(fileName: string): Promise<string[]> {
+        return (await FileSystem.readFile(fileName))
+            .split('\n')
+            .filter(w => w);
     }
 
-    static writeFile(fileName: string, content: string): void {
-        fs.writeFileSync(fileName, content, {encoding: 'utf8', flag: 'w'});
+    static writeFile(fileName: string, content: string): Promise<void> {
+        return fs.promises.writeFile(
+            fileName, content, {encoding: 'utf8', flag: 'w'}
+        );
     }
 
-    static append(fileName: string, content: string): void {
-        fs.appendFileSync(fileName, `\n${content}`);
+    static append(fileName: string, content: string): Promise<void> {
+        return fs.promises.appendFile(fileName, `\n${content}`);
     }
 
-    static loadJSON(fileName: string){
+    static async loadJSON(fileName: string){
         try {
-            return JSON.parse(FileSystem.readFile(fileName));
+            return JSON.parse(await FileSystem.readFile(fileName));
         } catch (err) {
-            log(LogLv.error, `Failed to parse JSON from ${fileName}`);
-            throw err;
+            throw new Error(`Failed to parse JSON from file ${fileName}:\n${err}`);
         }
     }
 
-    static writeJSON(fileName: string, obj: any): void{
-        const indent = DEBUG_JSON ? undefined : 0;
-        const fileContents = JSON.stringify(obj, undefined, indent);
-        FileSystem.writeFile(fileName, fileContents);
+    static writeJSON(fileName: string, obj: any): Promise<void>{
+        const fileContents = JSON.stringify(obj);
+        return FileSystem.writeFile(fileName, fileContents);
     }
+}
+
+export async function promiseAllSequential<T,U>(
+    asyncFun: (_: T) => Promise<U>,
+    inputs: T[],
+    delay = REQUEST.API_CALL_DELAY,
+): Promise<U[]> {
+    const out: U[] = [];
+    for (const input of inputs){
+        out.push(await asyncFun(input));
+        await sleep(delay);
+    }
+    return out;
+}
+
+export async function promiseAnySequential<T,U>(
+    asyncFun: (_: T) => Promise<U>,
+    inputs: T[],
+) : Promise<U> {
+    const errors: any[] = [];
+    for(const t of inputs){
+        try {
+            return await asyncFun(t);
+        } catch (err) {
+            errors.push(err);
+        }
+    }
+    throw new AggregateError(errors);
 }
