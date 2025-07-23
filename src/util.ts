@@ -92,8 +92,12 @@ export class FileSystem {
         }
     }
 
-    static writeJSON(fileName: string, obj: any): void {
-        return FileSystem.writeFile(fileName, JSON.stringify(obj));
+    static writeJSON(fileName: string, obj: any, humanReadable:boolean=false): void {
+        const indent = humanReadable ? 2 : undefined;
+        return FileSystem.writeFile(
+            fileName,
+            JSON.stringify(obj, undefined, indent)
+        );
     }
 }
 

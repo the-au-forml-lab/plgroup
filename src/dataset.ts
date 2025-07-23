@@ -29,8 +29,7 @@ export class DataSet {
     }
 
     static load(): DataSet {
-        const papers: Paper[] = FileSystem.readLines(FILES.PAPERS)
-            .map(l => JSON.parse(l));
+        const papers: Paper[] = JSON.parse(FileSystem.readFile(FILES.PAPERS));
         // do not check for errors since this file should be machine-generated
         return new DataSet(papers);
     }
@@ -62,8 +61,7 @@ export class DataSet {
     }
 
     write(): void {
-        const lines = this.papers().map(p => JSON.stringify(p));
-        FileSystem.writeLines(FILES.PAPERS, lines);
+        FileSystem.writeJSON(FILES.PAPERS, this.papers(), DATASET.HUMAN_READABLE);
     }
 }
 
