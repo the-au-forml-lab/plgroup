@@ -1,4 +1,4 @@
-import {LogLv} from './util.ts';
+import {LogLv, localTimeString} from './util.ts';
 
 export const FILES = {
     PAPERS: './data/papers.json',
@@ -11,20 +11,22 @@ export const FILES = {
 };
 
 export const DATASET = {
-    citationStyle: 'modern-language-association',
+    CITATION_STYLE: 'modern-language-association',
+    LOOKUP_ADDITIVE: false,
+    MAKE_CONFIG: {
+       clear: false,
+       additive: false,
+    }
 }
 
-export const DBLP_DOMAINS = [
-    'https://dblp.org',
-    'https://dblp.uni-trier.de',
-];
-
 export const LOG = {
-    LEVEL: LogLv.debug,
-    FILE: `paper-picker_${Date.now()}.log`,
+    LEVEL: LogLv.normal,
+    WRITE_FILE: false,
+    FILE: `paper-picker_${localTimeString()}.log`,
 }
 
 export const REQUEST = {
+    TIMEOUT_DELAY: 10_000, // timeout requests after 10 seconds
     API_CALL_DELAY: 500,
     MAX_REDIRECTS: 20,
 };

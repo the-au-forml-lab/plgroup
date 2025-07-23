@@ -5,13 +5,13 @@
     "homepage": "https://the-au-forml-lab.github.io/plgroup/",
     "type": "module",
     "scripts": {
-        "choose": "node src/index.ts choose",
-        "clean": "rm -rf docs/_site docs/Gemfile.lock node_modules/",
-        "details": "node src/index.ts details",
-        "jekyll": "cd docs && bundle exec jekyll serve",
-        "set": "node src/index.ts set",
-        "stats": "node src/index.ts stats",
-        "update": "node src/index.ts update"
+        "choose": "node src/main.ts choose",
+        "clean": "rm -rf docs/_site docs/Gemfile.lock node_modules/ *.log",
+        "details": "node src/main.ts details",
+        "serve": "cd docs && bundle exec jekyll serve",
+        "set": "node src/main.ts set",
+        "stats": "node src/main.ts stats",
+        "update": "node src/main.ts update"
     },
     "license": "GPL-2.0",
     "repository": {
