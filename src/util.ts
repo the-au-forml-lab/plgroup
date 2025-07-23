@@ -49,6 +49,8 @@ export function shuffle<T>(xs: T[]): T[] {
 }
 
 export class FileSystem {
+    // this class assumes that all files end in a newline character and complies
+    // with this assumption when writing files.
     static readFile(fileName: string): string {
         if (!fs.existsSync(fileName)) {
             throw new Error(`File ${fileName} does not exits.`);
@@ -59,20 +61,26 @@ export class FileSystem {
     static readLines(fileName: string): string[] {
         return FileSystem.readFile(fileName)
             .split('\n')
-            .filter(w => w);
+            .filter(w => w); // ignore empty lines.
     }
 
     static writeFile(fileName: string, content: string): void {
+        if(!content.endsWith('\n')){
+            content = content + '\n';
+        }
         fs.writeFileSync(fileName, content, {encoding: 'utf8', flag: 'w'});
     }
 
     static append(fileName: string, content: string): void {
-        fs.appendFileSync(fileName, `\n${content}`);
+        if(!content.endsWith('\n')){
+            content = content + '\n';
+        }
+        fs.appendFileSync(fileName, content);
     }
 
     static writeLines(fileName: string, lines: string[]): void {
-        FileSystem.writeFile(fileName, lines.join('\n') + '\n');
-        // add a trailing newline since most tools expect one
+        const content = lines.join('\n');
+        FileSystem.writeFile(fileName, content);
     }
 
     static loadJSON(fileName: string) {
