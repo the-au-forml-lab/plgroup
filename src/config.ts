@@ -13,7 +13,7 @@ export const FILES = {
 export const DATASET = {
     CITATION_STYLE: 'modern-language-association',
     LOOKUP_ADDITIVE: false,
-    MAKE_CONFIG: {
+    MAKE: {
        clear: false,
        additive: false,
     }

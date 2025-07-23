@@ -64,6 +64,7 @@ function writeNext(paper: Paper): void {
     updateWeb(paper);
     updateVars(paper);
     FileSystem.append(FILES.ALLTIME_HISTORY, paper.doi);
+    log(LogLv.normal, paper);
 }
 
 function hasStopWords(paper: Paper, stopwords: RegExp[]): boolean {
@@ -90,7 +91,6 @@ export async function chooseNext(): Promise<void> {
     const index = Math.floor(Math.random() * (selectable.length));
     const selected = selectable[index];
     writeNext(selected);
-    console.log(selected);
 }
 
 export async function details(doi: string): Promise<void> {

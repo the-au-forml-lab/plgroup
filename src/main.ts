@@ -13,7 +13,7 @@ const ACTIONS = {
 async function main() {
     const [action, param] = process.argv.slice(2);
     log(LogLv.debug, action, param);
-    let todo: () => Promise<unknown>;
+    let todo: Function;
     switch (action) {
         case ACTIONS.CHOOSE:
             todo = () => workflow.chooseNext();
@@ -25,13 +25,13 @@ async function main() {
             todo = () => workflow.setNext(param);
             break;
         case ACTIONS.STATS:
-            todo = () => Promise.resolve(workflow.stats());
+            todo = () => workflow.stats();
             break;
         case ACTIONS.UPDATE:
             todo = () => makeDataSet();
             break;
         default:
-            todo = () => Promise.resolve(console.log('unknown action'));
+            todo = () => console.log('unknown action');
             break;
     }
     await todo();

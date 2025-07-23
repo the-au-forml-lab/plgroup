@@ -82,7 +82,7 @@ export type MakeDataSetConfig = {
 }
 
 export async function makeDataSet(
-    config: MakeDataSetConfig = DATASET.MAKE_CONFIG
+    config: MakeDataSetConfig = DATASET.MAKE
 ): Promise<DataSet> {
     const cache: DataSet = config.clear
         ? DataSet.empty()
