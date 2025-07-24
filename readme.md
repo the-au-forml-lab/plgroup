@@ -27,9 +27,45 @@ organization.
 |:------------------------|---------------------------------------------------------------|
 | **`data`**              | static and auto-generated files pertaining to paper selection |
 | **`docs`**              | documentation                                                 |
-| **`site`**              | website content                                               |
+| **`docs`**              | website content                                               |
 | **`src`**               | source code for paper selection                               |
 | **`.github/workflows`** | automated paper selection workflows                           |
+
+## Configuration
+
+### Setting conferences for paper selection
+
+The file `data/sources.csv` contains a list of conferences---one per line---from
+which papers are selected. After modifying `sources.csv` you must run `npm run
+update` for the changes to take effect. The retrieved papers are stored in the
+file `data/papers.json`.
+
+Each line of `data/sources.csv` contains the **name** and **year** of a
+conference separated by a comma, and with no additional whitespace. The **name**
+of is such that the following URL is valid on DBLP:
+
+``` plain
+https://dblp.org/db/conf/<name>/index.html
+```
+
+You can use this to discover conferences by browsing DBLP. If checking the above
+URL succeeds, but retrieval still fails, you can inspect the URLs to which the
+program makes API calls by running `npm run venues` and navigating to the
+returned URLs using a web browser.
+
+### Filtering papers by keywords
+
+Each line of the file `data/stopwords.txt` contains a keywords to exclude from
+the selection process. Any paper whose title contains (case-insensitively) such
+a keyword will not be suggested for reading.
+
+
+### Configuration file
+
+The file `src/config.ts` contains various settings for the runtime behavior of
+the paper selection script. The effects of individual configuration options is
+described in the comments of that file and also in the relevant places in this
+document.
 
 ## Available commands
 
@@ -76,53 +112,17 @@ purposes.
 
 `npm run clean`. Remove unnecessary files.
 
-## Configuration
-
-### Selecting conferences for paper selection
-
-The file `data/sources.csv` contains a list of conferences---one per line---from
-which papers are selected. After modifying `sources.csv` you must execute `npm
-run update` for the changes to take effect. The retrieved papers are stored in
-the file `data/papers.json`.
-
-Each line of `data/sources.csv` contains the **name** and **year** of a
-conference separated by a comma, and with no additional whitespace. The **name**
-of is such that the following URL is valid on DBLP:
-
-``` plain
-https://dblp.org/db/conf/<name>/index.html
-```
-
-You can use this to discover conferences by browsing DBLP. If checking the above
-URL succeeds, but retrieval still fails, you can inspect the URLs to which the
-program makes API calls by running `npm run venues` and navigating to the
-returned URLs using a web browser.
-
-### Filtering papers by keywords
-
-Each line of the file `data/stopwords.txt` contains a keywords to exclude from
-the selection process. Any paper whose title contains (case-insensitively) such
-a keyword will not be suggested for reading.
-
-
-### Configuration file
-
-The file `src/config.ts` contains various settings for the runtime behavior of
-the paper selection script. The effects of individual configuration options is
-described in the comments of that file and also in the relevant places in this
-document.
-
 ## Editing
 
 ### Editing the website
 
 Basic edits to the website can be performed by editing the markdown files
-(`*.md`) in the `site` directory. For more comprehensive edits, follow the
+(`*.md`) in the `docs` directory. For more comprehensive edits, follow the
 instructions at [website development](#website-development).
 
 ### Editing the blog
 
-Blog posts are ordinary markdown files located in the `site/_posts` directory.
+Blog posts are ordinary markdown files located in the `docs/_posts` directory.
 Their file names are formatted as `YYYY-MM-DD-<short title>.md`, where the
 former part is the date of the blog post.  To create a new post, create an
 appropriately named markdown file and insert the following header:
@@ -144,7 +144,7 @@ page to the location of that snippet.
 
 ### Website development
 
-The `site/` directory contains files for the PL Reading Group website.  It is
+The `docs/` directory contains files for the PL Reading Group website.  It is
 build using Jekyll and markdown. Substantial edits to the website should be
 prototyped locally, which requires Ruby and Jekyll. To install dependencies and
 get started with local development, follow these instructions:
@@ -177,9 +177,9 @@ To work on development, you will need:
 Running `npm install` will install all of the above locally in your development
 directory.
 
-[nodejs] https://nodejs.org/en/download/
-[definitelyTyped] https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master
-[typescriptLS] https://github.com/typescript-language-server/typescript-language-server
+[nodejs]: https://nodejs.org/en/download/
+[definitelyTyped]: https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master
+[typescriptLS]: https://github.com/typescript-language-server/typescript-language-server
 
 ## Using the workflows
 
@@ -194,7 +194,7 @@ _settings > secrets and variables > actions (variables)_
 The paper-selection actions run on automated schedule.  To change the schedule,
 refer to the documentation on [workflow schedules](workflow-schedules).
 
-[workflow-schedules] https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule
+[workflow-schedules]: https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule
 
 ### Workflow I: ranked choice voting
 
