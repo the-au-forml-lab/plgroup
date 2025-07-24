@@ -72,40 +72,35 @@ document.
 Running these commands requires [Node.js](nodejs) version 22.6.0 or later with
 npm.
 
-###   `npm run choose`
-
+`npm run choose`
 Select a paper randomly from the dataset. This command also updates the history
 and website.
 
-###   `npm run details -- <DOI>`
-
+`npm run details -- <DOI>`
 Look up the title and citation for paper with
 the given DOI. If the paper is not contained in the local dataset, retrieve
 its details from the internet.
 
-###   `npm run set -- <DOI>`
-
+`npm run set -- <DOI>`
 Manually choose the next paper, bypassing random
 selection and stopwords. If the paper is not contained in the local
 dataset, its details are retrieved from the internet and added to the
 dataset. This command also updates the history and website.
 
-###   `npm run stats`
-
+`npm run stats`
 Count the number of papers from each venue in the data set
 and output the satistics.
 
-###   `npm run update`
-
-Rebuild the dataset of papers according to the list of
-venues `data/sources.csv`. By default the following behaviours occur:
+`npm run update`
+Rebuild the dataset of papers according to the list of venues
+`data/sources.csv`. By default the following behaviours occur:
 +   The local dataset is used as a cache, so that papers which are already
     contained in it are not retrieved again. This reduced the number of API
     calls. To rebuild the dataset from scratch, first delete the dataset by
     running 
     ``` bash
     echo '[]' > data/papers.json
-    npm run
+    npm run update
     ```
     To always rebuild the dataset from scratch enable `DATASET.MAKE.clear`
     in `src/config.ts`.
@@ -114,26 +109,21 @@ venues `data/sources.csv`. By default the following behaviours occur:
     conferene is incremented, papers from the previous year will be deleted. To
     keep old papers enable `DATASET.MAKE.additive` in `src/config.ts`.
     
-### `npm run venues`
-
+`npm run venues`
 Output the list of URLs which are generated from
 `data/sources.csv` and requested from DBLP. This is mainly for debugging
 purposes.
 
-###   `npm install`
-        
+`npm install`
 Install [development dependencies](#source-code-development).
 
-###   `npm run build`
-        
+`npm run build`
 Typecheck the code using typescript.
 
-###   `npm run serve`
-        
+`npm run serve`
 Run Jekyll for local [website development](#website-development)
 
-###   `npm run clean`
-        
+`npm run clean`
 Remove unnecessary files.
 
 
@@ -154,7 +144,7 @@ appropriately named markdown file and insert the following header:
 
 ``` text
 ---
-title: // title for your post
+title: [title for your post]
 layout: post
 excerpt_separator: <!--more-->
 ---
@@ -219,7 +209,7 @@ _settings > secrets and variables > actions (variables)_
 The paper-selection actions run on automated schedule.  To change the schedule,
 refer to the documentation on [workflow schedules][workflow-schedules].
 
-[workflow-schedules]: https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule
+    [workflow-schedules]: https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule
 
 ### Workflow I: ranked choice voting
 
@@ -233,10 +223,10 @@ and "Vote close".  This workflow requires Discord integration to conduct voting.
 *   Set `DISCORD_WEBHOOK_URL` secret to direct to the intended discord channel.
 *   Set `PAPER_VOTE_ON` variable to `1` to enable voting.
 *   Set `OPTIONS` to a numerical list of options, e.g. `[1, 2, 3]` means three
-options.
-*   set `OPTION_COUNT` to a the discord-string-representation of the emoji
-representing the number of options. For example, for three options the emoji
-3️⃣ is typed in discord as `:three:`, so set this variable to `:three:`.
+    options.
+*   Set `OPTION_COUNT` to a the discord-string-representation of the emoji
+    representing the number of options. For example, for three options the emoji
+    3️⃣ is typed in discord as `:three:`, so set this variable to `:three:`.
 
 ### Workflow II: reviewer approval
 
