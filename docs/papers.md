@@ -1,0 +1,1 @@
+1. Blaudeau, Clément, et al. “Avoiding Signature Avoidance in ML Modules with Zippers.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1962–91. Crossref, <https://doi.org/10.1145/3704902>.

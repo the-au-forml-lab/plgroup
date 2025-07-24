@@ -30,7 +30,7 @@ organization.
 | \#  | Date | Description         | Location |
 |:---:|:-----|:--------------------|:---------|
 | 0.  | TBD  | opening meeting     | TBD      |
-| 1.  | TBD  | Paper 01 discussion | TBD      |
+| 1.  | TBD  | Avoiding Signature Avoidance in ML Modules with Zippers. | TBD      |
 | 2.  | TBD  | Paper 02 discussion | TBD      |
 | 3.  | TBD  | Paper 03 discussion | TBD      |
 | 4.  | TBD  | Paper 04 discussion | TBD      |
