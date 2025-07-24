@@ -72,45 +72,37 @@ document.
 Running these commands requires [Node.js](nodejs) version 22.6.0 or later with
 npm.
 
-`npm run choose`. Select a paper randomly from the dataset. This command also
-updates the history and website.
-
-`npm run details -- <DOI>`. Look up the title and citation for paper with the
-given DOI. If the paper is not contained in the local dataset, retrieve its
-details from the internet
-
-`npm run set -- <DOI>`. Manually choose the next paper, bypassing random
-selection and stopwords. If the paper is not contained in the local dataset, its
-details are retrieved from the internet and added to the dataset. This command
-also updates the history and website.
-
-`npm run stats`. Count the number of papers from each venue in the data set and
-output the satistics.
-
-`npm run update`. Rebuild the dataset of papers according to the list of venues
-`data/sources.csv`. By default the following behaviours occur:
-+   The local dataset is used as a cache, so that papers which are already
-    contained in it are not retrieved again. This reduced the number of API
-    calls. To rebuild the dataset from scratch, execute `echo '[]' >
-    data/papers.json`. To always rebuild the dataset from scratch enable
-    `DATASET.MAKE.clear` in `src/config.ts`.
-+   Whenever a line is removed from `data/sources.csv` its corresponding papers
-    are also deleted from the dataset. In particular when the year of a
-    conferene is incremented, papers from the previous year will be deleted. To
-    keep old papers enable `DATASET.MAKE.additive` in `src/config.ts`.
-
-`npm run venues`. Output the list of URLs which are generated from
-`data/sources.csv` and requested from DBLP. This is mainly for debugging
-purposes.
-
-`npm install`. Install [development dependencies](#editing-the-source-code).
-
-`npm run build`. Typecheck the code using typescript.
-
-`npm run serve`. Initialize Jekyll for local
-[website development](#website-development)
-
-`npm run clean`. Remove unnecessary files.
+*   `npm run choose` Select a paper randomly from the dataset. This command
+    also updates the history and website.
+*   `npm run details -- <DOI>`. Look up the title and citation for paper with
+    the given DOI. If the paper is not contained in the local dataset, retrieve
+    its details from the internet
+*   `npm run set -- <DOI>`. Manually choose the next paper, bypassing random
+    selection and stopwords. If the paper is not contained in the local
+    dataset, its details are retrieved from the internet and added to the
+    dataset. This command also updates the history and website.
+*   `npm run stats`. Count the number of papers from each venue in the data set
+    and output the satistics.
+*   `npm run update`. Rebuild the dataset of papers according to the list of
+    venues `data/sources.csv`. By default the following behaviours occur:
+    +   The local dataset is used as a cache, so that papers which are already
+        contained in it are not retrieved again. This reduced the number of API
+        calls. To rebuild the dataset from scratch, execute `echo '[]' >
+        data/papers.json`. To always rebuild the dataset from scratch enable
+        `DATASET.MAKE.clear` in `src/config.ts`.
+    +   Whenever a line is removed from `data/sources.csv` its corresponding
+        papers are also deleted from the dataset. In particular when the year
+        of a conferene is incremented, papers from the previous year will be
+        deleted. To keep old papers enable `DATASET.MAKE.additive` in
+        `src/config.ts`.
+*   `npm run venues`. Output the list of URLs which are generated from
+    `data/sources.csv` and requested from DBLP. This is mainly for debugging
+     purposes.
+*   `npm install`. Install [development dependencies](#source-code-development).
+*   `npm run build`. Typecheck the code using typescript.
+*   `npm run serve`. Initialize Jekyll for local
+    [website development](#website-development)
+*   `npm run clean`. Remove unnecessary files.
 
 ## Editing
 
@@ -157,7 +149,7 @@ get started with local development, follow these instructions:
 
 ### Source code development
 
-To execute the source code, [Node.js](nodejs) version `22.6.0` or greater is
+To execute the source code, [Node.js][nodejs] version `22.6.0` or greater is
 required. This version
 added
 [native typescript execution](https://nodejs.org/en/learn/typescript/run-natively)
@@ -170,16 +162,16 @@ node --experimental-strip-types /path/to/typescript-file.ts
 To work on development, you will need:
 
 -   the [typescript compiler](https://www.typescriptlang.org)
--   [type declarations for nodejs](definitelyTyped)
--   (optional) the [typescript language server](typescriptLS). you can execute
+-   [type declarations for nodejs][definitelyTyped]
+-   (optional) the [typescript language server][typescriptLS]. you can execute
     it with the command `npx tsc`
 
 Running `npm install` will install all of the above locally in your development
 directory.
 
-[nodejs]: https://nodejs.org/en/download/
-[definitelyTyped]: https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master
-[typescriptLS]: https://github.com/typescript-language-server/typescript-language-server
+[nodejs]:https://nodejs.org/en/download/
+[definitelyTyped]:https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master
+[typescriptLS]:https://github.com/typescript-language-server/typescript-language-server
 
 ## Using the workflows
 
@@ -192,9 +184,9 @@ _settings > secrets and variables > actions (variables)_
 ### Workflow scheduling
 
 The paper-selection actions run on automated schedule.  To change the schedule,
-refer to the documentation on [workflow schedules](workflow-schedules).
+refer to the documentation on [workflow schedules][workflow-schedules].
 
-[workflow-schedules]: https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule
+[workflow-schedules]:https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule
 
 ### Workflow I: ranked choice voting
 
@@ -257,7 +249,7 @@ Complete the following steps to activate the automated actions.
     -   secrets: `DISCORD_WEBHOOK_URL` and `AUTOMERGE_PAT`
     -   variables: `PAPER_CHOOSE_ON` and `PAPER_VOTE_ON` and `REVIEWERS` and
         `OPTIONS` and `OPTION_COUNT`
-+   **[Configure a paper selection workflow](#paper-selection-workflow-configuration)**
-    to enable automated paper suggestions.
++   **Configure a paper selection workflow** as described above to enable
+    automated paper suggestions.
 
     
