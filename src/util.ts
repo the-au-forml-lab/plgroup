@@ -1,5 +1,6 @@
-import fs from 'fs'
-import {LOG_LEVEL, REQUEST} from './config.ts'; 
+import fs from 'fs';
+import util from 'util';
+import {LOG} from './config.ts'; 
 
 export const LogLv = {
     quiet: 0,
@@ -9,35 +10,37 @@ export const LogLv = {
     debug: 4,
 }
 
-export function log(lv: number, ...s: any) {
-    if(lv > LOG_LEVEL){
+// This implementation of `LogLv` and `log` is a bit ugly, but
+// necessary so that the file compiles with the erasableSyntaxOnly
+// flag. Otherwise I would have used an enum. In future versions of
+// node, it may be possible to change this back to an enum. See the
+// nodejs documentation on the "--experimental-transform-types"
+// command line option.
+
+export function log(lv: number, ...args: any): void {
+    if(lv > LOG.LEVEL) {
         return;
     }
-    console.log(...s);
+    console.log(...args);
+    const s = util.format(...args);
+    if(LOG.WRITE_FILE){
+        FileSystem.append(LOG.FILE, s);
+    }
+    return;
 }
-/**
- * This implementation of `LogLv` and `log` is a bit ugly, but
- * necessary so that the file compiles with the erasableSyntaxOnly
- * flag. Otherwise I would have used an enum. In future versions of
- * node, it may be possible to change this back to an enum. See the
- * nodejs documentation on the "--experimental-transform-types"
- * command line option.
- */
 
 export function sleep(ms: number): Promise<void> {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-export function spaceFix(s: string): string{
+export function spaceFix(s: string): string {
     return (s || '').replace(/\s+/g, ' ').trim();
 }
 
 export function shuffle<T>(xs: T[]): T[] {
-    /**
-     * Randomize array in-place using Durstenfeld shuffle algorithm.
-     * Also returns a reference to the array, like most array methods.
-     * credit: https://stackoverflow.com/a/12646864
-     */
+    // Randomize array in-place using Durstenfeld shuffle algorithm.
+    // Also returns a reference to the array, like most array methods.
+    // credit: https://stackoverflow.com/a/12646864
     for (let i = xs.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [xs[i], xs[j]] = [xs[j], xs[i]];
@@ -46,67 +49,88 @@ export function shuffle<T>(xs: T[]): T[] {
 }
 
 export class FileSystem {
-    static async readFile(fileName: string): Promise<string> {
-        if (!fs.existsSync(fileName)){
+    // this class assumes that all files end in a newline character and complies
+    // with this assumption when writing files.
+    static readFile(fileName: string): string {
+        if (!fs.existsSync(fileName)) {
             throw new Error(`File ${fileName} does not exits.`);
         }
-        return (await fs.promises.readFile(fileName)).toString();
+        return fs.readFileSync(fileName).toString();
     }
 
-    static async readLines(fileName: string): Promise<string[]> {
-        return (await FileSystem.readFile(fileName))
+    static readLines(fileName: string): string[] {
+        return FileSystem.readFile(fileName)
             .split('\n')
-            .filter(w => w);
+            .filter(w => w); // ignore empty lines.
     }
 
-    static writeFile(fileName: string, content: string): Promise<void> {
-        return fs.promises.writeFile(
-            fileName, content, {encoding: 'utf8', flag: 'w'}
+    static writeFile(fileName: string, content: string): void {
+        if(!content.endsWith('\n')){
+            content = content + '\n';
+        }
+        fs.writeFileSync(fileName, content, {encoding: 'utf8', flag: 'w'});
+    }
+
+    static append(fileName: string, content: string): void {
+        if(!content.endsWith('\n')){
+            content = content + '\n';
+        }
+        fs.appendFileSync(fileName, content);
+    }
+
+    static writeLines(fileName: string, lines: string[]): void {
+        const content = lines.join('\n');
+        FileSystem.writeFile(fileName, content);
+    }
+
+    static loadJSON(fileName: string) {
+        try {
+            return JSON.parse(FileSystem.readFile(fileName));
+        } catch (e) {
+            log(LogLv.error, `Failed to parse JSON from file ${fileName}`);
+            throw e;
+        }
+    }
+
+    static writeJSON(fileName: string, obj: any, humanReadable:boolean=false): void {
+        const indent = humanReadable ? 2 : undefined;
+        return FileSystem.writeFile(
+            fileName,
+            JSON.stringify(obj, undefined, indent)
         );
     }
-
-    static append(fileName: string, content: string): Promise<void> {
-        return fs.promises.appendFile(fileName, `\n${content}`);
-    }
-
-    static async loadJSON(fileName: string){
-        try {
-            return JSON.parse(await FileSystem.readFile(fileName));
-        } catch (err) {
-            throw new Error(`Failed to parse JSON from file ${fileName}:\n${err}`);
-        }
-    }
-
-    static writeJSON(fileName: string, obj: any): Promise<void>{
-        const fileContents = JSON.stringify(obj);
-        return FileSystem.writeFile(fileName, fileContents);
-    }
 }
 
-export async function promiseAllSequential<T,U>(
-    asyncFun: (_: T) => Promise<U>,
-    inputs: T[],
-    delay = REQUEST.API_CALL_DELAY,
-): Promise<U[]> {
-    const out: U[] = [];
-    for (const input of inputs){
-        out.push(await asyncFun(input));
-        await sleep(delay);
-    }
-    return out;
+export function all(xs: boolean[]): boolean {
+    return xs.reduce((acc, x) => acc && x, true);
 }
 
-export async function promiseAnySequential<T,U>(
-    asyncFun: (_: T) => Promise<U>,
-    inputs: T[],
-) : Promise<U> {
-    const errors: any[] = [];
-    for(const t of inputs){
-        try {
-            return await asyncFun(t);
-        } catch (err) {
-            errors.push(err);
+type PromiseAllSplit<T> = Promise<{fulfilled : T[], rejected: any[]}>;
+export async function promiseAllSettledSplit<T>(
+    promises: Array<Promise<T>>
+): PromiseAllSplit<T> {
+    const settled = await Promise.allSettled(promises);
+    const fulfilled: T[] = [];
+    const rejected: any[] = [];
+    for(const s of settled){
+        if(s.status === 'fulfilled'){
+            fulfilled.push(s.value);
+        } else {
+            rejected.push(s.reason);
         }
     }
-    throw new AggregateError(errors);
+    return {fulfilled, rejected};
+}
+
+export function localTimeString(){
+    const date = new Date();
+    const [year, month, day, hour, minutes, seconds] =
+        [ date.getFullYear(),
+          date.getMonth(),
+          date.getDate(),
+          date.getHours(),
+          date.getMinutes(),
+          date.getSeconds(),
+        ];
+    return `${year}-${month}-${day}T${hour}.${minutes}.${seconds}`;
 }
