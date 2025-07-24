@@ -31,17 +31,36 @@ organization.
 | **`src`**               | source code for paper selection                               |
 | **`.github/workflows`** | automated paper selection workflows                           |
 
-## Configuration
+### Commands overview
 
-### Setting conferences for paper selection
+| Command                    | Effect                                                      |
+|:---------------------------|-------------------------------------------------------------|
+| `npm run choose`           | select a paper randomly from the dataset                    |
+| `npm run details -- <DOI>` | look up title and citation of the paper with given DOI      |
+| `npm run set -- <DOI>`     | manually set the next paper, bypassing selection algorithms |
+| `npm run stats`            | print statistics about the dataset                          |
+| `npm run update`           | [update the dataset](#updating-the-dataset)                 |
+| `npm run venues`           | Print URLs requested from DBLP                              |
 
-The file `data/sources.csv` contains a list of conferences---one per line---from
-which papers are selected. After modifying `sources.csv` you must run `npm run
-update` for the changes to take effect. The retrieved papers are stored in the
-file `data/papers.json`.
+### Development commands overview
 
-Each line of `data/sources.csv` contains the **name** and **year** of a
-conference separated by a comma, and with no additional whitespace. The **name**
+| Command         | Effect                                                       |
+|:----------------|--------------------------------------------------------------|
+| `npm install`   | Install [development dependencies](#editing-the-source-code) |
+| `npm run build` | Typecheck the source code                                    |
+| `npm run serve` | Run Jekyll for [Website development(#website-development)    |
+
+
+## Everyday use
+
+### Setting sources for paper selection
+
+The file `data/sources.csv` contains a list of conferences, one per line, from
+which papers are selected. After modifying this file, you must
+[update the dataset](#updating-the-dataset) for the changes to take effect.
+
+Each line of `data/sources.csv` contains the `name` and `year` of a
+conference separated by a comma, and with no additional whitespace. The `name`
 is such that the following URL is valid on DBLP.
 
 ``` plain
@@ -53,12 +72,58 @@ URL succeeds, but retrieval still fails, you can inspect the URLs to which the
 program makes API calls by running `npm run venues` and navigating to the
 returned URLs using a web browser.
 
+**Note.** Only conferences are supported at the moment. However, adding support
+for journals should not be too difficult.
+
+
 ### Filtering papers by keywords
 
 Each line of the file `data/stopwords.txt` contains a keywords to exclude from
 the selection process. Any paper whose title contains (case-insensitively) such
 a keyword will not be suggested for reading.
 
+### Updating the dataset
+
+To refresh the dataset run `npm run update`. The following configuration options
+are available in the [configuration file](#configuration-file):
+
++   `DATASET.MAKE.clear`: When this is false the existing dataset is used as a
+    cache, so that papers which are already contained in it are not retrieved
+    again. This reduces the number of API calls.  When this setting is true, the
+    dataset is rebuilt from scratch every time.
+
+    If you wish to rebuild the dataset from scratch just once, you can delete
+    the dataset by first running
+    ``` bash
+    echo '[]' > data/papers.json
+    ```
+
++   `DATASET.MAKE.additive`: When this is true, papers which are already present
+    in the dataset are kept, even when the venue these papers belong to is no
+    longer listed in `sources.csv`. When this is false, such papers are removed
+    from the dataset during the update.  In particular when the year of a
+    conferene is incremented, papers from the previous year will be deleted,
+    unless that venue is listed twice with different years.
+
+### Getting a next paper suggestion
+
+The paper selection actions run on a schedule, but can also be triggered
+manually by running the [configured workflow](#using-the-workflows) in
+[actions](https://github.com/the-au-forml-lab/plgroup/actions). This will
+generate PRs with paper suggestions.  Only those with the appropriate repository
+permissions may run these workflows manually.
+
+Both workflows invoke `npm run choose` in the background.
+
+### Manually setting the next paper
+
+Manually run the
+[set paper](https://github.com/the-au-forml-lab/plgroup/actions/workflows/set.yaml)
+workflow with the desired paper's DOI as input. If the DOI does not correspond
+to any paper in the data set, information about the paper will be retrieved
+from the internet.
+
+The corresponding command is `npm run set -- <DOI>`.
 
 ### Configuration file
 
@@ -67,67 +132,33 @@ the paper selection script. The effects of individual configuration options is
 described in the comments of that file and also in the relevant places in this
 document.
 
-## Available commands
-
-Running these commands requires [Node.js](nodejs) version 22.6.0 or later with
-npm.
-
-`npm run choose`
-Select a paper randomly from the dataset. This command also updates the history
-and website.
-
-`npm run details -- <DOI>`
-Look up the title and citation for paper with
-the given DOI. If the paper is not contained in the local dataset, retrieve
-its details from the internet.
-
-`npm run set -- <DOI>`
-Manually choose the next paper, bypassing random
-selection and stopwords. If the paper is not contained in the local
-dataset, its details are retrieved from the internet and added to the
-dataset. This command also updates the history and website.
-
-`npm run stats`
-Count the number of papers from each venue in the data set
-and output the satistics.
-
-`npm run update`
-Rebuild the dataset of papers according to the list of venues
-`data/sources.csv`. By default the following behaviours occur:
-+   The local dataset is used as a cache, so that papers which are already
-    contained in it are not retrieved again. This reduced the number of API
-    calls. To rebuild the dataset from scratch, first delete the dataset by
-    running 
-    ``` bash
-    echo '[]' > data/papers.json
-    npm run update
-    ```
-    To always rebuild the dataset from scratch enable `DATASET.MAKE.clear`
-    in `src/config.ts`.
-+   Whenever a line is removed from `data/sources.csv` its corresponding papers
-    are also deleted from the dataset. In particular when the year of a
-    conferene is incremented, papers from the previous year will be deleted. To
-    keep old papers enable `DATASET.MAKE.additive` in `src/config.ts`.
-    
-`npm run venues`
-Output the list of URLs which are generated from
-`data/sources.csv` and requested from DBLP. This is mainly for debugging
-purposes.
-
-`npm install`
-Install [development dependencies](#source-code-development).
-
-`npm run build`
-Typecheck the code using typescript.
-
-`npm run serve`
-Run Jekyll for local [website development](#website-development)
-
-`npm run clean`
-Remove unnecessary files.
-
-
 ## Editing
+
+### Editing the source code
+
+To execute the source code, [Node.js][nodejs] version `22.6.0` or greater is
+required. This version
+added
+[native typescript execution](https://nodejs.org/en/learn/typescript/run-natively)
+and typescript files can be executed by running
+
+``` bash
+node --experimental-strip-types /path/to/typescript-file.ts
+```
+
+To work on development, you will need:
+
+-   the [typescript compiler](https://www.typescriptlang.org)
+-   [type declarations for nodejs][definitelyTyped]
+-   (optional) the [typescript language server][typescriptLS]. you can execute
+it with the command `npx tsc`
+
+Running `npm install` will install all of the above locally in your development
+directory.
+
+[nodejs]: https://nodejs.org/en/download/
+[definitelyTyped]: https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master
+[typescriptLS]: https://github.com/typescript-language-server/typescript-language-server
 
 ### Editing the website
 
@@ -167,34 +198,8 @@ get started with local development, follow these instructions:
 1.   [Install Jekyll](https://jekyllrb.com/docs/installation)
 1.   Change into the `docs/` directory.
 1.   Install dependencies: execute `bundle install`
-1.   [ ] Run the website locally: `bundle exec jekyll serve` _or_ `cd .. && npm run serve`
+1.   Run the website locally: `bundle exec jekyll serve` _or_ `cd .. && npm run serve`
 1.   You can now access the website on `localhost:4000/plgroup`.
-
-### Source code development
-
-To execute the source code, [Node.js][nodejs] version `22.6.0` or greater is
-required. This version
-added
-[native typescript execution](https://nodejs.org/en/learn/typescript/run-natively)
-and typescript files can be executed by running
-
-``` bash
-node --experimental-strip-types /path/to/typescript-file.ts
-```
-
-To work on development, you will need:
-
--   the [typescript compiler](https://www.typescriptlang.org)
--   [type declarations for nodejs][definitelyTyped]
--   (optional) the [typescript language server][typescriptLS]. you can execute
-it with the command `npx tsc`
-
-Running `npm install` will install all of the above locally in your development
-directory.
-
-[nodejs]: https://nodejs.org/en/download/
-[definitelyTyped]: https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master
-[typescriptLS]: https://github.com/typescript-language-server/typescript-language-server
 
 ## Using the workflows
 
