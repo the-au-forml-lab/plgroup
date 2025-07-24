@@ -87,9 +87,9 @@ npm.
     venues `data/sources.csv`. By default the following behaviours occur:
     +   The local dataset is used as a cache, so that papers which are already
         contained in it are not retrieved again. This reduced the number of API
-        calls. To rebuild the dataset from scratch, execute `echo '[]' >
-        data/papers.json`. To always rebuild the dataset from scratch enable
-        `DATASET.MAKE.clear` in `src/config.ts`.
+        calls. To rebuild the dataset from scratch, execute
+        `echo '[]' > data/papers.json`. To always rebuild the dataset from 
+        scratch enable `DATASET.MAKE.clear` in `src/config.ts`.
     +   Whenever a line is removed from `data/sources.csv` its corresponding
         papers are also deleted from the dataset. In particular when the year
         of a conferene is incremented, papers from the previous year will be
