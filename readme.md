@@ -130,7 +130,7 @@ Typecheck the code using typescript.
 
 ###   `npm run serve`
         
-Initialize Jekyll for local [website development](#website-development)
+Run Jekyll for local [website development](#website-development)
 
 ###   `npm run clean`
         
@@ -177,7 +177,7 @@ get started with local development, follow these instructions:
 1.   [Install Jekyll](https://jekyllrb.com/docs/installation)
 1.   Change into the `docs/` directory.
 1.   Install dependencies: execute `bundle install`
-1.   Run the website locally: `bundle exec jekyll serve`
+1.   [ ] Run the website locally: `bundle exec jekyll serve` _or_ `cd .. && npm run serve`
 1.   You can now access the website on `localhost:4000/plgroup`.
 
 ### Source code development
@@ -202,9 +202,9 @@ it with the command `npx tsc`
 Running `npm install` will install all of the above locally in your development
 directory.
 
-[nodejs]:https://nodejs.org/en/download/
-[definitelyTyped]:https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master
-[typescriptLS]:https://github.com/typescript-language-server/typescript-language-server
+[nodejs]: https://nodejs.org/en/download/
+[definitelyTyped]: https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master
+[typescriptLS]: https://github.com/typescript-language-server/typescript-language-server
 
 ## Using the workflows
 
@@ -219,7 +219,7 @@ _settings > secrets and variables > actions (variables)_
 The paper-selection actions run on automated schedule.  To change the schedule,
 refer to the documentation on [workflow schedules][workflow-schedules].
 
-[workflow-schedules]:https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule
+[workflow-schedules]: https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule
 
 ### Workflow I: ranked choice voting
 
