@@ -72,18 +72,18 @@ document.
 Running these commands requires [Node.js](nodejs) version 22.6.0 or later with
 npm.
 
-*   **`npm run choose`** -- Select a paper randomly from the dataset. This command
+*   **`npm run choose`** – Select a paper randomly from the dataset. This command
     also updates the history and website.
-*   **`npm run details -- <DOI>`** -- Look up the title and citation for paper with
+*   **`npm run details -- <DOI>`** – Look up the title and citation for paper with
     the given DOI. If the paper is not contained in the local dataset, retrieve
     its details from the internet.
-*   **`npm run set -- <DOI>`** -- Manually choose the next paper, bypassing random
+*   **`npm run set -- <DOI>`** – Manually choose the next paper, bypassing random
     selection and stopwords. If the paper is not contained in the local
     dataset, its details are retrieved from the internet and added to the
     dataset. This command also updates the history and website.
-*   **`npm run stats`** -- Count the number of papers from each venue in the data set
+*   **`npm run stats`** – Count the number of papers from each venue in the data set
     and output the satistics.
-*   **`npm run update`** -- Rebuild the dataset of papers according to the list of
+*   **`npm run update`** – Rebuild the dataset of papers according to the list of
     venues `data/sources.csv`. By default the following behaviours occur:
     +   The local dataset is used as a cache, so that papers which are already
         contained in it are not retrieved again. This reduced the number of API
@@ -102,14 +102,14 @@ npm.
         of a conferene is incremented, papers from the previous year will be
         deleted. To keep old papers enable `DATASET.MAKE.additive` in
         `src/config.ts`.
-*   **`npm run venues`** -- Output the list of URLs which are generated from
-    `data/sources.csv` and requested from DBLP. This is mainly for debugging
+*   **`npm run venues`** – Output the list of URLs which are generated from
+        `data/sources.csv` and requested from DBLP. This is mainly for debugging
      purposes.
-*   **`npm install`** -- Install [development dependencies](#source-code-development).
-*   **`npm run build`** -- Typecheck the code using typescript.
-*   **`npm run serve`** -- Initialize Jekyll for local
+*   **`npm install`** – Install [development dependencies](#source-code-development).
+*   **`npm run build`** – Typecheck the code using typescript.
+*   **`npm run serve`** – Initialize Jekyll for local
     [website development](#website-development)
-*   **`npm run clean`** -- Remove unnecessary files.
+*   **`npm run clean`** – Remove unnecessary files.
 
 ## Editing
 
