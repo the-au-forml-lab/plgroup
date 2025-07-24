@@ -1,0 +1,1 @@
+1. Lutze, Matthew, and Magnus Madsen. “Associated Effects: Flexible Abstractions for Effectful Programming.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 394–416. Crossref, <https://doi.org/10.1145/3656393>.
