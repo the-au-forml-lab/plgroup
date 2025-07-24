@@ -96,7 +96,7 @@ are available in the [configuration file](#configuration-file):
     dataset is rebuilt from scratch every time.
 
     If you wish to rebuild the dataset from scratch just once, you can delete
-    the dataset by first running
+    it by running
     ``` bash
     echo '[]' > data/papers.json
     ```
@@ -106,7 +106,7 @@ are available in the [configuration file](#configuration-file):
     longer listed in `sources.csv`. When this is false, such papers are removed
     from the dataset during the update.  In particular when the year of a
     conferene is incremented, papers from the previous year will be deleted,
-    unless that venue is listed twice with different years.
+    unless that conference is listed twice with different years.
 
 ### Getting a next paper suggestion
 
