@@ -53,7 +53,7 @@ jobs:
             [{ "color": "${{ steps.vars.outputs.color }}",
                "title": "Option ${{ matrix.options }}: ${{ fromJSON(steps.vars.outputs.title )}}",
                "url": "${{ fromJSON(steps.vars.outputs.doi) }}",
-               "description" : " ${{ fromJSON(steps.vars.outputs.cite) }}\n\n[Merge PR ${{ steps.pr.outputs.pull-request-number }}](${{ steps.pr.outputs.pull-request-url }})"
+               "description" : " ${{ fromJSON(steps.vars.outputs.citation) }}\n\n[Merge PR ${{ steps.pr.outputs.pull-request-number }}](${{ steps.pr.outputs.pull-request-url }})"
             }]
 
   post_actions:
