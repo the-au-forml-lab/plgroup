@@ -1,0 +1,1 @@
+1. Lee, Edward, et al. “Qualifying System F&lt;:: Some Terms and Conditions May Apply.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 583–612. Crossref, <https://doi.org/10.1145/3649832>.
