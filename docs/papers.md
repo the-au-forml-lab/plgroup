@@ -1,0 +1,1 @@
+1. van Bergerem, Steffen, et al. The Parameterized Complexity of Learning Monadic Second-Order Logic. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, <https://doi.org/10.4230/LIPICS.CSL.2025.8>.
