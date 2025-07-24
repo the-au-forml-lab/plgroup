@@ -33,14 +33,17 @@ organization.
 
 ### Commands overview
 
-| Command                    | Effect                                                      |
-|:---------------------------|-------------------------------------------------------------|
-| `npm run choose`           | select a paper randomly from the dataset                    |
-| `npm run details -- <DOI>` | look up title and citation of the paper with given DOI      |
-| `npm run set -- <DOI>`     | manually set the next paper, bypassing selection algorithms |
-| `npm run stats`            | print statistics about the dataset                          |
-| `npm run update`           | [update the dataset](#updating-the-dataset)                 |
-| `npm run venues`           | Print URLs requested from DBLP                              |
+| Command                    | Effect                                                 |
+|:---------------------------|--------------------------------------------------------|
+| `npm run choose`           | [select a paper randomly][choose] from the dataset               |
+| `npm run details -- <DOI>` | look up title and citation of the paper with given DOI |
+| `npm run set -- <DOI>`     | [manually set the next paper][manual]                  |
+| `npm run stats`            | print statistics about the dataset                     |
+| `npm run update`           | [update the dataset](#updating-the-dataset)            |
+| `npm run venues`           | Print URLs requested from DBLP                         |
+
+[manual]: #manually-setting-the-next-paper
+[choose]: #getting-a-next-paper-suggestion
 
 ### Development commands overview
 
