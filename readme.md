@@ -72,44 +72,69 @@ document.
 Running these commands requires [Node.js](nodejs) version 22.6.0 or later with
 npm.
 
-*   **`npm run choose`** — Select a paper randomly from the dataset. This command
-    also updates the history and website.
-*   **`npm run details -- <DOI>`** — Look up the title and citation for paper with
-    the given DOI. If the paper is not contained in the local dataset, retrieve
-    its details from the internet.
-*   **`npm run set -- <DOI>`** — Manually choose the next paper, bypassing random
-    selection and stopwords. If the paper is not contained in the local
-    dataset, its details are retrieved from the internet and added to the
-    dataset. This command also updates the history and website.
-*   **`npm run stats`** — Count the number of papers from each venue in the data set
-    and output the satistics.
-*   **`npm run update`** — Rebuild the dataset of papers according to the list of
-    venues `data/sources.csv`. By default the following behaviours occur:
-    +   The local dataset is used as a cache, so that papers which are already
-        contained in it are not retrieved again. This reduced the number of API
-        calls. To rebuild the dataset from scratch, first delete the dataset by
-        running 
+###   `npm run choose`
 
-        ``` bash
-        echo '[]' > data/papers.json
-        npm run
-        ```
+Select a paper randomly from the dataset. This command also updates the history
+and website.
 
-        To always rebuild the dataset from scratch enable `DATASET.MAKE.clear`
-        in `src/config.ts`.
-    +   Whenever a line is removed from `data/sources.csv` its corresponding
-        papers are also deleted from the dataset. In particular when the year
-        of a conferene is incremented, papers from the previous year will be
-        deleted. To keep old papers enable `DATASET.MAKE.additive` in
-        `src/config.ts`.
-*   **`npm run venues`** — Output the list of URLs which are generated from
-        `data/sources.csv` and requested from DBLP. This is mainly for debugging
-     purposes.
-*   **`npm install`** — Install [development dependencies](#source-code-development).
-*   **`npm run build`** — Typecheck the code using typescript.
-*   **`npm run serve`** — Initialize Jekyll for local
-    [website development](#website-development)
-*   **`npm run clean`** — Remove unnecessary files.
+###   `npm run details -- <DOI>`
+
+Look up the title and citation for paper with
+the given DOI. If the paper is not contained in the local dataset, retrieve
+its details from the internet.
+
+###   `npm run set -- <DOI>`
+
+Manually choose the next paper, bypassing random
+selection and stopwords. If the paper is not contained in the local
+dataset, its details are retrieved from the internet and added to the
+dataset. This command also updates the history and website.
+
+###   `npm run stats`
+
+Count the number of papers from each venue in the data set
+and output the satistics.
+
+###   `npm run update`
+
+Rebuild the dataset of papers according to the list of
+venues `data/sources.csv`. By default the following behaviours occur:
++   The local dataset is used as a cache, so that papers which are already
+    contained in it are not retrieved again. This reduced the number of API
+    calls. To rebuild the dataset from scratch, first delete the dataset by
+    running 
+    ``` bash
+    echo '[]' > data/papers.json
+    npm run
+    ```
+    To always rebuild the dataset from scratch enable `DATASET.MAKE.clear`
+    in `src/config.ts`.
++   Whenever a line is removed from `data/sources.csv` its corresponding papers
+    are also deleted from the dataset. In particular when the year of a
+    conferene is incremented, papers from the previous year will be deleted. To
+    keep old papers enable `DATASET.MAKE.additive` in `src/config.ts`.
+    
+### `npm run venues`
+
+Output the list of URLs which are generated from
+`data/sources.csv` and requested from DBLP. This is mainly for debugging
+purposes.
+
+###   `npm install`
+        
+Install [development dependencies](#source-code-development).
+
+###   `npm run build`
+        
+Typecheck the code using typescript.
+
+###   `npm run serve`
+        
+Initialize Jekyll for local [website development](#website-development)
+
+###   `npm run clean`
+        
+Remove unnecessary files.
 
 
 ## Editing
@@ -172,7 +197,7 @@ To work on development, you will need:
 -   the [typescript compiler](https://www.typescriptlang.org)
 -   [type declarations for nodejs][definitelyTyped]
 -   (optional) the [typescript language server][typescriptLS]. you can execute
-    it with the command `npx tsc`
+it with the command `npx tsc`
 
 Running `npm install` will install all of the above locally in your development
 directory.
@@ -208,10 +233,10 @@ and "Vote close".  This workflow requires Discord integration to conduct voting.
 *   Set `DISCORD_WEBHOOK_URL` secret to direct to the intended discord channel.
 *   Set `PAPER_VOTE_ON` variable to `1` to enable voting.
 *   Set `OPTIONS` to a numerical list of options, e.g. `[1, 2, 3]` means three
-    options.
+options.
 *   set `OPTION_COUNT` to a the discord-string-representation of the emoji
-    representing the number of options. For example, for three options the emoji
-    3️⃣ is typed in discord as `:three:`, so set this variable to `:three:`.
+representing the number of options. For example, for three options the emoji
+3️⃣ is typed in discord as `:three:`, so set this variable to `:three:`.
 
 ### Workflow II: reviewer approval
 
@@ -223,39 +248,39 @@ repeats until a satisfactory suggestion has been found.  The relevant GitHub
 actions is "Random paper".
 
 +   Create a branch protection rule for `main` branch, to enforce reviewer
-    approval of a paper suggestion, in _settings > branches_.
-    * Check "Require a pull request before merging".
-    * Set "Require approvals" count to the minimum number of reviewer required
-      to approve paper suggestion.
+approval of a paper suggestion, in _settings > branches_.
+* Check "Require a pull request before merging".
+* Set "Require approvals" count to the minimum number of reviewer required
+to approve paper suggestion.
 +   Set `REVIEWERS` variable to a newline-separated string of GitHub usernames.
-    -   For example:
+-   For example:
         ```
         "user1
         user2
         user3"
         ```
-    -   The users must have sufficient permissions to perform PR reviews.
-+   Set `PAPER_CHOOSE_ON` variable to <code>1</code> to enable automatic
-    suggestions.
-+   Set `AUTOMERGE_PAT` secret to a personal access token of a user with
-    repository write access, to enable auto-merging approved PRs.
-    -   Permission scopes for classic token: repo
-    -   Permission scopes for fine-grained token: pull requests write and contents
+        -   The users must have sufficient permissions to perform PR reviews.
+        +   Set `PAPER_CHOOSE_ON` variable to <code>1</code> to enable automatic
+        suggestions.
+        +   Set `AUTOMERGE_PAT` secret to a personal access token of a user with
+        repository write access, to enable auto-merging approved PRs.
+        -   Permission scopes for classic token: repo
+        -   Permission scopes for fine-grained token: pull requests write and contents
         write.
-+   (Optional) Set `DISCORD_WEBHOOK_URL` secret to a Discord channel URL to
-    enable notifications.
+        +   (Optional) Set `DISCORD_WEBHOOK_URL` secret to a Discord channel URL to
+        enable notifications.
 
 ### Initial setup for forked repositories
 
 Complete the following steps to activate the automated actions.
 
 +   **Enable workflow permissions** in _settings > actions > general_:
-      - choose "Read and write permissions"
-      - check "Allow GitHub Actions to create and approve pull requests
+- choose "Read and write permissions"
+- check "Allow GitHub Actions to create and approve pull requests
 +   **Create environment secrets and variables**, with empty default values, in
-    _settings > secrets and variables > actions_:
-    -   secrets: `DISCORD_WEBHOOK_URL` and `AUTOMERGE_PAT`
-    -   variables: `PAPER_CHOOSE_ON` and `PAPER_VOTE_ON` and `REVIEWERS` and
-        `OPTIONS` and `OPTION_COUNT`
+_settings > secrets and variables > actions_:
+-   secrets: `DISCORD_WEBHOOK_URL` and `AUTOMERGE_PAT`
+-   variables: `PAPER_CHOOSE_ON` and `PAPER_VOTE_ON` and `REVIEWERS` and
+`OPTIONS` and `OPTION_COUNT`
 +   **Configure a paper selection workflow** as described above to enable
-    automated paper suggestions.
+automated paper suggestions.
