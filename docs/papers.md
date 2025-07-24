@@ -1,0 +1,1 @@
+1. Guan, Zhichao, et al. “Semantics Lifting for Syntactic Sugar.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1336–61. Crossref, <https://doi.org/10.1145/3689758>.
