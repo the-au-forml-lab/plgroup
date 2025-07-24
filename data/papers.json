@@ -1,0 +1,2948 @@
+[
+  {
+    "doi": "10.1145/3704868",
+    "title": "Verifying Quantum Circuits with Level-Synchronized Tree Automata.",
+    "venue": "popl 2025",
+    "citation": "Abdulla, Parosh Aziz, et al. “Verifying Quantum Circuits with Level-Synchronized Tree Automata.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 923–53. Crossref, https://doi.org/10.1145/3704868."
+  },
+  {
+    "doi": "10.1145/3704891",
+    "title": "Interaction Equivalence.",
+    "venue": "popl 2025",
+    "citation": "Accattoli, Beniamino, et al. “Interaction Equivalence.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1627–56. Crossref, https://doi.org/10.1145/3704891."
+  },
+  {
+    "doi": "10.1145/3704909",
+    "title": "Grove: A Bidirectionally Typed Collaborative Structure Editor Calculus.",
+    "venue": "popl 2025",
+    "citation": "Adams, Michael D., et al. “Grove: A Bidirectionally Typed Collaborative Structure Editor Calculus.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 2176–204. Crossref, https://doi.org/10.1145/3704909."
+  },
+  {
+    "doi": "10.1145/3704915",
+    "title": "Tail Modulo Cons, OCaml, and Relational Separation Logic.",
+    "venue": "popl 2025",
+    "citation": "Allain, Clément, et al. “Tail Modulo Cons, OCaml, and Relational Separation Logic.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 2337–63. Crossref, https://doi.org/10.1145/3704915."
+  },
+  {
+    "doi": "10.1145/3704873",
+    "title": "Linear and Non-linear Relational Analyses for Quantum Program Optimization.",
+    "venue": "popl 2025",
+    "citation": "Amy, Matthew, and Joseph Lunderville. “Linear and Non-Linear Relational Analyses for Quantum Program Optimization.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1072–103. Crossref, https://doi.org/10.1145/3704873."
+  },
+  {
+    "doi": "10.1145/3704865",
+    "title": "TensorRight: Automated Verification of Tensor Graph Rewrites.",
+    "venue": "popl 2025",
+    "citation": "Arora, Jai, et al. “TensorRight: Automated Verification of Tensor Graph Rewrites.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 832–63. Crossref, https://doi.org/10.1145/3704865."
+  },
+  {
+    "doi": "10.1145/3704876",
+    "title": "A Quantitative Probabilistic Relational Hoare Logic.",
+    "venue": "popl 2025",
+    "citation": "Avanzini, Martin, et al. “A Quantitative Probabilistic Relational Hoare Logic.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1167–95. Crossref, https://doi.org/10.1145/3704876."
+  },
+  {
+    "doi": "10.1145/3704879",
+    "title": "Fulminate: Testing CN Separation-Logic Specifications in C.",
+    "venue": "popl 2025",
+    "citation": "Banerjee, Rini, et al. “Fulminate: Testing CN Separation-Logic Specifications in C.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1260–92. Crossref, https://doi.org/10.1145/3704879."
+  },
+  {
+    "doi": "10.1145/3704894",
+    "title": "Bluebell: An Alliance of Relational Lifting and Independence for Probabilistic Reasoning.",
+    "venue": "popl 2025",
+    "citation": "Bao, Jialu, et al. “Bluebell: An Alliance of Relational Lifting and Independence for Probabilistic Reasoning.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1719–49. Crossref, https://doi.org/10.1145/3704894."
+  },
+  {
+    "doi": "10.1145/3704902",
+    "title": "Avoiding Signature Avoidance in ML Modules with Zippers.",
+    "venue": "popl 2025",
+    "citation": "Blaudeau, Clément, et al. “Avoiding Signature Avoidance in ML Modules with Zippers.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1962–91. Crossref, https://doi.org/10.1145/3704902."
+  },
+  {
+    "doi": "10.1145/3704893",
+    "title": "Barendregt Convenes with Knaster and Tarski: Strong Rule Induction for Syntax with Bindings.",
+    "venue": "popl 2025",
+    "citation": "van Brügge, Jan, et al. “Barendregt Convenes with Knaster and Tarski: Strong Rule Induction for Syntax with Bindings.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1687–718. Crossref, https://doi.org/10.1145/3704893."
+  },
+  {
+    "doi": "10.1145/3704905",
+    "title": "Automated Program Refinement: Guide and Verify Code Large Language Model with Refinement Calculus.",
+    "venue": "popl 2025",
+    "citation": "Cai, Yufan, et al. “Automated Program Refinement: Guide and Verify Code Large Language Model with Refinement Calculus.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 2057–89. Crossref, https://doi.org/10.1145/3704905."
+  },
+  {
+    "doi": "10.1145/3704861",
+    "title": "Algebras for Deterministic Computation Are Inherently Incomplete.",
+    "venue": "popl 2025",
+    "citation": "ten Cate, Balder, and Tobias Kappé. “Algebras for Deterministic Computation Are Inherently Incomplete.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 718–44. Crossref, https://doi.org/10.1145/3704861."
+  },
+  {
+    "doi": "10.1145/3704844",
+    "title": "BiSikkel: A Multimode Logical Framework in Agda.",
+    "venue": "popl 2025",
+    "citation": "Ceulemans, Joris, et al. “BiSikkel: A Multimode Logical Framework in Agda.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 210–40. Crossref, https://doi.org/10.1145/3704844."
+  },
+  {
+    "doi": "10.1145/3704846",
+    "title": "Inference Plans for Hybrid Particle Filtering.",
+    "venue": "popl 2025",
+    "citation": "Cheng, Ellie Y., et al. “Inference Plans for Hybrid Particle Filtering.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 271–99. Crossref, https://doi.org/10.1145/3704846."
+  },
+  {
+    "doi": "10.1145/3704848",
+    "title": "The Duality of λ-Abstraction.",
+    "venue": "popl 2025",
+    "citation": "Choudhury, Vikraman, and Simon J. Gay. “The Duality of λ-Abstraction.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 332–61. Crossref, https://doi.org/10.1145/3704848."
+  },
+  {
+    "doi": "10.1145/3704883",
+    "title": "Flexible Type-Based Resource Estimation in Quantum Circuit Description Languages.",
+    "venue": "popl 2025",
+    "citation": "Colledan, Andrea, and Ugo Dal Lago. “Flexible Type-Based Resource Estimation in Quantum Circuit Description Languages.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1386–416. Crossref, https://doi.org/10.1145/3704883."
+  },
+  {
+    "doi": "10.1145/3704854",
+    "title": "Program Analysis via Multiple Context Free Language Reachability.",
+    "venue": "popl 2025",
+    "citation": "Conrado, Giovanna Kobus, et al. “Program Analysis via Multiple Context Free Language Reachability.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 509–38. Crossref, https://doi.org/10.1145/3704854."
+  },
+  {
+    "doi": "10.1145/3704889",
+    "title": "Coinductive Proofs for Temporal Hyperliveness.",
+    "venue": "popl 2025",
+    "citation": "Correnson, Arthur, and Bernd Finkbeiner. “Coinductive Proofs for Temporal Hyperliveness.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1568–95. Crossref, https://doi.org/10.1145/3704889."
+  },
+  {
+    "doi": "10.1145/3704852",
+    "title": "Calculational Design of Hyperlogics by Abstract Interpretation.",
+    "venue": "popl 2025",
+    "citation": "Cousot, Patrick, and Jeffery Wang. “Calculational Design of Hyperlogics by Abstract Interpretation.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 446–78. Crossref, https://doi.org/10.1145/3704852."
+  },
+  {
+    "doi": "10.1145/3704856",
+    "title": "Formal Foundations for Translational Separation Logic Verifiers.",
+    "venue": "popl 2025",
+    "citation": "Dardinier, Thibault, et al. “Formal Foundations for Translational Separation Logic Verifiers.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 569–99. Crossref, https://doi.org/10.1145/3704856."
+  },
+  {
+    "doi": "10.1145/3704853",
+    "title": "Axe &apos;Em: Eliminating Spurious States with Induction Axioms.",
+    "venue": "popl 2025",
+    "citation": "Elad, Neta, and Sharon Shoham. “Axe ’Em: Eliminating Spurious States with Induction Axioms.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 479–508. Crossref, https://doi.org/10.1145/3704853."
+  },
+  {
+    "doi": "10.1145/3704867",
+    "title": "Do You Even Lift? Strengthening Compiler Security Guarantees against Spectre Attacks.",
+    "venue": "popl 2025",
+    "citation": "Fabian, Xaver, et al. “Do You Even Lift? Strengthening Compiler Security Guarantees against Spectre Attacks.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 893–922. Crossref, https://doi.org/10.1145/3704867."
+  },
+  {
+    "doi": "10.1145/3704859",
+    "title": "Data Race Freedom à la Mode.",
+    "venue": "popl 2025",
+    "citation": "Georges, Aïna Linn, et al. “Data Race Freedom à La Mode.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 656–86. Crossref, https://doi.org/10.1145/3704859."
+  },
+  {
+    "doi": "10.1145/3704882",
+    "title": "The Best of Abstract Interpretations.",
+    "venue": "popl 2025",
+    "citation": "Giacobazzi, Roberto, and Francesco Ranzato. “The Best of Abstract Interpretations.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1355–85. Crossref, https://doi.org/10.1145/3704882."
+  },
+  {
+    "doi": "10.1145/3704863",
+    "title": "Denotational Semantics of Gradual Typing using Synthetic Guarded Domain Theory.",
+    "venue": "popl 2025",
+    "citation": "Giovannini, Eric, et al. “Denotational Semantics of Gradual Typing Using Synthetic Guarded Domain Theory.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 772–801. Crossref, https://doi.org/10.1145/3704863."
+  },
+  {
+    "doi": "10.1145/3704906",
+    "title": "RELINCHE: Automatically Checking Linearizability under Relaxed Memory Consistency.",
+    "venue": "popl 2025",
+    "citation": "Golovin, Pavel, et al. “RELINCHE: Automatically Checking Linearizability under Relaxed Memory Consistency.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 2090–117. Crossref, https://doi.org/10.1145/3704906."
+  },
+  {
+    "doi": "10.1145/3704871",
+    "title": "Abstract Operational Methods for Call-by-Push-Value.",
+    "venue": "popl 2025",
+    "citation": "Goncharov, Sergey, et al. “Abstract Operational Methods for Call-by-Push-Value.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1013–39. Crossref, https://doi.org/10.1145/3704871."
+  },
+  {
+    "doi": "10.1145/3704866",
+    "title": "A Modal Deconstruction of Löb Induction.",
+    "venue": "popl 2025",
+    "citation": "Gratzer, Daniel. “A Modal Deconstruction of Löb Induction.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 864–92. Crossref, https://doi.org/10.1145/3704866."
+  },
+  {
+    "doi": "10.1145/3704877",
+    "title": "Approximate Relational Reasoning for Higher-Order Probabilistic Programs.",
+    "venue": "popl 2025",
+    "citation": "Haselwarter, Philipp G., et al. “Approximate Relational Reasoning for Higher-Order Probabilistic Programs.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1196–226. Crossref, https://doi.org/10.1145/3704877."
+  },
+  {
+    "doi": "10.1145/3704888",
+    "title": "Translation of Temporal Logic for Efficient Infinite-State Reactive Synthesis.",
+    "venue": "popl 2025",
+    "citation": "Heim, Philippe, and Rayna Dimitrova. “Translation of Temporal Logic for Efficient Infinite-State Reactive Synthesis.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1536–67. Crossref, https://doi.org/10.1145/3704888."
+  },
+  {
+    "doi": "10.1145/3704842",
+    "title": "Qurts: Automatic Quantum Uncomputation by Affine Types with Lifetime.",
+    "venue": "popl 2025",
+    "citation": "Hirata, Kengo, and Chris Heunen. “Qurts: Automatic Quantum Uncomputation by Affine Types with Lifetime.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 155–82. Crossref, https://doi.org/10.1145/3704842."
+  },
+  {
+    "doi": "10.1145/3704851",
+    "title": "A Dependent Type Theory for Meta-programming with Intensional Analysis.",
+    "venue": "popl 2025",
+    "citation": "Hu, Jason Z. S., and Brigitte Pientka. “A Dependent Type Theory for Meta-Programming with Intensional Analysis.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 416–45. Crossref, https://doi.org/10.1145/3704851."
+  },
+  {
+    "doi": "10.1145/3704907",
+    "title": "Bidirectional Higher-Rank Polymorphism with Intersection and Union Types.",
+    "venue": "popl 2025",
+    "citation": "Jiang, Shengyi, et al. “Bidirectional Higher-Rank Polymorphism with Intersection and Union Types.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 2118–48. Crossref, https://doi.org/10.1145/3704907."
+  },
+  {
+    "doi": "10.1145/3704892",
+    "title": "Formalising Graph Algorithms with Coinduction.",
+    "venue": "popl 2025",
+    "citation": "Kidney, Donnacha Oisín, and Nicolas Wu. “Formalising Graph Algorithms with Coinduction.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1657–86. Crossref, https://doi.org/10.1145/3704892."
+  },
+  {
+    "doi": "10.1145/3704881",
+    "title": "Archmage and CompCertCast: End-to-End Verification Supporting Integer-Pointer Casting.",
+    "venue": "popl 2025",
+    "citation": "Kim, Yonghyun, et al. “Archmage and CompCertCast: End-to-End Verification Supporting Integer-Pointer Casting.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1326–54. Crossref, https://doi.org/10.1145/3704881."
+  },
+  {
+    "doi": "10.1145/3704897",
+    "title": "VeriRT: An End-to-End Verification Framework for Real-Time Distributed Systems.",
+    "venue": "popl 2025",
+    "citation": "Kim, Yoonseung, et al. “VeriRT: An End-to-End Verification Framework for Real-Time Distributed Systems.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1812–39. Crossref, https://doi.org/10.1145/3704897."
+  },
+  {
+    "doi": "10.1145/3704875",
+    "title": "On Decidable and Undecidable Extensions of Simply Typed Lambda Calculus.",
+    "venue": "popl 2025",
+    "citation": "Kobayashi, Naoki. “On Decidable and Undecidable Extensions of Simply Typed Lambda Calculus.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1136–66. Crossref, https://doi.org/10.1145/3704875."
+  },
+  {
+    "doi": "10.1145/3704860",
+    "title": "A Verified Foreign Function Interface between Coq and C.",
+    "venue": "popl 2025",
+    "citation": "Korkut, Joomy, et al. “A Verified Foreign Function Interface between Coq and C.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 687–717. Crossref, https://doi.org/10.1145/3704860."
+  },
+  {
+    "doi": "10.1145/3704845",
+    "title": "Flo: A Semantic Foundation for Progressive Stream Processing.",
+    "venue": "popl 2025",
+    "citation": "Laddad, Shadaj, et al. “Flo: A Semantic Foundation for Progressive Stream Processing.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 241–70. Crossref, https://doi.org/10.1145/3704845."
+  },
+  {
+    "doi": "10.1145/3704885",
+    "title": "Generic Refinement Types.",
+    "venue": "popl 2025",
+    "citation": "Lehmann, Nico, et al. “Generic Refinement Types.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1446–74. Crossref, https://doi.org/10.1145/3704885."
+  },
+  {
+    "doi": "10.1145/3704840",
+    "title": "MimIR: An Extensible and Type-Safe Intermediate Representation for the DSL Age.",
+    "venue": "popl 2025",
+    "citation": "Leißa, Roland, et al. “MimIR: An Extensible and Type-Safe Intermediate Representation for the DSL Age.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 95–125. Crossref, https://doi.org/10.1145/3704840."
+  },
+  {
+    "doi": "10.1145/3704890",
+    "title": "Compositional Imprecise Probability: A Solution from Graded Monads and Markov Categories.",
+    "venue": "popl 2025",
+    "citation": "Liell-Cock, Jack, and Sam Staton. “Compositional Imprecise Probability: A Solution from Graded Monads and Markov Categories.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1596–626. Crossref, https://doi.org/10.1145/3704890."
+  },
+  {
+    "doi": "10.1145/3704843",
+    "title": "Consistency of a Dependent Calculus of Indistinguishability.",
+    "venue": "popl 2025",
+    "citation": "Liu, Yiyun, et al. “Consistency of a Dependent Calculus of Indistinguishability.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 183–209. Crossref, https://doi.org/10.1145/3704843."
+  },
+  {
+    "doi": "10.1145/3704899",
+    "title": "Sound and Complete Proof Rules for Probabilistic Termination.",
+    "venue": "popl 2025",
+    "citation": "Majumdar, Rupak, and V. R. Sathiyanarayana. “Sound and Complete Proof Rules for Probabilistic Termination.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1871–902. Crossref, https://doi.org/10.1145/3704899."
+  },
+  {
+    "doi": "10.1145/3704862",
+    "title": "Simple Linear Loops: Algebraic Invariants and Applications.",
+    "venue": "popl 2025",
+    "citation": "Ait El Manssour, Rida, et al. “Simple Linear Loops: Algebraic Invariants and Applications.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 745–71. Crossref, https://doi.org/10.1145/3704862."
+  },
+  {
+    "doi": "10.1145/3704911",
+    "title": "Model Checking C/C++ with Mixed-Size Accesses.",
+    "venue": "popl 2025",
+    "citation": "Marmanis, Iason, et al. “Model Checking C/C++ with Mixed-Size Accesses.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 2232–52. Crossref, https://doi.org/10.1145/3704911."
+  },
+  {
+    "doi": "10.1145/3704849",
+    "title": "Finite-Choice Logic Programming.",
+    "venue": "popl 2025",
+    "citation": "Martens, Chris, et al. “Finite-Choice Logic Programming.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 362–90. Crossref, https://doi.org/10.1145/3704849."
+  },
+  {
+    "doi": "10.1145/3704870",
+    "title": "The Decision Problem for Regular First Order Theories.",
+    "venue": "popl 2025",
+    "citation": "Mathur, Umang, et al. “The Decision Problem for Regular First Order Theories.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 986–1012. Crossref, https://doi.org/10.1145/3704870."
+  },
+  {
+    "doi": "10.1145/3704908",
+    "title": "Relaxed Memory Concurrency Re-executed.",
+    "venue": "popl 2025",
+    "citation": "Moiseenko, Evgenii, et al. “Relaxed Memory Concurrency Re-Executed.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 2149–75. Crossref, https://doi.org/10.1145/3704908."
+  },
+  {
+    "doi": "10.1145/3704839",
+    "title": "Maximal Simplification of Polyhedral Reductions.",
+    "venue": "popl 2025",
+    "citation": "Narmour, Louis, et al. “Maximal Simplification of Polyhedral Reductions.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 67–94. Crossref, https://doi.org/10.1145/3704839."
+  },
+  {
+    "doi": "10.1145/3704898",
+    "title": "Reachability Analysis of the Domain Name System.",
+    "venue": "popl 2025",
+    "citation": "Nevatia, Dhruv, et al. “Reachability Analysis of the Domain Name System.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1840–70. Crossref, https://doi.org/10.1145/3704898."
+  },
+  {
+    "doi": "10.1145/3704880",
+    "title": "Preservation of Speculative Constant-Time by Compilation.",
+    "venue": "popl 2025",
+    "citation": "Arranz Olmos, Santiago, et al. “Preservation of Speculative Constant-Time by Compilation.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1293–325. Crossref, https://doi.org/10.1145/3704880."
+  },
+  {
+    "doi": "10.1145/3704912",
+    "title": "All Your Base Are Belong to Us: Sort Polymorphism for Proof Assistants.",
+    "venue": "popl 2025",
+    "citation": "Poiret, Josselin, et al. “All Your Base Are Belong to Us: Sort Polymorphism for Proof Assistants.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 2253–81. Crossref, https://doi.org/10.1145/3704912."
+  },
+  {
+    "doi": "10.1145/3704864",
+    "title": "Pantograph: A Fluid and Typed Structure Editor.",
+    "venue": "popl 2025",
+    "citation": "Prinz, Jacob, et al. “Pantograph: A Fluid and Typed Structure Editor.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 802–31. Crossref, https://doi.org/10.1145/3704864."
+  },
+  {
+    "doi": "10.1145/3704858",
+    "title": "Progressful Interpreters for Efficient WebAssembly Mechanisation.",
+    "venue": "popl 2025",
+    "citation": "Rao, Xiaojia, et al. “Progressful Interpreters for Efficient WebAssembly Mechanisation.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 627–55. Crossref, https://doi.org/10.1145/3704858."
+  },
+  {
+    "doi": "10.1145/3704841",
+    "title": "Affect: An Affine Type and Effect System.",
+    "venue": "popl 2025",
+    "citation": "van Rooij, Orpheas, and Robbert Krebbers. “Affect: An Affine Type and Effect System.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 126–54. Crossref, https://doi.org/10.1145/3704841."
+  },
+  {
+    "doi": "10.1145/3704914",
+    "title": "Algebraic Temporal Effects: Temporal Verification of Recursively Typed Higher-Order Programs.",
+    "venue": "popl 2025",
+    "citation": "Sekiyama, Taro, and Hiroshi Unno. “Algebraic Temporal Effects: Temporal Verification of Recursively Typed Higher-Order Programs.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 2306–36. Crossref, https://doi.org/10.1145/3704914."
+  },
+  {
+    "doi": "10.1145/3704884",
+    "title": "Modelling Recursion and Probabilistic Choice in Guarded Type Theory.",
+    "venue": "popl 2025",
+    "citation": "Stassen, Philipp, et al. “Modelling Recursion and Probabilistic Choice in Guarded Type Theory.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1417–45. Crossref, https://doi.org/10.1145/3704884."
+  },
+  {
+    "doi": "10.1145/3704904",
+    "title": "A Primal-Dual Perspective on Program Verification Algorithms.",
+    "venue": "popl 2025",
+    "citation": "Tsukada, Takeshi, et al. “A Primal-Dual Perspective on Program Verification Algorithms.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 2025–56. Crossref, https://doi.org/10.1145/3704904."
+  },
+  {
+    "doi": "10.1145/3704872",
+    "title": "Top-Down or Bottom-Up? Complexity Analyses of Synchronous Multiparty Session Types.",
+    "venue": "popl 2025",
+    "citation": "Udomsrirungruang, Thien, and Nobuko Yoshida. “Top-Down or Bottom-Up? Complexity Analyses of Synchronous Multiparty Session Types.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1040–71. Crossref, https://doi.org/10.1145/3704872."
+  },
+  {
+    "doi": "10.1145/3704837",
+    "title": "RE#: High Performance Derivative-Based Regex Matching with Intersection, Complement, and Restricted Lookarounds.",
+    "venue": "popl 2025",
+    "citation": "Varatalu, Ian Erik, et al. “RE#: High Performance Derivative-Based Regex Matching with Intersection, Complement, and Restricted Lookarounds.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1–32. Crossref, https://doi.org/10.1145/3704837."
+  },
+  {
+    "doi": "10.1145/3704838",
+    "title": "Symbolic Automata: Omega-Regularity Modulo Theories.",
+    "venue": "popl 2025",
+    "citation": "Veanes, Margus, et al. “Symbolic Automata: Omega-Regularity Modulo Theories.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 33–66. Crossref, https://doi.org/10.1145/3704838."
+  },
+  {
+    "doi": "10.1145/3704850",
+    "title": "On Extending Incorrectness Logic with Backwards Reasoning.",
+    "venue": "popl 2025",
+    "citation": "Verbeek, Freek, et al. “On Extending Incorrectness Logic with Backwards Reasoning.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 391–415. Crossref, https://doi.org/10.1145/3704850."
+  },
+  {
+    "doi": "10.1145/3704896",
+    "title": "A Taxonomy of Hoare-Like Logics: Towards a Holistic View using Predicate Transformers and Kleene Algebras with Top and Tests.",
+    "venue": "popl 2025",
+    "citation": "Verscht, Lena, and Benjamin Lucien Kaminski. “A Taxonomy of Hoare-Like Logics: Towards a Holistic View Using Predicate Transformers and Kleene Algebras with Top and Tests.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1782–811. Crossref, https://doi.org/10.1145/3704896."
+  },
+  {
+    "doi": "10.1145/3704847",
+    "title": "Program Logics à la Carte.",
+    "venue": "popl 2025",
+    "citation": "Vistrup, Max, et al. “Program Logics à La Carte.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 300–31. Crossref, https://doi.org/10.1145/3704847."
+  },
+  {
+    "doi": "10.1145/3704887",
+    "title": "SNIP: Speculative Execution and Non-Interference Preservation for Compiler Transformations.",
+    "venue": "popl 2025",
+    "citation": "van der Wall, Sören, and Roland Meyer. “SNIP: Speculative Execution and Non-Interference Preservation for Compiler Transformations.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1506–35. Crossref, https://doi.org/10.1145/3704887."
+  },
+  {
+    "doi": "10.1145/3704910",
+    "title": "Biparsers: Exact Printing for Data Synchronisation.",
+    "venue": "popl 2025",
+    "citation": "Xie, Ruifeng, et al. “Biparsers: Exact Printing for Data Synchronisation.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 2205–31. Crossref, https://doi.org/10.1145/3704910."
+  },
+  {
+    "doi": "10.1145/3704878",
+    "title": "Automating Equational Proofs in Dirac Notation.",
+    "venue": "popl 2025",
+    "citation": "Xu, Yingte, et al. “Automating Equational Proofs in Dirac Notation.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1227–59. Crossref, https://doi.org/10.1145/3704878."
+  },
+  {
+    "doi": "10.1145/3704903",
+    "title": "Generically Automating Separation Logic by Functors, Homomorphisms, and Modules.",
+    "venue": "popl 2025",
+    "citation": "Xu, Qiyuan, et al. “Generically Automating Separation Logic by Functors, Homomorphisms, and Modules.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1992–2024. Crossref, https://doi.org/10.1145/3704903."
+  },
+  {
+    "doi": "10.1145/3704895",
+    "title": "Semantic Logical Relations for Timed Message-Passing Protocols.",
+    "venue": "popl 2025",
+    "citation": "Yao, Yue, et al. “Semantic Logical Relations for Timed Message-Passing Protocols.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1750–81. Crossref, https://doi.org/10.1145/3704895."
+  },
+  {
+    "doi": "10.1145/3704886",
+    "title": "Derivative-Guided Symbolic Execution.",
+    "venue": "popl 2025",
+    "citation": "Yuan, Yongwei, et al. “Derivative-Guided Symbolic Execution.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1475–505. Crossref, https://doi.org/10.1145/3704886."
+  },
+  {
+    "doi": "10.1145/3704874",
+    "title": "Guaranteed Bounds on Posterior Distributions of Discrete Probabilistic Programs with Loops.",
+    "venue": "popl 2025",
+    "citation": "Zaiser, Fabian, et al. “Guaranteed Bounds on Posterior Distributions of Discrete Probabilistic Programs with Loops.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1104–35. Crossref, https://doi.org/10.1145/3704874."
+  },
+  {
+    "doi": "10.1145/3704913",
+    "title": "Dis/Equality Graphs.",
+    "venue": "popl 2025",
+    "citation": "Zakhour, George, et al. “Dis/Equality Graphs.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 2282–305. Crossref, https://doi.org/10.1145/3704913."
+  },
+  {
+    "doi": "10.1145/3704857",
+    "title": "CF-GKAT: Efficient Validation of Control-Flow Transformations.",
+    "venue": "popl 2025",
+    "citation": "Zhang, Cheng, et al. “CF-GKAT: Efficient Validation of Control-Flow Transformations.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 600–26. Crossref, https://doi.org/10.1145/3704857."
+  },
+  {
+    "doi": "10.1145/3704900",
+    "title": "Unifying Compositional Verification and Certified Compilation with a Three-Dimensional Refinement Algebra.",
+    "venue": "popl 2025",
+    "citation": "Zhang, Yu, et al. “Unifying Compositional Verification and Certified Compilation with a Three-Dimensional Refinement Algebra.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1903–33. Crossref, https://doi.org/10.1145/3704900."
+  },
+  {
+    "doi": "10.1145/3704901",
+    "title": "An Incremental Algorithm for Algebraic Program Analysis.",
+    "venue": "popl 2025",
+    "citation": "Zhou, Chenyu, et al. “An Incremental Algorithm for Algebraic Program Analysis.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1934–61. Crossref, https://doi.org/10.1145/3704901."
+  },
+  {
+    "doi": "10.1145/3704869",
+    "title": "QuickSub: Efficient Iso-Recursive Subtyping.",
+    "venue": "popl 2025",
+    "citation": "Zhou, Litao, and Bruno C. d. S. Oliveira. “QuickSub: Efficient Iso-Recursive Subtyping.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 954–85. Crossref, https://doi.org/10.1145/3704869."
+  },
+  {
+    "doi": "10.1145/3704855",
+    "title": "A Demonic Outcome Logic for Randomized Nondeterminism.",
+    "venue": "popl 2025",
+    "citation": "Zilberstein, Noam, et al. “A Demonic Outcome Logic for Randomized Nondeterminism.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 539–68. Crossref, https://doi.org/10.1145/3704855."
+  },
+  {
+    "doi": "10.1145/3674662",
+    "title": "Automated Verification of Higher-Order Probabilistic Programs via a Dependent Refinement Type System.",
+    "venue": "icfp 2024",
+    "citation": "Kura, Satoshi, and Hiroshi Unno. “Automated Verification of Higher-Order Probabilistic Programs via a Dependent Refinement Type System.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 973–1002. Crossref, https://doi.org/10.1145/3674662."
+  },
+  {
+    "doi": "10.1145/3674635",
+    "title": "Error Credits: Resourceful Reasoning about Error Bounds for Higher-Order Probabilistic Programs.",
+    "venue": "icfp 2024",
+    "citation": "Aguirre, Alejandro, et al. “Error Credits: Resourceful Reasoning about Error Bounds for Higher-Order Probabilistic Programs.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 284–316. Crossref, https://doi.org/10.1145/3674635."
+  },
+  {
+    "doi": "10.1145/3674637",
+    "title": "Snapshottable Stores.",
+    "venue": "icfp 2024",
+    "citation": "Allain, Clément, et al. “Snapshottable Stores.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 338–69. Crossref, https://doi.org/10.1145/3674637."
+  },
+  {
+    "doi": "10.1145/3674638",
+    "title": "Beyond Trees: Calculating Graph-Based Compilers (Functional Pearl).",
+    "venue": "icfp 2024",
+    "citation": "Bahr, Patrick, and Graham Hutton. “Beyond Trees: Calculating Graph-Based Compilers (Functional Pearl).” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 370–94. Crossref, https://doi.org/10.1145/3674638."
+  },
+  {
+    "doi": "10.1145/3674627",
+    "title": "Compiled, Extensible, Multi-language DSLs (Functional Pearl).",
+    "venue": "icfp 2024",
+    "citation": "Ballantyne, Michael, et al. “Compiled, Extensible, Multi-Language DSLs (Functional Pearl).” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 64–87. Crossref, https://doi.org/10.1145/3674627."
+  },
+  {
+    "doi": "10.1145/3674652",
+    "title": "A Two-Phase Infinite/Finite Low-Level Memory Model: Reconciling Integer-Pointer Casts, Finite Space, and undef at the LLVM IR Level of Abstraction.",
+    "venue": "icfp 2024",
+    "citation": "Beck, Calvin, et al. “A Two-Phase Infinite/Finite Low-Level Memory Model: Reconciling Integer–Pointer Casts, Finite Space, and Undef at the LLVM IR Level of Abstraction.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 789–817. Crossref, https://doi.org/10.1145/3674652."
+  },
+  {
+    "doi": "10.1145/3674639",
+    "title": "Grokking the Sequent Calculus (Functional Pearl).",
+    "venue": "icfp 2024",
+    "citation": "Binder, David, et al. “Grokking the Sequent Calculus (Functional Pearl).” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 395–425. Crossref, https://doi.org/10.1145/3674639."
+  },
+  {
+    "doi": "10.1145/3674625",
+    "title": "How to Bake a Quantum Π.",
+    "venue": "icfp 2024",
+    "citation": "Carette, Jacques, et al. “How to Bake a Quantum Π.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 1–29. Crossref, https://doi.org/10.1145/3674625."
+  },
+  {
+    "doi": "10.1145/3674657",
+    "title": "Synchronous Programming with Refinement Types.",
+    "venue": "icfp 2024",
+    "citation": "Chen, Jiawei, et al. “Synchronous Programming with Refinement Types.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 938–72. Crossref, https://doi.org/10.1145/3674657."
+  },
+  {
+    "doi": "10.1145/3674634",
+    "title": "The Long Way to Deforestation: A Type Inference and Elaboration Technique for Removing Intermediate Data Structures.",
+    "venue": "icfp 2024",
+    "citation": "Chen, Yijia, and Lionel Parreaux. “The Long Way to Deforestation: A Type Inference and Elaboration Technique for Removing Intermediate Data Structures.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 249–83. Crossref, https://doi.org/10.1145/3674634."
+  },
+  {
+    "doi": "10.1145/3674649",
+    "title": "Staged Compilation with Module Functors.",
+    "venue": "icfp 2024",
+    "citation": "Chiang, Tsung-Ju, et al. “Staged Compilation with Module Functors.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 693–727. Crossref, https://doi.org/10.1145/3674649."
+  },
+  {
+    "doi": "10.1145/3674633",
+    "title": "Functional Programming in Financial Markets (Experience Report).",
+    "venue": "icfp 2024",
+    "citation": "Dijkstra, Atze, et al. “Functional Programming in Financial Markets (Experience Report).” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 234–48. Crossref, https://doi.org/10.1145/3674633."
+  },
+  {
+    "doi": "10.1145/3674654",
+    "title": "Call-by-Unboxed-Value.",
+    "venue": "icfp 2024",
+    "citation": "Downen, Paul. “Call-by-Unboxed-Value.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 845–79. Crossref, https://doi.org/10.1145/3674654."
+  },
+  {
+    "doi": "10.1145/3674628",
+    "title": "Double-Ended Bit-Stealing for Algebraic Data Types.",
+    "venue": "icfp 2024",
+    "citation": "Elsman, Martin. “Double-Ended Bit-Stealing for Algebraic Data Types.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 88–120. Crossref, https://doi.org/10.1145/3674628."
+  },
+  {
+    "doi": "10.1145/3674632",
+    "title": "Almost-Sure Termination by Guarded Refinement.",
+    "venue": "icfp 2024",
+    "citation": "Gregersen, Simon Oddershede, et al. “Almost-Sure Termination by Guarded Refinement.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 203–33. Crossref, https://doi.org/10.1145/3674632."
+  },
+  {
+    "doi": "10.1145/3674640",
+    "title": "Sound Borrow-Checking for Rust via Symbolic Semantics.",
+    "venue": "icfp 2024",
+    "citation": "Ho, Son, et al. “Sound Borrow-Checking for Rust via Symbolic Semantics.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 426–54. Crossref, https://doi.org/10.1145/3674640."
+  },
+  {
+    "doi": "10.1145/3674648",
+    "title": "Closure-Free Functional Programming in a Two-Level Type Theory.",
+    "venue": "icfp 2024",
+    "citation": "Kovács, András. “Closure-Free Functional Programming in a Two-Level Type Theory.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 659–92. Crossref, https://doi.org/10.1145/3674648."
+  },
+  {
+    "doi": "10.1145/3674653",
+    "title": "CCLemma: E-Graph Guided Lemma Discovery for Inductive Equational Proofs.",
+    "venue": "icfp 2024",
+    "citation": "Kurashige, Cole, et al. “CCLemma: E-Graph Guided Lemma Discovery for Inductive Equational Proofs.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 818–44. Crossref, https://doi.org/10.1145/3674653."
+  },
+  {
+    "doi": "10.1145/3674642",
+    "title": "Oxidizing OCaml with Modal Memory Management.",
+    "venue": "icfp 2024",
+    "citation": "Lorenzen, Anton, et al. “Oxidizing OCaml with Modal Memory Management.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 485–514. Crossref, https://doi.org/10.1145/3674642."
+  },
+  {
+    "doi": "10.1145/3674644",
+    "title": "Gradual Indexed Inductive Types.",
+    "venue": "icfp 2024",
+    "citation": "Malewski, Mara, et al. “Gradual Indexed Inductive Types.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 544–72. Crossref, https://doi.org/10.1145/3674644."
+  },
+  {
+    "doi": "10.1145/3674629",
+    "title": "A Safe Low-Level Language for Computer Algebra and Its Formally Verified Compiler.",
+    "venue": "icfp 2024",
+    "citation": "Melquiond, Guillaume, and Josué Moreau. “A Safe Low-Level Language for Computer Algebra and Its Formally Verified Compiler.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 121–46. Crossref, https://doi.org/10.1145/3674629."
+  },
+  {
+    "doi": "10.1145/3674646",
+    "title": "Abstract Interpreters: A Monadic Approach to Modular Verification.",
+    "venue": "icfp 2024",
+    "citation": "Michelland, Sébastien, et al. “Abstract Interpreters: A Monadic Approach to Modular Verification.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 602–29. Crossref, https://doi.org/10.1145/3674646."
+  },
+  {
+    "doi": "10.1145/3674636",
+    "title": "Example-Based Reasoning about the Realizability of Polymorphic Programs.",
+    "venue": "icfp 2024",
+    "citation": "Mulleners, Niek, et al. “Example-Based Reasoning about the Realizability of Polymorphic Programs.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 317–37. Crossref, https://doi.org/10.1145/3674636."
+  },
+  {
+    "doi": "10.1145/3674650",
+    "title": "Deriving with Derivatives: Optimizing Incremental Fixpoints for Higher-Order Flow Analysis.",
+    "venue": "icfp 2024",
+    "citation": "Quiring, Benjamin, and David Van Horn. “Deriving with Derivatives: Optimizing Incremental Fixpoints for Higher-Order Flow Analysis.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 728–55. Crossref, https://doi.org/10.1145/3674650."
+  },
+  {
+    "doi": "10.1145/3674666",
+    "title": "A Coq Mechanization of JavaScript Regular Expression Semantics.",
+    "venue": "icfp 2024",
+    "citation": "De Santo, Noé, et al. “A Coq Mechanization of JavaScript Regular Expression Semantics.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 1003–31. Crossref, https://doi.org/10.1145/3674666."
+  },
+  {
+    "doi": "10.1145/3674631",
+    "title": "The Functional, the Imperative, and the Sudoku: Getting Good, Bad, and Ugly to Get Along (Functional Pearl).",
+    "venue": "icfp 2024",
+    "citation": "Serrano, Manuel, and Robert Bruce Findler. “The Functional, the Imperative, and the Sudoku: Getting Good, Bad, and Ugly to Get Along (Functional Pearl).” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 177–202. Crossref, https://doi.org/10.1145/3674631."
+  },
+  {
+    "doi": "10.1145/3674656",
+    "title": "Specification and Verification for Unrestricted Algebraic Effects and Handling.",
+    "venue": "icfp 2024",
+    "citation": "Song, Yahui, et al. “Specification and Verification for Unrestricted Algebraic Effects and Handling.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 909–37. Crossref, https://doi.org/10.1145/3674656."
+  },
+  {
+    "doi": "10.1145/3674645",
+    "title": "Refinement Composition Logic.",
+    "venue": "icfp 2024",
+    "citation": "Song, Youngju, and Dongjae Lee. “Refinement Composition Logic.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 573–601. Crossref, https://doi.org/10.1145/3674645."
+  },
+  {
+    "doi": "10.1145/3674630",
+    "title": "On the Operational Theory of the CPS-Calculus: Towards a Theoretical Foundation for IRs.",
+    "venue": "icfp 2024",
+    "citation": "Torrens, Paulo, et al. “On the Operational Theory of the CPS-Calculus: Towards a Theoretical Foundation for IRs.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 147–76. Crossref, https://doi.org/10.1145/3674630."
+  },
+  {
+    "doi": "10.1145/3674643",
+    "title": "Blame-Correct Support for Receiver Properties in Recursively-Structured Actor Contracts.",
+    "venue": "icfp 2024",
+    "citation": "Vandenbogaerde, Bram, et al. “Blame-Correct Support for Receiver Properties in Recursively-Structured Actor Contracts.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 515–43. Crossref, https://doi.org/10.1145/3674643."
+  },
+  {
+    "doi": "10.1145/3674647",
+    "title": "Dependent Ghosts Have a Reflection for Free.",
+    "venue": "icfp 2024",
+    "citation": "Winterhalter, Théo. “Dependent Ghosts Have a Reflection for Free.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 630–58. Crossref, https://doi.org/10.1145/3674647."
+  },
+  {
+    "doi": "10.1145/3674626",
+    "title": "Story of Your Lazy Function&apos;s Life: A Bidirectional Demand Semantics for Mechanized Cost Analysis of Lazy Programs.",
+    "venue": "icfp 2024",
+    "citation": "Xia, Li-yao, et al. “Story of Your Lazy Function’s Life: A Bidirectional Demand Semantics for Mechanized Cost Analysis of Lazy Programs.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 30–63. Crossref, https://doi.org/10.1145/3674626."
+  },
+  {
+    "doi": "10.1145/3674651",
+    "title": "Parallel Algebraic Effect Handlers.",
+    "venue": "icfp 2024",
+    "citation": "Xie, Ningning, et al. “Parallel Algebraic Effect Handlers.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 756–88. Crossref, https://doi.org/10.1145/3674651."
+  },
+  {
+    "doi": "10.1145/3674655",
+    "title": "Contextual Typing.",
+    "venue": "icfp 2024",
+    "citation": "Xue, Xu, and Bruno C. d. S. Oliveira. “Contextual Typing.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 880–908. Crossref, https://doi.org/10.1145/3674655."
+  },
+  {
+    "doi": "10.1145/3674641",
+    "title": "Abstracting Effect Systems for Algebraic Effect Handlers.",
+    "venue": "icfp 2024",
+    "citation": "Yoshioka, Takuma, et al. “Abstracting Effect Systems for Algebraic Effect Handlers.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 455–84. Crossref, https://doi.org/10.1145/3674641."
+  },
+  {
+    "doi": "10.1145/3656427",
+    "title": "Maximum Consensus Floating Point Solutions for Infeasible Low-Dimensional Linear Programs with Convex Hull as the Intermediate Representation.",
+    "venue": "pldi 2024",
+    "citation": "Aanjaneya, Mridul, and Santosh Nagarakatte. “Maximum Consensus Floating Point Solutions for Infeasible Low-Dimensional Linear Programs with Convex Hull as the Intermediate Representation.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1239–63. Crossref, https://doi.org/10.1145/3656427."
+  },
+  {
+    "doi": "10.1145/3656425",
+    "title": "Verification under Intel-x86 with Persistency.",
+    "venue": "pldi 2024",
+    "citation": "Abdulla, Parosh, et al. “Verification under Intel-X86 with Persistency.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1189–212. Crossref, https://doi.org/10.1145/3656425."
+  },
+  {
+    "doi": "10.1145/3656435",
+    "title": "SuperStack: Superoptimization of Stack-Bytecode via Greedy, Constraint-Based, and SAT Techniques.",
+    "venue": "pldi 2024",
+    "citation": "Albert, Elvira, et al. “SuperStack: Superoptimization of Stack-Bytecode via Greedy, Constraint-Based, and SAT Techniques.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1437–62. Crossref, https://doi.org/10.1145/3656435."
+  },
+  {
+    "doi": "10.1145/3656389",
+    "title": "Optimistic Stack Allocation and Dynamic Heapification for Managed Runtimes.",
+    "venue": "pldi 2024",
+    "citation": "Anand, Aditya, et al. “Optimistic Stack Allocation and Dynamic Heapification for Managed Runtimes.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 296–319. Crossref, https://doi.org/10.1145/3656389."
+  },
+  {
+    "doi": "10.1145/3656405",
+    "title": "Jacdac: Service-Based Prototyping of Embedded Systems.",
+    "venue": "pldi 2024",
+    "citation": "Ball, Thomas, et al. “Jacdac: Service-Based Prototyping of Embedded Systems.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 692–715. Crossref, https://doi.org/10.1145/3656405."
+  },
+  {
+    "doi": "10.1145/3656377",
+    "title": "Input-Relational Verification of Deep Neural Networks.",
+    "venue": "pldi 2024",
+    "citation": "Banerjee, Debangshu, et al. “Input-Relational Verification of Deep Neural Networks.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1–27. Crossref, https://doi.org/10.1145/3656377."
+  },
+  {
+    "doi": "10.1145/3656431",
+    "title": "Linear Matching of JavaScript Regular Expressions.",
+    "venue": "pldi 2024",
+    "citation": "Barrière, Aurèle, and Clément Pit-Claudel. “Linear Matching of JavaScript Regular Expressions.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1336–60. Crossref, https://doi.org/10.1145/3656431."
+  },
+  {
+    "doi": "10.1145/3656463",
+    "title": "Probabilistic Programming with Programmable Variational Inference.",
+    "venue": "pldi 2024",
+    "citation": "Becker, McCoy R., et al. “Probabilistic Programming with Programmable Variational Inference.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 2123–47. Crossref, https://doi.org/10.1145/3656463."
+  },
+  {
+    "doi": "10.1145/3656421",
+    "title": "Decidable Subtyping of Existential Types for Julia.",
+    "venue": "pldi 2024",
+    "citation": "Belyakova, Julia, et al. “Decidable Subtyping of Existential Types for Julia.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1091–114. Crossref, https://doi.org/10.1145/3656421."
+  },
+  {
+    "doi": "10.1145/3656459",
+    "title": "Hashing Modulo Context-Sensitive 𝛼-Equivalence.",
+    "venue": "pldi 2024",
+    "citation": "Blaauwbroek, Lasse, et al. “Hashing Modulo Context-Sensitive α-Equivalence.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 2027–50. Crossref, https://doi.org/10.1145/3656459."
+  },
+  {
+    "doi": "10.1145/3656396",
+    "title": "NetBlocks: Staging Layouts for High-Performance Custom Host Network Stacks.",
+    "venue": "pldi 2024",
+    "citation": "Brahmakshatriya, Ajay, et al. “NetBlocks: Staging Layouts for High-Performance Custom Host Network Stacks.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 467–91. Crossref, https://doi.org/10.1145/3656396."
+  },
+  {
+    "doi": "10.1145/3656430",
+    "title": "An Algebraic Language for Specifying Quantum Networks.",
+    "venue": "pldi 2024",
+    "citation": "Buckley, Anita, et al. “An Algebraic Language for Specifying Quantum Networks.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1313–35. Crossref, https://doi.org/10.1145/3656430."
+  },
+  {
+    "doi": "10.1145/3656462",
+    "title": "Equivalence and Similarity Refutation for Probabilistic Programs.",
+    "venue": "pldi 2024",
+    "citation": "Chatterjee, Krishnendu, et al. “Equivalence and Similarity Refutation for Probabilistic Programs.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 2098–122. Crossref, https://doi.org/10.1145/3656462."
+  },
+  {
+    "doi": "10.1145/3656442",
+    "title": "Quest Complete: The Holy Grail of Gradual Security.",
+    "venue": "pldi 2024",
+    "citation": "Chen, Tianyu, and Jeremy G. Siek. “Quest Complete: The Holy Grail of Gradual Security.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1609–32. Crossref, https://doi.org/10.1145/3656442."
+  },
+  {
+    "doi": "10.1145/3656401",
+    "title": "Allo: A Programming Model for Composable Accelerator Design.",
+    "venue": "pldi 2024",
+    "citation": "Chen, Hongzheng, et al. “Allo: A Programming Model for Composable Accelerator Design.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 593–620. Crossref, https://doi.org/10.1145/3656401."
+  },
+  {
+    "doi": "10.1145/3656447",
+    "title": "Reward-Guided Synthesis of Intelligent Agents with Control Structures.",
+    "venue": "pldi 2024",
+    "citation": "Cui, Guofeng, et al. “Reward-Guided Synthesis of Intelligent Agents with Control Structures.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1730–54. Crossref, https://doi.org/10.1145/3656447."
+  },
+  {
+    "doi": "10.1145/3656434",
+    "title": "Stream Types.",
+    "venue": "pldi 2024",
+    "citation": "Cutler, Joseph W., et al. “Stream Types.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1412–36. Crossref, https://doi.org/10.1145/3656434."
+  },
+  {
+    "doi": "10.1145/3656437",
+    "title": "Hyper Hoare Logic: (Dis-)Proving Program Hyperproperties.",
+    "venue": "pldi 2024",
+    "citation": "Dardinier, Thibault, and Peter Müller. “Hyper Hoare Logic: (Dis-)Proving Program Hyperproperties.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1485–509. Crossref, https://doi.org/10.1145/3656437."
+  },
+  {
+    "doi": "10.1145/3656410",
+    "title": "Daedalus: Safer Document Parsing.",
+    "venue": "pldi 2024",
+    "citation": "Diatchki, Iavor S., et al. “Daedalus: Safer Document Parsing.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 816–40. Crossref, https://doi.org/10.1145/3656410."
+  },
+  {
+    "doi": "10.1145/3656446",
+    "title": "Foundational Integration Verification of a Cryptographic Server.",
+    "venue": "pldi 2024",
+    "citation": "Erbsen, Andres, et al. “Foundational Integration Verification of a Cryptographic Server.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1704–29. Crossref, https://doi.org/10.1145/3656446."
+  },
+  {
+    "doi": "10.1145/3656419",
+    "title": "Symbolic Execution for Quantum Error Correction Programs.",
+    "venue": "pldi 2024",
+    "citation": "Fang, Wang, and Mingsheng Ying. “Symbolic Execution for Quantum Error Correction Programs.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1040–65. Crossref, https://doi.org/10.1145/3656419."
+  },
+  {
+    "doi": "10.1145/3656394",
+    "title": "Efficient Static Vulnerability Analysis for JavaScript with Multiversion Dependency Graphs.",
+    "venue": "pldi 2024",
+    "citation": "Ferreira, Mafalda, et al. “Efficient Static Vulnerability Analysis for JavaScript with Multiversion Dependency Graphs.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 417–41. Crossref, https://doi.org/10.1145/3656394."
+  },
+  {
+    "doi": "10.1145/3656444",
+    "title": "RichWasm: Bringing Safe, Fine-Grained, Shared-Memory Interoperability Down to WebAssembly.",
+    "venue": "pldi 2024",
+    "citation": "Fitzgibbons, Michael, et al. “RichWasm: Bringing Safe, Fine-Grained, Shared-Memory Interoperability Down to WebAssembly.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1656–79. Crossref, https://doi.org/10.1145/3656444."
+  },
+  {
+    "doi": "10.1145/3656379",
+    "title": "Verified Extraction from Coq to OCaml.",
+    "venue": "pldi 2024",
+    "citation": "Forster, Yannick, et al. “Verified Extraction from Coq to OCaml.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 52–75. Crossref, https://doi.org/10.1145/3656379."
+  },
+  {
+    "doi": "10.1145/3656422",
+    "title": "RefinedRust: A Type System for High-Assurance Verification of Rust Programs.",
+    "venue": "pldi 2024",
+    "citation": "Gäher, Lennard, et al. “RefinedRust: A Type System for High-Assurance Verification of Rust Programs.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1115–39. Crossref, https://doi.org/10.1145/3656422."
+  },
+  {
+    "doi": "10.1145/3656412",
+    "title": "Bit Blasting Probabilistic Programs.",
+    "venue": "pldi 2024",
+    "citation": "Garg, Poorva, et al. “Bit Blasting Probabilistic Programs.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 865–88. Crossref, https://doi.org/10.1145/3656412."
+  },
+  {
+    "doi": "10.1145/3656391",
+    "title": "IsoPredict: Dynamic Predictive Analysis for Detecting Unserializable Behaviors in Weakly Isolated Data Store Applications.",
+    "venue": "pldi 2024",
+    "citation": "Geng, Chujun, et al. “IsoPredict: Dynamic Predictive Analysis for Detecting Unserializable Behaviors in Weakly Isolated Data Store Applications.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 343–67. Crossref, https://doi.org/10.1145/3656391."
+  },
+  {
+    "doi": "10.1145/3656407",
+    "title": "Quantitative Robustness for Vulnerability Assessment.",
+    "venue": "pldi 2024",
+    "citation": "Girol, Guillaume, et al. “Quantitative Robustness for Vulnerability Assessment.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 741–65. Crossref, https://doi.org/10.1145/3656407."
+  },
+  {
+    "doi": "10.1145/3656403",
+    "title": "Mechanised Hypersafety Proofs about Structured Data.",
+    "venue": "pldi 2024",
+    "citation": "Gladshtein, Vladimir, et al. “Mechanised Hypersafety Proofs about Structured Data.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 647–70. Crossref, https://doi.org/10.1145/3656403."
+  },
+  {
+    "doi": "10.1145/3656439",
+    "title": "Live Verification in an Interactive Proof Assistant.",
+    "venue": "pldi 2024",
+    "citation": "Gruetter, Samuel, et al. “Live Verification in an Interactive Proof Assistant.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1535–58. Crossref, https://doi.org/10.1145/3656439."
+  },
+  {
+    "doi": "10.1145/3656455",
+    "title": "Hyperblock Scheduling for Verified High-Level Synthesis.",
+    "venue": "pldi 2024",
+    "citation": "Herklotz, Yann, and John Wickerson. “Hyperblock Scheduling for Verified High-Level Synthesis.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1929–53. Crossref, https://doi.org/10.1145/3656455."
+  },
+  {
+    "doi": "10.1145/3656381",
+    "title": "Recursive Program Synthesis using Paramorphisms.",
+    "venue": "pldi 2024",
+    "citation": "Hong, Qiantan, and Alex Aiken. “Recursive Program Synthesis Using Paramorphisms.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 102–25. Crossref, https://doi.org/10.1145/3656381."
+  },
+  {
+    "doi": "10.1145/3656406",
+    "title": "Don&apos;t Write, but Return: Replacing Output Parameters with Algebraic Data Types in C-to-Rust Translation.",
+    "venue": "pldi 2024",
+    "citation": "Hong, Jaemin, and Sukyoung Ryu. “Don’t Write, but Return: Replacing Output Parameters with Algebraic Data Types in C-to-Rust Translation.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 716–40. Crossref, https://doi.org/10.1145/3656406."
+  },
+  {
+    "doi": "10.1145/3656436",
+    "title": "Compiling Conditional Quantum Gates without Using Helper Qubits.",
+    "venue": "pldi 2024",
+    "citation": "Huang, Keli, and Jens Palsberg. “Compiling Conditional Quantum Gates without Using Helper Qubits.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1463–84. Crossref, https://doi.org/10.1145/3656436."
+  },
+  {
+    "doi": "10.1145/3656409",
+    "title": "GenSQL: A Probabilistic Programming System for Querying Generative Models of Database Tables.",
+    "venue": "pldi 2024",
+    "citation": "Huot, Mathieu, et al. “GenSQL: A Probabilistic Programming System for Querying Generative Models of Database Tables.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 790–815. Crossref, https://doi.org/10.1145/3656409."
+  },
+  {
+    "doi": "10.1145/3656441",
+    "title": "Space-Efficient Polymorphic Gradual Typing, Mostly Parametric.",
+    "venue": "pldi 2024",
+    "citation": "Igarashi, Atsushi, et al. “Space-Efficient Polymorphic Gradual Typing, Mostly Parametric.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1585–608. Crossref, https://doi.org/10.1145/3656441."
+  },
+  {
+    "doi": "10.1145/3656378",
+    "title": "Modular Hardware Design of Pipelined Circuits with Hazards.",
+    "venue": "pldi 2024",
+    "citation": "Jang, Minseong, et al. “Modular Hardware Design of Pipelined Circuits with Hazards.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 28–51. Crossref, https://doi.org/10.1145/3656378."
+  },
+  {
+    "doi": "10.1145/3656464",
+    "title": "PL4XGL: A Programming Language Approach to Explainable Graph Learning.",
+    "venue": "pldi 2024",
+    "citation": "Jeon, Minseok, et al. “PL4XGL: A Programming Language Approach to Explainable Graph Learning.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 2148–73. Crossref, https://doi.org/10.1145/3656464."
+  },
+  {
+    "doi": "10.1145/3656415",
+    "title": "Superfusion: Eliminating Intermediate Data Structures via Inductive Synthesis.",
+    "venue": "pldi 2024",
+    "citation": "Ji, Ruyi, et al. “Superfusion: Eliminating Intermediate Data Structures via Inductive Synthesis.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 939–64. Crossref, https://doi.org/10.1145/3656415."
+  },
+  {
+    "doi": "10.1145/3656458",
+    "title": "V-Star: Learning Visibly Pushdown Grammars from Program Inputs.",
+    "venue": "pldi 2024",
+    "citation": "Jia, Xiaodong, and Gang Tan. “V-Star: Learning Visibly Pushdown Grammars from Program Inputs.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 2003–26. Crossref, https://doi.org/10.1145/3656458."
+  },
+  {
+    "doi": "10.1145/3656428",
+    "title": "Qubit Recycling Revisited.",
+    "venue": "pldi 2024",
+    "citation": "Jiang, Hanru. “Qubit Recycling Revisited.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1264–87. Crossref, https://doi.org/10.1145/3656428."
+  },
+  {
+    "doi": "10.1145/3656383",
+    "title": "Concurrent Immediate Reference Counting.",
+    "venue": "pldi 2024",
+    "citation": "Jung, Jaehwang, et al. “Concurrent Immediate Reference Counting.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 151–74. Crossref, https://doi.org/10.1145/3656383."
+  },
+  {
+    "doi": "10.1145/3656385",
+    "title": "Diffy: Data-Driven Bug Finding for Configurations.",
+    "venue": "pldi 2024",
+    "citation": "Kakarla, Siva Kesava Reddy, et al. “Diffy: Data-Driven Bug Finding for Configurations.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 199–222. Crossref, https://doi.org/10.1145/3656385."
+  },
+  {
+    "doi": "10.1145/3656456",
+    "title": "Numerical Fuzz: A Type System for Rounding Error Analysis.",
+    "venue": "pldi 2024",
+    "citation": "Kellison, Ariel E., and Justin Hsu. “Numerical Fuzz: A Type System for Rounding Error Analysis.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1954–78. Crossref, https://doi.org/10.1145/3656456."
+  },
+  {
+    "doi": "10.1145/3656429",
+    "title": "A Lightweight Polyglot Code Transformation Language.",
+    "venue": "pldi 2024",
+    "citation": "Ketkar, Ameya, et al. “A Lightweight Polyglot Code Transformation Language.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1288–312. Crossref, https://doi.org/10.1145/3656429."
+  },
+  {
+    "doi": "10.1145/3656449",
+    "title": "SPORE: Combining Symmetry and Partial Order Reduction.",
+    "venue": "pldi 2024",
+    "citation": "Kokologiannakis, Michalis, et al. “SPORE: Combining Symmetry and Partial Order Reduction.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1781–803. Crossref, https://doi.org/10.1145/3656449."
+  },
+  {
+    "doi": "10.1145/3656411",
+    "title": "Descend: A Safe GPU Systems Programming Language.",
+    "venue": "pldi 2024",
+    "citation": "Köpcke, Bastian, et al. “Descend: A Safe GPU Systems Programming Language.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 841–64. Crossref, https://doi.org/10.1145/3656411."
+  },
+  {
+    "doi": "10.1145/3656382",
+    "title": "A Tensor Compiler with Automatic Data Packing for Simple and Efficient Fully Homomorphic Encryption.",
+    "venue": "pldi 2024",
+    "citation": "Krastev, Aleksandar, et al. “A Tensor Compiler with Automatic Data Packing for Simple and Efficient Fully Homomorphic Encryption.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 126–50. Crossref, https://doi.org/10.1145/3656382."
+  },
+  {
+    "doi": "10.1145/3656445",
+    "title": "SpEQ: Translation of Sparse Codes using Equivalences.",
+    "venue": "pldi 2024",
+    "citation": "Laird, Avery, et al. “SpEQ: Translation of Sparse Codes Using Equivalences.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1680–703. Crossref, https://doi.org/10.1145/3656445."
+  },
+  {
+    "doi": "10.1145/3656424",
+    "title": "Reducing Static Analysis Unsoundness with Approximate Interpretation.",
+    "venue": "pldi 2024",
+    "citation": "Laursen, Mathias Rud, et al. “Reducing Static Analysis Unsoundness with Approximate Interpretation.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1165–88. Crossref, https://doi.org/10.1145/3656424."
+  },
+  {
+    "doi": "10.1145/3656451",
+    "title": "Context-Free Language Reachability via Skewed Tabulation.",
+    "venue": "pldi 2024",
+    "citation": "Lei, Yuxiang, et al. “Context-Free Language Reachability via Skewed Tabulation.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1830–53. Crossref, https://doi.org/10.1145/3656451."
+  },
+  {
+    "doi": "10.1145/3656392",
+    "title": "Compiling with Abstract Interpretation.",
+    "venue": "pldi 2024",
+    "citation": "Lesbre, Dorian, and Matthieu Lemerre. “Compiling with Abstract Interpretation.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 368–93. Crossref, https://doi.org/10.1145/3656392."
+  },
+  {
+    "doi": "10.1145/3656386",
+    "title": "Boosting Compiler Testing by Injecting Real-World Code.",
+    "venue": "pldi 2024",
+    "citation": "Li, Shaohua, et al. “Boosting Compiler Testing by Injecting Real-World Code.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 223–45. Crossref, https://doi.org/10.1145/3656386."
+  },
+  {
+    "doi": "10.1145/3656448",
+    "title": "Compiling Probabilistic Programs for Variable Elimination with Information Flow.",
+    "venue": "pldi 2024",
+    "citation": "Li, Jianlin, et al. “Compiling Probabilistic Programs for Variable Elimination with Information Flow.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1755–80. Crossref, https://doi.org/10.1145/3656448."
+  },
+  {
+    "doi": "10.1145/3656390",
+    "title": "A Verified Compiler for a Functional Tensor Language.",
+    "venue": "pldi 2024",
+    "citation": "Liu, Amanda, et al. “A Verified Compiler for a Functional Tensor Language.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 320–42. Crossref, https://doi.org/10.1145/3656390."
+  },
+  {
+    "doi": "10.1145/3656414",
+    "title": "Program Analysis for Adaptive Data Analysis.",
+    "venue": "pldi 2024",
+    "citation": "Liu, Jiawen, et al. “Program Analysis for Adaptive Data Analysis.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 914–38. Crossref, https://doi.org/10.1145/3656414."
+  },
+  {
+    "doi": "10.1145/3656398",
+    "title": "The Functional Essence of Imperative Binary Search Trees.",
+    "venue": "pldi 2024",
+    "citation": "Lorenzen, Anton, et al. “The Functional Essence of Imperative Binary Search Trees.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 518–42. Crossref, https://doi.org/10.1145/3656398."
+  },
+  {
+    "doi": "10.1145/3656453",
+    "title": "Equivalence by Canonicalization for Synthesis-Backed Refactoring.",
+    "venue": "pldi 2024",
+    "citation": "Lubin, Justin, et al. “Equivalence by Canonicalization for Synthesis-Backed Refactoring.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1879–904. Crossref, https://doi.org/10.1145/3656453."
+  },
+  {
+    "doi": "10.1145/3656393",
+    "title": "Associated Effects: Flexible Abstractions for Effectful Programming.",
+    "venue": "pldi 2024",
+    "citation": "Lutze, Matthew, and Magnus Madsen. “Associated Effects: Flexible Abstractions for Effectful Programming.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 394–416. Crossref, https://doi.org/10.1145/3656393."
+  },
+  {
+    "doi": "10.1145/3656461",
+    "title": "Static Analysis for Checking the Disambiguation Robustness of Regular Expressions.",
+    "venue": "pldi 2024",
+    "citation": "Mamouras, Konstantinos, et al. “Static Analysis for Checking the Disambiguation Robustness of Regular Expressions.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 2073–97. Crossref, https://doi.org/10.1145/3656461."
+  },
+  {
+    "doi": "10.1145/3656460",
+    "title": "Syntactic Code Search with Sequence-to-Tree Matching: Supporting Syntactic Search with Incomplete Code Fragments.",
+    "venue": "pldi 2024",
+    "citation": "Matute, Gabriel, et al. “Syntactic Code Search with Sequence-to-Tree Matching: Supporting Syntactic Search with Incomplete Code Fragments.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 2051–72. Crossref, https://doi.org/10.1145/3656460."
+  },
+  {
+    "doi": "10.1145/3656387",
+    "title": "SMT Theory Arbitrage: Approximating Unbounded Constraints using Bounded Theories.",
+    "venue": "pldi 2024",
+    "citation": "Mikek, Benjamin, and Qirun Zhang. “SMT Theory Arbitrage: Approximating Unbounded Constraints Using Bounded Theories.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 246–71. Crossref, https://doi.org/10.1145/3656387."
+  },
+  {
+    "doi": "10.1145/3656454",
+    "title": "KATch: A Fast Symbolic Verifier for NetKAT.",
+    "venue": "pldi 2024",
+    "citation": "Moeller, Mark, et al. “KATch: A Fast Symbolic Verifier for NetKAT.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1905–28. Crossref, https://doi.org/10.1145/3656454."
+  },
+  {
+    "doi": "10.1145/3656450",
+    "title": "Predictable Verification using Intrinsic Definitions.",
+    "venue": "pldi 2024",
+    "citation": "Murali, Adithya, et al. “Predictable Verification Using Intrinsic Definitions.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1804–29. Crossref, https://doi.org/10.1145/3656450."
+  },
+  {
+    "doi": "10.1145/3658851",
+    "title": "A Family of Fast and Memory Efficient Lock- and Wait-Free Reclamation.",
+    "venue": "pldi 2024",
+    "citation": "Nikolaev, Ruslan, and Binoy Ravindran. “A Family of Fast and Memory Efficient Lock- and Wait-Free Reclamation.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 2174–98. Crossref, https://doi.org/10.1145/3658851."
+  },
+  {
+    "doi": "10.1145/3656384",
+    "title": "A Proof Recipe for Linearizability in Relaxed Memory Separation Logic.",
+    "venue": "pldi 2024",
+    "citation": "Park, Sunho, et al. “A Proof Recipe for Linearizability in Relaxed Memory Separation Logic.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 175–98. Crossref, https://doi.org/10.1145/3656384."
+  },
+  {
+    "doi": "10.1145/3656438",
+    "title": "Towards Trustworthy Automated Program Verifiers: Formally Validating Translations into an Intermediate Verification Language.",
+    "venue": "pldi 2024",
+    "citation": "Parthasarathy, Gaurav, et al. “Towards Trustworthy Automated Program Verifiers: Formally Validating Translations into an Intermediate Verification Language.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1510–34. Crossref, https://doi.org/10.1145/3656438."
+  },
+  {
+    "doi": "10.1145/3656420",
+    "title": "Wavefront Threading Enables Effective High-Level Synthesis.",
+    "venue": "pldi 2024",
+    "citation": "Pelton, Blake, et al. “Wavefront Threading Enables Effective High-Level Synthesis.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1066–90. Crossref, https://doi.org/10.1145/3656420."
+  },
+  {
+    "doi": "10.1145/3656380",
+    "title": "Robust Resource Bounds with Static Analysis and Bayesian Inference.",
+    "venue": "pldi 2024",
+    "citation": "Pham, Long, et al. “Robust Resource Bounds with Static Analysis and Bayesian Inference.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 76–101. Crossref, https://doi.org/10.1145/3656380."
+  },
+  {
+    "doi": "10.1145/3656452",
+    "title": "Falcon: A Scalable Analytical Cache Model.",
+    "venue": "pldi 2024",
+    "citation": "Pitchanathan, Arjun, et al. “Falcon: A Scalable Analytical Cache Model.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1854–78. Crossref, https://doi.org/10.1145/3656452."
+  },
+  {
+    "doi": "10.1145/3656423",
+    "title": "LiDO: Linearizable Byzantine Distributed Objects with Refinement-Based Liveness Proofs.",
+    "venue": "pldi 2024",
+    "citation": "Qiu, Longfei, et al. “LiDO: Linearizable Byzantine Distributed Objects with Refinement-Based Liveness Proofs.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1140–64. Crossref, https://doi.org/10.1145/3656423."
+  },
+  {
+    "doi": "10.1145/3656402",
+    "title": "VESTA: Power Modeling with Language Runtime Events.",
+    "venue": "pldi 2024",
+    "citation": "Raskind, Joseph, et al. “VESTA: Power Modeling with Language Runtime Events.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 621–46. Crossref, https://doi.org/10.1145/3656402."
+  },
+  {
+    "doi": "10.1145/3656395",
+    "title": "Floating-Point TVPI Abstract Domain.",
+    "venue": "pldi 2024",
+    "citation": "Rivera, Joao, et al. “Floating-Point TVPI Abstract Domain.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 442–66. Crossref, https://doi.org/10.1145/3656395."
+  },
+  {
+    "doi": "10.1145/3656388",
+    "title": "Compilation of Qubit Circuits to Optimized Qutrit Circuits.",
+    "venue": "pldi 2024",
+    "citation": "Sharma, Ritvik, and Sara Achour. “Compilation of Qubit Circuits to Optimized Qutrit Circuits.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 272–95. Crossref, https://doi.org/10.1145/3656388."
+  },
+  {
+    "doi": "10.1145/3656413",
+    "title": "Quiver: Guided Abductive Inference of Separation Logic Specifications in Coq.",
+    "venue": "pldi 2024",
+    "citation": "Spies, Simon, et al. “Quiver: Guided Abductive Inference of Separation Logic Specifications in Coq.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 889–913. Crossref, https://doi.org/10.1145/3656413."
+  },
+  {
+    "doi": "10.1145/3656399",
+    "title": "Compositional Semantics for Shared-Variable Concurrency.",
+    "venue": "pldi 2024",
+    "citation": "Svyatlovskiy, Mikhail, et al. “Compositional Semantics for Shared-Variable Concurrency.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 543–66. Crossref, https://doi.org/10.1145/3656399."
+  },
+  {
+    "doi": "10.1145/3656404",
+    "title": "Refined Input, Degraded Output: The Counterintuitive World of Compiler Behavior.",
+    "venue": "pldi 2024",
+    "citation": "Theodoridis, Theodoros, and Zhendong Su. “Refined Input, Degraded Output: The Counterintuitive World of Compiler Behavior.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 671–91. Crossref, https://doi.org/10.1145/3656404."
+  },
+  {
+    "doi": "10.1145/3656457",
+    "title": "Inductive Approach to Spacer.",
+    "venue": "pldi 2024",
+    "citation": "Tsukada, Takeshi, and Hiroshi Unno. “Inductive Approach to Spacer.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1979–2002. Crossref, https://doi.org/10.1145/3656457."
+  },
+  {
+    "doi": "10.1145/3656418",
+    "title": "From Batch to Stream: Automatic Generation of Online Algorithms.",
+    "venue": "pldi 2024",
+    "citation": "Wang, Ziteng, et al. “From Batch to Stream: Automatic Generation of Online Algorithms.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1014–39. Crossref, https://doi.org/10.1145/3656418."
+  },
+  {
+    "doi": "10.1145/3656432",
+    "title": "Static Posterior Inference of Bayesian Probabilistic Programming via Polynomial Solving.",
+    "venue": "pldi 2024",
+    "citation": "Wang, Peixin, et al. “Static Posterior Inference of Bayesian Probabilistic Programming via Polynomial Solving.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1361–86. Crossref, https://doi.org/10.1145/3656432."
+  },
+  {
+    "doi": "10.1145/3656416",
+    "title": "Consolidating Smart Contracts with Behavioral Contracts.",
+    "venue": "pldi 2024",
+    "citation": "Wei, Guannan, et al. “Consolidating Smart Contracts with Behavioral Contracts.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 965–89. Crossref, https://doi.org/10.1145/3656416."
+  },
+  {
+    "doi": "10.1145/3656417",
+    "title": "Scaling Type-Based Points-to Analysis with Saturation.",
+    "venue": "pldi 2024",
+    "citation": "Wimmer, Christian, et al. “Scaling Type-Based Points-to Analysis with Saturation.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 990–1013. Crossref, https://doi.org/10.1145/3656417."
+  },
+  {
+    "doi": "10.1145/3656400",
+    "title": "Falcon: A Fused Approach to Path-Sensitive Sparse Data Dependence Analysis.",
+    "venue": "pldi 2024",
+    "citation": "Yao, Peisen, et al. “Falcon: A Fused Approach to Path-Sensitive Sparse Data Dependence Analysis.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 567–92. Crossref, https://doi.org/10.1145/3656400."
+  },
+  {
+    "doi": "10.1145/3656443",
+    "title": "Compatible Branch Coverage Driven Symbolic Execution for Efficient Bug Finding.",
+    "venue": "pldi 2024",
+    "citation": "Yi, Qiuping, et al. “Compatible Branch Coverage Driven Symbolic Execution for Efficient Bug Finding.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1633–55. Crossref, https://doi.org/10.1145/3656443."
+  },
+  {
+    "doi": "10.1145/3656440",
+    "title": "Bringing the WebAssembly Standard up to Speed with SpecTec.",
+    "venue": "pldi 2024",
+    "citation": "Youn, Dongjun, et al. “Bringing the WebAssembly Standard up to Speed with SpecTec.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1559–84. Crossref, https://doi.org/10.1145/3656440."
+  },
+  {
+    "doi": "10.1145/3656397",
+    "title": "The T-Complexity Costs of Error Correction for Control Flow in Quantum Computation.",
+    "venue": "pldi 2024",
+    "citation": "Yuan, Charles, and Michael Carbin. “The T-Complexity Costs of Error Correction for Control Flow in Quantum Computation.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 492–517. Crossref, https://doi.org/10.1145/3656397."
+  },
+  {
+    "doi": "10.1145/3656408",
+    "title": "Automated Verification of Fundamental Algebraic Laws.",
+    "venue": "pldi 2024",
+    "citation": "Zakhour, George, et al. “Automated Verification of Fundamental Algebraic Laws.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 766–89. Crossref, https://doi.org/10.1145/3656408."
+  },
+  {
+    "doi": "10.1145/3656426",
+    "title": "Compilation of Modular and General Sparse Workspaces.",
+    "venue": "pldi 2024",
+    "citation": "Zhang, Genghan, et al. “Compilation of Modular and General Sparse Workspaces.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1213–38. Crossref, https://doi.org/10.1145/3656426."
+  },
+  {
+    "doi": "10.1145/3656433",
+    "title": "A HAT Trick: Automatically Verifying Representation Invariants using Symbolic Finite Automata.",
+    "venue": "pldi 2024",
+    "citation": "Zhou, Zhe, et al. “A HAT Trick: Automatically Verifying Representation Invariants Using Symbolic Finite Automata.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1387–411. Crossref, https://doi.org/10.1145/3656433."
+  },
+  {
+    "doi": "10.1145/3689719",
+    "title": "SMT2Test: From SMT Formulas to Effective Test Cases.",
+    "venue": "oopsla 2024",
+    "citation": "Zhang, Chengyu, and Zhendong Su. “SMT2Test: From SMT Formulas to Effective Test Cases.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 222–45. Crossref, https://doi.org/10.1145/3689719."
+  },
+  {
+    "doi": "10.1145/3689774",
+    "title": "AUTOMAP: Inferring Rank-Polymorphic Function Applications with Integer Linear Programming.",
+    "venue": "oopsla 2024",
+    "citation": "Schenck, Robert, et al. “AUTOMAP: Inferring Rank-Polymorphic Function Applications with Integer Linear Programming.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1787–813. Crossref, https://doi.org/10.1145/3689774."
+  },
+  {
+    "doi": "10.1145/3689742",
+    "title": "Plume: Efficient and Complete Black-Box Checking of Weak Isolation Levels.",
+    "venue": "oopsla 2024",
+    "citation": "Liu, Si, et al. “Plume: Efficient and Complete Black-Box Checking of Weak Isolation Levels.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 876–904. Crossref, https://doi.org/10.1145/3689742."
+  },
+  {
+    "doi": "10.1145/3689766",
+    "title": "Minotaur: A SIMD-Oriented Synthesizing Superoptimizer.",
+    "venue": "oopsla 2024",
+    "citation": "Liu, Zhengyang, et al. “Minotaur: A SIMD-Oriented Synthesizing Superoptimizer.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1561–85. Crossref, https://doi.org/10.1145/3689766."
+  },
+  {
+    "doi": "10.1145/3689711",
+    "title": "VarLifter: Recovering Variables and Types from Bytecode of Solidity Smart Contracts.",
+    "venue": "oopsla 2024",
+    "citation": "Li, Yichuan, et al. “VarLifter: Recovering Variables and Types from Bytecode of Solidity Smart Contracts.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1–29. Crossref, https://doi.org/10.1145/3689711."
+  },
+  {
+    "doi": "10.1145/3649819",
+    "title": "HOL4P4: Mechanized Small-Step Semantics for P4.",
+    "venue": "oopsla 2024",
+    "citation": "Alshnakat, Anoud, et al. “HOL4P4: Mechanized Small-Step Semantics for P4.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 223–49. Crossref, https://doi.org/10.1145/3649819."
+  },
+  {
+    "doi": "10.1145/3689798",
+    "title": "Effect Handlers for C via Coroutines.",
+    "venue": "oopsla 2024",
+    "citation": "Alvarez-Picallo, Mario, et al. “Effect Handlers for C via Coroutines.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 2462–89. Crossref, https://doi.org/10.1145/3689798."
+  },
+  {
+    "doi": "10.1145/3689781",
+    "title": "Semantics of Remote Direct Memory Access: Operational and Declarative Models of RDMA on TSO Architectures.",
+    "venue": "oopsla 2024",
+    "citation": "Ambal, Guillaume, et al. “Semantics of Remote Direct Memory Access: Operational and Declarative Models of RDMA on TSO Architectures.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1982–2009. Crossref, https://doi.org/10.1145/3689781."
+  },
+  {
+    "doi": "10.1145/3649839",
+    "title": "Hopping Proofs of Expectation-Based Properties: Applications to Skiplists and Security Proofs.",
+    "venue": "oopsla 2024",
+    "citation": "Avanzini, Martin, et al. “Hopping Proofs of Expectation-Based Properties: Applications to Skiplists and Security Proofs.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 784–809. Crossref, https://doi.org/10.1145/3649839."
+  },
+  {
+    "doi": "10.1145/3689787",
+    "title": "Wasm-R3: Record-Reduce-Replay for Realistic and Standalone WebAssembly Benchmarks.",
+    "venue": "oopsla 2024",
+    "citation": "Baek, Doehyun, et al. “Wasm-R3: Record-Reduce-Replay for Realistic and Standalone WebAssembly Benchmarks.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 2156–82. Crossref, https://doi.org/10.1145/3689787."
+  },
+  {
+    "doi": "10.1145/3689754",
+    "title": "Making Formulog Fast: An Argument for Unconventional Datalog Evaluation.",
+    "venue": "oopsla 2024",
+    "citation": "Bembenek, Aaron, et al. “Making Formulog Fast: An Argument for Unconventional Datalog Evaluation.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1219–48. Crossref, https://doi.org/10.1145/3689754."
+  },
+  {
+    "doi": "10.1145/3649846",
+    "title": "Deriving Dependently-Typed OOP from First Principles.",
+    "venue": "oopsla 2024",
+    "citation": "Binder, David, et al. “Deriving Dependently-Typed OOP from First Principles.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 983–1009. Crossref, https://doi.org/10.1145/3649846."
+  },
+  {
+    "doi": "10.1145/3689747",
+    "title": "On the Expressive Power of Languages for Static Variability.",
+    "venue": "oopsla 2024",
+    "citation": "Bittner, Paul Maximilian, et al. “On the Expressive Power of Languages for Static Variability.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1018–50. Crossref, https://doi.org/10.1145/3689747."
+  },
+  {
+    "doi": "10.1145/3649818",
+    "title": "Fulfilling OCaml Modules with Transparency.",
+    "venue": "oopsla 2024",
+    "citation": "Clement, Blaudeau, et al. “Fulfilling OCaml Modules with Transparency.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 194–222. Crossref, https://doi.org/10.1145/3649818."
+  },
+  {
+    "doi": "10.1145/3689728",
+    "title": "Statically Contextualizing Large Language Models with Typed Holes.",
+    "venue": "oopsla 2024",
+    "citation": "Blinn, Andrew, et al. “Statically Contextualizing Large Language Models with Typed Holes.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 468–98. Crossref, https://doi.org/10.1145/3689728."
+  },
+  {
+    "doi": "10.1145/3689779",
+    "title": "Reward Augmentation in Reinforcement Learning for Testing Distributed Systems.",
+    "venue": "oopsla 2024",
+    "citation": "Borgarelli, Andrea, et al. “Reward Augmentation in Reinforcement Learning for Testing Distributed Systems.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1928–54. Crossref, https://doi.org/10.1145/3689779."
+  },
+  {
+    "doi": "10.1145/3689751",
+    "title": "Gradient: Gradual Compartmentalization via Object Capabilities Tracked in Types.",
+    "venue": "oopsla 2024",
+    "citation": "Boruch-Gruszecki, Aleksander, et al. “Gradient: Gradual Compartmentalization via Object Capabilities Tracked in Types.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1135–61. Crossref, https://doi.org/10.1145/3689751."
+  },
+  {
+    "doi": "10.1145/3689717",
+    "title": "A Low-Level Look at A-Normal Form.",
+    "venue": "oopsla 2024",
+    "citation": "Bowman, William J. “A Low-Level Look at A-Normal Form.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 165–91. Crossref, https://doi.org/10.1145/3689717."
+  },
+  {
+    "doi": "10.1145/3689743",
+    "title": "Computing Precise Control Interface Specifications.",
+    "venue": "oopsla 2024",
+    "citation": "Campbell, Eric Hayden, et al. “Computing Precise Control Interface Specifications.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 905–34. Crossref, https://doi.org/10.1145/3689743."
+  },
+  {
+    "doi": "10.1145/3689786",
+    "title": "Type Inference Logics.",
+    "venue": "oopsla 2024",
+    "citation": "Carnier, Denis, et al. “Type Inference Logics.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 2125–55. Crossref, https://doi.org/10.1145/3689786."
+  },
+  {
+    "doi": "10.1145/3689735",
+    "title": "Knowledge Transfer from High-Resource to Low-Resource Programming Languages for Code LLMs.",
+    "venue": "oopsla 2024",
+    "citation": "Cassano, Federico, et al. “Knowledge Transfer from High-Resource to Low-Resource Programming Languages for Code LLMs.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 677–708. Crossref, https://doi.org/10.1145/3689735."
+  },
+  {
+    "doi": "10.1145/3649830",
+    "title": "Inductive Diagrams for Causal Reasoning.",
+    "venue": "oopsla 2024",
+    "citation": "Castello, Jonathan, et al. “Inductive Diagrams for Causal Reasoning.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 529–54. Crossref, https://doi.org/10.1145/3649830."
+  },
+  {
+    "doi": "10.1145/3649824",
+    "title": "Quantitative Bounds on Resource Usage of Probabilistic Programs.",
+    "venue": "oopsla 2024",
+    "citation": "Chatterjee, Krishnendu, et al. “Quantitative Bounds on Resource Usage of Probabilistic Programs.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 362–91. Crossref, https://doi.org/10.1145/3649824."
+  },
+  {
+    "doi": "10.1145/3689741",
+    "title": "CoolerSpace: A Language for Physically Correct and Computationally Efficient Color Programming.",
+    "venue": "oopsla 2024",
+    "citation": "Chen, Ethan, et al. “CoolerSpace: A Language for Physically Correct and Computationally Efficient Color Programming.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 846–75. Crossref, https://doi.org/10.1145/3689741."
+  },
+  {
+    "doi": "10.1145/3649829",
+    "title": "Evaluating the Effectiveness of Deep Learning Models for Foundational Program Analysis Tasks.",
+    "venue": "oopsla 2024",
+    "citation": "Chen, Qian, et al. “Evaluating the Effectiveness of Deep Learning Models for Foundational Program Analysis Tasks.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 500–28. Crossref, https://doi.org/10.1145/3649829."
+  },
+  {
+    "doi": "10.1145/3649834",
+    "title": "Design and Implementation of an Aspect-Oriented C Programming Language.",
+    "venue": "oopsla 2024",
+    "citation": "Chen, Zhe, et al. “Design and Implementation of an Aspect-Oriented C Programming Language.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 642–69. Crossref, https://doi.org/10.1145/3649834."
+  },
+  {
+    "doi": "10.1145/3689746",
+    "title": "The Ultimate Conditional Syntax.",
+    "venue": "oopsla 2024",
+    "citation": "Cheng, Luyu, and Lionel Parreaux. “The Ultimate Conditional Syntax.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 988–1017. Crossref, https://doi.org/10.1145/3689746."
+  },
+  {
+    "doi": "10.1145/3689761",
+    "title": "Finding ∀∃ Hyperbugs using Symbolic Execution.",
+    "venue": "oopsla 2024",
+    "citation": "Correnson, Arthur, et al. “Finding ∀∃ Hyperbugs Using Symbolic Execution.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1420–45. Crossref, https://doi.org/10.1145/3689761."
+  },
+  {
+    "doi": "10.1145/3689723",
+    "title": "libLISA: Instruction Discovery and Analysis on x86-64.",
+    "venue": "oopsla 2024",
+    "citation": "Craaijo, Jos, et al. “libLISA: Instruction Discovery and Analysis on X86-64.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 333–61. Crossref, https://doi.org/10.1145/3689723."
+  },
+  {
+    "doi": "10.1145/3649812",
+    "title": "Profiling Programming Language Learning.",
+    "venue": "oopsla 2024",
+    "citation": "Crichton, Will, and Shriram Krishnamurthi. “Profiling Programming Language Learning.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 29–54. Crossref, https://doi.org/10.1145/3649812."
+  },
+  {
+    "doi": "10.1145/3649835",
+    "title": "Cedar: A New Language for Expressive, Fast, Safe, and Analyzable Authorization.",
+    "venue": "oopsla 2024",
+    "citation": "Cutler, Joseph W., et al. “Cedar: A New Language for Expressive, Fast, Safe, and Analyzable Authorization.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 670–97. Crossref, https://doi.org/10.1145/3649835."
+  },
+  {
+    "doi": "10.1145/3689738",
+    "title": "Automatically Reducing Privilege for Access Control Policies.",
+    "venue": "oopsla 2024",
+    "citation": "D’Antoni, Loris, et al. “Automatically Reducing Privilege for Access Control Policies.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 763–90. Crossref, https://doi.org/10.1145/3689738."
+  },
+  {
+    "doi": "10.1145/3689756",
+    "title": "Hypra: A Deductive Program Verifier for Hyper Hoare Logic.",
+    "venue": "oopsla 2024",
+    "citation": "Dardinier, Thibault, et al. “Hypra: A Deductive Program Verifier for Hyper Hoare Logic.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1279–308. Crossref, https://doi.org/10.1145/3689756."
+  },
+  {
+    "doi": "10.1145/3689730",
+    "title": "SparseAuto: An Auto-scheduler for Sparse Tensor Computations using Recursive Loop Nest Restructuring.",
+    "venue": "oopsla 2024",
+    "citation": "Dias, Adhitha, et al. “SparseAuto: An Auto-Scheduler for Sparse Tensor Computations Using Recursive Loop Nest Restructuring.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 527–56. Crossref, https://doi.org/10.1145/3689730."
+  },
+  {
+    "doi": "10.1145/3689759",
+    "title": "MEA2: A Lightweight Field-Sensitive Escape Analysis with Points-to Calculation for Golang.",
+    "venue": "oopsla 2024",
+    "citation": "Ding, Boyao, et al. “MEA2: A Lightweight Field-Sensitive Escape Analysis with Points-to Calculation for Golang.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1362–89. Crossref, https://doi.org/10.1145/3689759."
+  },
+  {
+    "doi": "10.1145/3649825",
+    "title": "CYCLE: Learning to Self-Refine the Code Generation.",
+    "venue": "oopsla 2024",
+    "citation": "Ding, Yangruibo, et al. “CYCLE: Learning to Self-Refine the Code Generation.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 392–418. Crossref, https://doi.org/10.1145/3649825."
+  },
+  {
+    "doi": "10.1145/3689799",
+    "title": "When Your Infrastructure Is a Buggy Program: Understanding Faults in Infrastructure as Code Ecosystems.",
+    "venue": "oopsla 2024",
+    "citation": "Drosos, Georgios-Petros, et al. “When Your Infrastructure Is a Buggy Program: Understanding Faults in Infrastructure as Code Ecosystems.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 2490–520. Crossref, https://doi.org/10.1145/3689799."
+  },
+  {
+    "doi": "10.1145/3689778",
+    "title": "Model Checking Distributed Protocols in Must.",
+    "venue": "oopsla 2024",
+    "citation": "Enea, Constantin, et al. “Model Checking Distributed Protocols in Must.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1900–27. Crossref, https://doi.org/10.1145/3689778."
+  },
+  {
+    "doi": "10.1145/3649857",
+    "title": "Scenario-Based Proofs for Concurrent Objects.",
+    "venue": "oopsla 2024",
+    "citation": "Enea, Constantin, and Eric Koskinen. “Scenario-Based Proofs for Concurrent Objects.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 1294–323. Crossref, https://doi.org/10.1145/3649857."
+  },
+  {
+    "doi": "10.1145/3689772",
+    "title": "A Runtime System for Interruptible Query Processing: When Incremental Computing Meets Fine-Grained Parallelism.",
+    "venue": "oopsla 2024",
+    "citation": "Eymer, Jeff, et al. “A Runtime System for Interruptible Query Processing: When Incremental Computing Meets Fine-Grained Parallelism.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1729–56. Crossref, https://doi.org/10.1145/3689772."
+  },
+  {
+    "doi": "10.1145/3689727",
+    "title": "Mix Testing: Specifying and Testing ABI Compatibility of C/C++ Atomics Implementations.",
+    "venue": "oopsla 2024",
+    "citation": "Geeson, Luke, et al. “Mix Testing: Specifying and Testing ABI Compatibility of C/C++ Atomics Implementations.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 442–67. Crossref, https://doi.org/10.1145/3689727."
+  },
+  {
+    "doi": "10.1145/3649842",
+    "title": "Gradually Typed Languages Should Be Vigilant!",
+    "venue": "oopsla 2024",
+    "citation": "Gierczak, Olek, et al. “Gradually Typed Languages Should Be Vigilant!” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 864–92. Crossref, https://doi.org/10.1145/3649842."
+  },
+  {
+    "doi": "10.1145/3689771",
+    "title": "HybridSA: GPU Acceleration of Multi-pattern Regex Matching using Bit Parallelism.",
+    "venue": "oopsla 2024",
+    "citation": "Le Glaunec, Alexis, et al. “HybridSA: GPU Acceleration of Multi-Pattern Regex Matching Using Bit Parallelism.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1699–728. Crossref, https://doi.org/10.1145/3689771."
+  },
+  {
+    "doi": "10.1145/3689801",
+    "title": "Fast and Optimal Extraction for Sparse Equality Graphs.",
+    "venue": "oopsla 2024",
+    "citation": "Goharshady, Amir Kafshdar, et al. “Fast and Optimal Extraction for Sparse Equality Graphs.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 2551–77. Crossref, https://doi.org/10.1145/3689801."
+  },
+  {
+    "doi": "10.1145/3689796",
+    "title": "Practical Verification of Smart Contracts using Memory Splitting.",
+    "venue": "oopsla 2024",
+    "citation": "Grossman, Shelly, et al. “Practical Verification of Smart Contracts Using Memory Splitting.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 2402–33. Crossref, https://doi.org/10.1145/3689796."
+  },
+  {
+    "doi": "10.1145/3689758",
+    "title": "Semantics Lifting for Syntactic Sugar.",
+    "venue": "oopsla 2024",
+    "citation": "Guan, Zhichao, et al. “Semantics Lifting for Syntactic Sugar.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1336–61. Crossref, https://doi.org/10.1145/3689758."
+  },
+  {
+    "doi": "10.1145/3689803",
+    "title": "The ART of Sharing Points-to Analysis: Reusing Points-to Analysis Results Safely and Efficiently.",
+    "venue": "oopsla 2024",
+    "citation": "Halalingaiah, Shashin, et al. “The ART of Sharing Points-to Analysis: Reusing Points-to Analysis Results Safely and Efficiently.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 2606–32. Crossref, https://doi.org/10.1145/3689803."
+  },
+  {
+    "doi": "10.1145/3689753",
+    "title": "Tachis: Higher-Order Separation Logic with Credits for Expected Costs.",
+    "venue": "oopsla 2024",
+    "citation": "Haselwarter, Philipp G., et al. “Tachis: Higher-Order Separation Logic with Credits for Expected Costs.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1189–218. Crossref, https://doi.org/10.1145/3689753."
+  },
+  {
+    "doi": "10.1145/3649849",
+    "title": "VeriEQL: Bounded Equivalence Verification for Complex SQL Queries with Integrity Constraints.",
+    "venue": "oopsla 2024",
+    "citation": "He, Yang, et al. “VeriEQL: Bounded Equivalence Verification for Complex SQL Queries with Integrity Constraints.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 1071–99. Crossref, https://doi.org/10.1145/3649849."
+  },
+  {
+    "doi": "10.1145/3689762",
+    "title": "Multris: Functional Verification of Multiparty Message Passing in Separation Logic.",
+    "venue": "oopsla 2024",
+    "citation": "Hinrichsen, Jonas Kastberg, et al. “Multris: Functional Verification of Multiparty Message Passing in Separation Logic.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1446–74. Crossref, https://doi.org/10.1145/3689762."
+  },
+  {
+    "doi": "10.1145/3649826",
+    "title": "AdoB: Bridging Benign and Byzantine Consensus with Atomic Distributed Objects.",
+    "venue": "oopsla 2024",
+    "citation": "Honoré, Wolf, et al. “AdoB: Bridging Benign and Byzantine Consensus with Atomic Distributed Objects.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 419–48. Crossref, https://doi.org/10.1145/3649826."
+  },
+  {
+    "doi": "10.1145/3689731",
+    "title": "Quantum Probabilistic Model Checking for Time-Bounded Properties.",
+    "venue": "oopsla 2024",
+    "citation": "Jeon, Seungmin, et al. “Quantum Probabilistic Model Checking for Time-Bounded Properties.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 557–87. Crossref, https://doi.org/10.1145/3689731."
+  },
+  {
+    "doi": "10.1145/3689744",
+    "title": "Automating Pruning in Top-Down Enumeration for Program Synthesis Problems with Monotonic Semantics.",
+    "venue": "oopsla 2024",
+    "citation": "Johnson, Keith J. C., et al. “Automating Pruning in Top-Down Enumeration for Program Synthesis Problems with Monotonic Semantics.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 935–61. Crossref, https://doi.org/10.1145/3689744."
+  },
+  {
+    "doi": "10.1145/3689737",
+    "title": "HiPy: Extracting High-Level Semantics from Python Code for Data Processing.",
+    "venue": "oopsla 2024",
+    "citation": "Jungmair, Michael, et al. “HiPy: Extracting High-Level Semantics from Python Code for Data Processing.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 736–62. Crossref, https://doi.org/10.1145/3689737."
+  },
+  {
+    "doi": "10.1145/3649847",
+    "title": "Verification of Neural Networks&apos; Global Robustness.",
+    "venue": "oopsla 2024",
+    "citation": "Kabaha, Anan, and Dana Drachsler Cohen. “Verification of Neural Networks’ Global Robustness.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 1010–39. Crossref, https://doi.org/10.1145/3649847."
+  },
+  {
+    "doi": "10.1145/3689716",
+    "title": "Statistical Testing of Quantum Programs via Fixed-Point Amplitude Amplification.",
+    "venue": "oopsla 2024",
+    "citation": "Kang, Chan Gu, et al. “Statistical Testing of Quantum Programs via Fixed-Point Amplitude Amplification.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 140–64. Crossref, https://doi.org/10.1145/3689716."
+  },
+  {
+    "doi": "10.1145/3649859",
+    "title": "Message-Observing Sessions.",
+    "venue": "oopsla 2024",
+    "citation": "Kavanagh, Ryan, and Brigitte Pientka. “Message-Observing Sessions.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 1351–79. Crossref, https://doi.org/10.1145/3649859."
+  },
+  {
+    "doi": "10.1145/3689790",
+    "title": "Unifying Static and Dynamic Intermediate Languages for Accelerator Generators.",
+    "venue": "oopsla 2024",
+    "citation": "Kim, Caleb, et al. “Unifying Static and Dynamic Intermediate Languages for Accelerator Generators.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 2242–67. Crossref, https://doi.org/10.1145/3689790."
+  },
+  {
+    "doi": "10.1145/3649844",
+    "title": "Exact Bayesian Inference for Loopy Probabilistic Programs using Generating Functions.",
+    "venue": "oopsla 2024",
+    "citation": "Klinkenberg, Lutz, et al. “Exact Bayesian Inference for Loopy Probabilistic Programs Using Generating Functions.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 923–53. Crossref, https://doi.org/10.1145/3649844."
+  },
+  {
+    "doi": "10.1145/3689713",
+    "title": "Object-Oriented Fixpoint Programming with Datalog.",
+    "venue": "oopsla 2024",
+    "citation": "Klopp, David, et al. “Object-Oriented Fixpoint Programming with Datalog.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 60–86. Crossref, https://doi.org/10.1145/3689713."
+  },
+  {
+    "doi": "10.1145/3689767",
+    "title": "A Typed Multi-level Datalog IR and Its Compiler Framework.",
+    "venue": "oopsla 2024",
+    "citation": "Klopp, David, et al. “A Typed Multi-Level Datalog IR and Its Compiler Framework.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1586–614. Crossref, https://doi.org/10.1145/3689767."
+  },
+  {
+    "doi": "10.1145/3649836",
+    "title": "Persimmon: Nested Family Polymorphism with Extensible Variant Types.",
+    "venue": "oopsla 2024",
+    "citation": "Kravchuk-Kirilyuk, Anastasiya, et al. “Persimmon: Nested Family Polymorphism with Extensible Variant Types.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 698–724. Crossref, https://doi.org/10.1145/3649836."
+  },
+  {
+    "doi": "10.1145/3649817",
+    "title": "Cocoon: Static Information Flow Control in Rust.",
+    "venue": "oopsla 2024",
+    "citation": "Lamba, Ada, et al. “Cocoon: Static Information Flow Control in Rust.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 166–93. Crossref, https://doi.org/10.1145/3649817."
+  },
+  {
+    "doi": "10.1145/3689775",
+    "title": "Concurrent Data Structures Made Easy.",
+    "venue": "oopsla 2024",
+    "citation": "Le, Callista, et al. “Concurrent Data Structures Made Easy.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1814–42. Crossref, https://doi.org/10.1145/3689775."
+  },
+  {
+    "doi": "10.1145/3649832",
+    "title": "Qualifying System F&lt;: Some Terms and Conditions May Apply.",
+    "venue": "oopsla 2024",
+    "citation": "Lee, Edward, et al. “Qualifying System F&lt;:: Some Terms and Conditions May Apply.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 583–612. Crossref, https://doi.org/10.1145/3649832."
+  },
+  {
+    "doi": "10.1145/3689722",
+    "title": "Iris-MSWasm: Elucidating and Mechanising the Security Invariants of Memory-Safe WebAssembly.",
+    "venue": "oopsla 2024",
+    "citation": "Legoupil, Maxime, et al. “Iris-MSWasm: Elucidating and Mechanising the Security Invariants of Memory-Safe WebAssembly.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 304–32. Crossref, https://doi.org/10.1145/3689722."
+  },
+  {
+    "doi": "10.1145/3649828",
+    "title": "Enhancing Static Analysis for Practical Bug Detection: An LLM-Integrated Approach.",
+    "venue": "oopsla 2024",
+    "citation": "Li, Haonan, et al. “Enhancing Static Analysis for Practical Bug Detection: An LLM-Integrated Approach.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 474–99. Crossref, https://doi.org/10.1145/3649828."
+  },
+  {
+    "doi": "10.1145/3689776",
+    "title": "Drowzee: Metamorphic Testing for Fact-Conflicting Hallucination Detection in Large Language Models.",
+    "venue": "oopsla 2024",
+    "citation": "Li, Ningke, et al. “Drowzee: Metamorphic Testing for Fact-Conflicting Hallucination Detection in Large Language Models.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1843–72. Crossref, https://doi.org/10.1145/3689776."
+  },
+  {
+    "doi": "10.1145/3649831",
+    "title": "Quarl: A Learning-Based Quantum Circuit Optimizer.",
+    "venue": "oopsla 2024",
+    "citation": "Li, Zikun, et al. “Quarl: A Learning-Based Quantum Circuit Optimizer.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 555–82. Crossref, https://doi.org/10.1145/3649831."
+  },
+  {
+    "doi": "10.1145/3689804",
+    "title": "Boosting the Performance of Alias-Aware IFDS Analysis with CFL-Based Environment Transformers.",
+    "venue": "oopsla 2024",
+    "citation": "Li, Haofeng, et al. “Boosting the Performance of Alias-Aware IFDS Analysis with CFL-Based Environment Transformers.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 2633–61. Crossref, https://doi.org/10.1145/3689804."
+  },
+  {
+    "doi": "10.1145/3649858",
+    "title": "Mechanizing the CMP Abstraction for Parameterized Verification.",
+    "venue": "oopsla 2024",
+    "citation": "Li, Yongjian, et al. “Mechanizing the CMP Abstraction for Parameterized Verification.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 1324–50. Crossref, https://doi.org/10.1145/3649858."
+  },
+  {
+    "doi": "10.1145/3689797",
+    "title": "Sound and Partially-Complete Static Analysis of Data-Races in GPU Programs.",
+    "venue": "oopsla 2024",
+    "citation": "Liew, Dennis, et al. “Sound and Partially-Complete Static Analysis of Data-Races in GPU Programs.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 2434–61. Crossref, https://doi.org/10.1145/3689797."
+  },
+  {
+    "doi": "10.1145/3689729",
+    "title": "FlowCert: Translation Validation for Asynchronous Dataflow via Dynamic Fractional Permissions.",
+    "venue": "oopsla 2024",
+    "citation": "Lin, Zhengyao, et al. “FlowCert: Translation Validation for Asynchronous Dataflow via Dynamic Fractional Permissions.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 499–526. Crossref, https://doi.org/10.1145/3689729."
+  },
+  {
+    "doi": "10.1145/3689724",
+    "title": "Synthesizing Formal Semantics from Executable Interpreters.",
+    "venue": "oopsla 2024",
+    "citation": "Liu, Jiangyi, et al. “Synthesizing Formal Semantics from Executable Interpreters.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 362–88. Crossref, https://doi.org/10.1145/3689724."
+  },
+  {
+    "doi": "10.1145/3689721",
+    "title": "Compiler Support for Sparse Tensor Convolutions.",
+    "venue": "oopsla 2024",
+    "citation": "Liu, Peiming, et al. “Compiler Support for Sparse Tensor Convolutions.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 275–303. Crossref, https://doi.org/10.1145/3689721."
+  },
+  {
+    "doi": "10.1145/3649816",
+    "title": "UniSparse: An Intermediate Language for General Sparse Format Customization.",
+    "venue": "oopsla 2024",
+    "citation": "Liu, Jie, et al. “UniSparse: An Intermediate Language for General Sparse Format Customization.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 137–65. Crossref, https://doi.org/10.1145/3649816."
+  },
+  {
+    "doi": "10.1145/3649860",
+    "title": "Understanding and Finding Java Decompiler Bugs.",
+    "venue": "oopsla 2024",
+    "citation": "Lu, Yifei, et al. “Understanding and Finding Java Decompiler Bugs.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 1380–406. Crossref, https://doi.org/10.1145/3649860."
+  },
+  {
+    "doi": "10.1145/3649823",
+    "title": "Identifying and Correcting Programming Language Behavior Misconceptions.",
+    "venue": "oopsla 2024",
+    "citation": "Lu, Kuang-Chen, and Shriram Krishnamurthi. “Identifying and Correcting Programming Language Behavior Misconceptions.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 334–61. Crossref, https://doi.org/10.1145/3649823."
+  },
+  {
+    "doi": "10.1145/3689770",
+    "title": "Lexical Effect Handlers, Directly.",
+    "venue": "oopsla 2024",
+    "citation": "Ma, Cong, et al. “Lexical Effect Handlers, Directly.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1670–98. Crossref, https://doi.org/10.1145/3689770."
+  },
+  {
+    "doi": "10.1145/3689789",
+    "title": "Control-Flow Deobfuscation using Trace-Informed Compositional Program Synthesis.",
+    "venue": "oopsla 2024",
+    "citation": "Mariano, Benjamin, et al. “Control-Flow Deobfuscation Using Trace-Informed Compositional Program Synthesis.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 2211–41. Crossref, https://doi.org/10.1145/3689789."
+  },
+  {
+    "doi": "10.1145/3649848",
+    "title": "Functional Ownership through Fractional Uniqueness.",
+    "venue": "oopsla 2024",
+    "citation": "Marshall, Daniel, and Dominic Orchard. “Functional Ownership through Fractional Uniqueness.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 1040–70. Crossref, https://doi.org/10.1145/3649848."
+  },
+  {
+    "doi": "10.1145/3649843",
+    "title": "Distributions for Compositionally Differentiating Parametric Discontinuities.",
+    "venue": "oopsla 2024",
+    "citation": "Michel, Jesse, et al. “Distributions for Compositionally Differentiating Parametric Discontinuities.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 893–922. Crossref, https://doi.org/10.1145/3649843."
+  },
+  {
+    "doi": "10.1145/3649837",
+    "title": "Hydra: Generalizing Peephole Optimizations with Program Synthesis.",
+    "venue": "oopsla 2024",
+    "citation": "Mukherjee, Manasij, and John Regehr. “Hydra: Generalizing Peephole Optimizations with Program Synthesis.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 725–53. Crossref, https://doi.org/10.1145/3649837."
+  },
+  {
+    "doi": "10.1145/3689802",
+    "title": "Automated Robustness Verification of Concurrent Data Structure Libraries against Relaxed Memory Models.",
+    "venue": "oopsla 2024",
+    "citation": "Nagar, Kartik, et al. “Automated Robustness Verification of Concurrent Data Structure Libraries against Relaxed Memory Models.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 2578–605. Crossref, https://doi.org/10.1145/3689802."
+  },
+  {
+    "doi": "10.1145/3689715",
+    "title": "Automating Unrealizability Logic: Hoare-Style Proof Synthesis for Infinite Sets of Programs.",
+    "venue": "oopsla 2024",
+    "citation": "Nagy, Shaan, et al. “Automating Unrealizability Logic: Hoare-Style Proof Synthesis for Infinite Sets of Programs.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 113–39. Crossref, https://doi.org/10.1145/3689715."
+  },
+  {
+    "doi": "10.1145/3649841",
+    "title": "TorchQL: A Programming Framework for Integrity Constraints in Machine Learning.",
+    "venue": "oopsla 2024",
+    "citation": "Naik, Aaditya, et al. “TorchQL: A Programming Framework for Integrity Constraints in Machine Learning.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 833–63. Crossref, https://doi.org/10.1145/3649841."
+  },
+  {
+    "doi": "10.1145/3649833",
+    "title": "Forge: A Tool and Language for Teaching Formal Methods.",
+    "venue": "oopsla 2024",
+    "citation": "Nelson, Tim, et al. “Forge: A Tool and Language for Teaching Formal Methods.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 613–41. Crossref, https://doi.org/10.1145/3649833."
+  },
+  {
+    "doi": "10.1145/3689791",
+    "title": "Mark-Scavenge: Waiting for Trash to Take Itself Out.",
+    "venue": "oopsla 2024",
+    "citation": "Norlinder, Jonas, et al. “Mark–Scavenge: Waiting for Trash to Take Itself Out.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 2268–95. Crossref, https://doi.org/10.1145/3689791."
+  },
+  {
+    "doi": "10.1145/3689714",
+    "title": "Intensional Functions.",
+    "venue": "oopsla 2024",
+    "citation": "Palmer, Zachary, et al. “Intensional Functions.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 87–112. Crossref, https://doi.org/10.1145/3689714."
+  },
+  {
+    "doi": "10.1145/3649813",
+    "title": "Synthetiq: Fast and Versatile Quantum Circuit Synthesis.",
+    "venue": "oopsla 2024",
+    "citation": "Paradis, Anouk, et al. “Synthetiq: Fast and Versatile Quantum Circuit Synthesis.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 55–82. Crossref, https://doi.org/10.1145/3649813."
+  },
+  {
+    "doi": "10.1145/3689748",
+    "title": "Programmable MCMC with Soundly Composed Guide Programs.",
+    "venue": "oopsla 2024",
+    "citation": "Pham, Long, et al. “Programmable MCMC with Soundly Composed Guide Programs.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1051–80. Crossref, https://doi.org/10.1145/3689748."
+  },
+  {
+    "doi": "10.1145/3689777",
+    "title": "Monotone Procedure Summarization via Vector Addition Systems and Inductive Potentials.",
+    "venue": "oopsla 2024",
+    "citation": "Pimpalkhare, Nikhil, and Zachary Kincaid. “Monotone Procedure Summarization via Vector Addition Systems and Inductive Potentials.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1873–99. Crossref, https://doi.org/10.1145/3689777."
+  },
+  {
+    "doi": "10.1145/3689788",
+    "title": "Semantic-Type-Guided Bug Finding.",
+    "venue": "oopsla 2024",
+    "citation": "Qian, Kelvin, et al. “Semantic-Type-Guided Bug Finding.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 2183–210. Crossref, https://doi.org/10.1145/3689788."
+  },
+  {
+    "doi": "10.1145/3689720",
+    "title": "Non-termination Proving at Scale.",
+    "venue": "oopsla 2024",
+    "citation": "Raad, Azalea, et al. “Non-Termination Proving at Scale.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 246–74. Crossref, https://doi.org/10.1145/3689720."
+  },
+  {
+    "doi": "10.1145/3689725",
+    "title": "A Modal Type Theory of Expected Cost in Higher-Order Probabilistic Programs.",
+    "venue": "oopsla 2024",
+    "citation": "Rajani, Vineet, et al. “A Modal Type Theory of Expected Cost in Higher-Order Probabilistic Programs.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 389–414. Crossref, https://doi.org/10.1145/3689725."
+  },
+  {
+    "doi": "10.1145/3689773",
+    "title": "StarMalloc: Verifying a Modern, Hardened Memory Allocator.",
+    "venue": "oopsla 2024",
+    "citation": "Reitz, Antonin, et al. “StarMalloc: Verifying a Modern, Hardened Memory Allocator.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1757–86. Crossref, https://doi.org/10.1145/3689773."
+  },
+  {
+    "doi": "10.1145/3689752",
+    "title": "Compilation of Shape Operators on Sparse Arrays.",
+    "venue": "oopsla 2024",
+    "citation": "Root, Alexander J., et al. “Compilation of Shape Operators on Sparse Arrays.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1162–88. Crossref, https://doi.org/10.1145/3689752."
+  },
+  {
+    "doi": "10.1145/3649863",
+    "title": "Modeling Dynamic (De)Allocations of Local Memory for Translation Validation.",
+    "venue": "oopsla 2024",
+    "citation": "Rose, Abhishek, and Sorav Bansal. “Modeling Dynamic (De)Allocations of Local Memory for Translation Validation.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 1463–92. Crossref, https://doi.org/10.1145/3649863."
+  },
+  {
+    "doi": "10.1145/3649840",
+    "title": "Accurate Data Race Prediction in the Linux Kernel through Sparse Fourier Learning.",
+    "venue": "oopsla 2024",
+    "citation": "Ryan, Gabriel, et al. “Accurate Data Race Prediction in the Linux Kernel through Sparse Fourier Learning.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 810–32. Crossref, https://doi.org/10.1145/3649840."
+  },
+  {
+    "doi": "10.1145/3689763",
+    "title": "Law and Order for Typestate with Borrowing.",
+    "venue": "oopsla 2024",
+    "citation": "Saffrich, Hannes, et al. “Law and Order for Typestate with Borrowing.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1475–503. Crossref, https://doi.org/10.1145/3689763."
+  },
+  {
+    "doi": "10.1145/3689784",
+    "title": "Automated Verification of Parametric Channel-Based Process Communication.",
+    "venue": "oopsla 2024",
+    "citation": "Saioc, Georgian-Vlad, et al. “Automated Verification of Parametric Channel-Based Process Communication.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 2070–96. Crossref, https://doi.org/10.1145/3689784."
+  },
+  {
+    "doi": "10.1145/3649851",
+    "title": "Seneca: Taint-Based Call Graph Construction for Java Object Deserialization.",
+    "venue": "oopsla 2024",
+    "citation": "Santos, Joanna C. S., et al. “Seneca: Taint-Based Call Graph Construction for Java Object Deserialization.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 1125–53. Crossref, https://doi.org/10.1145/3649851."
+  },
+  {
+    "doi": "10.1145/3649838",
+    "title": "Multiverse Notebook: Shifting Data Scientists to Time Travelers.",
+    "venue": "oopsla 2024",
+    "citation": "Sato, Shigeyuki, and Tomoki Nakamaru. “Multiverse Notebook: Shifting Data Scientists to Time Travelers.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 754–83. Crossref, https://doi.org/10.1145/3649838."
+  },
+  {
+    "doi": "10.1145/3689769",
+    "title": "Jmvx: Fast Multi-threaded Multi-version Execution and Record-Replay for Managed Languages.",
+    "venue": "oopsla 2024",
+    "citation": "Schwartz, David, et al. “Jmvx: Fast Multi-Threaded Multi-Version Execution and Record-Replay for Managed Languages.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1641–69. Crossref, https://doi.org/10.1145/3689769."
+  },
+  {
+    "doi": "10.1145/3689805",
+    "title": "Higher-Order Model Checking of Effect-Handling Programs with Answer-Type Modification.",
+    "venue": "oopsla 2024",
+    "citation": "Sekiyama, Taro, and Hiroshi Unno. “Higher-Order Model Checking of Effect-Handling Programs with Answer-Type Modification.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 2662–91. Crossref, https://doi.org/10.1145/3689805."
+  },
+  {
+    "doi": "10.1145/3689712",
+    "title": "A Dependent Nominal Physical Type System for Static Analysis of Memory in Low Level Code.",
+    "venue": "oopsla 2024",
+    "citation": "Simonnet, Julien, et al. “A Dependent Nominal Physical Type System for Static Analysis of Memory in Low Level Code.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 30–59. Crossref, https://doi.org/10.1145/3689712."
+  },
+  {
+    "doi": "10.1145/3689760",
+    "title": "Weighted Context-Free-Language Ordered Binary Decision Diagrams.",
+    "venue": "oopsla 2024",
+    "citation": "Sistla, Meghana, et al. “Weighted Context-Free-Language Ordered Binary Decision Diagrams.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1390–419. Crossref, https://doi.org/10.1145/3689760."
+  },
+  {
+    "doi": "10.1145/3649852",
+    "title": "A Pure Demand Operational Semantics with Applications to Program Analysis.",
+    "venue": "oopsla 2024",
+    "citation": "Smith, Scott, and Robert Zhang. “A Pure Demand Operational Semantics with Applications to Program Analysis.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 1154–80. Crossref, https://doi.org/10.1145/3649852."
+  },
+  {
+    "doi": "10.1145/3689732",
+    "title": "Verified Lock-Free Session Channels with Linking.",
+    "venue": "oopsla 2024",
+    "citation": "Somers, Thomas, and Robbert Krebbers. “Verified Lock-Free Session Channels with Linking.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 588–617. Crossref, https://doi.org/10.1145/3689732."
+  },
+  {
+    "doi": "10.1145/3649855",
+    "title": "A Constraint Solving Approach to Parikh Images of Regular Languages.",
+    "venue": "oopsla 2024",
+    "citation": "Stjerna, Amanda, and Philipp Rümmer. “A Constraint Solving Approach to Parikh Images of Regular Languages.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 1235–63. Crossref, https://doi.org/10.1145/3649855."
+  },
+  {
+    "doi": "10.1145/3649820",
+    "title": "Compiling Recurrences over Dense and Sparse Arrays.",
+    "venue": "oopsla 2024",
+    "citation": "Sundram, Shiv, et al. “Compiling Recurrences over Dense and Sparse Arrays.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 250–75. Crossref, https://doi.org/10.1145/3649820."
+  },
+  {
+    "doi": "10.1145/3689733",
+    "title": "Crabtree: Rust API Test Synthesis Guided by Coverage and Type.",
+    "venue": "oopsla 2024",
+    "citation": "Takashima, Yoshiki, et al. “Crabtree: Rust API Test Synthesis Guided by Coverage and Type.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 618–47. Crossref, https://doi.org/10.1145/3689733."
+  },
+  {
+    "doi": "10.1145/3689800",
+    "title": "A Case for First-Class Environments.",
+    "venue": "oopsla 2024",
+    "citation": "Tan, Jinhao, and Bruno C. d. S. Oliveira. “A Case for First-Class Environments.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 2521–50. Crossref, https://doi.org/10.1145/3689800."
+  },
+  {
+    "doi": "10.1145/3689750",
+    "title": "Effects and Coeffects in Call-by-Push-Value.",
+    "venue": "oopsla 2024",
+    "citation": "Torczon, Cassia, et al. “Effects and Coeffects in Call-by-Push-Value.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1108–34. Crossref, https://doi.org/10.1145/3689750."
+  },
+  {
+    "doi": "10.1145/3689792",
+    "title": "Compositionality and Observational Refinement for Linearizability with Crashes.",
+    "venue": "oopsla 2024",
+    "citation": "Oliveira Vale, Arthur, et al. “Compositionality and Observational Refinement for Linearizability with Crashes.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 2296–324. Crossref, https://doi.org/10.1145/3689792."
+  },
+  {
+    "doi": "10.1145/3689785",
+    "title": "Modular Synthesis of Efficient Quantum Uncomputation.",
+    "venue": "oopsla 2024",
+    "citation": "Venev, Hristo, et al. “Modular Synthesis of Efficient Quantum Uncomputation.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 2097–124. Crossref, https://doi.org/10.1145/3689785."
+  },
+  {
+    "doi": "10.1145/3689726",
+    "title": "Sensitivity by Parametricity.",
+    "venue": "oopsla 2024",
+    "citation": "Lobo-Vesga, Elisabet, et al. “Sensitivity by Parametricity.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 415–41. Crossref, https://doi.org/10.1145/3689726."
+  },
+  {
+    "doi": "10.1145/3689749",
+    "title": "Extending the C/C++ Memory Model with Inline Assembly.",
+    "venue": "oopsla 2024",
+    "citation": "de Vilhena, Paulo Emílio, et al. “Extending the C/C++ Memory Model with Inline Assembly.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1081–107. Crossref, https://doi.org/10.1145/3689749."
+  },
+  {
+    "doi": "10.1145/3689755",
+    "title": "Realistic Realizability: Specifying ABIs You Can Count On.",
+    "venue": "oopsla 2024",
+    "citation": "Wagner, Andrew, et al. “Realistic Realizability: Specifying ABIs You Can Count On.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1249–78. Crossref, https://doi.org/10.1145/3689755."
+  },
+  {
+    "doi": "10.1145/3689780",
+    "title": "Rustlantis: Randomized Differential Testing of the Rust Compiler.",
+    "venue": "oopsla 2024",
+    "citation": "Wang, Qian, and Ralf Jung. “Rustlantis: Randomized Differential Testing of the Rust Compiler.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1955–81. Crossref, https://doi.org/10.1145/3689780."
+  },
+  {
+    "doi": "10.1145/3649856",
+    "title": "PP-CSA: Practical Privacy-Preserving Software Call Stack Analysis.",
+    "venue": "oopsla 2024",
+    "citation": "Wang, Zhaoyu, et al. “PP-CSA: Practical Privacy-Preserving Software Call Stack Analysis.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 1264–93. Crossref, https://doi.org/10.1145/3649856."
+  },
+  {
+    "doi": "10.1145/3649822",
+    "title": "Newtonian Program Analysis of Probabilistic Programs.",
+    "venue": "oopsla 2024",
+    "citation": "Wang, Di, and Thomas Reps. “Newtonian Program Analysis of Probabilistic Programs.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 305–33. Crossref, https://doi.org/10.1145/3649822."
+  },
+  {
+    "doi": "10.1145/3689745",
+    "title": "Refinement Type Refutations.",
+    "venue": "oopsla 2024",
+    "citation": "Webbers, Robin, et al. “Refinement Type Refutations.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 962–87. Crossref, https://doi.org/10.1145/3689745."
+  },
+  {
+    "doi": "10.1145/3689795",
+    "title": "Validating SMT Solvers for Correctness and Performance via Grammar-Based Enumeration.",
+    "venue": "oopsla 2024",
+    "citation": "Winterer, Dominik, and Zhendong Su. “Validating SMT Solvers for Correctness and Performance via Grammar-Based Enumeration.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 2378–401. Crossref, https://doi.org/10.1145/3689795."
+  },
+  {
+    "doi": "10.1145/3689793",
+    "title": "Making Sense of Multi-threaded Application Performance at Scale with NonSequitur.",
+    "venue": "oopsla 2024",
+    "citation": "Wong, Augustine, et al. “Making Sense of Multi-Threaded Application Performance at Scale with NonSequitur.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 2325–54. Crossref, https://doi.org/10.1145/3689793."
+  },
+  {
+    "doi": "10.1145/3689783",
+    "title": "QuAC: Quick Attribute-Centric Type Inference for Python.",
+    "venue": "oopsla 2024",
+    "citation": "Wu, Jifeng, and Caroline Lemieux. “QuAC: Quick Attribute-Centric Type Inference for Python.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 2040–69. Crossref, https://doi.org/10.1145/3689783."
+  },
+  {
+    "doi": "10.1145/3649853",
+    "title": "Degrees of Separation: A Flexible Type System for Safe Concurrency.",
+    "venue": "oopsla 2024",
+    "citation": "Xu, Yichen, et al. “Degrees of Separation: A Flexible Type System for Safe Concurrency.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 1181–207. Crossref, https://doi.org/10.1145/3649853."
+  },
+  {
+    "doi": "10.1145/3649827",
+    "title": "PROMPT: A Fast and Extensible Memory Profiling Framework.",
+    "venue": "oopsla 2024",
+    "citation": "Xu, Ziyang, et al. “PROMPT: A Fast and Extensible Memory Profiling Framework.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 449–73. Crossref, https://doi.org/10.1145/3649827."
+  },
+  {
+    "doi": "10.1145/3649862",
+    "title": "Iterative-Epoch Online Cycle Elimination for Context-Free Language Reachability.",
+    "venue": "oopsla 2024",
+    "citation": "Xu, Pei, et al. “Iterative-Epoch Online Cycle Elimination for Context-Free Language Reachability.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 1437–62. Crossref, https://doi.org/10.1145/3649862."
+  },
+  {
+    "doi": "10.1145/3649814",
+    "title": "A Learning-Based Approach to Static Program Slicing.",
+    "venue": "oopsla 2024",
+    "citation": "Yadavally, Aashish, et al. “A Learning-Based Approach to Static Program Slicing.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 83–109. Crossref, https://doi.org/10.1145/3649814."
+  },
+  {
+    "doi": "10.1145/3689765",
+    "title": "Scaling Abstraction Refinement for Program Analyses in Datalog using Graph Neural Networks.",
+    "venue": "oopsla 2024",
+    "citation": "Yan, Zhenyu, et al. “Scaling Abstraction Refinement for Program Analyses in Datalog Using Graph Neural Networks.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1532–60. Crossref, https://doi.org/10.1145/3689765."
+  },
+  {
+    "doi": "10.1145/3689794",
+    "title": "Dependency-Aware Code Naturalness.",
+    "venue": "oopsla 2024",
+    "citation": "Yang, Chen, et al. “Dependency-Aware Code Naturalness.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 2355–77. Crossref, https://doi.org/10.1145/3689794."
+  },
+  {
+    "doi": "10.1145/3689736",
+    "title": "WhiteFox: White-Box Compiler Fuzzing Empowered by Large Language Models.",
+    "venue": "oopsla 2024",
+    "citation": "Yang, Chenyuan, et al. “WhiteFox: White-Box Compiler Fuzzing Empowered by Large Language Models.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 709–35. Crossref, https://doi.org/10.1145/3689736."
+  },
+  {
+    "doi": "10.1145/3689739",
+    "title": "Fully Verified Instruction Scheduling.",
+    "venue": "oopsla 2024",
+    "citation": "Yang, Ziteng, et al. “Fully Verified Instruction Scheduling.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 791–816. Crossref, https://doi.org/10.1145/3689739."
+  },
+  {
+    "doi": "10.1145/3649861",
+    "title": "Taypsi: Static Enforcement of Privacy Policies for Policy-Agnostic Oblivious Computation.",
+    "venue": "oopsla 2024",
+    "citation": "Ye, Qianchuan, and Benjamin Delaware. “Taypsi: Static Enforcement of Privacy Policies for Policy-Agnostic Oblivious Computation.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 1407–36. Crossref, https://doi.org/10.1145/3649861."
+  },
+  {
+    "doi": "10.1145/3689734",
+    "title": "Merging Gradual Typing.",
+    "venue": "oopsla 2024",
+    "citation": "Ye, Wenjia, et al. “Merging Gradual Typing.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 648–76. Crossref, https://doi.org/10.1145/3689734."
+  },
+  {
+    "doi": "10.1145/3689782",
+    "title": "Imperative Compositional Programming: Type Sound Distributive Intersection Subtyping with References via Bidirectional Typing.",
+    "venue": "oopsla 2024",
+    "citation": "Ye, Wenjia, et al. “Imperative Compositional Programming: Type Sound Distributive Intersection Subtyping with References via Bidirectional Typing.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 2010–39. Crossref, https://doi.org/10.1145/3689782."
+  },
+  {
+    "doi": "10.1145/3689764",
+    "title": "FPCC: Detecting Floating-Point Errors via Chain Conditions.",
+    "venue": "oopsla 2024",
+    "citation": "Yi, Xin, et al. “FPCC: Detecting Floating-Point Errors via Chain Conditions.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1504–31. Crossref, https://doi.org/10.1145/3689764."
+  },
+  {
+    "doi": "10.1145/3649811",
+    "title": "Quantum Control Machine: The Limits of Control Flow in Quantum Programming.",
+    "venue": "oopsla 2024",
+    "citation": "Yuan, Charles, et al. “Quantum Control Machine: The Limits of Control Flow in Quantum Programming.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 1–28. Crossref, https://doi.org/10.1145/3649811."
+  },
+  {
+    "doi": "10.1145/3649850",
+    "title": "PyDex: Repairing Bugs in Introductory Python Assignments using LLMs.",
+    "venue": "oopsla 2024",
+    "citation": "Zhang, Jialu, et al. “PyDex: Repairing Bugs in Introductory Python Assignments Using LLMs.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 1100–24. Crossref, https://doi.org/10.1145/3649850."
+  },
+  {
+    "doi": "10.1145/3689768",
+    "title": "HardTaint: Production-Run Dynamic Taint Analysis via Selective Hardware Tracing.",
+    "venue": "oopsla 2024",
+    "citation": "Zhang, Yiyu, et al. “HardTaint: Production-Run Dynamic Taint Analysis via Selective Hardware Tracing.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1615–40. Crossref, https://doi.org/10.1145/3689768."
+  },
+  {
+    "doi": "10.1145/3649845",
+    "title": "Learning Abstraction Selection for Bayesian Program Analysis.",
+    "venue": "oopsla 2024",
+    "citation": "Zhang, Yifan, et al. “Learning Abstraction Selection for Bayesian Program Analysis.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 954–82. Crossref, https://doi.org/10.1145/3649845."
+  },
+  {
+    "doi": "10.1145/3649815",
+    "title": "Finding Cross-Rule Optimization Bugs in Datalog Engines.",
+    "venue": "oopsla 2024",
+    "citation": "Zhang, Chi, et al. “Finding Cross-Rule Optimization Bugs in Datalog Engines.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 110–36. Crossref, https://doi.org/10.1145/3649815."
+  },
+  {
+    "doi": "10.1145/3689740",
+    "title": "Quantitative Weakest Hyper Pre: Unifying Correctness and Incorrectness Hyperproperties via Predicate Transformers.",
+    "venue": "oopsla 2024",
+    "citation": "Zhang, Linpeng, et al. “Quantitative Weakest Hyper Pre: Unifying Correctness and Incorrectness Hyperproperties via Predicate Transformers.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 817–45. Crossref, https://doi.org/10.1145/3689740."
+  },
+  {
+    "doi": "10.1145/3649854",
+    "title": "ParDiff: Practical Static Differential Analysis of Network Protocol Parsers.",
+    "venue": "oopsla 2024",
+    "citation": "Zheng, Mingwei, et al. “ParDiff: Practical Static Differential Analysis of Network Protocol Parsers.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 1208–34. Crossref, https://doi.org/10.1145/3649854."
+  },
+  {
+    "doi": "10.1145/3689757",
+    "title": "PolyJuice: Detecting Mis-compilation Bugs in Tensor Compilers with Equality Saturation Based Rewriting.",
+    "venue": "oopsla 2024",
+    "citation": "Zhou, Chijin, et al. “PolyJuice: Detecting Mis-Compilation Bugs in Tensor Compilers with Equality Saturation Based Rewriting.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1309–35. Crossref, https://doi.org/10.1145/3689757."
+  },
+  {
+    "doi": "10.1145/3689718",
+    "title": "Full Iso-Recursive Types.",
+    "venue": "oopsla 2024",
+    "citation": "Zhou, Litao, et al. “Full Iso-Recursive Types.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 192–221. Crossref, https://doi.org/10.1145/3689718."
+  },
+  {
+    "doi": "10.1145/3649821",
+    "title": "Outcome Separation Logic: Local Reasoning for Correctness and Incorrectness with Computational Effects.",
+    "venue": "oopsla 2024",
+    "citation": "Zilberstein, Noam, et al. “Outcome Separation Logic: Local Reasoning for Correctness and Incorrectness with Computational Effects.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 276–304. Crossref, https://doi.org/10.1145/3649821."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.37",
+    "title": "Finite Relational Semantics for Language Kleene Algebra with Complement.",
+    "venue": "csl 2025",
+    "citation": "Nakamura, Yoshiki. Finite Relational Semantics for Language Kleene Algebra with Complement. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.37."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.35",
+    "title": "A Kleene Algebra with Tests for Union Bound Reasoning About Probabilistic Programs.",
+    "venue": "csl 2025",
+    "citation": "Gomes, Leandro, et al. A Kleene Algebra with Tests for Union Bound Reasoning About Probabilistic Programs. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.35."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.3",
+    "title": "Synthetic Mathematics for the Mechanisation of Computability Theory and Logic (Invited Talk).",
+    "venue": "csl 2025",
+    "citation": "Forster, Yannick. Synthetic Mathematics for the Mechanisation of Computability Theory and Logic (Invited Talk). Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.3."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.29",
+    "title": "Correspondences Between Codensity and Coupling-Based Liftings, a Practical Approach.",
+    "venue": "csl 2025",
+    "citation": "Humeau, Samuel, et al. Correspondences Between Codensity and Coupling-Based Liftings, a Practical Approach. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.29."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.26",
+    "title": "The Complexity of Deciding Characteristic Formulae in Van Glabbeek&apos;s Branching-Time Spectrum.",
+    "venue": "csl 2025",
+    "citation": "Aceto, Luca, et al. The Complexity of Deciding Characteristic Formulae in Van Glabbeek’s Branching-Time Spectrum. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.26."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.19",
+    "title": "Two-Way One-Counter Nets Revisited.",
+    "venue": "csl 2025",
+    "citation": "Almagor, Shaull, et al. Two-Way One-Counter Nets Revisited. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.19."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.44",
+    "title": "Classical Linear Logic in Perfect Banach Lattices.",
+    "venue": "csl 2025",
+    "citation": "Azevedo de Amorim, Pedro H., et al. Classical Linear Logic in Perfect Banach Lattices. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.44."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.36",
+    "title": "Kleene Algebra with Commutativity Conditions Is Undecidable.",
+    "venue": "csl 2025",
+    "citation": "Azevedo de Amorim, Arthur, et al. Kleene Algebra with Commutativity Conditions Is Undecidable. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.36."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.24",
+    "title": "Propositional Logics of Overwhelming Truth.",
+    "venue": "csl 2025",
+    "citation": "Antoine, Thibaut, and David Baelde. Propositional Logics of Overwhelming Truth. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.24."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.27",
+    "title": "A Complete Diagrammatic Calculus for Automata Simulation.",
+    "venue": "csl 2025",
+    "citation": "Antoine, Thibaut, et al. A Complete Diagrammatic Calculus for Automata Simulation. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.27."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.48",
+    "title": "Quantum and Classical Markovian Graphical Causal Models and Their Identification.",
+    "venue": "csl 2025",
+    "citation": "Barrett, Jonathan, et al. Quantum and Classical Markovian Graphical Causal Models and Their Identification. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.48."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.39",
+    "title": "A Strictly Linear Subatomic Proof System.",
+    "venue": "csl 2025",
+    "citation": "Barrett, Victoria, et al. A Strictly Linear Subatomic Proof System. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.39."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.8",
+    "title": "The Parameterized Complexity of Learning Monadic Second-Order Logic.",
+    "venue": "csl 2025",
+    "citation": "van Bergerem, Steffen, et al. The Parameterized Complexity of Learning Monadic Second-Order Logic. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.8."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.15",
+    "title": "On the VC Dimension of First-Order Logic with Counting and Weight Aggregation.",
+    "venue": "csl 2025",
+    "citation": "van Bergerem, Steffen, and Nicole Schweikardt. On the VC Dimension of First-Order Logic with Counting and Weight Aggregation. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.15."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.28",
+    "title": "Strong Induction Is an Up-To Technique.",
+    "venue": "csl 2025",
+    "citation": "Bonchi, Filippo, et al. Strong Induction Is an Up-To Technique. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.28."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.2",
+    "title": "On the Probabilistic and Statistical Verification of Infinite Markov Chains (Invited Talk).",
+    "venue": "csl 2025",
+    "citation": "Bouyer, Patricia. On the Probabilistic and Statistical Verification of Infinite Markov Chains (Invited Talk). Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.2."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.22",
+    "title": "On the Minimisation of Deterministic and History-Deterministic Generalised (Co)Büchi Automata.",
+    "venue": "csl 2025",
+    "citation": "Casares, Antonio, et al. On the Minimisation of Deterministic and History-Deterministic Generalised (Co)Büchi Automata. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.22."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.30",
+    "title": "A Complete Inference System for Probabilistic Infinite Trace Equivalence.",
+    "venue": "csl 2025",
+    "citation": "Cîrstea, Corina, et al. A Complete Inference System for Probabilistic Infinite Trace Equivalence. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.30."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.11",
+    "title": "On the Expansion of Monadic Second-Order Logic with Cantor-Bendixson Rank and Order Type Predicates.",
+    "venue": "csl 2025",
+    "citation": "Colcombet, Thomas, and Alexander Rabinovich. On the Expansion of Monadic Second-Order Logic with Cantor-Bendixson Rank and Order Type Predicates. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.11."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.16",
+    "title": "Undefinability of Approximation of 2-To-2 Games.",
+    "venue": "csl 2025",
+    "citation": "Dawar, Anuj, and Bálint Molnár. Undefinability of Approximation of 2-To-2 Games. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.16."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.20",
+    "title": "Boundedness of Cost Register Automata over the Integer Min-Plus Semiring.",
+    "venue": "csl 2025",
+    "citation": "Draghici, Andrei, et al. Boundedness of Cost Register Automata over the Integer Min-Plus Semiring. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.20."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.7",
+    "title": "Extension Preservation on Dense Graph Classes.",
+    "venue": "csl 2025",
+    "citation": "Eleftheriadis, Ioannis. Extension Preservation on Dense Graph Classes. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.7."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.47",
+    "title": "A Rewriting Theory for Quantum λ-Calculus.",
+    "venue": "csl 2025",
+    "citation": "Faggian, Claudia, et al. A Rewriting Theory for Quantum λ-Calculus. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.47."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.1",
+    "title": "The Ackermann Award 2024.",
+    "venue": "csl 2025",
+    "citation": "Fernández, Maribel, and Prakash Panangaden. The Ackermann Award 2024. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.1."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.33",
+    "title": "Quantitative Graded Semantics and Spectra of Behavioural Metrics.",
+    "venue": "csl 2025",
+    "citation": "Forster, Jonas, et al. Quantitative Graded Semantics and Spectra of Behavioural Metrics. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.33."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.10",
+    "title": "The Complexity of Second-Order HyperLTL.",
+    "venue": "csl 2025",
+    "citation": "Frenkel, Hadar, and Martin Zimmermann. The Complexity of Second-Order HyperLTL. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.10."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.23",
+    "title": "Permissive Equilibria in Multiplayer Reachability Games.",
+    "venue": "csl 2025",
+    "citation": "Goeminne, Aline, and Benjamin Monmege. Permissive Equilibria in Multiplayer Reachability Games. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.23."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.12",
+    "title": "First-Order Logic with Equicardinality in Random Graphs.",
+    "venue": "csl 2025",
+    "citation": "Haber, Simi, et al. First-Order Logic with Equicardinality in Random Graphs. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.12."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.46",
+    "title": "Coslice Colimits in Homotopy Type Theory.",
+    "venue": "csl 2025",
+    "citation": "Hart, Perry, and Kuen-Bang Hou (Favonia). Coslice Colimits in Homotopy Type Theory. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.46."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.31",
+    "title": "Simple Types for Probabilistic Termination.",
+    "venue": "csl 2025",
+    "citation": "Heijltjes, Willem, and Georgina Majury. Simple Types for Probabilistic Termination. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.31."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.38",
+    "title": "A Complete Graphical Language for Linear Optical Circuits with Finite-Photon-Number Sources and Detectors.",
+    "venue": "csl 2025",
+    "citation": "Heurtel, Nicolas. A Complete Graphical Language for Linear Optical Circuits with Finite-Photon-Number Sources and Detectors. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.38."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.17",
+    "title": "Description Complexity of Unary Structures in First-Order Logic with Links to Entropy.",
+    "venue": "csl 2025",
+    "citation": "Jaakkola, Reijo, et al. Description Complexity of Unary Structures in First-Order Logic with Links to Entropy. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.17."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.40",
+    "title": "Completeness of First-Order Bi-Intuitionistic Logic.",
+    "venue": "csl 2025",
+    "citation": "Kirst, Dominik, and Ian Shillito. Completeness of First-Order Bi-Intuitionistic Logic. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.40."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.9",
+    "title": "On Homogeneous Models of Fluted Languages.",
+    "venue": "csl 2025",
+    "citation": "Kojelis, Daumantas. On Homogeneous Models of Fluted Languages. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.9."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.13",
+    "title": "Computational Complexity of the Weisfeiler-Leman Dimension.",
+    "venue": "csl 2025",
+    "citation": "Lichter, Moritz, et al. Computational Complexity of the Weisfeiler-Leman Dimension. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.13."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.42",
+    "title": "Unifying Sequent Systems for Gödel-Löb Provability Logic via Syntactic Transformations.",
+    "venue": "csl 2025",
+    "citation": "Lyon, Tim S. Unifying Sequent Systems for Gödel-Löb Provability Logic via Syntactic Transformations. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.42."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.41",
+    "title": "Taking Bi-Intuitionistic Logic First-Order: A Proof-Theoretic Investigation via Polytree Sequents.",
+    "venue": "csl 2025",
+    "citation": "Lyon, Tim S., et al. Taking Bi-Intuitionistic Logic First-Order: A Proof-Theoretic Investigation via Polytree Sequents. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.41."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.34",
+    "title": "The Lambda Calculus Is Quantifiable.",
+    "venue": "csl 2025",
+    "citation": "Maestracci, Valentin, and Paolo Pistone. The Lambda Calculus Is Quantifiable. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.34."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.21",
+    "title": "The Algebras for Automatic Relations.",
+    "venue": "csl 2025",
+    "citation": "Morvan, Rémi. The Algebras for Automatic Relations. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.21."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.25",
+    "title": "Exponential Lower Bounds on Definable Fixed Points.",
+    "venue": "csl 2025",
+    "citation": "Papafilippou, Konstantinos, and David Fernández-Duque. Exponential Lower Bounds on Definable Fixed Points. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.25."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.4",
+    "title": "Playing with Modalities (Invited Talk).",
+    "venue": "csl 2025",
+    "citation": "Pimentel, Elaine, et al. Playing with Modalities (Invited Talk). Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.4."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.43",
+    "title": "Linear Realisability over Nets: Multiplicatives.",
+    "venue": "csl 2025",
+    "citation": "Ragot, Adrien, et al. Linear Realisability over Nets: Multiplicatives. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.43."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.45",
+    "title": "Insights from Univalent Foundations: A Case Study Using Double Categories.",
+    "venue": "csl 2025",
+    "citation": "Rasekh, Nima, et al. Insights from Univalent Foundations: A Case Study Using Double Categories. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.45."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.14",
+    "title": "Finite Variable Counting Logics with Restricted Requantification.",
+    "venue": "csl 2025",
+    "citation": "Raßmann, Simon, et al. Finite Variable Counting Logics with Restricted Requantification. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.14."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.6",
+    "title": "Equi-Rank Homomorphism Preservation Theorem on Finite Structures.",
+    "venue": "csl 2025",
+    "citation": "Rossman, Benjamin. Equi-Rank Homomorphism Preservation Theorem on Finite Structures. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.6."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.18",
+    "title": "Reachability for Multi-Priced Timed Automata with Positive and Negative Rates.",
+    "venue": "csl 2025",
+    "citation": "Scoones, Andrew, et al. Reachability for Multi-Priced Timed Automata with Positive and Negative Rates. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.18."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.5",
+    "title": "Modal Automata: Analysing Modal Fixpoint Logics, One Step at a Time (Invited Talk).",
+    "venue": "csl 2025",
+    "citation": "Venema, Yde. Modal Automata: Analysing Modal Fixpoint Logics, One Step at a Time (Invited Talk). Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.5."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.49",
+    "title": "Minimality in Finite-Dimensional ZW-Calculi.",
+    "venue": "csl 2025",
+    "citation": "de Visme, Marc, and Renaud Vilmart. Minimality in Finite-Dimensional ZW-Calculi. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.49."
+  },
+  {
+    "doi": "10.4230/LIPICS.CSL.2025.32",
+    "title": "A Mixed Linear and Graded Logic: Proofs, Terms, and Models.",
+    "venue": "csl 2025",
+    "citation": "Vollmer, Victoria, et al. A Mixed Linear and Graded Logic: Proofs, Terms, and Models. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.32."
+  },
+  {
+    "doi": "10.1145/3661814.3662104",
+    "title": "Separating Markov&apos;s Principles.",
+    "venue": "lics 2024",
+    "citation": "Cohen, Liron, et al. “Separating Markov’s Principles.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662104."
+  },
+  {
+    "doi": "10.1145/3661814.3662099",
+    "title": "Bialgebraic Reasoning on Higher-order Program Equivalence.",
+    "venue": "lics 2024",
+    "citation": "Goncharov, Sergey, et al. “Bialgebraic Reasoning on Higher-Order Program Equivalence.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–15. Crossref, https://doi.org/10.1145/3661814.3662099."
+  },
+  {
+    "doi": "10.1145/3661814.3662074",
+    "title": "Equivariant ideals of polynomials.",
+    "venue": "lics 2024",
+    "citation": "Ghosh, Arka, and Sławomir Lasota. “Equivariant Ideals of Polynomials.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662074."
+  },
+  {
+    "doi": "10.1145/3661814.3662110",
+    "title": "An expressively complete local past propositional dynamic logic over Mazurkiewicz traces and its applications.",
+    "venue": "lics 2024",
+    "citation": "Adsul, Bharat, et al. “An Expressively Complete Local Past Propositional Dynamic Logic over Mazurkiewicz Traces and Its Applications.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–13. Crossref, https://doi.org/10.1145/3661814.3662110."
+  },
+  {
+    "doi": "10.1145/3661814.3662101",
+    "title": "Non-Elementary Compression of First-Order Proofs in Deep Inference Using Epsilon-Terms.",
+    "venue": "lics 2024",
+    "citation": "Allett, Cameron. “Non-Elementary Compression of First-Order Proofs in Deep Inference Using Epsilon-Terms.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662101."
+  },
+  {
+    "doi": "10.1145/3661814.3662133",
+    "title": "Verifying Unboundedness via Amalgamation.",
+    "venue": "lics 2024",
+    "citation": "Anand, Ashwani, et al. “Verifying Unboundedness via Amalgamation.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–15. Crossref, https://doi.org/10.1145/3661814.3662133."
+  },
+  {
+    "doi": "10.1145/3661814.3662113",
+    "title": "Genericity Through Stratification.",
+    "venue": "lics 2024",
+    "citation": "Arrial, Victor, et al. “Genericity Through Stratification.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–15. Crossref, https://doi.org/10.1145/3661814.3662113."
+  },
+  {
+    "doi": "10.1145/3661814.3662080",
+    "title": "Deterministic Sub-exponential Algorithm for Discounted-sum Games with Unary Weights.",
+    "venue": "lics 2024",
+    "citation": "Asadi, Ali, et al. “Deterministic Sub-Exponential Algorithm for Discounted-Sum Games with Unary Weights.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–12. Crossref, https://doi.org/10.1145/3661814.3662080."
+  },
+  {
+    "doi": "10.1145/3661814.3662124",
+    "title": "Decidability and Complexity of Decision Problems for Affine Continuous VASS.",
+    "venue": "lics 2024",
+    "citation": "Balasubramanian, A. R. “Decidability and Complexity of Decision Problems for Affine Continuous VASS.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–13. Crossref, https://doi.org/10.1145/3661814.3662124."
+  },
+  {
+    "doi": "10.1145/3661814.3662072",
+    "title": "Injective hardness condition for PCSPs.",
+    "venue": "lics 2024",
+    "citation": "Banakh, Demian, and Marcin Kozik. “Injective Hardness Condition for PCSPs.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–10. Crossref, https://doi.org/10.1145/3661814.3662072."
+  },
+  {
+    "doi": "10.1145/3661814.3662091",
+    "title": "The Relational Machine Calculus.",
+    "venue": "lics 2024",
+    "citation": "Barrett, Chris, et al. “The Relational Machine Calculus.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–15. Crossref, https://doi.org/10.1145/3661814.3662091."
+  },
+  {
+    "doi": "10.1145/3661814.3662076",
+    "title": "Algebraic Approach to Approximation.",
+    "venue": "lics 2024",
+    "citation": "Barto, Libor, et al. “Algebraic Approach to Approximation.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662076."
+  },
+  {
+    "doi": "10.1145/3661814.3662119",
+    "title": "On the Decidability of Monadic Second-Order Logic with Arithmetic Predicates.",
+    "venue": "lics 2024",
+    "citation": "Berthé, Valérie, et al. “On the Decidability of Monadic Second-Order Logic with Arithmetic Predicates.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662119."
+  },
+  {
+    "doi": "10.1145/3661814.3662131",
+    "title": "Element-free probability distributions and random partitions.",
+    "venue": "lics 2024",
+    "citation": "Blanchi, Victor, and Hugo Paquet. “Element-Free Probability Distributions and Random Partitions.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662131."
+  },
+  {
+    "doi": "10.1145/3661814.3662086",
+    "title": "Soundness of reset workflow nets.",
+    "venue": "lics 2024",
+    "citation": "Blondin, Michael, et al. “Soundness of Reset Workflow Nets.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662086."
+  },
+  {
+    "doi": "10.1145/3661814.3662071",
+    "title": "The Complexity of Resilience Problems via Valued Constraint Satisfaction Problems.",
+    "venue": "lics 2024",
+    "citation": "Bodirsky, Manuel, et al. “The Complexity of Resilience Problems via Valued Constraint Satisfaction Problems.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662071."
+  },
+  {
+    "doi": "10.1145/3661814.3662083",
+    "title": "Rank-decreasing transductions.",
+    "venue": "lics 2024",
+    "citation": "Bojańczyk, Mikołaj, and Pierre Ohlmann. “Rank-Decreasing Transductions.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–13. Crossref, https://doi.org/10.1145/3661814.3662083."
+  },
+  {
+    "doi": "10.1145/3661814.3662090",
+    "title": "Discounted-Sum Automata with Real-Valued Discount Factors.",
+    "venue": "lics 2024",
+    "citation": "Boker, Udi. “Discounted-Sum Automata with Real-Valued Discount Factors.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662090."
+  },
+  {
+    "doi": "10.1145/3661814.3662078",
+    "title": "Diagrammatic Algebra of First Order Logic.",
+    "venue": "lics 2024",
+    "citation": "Bonchi, Filippo, et al. “Diagrammatic Algebra of First Order Logic.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–15. Crossref, https://doi.org/10.1145/3661814.3662078."
+  },
+  {
+    "doi": "10.1145/3661814.3662096",
+    "title": "Bounded-Memory Strategies in Partial-Information Games.",
+    "venue": "lics 2024",
+    "citation": "Bose, Sougata, et al. “Bounded-Memory Strategies in Partial-Information Games.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662096."
+  },
+  {
+    "doi": "10.1145/3661814.3662136",
+    "title": "Primitive Recursive Dependent Type Theory.",
+    "venue": "lics 2024",
+    "citation": "Buchholtz, Ulrik Torben, and Johannes Schipp von Branitz. “Primitive Recursive Dependent Type Theory.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–12. Crossref, https://doi.org/10.1145/3661814.3662136."
+  },
+  {
+    "doi": "10.1145/3661814.3662109",
+    "title": "Contextual Equivalence for State and Control via Nested Data.",
+    "venue": "lics 2024",
+    "citation": "Bunting, Benedict, and Andrzej Murawski. “Contextual Equivalence for State and Control via Nested Data.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662109."
+  },
+  {
+    "doi": "10.1145/3661814.3662115",
+    "title": "On symmetries of spheres in univalent foundations.",
+    "venue": "lics 2024",
+    "citation": "Cagne, Pierre, et al. “On Symmetries of Spheres in Univalent Foundations.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662115."
+  },
+  {
+    "doi": "10.1145/3661814.3662087",
+    "title": "Positional ω-regular languages.",
+    "venue": "lics 2024",
+    "citation": "Casares, Antonio, and Pierre Ohlmann. “Positional ω-Regular Languages.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662087."
+  },
+  {
+    "doi": "10.1145/3661814.3662145",
+    "title": "The Finite Satisfiability Problem for PCTL is Undecidable.",
+    "venue": "lics 2024",
+    "citation": "Chodil, Miroslav, and Antonín Kučera. “The Finite Satisfiability Problem for PCTL Is Undecidable.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662145."
+  },
+  {
+    "doi": "10.1145/3661814.3662118",
+    "title": "Quantum advantage and CSP complexity.",
+    "venue": "lics 2024",
+    "citation": "Ciardo, Lorenzo. “Quantum Advantage and CSP Complexity.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–15. Crossref, https://doi.org/10.1145/3661814.3662118."
+  },
+  {
+    "doi": "10.1145/3661814.3662069",
+    "title": "1-in-3 vs. Not-All-Equal: Dichotomy of a broken promise.",
+    "venue": "lics 2024",
+    "citation": "Ciardo, Lorenzo, et al. “1-in-3 vs. Not-All-Equal: Dichotomy of a Broken Promise.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–12. Crossref, https://doi.org/10.1145/3661814.3662069."
+  },
+  {
+    "doi": "10.1145/3661814.3662134",
+    "title": "Slice closures of indexed languages and word equations with counting constraints.",
+    "venue": "lics 2024",
+    "citation": "Ciobanu, Laura, and Georg Zetzsche. “Slice Closures of Indexed Languages and Word Equations with Counting Constraints.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–12. Crossref, https://doi.org/10.1145/3661814.3662134."
+  },
+  {
+    "doi": "10.1145/3661814.3662092",
+    "title": "An Analysis of Symmetry in Quantitative Semantics.",
+    "venue": "lics 2024",
+    "citation": "Clairambault, Pierre, and Simon Forest. “An Analysis of Symmetry in Quantitative Semantics.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–13. Crossref, https://doi.org/10.1145/3661814.3662092."
+  },
+  {
+    "doi": "10.1145/3661814.3662088",
+    "title": "Minimal Equational Theories for Quantum Circuits.",
+    "venue": "lics 2024",
+    "citation": "Clément, Alexandre, et al. “Minimal Equational Theories for Quantum Circuits.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662088."
+  },
+  {
+    "doi": "10.1145/3661814.3662068",
+    "title": "Local consistency as a reduction between constraint satisfaction problems.",
+    "venue": "lics 2024",
+    "citation": "Dalmau, Víctor, and Jakub Opršal. “Local Consistency as a Reduction between Constraint Satisfaction Problems.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–15. Crossref, https://doi.org/10.1145/3661814.3662068."
+  },
+  {
+    "doi": "10.1145/3661814.3662138",
+    "title": "A proof theory of right-linear (ω-)grammars via cyclic proofs.",
+    "venue": "lics 2024",
+    "citation": "Das, Anupam, and Abhishek De. “A Proof Theory of Right-Linear (ω-)Grammars via Cyclic Proofs.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662138."
+  },
+  {
+    "doi": "10.1145/3661814.3662127",
+    "title": "First order complexity of finite random structures.",
+    "venue": "lics 2024",
+    "citation": "Demin, Danila, and Maksim Zhukovskii. “First Order Complexity of Finite Random Structures.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662127."
+  },
+  {
+    "doi": "10.1145/3661814.3662095",
+    "title": "Finite-valued Streaming String Transducers.",
+    "venue": "lics 2024",
+    "citation": "Filiot, Emmanuel, et al. “Finite-Valued Streaming String Transducers.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662095."
+  },
+  {
+    "doi": "10.1145/3661814.3662102",
+    "title": "A Syntax for Strictly Associative and Unital ∞-Categories.",
+    "venue": "lics 2024",
+    "citation": "Finster, Eric, et al. “A Syntax for Strictly Associative and Unital ∞-Categories.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–13. Crossref, https://doi.org/10.1145/3661814.3662102."
+  },
+  {
+    "doi": "10.1145/3661814.3662097",
+    "title": "On the complexity of Maslov&apos;s class K.",
+    "venue": "lics 2024",
+    "citation": "Fiuk, Oskar, et al. “On the Complexity of Maslov’s Class K̅.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662097."
+  },
+  {
+    "doi": "10.1145/3661814.3662094",
+    "title": "Elementary first-order model checking for sparse graphs.",
+    "venue": "lics 2024",
+    "citation": "Gajarský, Jakub, et al. “Elementary First-Order Model Checking for Sparse Graphs.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662094."
+  },
+  {
+    "doi": "10.1145/3661814.3662108",
+    "title": "Combining fixpoint and differentiation theory.",
+    "venue": "lics 2024",
+    "citation": "Galal, Zeinab, and Jean-Simon Pacaud Lemay. “Combining Fixpoint and Differentiation Theory.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662108."
+  },
+  {
+    "doi": "10.1145/3661814.3662126",
+    "title": "A Cartesian Closed Category for Random Variables.",
+    "venue": "lics 2024",
+    "citation": "Di Gianantonio, Pietro, and Abbas Edalat. “A Cartesian Closed Category for Random Variables.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662126."
+  },
+  {
+    "doi": "10.1145/3661814.3662093",
+    "title": "Are Targeted Messages More Effective?",
+    "venue": "lics 2024",
+    "citation": "Grohe, Martin, and Eran Rosenbluth. “Are Targeted Messages More Effective?” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662093."
+  },
+  {
+    "doi": "10.1145/3661814.3662100",
+    "title": "Declassification Policy for Program Complexity Analysis.",
+    "venue": "lics 2024",
+    "citation": "Hainry, Emmanuel, et al. “Declassification Policy for Program Complexity Analysis.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662100."
+  },
+  {
+    "doi": "10.1145/3661814.3662098",
+    "title": "Braids, Twists, Trace and Duality in Combinatory Algebras.",
+    "venue": "lics 2024",
+    "citation": "Hasegawa, Masahito, and Serge Lechenne. “Braids, Twists, Trace and Duality in Combinatory Algebras.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662098."
+  },
+  {
+    "doi": "10.1145/3661814.3662123",
+    "title": "A Profunctorial Semantics for Quantum Supermaps.",
+    "venue": "lics 2024",
+    "citation": "Hefford, James, and Matt Wilson. “A Profunctorial Semantics for Quantum Supermaps.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–15. Crossref, https://doi.org/10.1145/3661814.3662123."
+  },
+  {
+    "doi": "10.1145/3661814.3662117",
+    "title": "First order distinguishability of sparse random graphs.",
+    "venue": "lics 2024",
+    "citation": "Hershko, Tal, and Maksim Zhukovskii. “First Order Distinguishability of Sparse Random Graphs.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662117."
+  },
+  {
+    "doi": "10.1145/3661814.3662112",
+    "title": "On the Completeness of Interpolation Algorithms.",
+    "venue": "lics 2024",
+    "citation": "Hetzl, Stefan, and Raheleh Jalali. “On the Completeness of Interpolation Algorithms.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–13. Crossref, https://doi.org/10.1145/3661814.3662112."
+  },
+  {
+    "doi": "10.1145/3661814.3662073",
+    "title": "Determinisation and Unambiguisation of Polynomially-Ambiguous Rational Weighted Automata.",
+    "venue": "lics 2024",
+    "citation": "Jecker, Ismaël, et al. “Determinisation and Unambiguisation of Polynomially-Ambiguous Rational Weighted Automata.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–13. Crossref, https://doi.org/10.1145/3661814.3662073."
+  },
+  {
+    "doi": "10.1145/3661814.3662137",
+    "title": "No Go Theorems: Directed Containers That Do Not Distribute Over Distribution Monads.",
+    "venue": "lics 2024",
+    "citation": "Karamlou, Amin, and Nihil Shah. “No Go Theorems: Directed Containers That Do Not Distribute Over Distribution Monads.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–13. Crossref, https://doi.org/10.1145/3661814.3662137."
+  },
+  {
+    "doi": "10.1145/3661814.3662120",
+    "title": "Defining algorithmically presented structures in first order logic.",
+    "venue": "lics 2024",
+    "citation": "Kasymov, Nadim, et al. “Defining Algorithmically Presented Structures in First Order Logic.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–13. Crossref, https://doi.org/10.1145/3661814.3662120."
+  },
+  {
+    "doi": "10.1145/3661814.3662106",
+    "title": "δ is for Dialectica.",
+    "venue": "lics 2024",
+    "citation": "Kerjean, Marie Morgane, and Pierre-Marie Pédrot. “δ Is for Dialectica.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–13. Crossref, https://doi.org/10.1145/3661814.3662106."
+  },
+  {
+    "doi": "10.1145/3661814.3662116",
+    "title": "On the Separability Problem of VASS Reachability Languages.",
+    "venue": "lics 2024",
+    "citation": "Keskin, Eren, and Roland Meyer. “On the Separability Problem of VASS Reachability Languages.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662116."
+  },
+  {
+    "doi": "10.1145/3661814.3662122",
+    "title": "Bounding the Weisfeiler-Leman Dimension via a Depth Analysis of I/R-Trees.",
+    "venue": "lics 2024",
+    "citation": "Kiefer, Sandra, and Daniel Neuen. “Bounding the Weisfeiler-Leman Dimension via a Depth Analysis of I/R-Trees.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662122."
+  },
+  {
+    "doi": "10.1145/3661814.3662128",
+    "title": "Relevant S is Undecidable.",
+    "venue": "lics 2024",
+    "citation": "Knudstorp, Søren Brinck. “Relevant S Is Undecidable.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–8. Crossref, https://doi.org/10.1145/3661814.3662128."
+  },
+  {
+    "doi": "10.1145/3661814.3662139",
+    "title": "Composing Codensity Bisimulations.",
+    "venue": "lics 2024",
+    "citation": "Kori, Mayuko, et al. “Composing Codensity Bisimulations.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–13. Crossref, https://doi.org/10.1145/3661814.3662139."
+  },
+  {
+    "doi": "10.1145/3661814.3662103",
+    "title": "Pushdown Normal-Form Bisimulation: A Nominal Context-Free Approach to Program Equivalence.",
+    "venue": "lics 2024",
+    "citation": "Koutavas, Vasileios, et al. “Pushdown Normal-Form Bisimulation: A Nominal Context-Free Approach to Program Equivalence.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–15. Crossref, https://doi.org/10.1145/3661814.3662103."
+  },
+  {
+    "doi": "10.1145/3661814.3662114",
+    "title": "Uniformisation of Regular Relations in First-Order Logic with Two Variables.",
+    "venue": "lics 2024",
+    "citation": "Lhote, Nathan, et al. “Uniformisation of Regular Relations in First-Order Logic with Two Variables.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–13. Crossref, https://doi.org/10.1145/3661814.3662114."
+  },
+  {
+    "doi": "10.1145/3661814.3662135",
+    "title": "A Nominal Approach to Probabilistic Separation Logic.",
+    "venue": "lics 2024",
+    "citation": "Li, John M., et al. “A Nominal Approach to Probabilistic Separation Logic.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662135."
+  },
+  {
+    "doi": "10.1145/3661814.3662111",
+    "title": "Decidability of Quasi-Dense Modal Logics.",
+    "venue": "lics 2024",
+    "citation": "Lyon, Tim, and Piotr Ostropolski-Nalewaja. “Decidability of Quasi-Dense Modal Logics.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–8. Crossref, https://doi.org/10.1145/3661814.3662111."
+  },
+  {
+    "doi": "10.1145/3661814.3662077",
+    "title": "Delooping cyclic groups with lens spaces in homotopy type theory.",
+    "venue": "lics 2024",
+    "citation": "Mimram, Samuel, and Emile Oleon. “Delooping Cyclic Groups with Lens Spaces in Homotopy Type Theory.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–15. Crossref, https://doi.org/10.1145/3661814.3662077."
+  },
+  {
+    "doi": "10.1145/3661814.3662081",
+    "title": "Linear Termination is Undecidable.",
+    "venue": "lics 2024",
+    "citation": "Mitterwallner, Fabian, et al. “Linear Termination Is Undecidable.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–12. Crossref, https://doi.org/10.1145/3661814.3662081."
+  },
+  {
+    "doi": "10.1145/3661814.3662075",
+    "title": "Concurrent Games over Relational Structures: The Origin of Game Comonads.",
+    "venue": "lics 2024",
+    "citation": "Montacute, Yoàv, and Glynn Winskel. “Concurrent Games over Relational Structures: The Origin of Game Comonads.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662075."
+  },
+  {
+    "doi": "10.1145/3661814.3662130",
+    "title": "Effectful semantics in bicategories: strong, commutative, and concurrent pseudomonads.",
+    "venue": "lics 2024",
+    "citation": "Paquet, Hugo, and Philip Saville. “Effectful Semantics in Bicategories: Strong, Commutative, and Concurrent Pseudomonads.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–15. Crossref, https://doi.org/10.1145/3661814.3662130."
+  },
+  {
+    "doi": "10.1145/3661814.3662070",
+    "title": "&quot;Upon This Quote I Will Build My Church Thesis&quot;.",
+    "venue": "lics 2024",
+    "citation": "Pédrot, Pierre-Marie. “‘Upon This Quote I Will Build My Church Thesis.’” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–12. Crossref, https://doi.org/10.1145/3661814.3662070."
+  },
+  {
+    "doi": "10.1145/3661814.3662085",
+    "title": "Separation and Encodability in Mixed Choice Multiparty Sessions.",
+    "venue": "lics 2024",
+    "citation": "Peters, Kirstin, and Nobuko Yoshida. “Separation and Encodability in Mixed Choice Multiparty Sessions.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–15. Crossref, https://doi.org/10.1145/3661814.3662085."
+  },
+  {
+    "doi": "10.1145/3661814.3662107",
+    "title": "A Characterisation Theorem for Two-Way Bisimulation-Invariant Monadic Least Fixpoint Logic Over Finite Structures.",
+    "venue": "lics 2024",
+    "citation": "Pflueger, Maximilian, et al. “A Characterisation Theorem for Two-Way Bisimulation-Invariant Monadic Least Fixpoint Logic Over Finite Structures.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662107."
+  },
+  {
+    "doi": "10.1145/3661814.3662082",
+    "title": "Dot-depth three, return of the J-class.",
+    "venue": "lics 2024",
+    "citation": "Place, Thomas, and Marc Zeitoun. “Dot-Depth Three, Return of the J-Class.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–15. Crossref, https://doi.org/10.1145/3661814.3662082."
+  },
+  {
+    "doi": "10.1145/3661814.3662084",
+    "title": "A Completeness Theorem for Probabilistic Regular Expressions.",
+    "venue": "lics 2024",
+    "citation": "Różowski, Wojciech, and Alexandra Silva. “A Completeness Theorem for Probabilistic Regular Expressions.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662084."
+  },
+  {
+    "doi": "10.1145/3661814.3662129",
+    "title": "Natural numbers from integers.",
+    "venue": "lics 2024",
+    "citation": "Sattler, Christian, and David Wärn. “Natural Numbers from Integers.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–9. Crossref, https://doi.org/10.1145/3661814.3662129."
+  },
+  {
+    "doi": "10.1145/3661814.3662089",
+    "title": "Model Checking Disjoint-Paths Logic on Topological-Minor-Free Graph Classes.",
+    "venue": "lics 2024",
+    "citation": "Schirrmacher, Nicole, et al. “Model Checking Disjoint-Paths Logic on Topological-Minor-Free Graph Classes.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–12. Crossref, https://doi.org/10.1145/3661814.3662089."
+  },
+  {
+    "doi": "10.1145/3661814.3662132",
+    "title": "Equivalence and Conditional Independence in Atomic Sheaf Logic.",
+    "venue": "lics 2024",
+    "citation": "Simpson, Alex. “Equivalence and Conditional Independence in Atomic Sheaf Logic.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662132."
+  },
+  {
+    "doi": "10.1145/3661814.3662125",
+    "title": "From Quantifier Depth to Quantifier Number: Separating Structures with k Variables.",
+    "venue": "lics 2024",
+    "citation": "Vinall-Smeeth, Harry. “From Quantifier Depth to Quantifier Number: Separating Structures with k Variables.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662125."
+  },
+  {
+    "doi": "10.1145/3661814.3662121",
+    "title": "Complete Game Logic with Sabotage.",
+    "venue": "lics 2024",
+    "citation": "Abou El Wafa, Noah, and André Platzer. “Complete Game Logic with Sabotage.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–15. Crossref, https://doi.org/10.1145/3661814.3662121."
+  },
+  {
+    "doi": "10.1145/3661814.3662105",
+    "title": "Initial Algebras Unchained - A Novel Initial Algebra Construction Formalized in Agda.",
+    "venue": "lics 2024",
+    "citation": "Wißmann, Thorsten, and Stefan Milius. “Initial Algebras Unchained - A Novel Initial Algebra Construction Formalized in Agda.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662105."
+  },
+  {
+    "doi": "10.1007/978-3-031-90897-2_16",
+    "title": "Fair Quantitative Games.",
+    "venue": "fossacs 2025",
+    "citation": "Anand, Ashwani, et al. “Fair Quantitative Games.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 331–54. Crossref, https://doi.org/10.1007/978-3-031-90897-2_16."
+  },
+  {
+    "doi": "10.1007/978-3-031-90897-2_14",
+    "title": "Sharing and Linear Logic with Restricted Access.",
+    "venue": "fossacs 2025",
+    "citation": "Barenbaum, Pablo, and Eduardo Bonelli. “Sharing and Linear Logic with Restricted Access.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 287–307. Crossref, https://doi.org/10.1007/978-3-031-90897-2_14."
+  },
+  {
+    "doi": "10.1007/978-3-031-90897-2_9",
+    "title": "Quantifier Elimination and Craig Interpolation: The Quantitative Way.",
+    "venue": "fossacs 2025",
+    "citation": "Batz, Kevin, et al. “Quantifier Elimination and Craig Interpolation: The Quantitative Way.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 176–97. Crossref, https://doi.org/10.1007/978-3-031-90897-2_9."
+  },
+  {
+    "doi": "10.1007/978-3-031-90897-2_7",
+    "title": "On the cut-elimination of the modal μ-calculus: Linear Logic to the rescue.",
+    "venue": "fossacs 2025",
+    "citation": "Bauer, Esaïe, and Alexis Saurin. “On the Cut-Elimination of the Modal $$\\mu $$-Calculus: Linear Logic to the Rescue.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 133–54. Crossref, https://doi.org/10.1007/978-3-031-90897-2_7."
+  },
+  {
+    "doi": "10.1007/978-3-031-90897-2_4",
+    "title": "Alternative Characterizations of Hereditary History-Preserving Bisimilarity via Backward Ready Multisets.",
+    "venue": "fossacs 2025",
+    "citation": "Bernardo, Marco, et al. “Alternative Characterizations of Hereditary History-Preserving Bisimilarity via Backward Ready Multisets.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 67–87. Crossref, https://doi.org/10.1007/978-3-031-90897-2_4."
+  },
+  {
+    "doi": "10.1007/978-3-031-90897-2_15",
+    "title": "A Diagrammatic Algebra for Program Logics.",
+    "venue": "fossacs 2025",
+    "citation": "Bonchi, Filippo, et al. “A Diagrammatic Algebra for Program Logics.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 308–30. Crossref, https://doi.org/10.1007/978-3-031-90897-2_15."
+  },
+  {
+    "doi": "10.1007/978-3-031-90897-2_19",
+    "title": "Model-Checking Real-Time Systems: Revisiting the Alternating Automaton Route.",
+    "venue": "fossacs 2025",
+    "citation": "Bouyer, Patricia, et al. “Model-Checking Real-Time Systems: Revisiting the Alternating Automaton Route.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 399–421. Crossref, https://doi.org/10.1007/978-3-031-90897-2_19."
+  },
+  {
+    "doi": "10.1007/978-3-031-90897-2_2",
+    "title": "A Behavioural Pseudometric for Continuous-Time Markov Processes.",
+    "venue": "fossacs 2025",
+    "citation": "Chen, Linan, et al. “A Behavioural Pseudometric for Continuous-Time Markov Processes.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 24–44. Crossref, https://doi.org/10.1007/978-3-031-90897-2_2."
+  },
+  {
+    "doi": "10.1007/978-3-031-90897-2_8",
+    "title": "Combining quantum and classical control: syntax, semantics and adequacy.",
+    "venue": "fossacs 2025",
+    "citation": "Dave, Kinnari, et al. “Combining Quantum and Classical Control: Syntax, Semantics and Adequacy.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 155–75. Crossref, https://doi.org/10.1007/978-3-031-90897-2_8."
+  },
+  {
+    "doi": "10.1007/978-3-031-90897-2_18",
+    "title": "Two-sorted algebraic decompositions of Brookes&apos;s shared-state denotational semantics.",
+    "venue": "fossacs 2025",
+    "citation": "Dvir, Yotam, et al. “Two-Sorted Algebraic Decompositions of Brookes’s Shared-State Denotational Semantics.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 377–98. Crossref, https://doi.org/10.1007/978-3-031-90897-2_18."
+  },
+  {
+    "doi": "10.1007/978-3-031-90897-2_1",
+    "title": "Context-Free Languages of String Diagrams.",
+    "venue": "fossacs 2025",
+    "citation": "Earnshaw, Matt, and Mario Román. “Context-Free Languages of String Diagrams.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 1–23. Crossref, https://doi.org/10.1007/978-3-031-90897-2_1."
+  },
+  {
+    "doi": "10.1007/978-3-031-90897-2_12",
+    "title": "BiGKAT: An Algebraic Framework for Relational Verification of Probabilistic Programs.",
+    "venue": "fossacs 2025",
+    "citation": "Gomes, Leandro, et al. “BiGKAT: An Algebraic Framework for Relational Verification of Probabilistic Programs.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 243–64. Crossref, https://doi.org/10.1007/978-3-031-90897-2_12."
+  },
+  {
+    "doi": "10.1007/978-3-031-90897-2_3",
+    "title": "Idempotent Resources in Separation Logic - The Heart of core in Iris.",
+    "venue": "fossacs 2025",
+    "citation": "Gratzer, Daniel, et al. “Idempotent Resources in Separation Logic.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 45–66. Crossref, https://doi.org/10.1007/978-3-031-90897-2_3."
+  },
+  {
+    "doi": "10.1007/978-3-031-90897-2_5",
+    "title": "Complementation of Emerson-Lei Automata.",
+    "venue": "fossacs 2025",
+    "citation": "Havlena, Vojtěch, et al. “Complementation of Emerson-Lei Automata.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 88–110. Crossref, https://doi.org/10.1007/978-3-031-90897-2_5."
+  },
+  {
+    "doi": "10.1007/978-3-031-90897-2_17",
+    "title": "Structural Liveness of Conservative Petri Nets.",
+    "venue": "fossacs 2025",
+    "citation": "Jančar, Petr, et al. “Structural Liveness of Conservative Petri Nets.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 355–76. Crossref, https://doi.org/10.1007/978-3-031-90897-2_17."
+  },
+  {
+    "doi": "10.1007/978-3-031-90897-2_13",
+    "title": "A General Completeness Theorem for Skip-Free Star Algebras.",
+    "venue": "fossacs 2025",
+    "citation": "Kappé, Tobias, and Todd Schmid. “A General Completeness Theorem for Skip-Free Star Algebras.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 265–86. Crossref, https://doi.org/10.1007/978-3-031-90897-2_13."
+  },
+  {
+    "doi": "10.1007/978-3-031-90897-2_10",
+    "title": "Complete Test Suites for Automata in Monoidal Closed Categories.",
+    "venue": "fossacs 2025",
+    "citation": "Kocsis, Bálint, and Jurriaan Rot. “Complete Test Suites for Automata in Monoidal Closed Categories.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 198–219. Crossref, https://doi.org/10.1007/978-3-031-90897-2_10."
+  },
+  {
+    "doi": "10.1007/978-3-031-90897-2_6",
+    "title": "Relational Connectors and Heterogeneous Simulations.",
+    "venue": "fossacs 2025",
+    "citation": "Nora, Pedro, et al. “Relational Connectors and Heterogeneous Simulations.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 111–32. Crossref, https://doi.org/10.1007/978-3-031-90897-2_6."
+  },
+  {
+    "doi": "10.1007/978-3-031-90897-2_11",
+    "title": "Temporal Hyperproperties for Population Protocols.",
+    "venue": "fossacs 2025",
+    "citation": "Waldburger, Nicolas, et al. “Temporal Hyperproperties for Population Protocols.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 220–42. Crossref, https://doi.org/10.1007/978-3-031-90897-2_11."
+  }
+]
