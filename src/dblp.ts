@@ -2,7 +2,7 @@ import {FILES} from './config.ts';
 import {readUrl} from './request.ts';
 import {all, log, LogLv, FileSystem} from './util.ts';
     
-const DBLP_DOMAINS = [
+export const DBLP_DOMAINS = [
     'https://dblp.org',
     'https://dblp.uni-trier.de',
 ];
@@ -85,7 +85,7 @@ class DblpVenue {
         return `${this.name} ${this.year}`;
     }
 
-    private apiUrl(domain: string): string {
+    apiUrl(domain: string): string {
         const path = '/search/publ/api';
         const searchParams = new URLSearchParams( {
             q: `stream:conf/${this.name}: year:${this.year}`,
@@ -95,7 +95,7 @@ class DblpVenue {
         return `${domain}${path}?${searchParams}`;
     }
 
-    private async callApi(): Promise<string> {
+    async callApi(): Promise<string> {
         const calls = DBLP_DOMAINS
             .map(domain => this.apiUrl(domain))
             .map(url => readUrl(url));

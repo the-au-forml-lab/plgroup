@@ -2,6 +2,7 @@ import {FILES, SCHEDULE_EMPTY_LINE_RE} from './config.ts';
 import {FileSystem, log, LogLv} from './util.ts';
 import {type Paper, DataSet} from './dataset.ts';
 import {lookupDoi} from './doi.ts';
+import {loadVenues, DBLP_DOMAINS} from './dblp.ts';
 
 function doiUrl(doi: string, target: 'plain'|'discord'|'gfm'){
     // target selects for which application to format:
@@ -140,4 +141,12 @@ function table(data: Map<string,number>): void{
     }
     printLine('TOTAL', total);
 
+}
+
+export function venues(): void {
+    const domain = DBLP_DOMAINS[0];
+    const venues = loadVenues();
+    for(const v of venues){
+        console.log(v.apiUrl(domain));
+    }
 }

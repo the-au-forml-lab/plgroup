@@ -8,6 +8,7 @@ const ACTIONS = {
     SET: 'set',
     STATS: 'stats',
     UPDATE: 'update',
+    VENUES: 'venues',
 };
 
 async function main() {
@@ -29,6 +30,9 @@ async function main() {
             break;
         case ACTIONS.UPDATE:
             todo = () => makeDataSet();
+            break;
+        case ACTIONS.VENUES:
+            todo = () => workflow.venues();
             break;
         default:
             todo = () => console.log('unknown action');
