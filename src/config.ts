@@ -33,12 +33,12 @@ export const FILES = {
     /**
      * list of paper citations on the website
      */
-    WEB_PAPERS: './site/papers.md',
+    WEB_PAPERS: './docs/papers.md',
 
     /**
      * main website for current semester
      */
-    WEB_INDEX: './site/index.md',
+    WEB_INDEX: './docs/index.md',
 };
 
 /**
