@@ -48,7 +48,7 @@ organization.
 |:----------------|--------------------------------------------------------------|
 | `npm install`   | Install [development dependencies](#editing-the-source-code) |
 | `npm run build` | Typecheck the source code                                    |
-| `npm run serve` | Run Jekyll for [Website development(#website-development)    |
+| `npm run serve` | Run Jekyll for [Website development](#website-development)   |
 
 
 ## Everyday use
