@@ -35,7 +35,7 @@ async function lookupDoiNoCache(doi: string): Promise<Paper> {
 
 export async function lookupDoi(
     doi: string,
-    additive=DATASET.LOOKUP_ADDITIVE
+    additive=false
 ): Promise<Paper> {
     const dataSet = DataSet.load();
     const paper = dataSet.get(doi) ?? await lookupDoiNoCache(doi);

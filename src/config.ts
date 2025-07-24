@@ -57,8 +57,7 @@ export const DATASET = {
      * breaks and indentation. disabling this saves space, but causes large
      * diffs since everything goes on one line.
      */
-    goes on one line.
-        HUMAN_READABLE: true,
+    HUMAN_READABLE: true,
 
     /**
      * options for the process of constructing the dataset.
