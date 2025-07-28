@@ -10,18 +10,21 @@ research. Each week, members vote on a selection of papers drawn at random from
 top PL conferences. We gather in person weekly to discuss the selected
 papers. This repository contains our website and the tooling we use to select
 papers. The PL Reading Group is organized by the
-[ΔΛΔ](https://augusta.presence.io/organization/delta-lambda-delta) student
-organization. 
+[ΔΛΔ](https://augusta.presence.io/organization/delta-lambda-delta)
+student organization. 
 
 ## Quick start
 
-1.  Populate `data/sources.csv` with your favorite venues.
+1.  [Populate](#setting-sources-for-paper-selection)
+    `data/sources.csv` with your favorite venues.
 1.  Execute `npm run update` to fetch papers from those venues.
 1.  Commit these changes to the repository.
 1.  [Enable one of the workflows](#using-the-workflows) for automatic paper
     selection.
 
 ### Repository overview
+
+**Directory contents**
 
 | Directory               | Description                                                   |
 |:------------------------|---------------------------------------------------------------|
@@ -30,7 +33,7 @@ organization.
 | **`src`**               | source code for paper selection                               |
 | **`.github/workflows`** | automated paper selection workflows                           |
 
-### Commands overview
+**Common commands**
 
 | Command                    | Effect                                                 |
 |:---------------------------|--------------------------------------------------------|
@@ -40,10 +43,7 @@ organization.
 | `npm run stats`            | print statistics about the dataset                     |
 | `npm run update`           | [update the dataset](#updating-the-dataset)            |
 
-[manual]: #manually-setting-the-next-paper
-[choose]: #getting-a-next-paper-suggestion
-
-### Development commands overview
+**Development commands**
 
 | Command          | Effect                                                       |
 |:-----------------|--------------------------------------------------------------|
@@ -52,6 +52,8 @@ organization.
 | `npm run serve`  | Run Jekyll for [Website development](#website-development)   |
 | `npm run venues` | Print URLs for debugging DBLP requests
 
+[manual]: #manually-setting-the-next-paper
+[choose]: #getting-a-next-paper-suggestion
 
 ## Everyday use
 
@@ -65,14 +67,13 @@ After modifying this file you must
 Each line of `data/sources.csv` contains the `name` and `year` of a conference
 separated by a comma, and with no additional whitespace.
 The `name` is such that the following URL is valid on DBLP.
-
 ``` text
 https://dblp.org/db/conf/<name>/index.html
 ```
-
 You can use this to discover conferences by browsing DBLP.
 
-**Note.** Only conferences are supported at the moment.
+**Note.** Venues other than conferences (e.g. journals) are not supported at the
+moment.
 
 ### Filtering papers by keywords
 
@@ -91,7 +92,7 @@ delete the file `data/papers.json`.
 If the [option](#configuration-file) `DATASET.ADDITIVE` is true,
 this operation will only add new papers to the dataset.
 When that option is false (the default), papers from venues no longer listed
-in `data/sources.csv` are removed during the update.
+in `data/sources.csv` will be removed during the update.
 
 **Troubleshooting.** If the above URL succeeds,
 but updating the dataset still fails,
@@ -102,8 +103,7 @@ you can inspect the URLs to which the program makes API calls by running
 
 The paper selection actions run on a schedule,
 but can also be triggered manually by running the
-[configured workflow](#using-the-workflows) in
-[actions](https://github.com/the-au-forml-lab/plgroup/actions).
+[configured workflow](#using-the-workflows) in [GitHub actions](./actions).
 Doing so will generate PRs with paper suggestions.
 Only those with the appropriate repository permissions may run these workflows
 manually.
@@ -182,8 +182,8 @@ follow these instructions:
 
 ## Using the workflows
 
-There are two available workflows: _ranked choice voting_ and
-_reviewer approval_.
+There are two available workflows:
+_ranked choice voting_ and _reviewer approval_.
 Only one workflow should be enabled during a semester/reading period.
 Workflows are controlled by variables which can be managed at
 _settings > secrets and variables > actions (variables)_
