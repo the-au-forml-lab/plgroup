@@ -4,12 +4,14 @@
 [![Test changes](https://github.com/the-au-forml-lab/plgroup/actions/workflows/test.yaml/badge.svg)](https://github.com/the-au-forml-lab/plgroup/actions/workflows/test.yaml)
 
 The Augusta University Programming Languages Reading Group is a regular meeting
-to discuss recent results in programming languages research. The intent of the
-group is to learn about various ideas and generally broaden perspectives on PL
-research. Each week, members vote on a selection of papers drawn at random from
-top PL conferences. We gather in person weekly to discuss the selected
-papers. This repository contains our website and the tooling we use to select
-papers. The PL Reading Group is organized by the
+to discuss recent results in programming languages (PL) research.
+The intent of the group is to learn about various ideas and generally broaden
+perspectives on PL research.
+Each week, members vote on a selection of papers drawn at random from top PL
+conferences.
+We gather in person weekly to discuss the selected papers.
+This repository contains our website and the tooling we use to select papers.
+The PL Reading Group is organized by the
 [ΔΛΔ](https://augusta.presence.io/organization/delta-lambda-delta)
 student organization. 
 
@@ -22,16 +24,7 @@ student organization.
 1.  [Enable one of the workflows](#using-the-workflows) for automatic paper
     selection.
 
-### Repository overview
-
-**Directory contents**
-
-| Directory               | Description                                                   |
-|:------------------------|---------------------------------------------------------------|
-| **`data`**              | static and auto-generated files pertaining to paper selection |
-| **`docs`**              | website content                                               |
-| **`src`**               | source code for paper selection                               |
-| **`.github/workflows`** | automated paper selection workflows                           |
+## Everyday use
 
 **Common commands**
 
@@ -43,19 +36,9 @@ student organization.
 | `npm run stats`            | print statistics about the dataset                     |
 | `npm run update`           | [update the dataset](#updating-the-dataset)            |
 
-**Development commands**
-
-| Command          | Effect                                                       |
-|:-----------------|--------------------------------------------------------------|
-| `npm install`    | Install [development dependencies](#editing-the-source-code) |
-| `npm run build`  | Typecheck the source code                                    |
-| `npm run serve`  | Run Jekyll for [Website development](#website-development)   |
-| `npm run venues` | Print URLs for debugging DBLP requests
-
 [manual]: #manually-setting-the-next-paper
 [choose]: #getting-a-next-paper-suggestion
 
-## Everyday use
 
 ### Setting sources for paper selection
 
@@ -88,16 +71,12 @@ To refresh the dataset, run `npm run update`.
 This operation uses the existing dataset as a cache to minimize API calls.
 If you want to rebuild the dataset from scratch,
 delete the file `data/papers.json`.
+By default, papers from venues (and years) no longer listed in `data/sources.csv`
+will be removed during the update.
+This behavior may be changed in the [configuration file](#configuration-file).
 
-If the [option](#configuration-file) `DATASET.ADDITIVE` is true,
-this operation will only add new papers to the dataset.
-When that option is false (the default), papers from venues no longer listed
-in `data/sources.csv` will be removed during the update.
-
-**Troubleshooting.** If the above URL succeeds,
-but updating the dataset still fails,
-you can inspect the URLs to which the program makes API calls by running
-`npm run venues` and navigating to the returned URLs using a web browser.
+**Troubleshooting.** If calls to the DBLP API fail,
+you can inspect the relevant URLs by running `npm run venues`.
 
 ### Getting a next paper suggestion
 
@@ -128,7 +107,50 @@ the paper selection script.
 The effects of individual configuration options is described in the comments of
 that file and also in the relevant places in this document.
 
+## Semester maintenance
+
+Light maintenance is needed between semesters/reading periods.
+
+### Start of semester
+
+1.  **Archive the previous semester.**
+    Run the `archive_semester.sh <SEMESTER> <YEAR>` script for the most recently
+    ended semester. For example `archive_semester.sh fall 2025`.
+    This script will
+    create a new directory in `docs/_past_semesters`,
+    copy the reading group info for the past semester to that directory and
+    clear the automatically generated files in `docs`.
+
+2.  **Clear the Schedule.**
+    Edit the schedule (the table at the bottom of `docs/index.md`).
+    Adjust dates, locations etc. as appropriate.
+    Fill the description colum with a placeholder.
+    By default you should use
+    ``` text
+    Paper <number> discussion
+    ```
+    If you wish to use a different place holder,
+    [customize](#configuration-file) the variable `SCHEDULE_PLACEHOLDER_RE`
+    to a regular expression which matches your placeholder
+    (and no other part of `index.md`)
+
+3.  Enable one of the paper selection [workflow](#using-the-workflows).
+
+### End of semester
+
+Disable the configured workflow.
+
 ## Editing
+
+**Development commands**
+
+| Command          | Effect                                                       |
+|:-----------------|--------------------------------------------------------------|
+| `npm install`    | Install [development dependencies](#editing-the-source-code) |
+| `npm run build`  | Typecheck the source code                                    |
+| `npm run serve`  | Run Jekyll for [Website development](#website-development)   |
+| `npm run venues` | Print URLs for debugging DBLP requests
+
 
 ### Editing the source code
 
@@ -174,11 +196,11 @@ To install dependencies and get started with local development,
 follow these instructions:
 
 1.   [Install Jekyll](https://jekyllrb.com/docs/installation)
-1.   Change into the `docs/` directory.
-1.   Install dependencies: execute `bundle install`
+1.   `cd docs/`.
+1.   Install dependencies: `bundle install`
 1.   Run the website locally: `bundle exec jekyll serve`
     _or_ `cd .. && npm run serve`
-1.   You can now access the website on `localhost:4000/plgroup`.
+1.   Preview the website on `localhost:4000/plgroup`.
 
 ## Using the workflows
 
@@ -206,11 +228,11 @@ The remaining PRs will be closed/discarded automatically.
 The relevant GitHub actions are "Vote open" and "Vote close".
 This workflow requires Discord integration to conduct voting.
 
-*   Set `DISCORD_WEBHOOK_URL` secret to direct to the intended discord channel.
-*   Set `PAPER_VOTE_ON` variable to `1` to enable voting.
-*   Set `OPTIONS` to a numerical list of options, e.g. `[1, 2, 3]` means three
++   Set `DISCORD_WEBHOOK_URL` secret to direct to the intended discord channel.
++   Set `PAPER_VOTE_ON` variable to `1` to enable voting.
++   Set `OPTIONS` to a numerical list of options, e.g. `[1, 2, 3]` means three
     options.
-*   Set `OPTION_COUNT` to a the discord-string-representation of the emoji
++   Set `OPTION_COUNT` to a the discord-string-representation of the emoji
     representing the number of options.
     For example, for three options the emoji 3️⃣ is typed in discord as `:three:`,
     so set this variable to `:three:`.
@@ -230,22 +252,17 @@ The relevant GitHub actions is "Random paper".
     -   Set "Require approvals" count to the minimum number of reviewer required
         to approve paper suggestion.
 +   Set `REVIEWERS` variable to a newline-separated string of GitHub usernames.
-    -   For example:
-        ``` text
-        "user1
-        user2
-        user3"
-        ```
+    -   For example: `user1 \n user2 \n user3`
     -   The users must have sufficient permissions to perform PR reviews.
-        +   Set `PAPER_CHOOSE_ON` variable to <code>1</code> to enable automatic
++   Set `PAPER_CHOOSE_ON` variable to <code>1</code> to enable automatic
             suggestions.
-        +   Set `AUTOMERGE_PAT` secret to a personal access token of a user with
-            repository write access, to enable auto-merging approved PRs.
++   Set `AUTOMERGE_PAT` secret to a personal access token of a user with
+    repository write access, to enable auto-merging approved PRs.
     -   Permission scopes for classic token: repo
     -   Permission scopes for fine-grained token:
         pull requests write and contents write.
-        +   (Optional) Set `DISCORD_WEBHOOK_URL` secret to a Discord channel URL
-            to enable notifications.
++   (Optional) Set `DISCORD_WEBHOOK_URL` secret to a Discord channel URL
+    to enable notifications.
 
 ### Initial setup for forked repositories
 
