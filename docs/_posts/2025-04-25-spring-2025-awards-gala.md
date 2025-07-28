@@ -8,7 +8,7 @@ Good afternoon everyone!
 
 If you're seeing this, that means that I have successfully made the blog for our organization! I wanted to send out a preliminary email to recap the results of our awards gala, as well as the discussed changes to ΔΛΔ leadership and meeting structure (yes, it's a bit of a long one, but bear with me).
 
-### Awards Gala Results
+## Awards Gala Results
 
 Please see below for the finalized votes for the Spring 2025 PL Reading Group Awards Gala
 
@@ -21,11 +21,11 @@ Please see below for the finalized votes for the Spring 2025 PL Reading Group Aw
 
 <!--more-->
 
-### Leadership Updates
+## Leadership Updates
 
 After some discussion in today's meeting, we have now officially adjusted the bylaws of our organization to add a new leadership position, Secretary, which will log important meeting notes, keeping all active members up to date on ΔΛΔ news and events, and ensure the president effectively delegates responsibilities to the other leadership members (_cough, Peter_). This new position will be filled by myself (hence me sending this email).
 
-### Organization Updates
+## Organization Updates
 
 As is tradition at the end of the Awards Gala, we discussed potential changes to the structure and procedure of the reading group. Below are the changes that got passed:
 
@@ -34,7 +34,7 @@ As is tradition at the end of the Awards Gala, we discussed potential changes to
 - As discussed earlier in the semester, we aim to change where the papers we read are source, with the aim to select shorter papers that still hold the same quality as the ones being selected from the current SIGPLAN conferences we pool from.
 - Finally, we will be putting a system in place to promote more lively discussion on the paper selected. The system is as follows: every week, before the paper options are listed, two current graduate members are selected at random that will argue either in support or against the paper that will be selected. These members must come prepared to argue their point, with failure to do so resulting in a sanction on the member in the form of forcing them to continue to be in the supporting/opposing role until they sufficiently serve this role.
 
-### TL;DR
+## TL;DR
 
 - We held the awards gala today, see above for the awarded papers.
 - We created the role of secretary, with the task of pestering members about news and upholding tasks, which I will be filling.
