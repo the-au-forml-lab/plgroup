@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/plgroup/2023_fall/index</loc>
+<lastmod>2025-07-28T17:43:28-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/plgroup/2023_spring/index</loc>
+<lastmod>2025-07-28T17:43:28-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/plgroup/2024_fall/index</loc>
+<lastmod>2025-07-28T17:43:28-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/plgroup/2024_spring/index</loc>
+<lastmod>2025-07-28T17:43:28-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/plgroup/2025_spring/index</loc>
+<lastmod>2025-07-28T17:43:28-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/plgroup/2025/04/25/spring-2025-awards-gala.html</loc>
+<lastmod>2025-04-25T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/plgroup/blog.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/plgroup/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/plgroup/policies.html</loc>
+</url>
+</urlset>

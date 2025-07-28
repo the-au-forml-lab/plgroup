@@ -1,0 +1,121 @@
+html {
+    max-width: 50rem;
+    margin: .5rem auto;
+    text-align: justify;
+}
+
+article section {
+    margin-bottom: 1rem;
+}
+
+article ul, article ol {
+    padding-left: .5rem;
+    margin-left: 1rem;
+}
+article li {
+    margin-bottom: 1em;
+    margin-left: 0;
+    padding-left: 1rem;
+}
+
+article li ul {
+    margin-left: 0;
+    padding-left: 1rem;
+}
+
+article li li {
+    margin-top: .5em;
+    margin-bottom: .5em;
+    margin-left: 0;
+    padding-left: .5rem;
+}
+
+article a {
+    display: inline-block;
+    word-break: break-all;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+h3, h4 {
+    margin-top: 2rem;
+    margin-bottom: 1rem
+}
+
+table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    max-width: 100%;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15);
+    background: #fff;
+    border-radius: 0.3rem;
+}
+
+table th, table td {
+    padding: 12px 15px;
+}
+
+table tr {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+table tbody tr:last-of-type {
+    border-bottom: none;
+}
+
+footer .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer .navbar-nav li, footer .nav-item .nav-link {
+    display: inline-block;
+}
+
+footer .nav-item .nav-link {
+    padding: .75rem 1rem;
+}
+
+p.date {
+    font-style: italic;
+    font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 600px) {
+    table thead {
+        display: none
+    }
+
+    table, table tbody, table tr {
+        display: block;
+    }
+
+    table tr {
+        padding: 1rem;
+    }
+
+    table td {
+        padding: 0;
+        text-align: left !important;
+        display: inline-block;
+    }
+
+    .jumbotron table tr td:nth-child(3) {
+        display: block
+    }
+}
+
+div.papers {
+    text-align: left;
+}
