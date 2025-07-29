@@ -3,7 +3,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/the-au-forml-lab/plgroup)
 [![Test changes](https://github.com/the-au-forml-lab/plgroup/actions/workflows/test.yaml/badge.svg)](https://github.com/the-au-forml-lab/plgroup/actions/workflows/test.yaml)
 
-The Augusta University Programming Languages Reading Group is a regular meeting
+The Augusta University Programming Languages Reading Group meets regularly
 to discuss recent results in programming languages (PL) research.
 The intent of the group is to learn about various ideas and generally broaden
 perspectives on PL research.
@@ -78,7 +78,7 @@ This behavior may be changed by editing the `DATASET.ADDITIVE`
 **Troubleshooting.** If calls to the DBLP API fail,
 you can inspect the relevant URLs by running `npm run venues`.
 
-### Getting a next paper suggestion
+### Getting the next paper suggestion
 
 The paper selection actions run on a schedule,
 but can also be triggered manually by running the
