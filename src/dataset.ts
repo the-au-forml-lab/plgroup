@@ -29,6 +29,9 @@ export class DataSet {
     }
 
     static load(): DataSet {
+        if(!FileSystem.exists(FILES.PAPERS)){
+            return DataSet.empty();
+        }
         const papers: Paper[] = JSON.parse(FileSystem.readFile(FILES.PAPERS));
         // do not check for errors since this file should be machine-generated
         return new DataSet(papers);
@@ -74,18 +77,11 @@ async function completePaper(hit: DblpPrePaper, cache: DataSet): Promise<Paper> 
     return {...hit, citation};
 }
 
-export type MakeDataSetConfig = {
-    clear: boolean,
-    additive: boolean
-}
-
 export async function makeDataSet(
-    config: MakeDataSetConfig = DATASET.MAKE
+    additive: boolean = DATASET.ADDITIVE
 ): Promise<DataSet> {
-    const cache: DataSet = config.clear
-        ? DataSet.empty()
-        : DataSet.load();
-    const dataSet = config.additive
+    const cache: DataSet = DataSet.load();
+    const dataSet = additive
         ? DataSet.copy(cache)
         : DataSet.empty();
     const venues = loadVenues();

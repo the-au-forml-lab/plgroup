@@ -51,8 +51,12 @@ export function shuffle<T>(xs: T[]): T[] {
 export class FileSystem {
     // this class assumes that all files end in a newline character and complies
     // with this assumption when writing files.
+    static exists(fileName: string){
+        return fs.existsSync(fileName);
+    }
+
     static readFile(fileName: string): string {
-        if (!fs.existsSync(fileName)) {
+        if (!FileSystem.exists(fileName)) {
             throw new Error(`File ${fileName} does not exits.`);
         }
         return fs.readFileSync(fileName).toString();

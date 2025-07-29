@@ -1,4 +1,4 @@
-import {FILES, SCHEDULE_EMPTY_LINE_RE} from './config.ts';
+import {FILES, SCHEDULE_PLACEHOLDER_RE} from './config.ts';
 import {FileSystem, log, LogLv} from './util.ts';
 import {type Paper, DataSet} from './dataset.ts';
 import {lookupDoi} from './doi.ts';
@@ -28,7 +28,7 @@ function formatWebCitation(paper: Paper): string {
 
 function updateSchedule(paper: Paper): void {
     const page = FileSystem.readFile(FILES.WEB_INDEX);
-    const match = SCHEDULE_EMPTY_LINE_RE.exec(page);
+    const match = SCHEDULE_PLACEHOLDER_RE.exec(page);
     if(match){
         const newIndex = page.replace(match[0], paper.title);
         FileSystem.writeFile(FILES.WEB_INDEX, newIndex);

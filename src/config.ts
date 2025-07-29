@@ -46,35 +46,23 @@ export const FILES = {
  */ 
 export const DATASET = {
     /**
-     * citation style to use; for a list of valid citation styles go to
-     * `https://citation.doi.org` and check the relevant dropdown menu (it can
-     * also be searched by typing)
+     * Citation style to use; For a list of valid citation styles go to
+     * [https://citation.doi.org] and check the relevant dropdown menu .
      */
-    CITATION_STYLE: 'modern-language-association',
+     CITATION_STYLE: 'modern-language-association',
 
     /**
-     * whether to write the dataset in human-readable format, i.e. with line
-     * breaks and indentation. disabling this saves space, but causes large
+     * Whether to write the dataset in human-readable JSON, i.e. with line
+     * breaks and indentation. Disabling this saves space, but causes large
      * diffs since everything goes on one line.
      */
     HUMAN_READABLE: true,
 
     /**
-     * options for the process of constructing the dataset.
+     * If `true`, papers will only be added to the dataset. If `false`, old
+     * papers will be deleted during dataset updates.
      */
-    MAKE: {
-        /**
-         * when enabled, data set will be re-built from scratch every
-         * time. otherwise the existing dataset is used as a cache to minimize
-         * the number of API calls.
-         */
-        clear: false,
-
-        /**
-         * when enabled, keep old papers in the dataset, otherwise delete them.
-         */
-        additive: false,
-    }
+    ADDITIVE: false
 }
 
 export const LOG = {
@@ -117,4 +105,4 @@ export const REQUEST = {
  * regular expression to match empty lines in the schedule inside
  * `FILES.WEB_INDEX`.
  */
-export const SCHEDULE_EMPTY_LINE_RE: RegExp = /Paper\s+\d+\s+discussion/;
+export const SCHEDULE_PLACEHOLDER_RE: RegExp = /Paper\s+\d+\s+discussion/;
