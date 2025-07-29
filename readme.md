@@ -60,20 +60,20 @@ moment.
 
 ### Filtering papers by keywords
 
-Each line of the file `data/stopwords.txt` contains a keywords to exclude from
+Each line of the file `data/stopwords.txt` contains a keywords to exclude during
 the selection process.
 Any paper whose title contains (case-insensitively) such a keyword will not be
 suggested for reading.
 
 ### Updating the dataset
 
-To refresh the dataset, run `npm run update`.
+To update the dataset, run `npm run update`.
 This operation uses the existing dataset as a cache to minimize API calls.
-If you want to rebuild the dataset from scratch,
-delete the file `data/papers.json`.
+If you want to rebuild the dataset from scratch, delete the file `data/papers.json`.
 By default, papers from venues (and years) no longer listed in `data/sources.csv`
 will be removed during the update.
-This behavior may be changed in the [configuration file](#configuration-file).
+This behavior may be changed by editing the `DATASET.ADDITIVE`
+[option](#configuration-file).
 
 **Troubleshooting.** If calls to the DBLP API fail,
 you can inspect the relevant URLs by running `npm run venues`.
@@ -105,7 +105,7 @@ The corresponding command is `npm run set -- <DOI>`.
 The file `src/config.ts` contains various settings for the runtime behavior of
 the paper selection script.
 The effects of individual configuration options is described in the comments of
-that file and also in the relevant places in this document.
+that file.
 
 ## Semester maintenance
 
@@ -114,10 +114,12 @@ Light maintenance is needed between semesters/reading periods.
 ### Start of semester
 
 1.  **Archive the previous semester.**
-    Run the `archive_semester.sh <SEMESTER> <YEAR>` script for the most recently
-    ended semester. For example `archive_semester.sh fall 2025`.
-    This script will
-    create a new directory in `docs/_past_semesters`,
+    Run the script to archive the most recent semester
+    ``` bash
+    bash archive_semester.sh <SEMESTER> <YEAR>
+    ```
+    For example `archive_semester.sh fall 2025`.
+    This script will create a new directory in `docs/_past_semesters`,
     copy the reading group info for the past semester to that directory and
     clear the automatically generated files in `docs`.
 
@@ -134,7 +136,9 @@ Light maintenance is needed between semesters/reading periods.
     to a regular expression which matches your placeholder
     (and no other part of `index.md`)
 
-3.  Enable one of the paper selection [workflow](#using-the-workflows).
+3.  **Edit** `readme.md` to reflect information about the new semester.
+
+4.  **Enable** one of the paper selection [workflow](#using-the-workflows).
 
 ### End of semester
 
