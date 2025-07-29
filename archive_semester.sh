@@ -6,6 +6,9 @@ then
     exit 1;
 fi
 
+SEM=$1
+YEAR=$2
+
 DOCS="docs";
 OLD_DIR=$DOCS"/_past_semesters/"$YEAR"_"$SEM;
 
