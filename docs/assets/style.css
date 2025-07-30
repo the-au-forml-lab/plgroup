@@ -1,3 +1,9 @@
+html {
+    max-width: 50rem;
+    margin: .5rem auto;
+    text-align: justify;
+}
+
 article section {
     margin-bottom: 1rem;
 }
@@ -29,7 +35,9 @@ article a {
     word-break: break-all;
 }
 
-a { text-decoration: none; }
+a {
+    text-decoration: none;
+}
 
 h2 {
     margin-top: 2.5rem;
@@ -79,6 +87,11 @@ footer .nav-item .nav-link {
     padding: .75rem 1rem;
 }
 
+p.date {
+    font-style: italic;
+    font-size: 1.4rem;
+}
+
 @media only screen and (max-width: 600px) {
     table thead {
         display: none
@@ -101,4 +114,8 @@ footer .nav-item .nav-link {
     .jumbotron table tr td:nth-child(3) {
         display: block
     }
+}
+
+div.papers {
+    text-align: left;
 }

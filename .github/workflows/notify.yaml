@@ -13,10 +13,11 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
-      - run: echo "NEXT=\"$(bash .github/utils/next.sh)\"" >> $GITHUB_ENV
+      - id: vars
+        run: cat data/vars.txt >> $GITHUB_OUTPUT
       - uses: Ilshidur/action-discord@master
         if: ${{ env.DISCORD_WEBHOOK != '' }}
         with:
-          args: ${{ fromJSON(env.NEXT) }}
+          args: ${{ fromJSON(steps.vars.outputs.discordNext) }}
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}

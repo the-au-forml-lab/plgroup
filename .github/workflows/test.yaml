@@ -2,9 +2,13 @@ name: "Test changes"
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, new-semester-dev ]
   pull_request:
     branches: [ main, "!next-paper" ]
+
+env:
+  USERNAME: "PL Reading Group Paper Vote"
+  AVATAR: https://raw.githubusercontent.com/the-au-forml-lab/plgroup/main/.github/assets/vote.png
 
 jobs:
   test:
@@ -14,8 +18,10 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
+      - run: npm ci
+      - run: npx tsc
       - run: npm run choose
-      - run: npm run set -- 10.1145/3622831
-      - run: npm run web
+      - run: npm run details 10.48550/arXiv.math/0212377
+      - run: npm run set 10.1080/09555803.2024.2410388
       - run: npm run stats

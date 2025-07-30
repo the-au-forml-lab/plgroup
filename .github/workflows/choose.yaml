@@ -24,23 +24,19 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
       - name: 🔮 Choose random paper
         run: npm run choose
-      - name: 📝 Update website
-        run: npm run web
       - name: 🔎 Lookup paper details
         id: vars
-        run: |
-          echo "title=$(bash .github/utils/title.sh)" >> $GITHUB_OUTPUT
-          echo "body=\"$(bash .github/utils/pr.sh)\"" >> $GITHUB_OUTPUT
+        run: cat data/vars.txt >> $GITHUB_OUTPUT
       - name: 🔖️ Create a pull request
         uses: peter-evans/create-pull-request@v6
         id: paperpr
         with:
           labels: next-paper
           branch: next-paper
-          title: ${{ steps.vars.outputs.title }}
+          title: ${{ fromJSON(steps.vars.outputs.title) }}
           body: ${{ fromJSON(steps.vars.outputs.body) }}
           delete-branch: true
           reviewers: ${{ fromJSON(vars.REVIEWERS) }}

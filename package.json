@@ -1,28 +1,34 @@
 {
-  "name": "reading-group",
-  "version": "1.0.0",
-  "description": "Reading group random paper selector.",
-  "homepage": "https://the-au-forml-lab.github.io/plgroup/",
-  "type": "module",
-  "scripts": {
-    "set": "node src/index.js set",
-    "details": "node src/index.js details",
-    "update": "node src/index.js update",
-    "choose": "node src/index.js choose",
-    "stats": "node src/index.js stats",
-    "web": "node src/index.js web",
-    "clean": "rm -rf docs/_site && rm -rf docs/Gemfile.lock",
-    "jekyll": "cd docs && bundle exec jekyll serve"
-  },
-  "license": "GPL-2.0",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/the-au-forml-lab/plgroup"
-  },
-  "bugs": {
-    "url": "https://github.com/the-au-forml-lab/plgroup/issues"
-  },
-  "engines": {
-    "node": ">=16.0.0"
-  }
+    "name": "reading-group",
+    "version": "2.0.0",
+    "description": "Reading group random paper selector.",
+    "homepage": "https://the-au-forml-lab.github.io/plgroup/",
+    "type": "module",
+    "scripts": {
+        "choose": "node src/main.ts choose",
+        "details": "node src/main.ts details",
+        "set": "node src/main.ts set",
+        "stats": "node src/main.ts stats",
+        "update": "node src/main.ts update",
+        "venues": "node src/main.ts venues",
+        "serve": "cd docs && bundle exec jekyll serve",
+        "clean": "rm -rf docs/_site docs/Gemfile.lock node_modules/ *.log",
+        "build": "npx tsc"
+    },
+    "license": "GPL-2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/the-au-forml-lab/plgroup"
+    },
+    "bugs": {
+        "url": "https://github.com/the-au-forml-lab/plgroup/issues"
+    },
+    "engines": {
+        "node": ">=22.6.0"
+    },
+    "devDependencies": {
+        "@types/node": "^24.0.3",
+        "typescript": "^5.8.3",
+        "typescript-language-server": "^4.3.4"
+    }
 }

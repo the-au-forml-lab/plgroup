@@ -2,155 +2,229 @@
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/the-au-forml-lab/plgroup)
 [![Test changes](https://github.com/the-au-forml-lab/plgroup/actions/workflows/test.yaml/badge.svg)](https://github.com/the-au-forml-lab/plgroup/actions/workflows/test.yaml)
-[![Maintainability](https://api.codeclimate.com/v1/badges/b10b07ed0fded196aaa2/maintainability)](https://codeclimate.com/github/the-au-forml-lab/plgroup/maintainability)
 
-**This repository contains tooling for our programming languages reading group.**
+The Augusta University Programming Languages Reading Group meets regularly
+to discuss recent results in programming languages (PL) research.
+The intent of the group is to learn about various ideas and generally broaden
+perspectives on PL research.
+Each week, members vote on a selection of papers drawn at random from top PL
+conferences.
+We gather in person weekly to discuss the selected papers.
+This repository contains our website and the tooling we use to select papers.
+The PL Reading Group is organized by the
+[ΔΛΔ](https://augusta.presence.io/organization/delta-lambda-delta)
+student organization. 
 
-Augusta University Programming Languages (PL) Reading Group is a regular meeting to discuss exciting recent results in programming languages research. 
-The intent of the group is to learn about various ideas and generally broaden perspectives on PL research topics.
-We select papers randomly from top programming languages conferences, with final selection made by ranked choice voting by reading group members.
-We gather weekly in person to discuss the selected papers.
-This repository contains a small website and tooling to assist in selecting papers to read.
+## Quick start
 
-## In this repository
+1.  [Populate](#setting-sources-for-paper-selection)
+    `data/sources.csv` with your favorite venues.
+1.  Execute `npm run update` to fetch papers from those venues.
+1.  Commit these changes to the repository.
+1.  [Enable one of the workflows](#using-the-workflows) for automatic paper
+    selection.
 
-| Directory               | Description                                    |
-|:------------------------|:-----------------------------------------------|
-| **`.github/workflows`** | automation workflows                           |
-| **`data`**              | static and generated files for paper selection |
-| **`docs`**              | website content                                |
-| **`src`**               | source code for choosing papers                |
+## Everyday use
 
-**Available commands**
+**Common commands**
 
-Running these commands requires [Node.js](https://nodejs.org/en/download/).
+| Command                    | Effect                                                 |
+|:---------------------------|--------------------------------------------------------|
+| `npm run choose`           | [select a paper randomly][choose] from the dataset     |
+| `npm run details -- <DOI>` | look up title and citation of the paper with given DOI |
+| `npm run set -- <DOI>`     | [manually set the next paper][manual]                  |
+| `npm run stats`            | print statistics about the dataset                     |
+| `npm run update`           | [update the dataset](#updating-the-dataset)            |
 
-<pre>
-npm run update             : update paper dataset
-npm run stats              : display paper dataset statistics
-npm run choose             : choose next paper
-npm run web                : auto-update web page 
-npm run set -- [doi]       : manually set the next paper
-npm run details -- [doi]   : print meta data about a paper
-</pre>
+[manual]: #manually-setting-the-next-paper
+[choose]: #getting-a-next-paper-suggestion
 
-## Guide for repository editing
 
-This section describes to how to apply the most commonly expected changes.
+### Setting sources for paper selection
 
-**How to edit source conferences?**
+The file `data/sources.csv` contains a list of conferences, one per line,
+from which papers are selected.
+After modifying this file you must
+[update the dataset](#updating-the-dataset) for the changes to take effect.
 
-The conference sources are in [`sources.txt`](data/sources.txt), one per line.
-Change these sources, then run `npm run update` to regenerate a dataset of papers.
-This process will take up to a few minutes, depending on the number of new papers.
-The update is additive. To remove older entries, first delete `data/papers.json`.
+Each line of `data/sources.csv` contains the `name` and `year` of a conference
+separated by a comma, and with no additional whitespace.
+The `name` is such that the following URL is valid on DBLP.
+``` text
+https://dblp.org/db/conf/<name>/index.html
+```
+You can use this to discover conferences by browsing DBLP.
 
-**How to filter papers by specific keywords?**
+**Note.** Venues other than conferences (e.g. journals) are not supported at the
+moment.
 
-"Stopwords" is a list of keywords where, if any of them appear in the paper title, that paper is not considered for selection.
-Edit this list by changing [`stopwords.txt`](data/stopwords.txt).
-Each line is considered a separate stop word, and paper is evaluated against each word in this list (case-insensitive match).
-After editing the stopwords, run `npm run update` to apply the change to the papers dataset.
+### Filtering papers by keywords
 
-**How to change the website content?**
+Each line of the file `data/stopwords.txt` contains a keywords to exclude during
+the selection process.
+Any paper whose title contains (case-insensitively) such a keyword will not be
+suggested for reading.
 
-Edit files in [`docs`](docs) written in markdown.
-The website theme is from [here](https://github.com/the-au-forml-lab/the-au-forml-lab.github.io). 
-You can override desired parts and customize the site following [Jekyll docs](https://jekyllrb.com/docs/themes/#overriding-theme-defaults).
-For more comprehensive edits, or to debug build issues, follow the instructions for [website development](#website-development).
+### Updating the dataset
 
-**How to get a suggestion for the next paper?**
+To update the dataset, run `npm run update`.
+This operation uses the existing dataset as a cache to minimize API calls.
+If you want to rebuild the dataset from scratch, delete the file `data/papers.json`.
+By default, papers from venues (and years) no longer listed in `data/sources.csv`
+will be removed during the update.
+This behavior may be changed by editing the `DATASET.ADDITIVE`
+[option](#configuration-file).
 
-The paper-selection actions run on automated schedule, but paper selection can be dispatched manually if needed.
-Run the "random paper" action or "vote open" action, in [actions](https://github.com/the-au-forml-lab/plgroup/actions), depending on the [configured workflow](#paper-selection-workflow-configuration). 
-The option to dispatch an action is available based on repository permissions.
-Running a paper-selection action will generate appropriate PRs with paper suggestions.
+**Troubleshooting.** If calls to the DBLP API fail,
+you can inspect the relevant URLs by running `npm run venues`.
 
-**How to set the next paper (bypassing randomness)?**
+### Getting the next paper suggestion
 
-Manually run the ["set paper"](https://github.com/the-au-forml-lab/plgroup/actions/workflows/set.yaml) workflow with a DOI as a parameter.
-The workflow will run all necessary updates and generates a PR of changes. Approve the PR to confirm the next paper.
+The paper selection actions run on a schedule,
+but can also be triggered manually by running the
+[configured workflow](#using-the-workflows) in [GitHub actions](./actions).
+Doing so will generate PRs with paper suggestions.
+Only those with the appropriate repository permissions may run these workflows
+manually.
 
-**How to change the paper selection schedule**
+Both workflows invoke `npm run choose` in the background.
 
-The paper-selection actions run on automated schedule.
-To change the schedule, follow [these instructions](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule).
+### Manually setting the next paper
+
+Manually run the
+[set paper](https://github.com/the-au-forml-lab/plgroup/actions/workflows/set.yaml)
+workflow with the desired paper's DOI as input.
+If the DOI does not correspond to any paper in the data set,
+information about the paper will be retrieved from the internet
+and added to the dataset.
+
+The corresponding command is `npm run set -- <DOI>`.
+
+### Configuration file
+
+The file `src/config.ts` contains various settings for the runtime behavior of
+the paper selection script.
+The effects of individual configuration options is described in the comments of
+that file.
 
 ## Semester maintenance
 
-Light maintenance is needed between semesters/reading periods to boot and shutdown the automated actions.
-  
+Light maintenance is needed between semesters/reading periods.
+
 ### Start of semester
 
-1. Update semester docs
+1.  **Archive the previous semester.**
+    Run the script to archive the most recent semester
+    ``` bash
+    bash archive_semester.sh <SEMESTER> <YEAR>
+    ```
+    For example `archive_semester.sh fall 2025`.
+    This script will create a new directory in `docs/_past_semesters`,
+    copy the reading group info for the past semester to that directory and
+    clear the automatically generated files in `docs`.
 
-    Set values for `SEM` and `YEAR` variables to the most recently concluded semester. 
-    Then, run the command to archive the corresponding semester.
-    It archives the appropriate files and initializes a new semester.
-    
-    ````shell
-    SEM=fall && YEAR=2023 \
-    && DOCS=docs/ && DATA=data/ \
-    && OLD_DIR=$DOCS"_past_semesters/"$YEAR"_"$SEM \
-    && mkdir -p $OLD_DIR \
-    && cp $DOCS"index.md" $OLD_DIR"/index.md" \
-    && mv $DOCS"papers.md" $OLD_DIR"/papers.md" \
-    && [ ! -f $DOCS"awards.md" ] || mv $DOCS"awards.md" $OLD_DIR"/awards.md" \
-    && echo -n '' > $DATA"/past.txt" \
-    && echo -n '' > $DATA"/next.txt" \
-    && touch $DOCS"awards.md" \
-    && touch $DOCS"papers.md"
-    ````
-    
-    Edit `docs/index.md` to describe the current or upcoming semester.
+2.  **Clear the Schedule.**
+    Edit the schedule (the table at the bottom of `docs/index.md`).
+    Adjust dates, locations etc. as appropriate.
+    Fill the description colum with a placeholder.
+    By default you should use
+    ``` text
+    Paper <number> discussion
+    ```
+    If you wish to use a different place holder,
+    [customize](#configuration-file) the variable `SCHEDULE_PLACEHOLDER_RE`
+    to a regular expression which matches your placeholder
+    (and no other part of `index.md`)
 
-2. Turn on paper selection workflow in _settings > secrets and variables > actions_:  
-   - For reviewer approval, set `PAPER_CHOOSE_ON` value to `1`
-   - For ranked choice voting, set `PAPER_VOTE_ON` value to `1`
+3.  **Edit** `readme.md` to reflect information about the new semester.
+
+4.  **Enable** one of the paper selection [workflow](#using-the-workflows).
 
 ### End of semester
 
-1. Turn off paper selection workflows in _settings > secrets and variables > actions_:  
-   Set `PAPER_CHOOSE_ON` and `PAPER_VOTE_ON` values to `0`.
+Disable the configured workflow.
 
-### Unexpected interruptions during a semester
+## Editing
 
-Pause or restart the workflows as necessary, by toggling the paper section workflows in repository settings.
-- To pause: set `PAPER_CHOOSE_ON` and `PAPER_VOTE_ON` values to `0`.
-- To restart: set `PAPER_CHOOSE_ON` or `PAPER_VOTE_ON` value to `1`, based on configured paper-section workflow.
+**Development commands**
+
+| Command          | Effect                                                       |
+|:-----------------|--------------------------------------------------------------|
+| `npm install`    | Install [development dependencies](#editing-the-source-code) |
+| `npm run build`  | Typecheck the source code                                    |
+| `npm run serve`  | Run Jekyll for [Website development](#website-development)   |
+| `npm run venues` | Print URLs for debugging DBLP requests
+
+
+### Editing the source code
+
+To execute the source code,
+[Node.js][nodejs] version `22.6.0` or greater is required.
+This version added
+[native typescript execution](https://nodejs.org/en/learn/typescript/run-natively).
+
+To work on the source code, you will need:
+
+-   the [typescript compiler](https://www.typescriptlang.org)
+-   [type declarations][definitelyTyped] for nodejs
+-   (optional) the [typescript language server][typescriptLS]
+
+Running `npm install` will install all of the above locally in your development
+directory.
+
+[nodejs]: https://nodejs.org/en/download/
+[definitelyTyped]: https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master
+[typescriptLS]: https://github.com/typescript-language-server/typescript-language-server
+
+### Editing the website
+
+Basic edits to the website can be performed by editing the markdown files in the
+`docs` directory.
+For more comprehensive edits,
+follow the instructions at [website development](#website-development).
+
+### Editing the blog
+
+Blog posts are ordinary markdown files located in the `docs/_posts` directory.
+Their file names are formatted as `YYYY-MM-DD-<short title>.md`,
+where the former part is the date of the blog post.
+A template for authoring new posts is provided at `docs/_posts/template.md`.
 
 ### Website development
 
-The `docs/` directory contains documents for the PL Reading Group website.
+The `docs/` directory contains files for the PL Reading Group website.
 It is build using Jekyll and markdown.
-Local development requires Ruby, Jekyll, and various Ruby gems.
-Follow these steps for local setup.
+Substantial edits to the website should be prototyped locally,
+which requires Ruby and Jekyll.
+To install dependencies and get started with local development,
+follow these instructions:
 
-1. [Install Jekyll](https://jekyllrb.com/docs/installation) then cd `docs/`.
-2. Install dependencies: `bundle install`
-3. Run the website locally: `bundle exec jekyll serve`
+1.   [Install Jekyll](https://jekyllrb.com/docs/installation)
+1.   `cd docs/`.
+1.   Install dependencies: `bundle install`
+1.   Run the website locally: `bundle exec jekyll serve`
+    _or_ `cd .. && npm run serve`
+1.   Preview the website on `localhost:4000/plgroup`.
 
-## Initial setup & guidance for forking
+## Using the workflows
 
-The repository code is generic in the sense that, by changing the conference [`sources.txt`](data/sources.txt), it can be made to suggest any kinds of papers that have DOIs indexed by [Crossref](https://github.com/the-au-forml-lab/plgroup/blob/main/src/config.js#L6).
-Complete the following steps to activate the automated actions.
+There are two available workflows:
+_ranked choice voting_ and _reviewer approval_.
+Only one workflow should be enabled during a semester/reading period.
+Workflows are controlled by variables which can be managed at
+_settings > secrets and variables > actions (variables)_
 
-* **Enable workflow permissions** in _settings > actions > general_:
-    - choose "Read and write permissions"
-    - check "Allow GitHub Actions to create and approve pull requests
-* **Create environment secrets and variables**, with empty default values, in _settings > secrets and variables > actions_:
-    - secrets: `DISCORD_WEBHOOK_URL` and `AUTOMERGE_PAT` 
-    - variables: `PAPER_CHOOSE_ON` and `PAPER_VOTE_ON` and `REVIEWERS` and `OPTIONS` and `OPTION_COUNT`
-* **[Configure a paper selection workflow](#paper-selection-workflow-configuration)** to enable automated paper suggestions.
+### Workflow scheduling
 
-## Paper selection workflow configuration
+The paper-selection actions run on automated schedule.
+To change the schedule, refer to the documentation on
+[workflow schedules][workflow-schedules].
 
-There are two available workflows: _ranked choice voting_ and _reviewer approval_.
-One workflow should be enabled during a semester/reading period.
+[workflow-schedules]: https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule
 
 ### Workflow I: ranked choice voting
 
-This workflow generates four random paper suggestions.
+This workflow generates a predefined number of random paper suggestions.
 Those suggestions are then posted to a Discord channel for voting by channel members.
 A corresponding PR is generated for each paper suggestion.
 The vote is concluded manually by merging the winning suggestion PR.
@@ -158,50 +232,53 @@ The remaining PRs will be closed/discarded automatically.
 The relevant GitHub actions are "Vote open" and "Vote close".
 This workflow requires Discord integration to conduct voting.
 
-<img width="600" alt="workflow" src='https://raw.githubusercontent.com/the-au-forml-lab/plgroup/main/.github/assets/voting.png' /><br/>
-**Ranked choice voting** generates multiple paper suggestions and readers vote for a winner.
-
-<details>
-  <summary><kbd>Configuration for ranked choice voting</kbd></summary><br/>
-
-* In _settings > secrets and variables > actions (variables)_:   
-  * Set `DISCORD_WEBHOOK_URL` secret to direct to the intended discord channel.
-  * Set `PAPER_VOTE_ON` variable to <code>1</code> to enable voting.
-  * Set `OPTIONS` to a numerical list of options, e.g. `[1, 2, 3]` means 3 options.
-  * set `OPTION_COUNT` to a word to reflect the option count e.g., `three`
-
-</details>
-
++   Set `DISCORD_WEBHOOK_URL` secret to direct to the intended discord channel.
++   Set `PAPER_VOTE_ON` variable to `1` to enable voting.
++   Set `OPTIONS` to a numerical list of options, e.g. `[1, 2, 3]` means three
+    options.
++   Set `OPTION_COUNT` to a the discord-string-representation of the emoji
+    representing the number of options.
+    For example, for three options the emoji 3️⃣ is typed in discord as `:three:`,
+    so set this variable to `:three:`.
 
 ### Workflow II: reviewer approval
 
-This workflow chooses randomly one paper suggestion and designated reviewers must approve the PR.
+This picks one paper at random and suggets it as the next paper.
+Designated reviewers must approve the suggetion which comes in the form of PR.
 Once a sufficient number of reviewers accept the suggestion, the PR is merged.
-Closing a suggestion without approval automatically generates a new suggestion.
+Closing the PR without approval automatically generates a new suggestion.
 This process repeats until a satisfactory suggestion has been found.
 The relevant GitHub actions is "Random paper".
 
-<img width="580" alt="workflow" src='https://raw.githubusercontent.com/the-au-forml-lab/plgroup/main/.github/assets/workflow.png' /><br/>
-**Random paper suggestion** generates one paper suggestion for reviewers to approve.
++   Create a branch protection rule for `main` branch,
+    to enforce reviewer approval of a paper suggestion, in _settings > branches_.
+    -   Check "Require a pull request before merging".
+    -   Set "Require approvals" count to the minimum number of reviewer required
+        to approve paper suggestion.
++   Set `REVIEWERS` variable to a newline-separated string of GitHub usernames.
+    -   For example: `user1 \n user2 \n user3`
+    -   The users must have sufficient permissions to perform PR reviews.
++   Set `PAPER_CHOOSE_ON` variable to <code>1</code> to enable automatic
+            suggestions.
++   Set `AUTOMERGE_PAT` secret to a personal access token of a user with
+    repository write access, to enable auto-merging approved PRs.
+    -   Permission scopes for classic token: repo
+    -   Permission scopes for fine-grained token:
+        pull requests write and contents write.
++   (Optional) Set `DISCORD_WEBHOOK_URL` secret to a Discord channel URL
+    to enable notifications.
 
-<details>
-  <summary><kbd>Configuration for reviewer approval</kbd></summary><br/>
+### Initial setup for forked repositories
 
-  Environment secrets and variables are configured in _settings > secrets and variables > actions_.
+Complete the following steps to activate the automated actions.
 
-  * Create a branch protection rule for `main` branch, to enforce reviewer approval of a paper suggestion, in _settings > branches_.
-    * Check "Require a pull request before merging".
-    * Set "Require approvals" count to the minimum number of reviewer required to approve paper suggestion.
-
-  * Set `REVIEWERS` variable to a newline-separated string of GitHub usernames.    
-    * For example: `"user1 \n user2 \n user3"`   
-    * The users must have sufficient permissions to perform PR reviews.
-  * Set `PAPER_CHOOSE_ON` variable to <code>1</code> to enable automatic suggestions.
-  * Set `AUTOMERGE_PAT` secret to a personal access token of a user with repository write access, to enable auto-merging approved PRs. 
-    * Permission scopes for classic token: repo
-    * Permission scopes for fine-grained token: pull requests write and contents write.
-  * (Optional) Set `DISCORD_WEBHOOK_URL` secret to a Discord channel URL to enable notifications.
-
-</details>
-
-
++   **Enable workflow permissions** in _settings > actions > general_:
+    -   choose "Read and write permissions"
+    -   check "Allow GitHub Actions to create and approve pull requests
++   **Create environment secrets and variables**,
+    with empty default values, in _settings > secrets and variables > actions_:
+    -   secrets: `DISCORD_WEBHOOK_URL` and `AUTOMERGE_PAT`
+    -   variables: `PAPER_CHOOSE_ON` and `PAPER_VOTE_ON` and `REVIEWERS` and
+        `OPTIONS` and `OPTION_COUNT`
++   **Configure a paper selection workflow** as described above to enable
+    automated paper suggestions.

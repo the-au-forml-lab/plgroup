@@ -1,4 +1,0 @@
-data/crawled/popl.txt
-https://pldi24.sigplan.org/track/pldi-2024-papers
-https://2024.splashcon.org/track/splash-2024-oopsla
-https://icfp24.sigplan.org/track/icfp-2024-papers
