@@ -3,7 +3,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/the-au-forml-lab/plgroup)
 [![Test changes](https://github.com/the-au-forml-lab/plgroup/actions/workflows/test.yaml/badge.svg)](https://github.com/the-au-forml-lab/plgroup/actions/workflows/test.yaml)
 
-The Augusta University Programming Languages Reading Group meets regularly
+The Augusta University Programming Languages Reading Group is a regular meeting
 to discuss recent results in programming languages (PL) research.
 The intent of the group is to learn about various ideas and generally broaden
 perspectives on PL research.
@@ -121,7 +121,7 @@ Light maintenance is needed between semesters/reading periods.
     For example `archive_semester.sh fall 2025`.
     This script will create a new directory in `docs/_past_semesters`,
     copy the reading group info for the past semester to that directory and
-    clear the automatically generated files in `docs`.
+    clear the automatically generated files in `docs/`.
 
 2.  **Clear the Schedule.**
     Edit the schedule (the table at the bottom of `docs/index.md`).
@@ -131,10 +131,10 @@ Light maintenance is needed between semesters/reading periods.
     ``` text
     Paper <number> discussion
     ```
-    If you wish to use a different place holder,
+    If you wish to use a different placeholder,
     [customize](#configuration-file) the variable `SCHEDULE_PLACEHOLDER_RE`
     to a regular expression which matches your placeholder
-    (and no other part of `index.md`)
+    (and no other part of `index.md`).
 
 3.  **Edit** `readme.md` to reflect information about the new semester.
 
