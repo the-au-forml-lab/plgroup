@@ -14,5 +14,5 @@ layout: default
     {{ content }}
 </article>
 
-{% capture anchor %}{{ page.date }}-{{ page.title }}{% endcapture %}
+{% capture anchor %}{{ page.title | split: " " | join: "-" }}{% endcapture %}
 <a href='/plgroup/blog#{{ anchor | escape }}'>Back to main Blog</a>
