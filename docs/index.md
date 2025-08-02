@@ -27,20 +27,23 @@ organization.
 ### Semester Schedule
 
 
-| \#  | Date | Description         | Location |
-|:---:|:-----|:--------------------|:---------|
-| 0.  | TBD  | opening meeting     | TBD      |
-| 1.  | TBD  | Paper 01 discussion | TBD      |
-| 2.  | TBD  | Paper 02 discussion | TBD      |
-| 3.  | TBD  | Paper 03 discussion | TBD      |
-| 4.  | TBD  | Paper 04 discussion | TBD      |
-| 5.  | TBD  | Paper 05 discussion | TBD      |
-| 6.  | TBD  | Paper 06 discussion | TBD      |
-| 7.  | TBD  | Paper 07 discussion | TBD      |
-| 8.  | TBD  | Paper 08 discussion | TBD      |
-| 9.  | TBD  | Paper 09 discussion | TBD      |
-| 10. | TBD  | Paper 10 discussion | TBD      |
-| 11. | TBD  | Paper 11 discussion | TBD      |
-| 12. | TBD  | Paper 12 discussion | TBD      |
-| 13. | TBD  | Paper 13 discussion | TBD      |
+
+| \#  | Date         | Description            | Location |
+|:---:|:-------------|:-----------------------|:---------|
+| 0.  | August 15    | [Neea's defense][1]  | UH 155   |
+| 1.  | August 22    | opening meeting        | TBD      |
+| 2.  | August 29    | Paper 01 discussion    | TBD      |
+| 3.  | September 5  | Paper 02 discussion    | TBD      |
+| 4.  | September 12 | Paper 03 discussion    | TBD      |
+| 5.  | September 19 | Paper 04 discussion    | TBD      |
+| 6.  | September 26 | Paper 05 discussion    | TBD      |
+| 7.  | October 3    | Paper 06 discussion    | TBD      |
+| 8.  | October 10   | _Fall pause_           |          |
+| 9.  | October 17   | Paper 07 discussion    | TBD      |
+| 10. | October 24   | Paper 08 discussion    | TBD      |
+| 11. | October 31   | 🎃 Paper 09 discussion | TBD      |
+| 12. | November 7   | Paper 10 discussion    | TBD      |
+| 13. | November 22  | Awards Gala            | TBD      | 
+
+[1]: https://augusta.presence.io/event/neeas-dissertation-defense
 
