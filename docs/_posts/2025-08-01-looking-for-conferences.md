@@ -17,16 +17,19 @@ these steps:
 <!--more-->
 
 1.  Head to [DBLP.org](https://dblp.org).
-2.  Navigate to the page of your chosen conference.
-3.  Look at the URL in your browser. It should be formatted like this:
+1.  Navigate to the page of your chosen conference.
+1.  Look at the URL in your browser. It should be formatted like this:
 
-    ``` text
+    ```
     https://dblp.org/db/conf/<NAME>/index.html
     ```
-4.  Edit our [list of sources][sources].
-    Add the `NAME` as you saw it above and the most recent year that conference
-    took place.
-5.  Add as many conferences as you like and submit a pull request.
-6.  Done!
+    If the URL does not look like this,
+    you can [open an issue][issues] on github.
+1.  Edit our [list of sources][sources].
+    Add the `NAME` as you saw it in the previous step and the most recent year
+    that conference took place.
+1.  Add as many conferences as you like and submit a pull request.
+1.  Done; Thank you!
     
 [sources]: https://github.com/the-au-forml-lab/plgroup/blob/main/data/sources.csv
+[issues]: https://github.com/the-au-forml-lab/plgroup/issues
