@@ -7,3 +7,13 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    groups:
+      typescript:
+        applies-to: version-updates
+        patterns:
+          - "@types*"
+          - "typescript"
+          - "typescript-language-server"
+        update-types:
+          - "minor"
+          - "patch"
