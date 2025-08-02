@@ -14,11 +14,11 @@ Everything above this marker appears on the main blog page,
 while everything below is hidden and appears once a user clicks on the
 "read more..." link
 
-## Top Level Heading
+### Top Level Heading
 
-### Sub-heading
+#### Sub-heading
 
-#### Sub-sub-heading (etc.)
+##### Sub-sub-heading (etc.)
 
 
 
