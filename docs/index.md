@@ -30,7 +30,7 @@ organization.
 
 | \#  | Date         | Description            | Location |
 |:---:|:-------------|:-----------------------|:---------|
-| 0.  | August 15    | [Neea's defense][1]  | UH 155   |
+| 0.  | August 15    | [Neea's defense][1]  | JSAC 155   |
 | 1.  | August 22    | opening meeting        | TBD      |
 | 2.  | August 29    | Paper 01 discussion    | TBD      |
 | 3.  | September 5  | Paper 02 discussion    | TBD      |
