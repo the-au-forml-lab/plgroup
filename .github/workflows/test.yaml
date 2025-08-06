@@ -6,10 +6,6 @@ on:
   pull_request:
     branches: [ main, "!next-paper" ]
 
-env:
-  USERNAME: "PL Reading Group Paper Vote"
-  AVATAR: https://raw.githubusercontent.com/the-au-forml-lab/plgroup/main/.github/assets/vote.png
-
 jobs:
   test:
     name: Command tests
