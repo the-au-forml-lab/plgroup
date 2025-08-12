@@ -2944,5 +2944,1235 @@
     "title": "Temporal Hyperproperties for Population Protocols.",
     "venue": "fossacs 2025",
     "citation": "Waldburger, Nicolas, et al. “Temporal Hyperproperties for Population Protocols.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 220–42. Crossref, https://doi.org/10.1007/978-3-031-90897-2_11."
+  },
+  {
+    "doi": "10.4230/LIPICS.FSCD.2025.1",
+    "title": "Computation First: Rebuilding Constructivism with Effects (Invited Talk).",
+    "venue": "fscd 2025",
+    "citation": "Cohen, Liron. Computation First: Rebuilding Constructivism with Effects (Invited Talk). Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.1."
+  },
+  {
+    "doi": "10.4230/LIPICS.FSCD.2025.29",
+    "title": "Linear Logic Using Negative Connectives.",
+    "venue": "fscd 2025",
+    "citation": "Miller, Dale. Linear Logic Using Negative Connectives. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.29."
+  },
+  {
+    "doi": "10.4230/LIPICS.FSCD.2025.14",
+    "title": "From Partial to Monadic: Combinatory Algebra with Effects.",
+    "venue": "fscd 2025",
+    "citation": "Cohen, Liron, et al. From Partial to Monadic: Combinatory Algebra with Effects. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.14."
+  },
+  {
+    "doi": "10.4230/LIPICS.FSCD.2025.4",
+    "title": "Substructural Parametricity.",
+    "venue": "fscd 2025",
+    "citation": "Aberlé, C. B., et al. Substructural Parametricity. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.4."
+  },
+  {
+    "doi": "10.4230/LIPICS.FSCD.2025.5",
+    "title": "The Cost of Skeletal Call-By-Need, Smoothly.",
+    "venue": "fscd 2025",
+    "citation": "Accattoli, Beniamino, et al. The Cost of Skeletal Call-By-Need, Smoothly. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.5."
+  },
+  {
+    "doi": "10.4230/LIPICS.FSCD.2025.6",
+    "title": "Weighted Rewriting: Semiring Semantics for Abstract Reduction Systems.",
+    "venue": "fscd 2025",
+    "citation": "Ahrens, Emma, et al. Weighted Rewriting: Semiring Semantics for Abstract Reduction Systems. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.6."
+  },
+  {
+    "doi": "10.4230/LIPICS.FSCD.2025.7",
+    "title": "Combining Generalization Algorithms in Regular Collapse-Free Theories.",
+    "venue": "fscd 2025",
+    "citation": "Ayala-Rincón, Mauricio, et al. Combining Generalization Algorithms in Regular Collapse-Free Theories. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.7."
+  },
+  {
+    "doi": "10.4230/LIPICS.FSCD.2025.8",
+    "title": "The Unification Type of an Equational Theory May Depend on the Instantiation Preorder.",
+    "venue": "fscd 2025",
+    "citation": "Baader, Franz, and Oliver Fernández Gil. The Unification Type of an Equational Theory May Depend on the Instantiation Preorder. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.8."
+  },
+  {
+    "doi": "10.4230/LIPICS.FSCD.2025.9",
+    "title": "A Zoo of Continuity Properties in Constructive Type Theory.",
+    "venue": "fscd 2025",
+    "citation": "Baillon, Martin, et al. A Zoo of Continuity Properties in Constructive Type Theory. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.9."
+  },
+  {
+    "doi": "10.4230/LIPICS.FSCD.2025.10",
+    "title": "Categorical Continuation Semantics for Concurrency.",
+    "venue": "fscd 2025",
+    "citation": "Breuvart, Flavien, and Hugo Paquet. Categorical Continuation Semantics for Concurrency. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.10."
+  },
+  {
+    "doi": "10.4230/LIPICS.FSCD.2025.11",
+    "title": "Impredicative Encodings of Inductive and Coinductive Types.",
+    "venue": "fscd 2025",
+    "citation": "Bronsveld, Steven, et al. Impredicative Encodings of Inductive and Coinductive Types. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.11."
+  },
+  {
+    "doi": "10.4230/LIPICS.FSCD.2025.12",
+    "title": "Ohana Trees and Taylor Expansion for the λI-Calculus: No variable gets left behind or forgotten!",
+    "venue": "fscd 2025",
+    "citation": "Cerda, Rémy, et al. Ohana Trees and Taylor Expansion for the λI-Calculus: No Variable Gets Left behind or Forgotten! Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.12."
+  },
+  {
+    "doi": "10.4230/LIPICS.FSCD.2025.13",
+    "title": "Unifying Boolean and Algebraic Descriptive Complexity.",
+    "venue": "fscd 2025",
+    "citation": "Chanus, Baptiste, et al. Unifying Boolean and Algebraic Descriptive Complexity. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.13."
+  },
+  {
+    "doi": "10.4230/LIPICS.FSCD.2025.2",
+    "title": "Vehicle: Bridging the Embedding Gap in the Verification of Neuro-Symbolic Programs (Invited Talk).",
+    "venue": "fscd 2025",
+    "citation": "Daggitt, Matthew L., et al. Vehicle: Bridging the Embedding Gap in the Verification of Neuro-Symbolic Programs (Invited Talk). Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.2."
+  },
+  {
+    "doi": "10.4230/LIPICS.FSCD.2025.3",
+    "title": "Unsolvable Terms in Filter Models (Invited Talk).",
+    "venue": "fscd 2025",
+    "citation": "Dezani-Ciancaglini, Mariangiola, et al. Unsolvable Terms in Filter Models (Invited Talk). Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.3."
+  },
+  {
+    "doi": "10.4230/LIPICS.FSCD.2025.17",
+    "title": "Mechanized Undecidability of Higher-Order Beta-Matching.",
+    "venue": "fscd 2025",
+    "citation": "Dudenhefner, Andrej. Mechanized Undecidability of Higher-Order Beta-Matching. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.17."
+  },
+  {
+    "doi": "10.4230/LIPICS.FSCD.2025.18",
+    "title": "Knowledge Problems vs Unification and Matching: Dichotomy Results.",
+    "venue": "fscd 2025",
+    "citation": "Erbatur, Serdar, et al. Knowledge Problems vs Unification and Matching: Dichotomy Results. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.18."
+  },
+  {
+    "doi": "10.4230/LIPICS.FSCD.2025.19",
+    "title": "Internal Effectful Forcing in System T.",
+    "venue": "fscd 2025",
+    "citation": "Escardó, Martín H., et al. Internal Effectful Forcing in System T. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.19."
+  },
+  {
+    "doi": "10.4230/LIPICS.FSCD.2025.20",
+    "title": "An Innermost DP Framework for Constrained Higher-Order Rewriting.",
+    "venue": "fscd 2025",
+    "citation": "Fuhs, Carsten, et al. An Innermost DP Framework for Constrained Higher-Order Rewriting. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.20."
+  },
+  {
+    "doi": "10.4230/LIPICS.FSCD.2025.16",
+    "title": "Yeo&apos;s Theorem for Locally Colored Graphs: the Path to Sequentialization in Linear Logic.",
+    "venue": "fscd 2025",
+    "citation": "Di Guardia, Rémi, et al. Yeo’s Theorem for Locally Colored Graphs: The Path to Sequentialization in Linear Logic. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.16."
+  },
+  {
+    "doi": "10.4230/LIPICS.FSCD.2025.21",
+    "title": "An Expressive Trace Logic for Recursive Programs.",
+    "venue": "fscd 2025",
+    "citation": "Gurov, Dilian, and Reiner Hähnle. An Expressive Trace Logic for Recursive Programs. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.21."
+  },
+  {
+    "doi": "10.4230/LIPICS.FSCD.2025.22",
+    "title": "Branch Sequentialization in Quantum Polytime.",
+    "venue": "fscd 2025",
+    "citation": "Hainry, Emmanuel, et al. Branch Sequentialization in Quantum Polytime. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.22."
+  },
+  {
+    "doi": "10.4230/LIPICS.FSCD.2025.23",
+    "title": "∞-Categorical Models of Linear Logic.",
+    "venue": "fscd 2025",
+    "citation": "Harington, Eliès, and Samuel Mimram. ∞-Categorical Models of Linear Logic. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.23."
+  },
+  {
+    "doi": "10.4230/LIPICS.FSCD.2025.24",
+    "title": "Quantitative Types for the Functional Machine Calculus.",
+    "venue": "fscd 2025",
+    "citation": "Heijltjes, Willem. Quantitative Types for the Functional Machine Calculus. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.24."
+  },
+  {
+    "doi": "10.4230/LIPICS.FSCD.2025.25",
+    "title": "Completeness of the Decreasing Diagrams Method for Proving Confluence of Rewriting Systems of the Least Uncountable Cardinality.",
+    "venue": "fscd 2025",
+    "citation": "Ivanov, Ievgen. Completeness of the Decreasing Diagrams Method for Proving Confluence of Rewriting Systems of the Least Uncountable Cardinality. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.25."
+  },
+  {
+    "doi": "10.4230/LIPICS.FSCD.2025.26",
+    "title": "Functorial Models of Differential Linear Logic.",
+    "venue": "fscd 2025",
+    "citation": "Kerjean, Marie, et al. Functorial Models of Differential Linear Logic. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.26."
+  },
+  {
+    "doi": "10.4230/LIPICS.FSCD.2025.15",
+    "title": "On the Metric Nature of (Differential) Logical Relations.",
+    "venue": "fscd 2025",
+    "citation": "Dal Lago, Ugo, et al. On the Metric Nature of (Differential) Logical Relations. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.15."
+  },
+  {
+    "doi": "10.4230/LIPICS.FSCD.2025.27",
+    "title": "What Does It Take to Certify a Conversion Checker?",
+    "venue": "fscd 2025",
+    "citation": "Lennon-Bertrand, Meven. What Does It Take to Certify a Conversion Checker? Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.27."
+  },
+  {
+    "doi": "10.4230/LIPICS.FSCD.2025.28",
+    "title": "Grading Call-By-Push-Value, Explicitly and Implicitly.",
+    "venue": "fscd 2025",
+    "citation": "McDermott, Dylan. Grading Call-By-Push-Value, Explicitly and Implicitly. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.28."
+  },
+  {
+    "doi": "10.4230/LIPICS.FSCD.2025.30",
+    "title": "Coherent Tietze Transformations of 1-Polygraphs in Homotopy Type Theory.",
+    "venue": "fscd 2025",
+    "citation": "Mimram, Samuel, and Émile Oleon. Coherent Tietze Transformations of 1-Polygraphs in Homotopy Type Theory. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.30."
+  },
+  {
+    "doi": "10.4230/LIPICS.FSCD.2025.31",
+    "title": "Higher-Dimensional Automata: Extension to Infinite Tracks.",
+    "venue": "fscd 2025",
+    "citation": "Passemard, Luc, et al. Higher-Dimensional Automata: Extension to Infinite Tracks. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.31."
+  },
+  {
+    "doi": "10.4230/LIPICS.FSCD.2025.32",
+    "title": "Interpolation as Cut-Introduction: On the Computational Content of Craig-Lyndon Interpolation.",
+    "venue": "fscd 2025",
+    "citation": "Saurin, Alexis. Interpolation as Cut-Introduction: On the Computational Content of Craig-Lyndon Interpolation. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.32."
+  },
+  {
+    "doi": "10.4230/LIPICS.FSCD.2025.33",
+    "title": "Solving Guarded Domain Equations in Presheaves over Ordinals and Mechanizing It.",
+    "venue": "fscd 2025",
+    "citation": "Stepanenko, Sergei, and Amin Timany. Solving Guarded Domain Equations in Presheaves over Ordinals and Mechanizing It. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.33."
+  },
+  {
+    "doi": "10.4230/LIPICS.FSCD.2025.34",
+    "title": "Monad Translations for Higher-Order Logic.",
+    "venue": "fscd 2025",
+    "citation": "Traversié, Thomas. Monad Translations for Higher-Order Logic. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.34."
+  },
+  {
+    "doi": "10.1007/978-3-031-98685-7_8",
+    "title": "Branching Bisimulation Learning.",
+    "venue": "cav 2025",
+    "citation": "Abate, Alessandro, et al. “Branching Bisimulation Learning.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 161–84. Crossref, https://doi.org/10.1007/978-3-031-98685-7_8."
+  },
+  {
+    "doi": "10.1007/978-3-031-98679-6_1",
+    "title": "Quantitative Supermartingale Certificates.",
+    "venue": "cav 2025",
+    "citation": "Abate, Alessandro, et al. “Quantitative Supermartingale Certificates.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 3–28. Crossref, https://doi.org/10.1007/978-3-031-98679-6_1."
+  },
+  {
+    "doi": "10.1007/978-3-031-98679-6_8",
+    "title": "Small Decision Trees for MDPs with Deductive Synthesis.",
+    "venue": "cav 2025",
+    "citation": "Andriushchenko, Roman, et al. “Small Decision Trees for MDPs with Deductive Synthesis.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 169–92. Crossref, https://doi.org/10.1007/978-3-031-98679-6_8."
+  },
+  {
+    "doi": "10.1007/978-3-031-98685-7_13",
+    "title": "Full LTL Synthesis over Infinite-State Arenas.",
+    "venue": "cav 2025",
+    "citation": "Azzopardi, Shaun, et al. “Full LTL Synthesis over Infinite-State Arenas.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 274–97. Crossref, https://doi.org/10.1007/978-3-031-98685-7_13."
+  },
+  {
+    "doi": "10.1007/978-3-031-98679-6_16",
+    "title": "Policy Verification in Stochastic Dynamical Systems Using Logarithmic Neural Certificates.",
+    "venue": "cav 2025",
+    "citation": "Badings, Thom, et al. “Policy Verification in Stochastic Dynamical Systems Using Logarithmic Neural Certificates.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 349–75. Crossref, https://doi.org/10.1007/978-3-031-98679-6_16."
+  },
+  {
+    "doi": "10.1007/978-3-031-98679-6_9",
+    "title": "Approximating Fixpoints of Approximated Functions.",
+    "venue": "cav 2025",
+    "citation": "Baldan, Paolo, et al. “Approximating Fixpoints of Approximated Functions.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 193–215. Crossref, https://doi.org/10.1007/978-3-031-98679-6_9."
+  },
+  {
+    "doi": "10.1007/978-3-031-98679-6_7",
+    "title": "INTERLEAVE: A Faster Symbolic Algorithm for Maximal End Component Decomposition.",
+    "venue": "cav 2025",
+    "citation": "Bansal, Suguman, and Ramneet Singh. “INTERLEAVE: A Faster Symbolic Algorithm for Maximal End Component Decomposition.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 147–68. Crossref, https://doi.org/10.1007/978-3-031-98679-6_7."
+  },
+  {
+    "doi": "10.1007/978-3-031-98682-6_4",
+    "title": "The Vampire Diary.",
+    "venue": "cav 2025",
+    "citation": "Bártek, Filip, et al. “The Vampire Diary.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 57–71. Crossref, https://doi.org/10.1007/978-3-031-98682-6_4."
+  },
+  {
+    "doi": "10.1007/978-3-031-98682-6_20",
+    "title": "An Intermediate Program Representation for Optimizing Stream-Based Languages.",
+    "venue": "cav 2025",
+    "citation": "Baumeister, Jan, et al. “An Intermediate Program Representation for Optimizing Stream-Based Languages.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 393–407. Crossref, https://doi.org/10.1007/978-3-031-98682-6_20."
+  },
+  {
+    "doi": "10.1007/978-3-031-98685-7_6",
+    "title": "Extending AALpy with Passive Learning: A Generalized State-Merging Approach.",
+    "venue": "cav 2025",
+    "citation": "von Berg, Benjamin, and Bernhard K. Aichernig. “Extending AALpy with Passive Learning: A Generalized State-Merging Approach.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 127–40. Crossref, https://doi.org/10.1007/978-3-031-98685-7_6."
+  },
+  {
+    "doi": "10.1007/978-3-031-98685-7_16",
+    "title": "Data-Driven Verification of Procedural Programs with Integer Arrays.",
+    "venue": "cav 2025",
+    "citation": "Bouajjani, Ahmed, et al. “Data-Driven Verification of Procedural Programs with Integer Arrays.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 338–63. Crossref, https://doi.org/10.1007/978-3-031-98685-7_16."
+  },
+  {
+    "doi": "10.1007/978-3-031-98685-7_15",
+    "title": "On the Complexity of Checking Mixed Isolation Levels for SQL Transactions.",
+    "venue": "cav 2025",
+    "citation": "Bouajjani, Ahmed, et al. “On the Complexity of Checking Mixed Isolation Levels for SQL Transactions.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 315–37. Crossref, https://doi.org/10.1007/978-3-031-98685-7_15."
+  },
+  {
+    "doi": "10.1007/978-3-031-98682-6_13",
+    "title": "Counting Abstraction and Decidability for the Verification of Structured Parameterized Networks.",
+    "venue": "cav 2025",
+    "citation": "Bozga, Marius, et al. “Counting Abstraction and Decidability for the Verification of Structured Parameterized Networks.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 238–62. Crossref, https://doi.org/10.1007/978-3-031-98682-6_13."
+  },
+  {
+    "doi": "10.1007/978-3-031-98685-7_17",
+    "title": "Automated Parameterized Verification of a Railway Protection System with Dafny.",
+    "venue": "cav 2025",
+    "citation": "Cavada, Roberto, et al. “Automated Parameterized Verification of a Railway Protection System with Dafny.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 364–76. Crossref, https://doi.org/10.1007/978-3-031-98685-7_17."
+  },
+  {
+    "doi": "10.1007/978-3-031-98682-6_17",
+    "title": "sfGPUMC: A Stateless Model Checker for GPU Weak Memory Concurrency.",
+    "venue": "cav 2025",
+    "citation": "Chakraborty, Soham, et al. “$$\\textsf{GPUMC}$$: A Stateless Model Checker for GPU Weak Memory Concurrency.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 321–46. Crossref, https://doi.org/10.1007/978-3-031-98682-6_17."
+  },
+  {
+    "doi": "10.1007/978-3-031-98685-7_1",
+    "title": "Verifying Fault-Tolerance of Quantum Error Correction Codes.",
+    "venue": "cav 2025",
+    "citation": "Chen, Kean, et al. “Verifying Fault-Tolerance of Quantum Error Correction Codes.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 3–27. Crossref, https://doi.org/10.1007/978-3-031-98685-7_1."
+  },
+  {
+    "doi": "10.1007/978-3-031-98668-0_8",
+    "title": "Compositional Abstraction for Timed Systems with Broadcast Synchronization.",
+    "venue": "cav 2025",
+    "citation": "Chen, Hanyue, et al. “Compositional Abstraction for Timed Systems with Broadcast Synchronization.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 162–84. Crossref, https://doi.org/10.1007/978-3-031-98668-0_8."
+  },
+  {
+    "doi": "10.1007/978-3-031-98668-0_11",
+    "title": "Infinite-State Liveness Checking with rlive.",
+    "venue": "cav 2025",
+    "citation": "Cimatti, Alessandro, et al. “Infinite-State Liveness Checking with Rlive.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 215–36. Crossref, https://doi.org/10.1007/978-3-031-98668-0_11."
+  },
+  {
+    "doi": "10.1007/978-3-031-98668-0_18",
+    "title": "Structural Operational Semantics for Functional and Security Verification of Pipelined Processors.",
+    "venue": "cav 2025",
+    "citation": "Colvin, Robert J., and Roger C. Su. “Structural Operational Semantics for Functional and Security Verification of Pipelined Processors.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 363–88. Crossref, https://doi.org/10.1007/978-3-031-98668-0_18."
+  },
+  {
+    "doi": "10.1007/978-3-031-98668-0_7",
+    "title": "Verifying PETSc Vector Components Using CIVL.",
+    "venue": "cav 2025",
+    "citation": "Dhavala, Venkata, et al. “Verifying PETSc Vector Components Using CIVL.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 148–61. Crossref, https://doi.org/10.1007/978-3-031-98668-0_7."
+  },
+  {
+    "doi": "10.1007/978-3-031-98679-6_19",
+    "title": "NeuralSAT: A High-Performance Verification Tool for Deep Neural Networks.",
+    "venue": "cav 2025",
+    "citation": "Duong, Hai, et al. “NeuralSAT: A High-Performance Verification Tool for Deep Neural Networks.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 409–23. Crossref, https://doi.org/10.1007/978-3-031-98679-6_19."
+  },
+  {
+    "doi": "10.1007/978-3-031-98682-6_18",
+    "title": "Counterexample-Guided Commutativity.",
+    "venue": "cav 2025",
+    "citation": "Ebbinghaus, Marcel, et al. “Counterexample-Guided Commutativity.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 347–69. Crossref, https://doi.org/10.1007/978-3-031-98682-6_18."
+  },
+  {
+    "doi": "10.1007/978-3-031-98668-0_5",
+    "title": "Fifteen Years of Viper.",
+    "venue": "cav 2025",
+    "citation": "Eilers, Marco, et al. “Fifteen Years of Viper.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 107–23. Crossref, https://doi.org/10.1007/978-3-031-98668-0_5."
+  },
+  {
+    "doi": "10.1007/978-3-031-98668-0_1",
+    "title": "Verifying Tree-Manipulating Programs via CHCs.",
+    "venue": "cav 2025",
+    "citation": "Faella, Marco, and Gennaro Parlato. “Verifying Tree-Manipulating Programs via CHCs.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 3–28. Crossref, https://doi.org/10.1007/978-3-031-98668-0_1."
+  },
+  {
+    "doi": "10.1007/978-3-031-98679-6_12",
+    "title": "Robust Probabilistic Bisimilarity for Labelled Markov Chains.",
+    "venue": "cav 2025",
+    "citation": "Fatmi, Syyeda Zainab, et al. “Robust Probabilistic Bisimilarity for Labelled Markov Chains.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 254–75. Crossref, https://doi.org/10.1007/978-3-031-98679-6_12."
+  },
+  {
+    "doi": "10.1007/978-3-031-98685-7_7",
+    "title": "LearnLib: 10 years later.",
+    "venue": "cav 2025",
+    "citation": "Frohme, Markus, et al. “LearnLib: 10 Years Later.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 141–60. Crossref, https://doi.org/10.1007/978-3-031-98685-7_7."
+  },
+  {
+    "doi": "10.1007/978-3-031-98668-0_14",
+    "title": "Introducing Certificates to the Hardware Model Checking Competition.",
+    "venue": "cav 2025",
+    "citation": "Froleyks, Nils, et al. “Introducing Certificates to the Hardware Model Checking Competition.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 281–95. Crossref, https://doi.org/10.1007/978-3-031-98668-0_14."
+  },
+  {
+    "doi": "10.1007/978-3-031-98685-7_10",
+    "title": "Scaling GR(1) Synthesis via a Compositional Frameworkfor LTL Discrete Event Control.",
+    "venue": "cav 2025",
+    "citation": "Gagliardi, Hernan, et al. “Scaling GR(1) Synthesis via a Compositional Frameworkfor LTL Discrete Event Control.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 201–23. Crossref, https://doi.org/10.1007/978-3-031-98685-7_10."
+  },
+  {
+    "doi": "10.1007/978-3-031-98668-0_6",
+    "title": "Efficient Probabilistic Model Checking for Relational Reachability.",
+    "venue": "cav 2025",
+    "citation": "Gerlach, Lina, et al. “Efficient Probabilistic Model Checking for Relational Reachability.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 127–47. Crossref, https://doi.org/10.1007/978-3-031-98668-0_6."
+  },
+  {
+    "doi": "10.1007/978-3-031-98682-6_21",
+    "title": "$\\mathbf{{\\textsc {PyCaliper}}}$: Python-Embedded Infrastructure for RTL Verification and Specification Synthesis.",
+    "venue": "cav 2025",
+    "citation": "Godbole, Adwait, et al. “$$\\mathbf{{\\textsc {PyCaliper}}}$$: Python-Embedded Infrastructure for RTL Verification and Specification Synthesis.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 408–25. Crossref, https://doi.org/10.1007/978-3-031-98682-6_21."
+  },
+  {
+    "doi": "10.1007/978-3-031-98682-6_9",
+    "title": "Accelerating Automated Program Verifiers by Automatic Proof Localization.",
+    "venue": "cav 2025",
+    "citation": "Gopinathan, Kiran, et al. “Accelerating Automated Program Verifiers by Automatic Proof Localization.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 153–74. Crossref, https://doi.org/10.1007/978-3-031-98682-6_9."
+  },
+  {
+    "doi": "10.1007/978-3-031-98682-6_8",
+    "title": "Verified and Optimized Implementation of Orthologic Proof Search.",
+    "venue": "cav 2025",
+    "citation": "Guilloud, Simon, and Clément Pit-Claudel. “Verified and Optimized Implementation of Orthologic Proof Search.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 130–52. Crossref, https://doi.org/10.1007/978-3-031-98682-6_8."
+  },
+  {
+    "doi": "10.1007/978-3-031-98668-0_4",
+    "title": "Raven: An SMT-Based Concurrency Verifier.",
+    "venue": "cav 2025",
+    "citation": "Gupta, Ekanshdeep, et al. “Raven: An SMT-Based Concurrency Verifier.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 81–106. Crossref, https://doi.org/10.1007/978-3-031-98668-0_4."
+  },
+  {
+    "doi": "10.1007/978-3-031-98682-6_3",
+    "title": "Decision Heuristics in MCSat.",
+    "venue": "cav 2025",
+    "citation": "Hader, Thomas, et al. “Decision Heuristics in MCSat.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 42–56. Crossref, https://doi.org/10.1007/978-3-031-98682-6_3."
+  },
+  {
+    "doi": "10.1007/978-3-031-98685-7_14",
+    "title": "Issy: A Comprehensive Tool for Specification and Synthesis of Infinite-State Reactive Systems.",
+    "venue": "cav 2025",
+    "citation": "Heim, Philippe, and Rayna Dimitrova. “Issy: A Comprehensive Tool for Specification and Synthesis of Infinite-State Reactive Systems.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 298–312. Crossref, https://doi.org/10.1007/978-3-031-98685-7_14."
+  },
+  {
+    "doi": "10.1007/978-3-031-98679-6_2",
+    "title": "Supermartingale Certificates for Quantitative Omega-Regular Verification and Control.",
+    "venue": "cav 2025",
+    "citation": "Henzinger, Thomas A., et al. “Supermartingale Certificates for Quantitative Omega-Regular Verification and Control.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 29–55. Crossref, https://doi.org/10.1007/978-3-031-98679-6_2."
+  },
+  {
+    "doi": "10.1007/978-3-031-98685-7_18",
+    "title": "Charon: An Analysis Framework for Rust.",
+    "venue": "cav 2025",
+    "citation": "Ho, Son, et al. “Charon: An Analysis Framework for Rust.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 377–91. Crossref, https://doi.org/10.1007/978-3-031-98685-7_18."
+  },
+  {
+    "doi": "10.1007/978-3-031-98685-7_5",
+    "title": "Automata Learning from Preference and Equivalence Queries.",
+    "venue": "cav 2025",
+    "citation": "Hsiung, Eric, et al. “Automata Learning from Preference and Equivalence Queries.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 104–26. Crossref, https://doi.org/10.1007/978-3-031-98685-7_5."
+  },
+  {
+    "doi": "10.1007/978-3-031-98682-6_19",
+    "title": "Scaling Up Proactive Enforcement.",
+    "venue": "cav 2025",
+    "citation": "Hublet, François, et al. “Scaling Up Proactive Enforcement.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 370–92. Crossref, https://doi.org/10.1007/978-3-031-98682-6_19."
+  },
+  {
+    "doi": "10.1007/978-3-031-98679-6_14",
+    "title": "Floating-Point Neural Networks are Provably Robust Universal Approximators.",
+    "venue": "cav 2025",
+    "citation": "Hwang, Geonho, et al. “Floating-Point Neural Networks Are Provably Robust Universal Approximators.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 301–26. Crossref, https://doi.org/10.1007/978-3-031-98679-6_14."
+  },
+  {
+    "doi": "10.1007/978-3-031-98668-0_10",
+    "title": "sfHornStr: Invariant Synthesis for Regular Model Checking as Constrained Horn Clauses.",
+    "venue": "cav 2025",
+    "citation": "Jiang, Hongjian, et al. “$$\\textsf{HornStr}$$: Invariant Synthesis for Regular Model Checking as Constrained Horn Clauses.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 200–14. Crossref, https://doi.org/10.1007/978-3-031-98668-0_10."
+  },
+  {
+    "doi": "10.1007/978-3-031-98679-6_10",
+    "title": "StatWhy: Formal Verification Tool for Statistical Hypothesis Testing Programs.",
+    "venue": "cav 2025",
+    "citation": "Kawamoto, Yusuke, et al. “StatWhy: Formal Verification Tool for Statistical Hypothesis Testing Programs.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 216–30. Crossref, https://doi.org/10.1007/978-3-031-98679-6_10."
+  },
+  {
+    "doi": "10.1007/978-3-031-98679-6_6",
+    "title": "A Formally Verified IEEE 754 Floating-Point Implementation of Interval Iteration for MDPs.",
+    "venue": "cav 2025",
+    "citation": "Kohlen, Bram, et al. “A Formally Verified IEEE 754 Floating-Point Implementation of Interval Iteration for MDPs.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 122–46. Crossref, https://doi.org/10.1007/978-3-031-98679-6_6."
+  },
+  {
+    "doi": "10.1007/978-3-031-98682-6_15",
+    "title": "Space Explanations of Neural Network Classification.",
+    "venue": "cav 2025",
+    "citation": "Labbaf, Faezeh, et al. “Space Explanations of Neural Network Classification.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 287–303. Crossref, https://doi.org/10.1007/978-3-031-98682-6_15."
+  },
+  {
+    "doi": "10.1007/978-3-031-98682-6_6",
+    "title": "Panini: An Efficient and Flexible Knowledge Compiler.",
+    "venue": "cav 2025",
+    "citation": "Lai, Yong, et al. “Panini: An Efficient and Flexible Knowledge Compiler.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 92–105. Crossref, https://doi.org/10.1007/978-3-031-98682-6_6."
+  },
+  {
+    "doi": "10.1007/978-3-031-98685-7_20",
+    "title": "PyEuclid: A Versatile Formal Plane Geometry System in Python.",
+    "venue": "cav 2025",
+    "citation": "Li, Zhaoyu, et al. “PyEuclid: A Versatile Formal Plane Geometry System in Python.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 405–20. Crossref, https://doi.org/10.1007/978-3-031-98685-7_20."
+  },
+  {
+    "doi": "10.1007/978-3-031-98679-6_13",
+    "title": "Accelerating Markov Chain Model Checking: Good-for-Games Meets Unambiguous Automata.",
+    "venue": "cav 2025",
+    "citation": "Li, Yong, et al. “Accelerating Markov Chain Model Checking: Good-for-Games Meets Unambiguous Automata.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 276–98. Crossref, https://doi.org/10.1007/978-3-031-98679-6_13."
+  },
+  {
+    "doi": "10.1007/978-3-031-98682-6_16",
+    "title": "Sprout: A Verifier for Symbolic Multiparty Protocols.",
+    "venue": "cav 2025",
+    "citation": "Li, Elaine, et al. “Sprout: A Verifier for Symbolic Multiparty Protocols.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 304–17. Crossref, https://doi.org/10.1007/978-3-031-98682-6_16."
+  },
+  {
+    "doi": "10.1007/978-3-031-98682-6_1",
+    "title": "Polyregular Model Checking.",
+    "venue": "cav 2025",
+    "citation": "Lopez, Aliaume, and Rafał Stefański. “Polyregular Model Checking.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 3–25. Crossref, https://doi.org/10.1007/978-3-031-98682-6_1."
+  },
+  {
+    "doi": "10.1007/978-3-031-98668-0_15",
+    "title": "Btor2-Select: Machine Learning Based Algorithm Selection for Hardware Model Checking.",
+    "venue": "cav 2025",
+    "citation": "Lu, Zhengyang, et al. “Btor2-Select: Machine Learning Based Algorithm Selection for Hardware Model Checking.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 296–311. Crossref, https://doi.org/10.1007/978-3-031-98668-0_15."
+  },
+  {
+    "doi": "10.1007/978-3-031-98668-0_13",
+    "title": "Property Directed Reachability with Extended Resolution.",
+    "venue": "cav 2025",
+    "citation": "Luka, Andrew, and Yakir Vizel. “Property Directed Reachability with Extended Resolution.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 258–80. Crossref, https://doi.org/10.1007/978-3-031-98668-0_13."
+  },
+  {
+    "doi": "10.1007/978-3-031-98682-6_14",
+    "title": "QSM-Cutoff: Systematic Derivation of Quantified Cutoff Formulas for Distributed Protocols.",
+    "venue": "cav 2025",
+    "citation": "Luo, Yun-Rong, et al. “QSM-Cutoff: Systematic Derivation of Quantified Cutoff Formulas for Distributed Protocols.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 263–86. Crossref, https://doi.org/10.1007/978-3-031-98682-6_14."
+  },
+  {
+    "doi": "10.1007/978-3-031-98668-0_19",
+    "title": "Relational Hoare Logic for Realistically Modelled Machine Code.",
+    "venue": "cav 2025",
+    "citation": "Mazzucato, Denis, et al. “Relational Hoare Logic for Realistically Modelled Machine Code.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 389–413. Crossref, https://doi.org/10.1007/978-3-031-98668-0_19."
+  },
+  {
+    "doi": "10.1007/978-3-031-98682-6_11",
+    "title": "lean-smt: An SMT Tactic for Discharging Proof Goals in Lean.",
+    "venue": "cav 2025",
+    "citation": "Mohamed, Abdalrhman, et al. “Lean-Smt: An SMT Tactic for Discharging Proof Goals in Lean.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 197–212. Crossref, https://doi.org/10.1007/978-3-031-98682-6_11."
+  },
+  {
+    "doi": "10.1007/978-3-031-98679-6_4",
+    "title": "On the Almost-Sure Termination of Probabilistic Counter Programs.",
+    "venue": "cav 2025",
+    "citation": "Novozhilov, Sergei, et al. “On the Almost-Sure Termination of Probabilistic Counter Programs.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 82–104. Crossref, https://doi.org/10.1007/978-3-031-98679-6_4."
+  },
+  {
+    "doi": "10.1007/978-3-031-98668-0_17",
+    "title": "Integer Reasoning Modulo Different Constants in SMT.",
+    "venue": "cav 2025",
+    "citation": "Pertseva, Elizaveta, et al. “Integer Reasoning Modulo Different Constants in SMT.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 339–62. Crossref, https://doi.org/10.1007/978-3-031-98668-0_17."
+  },
+  {
+    "doi": "10.1007/978-3-031-98682-6_2",
+    "title": "Veil: A Framework for Automated and Interactive Verification of Transition Systems.",
+    "venue": "cav 2025",
+    "citation": "Pîrlea, George, et al. “Veil: A Framework for Automated and Interactive Verification of Transition Systems.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 26–41. Crossref, https://doi.org/10.1007/978-3-031-98682-6_2."
+  },
+  {
+    "doi": "10.1007/978-3-031-98679-6_5",
+    "title": "POPACheck: A Model Checker for Probabilistic Pushdown Automata.",
+    "venue": "cav 2025",
+    "citation": "Pontiggia, Francesco, et al. “POPACheck: A Model Checker for Probabilistic Pushdown Automata.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 105–21. Crossref, https://doi.org/10.1007/978-3-031-98679-6_5."
+  },
+  {
+    "doi": "10.1007/978-3-031-98685-7_9",
+    "title": "A Misconception-Driven Adaptive Tutor for Linear Temporal Logic.",
+    "venue": "cav 2025",
+    "citation": "Prasad, Siddhartha, et al. “A Misconception-Driven Adaptive Tutor for Linear Temporal Logic.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 185–200. Crossref, https://doi.org/10.1007/978-3-031-98685-7_9."
+  },
+  {
+    "doi": "10.1007/978-3-031-98682-6_10",
+    "title": "Lean-Auto: An Interface Between Lean 4 and Automated Theorem Provers.",
+    "venue": "cav 2025",
+    "citation": "Qian, Yicheng, et al. “Lean-Auto: An Interface Between Lean 4 and Automated Theorem Provers.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 175–96. Crossref, https://doi.org/10.1007/978-3-031-98682-6_10."
+  },
+  {
+    "doi": "10.1007/978-3-031-98685-7_11",
+    "title": "Counter Example Guided Reactive Synthesis for LTL Modulo Theories*.",
+    "venue": "cav 2025",
+    "citation": "Rodríguez, Andoni, et al. “Counter Example Guided Reactive Synthesis for LTL Modulo Theories$$^*$$.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 224–48. Crossref, https://doi.org/10.1007/978-3-031-98685-7_11."
+  },
+  {
+    "doi": "10.1007/978-3-031-98679-6_11",
+    "title": "Assessing the Quality of Binomial Samplers: A Statistical Distance Framework.",
+    "venue": "cav 2025",
+    "citation": "Sarkar, Uddalok, et al. “Assessing the Quality of Binomial Samplers: A Statistical Distance Framework.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 231–53. Crossref, https://doi.org/10.1007/978-3-031-98679-6_11."
+  },
+  {
+    "doi": "10.1007/978-3-031-98685-7_19",
+    "title": "Surfer - An Extensible Waveform Viewer.",
+    "venue": "cav 2025",
+    "citation": "Skarman, Frans, et al. “Surfer — An Extensible Waveform Viewer.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 392–404. Crossref, https://doi.org/10.1007/978-3-031-98685-7_19."
+  },
+  {
+    "doi": "10.1007/978-3-031-98682-6_5",
+    "title": "Engineering an Efficient Probabilistic Exact Model Counter.",
+    "venue": "cav 2025",
+    "citation": "Soos, Mate, and Kuldeep S. Meel. “Engineering an Efficient Probabilistic Exact Model Counter.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 72–91. Crossref, https://doi.org/10.1007/978-3-031-98682-6_5."
+  },
+  {
+    "doi": "10.1007/978-3-031-98668-0_2",
+    "title": "Automated Verification of Monotonic Data Structure Traversals in C.",
+    "venue": "cav 2025",
+    "citation": "Sotoudeh, Matthew. “Automated Verification of Monotonic Data Structure Traversals in C.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 29–55. Crossref, https://doi.org/10.1007/978-3-031-98668-0_2."
+  },
+  {
+    "doi": "10.1007/978-3-031-98679-6_3",
+    "title": "Approximate Probabilistic Bisimulation for Continuous-Time Markov Chains.",
+    "venue": "cav 2025",
+    "citation": "Spork, Timm, et al. “Approximate Probabilistic Bisimulation for Continuous-Time Markov Chains.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 56–81. Crossref, https://doi.org/10.1007/978-3-031-98679-6_3."
+  },
+  {
+    "doi": "10.1007/978-3-031-98668-0_16",
+    "title": "Automated Verification of Consistency in Zero-Knowledge Proof Circuits.",
+    "venue": "cav 2025",
+    "citation": "Stephens, Jon, et al. “Automated Verification of Consistency in Zero-Knowledge Proof Circuits.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 315–38. Crossref, https://doi.org/10.1007/978-3-031-98668-0_16."
+  },
+  {
+    "doi": "10.1007/978-3-031-98668-0_9",
+    "title": "The rIC3 Hardware Model Checker.",
+    "venue": "cav 2025",
+    "citation": "Su, Yuheng, et al. “The rIC3 Hardware Model Checker.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 185–99. Crossref, https://doi.org/10.1007/978-3-031-98668-0_9."
+  },
+  {
+    "doi": "10.1007/978-3-031-98668-0_12",
+    "title": "Deeply Optimizing the SAT Solver for the IC3 Algorithm.",
+    "venue": "cav 2025",
+    "citation": "Su, Yuheng, et al. “Deeply Optimizing the SAT Solver for the IC3 Algorithm.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 237–57. Crossref, https://doi.org/10.1007/978-3-031-98668-0_12."
+  },
+  {
+    "doi": "10.1007/978-3-031-98679-6_15",
+    "title": "A Formally Verified Robustness Certifier for Neural Networks.",
+    "venue": "cav 2025",
+    "citation": "Tobler, James, et al. “A Formally Verified Robustness Certifier for Neural Networks.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 327–48. Crossref, https://doi.org/10.1007/978-3-031-98679-6_15."
+  },
+  {
+    "doi": "10.1007/978-3-031-98679-6_17",
+    "title": "StarV: A Qualitative and Quantitative Verification Tool for Learning-Enabled Systems.",
+    "venue": "cav 2025",
+    "citation": "Tran, Hoang-Dung, et al. “StarV: A Qualitative and Quantitative Verification Tool for Learning-Enabled Systems.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 376–94. Crossref, https://doi.org/10.1007/978-3-031-98679-6_17."
+  },
+  {
+    "doi": "10.1007/978-3-031-98682-6_7",
+    "title": "Regex Decision Procedures in Extended RE#.",
+    "venue": "cav 2025",
+    "citation": "Varatalu, Ian Erik, et al. “Regex Decision Procedures in Extended RE#.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 106–29. Crossref, https://doi.org/10.1007/978-3-031-98682-6_7."
+  },
+  {
+    "doi": "10.1007/978-3-031-98685-7_2",
+    "title": "FeynmanDD: Quantum Circuit Analysis with Classical Decision Diagrams.",
+    "venue": "cav 2025",
+    "citation": "Wang, Ziyuan, et al. “FeynmanDD: Quantum Circuit Analysis with Classical Decision Diagrams.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 28–52. Crossref, https://doi.org/10.1007/978-3-031-98685-7_2."
+  },
+  {
+    "doi": "10.1007/978-3-031-98685-7_4",
+    "title": "Deductive Synthesis of Reinforcement Learning Agents for Infinite Horizon Tasks.",
+    "venue": "cav 2025",
+    "citation": "Wang, Yuning, and He Zhu. “Deductive Synthesis of Reinforcement Learning Agents for Infinite Horizon Tasks.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 79–103. Crossref, https://doi.org/10.1007/978-3-031-98685-7_4."
+  },
+  {
+    "doi": "10.1007/978-3-031-98679-6_18",
+    "title": "ModelVerification.jl: A Comprehensive Toolbox for Formally Verifying Deep Neural Networks.",
+    "venue": "cav 2025",
+    "citation": "Wei, Tianhao, et al. “ModelVerification.Jl: A Comprehensive Toolbox for Formally Verifying Deep Neural Networks.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 395–408. Crossref, https://doi.org/10.1007/978-3-031-98679-6_18."
+  },
+  {
+    "doi": "10.1007/978-3-031-98685-7_12",
+    "title": "Automatic Synthesis of Smooth Infinite Horizon Paths Satisfying Linear Temporal Logic Specifications.",
+    "venue": "cav 2025",
+    "citation": "Williams, Samuel, and Jyotirmoy Deshmukh. “Automatic Synthesis of Smooth Infinite Horizon Paths Satisfying Linear Temporal Logic Specifications.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 249–73. Crossref, https://doi.org/10.1007/978-3-031-98685-7_12."
+  },
+  {
+    "doi": "10.1007/978-3-031-98668-0_3",
+    "title": "Arithmetizing Shape Analysis.",
+    "venue": "cav 2025",
+    "citation": "Wolff, Sebastian, et al. “Arithmetizing Shape Analysis.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 56–80. Crossref, https://doi.org/10.1007/978-3-031-98668-0_3."
+  },
+  {
+    "doi": "10.1007/978-3-031-98685-7_3",
+    "title": "D-Hammer: Efficient Equational Reasoning for Labelled Dirac Notation.",
+    "venue": "cav 2025",
+    "citation": "Xu, Yingte, et al. “D-Hammer: Efficient Equational Reasoning for Labelled Dirac Notation.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 53–76. Crossref, https://doi.org/10.1007/978-3-031-98685-7_3."
+  },
+  {
+    "doi": "10.1007/978-3-031-98682-6_12",
+    "title": "Automatic Verification of Floating-Point Accumulation Networks.",
+    "venue": "cav 2025",
+    "citation": "Zhang, David K., and Alex Aiken. “Automatic Verification of Floating-Point Accumulation Networks.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 215–37. Crossref, https://doi.org/10.1007/978-3-031-98682-6_12."
+  },
+  {
+    "doi": "10.1007/978-981-97-8943-6_1",
+    "title": "Comparing Semantic Frameworks for Dependently-Sorted Algebraic Theories.",
+    "venue": "aplas 2024",
+    "citation": "Ahrens, Benedikt, et al. “Comparing Semantic Frameworks for Dependently-Sorted Algebraic Theories.” Lecture Notes in Computer Science, Springer Nature Singapore, 28 Oct. 2024, pp. 3–22. Crossref, https://doi.org/10.1007/978-981-97-8943-6_1."
+  },
+  {
+    "doi": "10.1007/978-981-97-8943-6_5",
+    "title": "Extending the Quantitative Pattern-Matching Paradigm.",
+    "venue": "aplas 2024",
+    "citation": "Alves, Sandra, et al. “Extending the Quantitative Pattern-Matching Paradigm.” Lecture Notes in Computer Science, Springer Nature Singapore, 28 Oct. 2024, pp. 84–105. Crossref, https://doi.org/10.1007/978-981-97-8943-6_5."
+  },
+  {
+    "doi": "10.1007/978-981-97-8943-6_9",
+    "title": "Quantum Bisimilarity Is a Congruence Under Physically Admissible Schedulers.",
+    "venue": "aplas 2024",
+    "citation": "Ceragioli, Lorenzo, et al. “Quantum Bisimilarity Is a Congruence Under Physically Admissible Schedulers.” Lecture Notes in Computer Science, Springer Nature Singapore, 28 Oct. 2024, pp. 176–95. Crossref, https://doi.org/10.1007/978-981-97-8943-6_9."
+  },
+  {
+    "doi": "10.1007/978-981-97-8943-6_15",
+    "title": "A Formal Verification Framework for Tezos Smart Contracts Based on Symbolic Execution.",
+    "venue": "aplas 2024",
+    "citation": "Doan, Thi Thu Ha, and Peter Thiemann. “A Formal Verification Framework for Tezos Smart Contracts Based on Symbolic Execution.” Lecture Notes in Computer Science, Springer Nature Singapore, 28 Oct. 2024, pp. 305–24. Crossref, https://doi.org/10.1007/978-981-97-8943-6_15."
+  },
+  {
+    "doi": "10.1007/978-981-97-8943-6_10",
+    "title": "Non-deterministic, Probabilistic, and Quantum Effects Through the Lens of Event Structures.",
+    "venue": "aplas 2024",
+    "citation": "Fernandes, Vítor, et al. “Non-Deterministic, Probabilistic, and Quantum Effects Through the Lens of Event Structures.” Lecture Notes in Computer Science, Springer Nature Singapore, 28 Oct. 2024, pp. 196–215. Crossref, https://doi.org/10.1007/978-981-97-8943-6_10."
+  },
+  {
+    "doi": "10.1007/978-981-97-8943-6_6",
+    "title": "Hybrid Verification of Declarative Programs with Arithmetic Non-fail Conditions.",
+    "venue": "aplas 2024",
+    "citation": "Hanus, Michael. “Hybrid Verification of Declarative Programs with Arithmetic Non-Fail Conditions.” Lecture Notes in Computer Science, Springer Nature Singapore, 28 Oct. 2024, pp. 109–29. Crossref, https://doi.org/10.1007/978-981-97-8943-6_6."
+  },
+  {
+    "doi": "10.1007/978-981-97-8943-6_8",
+    "title": "Quantum Programming Without the Quantum Physics.",
+    "venue": "aplas 2024",
+    "citation": "Inoue, Jun. “Quantum Programming Without the Quantum Physics.” Lecture Notes in Computer Science, Springer Nature Singapore, 28 Oct. 2024, pp. 155–75. Crossref, https://doi.org/10.1007/978-981-97-8943-6_8."
+  },
+  {
+    "doi": "10.1007/978-981-97-8943-6_16",
+    "title": "Mode-based Reduction from Validity Checking of Fixpoint Logic Formulas to Test-Friendly Reachability Problem.",
+    "venue": "aplas 2024",
+    "citation": "Katsura, Hiroyuki, et al. “Mode-Based Reduction from Validity Checking of Fixpoint Logic Formulas to Test-Friendly Reachability Problem.” Lecture Notes in Computer Science, Springer Nature Singapore, 28 Oct. 2024, pp. 325–45. Crossref, https://doi.org/10.1007/978-981-97-8943-6_16."
+  },
+  {
+    "doi": "10.1007/978-981-97-8943-6_12",
+    "title": "On Computational Indistinguishability and Logical Relations.",
+    "venue": "aplas 2024",
+    "citation": "Lago, Ugo Dal, et al. “On Computational Indistinguishability and Logical Relations.” Lecture Notes in Computer Science, Springer Nature Singapore, 28 Oct. 2024, pp. 241–63. Crossref, https://doi.org/10.1007/978-981-97-8943-6_12."
+  },
+  {
+    "doi": "10.1007/978-981-97-8943-6_13",
+    "title": "Relative Completeness of Incorrectness Separation Logic.",
+    "venue": "aplas 2024",
+    "citation": "Lee, Yeonseok, and Koji Nakazawa. “Relative Completeness of Incorrectness Separation Logic.” Lecture Notes in Computer Science, Springer Nature Singapore, 28 Oct. 2024, pp. 264–82. Crossref, https://doi.org/10.1007/978-981-97-8943-6_13."
+  },
+  {
+    "doi": "10.1007/978-981-97-8943-6_4",
+    "title": "Building a Correct-by-Construction Type Checker for a Dependently Typed Core Language.",
+    "venue": "aplas 2024",
+    "citation": "Liesnikov, Bohdan, and Jesper Cockx. “Building a Correct-by-Construction Type Checker for a Dependently Typed Core Language.” Lecture Notes in Computer Science, Springer Nature Singapore, 28 Oct. 2024, pp. 63–83. Crossref, https://doi.org/10.1007/978-981-97-8943-6_4."
+  },
+  {
+    "doi": "10.1007/978-981-97-8943-6_3",
+    "title": "Generic Reasoning of the Locally Nameless Representation.",
+    "venue": "aplas 2024",
+    "citation": "Ni, Yicheng, and Yuting Wang. “Generic Reasoning of the Locally Nameless Representation.” Lecture Notes in Computer Science, Springer Nature Singapore, 28 Oct. 2024, pp. 42–62. Crossref, https://doi.org/10.1007/978-981-97-8943-6_3."
+  },
+  {
+    "doi": "10.1007/978-981-97-8943-6_2",
+    "title": "Random-Access Lists, from EE to FP.",
+    "venue": "aplas 2024",
+    "citation": "Quennet, Titouan, and Pierre-Évariste Dagand. “Random-Access Lists, from EE to FP.” Lecture Notes in Computer Science, Springer Nature Singapore, 28 Oct. 2024, pp. 23–41. Crossref, https://doi.org/10.1007/978-981-97-8943-6_2."
+  },
+  {
+    "doi": "10.1007/978-981-97-8943-6_18",
+    "title": "Effective Search Space Pruning for Testing Deep Neural Networks.",
+    "venue": "aplas 2024",
+    "citation": "Rangayah, Bala, et al. “Effective Search Space Pruning for Testing Deep Neural Networks.” Lecture Notes in Computer Science, Springer Nature Singapore, 28 Oct. 2024, pp. 365–87. Crossref, https://doi.org/10.1007/978-981-97-8943-6_18."
+  },
+  {
+    "doi": "10.1007/978-981-97-8943-6_17",
+    "title": "Efficiently Adapting Stateless Model Checking for C11/C++11 to Mixed-Size Accesses.",
+    "venue": "aplas 2024",
+    "citation": "Sato, Shigeyuki, et al. “Efficiently Adapting Stateless Model Checking for C11/C++11 to Mixed-Size Accesses.” Lecture Notes in Computer Science, Springer Nature Singapore, 28 Oct. 2024, pp. 346–64. Crossref, https://doi.org/10.1007/978-981-97-8943-6_17."
+  },
+  {
+    "doi": "10.1007/978-981-97-8943-6_14",
+    "title": "OBRA: Oracle-Based, Relational, Algorithmic Type Verification.",
+    "venue": "aplas 2024",
+    "citation": "Vasilenko, Elizaveta, et al. “OBRA: Oracle-Based, Relational, Algorithmic Type Verification.” Lecture Notes in Computer Science, Springer Nature Singapore, 28 Oct. 2024, pp. 283–302. Crossref, https://doi.org/10.1007/978-981-97-8943-6_14."
+  },
+  {
+    "doi": "10.1007/978-981-97-8943-6_7",
+    "title": "Explaining Explanations in Probabilistic Logic Programming.",
+    "venue": "aplas 2024",
+    "citation": "Vidal, German. “Explaining Explanations in Probabilistic Logic Programming.” Lecture Notes in Computer Science, Springer Nature Singapore, 28 Oct. 2024, pp. 130–52. Crossref, https://doi.org/10.1007/978-981-97-8943-6_7."
+  },
+  {
+    "doi": "10.1007/978-981-97-8943-6_11",
+    "title": "Type-Based Verification of Connectivity Constraints in Lattice Surgery.",
+    "venue": "aplas 2024",
+    "citation": "Wakizaka, Ryo, et al. “Type-Based Verification of Connectivity Constraints in Lattice Surgery.” Lecture Notes in Computer Science, Springer Nature Singapore, 28 Oct. 2024, pp. 216–37. Crossref, https://doi.org/10.1007/978-981-97-8943-6_11."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.12",
+    "title": "Automatic Goal Clone Detection in Rocq.",
+    "venue": "ecoop 2025",
+    "citation": "Ghanbari, Ali. Automatic Goal Clone Detection in Rocq. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.12."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.15",
+    "title": "Spegion: Implicit and Non-Lexical Regions with Sized Allocations.",
+    "venue": "ecoop 2025",
+    "citation": "Hughes, Jack, et al. Spegion: Implicit and Non-Lexical Regions with Sized Allocations. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.15."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.1",
+    "title": "A Theory of (Linear-Time) Timed Monitors.",
+    "venue": "ecoop 2025",
+    "citation": "Amara, Mouloud, et al. A Theory of (Linear-Time) Timed Monitors. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.1."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.21",
+    "title": "GSOHC: Global Synchronization Optimization in Heterogeneous Computing.",
+    "venue": "ecoop 2025",
+    "citation": "Kumar Basu, Soumik, and Jyothi Vedurada. GSOHC: Global Synchronization Optimization in Heterogeneous Computing. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.21."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.2",
+    "title": "The Algebra of Patterns.",
+    "venue": "ecoop 2025",
+    "citation": "Binder, David, and Lean Ermantraut. The Algebra of Patterns. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.2."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.3",
+    "title": "Pydrofoil: Accelerating Sail-Based Instruction Set Simulators.",
+    "venue": "ecoop 2025",
+    "citation": "Bolz-Tereick, Carl Friedrich, et al. Pydrofoil: Accelerating Sail-Based Instruction Set Simulators. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.3."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.4",
+    "title": "Ensuring Convergence and Invariants Without Coordination.",
+    "venue": "ecoop 2025",
+    "citation": "Borrego, Dina, et al. Ensuring Convergence and Invariants Without Coordination. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.4."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.5",
+    "title": "Compositional Bug Detection for Internally Unsafe Libraries: A Logical Approach to Type Unsoundness.",
+    "venue": "ecoop 2025",
+    "citation": "Carrott, Pedro, et al. Compositional Bug Detection for Internally Unsafe Libraries: A Logical Approach to Type Unsoundness. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.5."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.6",
+    "title": "Detecting Functionality-Specific Vulnerabilities via Retrieving Individual Functionality-Equivalent APIs in Open-Source Repositories.",
+    "venue": "ecoop 2025",
+    "citation": "Chen, Tianyu, et al. Detecting Functionality-Specific Vulnerabilities via Retrieving Individual Functionality-Equivalent APIs in Open-Source Repositories. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.6."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.40",
+    "title": "Scaling Up: Revisiting Mining Android Sandboxes at Scale for Malware Classification (Replication Paper).",
+    "venue": "ecoop 2025",
+    "citation": "Handrick Tomaz da Costa, Francisco, et al. Scaling Up: Revisiting Mining Android Sandboxes at Scale for Malware Classification (Replication Paper). Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.40."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.37",
+    "title": "RacerF: Lightweight Static Data Race Detection for C Code (Experience Paper).",
+    "venue": "ecoop 2025",
+    "citation": "Dacík, Tomáš, and Tomáš Vojnar. RacerF: Lightweight Static Data Race Detection for C Code (Experience Paper). Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.37."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.7",
+    "title": "Monadic Type-And-Effect Soundness.",
+    "venue": "ecoop 2025",
+    "citation": "Dagnino, Francesco, et al. Monadic Type-And-Effect Soundness. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.7."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.8",
+    "title": "An Effectful Object Calculus.",
+    "venue": "ecoop 2025",
+    "citation": "Dagnino, Francesco, et al. An Effectful Object Calculus. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.8."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.9",
+    "title": "Event Race Detection for Node.js Using Delay Injections.",
+    "venue": "ecoop 2025",
+    "citation": "Endo, Andre Takeshi, and Anders Møller. Event Race Detection for Node.Js Using Delay Injections. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.9."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.10",
+    "title": "Bottom-Up Synthesis of Memory Mutations with Separation Logic.",
+    "venue": "ecoop 2025",
+    "citation": "Ferdowsi, Kasra, and Hila Peleg. Bottom-Up Synthesis of Memory Mutations with Separation Logic. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.10."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.11",
+    "title": "Contract Usage and Evolution in Android Mobile Applications.",
+    "venue": "ecoop 2025",
+    "citation": "Ferreira, David R., et al. Contract Usage and Evolution in Android Mobile Applications. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.11."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.13",
+    "title": "FuzzFlesh: Randomised Testing of Decompilers via Control Flow Graph-Based Program Generation.",
+    "venue": "ecoop 2025",
+    "citation": "Gorzynski, Amber, and Alastair F. Donaldson. FuzzFlesh: Randomised Testing of Decompilers via Control Flow Graph-Based Program Generation. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.13."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.14",
+    "title": "IsaBIL: A Framework for Verifying (In)correctness of Binaries in Isabelle/HOL.",
+    "venue": "ecoop 2025",
+    "citation": "Griffin, Matt, et al. IsaBIL: A Framework for Verifying (In)Correctness of Binaries in Isabelle/HOL. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.14."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.16",
+    "title": "A Lightweight Method for Generating Multi-Tier JIT Compilation Virtual Machine in a Meta-Tracing Compiler Framework.",
+    "venue": "ecoop 2025",
+    "citation": "Izawa, Yusuke, et al. A Lightweight Method for Generating Multi-Tier JIT Compilation Virtual Machine in a Meta-Tracing Compiler Framework. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.16."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.38",
+    "title": "Type-Safe and Portable Support for Packed Data (Experience Paper).",
+    "venue": "ecoop 2025",
+    "citation": "Jamet, Arthur, and Michael Vollmer. Type-Safe and Portable Support for Packed Data (Experience Paper). Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.38."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.17",
+    "title": "Contrasting Deadlock-Free Session Processes.",
+    "venue": "ecoop 2025",
+    "citation": "Jaramillo, Juan C., and Jorge A. Pérez. Contrasting Deadlock-Free Session Processes. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.17."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.18",
+    "title": "Practical Type-Based Taint Checking and Inference.",
+    "venue": "ecoop 2025",
+    "citation": "Karimipour, Nima, et al. Practical Type-Based Taint Checking and Inference. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.18."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.41",
+    "title": "Shouting at Memory: Where Did My Write Go? (Pearl/Brave New Idea).",
+    "venue": "ecoop 2025",
+    "citation": "Klimis, Vasileios. Shouting at Memory: Where Did My Write Go? (Pearl/Brave New Idea). Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.41."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.19",
+    "title": "Profile-Guided Field Externalization in an Ahead-Of-Time Compiler.",
+    "venue": "ecoop 2025",
+    "citation": "Kloibhofer, Sebastian, et al. Profile-Guided Field Externalization in an Ahead-Of-Time Compiler. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.19."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.20",
+    "title": "Incremental Computing by Differential Execution.",
+    "venue": "ecoop 2025",
+    "citation": "Kumar, Prashant, et al. Incremental Computing by Differential Execution. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.20."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.22",
+    "title": "Quantifying Cache Side-Channel Leakage by Refining Set-Based Abstractions.",
+    "venue": "ecoop 2025",
+    "citation": "Mitchell, Jacqueline L., and Chao Wang. Quantifying Cache Side-Channel Leakage by Refining Set-Based Abstractions. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.22."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.42",
+    "title": "Contract Systems Need Domain-Specific Notations (Pearl/Brave New Idea).",
+    "venue": "ecoop 2025",
+    "citation": "Moy, Cameron, et al. Contract Systems Need Domain-Specific Notations (Pearl/Brave New Idea). Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.42."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.23",
+    "title": "Wastrumentation: Portable WebAssembly Dynamic Analysis with Support for Intercession.",
+    "venue": "ecoop 2025",
+    "citation": "Munsters, Aäron, et al. Wastrumentation: Portable WebAssembly Dynamic Analysis with Support for Intercession. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.23."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.24",
+    "title": "Fair Termination of Asynchronous Binary Sessions.",
+    "venue": "ecoop 2025",
+    "citation": "Padovani, Luca, and Gianluigi Zavattaro. Fair Termination of Asynchronous Binary Sessions. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.24."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.25",
+    "title": "Reusing Highly Optimized IR in Dynamic Compilation.",
+    "venue": "ecoop 2025",
+    "citation": "Pečimúth, Andrej, et al. Reusing Highly Optimized IR in Dynamic Compilation. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.25."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.26",
+    "title": "Lightweight Diagramming for Lightweight Formal Methods: A Grounded Language Design.",
+    "venue": "ecoop 2025",
+    "citation": "Prasad, Siddhartha, et al. Lightweight Diagramming for Lightweight Formal Methods: A Grounded Language Design. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.26."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.27",
+    "title": "PoTo: A Hybrid Andersen&apos;s Points-To Analysis for Python.",
+    "venue": "ecoop 2025",
+    "citation": "Rak-amnouykit, Ingkarat, et al. PoTo: A Hybrid Andersen’s Points-To Analysis for Python. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.27."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.28",
+    "title": "Reusing Caches and Invariants for Efficient and Sound Incremental Static Analysis.",
+    "venue": "ecoop 2025",
+    "citation": "Razafintsialonina, Mamy, et al. Reusing Caches and Invariants for Efficient and Sound Incremental Static Analysis. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.28."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.29",
+    "title": "Declarative Dynamic Object Reclassification.",
+    "venue": "ecoop 2025",
+    "citation": "Sieve, Riccardo, et al. Declarative Dynamic Object Reclassification. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.29."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.30",
+    "title": "In-Memory Object Graph Stores.",
+    "venue": "ecoop 2025",
+    "citation": "Thimmaiah, Aditya, et al. In-Memory Object Graph Stores. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.30."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.31",
+    "title": "Multiparty Asynchronous Session Types: A Mechanised Proof of Subject Reduction.",
+    "venue": "ecoop 2025",
+    "citation": "Tirore, Dawit, et al. Multiparty Asynchronous Session Types: A Mechanised Proof of Subject Reduction. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.31."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.32",
+    "title": "Compositional Static Value Analysis for Higher-Order Numerical Programs.",
+    "venue": "ecoop 2025",
+    "citation": "Valnet, Milla, et al. Compositional Static Value Analysis for Higher-Order Numerical Programs. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.32."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.39",
+    "title": "WebGlitch: A Randomised Testing Tool for the WebGPU API (Experience Paper).",
+    "venue": "ecoop 2025",
+    "citation": "Wong, Matthew K. L., and Alastair F. Donaldson. WebGlitch: A Randomised Testing Tool for the WebGPU API (Experience Paper). Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.39."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.33",
+    "title": "Mono Types - First-Class Containers for Datalog.",
+    "venue": "ecoop 2025",
+    "citation": "Xu, Runqing, et al. Mono Types - First-Class Containers for Datalog. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.33."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.34",
+    "title": "Taming and Dissecting Recursions Through Interprocedural Weak Topological Ordering.",
+    "venue": "ecoop 2025",
+    "citation": "Yang, Jiawei, et al. Taming and Dissecting Recursions Through Interprocedural Weak Topological Ordering. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.34."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.35",
+    "title": "Chain of Grounded Objectives: Concise Goal-Oriented Prompting for Code Generation.",
+    "venue": "ecoop 2025",
+    "citation": "Yeo, Sangyeop, et al. Chain of Grounded Objectives: Concise Goal-Oriented Prompting for Code Generation. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.35."
+  },
+  {
+    "doi": "10.4230/LIPICS.ECOOP.2025.36",
+    "title": "Efficient Neural Network Verification via Order Leading Exploration of Branch-and-Bound Trees.",
+    "venue": "ecoop 2025",
+    "citation": "Zhang, Guanqin, et al. Efficient Neural Network Verification via Order Leading Exploration of Branch-and-Bound Trees. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.36."
+  },
+  {
+    "doi": "10.1007/978-3-031-91118-7_1",
+    "title": "The Vanilla Sequent Calculus is Call-by-Value.",
+    "venue": "esop 2025",
+    "citation": "Accattoli, Beniamino. “The Vanilla Sequent Calculus Is Call-by-Value.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 1–22. Crossref, https://doi.org/10.1007/978-3-031-91118-7_1."
+  },
+  {
+    "doi": "10.1007/978-3-031-91118-7_2",
+    "title": "Formulas as Processes, Deadlock-Freedom as Choreographies.",
+    "venue": "esop 2025",
+    "citation": "Acclavio, Matteo, et al. “Formulas as Processes, Deadlock-Freedom as Choreographies.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 23–55. Crossref, https://doi.org/10.1007/978-3-031-91118-7_2."
+  },
+  {
+    "doi": "10.1007/978-3-031-91118-7_3",
+    "title": "Sufficient Conditions for Robustness of RDMA Programs.",
+    "venue": "esop 2025",
+    "citation": "Ambal, Guillaume, et al. “Sufficient Conditions for Robustness of RDMA Programs.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 56–87. Crossref, https://doi.org/10.1007/978-3-031-91118-7_3."
+  },
+  {
+    "doi": "10.1007/978-3-031-91118-7_4",
+    "title": "Constructive characterisations of the MUST-preorder for asynchrony.",
+    "venue": "esop 2025",
+    "citation": "Bernardi, Giovanni, et al. “Constructive Characterisations of the MUST-Preorder for Asynchrony.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 88–116. Crossref, https://doi.org/10.1007/978-3-031-91118-7_4."
+  },
+  {
+    "doi": "10.1007/978-3-031-91118-7_5",
+    "title": "Abstraction of memory block manipulations by symbolic loop folding.",
+    "venue": "esop 2025",
+    "citation": "Boillot, Jérôme, and Jérôme Feret. “Abstraction of Memory Block Manipulations by Symbolic Loop Folding.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 117–43. Crossref, https://doi.org/10.1007/978-3-031-91118-7_5."
+  },
+  {
+    "doi": "10.1007/978-3-031-91118-7_6",
+    "title": "Cognacy Queries over Dependence Graphs for Transparent Visualisations.",
+    "venue": "esop 2025",
+    "citation": "Bond, Joe, et al. “Cognacy Queries over Dependence Graphs for Transparent Visualisations.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 144–71. Crossref, https://doi.org/10.1007/978-3-031-91118-7_6."
+  },
+  {
+    "doi": "10.1007/978-3-031-91118-7_7",
+    "title": "An abstract, certified account of operational game semantics.",
+    "venue": "esop 2025",
+    "citation": "Borthelle, Peio, et al. “An Abstract, Certified Account of Operational Game Semantics.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 172–99. Crossref, https://doi.org/10.1007/978-3-031-91118-7_7."
+  },
+  {
+    "doi": "10.1007/978-3-031-91118-7_8",
+    "title": "Artifact Report: an Abstract, Certified Account of Operational Game Semantics.",
+    "venue": "esop 2025",
+    "citation": "Borthelle, Peio, et al. “Artifact Report: An Abstract, Certified Account of Operational Game Semantics.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 200–05. Crossref, https://doi.org/10.1007/978-3-031-91118-7_8."
+  },
+  {
+    "doi": "10.1007/978-3-031-91121-7_6",
+    "title": "Multiparty Session Types with a Bang!",
+    "venue": "esop 2025",
+    "citation": "Le Brun, Matthew Alan, et al. “Multiparty Session Types with a Bang!” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 125–53. Crossref, https://doi.org/10.1007/978-3-031-91121-7_6."
+  },
+  {
+    "doi": "10.1007/978-3-031-91118-7_10",
+    "title": "Stratified Type Theory.",
+    "venue": "esop 2025",
+    "citation": "Chan, Jonathan, and Stephanie Weirich. “Stratified Type Theory.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 236–63. Crossref, https://doi.org/10.1007/978-3-031-91118-7_10."
+  },
+  {
+    "doi": "10.1007/978-3-031-91118-7_9",
+    "title": "Neural Network Verification is a Programming Language Challenge.",
+    "venue": "esop 2025",
+    "citation": "Cordeiro, Lucas C., et al. “Neural Network Verification Is a Programming Language Challenge.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 206–35. Crossref, https://doi.org/10.1007/978-3-031-91118-7_9."
+  },
+  {
+    "doi": "10.1007/978-3-031-91118-7_12",
+    "title": "Variable Elimination as Rewriting in a Linear Lambda Calculus.",
+    "venue": "esop 2025",
+    "citation": "Ehrhard, Thomas, et al. “Variable Elimination as Rewriting in a Linear Lambda Calculus.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 292–321. Crossref, https://doi.org/10.1007/978-3-031-91118-7_12."
+  },
+  {
+    "doi": "10.1007/978-3-031-91118-7_11",
+    "title": "Coverage Semantics for Dependent Pattern Matching.",
+    "venue": "esop 2025",
+    "citation": "Eremondi, Joseph, and Ohad Kammar. “Coverage Semantics for Dependent Pattern Matching.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 264–91. Crossref, https://doi.org/10.1007/978-3-031-91118-7_11."
+  },
+  {
+    "doi": "10.1007/978-3-031-91118-7_13",
+    "title": "A Program Logic for Concurrent Randomized Programs in the Oblivious Adversary Model.",
+    "venue": "esop 2025",
+    "citation": "Fan, Weijie, et al. “A Program Logic for Concurrent Randomized Programs in the Oblivious Adversary Model.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 322–48. Crossref, https://doi.org/10.1007/978-3-031-91118-7_13."
+  },
+  {
+    "doi": "10.1007/978-3-031-91118-7_14",
+    "title": "Iso-Recursive Multiparty Sessions and their Automated Verification.",
+    "venue": "esop 2025",
+    "citation": "Giunti, Marco, and Nobuko Yoshida. “Iso-Recursive Multiparty Sessions and Their Automated Verification.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 349–78. Crossref, https://doi.org/10.1007/978-3-031-91118-7_14."
+  },
+  {
+    "doi": "10.1007/978-3-031-91121-7_1",
+    "title": "Efficient Synthesis of Tight Polynomial Upper-Bounds for Systems of Conditional Polynomial Recurrences.",
+    "venue": "esop 2025",
+    "citation": "Goharshady, Amir K., et al. “Efficient Synthesis of Tight Polynomial Upper-Bounds for Systems of Conditional Polynomial Recurrences.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 1–30. Crossref, https://doi.org/10.1007/978-3-031-91121-7_1."
+  },
+  {
+    "doi": "10.1007/978-3-031-91121-7_2",
+    "title": "CUTECat: Concolic Execution for Computational Law.",
+    "venue": "esop 2025",
+    "citation": "Goutagny, Pierre, et al. “CUTECat: Concolic Execution for Computational Law.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 31–61. Crossref, https://doi.org/10.1007/978-3-031-91121-7_2."
+  },
+  {
+    "doi": "10.1007/978-3-031-91121-7_3",
+    "title": "First-Person Choreographic Programming with Continuation-Passing Communications.",
+    "venue": "esop 2025",
+    "citation": "Jongmans, Sung-Shik. “First-Person Choreographic Programming with Continuation-Passing Communications.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 62–90. Crossref, https://doi.org/10.1007/978-3-031-91121-7_3."
+  },
+  {
+    "doi": "10.1007/978-3-031-91118-7_15",
+    "title": "Verifying Algorithmic Versions of the Lovász Local Lemma.",
+    "venue": "esop 2025",
+    "citation": "Lin, Rongen, et al. “Verifying Algorithmic Versions of the Lovász Local Lemma.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 379–407. Crossref, https://doi.org/10.1007/978-3-031-91118-7_15."
+  },
+  {
+    "doi": "10.1007/978-3-031-91121-7_7",
+    "title": "Formal Autograding in a Classroom.",
+    "venue": "esop 2025",
+    "citation": "Milovančević, Dragana, et al. “Formal Autograding in a Classroom.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 154–74. Crossref, https://doi.org/10.1007/978-3-031-91121-7_7."
+  },
+  {
+    "doi": "10.1007/978-3-031-91121-7_8",
+    "title": "coma, an Intermediate Verification Language with Explicit Abstraction Barriers.",
+    "venue": "esop 2025",
+    "citation": "Paskevich, Andrei, et al. “Coma, an Intermediate Verification Language with Explicit Abstraction Barriers.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 175–201. Crossref, https://doi.org/10.1007/978-3-031-91121-7_8."
+  },
+  {
+    "doi": "10.1007/978-3-031-91121-7_9",
+    "title": "A Complete Axiomatisation of Equivalence for Discrete Probabilistic Programming.",
+    "venue": "esop 2025",
+    "citation": "Piedeleu, Robin, et al. “A Complete Axiomatisation of Equivalence for Discrete Probabilistic Programming.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 202–29. Crossref, https://doi.org/10.1007/978-3-031-91121-7_9."
+  },
+  {
+    "doi": "10.1007/978-3-031-91121-7_10",
+    "title": "Compositional Shape Analysis with Shared Abduction and Biabductive Loop Acceleration.",
+    "venue": "esop 2025",
+    "citation": "Sextl, Florian, et al. “Compositional Shape Analysis with Shared Abduction and Biabductive Loop Acceleration.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 230–57. Crossref, https://doi.org/10.1007/978-3-031-91121-7_10."
+  },
+  {
+    "doi": "10.1007/978-3-031-91121-7_11",
+    "title": "SMT-Boosted Security Types for Low-Level MPC.",
+    "venue": "esop 2025",
+    "citation": "Skalka, Christian, and Joseph P. Near. “SMT-Boosted Security Types for Low-Level MPC.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 258–85. Crossref, https://doi.org/10.1007/978-3-031-91121-7_11."
+  },
+  {
+    "doi": "10.1007/978-3-031-91121-7_4",
+    "title": "Formal Verification of WTO-based Dataflow Solvers.",
+    "venue": "esop 2025",
+    "citation": "La Spina, Roméo, et al. “Formal Verification of WTO-Based Dataflow Solvers.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 91–118. Crossref, https://doi.org/10.1007/978-3-031-91121-7_4."
+  },
+  {
+    "doi": "10.1007/978-3-031-91121-7_5",
+    "title": "Formal Verification of WTO-based Dataflow Solvers - Artifact Experience Report.",
+    "venue": "esop 2025",
+    "citation": "La Spina, Roméo, et al. “Formal Verification of WTO-Based Dataflow Solvers.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 119–24. Crossref, https://doi.org/10.1007/978-3-031-91121-7_5."
+  },
+  {
+    "doi": "10.1007/978-3-031-91121-7_12",
+    "title": "Context-Dependent Effects in Guarded Interaction Trees.",
+    "venue": "esop 2025",
+    "citation": "Stepanenko, Sergei, et al. “Context-Dependent Effects in Guarded Interaction Trees.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 286–313. Crossref, https://doi.org/10.1007/978-3-031-91121-7_12."
+  },
+  {
+    "doi": "10.1007/978-3-031-91121-7_13",
+    "title": "An Automata-theoretic Basis for Specification and Type Checking of Multiparty Protocols.",
+    "venue": "esop 2025",
+    "citation": "Stutz, Felix, and Emanuele D’Osualdo. “An Automata-Theoretic Basis for Specification and Type Checking of Multiparty Protocols.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 314–46. Crossref, https://doi.org/10.1007/978-3-031-91121-7_13."
+  },
+  {
+    "doi": "10.1007/978-3-031-91121-7_14",
+    "title": "Named Arguments as Intersections, Optional Arguments as Unions.",
+    "venue": "esop 2025",
+    "citation": "Sun, Yaozhu, and Bruno C. d. S. Oliveira. “Named Arguments as Intersections, Optional Arguments as Unions.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 347–73. Crossref, https://doi.org/10.1007/978-3-031-91121-7_14."
+  },
+  {
+    "doi": "10.1007/978-3-031-91121-7_15",
+    "title": "Context-Sensitive Demand-Driven Control-Flow Analysis.",
+    "venue": "esop 2025",
+    "citation": "Whiting, Tim, and Kimball Germane. “Context-Sensitive Demand-Driven Control-Flow Analysis.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 374–401. Crossref, https://doi.org/10.1007/978-3-031-91121-7_15."
+  },
+  {
+    "doi": "10.1007/978-3-031-91121-7_16",
+    "title": "On the Relationship between Dijkstra Monads and Higher-Order Fixpoint Logic.",
+    "venue": "esop 2025",
+    "citation": "Yamada, Risa, et al. “On the Relationship between Dijkstra Monads and Higher-Order Fixpoint Logic.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 402–28. Crossref, https://doi.org/10.1007/978-3-031-91121-7_16."
+  },
+  {
+    "doi": "10.1007/978-3-031-91118-7_16",
+    "title": "Elucidating Type Conversions in SQL Engines.",
+    "venue": "esop 2025",
+    "citation": "Ye, Wenjia, et al. “Elucidating Type Conversions in SQL Engines.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 408–35. Crossref, https://doi.org/10.1007/978-3-031-91118-7_16."
   }
 ]
