@@ -4174,5 +4174,101 @@
     "title": "Elucidating Type Conversions in SQL Engines.",
     "venue": "esop 2025",
     "citation": "Ye, Wenjia, et al. “Elucidating Type Conversions in SQL Engines.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 408–35. Crossref, https://doi.org/10.1007/978-3-031-91118-7_16."
+  },
+  {
+    "doi": "10.1007/978-981-97-2300-3_14",
+    "title": "Rhyme: A Data-Centric Multi-paradigm Query Language Based on Functional Logic Metaprogramming - System Description.",
+    "venue": "flops 2024",
+    "citation": "Abeysinghe, Supun, and Tiark Rompf. “Rhyme: A Data-Centric Multi-Paradigm Query Language Based on Functional Logic Metaprogramming.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 273–88. Crossref, https://doi.org/10.1007/978-981-97-2300-3_14."
+  },
+  {
+    "doi": "10.1007/978-981-97-2300-3_8",
+    "title": "A Constraint-Based Mathematical Modeling Library in Prolog with Answer Constraint Semantics.",
+    "venue": "flops 2024",
+    "citation": "Fages, François. “A Constraint-Based Mathematical Modeling Library in Prolog with Answer Constraint Semantics.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 135–50. Crossref, https://doi.org/10.1007/978-981-97-2300-3_8."
+  },
+  {
+    "doi": "10.1007/978-981-97-2300-3_15",
+    "title": "Language-parameterized Proofs for Functional Languages with Subtyping.",
+    "venue": "flops 2024",
+    "citation": "Galasso, Seth, and Matteo Cimini. “Language-Parameterized Proofs for Functional Languages with Subtyping.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 291–310. Crossref, https://doi.org/10.1007/978-981-97-2300-3_15."
+  },
+  {
+    "doi": "10.1007/978-981-97-2300-3_2",
+    "title": "ACGtk: A Toolkit for Developing and Running Abstract Categorial Grammars.",
+    "venue": "flops 2024",
+    "citation": "Guillaume, Maxime, et al. “ACGtk: A Toolkit for Developing and Running Abstract Categorial Grammars.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 13–30. Crossref, https://doi.org/10.1007/978-981-97-2300-3_2."
+  },
+  {
+    "doi": "10.1007/978-981-97-2300-3_10",
+    "title": "Inferring Non-failure Conditions for Declarative Programs.",
+    "venue": "flops 2024",
+    "citation": "Hanus, Michael. “Inferring Non-Failure Conditions for Declarative Programs.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 167–87. Crossref, https://doi.org/10.1007/978-981-97-2300-3_10."
+  },
+  {
+    "doi": "10.1007/978-981-97-2300-3_1",
+    "title": "Algebraic Connection Between Logic Programming and Machine Learning (Extended Abstract).",
+    "venue": "flops 2024",
+    "citation": "Inoue, Katsumi. “Algebraic Connection Between Logic Programming and Machine Learning (Extended Abstract).” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 3–9. Crossref, https://doi.org/10.1007/978-981-97-2300-3_1."
+  },
+  {
+    "doi": "10.1007/978-981-97-2300-3_4",
+    "title": "A Complete Dependency Pair Framework for Almost-Sure Innermost Termination of Probabilistic Term Rewriting.",
+    "venue": "flops 2024",
+    "citation": "Kassing, Jan-Christoph, et al. “A Complete Dependency Pair Framework for Almost-Sure Innermost Termination of Probabilistic Term Rewriting.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 62–80. Crossref, https://doi.org/10.1007/978-981-97-2300-3_4."
+  },
+  {
+    "doi": "10.1007/978-981-97-2300-3_12",
+    "title": "MetaOCaml: Ten Years Later - System Description.",
+    "venue": "flops 2024",
+    "citation": "Kiselyov, Oleg. “MetaOCaml: Ten Years Later.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 219–36. Crossref, https://doi.org/10.1007/978-981-97-2300-3_12."
+  },
+  {
+    "doi": "10.1007/978-981-97-2300-3_11",
+    "title": "Being Lazy When It Counts - Practical Constant-Time Memory Management for Functional Programming.",
+    "venue": "flops 2024",
+    "citation": "Lam, Chun Kit, and Lionel Parreaux. “Being Lazy When It Counts.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 188–216. Crossref, https://doi.org/10.1007/978-981-97-2300-3_11."
+  },
+  {
+    "doi": "10.1007/978-981-97-2300-3_16",
+    "title": "System Description: A Theorem-Prover for Subregular Systems: The Language Toolkit and Its Interpreter, Plebby.",
+    "venue": "flops 2024",
+    "citation": "Lambert, Dakotah. “System Description: A Theorem-Prover for Subregular Systems: The Language Toolkit and Its Interpreter, Plebby.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 311–28. Crossref, https://doi.org/10.1007/978-981-97-2300-3_16."
+  },
+  {
+    "doi": "10.1007/978-981-97-2300-3_9",
+    "title": "Grants4Companies: Applying Declarative Methods for Recommending and Reasoning About Business Grants in the Austrian Public Administration (System Description).",
+    "venue": "flops 2024",
+    "citation": "Lellmann, Björn, et al. “Grants4Companies: Applying Declarative Methods for Recommending and Reasoning About Business Grants in the Austrian Public Administration (System Description).” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 151–64. Crossref, https://doi.org/10.1007/978-981-97-2300-3_9."
+  },
+  {
+    "doi": "10.1007/978-981-97-2300-3_3",
+    "title": "Term Evaluation Systems with Refinements: First-Order, Second-Order, and Contextual Improvement.",
+    "venue": "flops 2024",
+    "citation": "Muroya, Koko, and Makoto Hamana. “Term Evaluation Systems with Refinements: First-Order, Second-Order, and Contextual Improvement.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 31–61. Crossref, https://doi.org/10.1007/978-981-97-2300-3_3."
+  },
+  {
+    "doi": "10.1007/978-981-97-2300-3_13",
+    "title": "An ML-Style Module System for Cross-Stage Type Abstraction in Multi-stage Programming.",
+    "venue": "flops 2024",
+    "citation": "Suwa, Takashi, and Atsushi Igarashi. “An ML-Style Module System for Cross-Stage Type Abstraction in Multi-Stage Programming.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 237–72. Crossref, https://doi.org/10.1007/978-981-97-2300-3_13."
+  },
+  {
+    "doi": "10.1007/978-981-97-2300-3_7",
+    "title": "System Description: DeepLLM, Casting Dialog Threads into Logic Programs.",
+    "venue": "flops 2024",
+    "citation": "Tarau, Paul. “System Description: DeepLLM, Casting Dialog Threads into Logic Programs.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 117–34. Crossref, https://doi.org/10.1007/978-981-97-2300-3_7."
+  },
+  {
+    "doi": "10.1007/978-981-97-2300-3_6",
+    "title": "Declarative Pearl: Rigged Contracts.",
+    "venue": "flops 2024",
+    "citation": "Vandenbroucke, Alexander, and Tom Schrijvers. “Declarative Pearl: Rigged Contracts.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 99–114. Crossref, https://doi.org/10.1007/978-981-97-2300-3_6."
+  },
+  {
+    "doi": "10.1007/978-981-97-2300-3_5",
+    "title": "Tabulation with Zippers.",
+    "venue": "flops 2024",
+    "citation": "Viera, Marcos, et al. “Tabulation with Zippers.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 83–98. Crossref, https://doi.org/10.1007/978-981-97-2300-3_5."
   }
 ]
