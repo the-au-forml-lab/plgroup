@@ -72,7 +72,7 @@ This operation uses the existing dataset as a cache to minimize API calls.
 If you want to rebuild the dataset from scratch, delete the file `data/papers.json`.
 By default, papers from venues (and years) no longer listed in `data/sources.csv`
 will be removed during the update.
-This behavior may be changed by editing the `DATASET.ADDITIVE`
+This behavior may be changed by editing the `DATASET.KEEP_OLD_PAPERS`
 [option](#configuration-file).
 
 **Troubleshooting.** If calls to the DBLP API fail,

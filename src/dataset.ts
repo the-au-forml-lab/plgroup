@@ -78,12 +78,10 @@ async function completePaper(hit: DblpPrePaper, cache: DataSet): Promise<Paper> 
 }
 
 export async function makeDataSet(
-    additive: boolean = DATASET.ADDITIVE
+    keepOldPapers: boolean = DATASET.KEEP_OLD_PAPERS
 ): Promise<DataSet> {
     const cache: DataSet = DataSet.load();
-    const dataSet = additive
-        ? DataSet.copy(cache)
-        : DataSet.empty();
+    const dataSet = keepOldPapers ? DataSet.copy(cache) : DataSet.empty();
     const venues = loadVenues();
     const { fulfilled: hits,
             rejected: venueRejections

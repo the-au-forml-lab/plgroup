@@ -98,8 +98,8 @@ export async function details(doi: string): Promise<void> {
     const paper = await lookupDoi(doi);
     console.log(paper);
 }
-export async function setNext(doi: string, additive=true): Promise<void> {
-    const paper = await lookupDoi(doi, additive);
+export async function setNext(doi: string, addToDataSet=true): Promise<void> {
+    const paper = await lookupDoi(doi, addToDataSet);
     writeNext(paper);
 }
 

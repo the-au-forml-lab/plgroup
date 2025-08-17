@@ -62,7 +62,7 @@ export const DATASET = {
      * If `true`, papers will only be added to the dataset. If `false`, old
      * papers will be deleted during dataset updates.
      */
-    ADDITIVE: false
+    KEEP_OLD_PAPERS: false
 }
 
 export const LOG = {
