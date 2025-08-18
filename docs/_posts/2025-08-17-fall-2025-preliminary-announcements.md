@@ -47,7 +47,8 @@ to continue to be in their role until they sufficiently serve it.
 As decided at the Spring 2025 Awards Gala, we shall revert back to the old system of 
 paper award selection, such that we will pick the award categories at the first meeting. 
 As such, each member must come to this week's meeting with exactly one award category, 
-in which we will vote on the ones to be used for the Fall 2025 Awards Gala.
+in which we will vote on the ones to be used for the Fall 2025 Awards Gala. Please place
+your award categories in [the designated file on GitHub.](https://github.com/the-au-forml-lab/plgroup/blob/main/docs/awards.md)
 
 ### Neea Rusch, PhD
 
