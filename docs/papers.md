@@ -1,0 +1,1 @@
+1. Schwartz, David, et al. “Jmvx: Fast Multi-Threaded Multi-Version Execution and Record-Replay for Managed Languages.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1641–69. Crossref, <https://doi.org/10.1145/3689769>.
