@@ -31,7 +31,7 @@ organization.
 |:---:|:-------------|:-----------------------|:-----------------|
 | 0.  | August 15    | [Neea's defense][1]    | JSAC 155         |
 | 1.  | August 22    | opening meeting        | UH117 (Palazzo)  |
-| 2.  | August 29    | Paper 01 discussion    | UH227 (Fishbowl) |
+| 2.  | August 29    | On Homogeneous Models of Fluted Languages.    | UH227 (Fishbowl) |
 | 3.  | September 5  | Paper 02 discussion    | UH227 (Fishbowl) |
 | 4.  | September 12 | Paper 03 discussion    | UH227 (Fishbowl) |
 | 5.  | September 19 | Paper 04 discussion    | UH227 (Fishbowl) |
