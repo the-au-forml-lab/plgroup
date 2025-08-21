@@ -684,538 +684,538 @@
     "citation": "Yoshioka, Takuma, et al. “Abstracting Effect Systems for Algebraic Effect Handlers.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 455–84. Crossref, https://doi.org/10.1145/3674641."
   },
   {
-    "doi": "10.1145/3656427",
-    "title": "Maximum Consensus Floating Point Solutions for Infeasible Low-Dimensional Linear Programs with Convex Hull as the Intermediate Representation.",
-    "venue": "pldi 2024",
-    "citation": "Aanjaneya, Mridul, and Santosh Nagarakatte. “Maximum Consensus Floating Point Solutions for Infeasible Low-Dimensional Linear Programs with Convex Hull as the Intermediate Representation.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1239–63. Crossref, https://doi.org/10.1145/3656427."
+    "doi": "10.1145/3729328",
+    "title": "Efficient Linearizability Monitoring.",
+    "venue": "pldi 2025",
+    "citation": "Abdulla, Parosh Aziz, et al. “Efficient Linearizability Monitoring.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1937–60. Crossref, https://doi.org/10.1145/3729328."
   },
   {
-    "doi": "10.1145/3656425",
-    "title": "Verification under Intel-x86 with Persistency.",
-    "venue": "pldi 2024",
-    "citation": "Abdulla, Parosh, et al. “Verification under Intel-X86 with Persistency.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1189–212. Crossref, https://doi.org/10.1145/3656425."
+    "doi": "10.1145/3729337",
+    "title": "RRR-SMR: Reduce, Reuse, Recycle: Better Methods for Practical Lock-Free Data Structures.",
+    "venue": "pldi 2025",
+    "citation": "Arovi, Md Amit Hasan, and Ruslan Nikolaev. “RRR-SMR: Reduce, Reuse, Recycle: Better Methods for Practical Lock-Free Data Structures.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 2156–79. Crossref, https://doi.org/10.1145/3729337."
   },
   {
-    "doi": "10.1145/3656435",
-    "title": "SuperStack: Superoptimization of Stack-Bytecode via Greedy, Constraint-Based, and SAT Techniques.",
-    "venue": "pldi 2024",
-    "citation": "Albert, Elvira, et al. “SuperStack: Superoptimization of Stack-Bytecode via Greedy, Constraint-Based, and SAT Techniques.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1437–62. Crossref, https://doi.org/10.1145/3656435."
+    "doi": "10.1145/3729289",
+    "title": "A Hybrid Approach to Semi-automated Rust Verification.",
+    "venue": "pldi 2025",
+    "citation": "Ayoun, Sacha-Élie, et al. “A Hybrid Approach to Semi-Automated Rust Verification.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 970–92. Crossref, https://doi.org/10.1145/3729289."
   },
   {
-    "doi": "10.1145/3656389",
-    "title": "Optimistic Stack Allocation and Dynamic Heapification for Managed Runtimes.",
-    "venue": "pldi 2024",
-    "citation": "Anand, Aditya, et al. “Optimistic Stack Allocation and Dynamic Heapification for Managed Runtimes.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 296–319. Crossref, https://doi.org/10.1145/3656389."
+    "doi": "10.1145/3729314",
+    "title": "Multi-stage Relational Programming.",
+    "venue": "pldi 2025",
+    "citation": "Ballantyne, Michael, et al. “Multi-Stage Relational Programming.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1591–615. Crossref, https://doi.org/10.1145/3729314."
   },
   {
-    "doi": "10.1145/3656405",
-    "title": "Jacdac: Service-Based Prototyping of Embedded Systems.",
-    "venue": "pldi 2024",
-    "citation": "Ball, Thomas, et al. “Jacdac: Service-Based Prototyping of Embedded Systems.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 692–715. Crossref, https://doi.org/10.1145/3656405."
+    "doi": "10.1145/3729292",
+    "title": "Lightweight and Locality-Aware Composition of Black-Box Subroutines.",
+    "venue": "pldi 2025",
+    "citation": "Bansal, Manya, et al. “Lightweight and Locality-Aware Composition of Black-Box Subroutines.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1043–67. Crossref, https://doi.org/10.1145/3729292."
   },
   {
-    "doi": "10.1145/3656377",
-    "title": "Input-Relational Verification of Deep Neural Networks.",
-    "venue": "pldi 2024",
-    "citation": "Banerjee, Debangshu, et al. “Input-Relational Verification of Deep Neural Networks.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1–27. Crossref, https://doi.org/10.1145/3656377."
+    "doi": "10.1145/3729296",
+    "title": "Efficient, Portable, Census-Polymorphic Choreographic Programming.",
+    "venue": "pldi 2025",
+    "citation": "Bates, Mako, et al. “Efficient, Portable, Census-Polymorphic Choreographic Programming.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1143–66. Crossref, https://doi.org/10.1145/3729296."
   },
   {
-    "doi": "10.1145/3656431",
-    "title": "Linear Matching of JavaScript Regular Expressions.",
-    "venue": "pldi 2024",
-    "citation": "Barrière, Aurèle, and Clément Pit-Claudel. “Linear Matching of JavaScript Regular Expressions.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1336–60. Crossref, https://doi.org/10.1145/3656431."
+    "doi": "10.1145/3729249",
+    "title": "RefinedProsa: Connecting Response-Time Analysis with C Verification for Interrupt-Free Schedulers.",
+    "venue": "pldi 2025",
+    "citation": "Bedarkar, Kimaya, et al. “RefinedProsa: Connecting Response-Time Analysis with C Verification for Interrupt-Free Schedulers.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 73–97. Crossref, https://doi.org/10.1145/3729249."
   },
   {
-    "doi": "10.1145/3656463",
-    "title": "Probabilistic Programming with Programmable Variational Inference.",
-    "venue": "pldi 2024",
-    "citation": "Becker, McCoy R., et al. “Probabilistic Programming with Programmable Variational Inference.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 2123–47. Crossref, https://doi.org/10.1145/3656463."
+    "doi": "10.1145/3729265",
+    "title": "DR.FIX: Automatically Fixing Data Races at Industry Scale.",
+    "venue": "pldi 2025",
+    "citation": "Behrang, Farnaz, et al. “DR.FIX: Automatically Fixing Data Races at Industry Scale.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 475–502. Crossref, https://doi.org/10.1145/3729265."
   },
   {
-    "doi": "10.1145/3656421",
-    "title": "Decidable Subtyping of Existential Types for Julia.",
-    "venue": "pldi 2024",
-    "citation": "Belyakova, Julia, et al. “Decidable Subtyping of Existential Types for Julia.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1091–114. Crossref, https://doi.org/10.1145/3656421."
+    "doi": "10.1145/3729331",
+    "title": "Making Concurrent Hardware Verification Sequential.",
+    "venue": "pldi 2025",
+    "citation": "Bourgeat, Thomas, et al. “Making Concurrent Hardware Verification Sequential.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 2007–31. Crossref, https://doi.org/10.1145/3729331."
   },
   {
-    "doi": "10.1145/3656459",
-    "title": "Hashing Modulo Context-Sensitive 𝛼-Equivalence.",
-    "venue": "pldi 2024",
-    "citation": "Blaauwbroek, Lasse, et al. “Hashing Modulo Context-Sensitive α-Equivalence.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 2027–50. Crossref, https://doi.org/10.1145/3656459."
+    "doi": "10.1145/3729325",
+    "title": "Stochastic Lazy Knowledge Compilation for Inference in Discrete Probabilistic Programs.",
+    "venue": "pldi 2025",
+    "citation": "Bowers, Maddy, et al. “Stochastic Lazy Knowledge Compilation for Inference in Discrete Probabilistic Programs.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1863–87. Crossref, https://doi.org/10.1145/3729325."
   },
   {
-    "doi": "10.1145/3656396",
-    "title": "NetBlocks: Staging Layouts for High-Performance Custom Host Network Stacks.",
-    "venue": "pldi 2024",
-    "citation": "Brahmakshatriya, Ajay, et al. “NetBlocks: Staging Layouts for High-Performance Custom Host Network Stacks.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 467–91. Crossref, https://doi.org/10.1145/3656396."
+    "doi": "10.1145/3729269",
+    "title": "MarQSim: Reconciling Determinism and Randomness in Compiler Optimization for Quantum Simulation.",
+    "venue": "pldi 2025",
+    "citation": "Cao, Xiuqi, et al. “MarQSim: Reconciling Determinism and Randomness in Compiler Optimization for Quantum Simulation.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 576–600. Crossref, https://doi.org/10.1145/3729269."
   },
   {
-    "doi": "10.1145/3656430",
-    "title": "An Algebraic Language for Specifying Quantum Networks.",
-    "venue": "pldi 2024",
-    "citation": "Buckley, Anita, et al. “An Algebraic Language for Specifying Quantum Networks.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1313–35. Crossref, https://doi.org/10.1145/3656430."
+    "doi": "10.1145/3729279",
+    "title": "Solving Floating-Point Constraints with Continuous Optimization.",
+    "venue": "pldi 2025",
+    "citation": "Chen, Qian, et al. “Solving Floating-Point Constraints with Continuous Optimization.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 725–47. Crossref, https://doi.org/10.1145/3729279."
   },
   {
-    "doi": "10.1145/3656462",
-    "title": "Equivalence and Similarity Refutation for Probabilistic Programs.",
-    "venue": "pldi 2024",
-    "citation": "Chatterjee, Krishnendu, et al. “Equivalence and Similarity Refutation for Probabilistic Programs.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 2098–122. Crossref, https://doi.org/10.1145/3656462."
+    "doi": "10.1145/3729273",
+    "title": "A Uniform Framework for Handling Position Constraints in String Solving.",
+    "venue": "pldi 2025",
+    "citation": "Chen, Yu-Fang, et al. “A Uniform Framework for Handling Position Constraints in String Solving.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 550–75. Crossref, https://doi.org/10.1145/3729273."
   },
   {
-    "doi": "10.1145/3656442",
-    "title": "Quest Complete: The Holy Grail of Gradual Security.",
-    "venue": "pldi 2024",
-    "citation": "Chen, Tianyu, and Jeremy G. Siek. “Quest Complete: The Holy Grail of Gradual Security.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1609–32. Crossref, https://doi.org/10.1145/3656442."
+    "doi": "10.1145/3729318",
+    "title": "Smooth, Integrated Proofs of Cryptographic Constant Time for Nondeterministic Programs and Compilers.",
+    "venue": "pldi 2025",
+    "citation": "Conoly, Owen, et al. “Smooth, Integrated Proofs of Cryptographic Constant Time for Nondeterministic Programs and Compilers.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1692–715. Crossref, https://doi.org/10.1145/3729318."
   },
   {
-    "doi": "10.1145/3656401",
-    "title": "Allo: A Programming Model for Composable Accelerator Design.",
-    "venue": "pldi 2024",
-    "citation": "Chen, Hongzheng, et al. “Allo: A Programming Model for Composable Accelerator Design.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 593–620. Crossref, https://doi.org/10.1145/3656401."
+    "doi": "10.1145/3729336",
+    "title": "A Concurrent Approach to String Transformation Synthesis.",
+    "venue": "pldi 2025",
+    "citation": "Ding, Yuantian, and Xiaokang Qiu. “A Concurrent Approach to String Transformation Synthesis.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 2131–55. Crossref, https://doi.org/10.1145/3729336."
   },
   {
-    "doi": "10.1145/3656447",
-    "title": "Reward-Guided Synthesis of Intelligent Agents with Control Structures.",
-    "venue": "pldi 2024",
-    "citation": "Cui, Guofeng, et al. “Reward-Guided Synthesis of Intelligent Agents with Control Structures.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1730–54. Crossref, https://doi.org/10.1145/3656447."
+    "doi": "10.1145/3729311",
+    "title": "PulseCore: An Impredicative Concurrent Separation Logic for Dependently Typed Programs.",
+    "venue": "pldi 2025",
+    "citation": "Ebner, Gabriel, et al. “PulseCore: An Impredicative Concurrent Separation Logic for Dependently Typed Programs.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1516–39. Crossref, https://doi.org/10.1145/3729311."
   },
   {
-    "doi": "10.1145/3656434",
-    "title": "Stream Types.",
-    "venue": "pldi 2024",
-    "citation": "Cutler, Joseph W., et al. “Stream Types.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1412–36. Crossref, https://doi.org/10.1145/3656434."
+    "doi": "10.1145/3729261",
+    "title": "Certified Compilers à la Carte.",
+    "venue": "pldi 2025",
+    "citation": "Ebresafe, Oghenevwogaga, et al. “Certified Compilers à La Carte.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 372–95. Crossref, https://doi.org/10.1145/3729261."
   },
   {
-    "doi": "10.1145/3656437",
-    "title": "Hyper Hoare Logic: (Dis-)Proving Program Hyperproperties.",
-    "venue": "pldi 2024",
-    "citation": "Dardinier, Thibault, and Peter Müller. “Hyper Hoare Logic: (Dis-)Proving Program Hyperproperties.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1485–509. Crossref, https://doi.org/10.1145/3656437."
+    "doi": "10.1145/3729259",
+    "title": "Partial Evaluation, Whole-Program Compilation.",
+    "venue": "pldi 2025",
+    "citation": "Fallin, Chris, and Maxwell Bernstein. “Partial Evaluation, Whole-Program Compilation.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 324–47. Crossref, https://doi.org/10.1145/3729259."
   },
   {
-    "doi": "10.1145/3656410",
-    "title": "Daedalus: Safer Document Parsing.",
-    "venue": "pldi 2024",
-    "citation": "Diatchki, Iavor S., et al. “Daedalus: Safer Document Parsing.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 816–40. Crossref, https://doi.org/10.1145/3656410."
+    "doi": "10.1145/3729338",
+    "title": "Practical Type Inference with Levels.",
+    "venue": "pldi 2025",
+    "citation": "Fan, Andong, et al. “Practical Type Inference with Levels.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 2180–203. Crossref, https://doi.org/10.1145/3729338."
   },
   {
-    "doi": "10.1145/3656446",
-    "title": "Foundational Integration Verification of a Cryptographic Server.",
-    "venue": "pldi 2024",
-    "citation": "Erbsen, Andres, et al. “Foundational Integration Verification of a Cryptographic Server.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1704–29. Crossref, https://doi.org/10.1145/3656446."
+    "doi": "10.1145/3729309",
+    "title": "First-Class Verification Dialects for MLIR.",
+    "venue": "pldi 2025",
+    "citation": "Fehr, Mathieu, et al. “First-Class Verification Dialects for MLIR.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1466–90. Crossref, https://doi.org/10.1145/3729309."
   },
   {
-    "doi": "10.1145/3656419",
-    "title": "Symbolic Execution for Quantum Error Correction Programs.",
-    "venue": "pldi 2024",
-    "citation": "Fang, Wang, and Mingsheng Ying. “Symbolic Execution for Quantum Error Correction Programs.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1040–65. Crossref, https://doi.org/10.1145/3656419."
+    "doi": "10.1145/3729316",
+    "title": "Program Synthesis from Partial Traces.",
+    "venue": "pldi 2025",
+    "citation": "Ferreira, Margarida, et al. “Program Synthesis from Partial Traces.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1642–65. Crossref, https://doi.org/10.1145/3729316."
   },
   {
-    "doi": "10.1145/3656394",
-    "title": "Efficient Static Vulnerability Analysis for JavaScript with Multiversion Dependency Graphs.",
-    "venue": "pldi 2024",
-    "citation": "Ferreira, Mafalda, et al. “Efficient Static Vulnerability Analysis for JavaScript with Multiversion Dependency Graphs.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 417–41. Crossref, https://doi.org/10.1145/3656394."
+    "doi": "10.1145/3729317",
+    "title": "Probabilistic Refinement Session Types.",
+    "venue": "pldi 2025",
+    "citation": "Fu, Qiancheng, et al. “Probabilistic Refinement Session Types.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1666–91. Crossref, https://doi.org/10.1145/3729317."
   },
   {
-    "doi": "10.1145/3656444",
-    "title": "RichWasm: Bringing Safe, Fine-Grained, Shared-Memory Interoperability Down to WebAssembly.",
-    "venue": "pldi 2024",
-    "citation": "Fitzgibbons, Michael, et al. “RichWasm: Bringing Safe, Fine-Grained, Shared-Memory Interoperability Down to WebAssembly.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1656–79. Crossref, https://doi.org/10.1145/3656444."
+    "doi": "10.1145/3729327",
+    "title": "Usability Barriers for Liquid Types.",
+    "venue": "pldi 2025",
+    "citation": "Gamboa, Catarina, et al. “Usability Barriers for Liquid Types.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1911–36. Crossref, https://doi.org/10.1145/3729327."
   },
   {
-    "doi": "10.1145/3656379",
-    "title": "Verified Extraction from Coq to OCaml.",
-    "venue": "pldi 2024",
-    "citation": "Forster, Yannick, et al. “Verified Extraction from Coq to OCaml.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 52–75. Crossref, https://doi.org/10.1145/3656379."
+    "doi": "10.1145/3729256",
+    "title": "Ripple: Asynchronous Programming for Spatial Dataflow Architectures.",
+    "venue": "pldi 2025",
+    "citation": "Ghosh, Souradip, et al. “Ripple: Asynchronous Programming for Spatial Dataflow Architectures.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 249–76. Crossref, https://doi.org/10.1145/3729256."
   },
   {
-    "doi": "10.1145/3656422",
-    "title": "RefinedRust: A Type System for High-Assurance Verification of Rust Programs.",
-    "venue": "pldi 2024",
-    "citation": "Gäher, Lennard, et al. “RefinedRust: A Type System for High-Assurance Verification of Rust Programs.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1115–39. Crossref, https://doi.org/10.1145/3656422."
+    "doi": "10.1145/3729302",
+    "title": "An Interactive Debugger for Rust Trait Errors.",
+    "venue": "pldi 2025",
+    "citation": "Gray, Gavin, et al. “An Interactive Debugger for Rust Trait Errors.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1293–314. Crossref, https://doi.org/10.1145/3729302."
   },
   {
-    "doi": "10.1145/3656412",
-    "title": "Bit Blasting Probabilistic Programs.",
-    "venue": "pldi 2024",
-    "citation": "Garg, Poorva, et al. “Bit Blasting Probabilistic Programs.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 865–88. Crossref, https://doi.org/10.1145/3656412."
+    "doi": "10.1145/3729329",
+    "title": "Morello-Cerise: A Proof of Strong Encapsulation for the Arm Morello Capability Hardware Architecture.",
+    "venue": "pldi 2025",
+    "citation": "Hammond, Angus, et al. “Morello-Cerise: A Proof of Strong Encapsulation for the Arm Morello Capability Hardware Architecture.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1961–83. Crossref, https://doi.org/10.1145/3729329."
   },
   {
-    "doi": "10.1145/3656391",
-    "title": "IsoPredict: Dynamic Predictive Analysis for Detecting Unserializable Behaviors in Weakly Isolated Data Store Applications.",
-    "venue": "pldi 2024",
-    "citation": "Geng, Chujun, et al. “IsoPredict: Dynamic Predictive Analysis for Detecting Unserializable Behaviors in Weakly Isolated Data Store Applications.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 343–67. Crossref, https://doi.org/10.1145/3656391."
+    "doi": "10.1145/3729319",
+    "title": "Graphiti: Bridging Graph and Relational Database Queries.",
+    "venue": "pldi 2025",
+    "citation": "He, Yang, et al. “Graphiti: Bridging Graph and Relational Database Queries.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1716–40. Crossref, https://doi.org/10.1145/3729319."
   },
   {
-    "doi": "10.1145/3656407",
-    "title": "Quantitative Robustness for Vulnerability Assessment.",
-    "venue": "pldi 2024",
-    "citation": "Girol, Guillaume, et al. “Quantitative Robustness for Vulnerability Assessment.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 741–65. Crossref, https://doi.org/10.1145/3656407."
+    "doi": "10.1145/3729300",
+    "title": "Membership Testing for Semantic Regular Expressions.",
+    "venue": "pldi 2025",
+    "citation": "Huang, Yifei, et al. “Membership Testing for Semantic Regular Expressions.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1245–68. Crossref, https://doi.org/10.1145/3729300."
   },
   {
-    "doi": "10.1145/3656403",
-    "title": "Mechanised Hypersafety Proofs about Structured Data.",
-    "venue": "pldi 2024",
-    "citation": "Gladshtein, Vladimir, et al. “Mechanised Hypersafety Proofs about Structured Data.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 647–70. Crossref, https://doi.org/10.1145/3656403."
+    "doi": "10.1145/3729267",
+    "title": "Robustifying Debug Information Updates in LLVM via Control-Flow Conformance Analysis.",
+    "venue": "pldi 2025",
+    "citation": "Huang, Shan, et al. “Robustifying Debug Information Updates in LLVM via Control-Flow Conformance Analysis.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 527–49. Crossref, https://doi.org/10.1145/3729267."
   },
   {
-    "doi": "10.1145/3656439",
-    "title": "Live Verification in an Interactive Proof Assistant.",
-    "venue": "pldi 2024",
-    "citation": "Gruetter, Samuel, et al. “Live Verification in an Interactive Proof Assistant.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1535–58. Crossref, https://doi.org/10.1145/3656439."
+    "doi": "10.1145/3729293",
+    "title": "Efficient Formal Verification of Quantum Error Correcting Programs.",
+    "venue": "pldi 2025",
+    "citation": "Huang, Qifan, et al. “Efficient Formal Verification of Quantum Error Correcting Programs.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1068–93. Crossref, https://doi.org/10.1145/3729293."
   },
   {
-    "doi": "10.1145/3656455",
-    "title": "Hyperblock Scheduling for Verified High-Level Synthesis.",
-    "venue": "pldi 2024",
-    "citation": "Herklotz, Yann, and John Wickerson. “Hyperblock Scheduling for Verified High-Level Synthesis.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1929–53. Crossref, https://doi.org/10.1145/3656455."
+    "doi": "10.1145/3729257",
+    "title": "StacKAT: Infinite State Network Verification.",
+    "venue": "pldi 2025",
+    "citation": "Jacobs, Jules, et al. “StacKAT: Infinite State Network Verification.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 277–300. Crossref, https://doi.org/10.1145/3729257."
   },
   {
-    "doi": "10.1145/3656381",
-    "title": "Recursive Program Synthesis using Paramorphisms.",
-    "venue": "pldi 2024",
-    "citation": "Hong, Qiantan, and Alex Aiken. “Recursive Program Synthesis Using Paramorphisms.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 102–25. Crossref, https://doi.org/10.1145/3656381."
+    "doi": "10.1145/3729246",
+    "title": "Verifying General-Purpose RCU for Reclamation in Relaxed Memory Separation Logic.",
+    "venue": "pldi 2025",
+    "citation": "Jung, Jaehwang, et al. “Verifying General-Purpose RCU for Reclamation in Relaxed Memory Separation Logic.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1–25. Crossref, https://doi.org/10.1145/3729246."
   },
   {
-    "doi": "10.1145/3656406",
-    "title": "Don&apos;t Write, but Return: Replacing Output Parameters with Algebraic Data Types in C-to-Rust Translation.",
-    "venue": "pldi 2024",
-    "citation": "Hong, Jaemin, and Sukyoung Ryu. “Don’t Write, but Return: Replacing Output Parameters with Algebraic Data Types in C-to-Rust Translation.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 716–40. Crossref, https://doi.org/10.1145/3656406."
+    "doi": "10.1145/3729324",
+    "title": "Bean: A Language for Backward Error Analysis.",
+    "venue": "pldi 2025",
+    "citation": "Kellison, Ariel E., et al. “Bean: A Language for Backward Error Analysis.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1838–62. Crossref, https://doi.org/10.1145/3729324."
   },
   {
-    "doi": "10.1145/3656436",
-    "title": "Compiling Conditional Quantum Gates without Using Helper Qubits.",
-    "venue": "pldi 2024",
-    "citation": "Huang, Keli, and Jens Palsberg. “Compiling Conditional Quantum Gates without Using Helper Qubits.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1463–84. Crossref, https://doi.org/10.1145/3656436."
+    "doi": "10.1145/3729322",
+    "title": "Spineless Traversal for Layout Invalidation.",
+    "venue": "pldi 2025",
+    "citation": "Kirisame, Marisa, et al. “Spineless Traversal for Layout Invalidation.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1791–813. Crossref, https://doi.org/10.1145/3729322."
   },
   {
-    "doi": "10.1145/3656409",
-    "title": "GenSQL: A Probabilistic Programming System for Querying Generative Models of Database Tables.",
-    "venue": "pldi 2024",
-    "citation": "Huot, Mathieu, et al. “GenSQL: A Probabilistic Programming System for Querying Generative Models of Database Tables.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 790–815. Crossref, https://doi.org/10.1145/3656409."
+    "doi": "10.1145/3729310",
+    "title": "Robust Constant-Time Cryptography.",
+    "venue": "pldi 2025",
+    "citation": "Kolosick, Matthew, et al. “Robust Constant-Time Cryptography.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1491–515. Crossref, https://doi.org/10.1145/3729310."
   },
   {
-    "doi": "10.1145/3656441",
-    "title": "Space-Efficient Polymorphic Gradual Typing, Mostly Parametric.",
-    "venue": "pldi 2024",
-    "citation": "Igarashi, Atsushi, et al. “Space-Efficient Polymorphic Gradual Typing, Mostly Parametric.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1585–608. Crossref, https://doi.org/10.1145/3656441."
+    "doi": "10.1145/3729275",
+    "title": "Optimization-Directed Compiler Fuzzing for Continuous Translation Validation.",
+    "venue": "pldi 2025",
+    "citation": "Kwon, Jaeseong, et al. “Optimization-Directed Compiler Fuzzing for Continuous Translation Validation.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 627–50. Crossref, https://doi.org/10.1145/3729275."
   },
   {
-    "doi": "10.1145/3656378",
-    "title": "Modular Hardware Design of Pipelined Circuits with Hazards.",
-    "venue": "pldi 2024",
-    "citation": "Jang, Minseong, et al. “Modular Hardware Design of Pipelined Circuits with Hazards.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 28–51. Crossref, https://doi.org/10.1145/3656378."
+    "doi": "10.1145/3729247",
+    "title": "Leveraging Immutability to Validate Hazard Pointers for Optimistic Traversals.",
+    "venue": "pldi 2025",
+    "citation": "Lee, Janggun, et al. “Leveraging Immutability to Validate Hazard Pointers for Optimistic Traversals.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 26–47. Crossref, https://doi.org/10.1145/3729247."
   },
   {
-    "doi": "10.1145/3656464",
-    "title": "PL4XGL: A Programming Language Approach to Explainable Graph Learning.",
-    "venue": "pldi 2024",
-    "citation": "Jeon, Minseok, et al. “PL4XGL: A Programming Language Approach to Explainable Graph Learning.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 2148–73. Crossref, https://doi.org/10.1145/3656464."
+    "doi": "10.1145/3729308",
+    "title": "Principal Type Inference under a Prefix: A Fresh Look at Static Overloading.",
+    "venue": "pldi 2025",
+    "citation": "Leijen, Daan, and Wenjia Ye. “Principal Type Inference under a Prefix: A Fresh Look at Static Overloading.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1442–65. Crossref, https://doi.org/10.1145/3729308."
   },
   {
-    "doi": "10.1145/3656415",
-    "title": "Superfusion: Eliminating Intermediate Data Structures via Inductive Synthesis.",
-    "venue": "pldi 2024",
-    "citation": "Ji, Ruyi, et al. “Superfusion: Eliminating Intermediate Data Structures via Inductive Synthesis.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 939–64. Crossref, https://doi.org/10.1145/3656415."
+    "doi": "10.1145/3729298",
+    "title": "Relational Abstractions Based on Labeled Union-Find.",
+    "venue": "pldi 2025",
+    "citation": "Lesbre, Dorian, et al. “Relational Abstractions Based on Labeled Union-Find.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1194–219. Crossref, https://doi.org/10.1145/3729298."
   },
   {
-    "doi": "10.1145/3656458",
-    "title": "V-Star: Learning Visibly Pushdown Grammars from Program Inputs.",
-    "venue": "pldi 2024",
-    "citation": "Jia, Xiaodong, and Gang Tan. “V-Star: Learning Visibly Pushdown Grammars from Program Inputs.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 2003–26. Crossref, https://doi.org/10.1145/3656458."
+    "doi": "10.1145/3729255",
+    "title": "Support Triangle Machine.",
+    "venue": "pldi 2025",
+    "citation": "Li, Jiaying, and Chunxue Hao. “Support Triangle Machine.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 225–48. Crossref, https://doi.org/10.1145/3729255."
   },
   {
-    "doi": "10.1145/3656428",
-    "title": "Qubit Recycling Revisited.",
-    "venue": "pldi 2024",
-    "citation": "Jiang, Hanru. “Qubit Recycling Revisited.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1264–87. Crossref, https://doi.org/10.1145/3656428."
+    "doi": "10.1145/3729330",
+    "title": "Guided Tensor Lifting.",
+    "venue": "pldi 2025",
+    "citation": "Li, Yixuan, et al. “Guided Tensor Lifting.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1984–2006. Crossref, https://doi.org/10.1145/3729330."
   },
   {
-    "doi": "10.1145/3656383",
-    "title": "Concurrent Immediate Reference Counting.",
-    "venue": "pldi 2024",
-    "citation": "Jung, Jaehwang, et al. “Concurrent Immediate Reference Counting.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 151–74. Crossref, https://doi.org/10.1145/3656383."
+    "doi": "10.1145/3729307",
+    "title": "Pointer Analysis for Database-Backed Applications.",
+    "venue": "pldi 2025",
+    "citation": "Liang, Yufei, et al. “Pointer Analysis for Database-Backed Applications.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1417–41. Crossref, https://doi.org/10.1145/3729307."
   },
   {
-    "doi": "10.1145/3656385",
-    "title": "Diffy: Data-Driven Bug Finding for Configurations.",
-    "venue": "pldi 2024",
-    "citation": "Kakarla, Siva Kesava Reddy, et al. “Diffy: Data-Driven Bug Finding for Configurations.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 199–222. Crossref, https://doi.org/10.1145/3656385."
+    "doi": "10.1145/3729266",
+    "title": "Link-Time Optimization of Dynamic Casts in C++ Programs.",
+    "venue": "pldi 2025",
+    "citation": "Lu, Xufan, and Nuno P. Lopes. “Link-Time Optimization of Dynamic Casts in C++ Programs.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 503–26. Crossref, https://doi.org/10.1145/3729266."
   },
   {
-    "doi": "10.1145/3656456",
-    "title": "Numerical Fuzz: A Type System for Rounding Error Analysis.",
-    "venue": "pldi 2024",
-    "citation": "Kellison, Ariel E., and Justin Hsu. “Numerical Fuzz: A Type System for Rounding Error Analysis.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1954–78. Crossref, https://doi.org/10.1145/3656456."
+    "doi": "10.1145/3729264",
+    "title": "Programming by Navigation.",
+    "venue": "pldi 2025",
+    "citation": "Lubin, Justin, et al. “Programming by Navigation.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 447–74. Crossref, https://doi.org/10.1145/3729264."
   },
   {
-    "doi": "10.1145/3656429",
-    "title": "A Lightweight Polyglot Code Transformation Language.",
-    "venue": "pldi 2024",
-    "citation": "Ketkar, Ameya, et al. “A Lightweight Polyglot Code Transformation Language.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1288–312. Crossref, https://doi.org/10.1145/3656429."
+    "doi": "10.1145/3729258",
+    "title": "Circuit Optimization using Arithmetic Table Lookups.",
+    "venue": "pldi 2025",
+    "citation": "Malik, Raghav, et al. “Circuit Optimization Using Arithmetic Table Lookups.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 301–23. Crossref, https://doi.org/10.1145/3729258."
   },
   {
-    "doi": "10.1145/3656449",
-    "title": "SPORE: Combining Symmetry and Partial Order Reduction.",
-    "venue": "pldi 2024",
-    "citation": "Kokologiannakis, Michalis, et al. “SPORE: Combining Symmetry and Partial Order Reduction.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1781–803. Crossref, https://doi.org/10.1145/3656449."
+    "doi": "10.1145/3729277",
+    "title": "Dynamic Robustness Verification against Weak Memory.",
+    "venue": "pldi 2025",
+    "citation": "Margalit, Roy, et al. “Dynamic Robustness Verification against Weak Memory.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 675–98. Crossref, https://doi.org/10.1145/3729277."
   },
   {
-    "doi": "10.1145/3656411",
-    "title": "Descend: A Safe GPU Systems Programming Language.",
-    "venue": "pldi 2024",
-    "citation": "Köpcke, Bastian, et al. “Descend: A Safe GPU Systems Programming Language.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 841–64. Crossref, https://doi.org/10.1145/3656411."
+    "doi": "10.1145/3729304",
+    "title": "Automated Exploit Generation for Node.js Packages.",
+    "venue": "pldi 2025",
+    "citation": "Marques, Filipe, et al. “Automated Exploit Generation for Node.Js Packages.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1341–66. Crossref, https://doi.org/10.1145/3729304."
   },
   {
-    "doi": "10.1145/3656382",
-    "title": "A Tensor Compiler with Automatic Data Packing for Simple and Efficient Fully Homomorphic Encryption.",
-    "venue": "pldi 2024",
-    "citation": "Krastev, Aleksandar, et al. “A Tensor Compiler with Automatic Data Packing for Simple and Efficient Fully Homomorphic Encryption.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 126–50. Crossref, https://doi.org/10.1145/3656382."
+    "doi": "10.1145/3729250",
+    "title": "Nola: Later-Free Ghost State for Verifying Termination in Iris.",
+    "venue": "pldi 2025",
+    "citation": "Matsushita, Yusuke, and Takeshi Tsukada. “Nola: Later-Free Ghost State for Verifying Termination in Iris.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 98–124. Crossref, https://doi.org/10.1145/3729250."
   },
   {
-    "doi": "10.1145/3656445",
-    "title": "SpEQ: Translation of Sparse Codes using Equivalences.",
-    "venue": "pldi 2024",
-    "citation": "Laird, Avery, et al. “SpEQ: Translation of Sparse Codes Using Equivalences.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1680–703. Crossref, https://doi.org/10.1145/3656445."
+    "doi": "10.1145/3729294",
+    "title": "Verified Foundations for Differential Privacy.",
+    "venue": "pldi 2025",
+    "citation": "de Medeiros, Markus, et al. “Verified Foundations for Differential Privacy.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1094–118. Crossref, https://doi.org/10.1145/3729294."
   },
   {
-    "doi": "10.1145/3656424",
-    "title": "Reducing Static Analysis Unsoundness with Approximate Interpretation.",
-    "venue": "pldi 2024",
-    "citation": "Laursen, Mathias Rud, et al. “Reducing Static Analysis Unsoundness with Approximate Interpretation.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1165–88. Crossref, https://doi.org/10.1145/3656424."
+    "doi": "10.1145/3729263",
+    "title": "Semantics of Integrating and Differentiating Singularities.",
+    "venue": "pldi 2025",
+    "citation": "Michel, Jesse, et al. “Semantics of Integrating and Differentiating Singularities.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 421–46. Crossref, https://doi.org/10.1145/3729263."
   },
   {
-    "doi": "10.1145/3656451",
-    "title": "Context-Free Language Reachability via Skewed Tabulation.",
-    "venue": "pldi 2024",
-    "citation": "Lei, Yuxiang, et al. “Context-Free Language Reachability via Skewed Tabulation.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1830–53. Crossref, https://doi.org/10.1145/3656451."
+    "doi": "10.1145/3729295",
+    "title": "Active Learning of Symbolic NetKAT Automata.",
+    "venue": "pldi 2025",
+    "citation": "Moeller, Mark, et al. “Active Learning of Symbolic NetKAT Automata.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1119–42. Crossref, https://doi.org/10.1145/3729295."
   },
   {
-    "doi": "10.1145/3656392",
-    "title": "Compiling with Abstract Interpretation.",
-    "venue": "pldi 2024",
-    "citation": "Lesbre, Dorian, and Matthieu Lemerre. “Compiling with Abstract Interpretation.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 368–93. Crossref, https://doi.org/10.1145/3656392."
+    "doi": "10.1145/3742465",
+    "title": "AWDIT: An Optimal Weak Database Isolation Tester.",
+    "venue": "pldi 2025",
+    "citation": "Møldrup, Lasse, and Andreas Pavlogiannis. “AWDIT: An Optimal Weak Database Isolation Tester.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1540–64. Crossref, https://doi.org/10.1145/3742465."
   },
   {
-    "doi": "10.1145/3656386",
-    "title": "Boosting Compiler Testing by Injecting Real-World Code.",
-    "venue": "pldi 2024",
-    "citation": "Li, Shaohua, et al. “Boosting Compiler Testing by Injecting Real-World Code.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 223–45. Crossref, https://doi.org/10.1145/3656386."
+    "doi": "10.1145/3729334",
+    "title": "Roulette: A Language for Expressive, Exact, and Efficient Discrete Probabilistic Programming.",
+    "venue": "pldi 2025",
+    "citation": "Moy, Cameron, et al. “Roulette: A Language for Expressive, Exact, and Efficient Discrete Probabilistic Programming.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 2081–105. Crossref, https://doi.org/10.1145/3729334."
   },
   {
-    "doi": "10.1145/3656448",
-    "title": "Compiling Probabilistic Programs for Variable Elimination with Information Flow.",
-    "venue": "pldi 2024",
-    "citation": "Li, Jianlin, et al. “Compiling Probabilistic Programs for Variable Elimination with Information Flow.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1755–80. Crossref, https://doi.org/10.1145/3656448."
+    "doi": "10.1145/3729274",
+    "title": "Type-Constrained Code Generation with Language Models.",
+    "venue": "pldi 2025",
+    "citation": "Mündler, Niels, et al. “Type-Constrained Code Generation with Language Models.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 601–26. Crossref, https://doi.org/10.1145/3729274."
   },
   {
-    "doi": "10.1145/3656390",
-    "title": "A Verified Compiler for a Functional Tensor Language.",
-    "venue": "pldi 2024",
-    "citation": "Liu, Amanda, et al. “A Verified Compiler for a Functional Tensor Language.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 320–42. Crossref, https://doi.org/10.1145/3656390."
+    "doi": "10.1145/3729320",
+    "title": "Verifying Solutions to Semantics-Guided Synthesis Problems.",
+    "venue": "pldi 2025",
+    "citation": "Murphy, Charlie, et al. “Verifying Solutions to Semantics-Guided Synthesis Problems.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1741–65. Crossref, https://doi.org/10.1145/3729320."
   },
   {
-    "doi": "10.1145/3656414",
-    "title": "Program Analysis for Adaptive Data Analysis.",
-    "venue": "pldi 2024",
-    "citation": "Liu, Jiawen, et al. “Program Analysis for Adaptive Data Analysis.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 914–38. Crossref, https://doi.org/10.1145/3656414."
+    "doi": "10.1145/3729301",
+    "title": "MISAAL: Synthesis-Based Automatic Generation of Efficient and Retargetable Semantics-Driven Optimizations.",
+    "venue": "pldi 2025",
+    "citation": "Noor, Abdul Rafae, et al. “MISAAL: Synthesis-Based Automatic Generation of Efficient and Retargetable Semantics-Driven Optimizations.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1269–92. Crossref, https://doi.org/10.1145/3729301."
   },
   {
-    "doi": "10.1145/3656398",
-    "title": "The Functional Essence of Imperative Binary Search Trees.",
-    "venue": "pldi 2024",
-    "citation": "Lorenzen, Anton, et al. “The Functional Essence of Imperative Binary Search Trees.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 518–42. Crossref, https://doi.org/10.1145/3656398."
+    "doi": "10.1145/3729333",
+    "title": "Thrust: A Prophecy-Based Refinement Type System for Rust.",
+    "venue": "pldi 2025",
+    "citation": "Ogawa, Hiromi, et al. “Thrust: A Prophecy-Based Refinement Type System for Rust.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 2056–80. Crossref, https://doi.org/10.1145/3729333."
   },
   {
-    "doi": "10.1145/3656453",
-    "title": "Equivalence by Canonicalization for Synthesis-Backed Refactoring.",
-    "venue": "pldi 2024",
-    "citation": "Lubin, Justin, et al. “Equivalence by Canonicalization for Synthesis-Backed Refactoring.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1879–904. Crossref, https://doi.org/10.1145/3656453."
+    "doi": "10.1145/3729286",
+    "title": "Probabilistic Kleene Algebra with Angelic Nondeterminism.",
+    "venue": "pldi 2025",
+    "citation": "Ong, Shawn, et al. “Probabilistic Kleene Algebra with Angelic Nondeterminism.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 897–919. Crossref, https://doi.org/10.1145/3729286."
   },
   {
-    "doi": "10.1145/3656393",
-    "title": "Associated Effects: Flexible Abstractions for Effectful Programming.",
-    "venue": "pldi 2024",
-    "citation": "Lutze, Matthew, and Magnus Madsen. “Associated Effects: Flexible Abstractions for Effectful Programming.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 394–416. Crossref, https://doi.org/10.1145/3656393."
+    "doi": "10.1145/3729248",
+    "title": "Verifying Lock-Free Traversals in Relaxed Memory Separation Logic.",
+    "venue": "pldi 2025",
+    "citation": "Park, Sunho, et al. “Verifying Lock-Free Traversals in Relaxed Memory Separation Logic.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 48–72. Crossref, https://doi.org/10.1145/3729248."
   },
   {
-    "doi": "10.1145/3656461",
-    "title": "Static Analysis for Checking the Disambiguation Robustness of Regular Expressions.",
-    "venue": "pldi 2024",
-    "citation": "Mamouras, Konstantinos, et al. “Static Analysis for Checking the Disambiguation Robustness of Regular Expressions.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 2073–97. Crossref, https://doi.org/10.1145/3656461."
+    "doi": "10.1145/3729332",
+    "title": "Correctly Rounded Math Libraries without Worrying about the Application&apos;s Rounding Mode.",
+    "venue": "pldi 2025",
+    "citation": "Park, Sehyeok, et al. “Correctly Rounded Math Libraries without Worrying about the Application’s Rounding Mode.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 2032–55. Crossref, https://doi.org/10.1145/3729332."
   },
   {
-    "doi": "10.1145/3656460",
-    "title": "Syntactic Code Search with Sequence-to-Tree Matching: Supporting Syntactic Search with Incomplete Code Fragments.",
-    "venue": "pldi 2024",
-    "citation": "Matute, Gabriel, et al. “Syntactic Code Search with Sequence-to-Tree Matching: Supporting Syntactic Search with Incomplete Code Fragments.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 2051–72. Crossref, https://doi.org/10.1145/3656460."
+    "doi": "10.1145/3729321",
+    "title": "Handling the Selection Monad.",
+    "venue": "pldi 2025",
+    "citation": "Plotkin, Gordon, and Ningning Xie. “Handling the Selection Monad.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1766–90. Crossref, https://doi.org/10.1145/3729321."
   },
   {
-    "doi": "10.1145/3656387",
-    "title": "SMT Theory Arbitrage: Approximating Unbounded Constraints using Bounded Theories.",
-    "venue": "pldi 2024",
-    "citation": "Mikek, Benjamin, and Qirun Zhang. “SMT Theory Arbitrage: Approximating Unbounded Constraints Using Bounded Theories.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 246–71. Crossref, https://doi.org/10.1145/3656387."
+    "doi": "10.1145/3729288",
+    "title": "CRGC: Fault-Recovering Actor Garbage Collection in Pekko.",
+    "venue": "pldi 2025",
+    "citation": "Plyukhin, Dan, et al. “CRGC: Fault-Recovering Actor Garbage Collection in Pekko.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 945–69. Crossref, https://doi.org/10.1145/3729288."
   },
   {
-    "doi": "10.1145/3656454",
-    "title": "KATch: A Fast Symbolic Verifier for NetKAT.",
-    "venue": "pldi 2024",
-    "citation": "Moeller, Mark, et al. “KATch: A Fast Symbolic Verifier for NetKAT.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1905–28. Crossref, https://doi.org/10.1145/3656454."
+    "doi": "10.1145/3729260",
+    "title": "Exploiting Undefined Behavior in C/C++ Programs for Optimization: A Study on the Performance Impact.",
+    "venue": "pldi 2025",
+    "citation": "Popescu, Lucian, and Nuno P. Lopes. “Exploiting Undefined Behavior in C/C++ Programs for Optimization: A Study on the Performance Impact.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 348–71. Crossref, https://doi.org/10.1145/3729260."
   },
   {
-    "doi": "10.1145/3656450",
-    "title": "Predictable Verification using Intrinsic Definitions.",
-    "venue": "pldi 2024",
-    "citation": "Murali, Adithya, et al. “Predictable Verification Using Intrinsic Definitions.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1804–29. Crossref, https://doi.org/10.1145/3656450."
+    "doi": "10.1145/3729285",
+    "title": "Iso: Request-Private Garbage Collection.",
+    "venue": "pldi 2025",
+    "citation": "Qiu, Tianle, and Stephen M. Blackburn. “Iso: Request-Private Garbage Collection.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 874–96. Crossref, https://doi.org/10.1145/3729285."
   },
   {
-    "doi": "10.1145/3658851",
-    "title": "A Family of Fast and Memory Efficient Lock- and Wait-Free Reclamation.",
-    "venue": "pldi 2024",
-    "citation": "Nikolaev, Ruslan, and Binoy Ravindran. “A Family of Fast and Memory Efficient Lock- and Wait-Free Reclamation.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 2174–98. Crossref, https://doi.org/10.1145/3658851."
+    "doi": "10.1145/3729306",
+    "title": "LiDO-DAG: A Framework for Verifying Safety and Liveness of DAG-Based Consensus Protocols.",
+    "venue": "pldi 2025",
+    "citation": "Qiu, Longfei, et al. “LiDO-DAG: A Framework for Verifying Safety and Liveness of DAG-Based Consensus Protocols.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1392–416. Crossref, https://doi.org/10.1145/3729306."
   },
   {
-    "doi": "10.1145/3656384",
-    "title": "A Proof Recipe for Linearizability in Relaxed Memory Separation Logic.",
-    "venue": "pldi 2024",
-    "citation": "Park, Sunho, et al. “A Proof Recipe for Linearizability in Relaxed Memory Separation Logic.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 175–98. Crossref, https://doi.org/10.1145/3656384."
+    "doi": "10.1145/3729280",
+    "title": "Webs and Flow-Directed Well-Typedness Preserving Program Transformations.",
+    "venue": "pldi 2025",
+    "citation": "Quiring, Benjamin, et al. “Webs and Flow-Directed Well-Typedness Preserving Program Transformations.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 748–72. Crossref, https://doi.org/10.1145/3729280."
   },
   {
-    "doi": "10.1145/3656438",
-    "title": "Towards Trustworthy Automated Program Verifiers: Formally Validating Translations into an Intermediate Verification Language.",
-    "venue": "pldi 2024",
-    "citation": "Parthasarathy, Gaurav, et al. “Towards Trustworthy Automated Program Verifiers: Formally Validating Translations into an Intermediate Verification Language.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1510–34. Crossref, https://doi.org/10.1145/3656438."
+    "doi": "10.1145/3729323",
+    "title": "Exact Loop Bound Analysis.",
+    "venue": "pldi 2025",
+    "citation": "Riley, Daniel, and Grigory Fedyukovich. “Exact Loop Bound Analysis.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1814–37. Crossref, https://doi.org/10.1145/3729323."
   },
   {
-    "doi": "10.1145/3656420",
-    "title": "Wavefront Threading Enables Effective High-Level Synthesis.",
-    "venue": "pldi 2024",
-    "citation": "Pelton, Blake, et al. “Wavefront Threading Enables Effective High-Level Synthesis.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1066–90. Crossref, https://doi.org/10.1145/3656420."
+    "doi": "10.1145/3729299",
+    "title": "Functional Meaning for Parallel Streaming.",
+    "venue": "pldi 2025",
+    "citation": "Rioux, Nick, and Steve Zdancewic. “Functional Meaning for Parallel Streaming.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1220–44. Crossref, https://doi.org/10.1145/3729299."
   },
   {
-    "doi": "10.1145/3656380",
-    "title": "Robust Resource Bounds with Static Analysis and Bayesian Inference.",
-    "venue": "pldi 2024",
-    "citation": "Pham, Long, et al. “Robust Resource Bounds with Static Analysis and Bayesian Inference.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 76–101. Crossref, https://doi.org/10.1145/3656380."
+    "doi": "10.1145/3729335",
+    "title": "Modular Construction and Optimization of the UZP Sparse Format for SpMV on CPUs.",
+    "venue": "pldi 2025",
+    "citation": "Rodríguez-Iglesias, Alonso, et al. “Modular Construction and Optimization of the UZP Sparse Format for SpMV on CPUs.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 2106–30. Crossref, https://doi.org/10.1145/3729335."
   },
   {
-    "doi": "10.1145/3656452",
-    "title": "Falcon: A Scalable Analytical Cache Model.",
-    "venue": "pldi 2024",
-    "citation": "Pitchanathan, Arjun, et al. “Falcon: A Scalable Analytical Cache Model.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1854–78. Crossref, https://doi.org/10.1145/3656452."
+    "doi": "10.1145/3729251",
+    "title": "Random Variate Generation with Formal Guarantees.",
+    "venue": "pldi 2025",
+    "citation": "Saad, Feras A., and Wonyeol Lee. “Random Variate Generation with Formal Guarantees.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 125–49. Crossref, https://doi.org/10.1145/3729251."
   },
   {
-    "doi": "10.1145/3656423",
-    "title": "LiDO: Linearizable Byzantine Distributed Objects with Refinement-Based Liveness Proofs.",
-    "venue": "pldi 2024",
-    "citation": "Qiu, Longfei, et al. “LiDO: Linearizable Byzantine Distributed Objects with Refinement-Based Liveness Proofs.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1140–64. Crossref, https://doi.org/10.1145/3656423."
+    "doi": "10.1145/3729281",
+    "title": "Intrinsic Verification of Parsers and Formal Grammar Theory in Dependent Lambek Calculus.",
+    "venue": "pldi 2025",
+    "citation": "Schaefer, Steven, et al. “Intrinsic Verification of Parsers and Formal Grammar Theory in Dependent Lambek Calculus.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 773–96. Crossref, https://doi.org/10.1145/3729281."
   },
   {
-    "doi": "10.1145/3656402",
-    "title": "VESTA: Power Modeling with Language Runtime Events.",
-    "venue": "pldi 2024",
-    "citation": "Raskind, Joseph, et al. “VESTA: Power Modeling with Language Runtime Events.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 621–46. Crossref, https://doi.org/10.1145/3656402."
+    "doi": "10.1145/3729326",
+    "title": "Slotted E-Graphs: First-Class Support for (Bound) Variables in E-Graphs.",
+    "venue": "pldi 2025",
+    "citation": "Schneider, Rudi, et al. “Slotted E-Graphs: First-Class Support for (Bound) Variables in E-Graphs.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1888–910. Crossref, https://doi.org/10.1145/3729326."
   },
   {
-    "doi": "10.1145/3656395",
-    "title": "Floating-Point TVPI Abstract Domain.",
-    "venue": "pldi 2024",
-    "citation": "Rivera, Joao, et al. “Floating-Point TVPI Abstract Domain.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 442–66. Crossref, https://doi.org/10.1145/3656395."
+    "doi": "10.1145/3729253",
+    "title": "Optimizing Ancilla-Based Quantum Circuits with SPARE.",
+    "venue": "pldi 2025",
+    "citation": "Sharma, Ritvik, and Sara Achour. “Optimizing Ancilla-Based Quantum Circuits with SPARE.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 176–200. Crossref, https://doi.org/10.1145/3729253."
   },
   {
-    "doi": "10.1145/3656388",
-    "title": "Compilation of Qubit Circuits to Optimized Qutrit Circuits.",
-    "venue": "pldi 2024",
-    "citation": "Sharma, Ritvik, and Sara Achour. “Compilation of Qubit Circuits to Optimized Qutrit Circuits.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 272–95. Crossref, https://doi.org/10.1145/3656388."
+    "doi": "10.1145/3729284",
+    "title": "Destabilizing Iris.",
+    "venue": "pldi 2025",
+    "citation": "Spies, Simon, et al. “Destabilizing Iris.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 848–73. Crossref, https://doi.org/10.1145/3729284."
   },
   {
-    "doi": "10.1145/3656413",
-    "title": "Quiver: Guided Abductive Inference of Separation Logic Specifications in Coq.",
-    "venue": "pldi 2024",
-    "citation": "Spies, Simon, et al. “Quiver: Guided Abductive Inference of Separation Logic Specifications in Coq.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 889–913. Crossref, https://doi.org/10.1145/3656413."
+    "doi": "10.1145/3729297",
+    "title": "Taking Out the Toxic Trash: Recovering Precision in Mixed Flow-Sensitive Static Analyses.",
+    "venue": "pldi 2025",
+    "citation": "Stemmler, Fabian, et al. “Taking Out the Toxic Trash: Recovering Precision in Mixed Flow-Sensitive Static Analyses.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1167–93. Crossref, https://doi.org/10.1145/3729297."
   },
   {
-    "doi": "10.1145/3656399",
-    "title": "Compositional Semantics for Shared-Variable Concurrency.",
-    "venue": "pldi 2024",
-    "citation": "Svyatlovskiy, Mikhail, et al. “Compositional Semantics for Shared-Variable Concurrency.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 543–66. Crossref, https://doi.org/10.1145/3656399."
+    "doi": "10.1145/3729313",
+    "title": "Dynamic Region Ownership for Concurrency Safety.",
+    "venue": "pldi 2025",
+    "citation": "Stoldt, Fridtjof Peer, et al. “Dynamic Region Ownership for Concurrency Safety.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1565–90. Crossref, https://doi.org/10.1145/3729313."
   },
   {
-    "doi": "10.1145/3656404",
-    "title": "Refined Input, Degraded Output: The Counterintuitive World of Compiler Behavior.",
-    "venue": "pldi 2024",
-    "citation": "Theodoridis, Theodoros, and Zhendong Su. “Refined Input, Degraded Output: The Counterintuitive World of Compiler Behavior.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 671–91. Crossref, https://doi.org/10.1145/3656404."
+    "doi": "10.1145/3729290",
+    "title": "QVM: Quantum Gate Virtualization Machine.",
+    "venue": "pldi 2025",
+    "citation": "Tornow, Nathaniel, et al. “QVM: Quantum Gate Virtualization Machine.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 993–1018. Crossref, https://doi.org/10.1145/3729290."
   },
   {
-    "doi": "10.1145/3656457",
-    "title": "Inductive Approach to Spacer.",
-    "venue": "pldi 2024",
-    "citation": "Tsukada, Takeshi, and Hiroshi Unno. “Inductive Approach to Spacer.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1979–2002. Crossref, https://doi.org/10.1145/3656457."
+    "doi": "10.1145/3735592",
+    "title": "Tree Borrows.",
+    "venue": "pldi 2025",
+    "citation": "Villani, Neven, et al. “Tree Borrows.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1019–42. Crossref, https://doi.org/10.1145/3735592."
   },
   {
-    "doi": "10.1145/3656418",
-    "title": "From Batch to Stream: Automatic Generation of Online Algorithms.",
-    "venue": "pldi 2024",
-    "citation": "Wang, Ziteng, et al. “From Batch to Stream: Automatic Generation of Online Algorithms.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1014–39. Crossref, https://doi.org/10.1145/3656418."
+    "doi": "10.1145/3729282",
+    "title": "Reductive Analysis with Compiler-Guided Large Language Models for Input-Centric Code Optimizations.",
+    "venue": "pldi 2025",
+    "citation": "Wang, Xiangwei, et al. “Reductive Analysis with Compiler-Guided Large Language Models for Input-Centric Code Optimizations.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 797–821. Crossref, https://doi.org/10.1145/3729282."
   },
   {
-    "doi": "10.1145/3656432",
-    "title": "Static Posterior Inference of Bayesian Probabilistic Programming via Polynomial Solving.",
-    "venue": "pldi 2024",
-    "citation": "Wang, Peixin, et al. “Static Posterior Inference of Bayesian Probabilistic Programming via Polynomial Solving.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1361–86. Crossref, https://doi.org/10.1145/3656432."
+    "doi": "10.1145/3729287",
+    "title": "Program Skeletons for Automated Program Translation.",
+    "venue": "pldi 2025",
+    "citation": "Wang, Bo, et al. “Program Skeletons for Automated Program Translation.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 920–44. Crossref, https://doi.org/10.1145/3729287."
   },
   {
-    "doi": "10.1145/3656416",
-    "title": "Consolidating Smart Contracts with Behavioral Contracts.",
-    "venue": "pldi 2024",
-    "citation": "Wei, Guannan, et al. “Consolidating Smart Contracts with Behavioral Contracts.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 965–89. Crossref, https://doi.org/10.1145/3656416."
+    "doi": "10.1145/3729254",
+    "title": "Relaxing Alias Analysis: Exploring the Unexplored Space.",
+    "venue": "pldi 2025",
+    "citation": "Weber, Michel, et al. “Relaxing Alias Analysis: Exploring the Unexplored Space.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 201–24. Crossref, https://doi.org/10.1145/3729254."
   },
   {
-    "doi": "10.1145/3656417",
-    "title": "Scaling Type-Based Points-to Analysis with Saturation.",
-    "venue": "pldi 2024",
-    "citation": "Wimmer, Christian, et al. “Scaling Type-Based Points-to Analysis with Saturation.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 990–1013. Crossref, https://doi.org/10.1145/3656417."
+    "doi": "10.1145/3729305",
+    "title": "Divergence-Aware Testing of Graphics Shader Compiler Back-Ends.",
+    "venue": "pldi 2025",
+    "citation": "Xiao, Dongwei, et al. “Divergence-Aware Testing of Graphics Shader Compiler Back-Ends.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1367–91. Crossref, https://doi.org/10.1145/3729305."
   },
   {
-    "doi": "10.1145/3656400",
-    "title": "Falcon: A Fused Approach to Path-Sensitive Sparse Data Dependence Analysis.",
-    "venue": "pldi 2024",
-    "citation": "Yao, Peisen, et al. “Falcon: A Fused Approach to Path-Sensitive Sparse Data Dependence Analysis.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 567–92. Crossref, https://doi.org/10.1145/3656400."
+    "doi": "10.1145/3729262",
+    "title": "Task-Based Tensor Computations on Modern GPUs.",
+    "venue": "pldi 2025",
+    "citation": "Yadav, Rohan, et al. “Task-Based Tensor Computations on Modern GPUs.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 396–420. Crossref, https://doi.org/10.1145/3729262."
   },
   {
-    "doi": "10.1145/3656443",
-    "title": "Compatible Branch Coverage Driven Symbolic Execution for Efficient Bug Finding.",
-    "venue": "pldi 2024",
-    "citation": "Yi, Qiuping, et al. “Compatible Branch Coverage Driven Symbolic Execution for Efficient Bug Finding.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1633–55. Crossref, https://doi.org/10.1145/3656443."
+    "doi": "10.1145/3729315",
+    "title": "Scalable, Validated Code Translation of Entire Projects using Large Language Models.",
+    "venue": "pldi 2025",
+    "citation": "Zhang, Hanliang, et al. “Scalable, Validated Code Translation of Entire Projects Using Large Language Models.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1616–41. Crossref, https://doi.org/10.1145/3729315."
   },
   {
-    "doi": "10.1145/3656440",
-    "title": "Bringing the WebAssembly Standard up to Speed with SpecTec.",
-    "venue": "pldi 2024",
-    "citation": "Youn, Dongjun, et al. “Bringing the WebAssembly Standard up to Speed with SpecTec.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1559–84. Crossref, https://doi.org/10.1145/3656440."
+    "doi": "10.1145/3729252",
+    "title": "Efficient Timestamping for Sampling-Based Race Detection.",
+    "venue": "pldi 2025",
+    "citation": "Zhang, Minjian, et al. “Efficient Timestamping for Sampling-Based Race Detection.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 150–75. Crossref, https://doi.org/10.1145/3729252."
   },
   {
-    "doi": "10.1145/3656397",
-    "title": "The T-Complexity Costs of Error Correction for Control Flow in Quantum Computation.",
-    "venue": "pldi 2024",
-    "citation": "Yuan, Charles, and Michael Carbin. “The T-Complexity Costs of Error Correction for Control Flow in Quantum Computation.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 492–517. Crossref, https://doi.org/10.1145/3656397."
+    "doi": "10.1145/3729276",
+    "title": "CompCertOC: Verified Compositional Compilation of Multi-threaded Programs with Shared Stacks.",
+    "venue": "pldi 2025",
+    "citation": "Zhang, Ling, et al. “CompCertOC: Verified Compositional Compilation of Multi-Threaded Programs with Shared Stacks.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 651–74. Crossref, https://doi.org/10.1145/3729276."
   },
   {
-    "doi": "10.1145/3656408",
-    "title": "Automated Verification of Fundamental Algebraic Laws.",
-    "venue": "pldi 2024",
-    "citation": "Zakhour, George, et al. “Automated Verification of Fundamental Algebraic Laws.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 766–89. Crossref, https://doi.org/10.1145/3656408."
+    "doi": "10.1145/3729283",
+    "title": "Quantum Register Machine: Efficient Implementation of Quantum Recursive Programs.",
+    "venue": "pldi 2025",
+    "citation": "Zhang, Zhicheng, and Mingsheng Ying. “Quantum Register Machine: Efficient Implementation of Quantum Recursive Programs.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 822–47. Crossref, https://doi.org/10.1145/3729283."
   },
   {
-    "doi": "10.1145/3656426",
-    "title": "Compilation of Modular and General Sparse Workspaces.",
-    "venue": "pldi 2024",
-    "citation": "Zhang, Genghan, et al. “Compilation of Modular and General Sparse Workspaces.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1213–38. Crossref, https://doi.org/10.1145/3656426."
+    "doi": "10.1145/3729303",
+    "title": "Polygon: Symbolic Reasoning for SQL using Conflict-Driven Under-Approximation Search.",
+    "venue": "pldi 2025",
+    "citation": "Zhao, Pinhan, et al. “Polygon: Symbolic Reasoning for SQL Using Conflict-Driven Under-Approximation Search.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1315–40. Crossref, https://doi.org/10.1145/3729303."
   },
   {
-    "doi": "10.1145/3656433",
-    "title": "A HAT Trick: Automatically Verifying Representation Invariants using Symbolic Finite Automata.",
-    "venue": "pldi 2024",
-    "citation": "Zhou, Zhe, et al. “A HAT Trick: Automatically Verifying Representation Invariants Using Symbolic Finite Automata.” Proceedings of the ACM on Programming Languages, vol. 8, no. PLDI, June 2024, pp. 1387–411. Crossref, https://doi.org/10.1145/3656433."
+    "doi": "10.1145/3729278",
+    "title": "Fast Direct Manipulation Programming with Patch-Reconciliation Correspondence.",
+    "venue": "pldi 2025",
+    "citation": "Ziegler, Parker, et al. “Fast Direct Manipulation Programming with Patch-Reconciliation Correspondence.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 699–724. Crossref, https://doi.org/10.1145/3729278."
   },
   {
     "doi": "10.1145/3689719",
@@ -2104,732 +2104,6 @@
     "title": "Outcome Separation Logic: Local Reasoning for Correctness and Incorrectness with Computational Effects.",
     "venue": "oopsla 2024",
     "citation": "Zilberstein, Noam, et al. “Outcome Separation Logic: Local Reasoning for Correctness and Incorrectness with Computational Effects.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 276–304. Crossref, https://doi.org/10.1145/3649821."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.37",
-    "title": "Finite Relational Semantics for Language Kleene Algebra with Complement.",
-    "venue": "csl 2025",
-    "citation": "Nakamura, Yoshiki. Finite Relational Semantics for Language Kleene Algebra with Complement. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.37."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.35",
-    "title": "A Kleene Algebra with Tests for Union Bound Reasoning About Probabilistic Programs.",
-    "venue": "csl 2025",
-    "citation": "Gomes, Leandro, et al. A Kleene Algebra with Tests for Union Bound Reasoning About Probabilistic Programs. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.35."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.3",
-    "title": "Synthetic Mathematics for the Mechanisation of Computability Theory and Logic (Invited Talk).",
-    "venue": "csl 2025",
-    "citation": "Forster, Yannick. Synthetic Mathematics for the Mechanisation of Computability Theory and Logic (Invited Talk). Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.3."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.29",
-    "title": "Correspondences Between Codensity and Coupling-Based Liftings, a Practical Approach.",
-    "venue": "csl 2025",
-    "citation": "Humeau, Samuel, et al. Correspondences Between Codensity and Coupling-Based Liftings, a Practical Approach. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.29."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.26",
-    "title": "The Complexity of Deciding Characteristic Formulae in Van Glabbeek&apos;s Branching-Time Spectrum.",
-    "venue": "csl 2025",
-    "citation": "Aceto, Luca, et al. The Complexity of Deciding Characteristic Formulae in Van Glabbeek’s Branching-Time Spectrum. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.26."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.19",
-    "title": "Two-Way One-Counter Nets Revisited.",
-    "venue": "csl 2025",
-    "citation": "Almagor, Shaull, et al. Two-Way One-Counter Nets Revisited. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.19."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.44",
-    "title": "Classical Linear Logic in Perfect Banach Lattices.",
-    "venue": "csl 2025",
-    "citation": "Azevedo de Amorim, Pedro H., et al. Classical Linear Logic in Perfect Banach Lattices. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.44."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.36",
-    "title": "Kleene Algebra with Commutativity Conditions Is Undecidable.",
-    "venue": "csl 2025",
-    "citation": "Azevedo de Amorim, Arthur, et al. Kleene Algebra with Commutativity Conditions Is Undecidable. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.36."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.24",
-    "title": "Propositional Logics of Overwhelming Truth.",
-    "venue": "csl 2025",
-    "citation": "Antoine, Thibaut, and David Baelde. Propositional Logics of Overwhelming Truth. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.24."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.27",
-    "title": "A Complete Diagrammatic Calculus for Automata Simulation.",
-    "venue": "csl 2025",
-    "citation": "Antoine, Thibaut, et al. A Complete Diagrammatic Calculus for Automata Simulation. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.27."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.48",
-    "title": "Quantum and Classical Markovian Graphical Causal Models and Their Identification.",
-    "venue": "csl 2025",
-    "citation": "Barrett, Jonathan, et al. Quantum and Classical Markovian Graphical Causal Models and Their Identification. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.48."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.39",
-    "title": "A Strictly Linear Subatomic Proof System.",
-    "venue": "csl 2025",
-    "citation": "Barrett, Victoria, et al. A Strictly Linear Subatomic Proof System. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.39."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.8",
-    "title": "The Parameterized Complexity of Learning Monadic Second-Order Logic.",
-    "venue": "csl 2025",
-    "citation": "van Bergerem, Steffen, et al. The Parameterized Complexity of Learning Monadic Second-Order Logic. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.8."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.15",
-    "title": "On the VC Dimension of First-Order Logic with Counting and Weight Aggregation.",
-    "venue": "csl 2025",
-    "citation": "van Bergerem, Steffen, and Nicole Schweikardt. On the VC Dimension of First-Order Logic with Counting and Weight Aggregation. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.15."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.28",
-    "title": "Strong Induction Is an Up-To Technique.",
-    "venue": "csl 2025",
-    "citation": "Bonchi, Filippo, et al. Strong Induction Is an Up-To Technique. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.28."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.2",
-    "title": "On the Probabilistic and Statistical Verification of Infinite Markov Chains (Invited Talk).",
-    "venue": "csl 2025",
-    "citation": "Bouyer, Patricia. On the Probabilistic and Statistical Verification of Infinite Markov Chains (Invited Talk). Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.2."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.22",
-    "title": "On the Minimisation of Deterministic and History-Deterministic Generalised (Co)Büchi Automata.",
-    "venue": "csl 2025",
-    "citation": "Casares, Antonio, et al. On the Minimisation of Deterministic and History-Deterministic Generalised (Co)Büchi Automata. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.22."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.30",
-    "title": "A Complete Inference System for Probabilistic Infinite Trace Equivalence.",
-    "venue": "csl 2025",
-    "citation": "Cîrstea, Corina, et al. A Complete Inference System for Probabilistic Infinite Trace Equivalence. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.30."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.11",
-    "title": "On the Expansion of Monadic Second-Order Logic with Cantor-Bendixson Rank and Order Type Predicates.",
-    "venue": "csl 2025",
-    "citation": "Colcombet, Thomas, and Alexander Rabinovich. On the Expansion of Monadic Second-Order Logic with Cantor-Bendixson Rank and Order Type Predicates. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.11."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.16",
-    "title": "Undefinability of Approximation of 2-To-2 Games.",
-    "venue": "csl 2025",
-    "citation": "Dawar, Anuj, and Bálint Molnár. Undefinability of Approximation of 2-To-2 Games. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.16."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.20",
-    "title": "Boundedness of Cost Register Automata over the Integer Min-Plus Semiring.",
-    "venue": "csl 2025",
-    "citation": "Draghici, Andrei, et al. Boundedness of Cost Register Automata over the Integer Min-Plus Semiring. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.20."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.7",
-    "title": "Extension Preservation on Dense Graph Classes.",
-    "venue": "csl 2025",
-    "citation": "Eleftheriadis, Ioannis. Extension Preservation on Dense Graph Classes. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.7."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.47",
-    "title": "A Rewriting Theory for Quantum λ-Calculus.",
-    "venue": "csl 2025",
-    "citation": "Faggian, Claudia, et al. A Rewriting Theory for Quantum λ-Calculus. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.47."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.1",
-    "title": "The Ackermann Award 2024.",
-    "venue": "csl 2025",
-    "citation": "Fernández, Maribel, and Prakash Panangaden. The Ackermann Award 2024. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.1."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.33",
-    "title": "Quantitative Graded Semantics and Spectra of Behavioural Metrics.",
-    "venue": "csl 2025",
-    "citation": "Forster, Jonas, et al. Quantitative Graded Semantics and Spectra of Behavioural Metrics. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.33."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.10",
-    "title": "The Complexity of Second-Order HyperLTL.",
-    "venue": "csl 2025",
-    "citation": "Frenkel, Hadar, and Martin Zimmermann. The Complexity of Second-Order HyperLTL. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.10."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.23",
-    "title": "Permissive Equilibria in Multiplayer Reachability Games.",
-    "venue": "csl 2025",
-    "citation": "Goeminne, Aline, and Benjamin Monmege. Permissive Equilibria in Multiplayer Reachability Games. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.23."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.12",
-    "title": "First-Order Logic with Equicardinality in Random Graphs.",
-    "venue": "csl 2025",
-    "citation": "Haber, Simi, et al. First-Order Logic with Equicardinality in Random Graphs. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.12."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.46",
-    "title": "Coslice Colimits in Homotopy Type Theory.",
-    "venue": "csl 2025",
-    "citation": "Hart, Perry, and Kuen-Bang Hou (Favonia). Coslice Colimits in Homotopy Type Theory. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.46."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.31",
-    "title": "Simple Types for Probabilistic Termination.",
-    "venue": "csl 2025",
-    "citation": "Heijltjes, Willem, and Georgina Majury. Simple Types for Probabilistic Termination. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.31."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.38",
-    "title": "A Complete Graphical Language for Linear Optical Circuits with Finite-Photon-Number Sources and Detectors.",
-    "venue": "csl 2025",
-    "citation": "Heurtel, Nicolas. A Complete Graphical Language for Linear Optical Circuits with Finite-Photon-Number Sources and Detectors. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.38."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.17",
-    "title": "Description Complexity of Unary Structures in First-Order Logic with Links to Entropy.",
-    "venue": "csl 2025",
-    "citation": "Jaakkola, Reijo, et al. Description Complexity of Unary Structures in First-Order Logic with Links to Entropy. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.17."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.40",
-    "title": "Completeness of First-Order Bi-Intuitionistic Logic.",
-    "venue": "csl 2025",
-    "citation": "Kirst, Dominik, and Ian Shillito. Completeness of First-Order Bi-Intuitionistic Logic. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.40."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.9",
-    "title": "On Homogeneous Models of Fluted Languages.",
-    "venue": "csl 2025",
-    "citation": "Kojelis, Daumantas. On Homogeneous Models of Fluted Languages. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.9."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.13",
-    "title": "Computational Complexity of the Weisfeiler-Leman Dimension.",
-    "venue": "csl 2025",
-    "citation": "Lichter, Moritz, et al. Computational Complexity of the Weisfeiler-Leman Dimension. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.13."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.42",
-    "title": "Unifying Sequent Systems for Gödel-Löb Provability Logic via Syntactic Transformations.",
-    "venue": "csl 2025",
-    "citation": "Lyon, Tim S. Unifying Sequent Systems for Gödel-Löb Provability Logic via Syntactic Transformations. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.42."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.41",
-    "title": "Taking Bi-Intuitionistic Logic First-Order: A Proof-Theoretic Investigation via Polytree Sequents.",
-    "venue": "csl 2025",
-    "citation": "Lyon, Tim S., et al. Taking Bi-Intuitionistic Logic First-Order: A Proof-Theoretic Investigation via Polytree Sequents. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.41."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.34",
-    "title": "The Lambda Calculus Is Quantifiable.",
-    "venue": "csl 2025",
-    "citation": "Maestracci, Valentin, and Paolo Pistone. The Lambda Calculus Is Quantifiable. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.34."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.21",
-    "title": "The Algebras for Automatic Relations.",
-    "venue": "csl 2025",
-    "citation": "Morvan, Rémi. The Algebras for Automatic Relations. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.21."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.25",
-    "title": "Exponential Lower Bounds on Definable Fixed Points.",
-    "venue": "csl 2025",
-    "citation": "Papafilippou, Konstantinos, and David Fernández-Duque. Exponential Lower Bounds on Definable Fixed Points. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.25."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.4",
-    "title": "Playing with Modalities (Invited Talk).",
-    "venue": "csl 2025",
-    "citation": "Pimentel, Elaine, et al. Playing with Modalities (Invited Talk). Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.4."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.43",
-    "title": "Linear Realisability over Nets: Multiplicatives.",
-    "venue": "csl 2025",
-    "citation": "Ragot, Adrien, et al. Linear Realisability over Nets: Multiplicatives. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.43."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.45",
-    "title": "Insights from Univalent Foundations: A Case Study Using Double Categories.",
-    "venue": "csl 2025",
-    "citation": "Rasekh, Nima, et al. Insights from Univalent Foundations: A Case Study Using Double Categories. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.45."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.14",
-    "title": "Finite Variable Counting Logics with Restricted Requantification.",
-    "venue": "csl 2025",
-    "citation": "Raßmann, Simon, et al. Finite Variable Counting Logics with Restricted Requantification. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.14."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.6",
-    "title": "Equi-Rank Homomorphism Preservation Theorem on Finite Structures.",
-    "venue": "csl 2025",
-    "citation": "Rossman, Benjamin. Equi-Rank Homomorphism Preservation Theorem on Finite Structures. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.6."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.18",
-    "title": "Reachability for Multi-Priced Timed Automata with Positive and Negative Rates.",
-    "venue": "csl 2025",
-    "citation": "Scoones, Andrew, et al. Reachability for Multi-Priced Timed Automata with Positive and Negative Rates. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.18."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.5",
-    "title": "Modal Automata: Analysing Modal Fixpoint Logics, One Step at a Time (Invited Talk).",
-    "venue": "csl 2025",
-    "citation": "Venema, Yde. Modal Automata: Analysing Modal Fixpoint Logics, One Step at a Time (Invited Talk). Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.5."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.49",
-    "title": "Minimality in Finite-Dimensional ZW-Calculi.",
-    "venue": "csl 2025",
-    "citation": "de Visme, Marc, and Renaud Vilmart. Minimality in Finite-Dimensional ZW-Calculi. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.49."
-  },
-  {
-    "doi": "10.4230/LIPICS.CSL.2025.32",
-    "title": "A Mixed Linear and Graded Logic: Proofs, Terms, and Models.",
-    "venue": "csl 2025",
-    "citation": "Vollmer, Victoria, et al. A Mixed Linear and Graded Logic: Proofs, Terms, and Models. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.CSL.2025.32."
-  },
-  {
-    "doi": "10.1145/3661814.3662104",
-    "title": "Separating Markov&apos;s Principles.",
-    "venue": "lics 2024",
-    "citation": "Cohen, Liron, et al. “Separating Markov’s Principles.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662104."
-  },
-  {
-    "doi": "10.1145/3661814.3662099",
-    "title": "Bialgebraic Reasoning on Higher-order Program Equivalence.",
-    "venue": "lics 2024",
-    "citation": "Goncharov, Sergey, et al. “Bialgebraic Reasoning on Higher-Order Program Equivalence.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–15. Crossref, https://doi.org/10.1145/3661814.3662099."
-  },
-  {
-    "doi": "10.1145/3661814.3662074",
-    "title": "Equivariant ideals of polynomials.",
-    "venue": "lics 2024",
-    "citation": "Ghosh, Arka, and Sławomir Lasota. “Equivariant Ideals of Polynomials.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662074."
-  },
-  {
-    "doi": "10.1145/3661814.3662110",
-    "title": "An expressively complete local past propositional dynamic logic over Mazurkiewicz traces and its applications.",
-    "venue": "lics 2024",
-    "citation": "Adsul, Bharat, et al. “An Expressively Complete Local Past Propositional Dynamic Logic over Mazurkiewicz Traces and Its Applications.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–13. Crossref, https://doi.org/10.1145/3661814.3662110."
-  },
-  {
-    "doi": "10.1145/3661814.3662101",
-    "title": "Non-Elementary Compression of First-Order Proofs in Deep Inference Using Epsilon-Terms.",
-    "venue": "lics 2024",
-    "citation": "Allett, Cameron. “Non-Elementary Compression of First-Order Proofs in Deep Inference Using Epsilon-Terms.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662101."
-  },
-  {
-    "doi": "10.1145/3661814.3662133",
-    "title": "Verifying Unboundedness via Amalgamation.",
-    "venue": "lics 2024",
-    "citation": "Anand, Ashwani, et al. “Verifying Unboundedness via Amalgamation.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–15. Crossref, https://doi.org/10.1145/3661814.3662133."
-  },
-  {
-    "doi": "10.1145/3661814.3662113",
-    "title": "Genericity Through Stratification.",
-    "venue": "lics 2024",
-    "citation": "Arrial, Victor, et al. “Genericity Through Stratification.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–15. Crossref, https://doi.org/10.1145/3661814.3662113."
-  },
-  {
-    "doi": "10.1145/3661814.3662080",
-    "title": "Deterministic Sub-exponential Algorithm for Discounted-sum Games with Unary Weights.",
-    "venue": "lics 2024",
-    "citation": "Asadi, Ali, et al. “Deterministic Sub-Exponential Algorithm for Discounted-Sum Games with Unary Weights.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–12. Crossref, https://doi.org/10.1145/3661814.3662080."
-  },
-  {
-    "doi": "10.1145/3661814.3662124",
-    "title": "Decidability and Complexity of Decision Problems for Affine Continuous VASS.",
-    "venue": "lics 2024",
-    "citation": "Balasubramanian, A. R. “Decidability and Complexity of Decision Problems for Affine Continuous VASS.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–13. Crossref, https://doi.org/10.1145/3661814.3662124."
-  },
-  {
-    "doi": "10.1145/3661814.3662072",
-    "title": "Injective hardness condition for PCSPs.",
-    "venue": "lics 2024",
-    "citation": "Banakh, Demian, and Marcin Kozik. “Injective Hardness Condition for PCSPs.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–10. Crossref, https://doi.org/10.1145/3661814.3662072."
-  },
-  {
-    "doi": "10.1145/3661814.3662091",
-    "title": "The Relational Machine Calculus.",
-    "venue": "lics 2024",
-    "citation": "Barrett, Chris, et al. “The Relational Machine Calculus.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–15. Crossref, https://doi.org/10.1145/3661814.3662091."
-  },
-  {
-    "doi": "10.1145/3661814.3662076",
-    "title": "Algebraic Approach to Approximation.",
-    "venue": "lics 2024",
-    "citation": "Barto, Libor, et al. “Algebraic Approach to Approximation.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662076."
-  },
-  {
-    "doi": "10.1145/3661814.3662119",
-    "title": "On the Decidability of Monadic Second-Order Logic with Arithmetic Predicates.",
-    "venue": "lics 2024",
-    "citation": "Berthé, Valérie, et al. “On the Decidability of Monadic Second-Order Logic with Arithmetic Predicates.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662119."
-  },
-  {
-    "doi": "10.1145/3661814.3662131",
-    "title": "Element-free probability distributions and random partitions.",
-    "venue": "lics 2024",
-    "citation": "Blanchi, Victor, and Hugo Paquet. “Element-Free Probability Distributions and Random Partitions.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662131."
-  },
-  {
-    "doi": "10.1145/3661814.3662086",
-    "title": "Soundness of reset workflow nets.",
-    "venue": "lics 2024",
-    "citation": "Blondin, Michael, et al. “Soundness of Reset Workflow Nets.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662086."
-  },
-  {
-    "doi": "10.1145/3661814.3662071",
-    "title": "The Complexity of Resilience Problems via Valued Constraint Satisfaction Problems.",
-    "venue": "lics 2024",
-    "citation": "Bodirsky, Manuel, et al. “The Complexity of Resilience Problems via Valued Constraint Satisfaction Problems.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662071."
-  },
-  {
-    "doi": "10.1145/3661814.3662083",
-    "title": "Rank-decreasing transductions.",
-    "venue": "lics 2024",
-    "citation": "Bojańczyk, Mikołaj, and Pierre Ohlmann. “Rank-Decreasing Transductions.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–13. Crossref, https://doi.org/10.1145/3661814.3662083."
-  },
-  {
-    "doi": "10.1145/3661814.3662090",
-    "title": "Discounted-Sum Automata with Real-Valued Discount Factors.",
-    "venue": "lics 2024",
-    "citation": "Boker, Udi. “Discounted-Sum Automata with Real-Valued Discount Factors.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662090."
-  },
-  {
-    "doi": "10.1145/3661814.3662078",
-    "title": "Diagrammatic Algebra of First Order Logic.",
-    "venue": "lics 2024",
-    "citation": "Bonchi, Filippo, et al. “Diagrammatic Algebra of First Order Logic.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–15. Crossref, https://doi.org/10.1145/3661814.3662078."
-  },
-  {
-    "doi": "10.1145/3661814.3662096",
-    "title": "Bounded-Memory Strategies in Partial-Information Games.",
-    "venue": "lics 2024",
-    "citation": "Bose, Sougata, et al. “Bounded-Memory Strategies in Partial-Information Games.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662096."
-  },
-  {
-    "doi": "10.1145/3661814.3662136",
-    "title": "Primitive Recursive Dependent Type Theory.",
-    "venue": "lics 2024",
-    "citation": "Buchholtz, Ulrik Torben, and Johannes Schipp von Branitz. “Primitive Recursive Dependent Type Theory.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–12. Crossref, https://doi.org/10.1145/3661814.3662136."
-  },
-  {
-    "doi": "10.1145/3661814.3662109",
-    "title": "Contextual Equivalence for State and Control via Nested Data.",
-    "venue": "lics 2024",
-    "citation": "Bunting, Benedict, and Andrzej Murawski. “Contextual Equivalence for State and Control via Nested Data.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662109."
-  },
-  {
-    "doi": "10.1145/3661814.3662115",
-    "title": "On symmetries of spheres in univalent foundations.",
-    "venue": "lics 2024",
-    "citation": "Cagne, Pierre, et al. “On Symmetries of Spheres in Univalent Foundations.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662115."
-  },
-  {
-    "doi": "10.1145/3661814.3662087",
-    "title": "Positional ω-regular languages.",
-    "venue": "lics 2024",
-    "citation": "Casares, Antonio, and Pierre Ohlmann. “Positional ω-Regular Languages.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662087."
-  },
-  {
-    "doi": "10.1145/3661814.3662145",
-    "title": "The Finite Satisfiability Problem for PCTL is Undecidable.",
-    "venue": "lics 2024",
-    "citation": "Chodil, Miroslav, and Antonín Kučera. “The Finite Satisfiability Problem for PCTL Is Undecidable.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662145."
-  },
-  {
-    "doi": "10.1145/3661814.3662118",
-    "title": "Quantum advantage and CSP complexity.",
-    "venue": "lics 2024",
-    "citation": "Ciardo, Lorenzo. “Quantum Advantage and CSP Complexity.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–15. Crossref, https://doi.org/10.1145/3661814.3662118."
-  },
-  {
-    "doi": "10.1145/3661814.3662069",
-    "title": "1-in-3 vs. Not-All-Equal: Dichotomy of a broken promise.",
-    "venue": "lics 2024",
-    "citation": "Ciardo, Lorenzo, et al. “1-in-3 vs. Not-All-Equal: Dichotomy of a Broken Promise.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–12. Crossref, https://doi.org/10.1145/3661814.3662069."
-  },
-  {
-    "doi": "10.1145/3661814.3662134",
-    "title": "Slice closures of indexed languages and word equations with counting constraints.",
-    "venue": "lics 2024",
-    "citation": "Ciobanu, Laura, and Georg Zetzsche. “Slice Closures of Indexed Languages and Word Equations with Counting Constraints.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–12. Crossref, https://doi.org/10.1145/3661814.3662134."
-  },
-  {
-    "doi": "10.1145/3661814.3662092",
-    "title": "An Analysis of Symmetry in Quantitative Semantics.",
-    "venue": "lics 2024",
-    "citation": "Clairambault, Pierre, and Simon Forest. “An Analysis of Symmetry in Quantitative Semantics.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–13. Crossref, https://doi.org/10.1145/3661814.3662092."
-  },
-  {
-    "doi": "10.1145/3661814.3662088",
-    "title": "Minimal Equational Theories for Quantum Circuits.",
-    "venue": "lics 2024",
-    "citation": "Clément, Alexandre, et al. “Minimal Equational Theories for Quantum Circuits.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662088."
-  },
-  {
-    "doi": "10.1145/3661814.3662068",
-    "title": "Local consistency as a reduction between constraint satisfaction problems.",
-    "venue": "lics 2024",
-    "citation": "Dalmau, Víctor, and Jakub Opršal. “Local Consistency as a Reduction between Constraint Satisfaction Problems.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–15. Crossref, https://doi.org/10.1145/3661814.3662068."
-  },
-  {
-    "doi": "10.1145/3661814.3662138",
-    "title": "A proof theory of right-linear (ω-)grammars via cyclic proofs.",
-    "venue": "lics 2024",
-    "citation": "Das, Anupam, and Abhishek De. “A Proof Theory of Right-Linear (ω-)Grammars via Cyclic Proofs.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662138."
-  },
-  {
-    "doi": "10.1145/3661814.3662127",
-    "title": "First order complexity of finite random structures.",
-    "venue": "lics 2024",
-    "citation": "Demin, Danila, and Maksim Zhukovskii. “First Order Complexity of Finite Random Structures.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662127."
-  },
-  {
-    "doi": "10.1145/3661814.3662095",
-    "title": "Finite-valued Streaming String Transducers.",
-    "venue": "lics 2024",
-    "citation": "Filiot, Emmanuel, et al. “Finite-Valued Streaming String Transducers.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662095."
-  },
-  {
-    "doi": "10.1145/3661814.3662102",
-    "title": "A Syntax for Strictly Associative and Unital ∞-Categories.",
-    "venue": "lics 2024",
-    "citation": "Finster, Eric, et al. “A Syntax for Strictly Associative and Unital ∞-Categories.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–13. Crossref, https://doi.org/10.1145/3661814.3662102."
-  },
-  {
-    "doi": "10.1145/3661814.3662097",
-    "title": "On the complexity of Maslov&apos;s class K.",
-    "venue": "lics 2024",
-    "citation": "Fiuk, Oskar, et al. “On the Complexity of Maslov’s Class K̅.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662097."
-  },
-  {
-    "doi": "10.1145/3661814.3662094",
-    "title": "Elementary first-order model checking for sparse graphs.",
-    "venue": "lics 2024",
-    "citation": "Gajarský, Jakub, et al. “Elementary First-Order Model Checking for Sparse Graphs.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662094."
-  },
-  {
-    "doi": "10.1145/3661814.3662108",
-    "title": "Combining fixpoint and differentiation theory.",
-    "venue": "lics 2024",
-    "citation": "Galal, Zeinab, and Jean-Simon Pacaud Lemay. “Combining Fixpoint and Differentiation Theory.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662108."
-  },
-  {
-    "doi": "10.1145/3661814.3662126",
-    "title": "A Cartesian Closed Category for Random Variables.",
-    "venue": "lics 2024",
-    "citation": "Di Gianantonio, Pietro, and Abbas Edalat. “A Cartesian Closed Category for Random Variables.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662126."
-  },
-  {
-    "doi": "10.1145/3661814.3662093",
-    "title": "Are Targeted Messages More Effective?",
-    "venue": "lics 2024",
-    "citation": "Grohe, Martin, and Eran Rosenbluth. “Are Targeted Messages More Effective?” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662093."
-  },
-  {
-    "doi": "10.1145/3661814.3662100",
-    "title": "Declassification Policy for Program Complexity Analysis.",
-    "venue": "lics 2024",
-    "citation": "Hainry, Emmanuel, et al. “Declassification Policy for Program Complexity Analysis.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662100."
-  },
-  {
-    "doi": "10.1145/3661814.3662098",
-    "title": "Braids, Twists, Trace and Duality in Combinatory Algebras.",
-    "venue": "lics 2024",
-    "citation": "Hasegawa, Masahito, and Serge Lechenne. “Braids, Twists, Trace and Duality in Combinatory Algebras.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662098."
-  },
-  {
-    "doi": "10.1145/3661814.3662123",
-    "title": "A Profunctorial Semantics for Quantum Supermaps.",
-    "venue": "lics 2024",
-    "citation": "Hefford, James, and Matt Wilson. “A Profunctorial Semantics for Quantum Supermaps.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–15. Crossref, https://doi.org/10.1145/3661814.3662123."
-  },
-  {
-    "doi": "10.1145/3661814.3662117",
-    "title": "First order distinguishability of sparse random graphs.",
-    "venue": "lics 2024",
-    "citation": "Hershko, Tal, and Maksim Zhukovskii. “First Order Distinguishability of Sparse Random Graphs.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662117."
-  },
-  {
-    "doi": "10.1145/3661814.3662112",
-    "title": "On the Completeness of Interpolation Algorithms.",
-    "venue": "lics 2024",
-    "citation": "Hetzl, Stefan, and Raheleh Jalali. “On the Completeness of Interpolation Algorithms.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–13. Crossref, https://doi.org/10.1145/3661814.3662112."
-  },
-  {
-    "doi": "10.1145/3661814.3662073",
-    "title": "Determinisation and Unambiguisation of Polynomially-Ambiguous Rational Weighted Automata.",
-    "venue": "lics 2024",
-    "citation": "Jecker, Ismaël, et al. “Determinisation and Unambiguisation of Polynomially-Ambiguous Rational Weighted Automata.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–13. Crossref, https://doi.org/10.1145/3661814.3662073."
-  },
-  {
-    "doi": "10.1145/3661814.3662137",
-    "title": "No Go Theorems: Directed Containers That Do Not Distribute Over Distribution Monads.",
-    "venue": "lics 2024",
-    "citation": "Karamlou, Amin, and Nihil Shah. “No Go Theorems: Directed Containers That Do Not Distribute Over Distribution Monads.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–13. Crossref, https://doi.org/10.1145/3661814.3662137."
-  },
-  {
-    "doi": "10.1145/3661814.3662120",
-    "title": "Defining algorithmically presented structures in first order logic.",
-    "venue": "lics 2024",
-    "citation": "Kasymov, Nadim, et al. “Defining Algorithmically Presented Structures in First Order Logic.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–13. Crossref, https://doi.org/10.1145/3661814.3662120."
-  },
-  {
-    "doi": "10.1145/3661814.3662106",
-    "title": "δ is for Dialectica.",
-    "venue": "lics 2024",
-    "citation": "Kerjean, Marie Morgane, and Pierre-Marie Pédrot. “δ Is for Dialectica.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–13. Crossref, https://doi.org/10.1145/3661814.3662106."
-  },
-  {
-    "doi": "10.1145/3661814.3662116",
-    "title": "On the Separability Problem of VASS Reachability Languages.",
-    "venue": "lics 2024",
-    "citation": "Keskin, Eren, and Roland Meyer. “On the Separability Problem of VASS Reachability Languages.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662116."
-  },
-  {
-    "doi": "10.1145/3661814.3662122",
-    "title": "Bounding the Weisfeiler-Leman Dimension via a Depth Analysis of I/R-Trees.",
-    "venue": "lics 2024",
-    "citation": "Kiefer, Sandra, and Daniel Neuen. “Bounding the Weisfeiler-Leman Dimension via a Depth Analysis of I/R-Trees.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662122."
-  },
-  {
-    "doi": "10.1145/3661814.3662128",
-    "title": "Relevant S is Undecidable.",
-    "venue": "lics 2024",
-    "citation": "Knudstorp, Søren Brinck. “Relevant S Is Undecidable.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–8. Crossref, https://doi.org/10.1145/3661814.3662128."
-  },
-  {
-    "doi": "10.1145/3661814.3662139",
-    "title": "Composing Codensity Bisimulations.",
-    "venue": "lics 2024",
-    "citation": "Kori, Mayuko, et al. “Composing Codensity Bisimulations.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–13. Crossref, https://doi.org/10.1145/3661814.3662139."
-  },
-  {
-    "doi": "10.1145/3661814.3662103",
-    "title": "Pushdown Normal-Form Bisimulation: A Nominal Context-Free Approach to Program Equivalence.",
-    "venue": "lics 2024",
-    "citation": "Koutavas, Vasileios, et al. “Pushdown Normal-Form Bisimulation: A Nominal Context-Free Approach to Program Equivalence.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–15. Crossref, https://doi.org/10.1145/3661814.3662103."
-  },
-  {
-    "doi": "10.1145/3661814.3662114",
-    "title": "Uniformisation of Regular Relations in First-Order Logic with Two Variables.",
-    "venue": "lics 2024",
-    "citation": "Lhote, Nathan, et al. “Uniformisation of Regular Relations in First-Order Logic with Two Variables.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–13. Crossref, https://doi.org/10.1145/3661814.3662114."
-  },
-  {
-    "doi": "10.1145/3661814.3662135",
-    "title": "A Nominal Approach to Probabilistic Separation Logic.",
-    "venue": "lics 2024",
-    "citation": "Li, John M., et al. “A Nominal Approach to Probabilistic Separation Logic.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662135."
-  },
-  {
-    "doi": "10.1145/3661814.3662111",
-    "title": "Decidability of Quasi-Dense Modal Logics.",
-    "venue": "lics 2024",
-    "citation": "Lyon, Tim, and Piotr Ostropolski-Nalewaja. “Decidability of Quasi-Dense Modal Logics.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–8. Crossref, https://doi.org/10.1145/3661814.3662111."
-  },
-  {
-    "doi": "10.1145/3661814.3662077",
-    "title": "Delooping cyclic groups with lens spaces in homotopy type theory.",
-    "venue": "lics 2024",
-    "citation": "Mimram, Samuel, and Emile Oleon. “Delooping Cyclic Groups with Lens Spaces in Homotopy Type Theory.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–15. Crossref, https://doi.org/10.1145/3661814.3662077."
-  },
-  {
-    "doi": "10.1145/3661814.3662081",
-    "title": "Linear Termination is Undecidable.",
-    "venue": "lics 2024",
-    "citation": "Mitterwallner, Fabian, et al. “Linear Termination Is Undecidable.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–12. Crossref, https://doi.org/10.1145/3661814.3662081."
-  },
-  {
-    "doi": "10.1145/3661814.3662075",
-    "title": "Concurrent Games over Relational Structures: The Origin of Game Comonads.",
-    "venue": "lics 2024",
-    "citation": "Montacute, Yoàv, and Glynn Winskel. “Concurrent Games over Relational Structures: The Origin of Game Comonads.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662075."
-  },
-  {
-    "doi": "10.1145/3661814.3662130",
-    "title": "Effectful semantics in bicategories: strong, commutative, and concurrent pseudomonads.",
-    "venue": "lics 2024",
-    "citation": "Paquet, Hugo, and Philip Saville. “Effectful Semantics in Bicategories: Strong, Commutative, and Concurrent Pseudomonads.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–15. Crossref, https://doi.org/10.1145/3661814.3662130."
-  },
-  {
-    "doi": "10.1145/3661814.3662070",
-    "title": "&quot;Upon This Quote I Will Build My Church Thesis&quot;.",
-    "venue": "lics 2024",
-    "citation": "Pédrot, Pierre-Marie. “‘Upon This Quote I Will Build My Church Thesis.’” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–12. Crossref, https://doi.org/10.1145/3661814.3662070."
-  },
-  {
-    "doi": "10.1145/3661814.3662085",
-    "title": "Separation and Encodability in Mixed Choice Multiparty Sessions.",
-    "venue": "lics 2024",
-    "citation": "Peters, Kirstin, and Nobuko Yoshida. “Separation and Encodability in Mixed Choice Multiparty Sessions.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–15. Crossref, https://doi.org/10.1145/3661814.3662085."
-  },
-  {
-    "doi": "10.1145/3661814.3662107",
-    "title": "A Characterisation Theorem for Two-Way Bisimulation-Invariant Monadic Least Fixpoint Logic Over Finite Structures.",
-    "venue": "lics 2024",
-    "citation": "Pflueger, Maximilian, et al. “A Characterisation Theorem for Two-Way Bisimulation-Invariant Monadic Least Fixpoint Logic Over Finite Structures.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662107."
-  },
-  {
-    "doi": "10.1145/3661814.3662082",
-    "title": "Dot-depth three, return of the J-class.",
-    "venue": "lics 2024",
-    "citation": "Place, Thomas, and Marc Zeitoun. “Dot-Depth Three, Return of the J-Class.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–15. Crossref, https://doi.org/10.1145/3661814.3662082."
-  },
-  {
-    "doi": "10.1145/3661814.3662084",
-    "title": "A Completeness Theorem for Probabilistic Regular Expressions.",
-    "venue": "lics 2024",
-    "citation": "Różowski, Wojciech, and Alexandra Silva. “A Completeness Theorem for Probabilistic Regular Expressions.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662084."
-  },
-  {
-    "doi": "10.1145/3661814.3662129",
-    "title": "Natural numbers from integers.",
-    "venue": "lics 2024",
-    "citation": "Sattler, Christian, and David Wärn. “Natural Numbers from Integers.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–9. Crossref, https://doi.org/10.1145/3661814.3662129."
-  },
-  {
-    "doi": "10.1145/3661814.3662089",
-    "title": "Model Checking Disjoint-Paths Logic on Topological-Minor-Free Graph Classes.",
-    "venue": "lics 2024",
-    "citation": "Schirrmacher, Nicole, et al. “Model Checking Disjoint-Paths Logic on Topological-Minor-Free Graph Classes.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–12. Crossref, https://doi.org/10.1145/3661814.3662089."
-  },
-  {
-    "doi": "10.1145/3661814.3662132",
-    "title": "Equivalence and Conditional Independence in Atomic Sheaf Logic.",
-    "venue": "lics 2024",
-    "citation": "Simpson, Alex. “Equivalence and Conditional Independence in Atomic Sheaf Logic.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662132."
-  },
-  {
-    "doi": "10.1145/3661814.3662125",
-    "title": "From Quantifier Depth to Quantifier Number: Separating Structures with k Variables.",
-    "venue": "lics 2024",
-    "citation": "Vinall-Smeeth, Harry. “From Quantifier Depth to Quantifier Number: Separating Structures with k Variables.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662125."
-  },
-  {
-    "doi": "10.1145/3661814.3662121",
-    "title": "Complete Game Logic with Sabotage.",
-    "venue": "lics 2024",
-    "citation": "Abou El Wafa, Noah, and André Platzer. “Complete Game Logic with Sabotage.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–15. Crossref, https://doi.org/10.1145/3661814.3662121."
-  },
-  {
-    "doi": "10.1145/3661814.3662105",
-    "title": "Initial Algebras Unchained - A Novel Initial Algebra Construction Formalized in Agda.",
-    "venue": "lics 2024",
-    "citation": "Wißmann, Thorsten, and Stefan Milius. “Initial Algebras Unchained - A Novel Initial Algebra Construction Formalized in Agda.” Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science, ACM, 8 July 2024, pp. 1–14. Crossref, https://doi.org/10.1145/3661814.3662105."
   },
   {
     "doi": "10.1007/978-3-031-90897-2_16",
@@ -4270,5 +3544,1037 @@
     "title": "Tabulation with Zippers.",
     "venue": "flops 2024",
     "citation": "Viera, Marcos, et al. “Tabulation with Zippers.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 83–98. Crossref, https://doi.org/10.1007/978-981-97-2300-3_5."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.1",
+    "title": "Online Algorithm Design Beyond the Worst Case (Invited Talk).",
+    "venue": "icalp 2025",
+    "citation": "Gupta, Anupam. Online Algorithm Design Beyond the Worst Case (Invited Talk). Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.1."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.137",
+    "title": "Universal Online Contention Resolution with Preselected Order.",
+    "venue": "icalp 2025",
+    "citation": "Zhao, Junyao. Universal Online Contention Resolution with Preselected Order. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.137."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.154",
+    "title": "Submonoid Membership in n-Dimensional Lamplighter Groups and S-Unit Equations.",
+    "venue": "icalp 2025",
+    "citation": "Dong, Ruiwen. Submonoid Membership in N-Dimensional Lamplighter Groups and S-Unit Equations. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.154."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.31",
+    "title": "Stable Hypergraph Matching in Unimodular Hypergraphs.",
+    "venue": "icalp 2025",
+    "citation": "Biró, Péter, et al. Stable Hypergraph Matching in Unimodular Hypergraphs. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.31."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.142",
+    "title": "Online and Feasible Presentability: From Trees to Modal Algebras.",
+    "venue": "icalp 2025",
+    "citation": "Bazhenov, Nikolay, et al. Online and Feasible Presentability: From Trees to Modal Algebras. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.142."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.12",
+    "title": "All-Subsets Important Separators with Applications to Sample Sets, Balanced Separators and Vertex Sparsifiers in Directed Graphs.",
+    "venue": "icalp 2025",
+    "citation": "Anand, Aditya, et al. All-Subsets Important Separators with Applications to Sample Sets, Balanced Separators and Vertex Sparsifiers in Directed Graphs. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.12."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.168",
+    "title": "Nondeterministic Tree-Walking Automata Are Not Closed Under Complementation.",
+    "venue": "icalp 2025",
+    "citation": "Martynova, Olga, and Alexander Okhotin. Nondeterministic Tree-Walking Automata Are Not Closed Under Complementation. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.168."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.52",
+    "title": "Relative-Error Testing of Conjunctions and Decision Lists.",
+    "venue": "icalp 2025",
+    "citation": "Chen, Xi, et al. Relative-Error Testing of Conjunctions and Decision Lists. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.52."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.98",
+    "title": "The Long Arm of Nashian Allocation in Online p-Mean Welfare Maximization.",
+    "venue": "icalp 2025",
+    "citation": "Huang, Zhiyi, et al. The Long Arm of Nashian Allocation in Online P-Mean Welfare Maximization. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.98."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.130",
+    "title": "An Efficient Algorithm to Compute the Minimum Free Energy of Interacting Nucleic Acid Strands.",
+    "venue": "icalp 2025",
+    "citation": "Shalaby, Ahmed, and Damien Woods. An Efficient Algorithm to Compute the Minimum Free Energy of Interacting Nucleic Acid Strands. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.130."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.51",
+    "title": "Weakly Approximating Knapsack in Subquadratic Time.",
+    "venue": "icalp 2025",
+    "citation": "Chen, Lin, et al. Weakly Approximating Knapsack in Subquadratic Time. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.51."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.53",
+    "title": "Cut-Preserving Vertex Sparsifiers for Planar and Quasi-Bipartite Graphs.",
+    "venue": "icalp 2025",
+    "citation": "Chen, Yu, and Zihan Tan. Cut-Preserving Vertex Sparsifiers for Planar and Quasi-Bipartite Graphs. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.53."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.3",
+    "title": "Near-Optimal Trace Reconstruction for Mildly Separated Strings.",
+    "venue": "icalp 2025",
+    "citation": "Aamand, Anders, et al. Near-Optimal Trace Reconstruction for Mildly Separated Strings. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.3."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.4",
+    "title": "Induced Disjoint Paths Without an Induced Minor.",
+    "venue": "icalp 2025",
+    "citation": "Aboulker, Pierre, et al. Induced Disjoint Paths Without an Induced Minor. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.4."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.5",
+    "title": "Acceleration Meets Inverse Maintenance: Faster ℓ∞-Regression.",
+    "venue": "icalp 2025",
+    "citation": "Adil, Deeksha, et al. Acceleration Meets Inverse Maintenance: Faster 𝓁_∞-Regression. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.5."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.6",
+    "title": "Decremental (1+ε)-Approximate Maximum Eigenvector: Dynamic Power Method.",
+    "venue": "icalp 2025",
+    "citation": "Adil, Deeksha, and Thatchaphol Saranurak. Decremental (1+ε)-Approximate Maximum Eigenvector: Dynamic Power Method. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.6."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.7",
+    "title": "Parameterised Holant Problems.",
+    "venue": "icalp 2025",
+    "citation": "Aivasiliotis, Panagiotis, et al. Parameterised Holant Problems. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.7."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.138",
+    "title": "Taming Infinity One Chunk at a Time: Concisely Represented Strategies in One-Counter MDPs.",
+    "venue": "icalp 2025",
+    "citation": "Ajdarów, Michal, et al. Taming Infinity One Chunk at a Time: Concisely Represented Strategies in One-Counter MDPs. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.138."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.8",
+    "title": "Identifying Approximate Minimizers Under Stochastic Uncertainity.",
+    "venue": "icalp 2025",
+    "citation": "Al-Thani, Hessa, and Viswanath Nagarajan. Identifying Approximate Minimizers Under Stochastic Uncertainity. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.8."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.9",
+    "title": "On the Quantum Time Complexity of Divide and Conquer.",
+    "venue": "icalp 2025",
+    "citation": "Allcock, Jonathan, et al. On the Quantum Time Complexity of Divide and Conquer. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.9."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.10",
+    "title": "On the Complexity of Telephone Broadcasting from Cacti to Bounded Pathwidth Graphs.",
+    "venue": "icalp 2025",
+    "citation": "Aminian, Aida, et al. On the Complexity of Telephone Broadcasting from Cacti to Bounded Pathwidth Graphs. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.10."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.139",
+    "title": "Minimality and Computability of Languages of G-Shifts.",
+    "venue": "icalp 2025",
+    "citation": "Amir, Djamel Eddine, and Benjamin Hellouin de Menibus. Minimality and Computability of Languages of G-Shifts. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.139."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.11",
+    "title": "A Near-Optimal Polynomial Distance Lemma over Boolean Slices.",
+    "venue": "icalp 2025",
+    "citation": "Amireddy, Prashanth, et al. A Near-Optimal Polynomial Distance Lemma over Boolean Slices. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.11."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.13",
+    "title": "Quantum Speedup for Sampling Random Spanning Trees.",
+    "venue": "icalp 2025",
+    "citation": "Apers, Simon, et al. Quantum Speedup for Sampling Random Spanning Trees. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.13."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.115",
+    "title": "On the Complexity of Hazard-Free Formulas.",
+    "venue": "icalp 2025",
+    "citation": "London Arazi, Leah, and Amir Shpilka. On the Complexity of Hazard-Free Formulas. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.115."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.14",
+    "title": "Algorithms for the Diverse-k-SAT Problem: The Geometry of Satisfying Assignments.",
+    "venue": "icalp 2025",
+    "citation": "Austrin, Per, et al. Algorithms for the Diverse-k-SAT Problem: The Geometry of Satisfying Assignments. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.14."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.15",
+    "title": "Testing C_k-Freeness in Bounded Admissibility Graphs.",
+    "venue": "icalp 2025",
+    "citation": "Awofeso, Christine, et al. Testing C_k-Freeness in Bounded Admissibility Graphs. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.15."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.16",
+    "title": "Shared Randomness Helps with Local Distributed Problems.",
+    "venue": "icalp 2025",
+    "citation": "Balliu, Alkida, et al. Shared Randomness Helps with Local Distributed Problems. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.16."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.17",
+    "title": "Robust Contraction Decomposition for Minor-Free Graphs and Its Applications.",
+    "venue": "icalp 2025",
+    "citation": "Bandyapadhyay, Sayan, et al. Robust Contraction Decomposition for Minor-Free Graphs and Its Applications. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.17."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.18",
+    "title": "q-Partitioning Valuations: Exploring the Space Between Subadditive and Fractionally Subadditive Valuations.",
+    "venue": "icalp 2025",
+    "citation": "Bangachev, Kiril, and S. Matthew Weinberg. Q-Partitioning Valuations: Exploring the Space Between Subadditive and Fractionally Subadditive Valuations. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.18."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.19",
+    "title": "Dynamic Algorithms for Submodular Matching.",
+    "venue": "icalp 2025",
+    "citation": "Banihashem, Kiarash, et al. Dynamic Algorithms for Submodular Matching. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.19."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.20",
+    "title": "Improved Approximation Algorithms for Capacitated Network Design and Flexible Graph Connectivity.",
+    "venue": "icalp 2025",
+    "citation": "Bansal, Ishan, et al. Improved Approximation Algorithms for Capacitated Network Design and Flexible Graph Connectivity. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.20."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.140",
+    "title": "Containment for Guarded Monotone Strict NP.",
+    "venue": "icalp 2025",
+    "citation": "Barsukov, Alexey, et al. Containment for Guarded Monotone Strict NP. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.140."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.141",
+    "title": "The Trichotomy of Regular Property Testing.",
+    "venue": "icalp 2025",
+    "citation": "Bathie, Gabriel, et al. The Trichotomy of Regular Property Testing. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.141."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.21",
+    "title": "Multiparty Communication Complexity of Collision-Finding and Cutting Planes Proofs of Concise Pigeonhole Principles.",
+    "venue": "icalp 2025",
+    "citation": "Beame, Paul, and Michael Whitmeyer. Multiparty Communication Complexity of Collision-Finding and Cutting Planes Proofs of Concise Pigeonhole Principles. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.21."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.22",
+    "title": "New Bounds for the Ideal Proof System in Positive Characteristic.",
+    "venue": "icalp 2025",
+    "citation": "Behera, Amik Raj, et al. New Bounds for the Ideal Proof System in Positive Characteristic. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.22."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.23",
+    "title": "On the Instance Optimality of Detecting Collisions and Subgraphs.",
+    "venue": "icalp 2025",
+    "citation": "Ben-Eliezer, Omri, et al. On the Instance Optimality of Detecting Collisions and Subgraphs. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.23."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.24",
+    "title": "Counting Permutation Patterns with Multidimensional Trees.",
+    "venue": "icalp 2025",
+    "citation": "Beniamini, Gal, and Nir Lavee. Counting Permutation Patterns with Multidimensional Trees. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.24."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.25",
+    "title": "Mim-Width Is paraNP-Complete.",
+    "venue": "icalp 2025",
+    "citation": "Bergougnoux, Benjamin, et al. Mim-Width Is paraNP-Complete. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.25."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.26",
+    "title": "Pushing the Frontiers of Subexponential FPT Time for Feedback Vertex Set.",
+    "venue": "icalp 2025",
+    "citation": "Berthe, Gaétan, et al. Pushing the Frontiers of Subexponential FPT Time for Feedback Vertex Set. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.26."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.143",
+    "title": "Density of Rational Languages Under Shift Invariant Measures.",
+    "venue": "icalp 2025",
+    "citation": "Berthé, Valérie, et al. Density of Rational Languages Under Shift Invariant Measures. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.143."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.27",
+    "title": "Minimum+1 Steiner Cut and Dual Edge Sensitivity Oracle: Bridging Gap between Global and (s, t)-cut.",
+    "venue": "icalp 2025",
+    "citation": "Bhanja, Koustav. Minimum+1 Steiner Cut and Dual Edge Sensitivity Oracle: Bridging Gap between Global and (s,t)-Cut. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.27."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.28",
+    "title": "Faster &amp; Deterministic FPT Algorithm for Worst-Case Tensor Decomposition.",
+    "venue": "icalp 2025",
+    "citation": "Bhargava, Vishwas, and Devansh Shringi. Faster & Deterministic FPT Algorithm for Worst-Case Tensor Decomposition. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.28."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.29",
+    "title": "Guessing Efficiently for Constrained Subspace Approximation.",
+    "venue": "icalp 2025",
+    "citation": "Bhaskara, Aditya, et al. Guessing Efficiently for Constrained Subspace Approximation. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.29."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.30",
+    "title": "Light Spanners with Small Hop-Diameter.",
+    "venue": "icalp 2025",
+    "citation": "Bhore, Sujoy, and Lazar Milenković. Light Spanners with Small Hop-Diameter. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.30."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.144",
+    "title": "Probabilistic and Causal Satisfiability: Constraining the Model.",
+    "venue": "icalp 2025",
+    "citation": "Bläser, Markus, et al. Probabilistic and Causal Satisfiability: Constraining the Model. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.144."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.145",
+    "title": "Reducing Stochastic Games to Semidefinite Programming.",
+    "venue": "icalp 2025",
+    "citation": "Bodirsky, Manuel, et al. Reducing Stochastic Games to Semidefinite Programming. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.145."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.32",
+    "title": "Light Edge Fault Tolerant Graph Spanners.",
+    "venue": "icalp 2025",
+    "citation": "Bodwin, Greg, et al. Light Edge Fault Tolerant Graph Spanners. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.32."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.146",
+    "title": "Saturation Problems for Families of Automata.",
+    "venue": "icalp 2025",
+    "citation": "Bohn, León, et al. Saturation Problems for Families of Automata. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.146."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.33",
+    "title": "Faster Construction of a Planar Distance Oracle with Õ(1) Query Time.",
+    "venue": "icalp 2025",
+    "citation": "Boneh, Itai, et al. Faster Construction of a Planar Distance Oracle with Õ(1) Query Time. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.33."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.147",
+    "title": "Separability Properties of Monadically Dependent Graph Classes.",
+    "venue": "icalp 2025",
+    "citation": "Bonnet, Édouard, et al. Separability Properties of Monadically Dependent Graph Classes. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.147."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.34",
+    "title": "On the Degree Automatability of Sum-Of-Squares Proofs.",
+    "venue": "icalp 2025",
+    "citation": "Bortolotti, Alex, et al. On the Degree Automatability of Sum-Of-Squares Proofs. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.34."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.35",
+    "title": "Near-Optimal Directed Low-Diameter Decompositions.",
+    "venue": "icalp 2025",
+    "citation": "Bringmann, Karl, et al. Near-Optimal Directed Low-Diameter Decompositions. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.35."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.36",
+    "title": "Faster Fréchet Distance Under Transformations.",
+    "venue": "icalp 2025",
+    "citation": "Buchin, Kevin, et al. Faster Fréchet Distance Under Transformations. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.36."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.37",
+    "title": "Satisfiability of Commutative vs. Non-Commutative CSPs.",
+    "venue": "icalp 2025",
+    "citation": "Bulatov, Andrei A., and Stanislav Živný. Satisfiability of Commutative vs. Non-Commutative CSPs. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.37."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.38",
+    "title": "Optimal Inapproximability of Promise Equations over Finite Groups.",
+    "venue": "icalp 2025",
+    "citation": "Butti, Silvia, et al. Optimal Inapproximability of Promise Equations over Finite Groups. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.38."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.148",
+    "title": "Holant* Dichotomy on Domain Size 3: A Geometric Perspective.",
+    "venue": "icalp 2025",
+    "citation": "Cai, Jin-Yi, and Jin Soo Ihm. Holant* Dichotomy on Domain Size 3: A Geometric Perspective. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.148."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.40",
+    "title": "Simultaneously Approximating All Norms for Massively Parallel Correlation Clustering.",
+    "venue": "icalp 2025",
+    "citation": "Cao, Nairen, et al. Simultaneously Approximating All Norms for Massively Parallel Correlation Clustering. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.40."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.41",
+    "title": "Randomized Binary and Tree Search Under Pressure.",
+    "venue": "icalp 2025",
+    "citation": "Caracci, Agustín, et al. Randomized Binary and Tree Search Under Pressure. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.41."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.42",
+    "title": "Fitting Tree Metrics and Ultrametrics in Data Streams.",
+    "venue": "icalp 2025",
+    "citation": "Carmel, Amir, et al. Fitting Tree Metrics and Ultrametrics in Data Streams. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.42."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.149",
+    "title": "The Memory of ω-Regular and BC(Σ⁰₂) Objectives.",
+    "venue": "icalp 2025",
+    "citation": "Casares, Antonio, and Pierre Ohlmann. The Memory of ω-Regular and BC(Σ⁰₂) Objectives. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.149."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.43",
+    "title": "On Deleting Vertices to Reduce Density in Graphs and Supermodular Functions.",
+    "venue": "icalp 2025",
+    "citation": "Chandrasekaran, Karthekeyan, et al. On Deleting Vertices to Reduce Density in Graphs and Supermodular Functions. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.43."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.44",
+    "title": "Online Disjoint Spanning Trees and Polymatroid Bases.",
+    "venue": "icalp 2025",
+    "citation": "Chandrasekaran, Karthekeyan, et al. Online Disjoint Spanning Trees and Polymatroid Bases. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.44."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.45",
+    "title": "Scarf&apos;s Algorithm on Arborescence Hypergraphs.",
+    "venue": "icalp 2025",
+    "citation": "Chandrasekaran, Karthekeyan, et al. Scarf’s Algorithm on Arborescence Hypergraphs. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.45."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.46",
+    "title": "Minimum Cost Nowhere-Zero Flows and Cut-Balanced Orientations.",
+    "venue": "icalp 2025",
+    "citation": "Chandrasekaran, Karthekeyan, et al. Minimum Cost Nowhere-Zero Flows and Cut-Balanced Orientations. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.46."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.150",
+    "title": "The Value Problem for Multiple-Environment MDPs with Parity Objective.",
+    "venue": "icalp 2025",
+    "citation": "Chatterjee, Krishnendu, et al. The Value Problem for Multiple-Environment MDPs with Parity Objective. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.150."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.47",
+    "title": "Belief Propagation Guided Decimation on Random k-XORSAT.",
+    "venue": "icalp 2025",
+    "citation": "Chatterjee, Arnab, et al. Belief Propagation Guided Decimation on Random K-XORSAT. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.47."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.48",
+    "title": "Improved Streaming Edge Coloring.",
+    "venue": "icalp 2025",
+    "citation": "Chechik, Shiri, et al. Improved Streaming Edge Coloring. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.48."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.50",
+    "title": "New Results on a General Class of Minimum Norm Optimization Problems.",
+    "venue": "icalp 2025",
+    "citation": "Chen, Kuowen, et al. New Results on a General Class of Minimum Norm Optimization Problems. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.50."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.49",
+    "title": "Submodular Hypergraph Partitioning: Metric Relaxations and Fast Algorithms via an Improved Cut-Matching Game.",
+    "venue": "icalp 2025",
+    "citation": "Chen, Antares, et al. Submodular Hypergraph Partitioning: Metric Relaxations and Fast Algorithms via an Improved Cut-Matching Game. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.49."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.54",
+    "title": "Decay of Correlation for Edge Colorings When q &gt; 3Δ.",
+    "venue": "icalp 2025",
+    "citation": "Chen, Zejia, et al. Decay of Correlation for Edge Colorings When q > 3Δ. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.54."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.55",
+    "title": "Optimal Oblivious Subspace Embeddings with Near-Optimal Sparsity.",
+    "venue": "icalp 2025",
+    "citation": "Chenakkod, Shabarish, et al. Optimal Oblivious Subspace Embeddings with Near-Optimal Sparsity. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.55."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.56",
+    "title": "Boosting SNARKs and Rate-1 Barrier in Arguments of Knowledge.",
+    "venue": "icalp 2025",
+    "citation": "Cheng, Jiaqi, and Rishab Goyal. Boosting SNARKs and Rate-1 Barrier in Arguments of Knowledge. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.56."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.57",
+    "title": "Undirected 3-Fault Replacement Path in Nearly Cubic Time.",
+    "venue": "icalp 2025",
+    "citation": "Chi, Shucheng, et al. Undirected 3-Fault Replacement Path in Nearly Cubic Time. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.57."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.58",
+    "title": "A New Impossibility Result for Online Bipartite Matching Problems.",
+    "venue": "icalp 2025",
+    "citation": "Chierichetti, Flavio, et al. A New Impossibility Result for Online Bipartite Matching Problems. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.58."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.151",
+    "title": "The Satisfiability and Validity Problems for Probabilistic Computational Tree Logic Are Highly Undecidable.",
+    "venue": "icalp 2025",
+    "citation": "Chodil, Miroslav, and Antonín Kučera. The Satisfiability and Validity Problems for Probabilistic Computational Tree Logic Are Highly Undecidable. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.151."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.59",
+    "title": "Deciding Local Unitary Equivalence of Graph States in Quasi-Polynomial Time.",
+    "venue": "icalp 2025",
+    "citation": "Claudet, Nathan, and Simon Perdrix. Deciding Local Unitary Equivalence of Graph States in Quasi-Polynomial Time. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.59."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.152",
+    "title": "Tree Algebras and Bisimulation-Invariant MSO on Finite Graphs.",
+    "venue": "icalp 2025",
+    "citation": "Colcombet, Thomas, et al. Tree Algebras and Bisimulation-Invariant MSO on Finite Graphs. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.152."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.60",
+    "title": "Random Reed-Solomon Codes Achieve the Half-Singleton Bound for Insertions and Deletions over Linear-Sized Alphabets.",
+    "venue": "icalp 2025",
+    "citation": "Con, Roni, et al. Random Reed-Solomon Codes Achieve the Half-Singleton Bound for Insertions and Deletions over Linear-Sized Alphabets. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.60."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.61",
+    "title": "How to Compute the Volume in Low Dimension?",
+    "venue": "icalp 2025",
+    "citation": "Cornelissen, Arjan, et al. How to Compute the Volume in Low Dimension? Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.61."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.62",
+    "title": "Deterministic k-Median Clustering in Near-Optimal Time.",
+    "venue": "icalp 2025",
+    "citation": "Costa, Martín, and Ermiya Farokhnejad. Deterministic K-Median Clustering in Near-Optimal Time. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.62."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.63",
+    "title": "Computing Distances on Graph Associahedra Is Fixed-Parameter Tractable.",
+    "venue": "icalp 2025",
+    "citation": "Cunha, Luís Felipe I., et al. Computing Distances on Graph Associahedra Is Fixed-Parameter Tractable. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.63."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.153",
+    "title": "Reachability in 3-VASS Is Elementary.",
+    "venue": "icalp 2025",
+    "citation": "Czerwiński, Wojciech, et al. Reachability in 3-VASS Is Elementary. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.153."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.64",
+    "title": "Fully Scalable MPC Algorithms for Euclidean k-Center.",
+    "venue": "icalp 2025",
+    "citation": "Czumaj, Artur, et al. Fully Scalable MPC Algorithms for Euclidean K-Center. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.64."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.66",
+    "title": "One-Way Communication Complexity of Minimum Vertex Cover in General Graphs.",
+    "venue": "icalp 2025",
+    "citation": "Derakhshan, Mahsa, et al. One-Way Communication Complexity of Minimum Vertex Cover in General Graphs. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.66."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.67",
+    "title": "Query Efficient Weighted Stochastic Matching.",
+    "venue": "icalp 2025",
+    "citation": "Derakhshan, Mahsa, and Mohammad Saneian. Query Efficient Weighted Stochastic Matching. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.67."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.68",
+    "title": "Graph Exploration: The Impact of a Distance Constraint.",
+    "venue": "icalp 2025",
+    "citation": "Devismes, Stéphane, et al. Graph Exploration: The Impact of a Distance Constraint. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.68."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.69",
+    "title": "Approximation Algorithms for Optimal Hopsets.",
+    "venue": "icalp 2025",
+    "citation": "Dinitz, Michael, et al. Approximation Algorithms for Optimal Hopsets. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.69."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.70",
+    "title": "Tiling Random Regular Graphs Efficiently.",
+    "venue": "icalp 2025",
+    "citation": "Diskin, Sahar, et al. Tiling Random Regular Graphs Efficiently. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.70."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.71",
+    "title": "Faster All-Pairs Optimal Electric Car Routing.",
+    "venue": "icalp 2025",
+    "citation": "Dorfman, Dani, et al. Faster All-Pairs Optimal Electric Car Routing. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.71."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.73",
+    "title": "Branch-And-Bound Algorithms as Polynomial-Time Approximation Schemes.",
+    "venue": "icalp 2025",
+    "citation": "Encz, Koppány István, et al. Branch-And-Bound Algorithms as Polynomial-Time Approximation Schemes. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.73."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.39",
+    "title": "Sampling with a Black Box: Faster Parameterized Approximation Algorithms for Vertex Deletion Problems.",
+    "venue": "icalp 2025",
+    "citation": "Can Esmer, Barış, and Ariel Kulik. Sampling with a Black Box: Faster Parameterized Approximation Algorithms for Vertex Deletion Problems. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.39."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.74",
+    "title": "Drainability and Fillability of Polyominoes in Diverse Models of Global Control.",
+    "venue": "icalp 2025",
+    "citation": "Fekete, Sándor P., et al. Drainability and Fillability of Polyominoes in Diverse Models of Global Control. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.74."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.76",
+    "title": "Even Faster Algorithm for the Chamfer Distance.",
+    "venue": "icalp 2025",
+    "citation": "Feng, Ying, and Piotr Indyk. Even Faster Algorithm for the Chamfer Distance. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.76."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.75",
+    "title": "Tight Bounds for Heavy-Hitters and Moment Estimation in the Sliding Window Model.",
+    "venue": "icalp 2025",
+    "citation": "Feng, Shiyuan, et al. Tight Bounds for Heavy-Hitters and Moment Estimation in the Sliding Window Model. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.75."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.155",
+    "title": "Approximate Problems for Finite Transducers.",
+    "venue": "icalp 2025",
+    "citation": "Filiot, Emmanuel, et al. Approximate Problems for Finite Transducers. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.155."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.77",
+    "title": "Minimizing Recourse in an Adaptive Balls and Bins Game.",
+    "venue": "icalp 2025",
+    "citation": "Fine, Adi, et al. Minimizing Recourse in an Adaptive Balls and Bins Game. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.77."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.78",
+    "title": "The Role of Regularity in (Hyper-)Clique Detection and Implications for Optimizing Boolean CSPs.",
+    "venue": "icalp 2025",
+    "citation": "Fischer, Nick, et al. The Role of Regularity in (Hyper-)Clique Detection and Implications for Optimizing Boolean CSPs. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.78."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.156",
+    "title": "Membership and Conjugacy in Inverse Semigroups.",
+    "venue": "icalp 2025",
+    "citation": "Fleischer, Lukas, et al. Membership and Conjugacy in Inverse Semigroups. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.156."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.79",
+    "title": "Faster Dynamic (Δ+1)-Coloring Against Adaptive Adversaries.",
+    "venue": "icalp 2025",
+    "citation": "Flin, Maxime, and Magnús M. Halldórsson. Faster Dynamic (Δ+1)-Coloring Against Adaptive Adversaries. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.79."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.80",
+    "title": "Deterministic Even-Cycle Detection in Broadcast CONGEST.",
+    "venue": "icalp 2025",
+    "citation": "Fraigniaud, Pierre, et al. Deterministic Even-Cycle Detection in Broadcast CONGEST. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.80."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.81",
+    "title": "Worst-Case and Average-Case Hardness of Hypercycle and Database Problems.",
+    "venue": "icalp 2025",
+    "citation": "Fu, Cheng-Hao, et al. Worst-Case and Average-Case Hardness of Hypercycle and Database Problems. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.81."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.82",
+    "title": "(Almost-)Optimal FPT Algorithm and Kernel for T-Cycle on Planar Graphs.",
+    "venue": "icalp 2025",
+    "citation": "Gahlawat, Harmender, et al. (Almost-)Optimal FPT Algorithm and Kernel for T-Cycle on Planar Graphs. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.82."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.83",
+    "title": "Low-Temperature Sampling on Sparse Random Graphs.",
+    "venue": "icalp 2025",
+    "citation": "Galanis, Andreas, et al. Low-Temperature Sampling on Sparse Random Graphs. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.83."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.84",
+    "title": "One-Shot Learning for k-SAT.",
+    "venue": "icalp 2025",
+    "citation": "Galanis, Andreas, et al. One-Shot Learning for k-SAT. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.84."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.85",
+    "title": "Towards the Proximity Conjecture on Group-Labeled Matroids.",
+    "venue": "icalp 2025",
+    "citation": "Garamvölgyi, Dániel, et al. Towards the Proximity Conjecture on Group-Labeled Matroids. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.85."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.86",
+    "title": "Optimal Distance Labeling for Permutation Graphs.",
+    "venue": "icalp 2025",
+    "citation": "Gawrychowski, Paweł, and Wojciech Janczewski. Optimal Distance Labeling for Permutation Graphs. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.86."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.157",
+    "title": "Bayesian Inference in Quantum Programs.",
+    "venue": "icalp 2025",
+    "citation": "Gehnen, Christina, et al. Bayesian Inference in Quantum Programs. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.157."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.87",
+    "title": "IID Prophet Inequality with Random Horizon: Going Beyond Increasing Hazard Rates.",
+    "venue": "icalp 2025",
+    "citation": "Giambartolomei, Giordano, et al. IID Prophet Inequality with Random Horizon: Going Beyond Increasing Hazard Rates. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.87."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.88",
+    "title": "Repetition Aware Text Indexing for Matching Patterns with Wildcards.",
+    "venue": "icalp 2025",
+    "citation": "Gibney, Daniel, et al. Repetition Aware Text Indexing for Matching Patterns with Wildcards. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.88."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.89",
+    "title": "On the Complexity of Client-Waiter and Waiter-Client Games.",
+    "venue": "icalp 2025",
+    "citation": "Gledel, Valentin, et al. On the Complexity of Client-Waiter and Waiter-Client Games. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.89."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.90",
+    "title": "Revisiting Directed Disjoint Paths on Tournaments (And Relatives).",
+    "venue": "icalp 2025",
+    "citation": "de C. M. Gomes, Guilherme, et al. Revisiting Directed Disjoint Paths on Tournaments (And Relatives). Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.90."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.91",
+    "title": "Incremental Approximate Maximum Flow via Residual Graph Sparsification.",
+    "venue": "icalp 2025",
+    "citation": "Goranci, Gramoz, et al. Incremental Approximate Maximum Flow via Residual Graph Sparsification. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.91."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.92",
+    "title": "Fully Dynamic Algorithms for Transitive Reduction.",
+    "venue": "icalp 2025",
+    "citation": "Goranci, Gramoz, et al. Fully Dynamic Algorithms for Transitive Reduction. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.92."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.93",
+    "title": "On Incremental Approximate Shortest Paths in Directed Graphs.",
+    "venue": "icalp 2025",
+    "citation": "Górkiewicz, Adam, and Adam Karczmarz. On Incremental Approximate Shortest Paths in Directed Graphs. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.93."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.158",
+    "title": "Restricted CSPs and F-Free Digraph Algorithmics.",
+    "venue": "icalp 2025",
+    "citation": "Guzmán-Pro, Santiago, and Barnaby Martin. Restricted CSPs and F-Free Digraph Algorithmics. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.158."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.159",
+    "title": "The Ultimate Signs of Second-Order Holonomic Sequences.",
+    "venue": "icalp 2025",
+    "citation": "Hagihara, Fugen, and Akitoshi Kawamura. The Ultimate Signs of Second-Order Holonomic Sequences. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.159."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.94",
+    "title": "A Nearly Optimal Deterministic Algorithm for Online Transportation Problem.",
+    "venue": "icalp 2025",
+    "citation": "Harada, Tsubasa, and Toshiya Itoh. A Nearly Optimal Deterministic Algorithm for Online Transportation Problem. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.94."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.95",
+    "title": "ARRIVAL: Recursive Framework &amp;amp; ℓ1-Contraction.",
+    "venue": "icalp 2025",
+    "citation": "Haslebacher, Sebastian. ARRIVAL: Recursive Framework & 𝓁₁-Contraction. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.95."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.96",
+    "title": "Asymptotically Optimal Inapproximability of Maxmin k-Cut Reconfiguration.",
+    "venue": "icalp 2025",
+    "citation": "Hirahara, Shuichi, and Naoto Ohsaka. Asymptotically Optimal Inapproximability of Maxmin K-Cut Reconfiguration. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.96."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.97",
+    "title": "An Optimal Error-Correcting Reduction for Matrix Multiplication.",
+    "venue": "icalp 2025",
+    "citation": "Hirahara, Shuichi, and Nobutaka Shimizu. An Optimal Error-Correcting Reduction for Matrix Multiplication. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.97."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.133",
+    "title": "Faster, Deterministic and Space Efficient Subtrajectory Clustering.",
+    "venue": "icalp 2025",
+    "citation": "van der Hoog, Ivor, et al. Faster, Deterministic and Space Efficient Subtrajectory Clustering. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.133."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.160",
+    "title": "Using Games and Universal Trees to Characterise the Nondeterministic Index of Tree Languages.",
+    "venue": "icalp 2025",
+    "citation": "Idir, Olivier, and Karoliina Lehtinen. Using Games and Universal Trees to Characterise the Nondeterministic Index of Tree Languages. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.160."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.161",
+    "title": "Nonuniform Deterministic Finite Automata over Finite Algebraic Structures.",
+    "venue": "icalp 2025",
+    "citation": "Idziak, Paweł M., et al. Nonuniform Deterministic Finite Automata over Finite Algebraic Structures. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.161."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.162",
+    "title": "Positive and Monotone Fragments of FO and LTL.",
+    "venue": "icalp 2025",
+    "citation": "Iosti, Simon, et al. Positive and Monotone Fragments of FO and LTL. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.162."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.99",
+    "title": "Algorithmic Aspects of Semistability of Quiver Representations.",
+    "venue": "icalp 2025",
+    "citation": "Iwamasa, Yuni, et al. Algorithmic Aspects of Semistability of Quiver Representations. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.99."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.100",
+    "title": "Robust-Sorting and Applications to Ulam-Median.",
+    "venue": "icalp 2025",
+    "citation": "Jaiswal, Ragesh, et al. Robust-Sorting and Applications to Ulam-Median. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.100."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.101",
+    "title": "Coresets for Robust Clustering via Black-Box Reductions to Vanilla Case.",
+    "venue": "icalp 2025",
+    "citation": "Jiang, Shaofeng H. C., and Jianing Lou. Coresets for Robust Clustering via Black-Box Reductions to Vanilla Case. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.101."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.102",
+    "title": "Fourier Analysis of Iterative Algorithms.",
+    "venue": "icalp 2025",
+    "citation": "Jones, Chris, and Lucas Pesenti. Fourier Analysis of Iterative Algorithms. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.102."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.103",
+    "title": "Approximating Dasgupta Cost in Sublinear Time from a Few Random Seeds.",
+    "venue": "icalp 2025",
+    "citation": "Kapralov, Michael, et al. Approximating Dasgupta Cost in Sublinear Time from a Few Random Seeds. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.103."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.104",
+    "title": "Improved Approximation Algorithms for Three-Dimensional Bin Packing.",
+    "venue": "icalp 2025",
+    "citation": "Kar, Debajyoti, et al. Improved Approximation Algorithms for Three-Dimensional Bin Packing. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.104."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.105",
+    "title": "NPA Hierarchy for Quantum Isomorphism and Homomorphism Indistinguishability.",
+    "venue": "icalp 2025",
+    "citation": "Kar, Prem Nigam, et al. NPA Hierarchy for Quantum Isomorphism and Homomorphism Indistinguishability. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.105."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.163",
+    "title": "Verification of Linear Dynamical Systems via O-Minimality of the Real Numbers.",
+    "venue": "icalp 2025",
+    "citation": "Karimov, Toghrul. Verification of Linear Dynamical Systems via O-Minimality of the Real Numbers. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.163."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.106",
+    "title": "Streaming Maximal Matching with Bounded Deletions.",
+    "venue": "icalp 2025",
+    "citation": "Khanna, Sanjeev, et al. Streaming Maximal Matching with Bounded Deletions. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.106."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.107",
+    "title": "A Theory of Spectral CSP Sparsification.",
+    "venue": "icalp 2025",
+    "citation": "Khanna, Sanjeev, et al. A Theory of Spectral CSP Sparsification. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.107."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.108",
+    "title": "Near-Optimal Hypergraph Sparsification in Insertion-Only and Bounded-Deletion Streams.",
+    "venue": "icalp 2025",
+    "citation": "Khanna, Sanjeev, et al. Near-Optimal Hypergraph Sparsification in Insertion-Only and Bounded-Deletion Streams. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.108."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.109",
+    "title": "Faster Diameter Computation in Graphs of Bounded Euler Genus.",
+    "venue": "icalp 2025",
+    "citation": "Kluk, Kacper, et al. Faster Diameter Computation in Graphs of Bounded Euler Genus. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.109."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.172",
+    "title": "Weighted GKAT: Completeness and Complexity.",
+    "venue": "icalp 2025",
+    "citation": "Van Koevering, Spencer, et al. Weighted GKAT: Completeness and Complexity. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.172."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.110",
+    "title": "An Optimal 3-Fault-Tolerant Connectivity Oracle.",
+    "venue": "icalp 2025",
+    "citation": "Kosinas, Evangelos. An Optimal 3-Fault-Tolerant Connectivity Oracle. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.110."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.111",
+    "title": "A Simple Dynamic Spanner via APSP.",
+    "venue": "icalp 2025",
+    "citation": "Kyng, Rasmus, et al. A Simple Dynamic Spanner via APSP. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.111."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.112",
+    "title": "Parameterized Algorithms for Matching Integer Programs with Additional Rows and Columns.",
+    "venue": "icalp 2025",
+    "citation": "Lassota, Alexandra, and Koen Ligthart. Parameterized Algorithms for Matching Integer Programs with Additional Rows and Columns. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.112."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.164",
+    "title": "A Collapse of the Parity Index Hierarchy of Tree Automata, Based on Cantor-Bendixson Ranks.",
+    "venue": "icalp 2025",
+    "citation": "Lehtinen, Karoliina, and Nathan Lhote. A Collapse of the Parity Index Hierarchy of Tree Automata, Based on Cantor-Bendixson Ranks. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.164."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.165",
+    "title": "Algebraic Language Theory with Effects.",
+    "venue": "icalp 2025",
+    "citation": "Lenke, Fabian, et al. Algebraic Language Theory with Effects. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.165."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.113",
+    "title": "Nearly Optimal Circuit Size for Sparse Quantum State Preparation.",
+    "venue": "icalp 2025",
+    "citation": "Li, Lvzhou, and Jingquan Luo. Nearly Optimal Circuit Size for Sparse Quantum State Preparation. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.113."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.114",
+    "title": "Optimal Static Fully Indexable Dictionaries.",
+    "venue": "icalp 2025",
+    "citation": "Liang, Jingxun, and Renfei Zhou. Optimal Static Fully Indexable Dictionaries. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.114."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.166",
+    "title": "Limitations of Affine Integer Relaxations for Solving Constraint Satisfaction Problems.",
+    "venue": "icalp 2025",
+    "citation": "Lichter, Moritz, and Benedikt Pago. Limitations of Affine Integer Relaxations for Solving Constraint Satisfaction Problems. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.166."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.116",
+    "title": "A 0.51-Approximation of Maximum Matching in Sublinear n{1.5} Time.",
+    "venue": "icalp 2025",
+    "citation": "Mahabadi, Sepideh, et al. A 0.51-Approximation of Maximum Matching in Sublinear N^{1.5} Time. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.116."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.167",
+    "title": "Forbidden Induced Subgraphs for Bounded Shrub-Depth and the Expressive Power of MSO.",
+    "venue": "icalp 2025",
+    "citation": "Mählmann, Nikolas. Forbidden Induced Subgraphs for Bounded Shrub-Depth and the Expressive Power of MSO. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.167."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.65",
+    "title": "Ultra-Resilient Superimposed Codes: Near-Optimal Construction and Applications.",
+    "venue": "icalp 2025",
+    "citation": "De Marco, Gianluca, and Dariusz R. Kowalski. Ultra-Resilient Superimposed Codes: Near-Optimal Construction and Applications. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.65."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.117",
+    "title": "Incremental Approximate Single-Source Shortest Paths with Predictions.",
+    "venue": "icalp 2025",
+    "citation": "McCauley, Samuel, et al. Incremental Approximate Single-Source Shortest Paths with Predictions. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.117."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.118",
+    "title": "P-Time Algorithms for Typical #EO Problems.",
+    "venue": "icalp 2025",
+    "citation": "Meng, Boning, et al. P-Time Algorithms for Typical #EO Problems. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.118."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.119",
+    "title": "Faster Semi-Streaming Matchings via Alternating Trees.",
+    "venue": "icalp 2025",
+    "citation": "Mitrović, Slobodan, et al. Faster Semi-Streaming Matchings via Alternating Trees. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.119."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.120",
+    "title": "Treewidth Parameterized by Feedback Vertex Number.",
+    "venue": "icalp 2025",
+    "citation": "Molter, Hendrik, et al. Treewidth Parameterized by Feedback Vertex Number. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.120."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.169",
+    "title": "Complexity of Approximate Conflict-Free, Linearly-Ordered, and Nonmonochromatic Hypergraph Colourings.",
+    "venue": "icalp 2025",
+    "citation": "Nakajima, Tamio-Vesa, et al. Complexity of Approximate Conflict-Free, Linearly-Ordered, and Nonmonochromatic Hypergraph Colourings. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.169."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.121",
+    "title": "Maximum Bipartite vs. Triangle-Free Subgraph.",
+    "venue": "icalp 2025",
+    "citation": "Nakajima, Tamio-Vesa, and Stanislav Živný. Maximum Bipartite vs. Triangle-Free Subgraph. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.121."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.122",
+    "title": "Yet Another Simple Proof of the PCRP Theorem.",
+    "venue": "icalp 2025",
+    "citation": "Ohsaka, Naoto. Yet Another Simple Proof of the PCRP Theorem. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.122."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.123",
+    "title": "New and Improved Bounds for Markov Paging.",
+    "venue": "icalp 2025",
+    "citation": "Pabbaraju, Chirag, and Ali Vakilian. New and Improved Bounds for Markov Paging. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.123."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.124",
+    "title": "Subgraph Counting in Subquadratic Time for Bounded Degeneracy Graphs.",
+    "venue": "icalp 2025",
+    "citation": "Paul-Pena, Daniel, and C. Seshadhri. Subgraph Counting in Subquadratic Time for Bounded Degeneracy Graphs. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.124."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.125",
+    "title": "Unbalanced Random Matching Markets with Partial Preferences.",
+    "venue": "icalp 2025",
+    "citation": "Potukuchi, Aditya, and Shikha Singh. Unbalanced Random Matching Markets with Partial Preferences. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.125."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.170",
+    "title": "First-Order Intuitionistic Linear Logic and Hypergraph Languages.",
+    "venue": "icalp 2025",
+    "citation": "Pshenitsyn, Tikhon. First-Order Intuitionistic Linear Logic and Hypergraph Languages. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.170."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.126",
+    "title": "ETH-Tight FPT Algorithm for Makespan Minimization on Uniform Machines.",
+    "venue": "icalp 2025",
+    "citation": "Rohwedder, Lars. ETH-Tight FPT Algorithm for Makespan Minimization on Uniform Machines. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.126."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.127",
+    "title": "Cost Preserving Dependent Rounding for Allocation Problems.",
+    "venue": "icalp 2025",
+    "citation": "Rohwedder, Lars, et al. Cost Preserving Dependent Rounding for Allocation Problems. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.127."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.128",
+    "title": "3.415-Approximation for Coflow Scheduling via Iterated Rounding.",
+    "venue": "icalp 2025",
+    "citation": "Rohwedder, Lars, and Leander Schnaars. 3.415-Approximation for Coflow Scheduling via Iterated Rounding. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.128."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.2",
+    "title": "Let&apos;s Try to Be More Tolerant: On Tolerant Property Testing and Distance Approximation (Invited Talk).",
+    "venue": "icalp 2025",
+    "citation": "Ron, Dana. Let’s Try to Be More Tolerant: On Tolerant Property Testing and Distance Approximation (Invited Talk). Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.2."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.129",
+    "title": "An Upper Bound on the Weisfeiler-Leman Dimension.",
+    "venue": "icalp 2025",
+    "citation": "Schneider, Thomas, and Pascal Schweitzer. An Upper Bound on the Weisfeiler-Leman Dimension. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.129."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.171",
+    "title": "A Tropical Approach to the Compositional Piecewise Complexity of Words and Compressed Words.",
+    "venue": "icalp 2025",
+    "citation": "Schnoebelen, Philippe, et al. A Tropical Approach to the Compositional Piecewise Complexity of Words and Compressed Words. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.171."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.131",
+    "title": "Deterministic Complexity Analysis of Hermitian Eigenproblems.",
+    "venue": "icalp 2025",
+    "citation": "Sobczyk, Aleksandros. Deterministic Complexity Analysis of Hermitian Eigenproblems. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.131."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.132",
+    "title": "Near-Optimal Algorithm for Directed Expander Decompositions.",
+    "venue": "icalp 2025",
+    "citation": "Sulser, Aurelio L., and Maximilian Probst Gutenberg. Near-Optimal Algorithm for Directed Expander Decompositions. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.132."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.72",
+    "title": "k-Leaf Powers Cannot Be Characterized by a Finite Set of Forbidden Induced Subgraphs for k ≥ 5.",
+    "venue": "icalp 2025",
+    "citation": "Dupré la Tour, Max, et al. K-Leaf Powers Cannot Be Characterized by a Finite Set of Forbidden Induced Subgraphs for k ≥ 5. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.72."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.134",
+    "title": "A Pseudorandom Generator for Functions of Low-Degree Polynomial Threshold Functions.",
+    "venue": "icalp 2025",
+    "citation": "Yao, Penghui, and Mingnan Zhao. A Pseudorandom Generator for Functions of Low-Degree Polynomial Threshold Functions. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.134."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.135",
+    "title": "Deterministic Independent Sets in the Semi-Streaming Model.",
+    "venue": "icalp 2025",
+    "citation": "Ye, Daniel. Deterministic Independent Sets in the Semi-Streaming Model. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.135."
+  },
+  {
+    "doi": "10.4230/LIPICS.ICALP.2025.136",
+    "title": "The Converse of the Real Orthogonal Holant Theorem.",
+    "venue": "icalp 2025",
+    "citation": "Young, Ben. The Converse of the Real Orthogonal Holant Theorem. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ICALP.2025.136."
   }
 ]
