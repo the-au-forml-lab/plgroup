@@ -18,7 +18,7 @@ jobs:
       - id: vars
         run: |
           HEADER="#### Next Paper"
-          NEXT="$(tail -n1 docs/papers.md | sed 's/^...//')
+          NEXT="$(tail -n1 docs/papers.md | sed 's/^...//')"
           # Multiline string:
           # https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-commands#multiline-strings
           {
