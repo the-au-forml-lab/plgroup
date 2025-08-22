@@ -10,7 +10,7 @@ and the path to a brighter future.
 
 #### The Key to My Soul (Edit name to convey lasting memories)
 
-Some artpieces leave a lasting impression on the viewer.
+Some art pieces leave a lasting impression on the viewer.
 They may leave you inspired to action, enchanted by their beauty,
 humbled at the sheer skill that went into their creation,
 or vexed with a message not yet fully clear to you.
@@ -24,7 +24,7 @@ Infinite worlds, infinite possibilities. The beautiful chaos that
 the winner of this award possesses has no bounds. What may seem like a 
 whirlwind of information, too daunting to face, falls away to an 
 exceptionally composed work that cuts through all that noise. That is, 
-despite it's unforgiving nature at first glance, this paper opens up
+despite its unforgiving nature at first glance, this paper opens up
 to a profound and insightful work on closer inspection.
 
 #### The Close Shave
@@ -32,7 +32,7 @@ to a profound and insightful work on closer inspection.
 This work nearly fell victim to complexity but instead found a 
 brilliantly simple solution, being saved by the application of 
 Occam's Razor. This is awarded to those that took complex problems 
-and conquered them with surprisingly elegent or simple solutions.
+and conquered them with surprisingly elegant or simple solutions.
 
 
 #### Turning a New Leaf (Consider Edit name to convey changing perspective)
