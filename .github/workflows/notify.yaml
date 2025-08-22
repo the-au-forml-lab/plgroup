@@ -5,21 +5,24 @@ on:
     types:
       - closed
   workflow_dispatch:
-  
+
 jobs:
   notifications:
     # Run whenever next-paper labelled PR is merged to main branch -OR- when triggered manually
-    if: (github.event.pull_request.merged == true
-        && contains(github.event.pull_request.labels.*.name, 'next-paper'))
-        || github.event_name == 'workflow_dispatch'
+    if: ${{ (github.event.pull_request.merged == true
+            && contains(github.event.pull_request.labels.*.name, 'next-paper'))
+            || github.event_name == 'workflow_dispatch' }}
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
       - id: vars
-        run: cat data/vars.txt >> $GITHUB_OUTPUT
+        run: echo nextPaper=$(tail -n1 docs/paper.md | sed 's/^...//' | jq --raw-input --slurp) >> $GITHUB_OUTPUT
       - uses: Ilshidur/action-discord@master
         if: ${{ env.DISCORD_WEBHOOK != '' }}
         with:
-          args: ${{ fromJSON(steps.vars.outputs.discordNext) }}
+          args: ${{
+            format('#### Next Paper\n\n{0}',
+                    fromJSON(steps.vars.outputs.nextPaper)
+                    )}}
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
