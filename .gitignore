@@ -4,3 +4,4 @@ shell.nix
 .envrc
 node_modules/
 dist/
+data/vars.txt

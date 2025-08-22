@@ -1,5 +1,0 @@
-body="This paper was randomly selected as your next reading:\n### Weighted Rewriting: Semiring Semantics for Abstract Reduction Systems.\nAhrens, Emma, et al. Weighted Rewriting: Semiring Semantics for Abstract Reduction Systems. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.6.\n\n**Merge this PR to apply selection.**"
-title="Weighted Rewriting: Semiring Semantics for Abstract Reduction Systems."
-citation="Ahrens, Emma, et al. Weighted Rewriting: Semiring Semantics for Abstract Reduction Systems. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.6."
-doi="https://doi.org/10.4230/LIPICS.FSCD.2025.6"
-discordNext="Next Paper, Weighted Rewriting: Semiring Semantics for Abstract Reduction Systems.\n\n\nAhrens, Emma, et al. Weighted Rewriting: Semiring Semantics for Abstract Reduction Systems. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.6."
