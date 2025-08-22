@@ -4,7 +4,8 @@ on:
   pull_request:
     types:
       - closed
-
+  workflow_dispatch:
+  
 jobs:
   notifications:
     # Run whenever next-paper labelled PR is merged to main branch
