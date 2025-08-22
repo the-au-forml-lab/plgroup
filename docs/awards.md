@@ -17,3 +17,12 @@ or vexed with a message not yet fully clear to you.
 Papers are much like art pieces in this regard, and this award
 is for the paper that will stick with you for a very long time—the
 one you will be telling your grandchildren about.
+
+#### Everything Everywhere All At Once
+Sign spinner. Hibachi chef. Chinese opera singer. Hotdog hands.
+Infinite worlds, infinite possibilities. The beautiful chaos that
+the winner of this award possesses has no bounds. What may seem like a 
+whirlwind of information, too daunting to face, falls away to an 
+exceptionally composed work that cuts through all that noise. That is, 
+despite it's unforgiving nature at first glance, this paper opens up
+to a profound and insightful work on closer inspection.
