@@ -49,4 +49,4 @@ This award is for the paper that is so starkly dedicated to its
 premise that not even a bear could get in its way.
 
 #### The Rorschach
-For the paper whose meaning is partly in the eye of the reader: both theoreticians and practitioners experts each walk away convinced it was written for them.
+For the paper whose meaning is partly in the eye of the reader: both theoreticians and practitioners walk away convinced it was written for them.
