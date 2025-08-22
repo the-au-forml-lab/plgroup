@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - id: vars
-        run: echo nextPaper=$(tail -n1 docs/paper.md | sed 's/^...//' | jq --raw-input --slurp) >> $GITHUB_OUTPUT
+        run: echo "nextPaper=$(tail -n1 docs/paper.md | sed 's/^...//' | jq --raw-input --slurp)" >> $GITHUB_OUTPUT
       - uses: Ilshidur/action-discord@master
         if: ${{ env.DISCORD_WEBHOOK != '' }}
         with:
