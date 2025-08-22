@@ -52,7 +52,7 @@ ${paper.citation}
         ['title', paper.title],
         ['citation', paper.citation],
         ['doi', doiUrl(paper.doi, 'plain')],
-        ['discordNext', `Next Paper, ${paper.title}\n\n\n${paper.citation}`]
+        ['discordNext', `###Next Paper.\n${paper.title}\n\n${paper.citation}`]
     ])
     let out: string[] = [];
     for(const [k, v] of vars.entries()){
@@ -129,7 +129,7 @@ function table(data: Map<string,number>): void{
     const width = columnOffset + sorted
         .map(([k, ]) => k.length)
         .reduce((acc, x) => Math.max(acc, x), 0);
-        
+
     const printLine = (s: string, num: number) =>
         console.log(
             (s + ' ').padEnd(width, '.'),
