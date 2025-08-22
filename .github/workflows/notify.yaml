@@ -5,6 +5,7 @@ on:
     types:
       - closed
   workflow_dispatch:
+    branches: [ main ]
   
 jobs:
   notifications:
