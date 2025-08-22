@@ -52,7 +52,6 @@ ${paper.citation}
         ['title', paper.title],
         ['citation', paper.citation],
         ['doi', doiUrl(paper.doi, 'plain')],
-        ['discordNext', `###Next Paper.\n${paper.title}\n\n${paper.citation}`]
     ])
     let out: string[] = [];
     for(const [k, v] of vars.entries()){
