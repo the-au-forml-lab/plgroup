@@ -26,3 +26,11 @@ whirlwind of information, too daunting to face, falls away to an
 exceptionally composed work that cuts through all that noise. That is, 
 despite it's unforgiving nature at first glance, this paper opens up
 to a profound and insightful work on closer inspection.
+
+#### The Close Shave
+
+This work nearly fell victim to complexity but instead found a brilliantly simple solution, 
+being saved by the application of Occam's Razor. 
+This is awarded to those that took complex problems and 
+conquered them with surprisingly elegent or simple solutions.
+
