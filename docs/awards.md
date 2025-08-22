@@ -39,3 +39,5 @@ conquered them with surprisingly elegent or simple solutions.
 
 Some arguments are so good that you leaf a changed person. Sometimes for the better, sometimes for the worse. This award is for the paper that challenged previously held beliefs, whether through arguments within it, understanding extracted from it, or arguments given by participants. Regardless of the reason, after reading and interacting with this paper, you find yourself different than when you started.
 
+#### The Rorschach
+For the paper whose meaning is partly in the eye of the reader: both theoreticians and practitioners experts each walk away convinced it was written for them.
