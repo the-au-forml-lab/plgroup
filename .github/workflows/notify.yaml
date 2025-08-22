@@ -23,9 +23,6 @@ jobs:
       - uses: Ilshidur/action-discord@master
         if: ${{ env.DISCORD_WEBHOOK != '' }}
         with:
-          args: ${{
-            format('#### Next Paper\n\n{0}',
-                    fromJSON(steps.vars.outputs.nextPaper)
-                    )}}
+          args: ${{ join([ '#### Next Paper\n', fromJSON(steps.vars.outputs.nextPaper) ], '') }}
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
