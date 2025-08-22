@@ -34,3 +34,8 @@ being saved by the application of Occam's Razor.
 This is awarded to those that took complex problems and 
 conquered them with surprisingly elegent or simple solutions.
 
+
+#### Turning a New Leaf
+
+Some arguments are so good that you leaf a changed person. Sometimes for the better, sometimes for the worse. This award is for the paper that challenged previously held beliefs, whether through arguments within it, understanding extracted from it, or arguments given by participants. Regardless of the reason, after reading and interacting with this paper, you find yourself different than when you started.
+
