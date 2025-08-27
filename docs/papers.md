@@ -1,1 +1,2 @@
 1. Ahrens, Emma, et al. Weighted Rewriting: Semiring Semantics for Abstract Reduction Systems. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, <https://doi.org/10.4230/LIPICS.FSCD.2025.6>.
+1. Michelland, Sébastien, et al. “Abstract Interpreters: A Monadic Approach to Modular Verification.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 602–29. Crossref, <https://doi.org/10.1145/3674646>.
