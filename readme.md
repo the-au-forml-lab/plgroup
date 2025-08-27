@@ -141,7 +141,7 @@ Light maintenance is needed between semesters/reading periods.
 
 3.  **Edit** `readme.md` to reflect information about the new semester.
 
-4.  **Enable** one of the paper selection [workflow](#using-the-workflows).
+4.  **Enable** one of the paper selection [workflows](#using-the-workflows).
 
 ### End of semester
 
