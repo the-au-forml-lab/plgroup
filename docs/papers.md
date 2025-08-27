@@ -1,1 +1,2 @@
 1. Ahrens, Emma, et al. Weighted Rewriting: Semiring Semantics for Abstract Reduction Systems. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, <https://doi.org/10.4230/LIPICS.FSCD.2025.6>.
+1. Wang, Di, and Thomas Reps. “Newtonian Program Analysis of Probabilistic Programs.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA1, Apr. 2024, pp. 305–33. Crossref, <https://doi.org/10.1145/3649822>.
