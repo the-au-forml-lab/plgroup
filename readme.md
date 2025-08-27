@@ -13,7 +13,7 @@ We gather in person weekly to discuss the selected papers.
 This repository contains our website and the tooling we use to select papers.
 The PL Reading Group is organized by the
 [ΔΛΔ](https://augusta.presence.io/organization/delta-lambda-delta)
-student organization. 
+student organization.
 
 ## Quick start
 
@@ -55,8 +55,11 @@ https://dblp.org/db/conf/<name>/index.html
 ```
 You can use this to discover conferences by browsing DBLP.
 
-**Note.** Venues other than conferences (e.g. journals) are not supported at the
-moment.
+**Notes.**
+-   Venues other than conferences (e.g. journals) are not supported at the moment.
+-   This software identifies papers by their DOI,
+    so conferences that do not register their papers with the DOI Foundation are
+    not supported.
 
 ### Filtering papers by keywords
 
