@@ -1,18 +1,13 @@
-import {FILES} from './config.ts';
+import {FILES, DBLP} from './config.ts';
 import {readUrl} from './request.ts';
 import {all, log, LogLv, FileSystem} from './util.ts';
-    
-export const DBLP_DOMAINS = [
-    'https://dblp.org',
-    'https://dblp.uni-trier.de',
-];
 
 
 // This mostly exists for documentation purposes, so that the shape of a
 // responses from the DBLP API is known. In practice the code doesn't use most
 // of the fields. The author field either contains the author of a single-author
 // paper or an array of authors for multi-author papers.
-// 
+//
 // Note also that:
 // 1. This interface was designed by DBLP, not by me.
 // 2. The API does not seem to be locked in, and is subject to change.
@@ -90,13 +85,13 @@ class DblpVenue {
         const searchParams = new URLSearchParams( {
             q: `stream:conf/${this.name}: year:${this.year}`,
             format: 'json',
-            h: '1000',
+            h: String(DBLP.MAX_HITS_PER_CONFERENCE),
         });
         return `${domain}${path}?${searchParams}`;
     }
 
     async callApi(): Promise<string> {
-        const calls = DBLP_DOMAINS
+        const calls = DBLP.DOMAINS
             .map(domain => this.apiUrl(domain))
             .map(url => readUrl(url));
         try {

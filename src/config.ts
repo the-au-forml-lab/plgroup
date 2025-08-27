@@ -43,7 +43,7 @@ export const FILES = {
 
 /**
  * controls the construction of the dataset, which is stored in `FILES.PAPERS`.
- */ 
+ */
 export const DATASET = {
     /**
      * Citation style to use; For a list of valid citation styles go to
@@ -106,3 +106,23 @@ export const REQUEST = {
  * `FILES.WEB_INDEX`.
  */
 export const SCHEDULE_PLACEHOLDER_RE: RegExp = /Paper\s+\d+\s+discussion/;
+
+export const DBLP = {
+    /**
+     * Array of domains on which mirrors of DBLP are hosted.
+     * Each of these will be queried for a response.
+     * You probably don't need to modify this.
+     */
+    DOMAINS: [
+        'https://dblp.org',
+        'https://dblp.uni-trier.de',
+    ],
+    /**
+     * The maximum number of hits retrieved from the DBLP API for any
+     * one conference.
+     * If this is lower than the total number of papers at a given conference,
+     * DBLP will choose which hits to serve (probably in the order as they
+     * appear on the DBLP website).
+     */
+    MAX_HITS_PER_CONFERENCE: 1000,
+}
