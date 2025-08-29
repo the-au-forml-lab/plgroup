@@ -58,8 +58,7 @@ You can use this to discover conferences by browsing DBLP.
 **Notes.**
 -   Venues other than conferences (e.g. journals) are not supported at the moment.
 -   This software identifies papers by their DOI,
-    so conferences that do not register their papers with the DOI Foundation are
-    not supported.
+    so conferences that do not register DOIs for their papers are not supported.
 
 ### Filtering papers by keywords
 
