@@ -3450,6 +3450,102 @@
     "citation": "Ye, Wenjia, et al. “Elucidating Type Conversions in SQL Engines.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 408–35. Crossref, https://doi.org/10.1007/978-3-031-91118-7_16."
   },
   {
+    "doi": "10.1007/978-981-97-2300-3_14",
+    "title": "Rhyme: A Data-Centric Multi-paradigm Query Language Based on Functional Logic Metaprogramming - System Description.",
+    "venue": "flops 2024",
+    "citation": "Abeysinghe, Supun, and Tiark Rompf. “Rhyme: A Data-Centric Multi-Paradigm Query Language Based on Functional Logic Metaprogramming.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 273–88. Crossref, https://doi.org/10.1007/978-981-97-2300-3_14."
+  },
+  {
+    "doi": "10.1007/978-981-97-2300-3_8",
+    "title": "A Constraint-Based Mathematical Modeling Library in Prolog with Answer Constraint Semantics.",
+    "venue": "flops 2024",
+    "citation": "Fages, François. “A Constraint-Based Mathematical Modeling Library in Prolog with Answer Constraint Semantics.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 135–50. Crossref, https://doi.org/10.1007/978-981-97-2300-3_8."
+  },
+  {
+    "doi": "10.1007/978-981-97-2300-3_15",
+    "title": "Language-parameterized Proofs for Functional Languages with Subtyping.",
+    "venue": "flops 2024",
+    "citation": "Galasso, Seth, and Matteo Cimini. “Language-Parameterized Proofs for Functional Languages with Subtyping.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 291–310. Crossref, https://doi.org/10.1007/978-981-97-2300-3_15."
+  },
+  {
+    "doi": "10.1007/978-981-97-2300-3_2",
+    "title": "ACGtk: A Toolkit for Developing and Running Abstract Categorial Grammars.",
+    "venue": "flops 2024",
+    "citation": "Guillaume, Maxime, et al. “ACGtk: A Toolkit for Developing and Running Abstract Categorial Grammars.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 13–30. Crossref, https://doi.org/10.1007/978-981-97-2300-3_2."
+  },
+  {
+    "doi": "10.1007/978-981-97-2300-3_10",
+    "title": "Inferring Non-failure Conditions for Declarative Programs.",
+    "venue": "flops 2024",
+    "citation": "Hanus, Michael. “Inferring Non-Failure Conditions for Declarative Programs.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 167–87. Crossref, https://doi.org/10.1007/978-981-97-2300-3_10."
+  },
+  {
+    "doi": "10.1007/978-981-97-2300-3_1",
+    "title": "Algebraic Connection Between Logic Programming and Machine Learning (Extended Abstract).",
+    "venue": "flops 2024",
+    "citation": "Inoue, Katsumi. “Algebraic Connection Between Logic Programming and Machine Learning (Extended Abstract).” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 3–9. Crossref, https://doi.org/10.1007/978-981-97-2300-3_1."
+  },
+  {
+    "doi": "10.1007/978-981-97-2300-3_4",
+    "title": "A Complete Dependency Pair Framework for Almost-Sure Innermost Termination of Probabilistic Term Rewriting.",
+    "venue": "flops 2024",
+    "citation": "Kassing, Jan-Christoph, et al. “A Complete Dependency Pair Framework for Almost-Sure Innermost Termination of Probabilistic Term Rewriting.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 62–80. Crossref, https://doi.org/10.1007/978-981-97-2300-3_4."
+  },
+  {
+    "doi": "10.1007/978-981-97-2300-3_12",
+    "title": "MetaOCaml: Ten Years Later - System Description.",
+    "venue": "flops 2024",
+    "citation": "Kiselyov, Oleg. “MetaOCaml: Ten Years Later.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 219–36. Crossref, https://doi.org/10.1007/978-981-97-2300-3_12."
+  },
+  {
+    "doi": "10.1007/978-981-97-2300-3_11",
+    "title": "Being Lazy When It Counts - Practical Constant-Time Memory Management for Functional Programming.",
+    "venue": "flops 2024",
+    "citation": "Lam, Chun Kit, and Lionel Parreaux. “Being Lazy When It Counts.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 188–216. Crossref, https://doi.org/10.1007/978-981-97-2300-3_11."
+  },
+  {
+    "doi": "10.1007/978-981-97-2300-3_16",
+    "title": "System Description: A Theorem-Prover for Subregular Systems: The Language Toolkit and Its Interpreter, Plebby.",
+    "venue": "flops 2024",
+    "citation": "Lambert, Dakotah. “System Description: A Theorem-Prover for Subregular Systems: The Language Toolkit and Its Interpreter, Plebby.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 311–28. Crossref, https://doi.org/10.1007/978-981-97-2300-3_16."
+  },
+  {
+    "doi": "10.1007/978-981-97-2300-3_9",
+    "title": "Grants4Companies: Applying Declarative Methods for Recommending and Reasoning About Business Grants in the Austrian Public Administration (System Description).",
+    "venue": "flops 2024",
+    "citation": "Lellmann, Björn, et al. “Grants4Companies: Applying Declarative Methods for Recommending and Reasoning About Business Grants in the Austrian Public Administration (System Description).” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 151–64. Crossref, https://doi.org/10.1007/978-981-97-2300-3_9."
+  },
+  {
+    "doi": "10.1007/978-981-97-2300-3_3",
+    "title": "Term Evaluation Systems with Refinements: First-Order, Second-Order, and Contextual Improvement.",
+    "venue": "flops 2024",
+    "citation": "Muroya, Koko, and Makoto Hamana. “Term Evaluation Systems with Refinements: First-Order, Second-Order, and Contextual Improvement.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 31–61. Crossref, https://doi.org/10.1007/978-981-97-2300-3_3."
+  },
+  {
+    "doi": "10.1007/978-981-97-2300-3_13",
+    "title": "An ML-Style Module System for Cross-Stage Type Abstraction in Multi-stage Programming.",
+    "venue": "flops 2024",
+    "citation": "Suwa, Takashi, and Atsushi Igarashi. “An ML-Style Module System for Cross-Stage Type Abstraction in Multi-Stage Programming.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 237–72. Crossref, https://doi.org/10.1007/978-981-97-2300-3_13."
+  },
+  {
+    "doi": "10.1007/978-981-97-2300-3_7",
+    "title": "System Description: DeepLLM, Casting Dialog Threads into Logic Programs.",
+    "venue": "flops 2024",
+    "citation": "Tarau, Paul. “System Description: DeepLLM, Casting Dialog Threads into Logic Programs.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 117–34. Crossref, https://doi.org/10.1007/978-981-97-2300-3_7."
+  },
+  {
+    "doi": "10.1007/978-981-97-2300-3_6",
+    "title": "Declarative Pearl: Rigged Contracts.",
+    "venue": "flops 2024",
+    "citation": "Vandenbroucke, Alexander, and Tom Schrijvers. “Declarative Pearl: Rigged Contracts.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 99–114. Crossref, https://doi.org/10.1007/978-981-97-2300-3_6."
+  },
+  {
+    "doi": "10.1007/978-981-97-2300-3_5",
+    "title": "Tabulation with Zippers.",
+    "venue": "flops 2024",
+    "citation": "Viera, Marcos, et al. “Tabulation with Zippers.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 83–98. Crossref, https://doi.org/10.1007/978-981-97-2300-3_5."
+  },
+  {
     "doi": "10.1145/3732772.3733525",
     "title": "Byzantine Stable Matching.",
     "venue": "podc 2025",
@@ -4018,5 +4114,359 @@
     "title": "Self-stabilizing Graph Exploration by a Single Agent.",
     "venue": "sirocco 2025",
     "citation": "Sudo, Yuichi, et al. “Self-Stabilizing Graph Exploration by a Single Agent.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 384–400. Crossref, https://doi.org/10.1007/978-3-031-91736-3_23."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.5",
+    "title": "Constrained Two-Line Center Problems.",
+    "venue": "isaac 2024",
+    "citation": "Ahn, Taehoon, and Sang Won Bae. Constrained Two-Line Center Problems. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.5."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.59",
+    "title": "Approximation Algorithms for Cumulative Vehicle Routing with Stochastic Demands.",
+    "venue": "isaac 2024",
+    "citation": "Zhao, Jingyang, and Mingyu Xiao. Approximation Algorithms for Cumulative Vehicle Routing with Stochastic Demands. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.59."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.1",
+    "title": "Algorithmic Problems in Discrete Choice (Invited Talk).",
+    "venue": "isaac 2024",
+    "citation": "Kumar, Ravi. Algorithmic Problems in Discrete Choice (Invited Talk). With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.1."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.57",
+    "title": "Constant Approximating Disjoint Paths on Acyclic Digraphs Is W[1]-Hard.",
+    "venue": "isaac 2024",
+    "citation": "Włodarczyk, Michał. Constant Approximating Disjoint Paths on Acyclic Digraphs Is W[1]-Hard. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.57."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.58",
+    "title": "Does Subset Sum Admit Short Proofs?",
+    "venue": "isaac 2024",
+    "citation": "Włodarczyk, Michał. Does Subset Sum Admit Short Proofs? With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.58."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.52",
+    "title": "Single Family Algebra Operation on BDDs and ZDDs Leads to Exponential Blow-Up.",
+    "venue": "isaac 2024",
+    "citation": "Nakamura, Kengo, et al. Single Family Algebra Operation on BDDs and ZDDs Leads to Exponential Blow-Up. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.52."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.20",
+    "title": "Revisit the Scheduling Problem with Calibrations.",
+    "venue": "isaac 2024",
+    "citation": "Chen, Lin, et al. Revisit the Scheduling Problem with Calibrations. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.20."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.4",
+    "title": "Minimum Plane Bichromatic Spanning Trees.",
+    "venue": "isaac 2024",
+    "citation": "A. Akitaya, Hugo, et al. Minimum Plane Bichromatic Spanning Trees. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.4."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.6",
+    "title": "Dynamic Parameterized Problems on Unit Disk Graphs.",
+    "venue": "isaac 2024",
+    "citation": "An, Shinwoo, et al. Dynamic Parameterized Problems on Unit Disk Graphs. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.6."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.7",
+    "title": "On the Connected Minimum Sum of Radii Problem.",
+    "venue": "isaac 2024",
+    "citation": "An, Hyung-Chan, and Mong-Jen Kao. On the Connected Minimum Sum of Radii Problem. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.7."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.8",
+    "title": "Lower Bounds for Adaptive Relaxation-Based Algorithms for Single-Source Shortest Paths.",
+    "venue": "isaac 2024",
+    "citation": "Atalig, Sunny, et al. Lower Bounds for Adaptive Relaxation-Based Algorithms for Single-Source Shortest Paths. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.8."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.9",
+    "title": "Fault-Tolerant Bounded Flow Preservers.",
+    "venue": "isaac 2024",
+    "citation": "Bansal, Shivam, et al. Fault-Tolerant Bounded Flow Preservers. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.9."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.25",
+    "title": "The Complexity of Geodesic Spanners Using Steiner Points.",
+    "venue": "isaac 2024",
+    "citation": "de Berg, Sarita, et al. The Complexity of Geodesic Spanners Using Steiner Points. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.25."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.10",
+    "title": "Optimal Sensitivity Oracle for Steiner Mincut.",
+    "venue": "isaac 2024",
+    "citation": "Bhanja, Koustav. Optimal Sensitivity Oracle for Steiner Mincut. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.10."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.11",
+    "title": "Temporal Queries for Dynamic Temporal Forests.",
+    "venue": "isaac 2024",
+    "citation": "Bilò, Davide, et al. Temporal Queries for Dynamic Temporal Forests. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.11."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.12",
+    "title": "Partitioning Problems with Splittings and Interval Targets.",
+    "venue": "isaac 2024",
+    "citation": "Bismuth, Samuel, et al. Partitioning Problems with Splittings and Interval Targets. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.12."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.13",
+    "title": "The Existential Theory of the Reals with Summation Operators.",
+    "venue": "isaac 2024",
+    "citation": "Bläser, Markus, et al. The Existential Theory of the Reals with Summation Operators. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.13."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.14",
+    "title": "Routing from Pentagon to Octagon Delaunay Graphs.",
+    "venue": "isaac 2024",
+    "citation": "Bose, Prosenjit, et al. Routing from Pentagon to Octagon Delaunay Graphs. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.14."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.15",
+    "title": "On the Spanning and Routing Ratios of the Yao-Four Graph.",
+    "venue": "isaac 2024",
+    "citation": "Bose, Prosenjit, et al. On the Spanning and Routing Ratios of the Yao-Four Graph. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.15."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.16",
+    "title": "FPT Approximations for Fair k-Min-Sum-Radii.",
+    "venue": "isaac 2024",
+    "citation": "Carta, Lena, et al. FPT Approximations for Fair K-Min-Sum-Radii. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.16."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.19",
+    "title": "Tight (Double) Exponential Bounds for Identification Problems: Locating-Dominating Set and Test Cover.",
+    "venue": "isaac 2024",
+    "citation": "Chakraborty, Dipayan, et al. Tight (Double) Exponential Bounds for Identification Problems: Locating-Dominating Set and Test Cover. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.19."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.17",
+    "title": "Succinct Data Structures for Baxter Permutation and Related Families.",
+    "venue": "isaac 2024",
+    "citation": "Chakraborty, Sankardeep, et al. Succinct Data Structures for Baxter Permutation and Related Families. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.17."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.18",
+    "title": "Enhancing Generalized Compressed Suffix Trees, with Applications.",
+    "venue": "isaac 2024",
+    "citation": "Chakraborty, Sankardeep, et al. Enhancing Generalized Compressed Suffix Trees, with Applications. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.18."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.21",
+    "title": "Mimicking Networks for Constrained Multicuts in Hypergraphs.",
+    "venue": "isaac 2024",
+    "citation": "Cho, Kyungjin, and Eunjin Oh. Mimicking Networks for Constrained Multicuts in Hypergraphs. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.21."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.22",
+    "title": "On HTLC-Based Protocols for Multi-Party Cross-Chain Swaps.",
+    "venue": "isaac 2024",
+    "citation": "Clark, Emily, et al. On HTLC-Based Protocols for Multi-Party Cross-Chain Swaps. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.22."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.26",
+    "title": "Constrained Boundary Labeling.",
+    "venue": "isaac 2024",
+    "citation": "Depian, Thomas, et al. Constrained Boundary Labeling. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.26."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.27",
+    "title": "Knapsack with Vertex Cover, Set Cover, and Hitting Set.",
+    "venue": "isaac 2024",
+    "citation": "Dey, Palash, et al. Knapsack with Vertex Cover, Set Cover, and Hitting Set. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.27."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.28",
+    "title": "Subsequence Matching and Analysis Problems for Formal Languages.",
+    "venue": "isaac 2024",
+    "citation": "Fazekas, Szilárd Zsolt, et al. Subsequence Matching and Analysis Problems for Formal Languages. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.28."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.29",
+    "title": "Coordinated Motion Planning: Multi-Agent Path Finding in a Densely Packed, Bounded Domain.",
+    "venue": "isaac 2024",
+    "citation": "Fekete, Sándor P., et al. Coordinated Motion Planning: Multi-Agent Path Finding in a Densely Packed, Bounded Domain. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.29."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.30",
+    "title": "On the Complexity of Establishing Hereditary Graph Properties via Vertex Splitting.",
+    "venue": "isaac 2024",
+    "citation": "Firbas, Alexander, and Manuel Sorge. On the Complexity of Establishing Hereditary Graph Properties via Vertex Splitting. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.30."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.31",
+    "title": "From Chinese Postman to Salesman and Beyond: Shortest Tour δ-Covering All Points on All Edges.",
+    "venue": "isaac 2024",
+    "citation": "Frei, Fabian, et al. From Chinese Postman to Salesman and Beyond: Shortest Tour δ-Covering All Points on All Edges. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.31."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.32",
+    "title": "When Can Cluster Deletion with Bounded Weights Be Solved Efficiently?",
+    "venue": "isaac 2024",
+    "citation": "Garvardt, Jaroslav, et al. When Can Cluster Deletion with Bounded Weights Be Solved Efficiently? With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.32."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.33",
+    "title": "Robust Bichromatic Classification Using Two Lines.",
+    "venue": "isaac 2024",
+    "citation": "Glazenburg, Erwin, et al. Robust Bichromatic Classification Using Two Lines. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.33."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.34",
+    "title": "Robust Classification of Dynamic Bichromatic Point Sets in R².",
+    "venue": "isaac 2024",
+    "citation": "Glazenburg, Erwin, et al. Robust Classification of Dynamic Bichromatic Point Sets in R². With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.34."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.35",
+    "title": "Generating All Invertible Matrices by Row Operations.",
+    "venue": "isaac 2024",
+    "citation": "Gregor, Petr, et al. Generating All Invertible Matrices by Row Operations. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.35."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.36",
+    "title": "Kernelization Complexity of Solution Discovery Problems.",
+    "venue": "isaac 2024",
+    "citation": "Grobler, Mario, et al. Kernelization Complexity of Solution Discovery Problems. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.36."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.51",
+    "title": "Easier Ways to Prove Counting Hard: A Dichotomy for Generalized #SAT, Applied to Constraint Graphs.",
+    "venue": "isaac 2024",
+    "citation": "MIT Hardness Group, et al. Easier Ways to Prove Counting Hard: A Dichotomy for Generalized #SAT, Applied to Constraint Graphs. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.51."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.37",
+    "title": "Approximating the Fréchet Distance When Only One Curve Is c-Packed.",
+    "venue": "isaac 2024",
+    "citation": "Gudmundsson, Joachim, et al. Approximating the Fréchet Distance When Only One Curve Is C-Packed. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.37."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.38",
+    "title": "Basis Sequence Reconfiguration in the Union of Matroids.",
+    "venue": "isaac 2024",
+    "citation": "Hanaka, Tesshu, et al. Basis Sequence Reconfiguration in the Union of Matroids. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.38."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.39",
+    "title": "Core Stability in Additively Separable Hedonic Games of Low Treewidth.",
+    "venue": "isaac 2024",
+    "citation": "Hanaka, Tesshu, et al. Core Stability in Additively Separable Hedonic Games of Low Treewidth. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.39."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.40",
+    "title": "Crossing Number Is NP-Hard for Constant Path-Width (And Tree-Width).",
+    "venue": "isaac 2024",
+    "citation": "Hliněný, Petr, and Liana Khazaliya. Crossing Number Is NP-Hard for Constant Path-Width (And Tree-Width). With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.40."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.56",
+    "title": "Data Structures for Approximate Fréchet Distance for Realistic Curves.",
+    "venue": "isaac 2024",
+    "citation": "van der Hoog, Ivor, et al. Data Structures for Approximate Fréchet Distance for Realistic Curves. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.56."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.41",
+    "title": "A Polynomial Kernel for Deletion to the Scattered Class of Cliques and Trees.",
+    "venue": "isaac 2024",
+    "citation": "Jacob, Ashwin, et al. A Polynomial Kernel for Deletion to the Scattered Class of Cliques and Trees. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.41."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.42",
+    "title": "Hardness Amplification for Dynamic Binary Search Trees.",
+    "venue": "isaac 2024",
+    "citation": "Jiang, Shunhua, et al. Hardness Amplification for Dynamic Binary Search Trees. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.42."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.43",
+    "title": "Reconfiguration of Labeled Matchings in Triangular Grid Graphs.",
+    "venue": "isaac 2024",
+    "citation": "Kakimura, Naonori, and Yuta Mishima. Reconfiguration of Labeled Matchings in Triangular Grid Graphs. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.43."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.44",
+    "title": "Composition Orderings for Linear Functions and Matrix Multiplication Orderings.",
+    "venue": "isaac 2024",
+    "citation": "Kubo, Susumu, et al. Composition Orderings for Linear Functions and Matrix Multiplication Orderings. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.44."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.45",
+    "title": "A Simple Distributed Algorithm for Sparse Fractional Covering and Packing Problems.",
+    "venue": "isaac 2024",
+    "citation": "Li, Qian, et al. A Simple Distributed Algorithm for Sparse Fractional Covering and Packing Problems. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.45."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.46",
+    "title": "Uniform Polynomial Kernel for Deletion to K_{2, p} Minor-Free Graphs.",
+    "venue": "isaac 2024",
+    "citation": "Lochet, William, and Roohani Sharma. Uniform Polynomial Kernel for Deletion to K_{2,P} Minor-Free Graphs. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.46."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.47",
+    "title": "Complexity Framework for Forbidden Subgraphs II: Edge Subdivision and the &quot;H&quot;-Graphs.",
+    "venue": "isaac 2024",
+    "citation": "Lozin, Vadim, et al. Complexity Framework for Forbidden Subgraphs II: Edge Subdivision and the “H”-Graphs. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.47."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.23",
+    "title": "Simple Realizability of Abstract Topological Graphs.",
+    "venue": "isaac 2024",
+    "citation": "Da Lozzo, Giordano, et al. Simple Realizability of Abstract Topological Graphs. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.23."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.24",
+    "title": "Exact Algorithms for Clustered Planarity with Linear Saturators.",
+    "venue": "isaac 2024",
+    "citation": "Da Lozzo, Giordano, et al. Exact Algorithms for Clustered Planarity with Linear Saturators. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.24."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.48",
+    "title": "Complexity of Local Search for Euclidean Clustering Problems.",
+    "venue": "isaac 2024",
+    "citation": "Manthey, Bodo, et al. Complexity of Local Search for Euclidean Clustering Problems. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.48."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.49",
+    "title": "Online Multi-Level Aggregation with Delays and Stochastic Arrivals.",
+    "venue": "isaac 2024",
+    "citation": "Mari, Mathieu, et al. Online Multi-Level Aggregation with Delays and Stochastic Arrivals. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.49."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.50",
+    "title": "On the Parameterized Complexity of Diverse SAT.",
+    "venue": "isaac 2024",
+    "citation": "Misra, Neeldhara, et al. On the Parameterized Complexity of Diverse SAT. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.50."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.2",
+    "title": "Data Privacy: The Land Where Average Cases Don&apos;t Exist and Assumptions Quickly Perish (Invited Talk).",
+    "venue": "isaac 2024",
+    "citation": "Ohrimenko, Olga. Data Privacy: The Land Where Average Cases Don’t Exist and Assumptions Quickly Perish (Invited Talk). With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.2."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.53",
+    "title": "A Fast Algorithm for Computing a Planar Support for Non-Piercing Rectangles.",
+    "venue": "isaac 2024",
+    "citation": "Pal, Ambar, et al. A Fast Algorithm for Computing a Planar Support for Non-Piercing Rectangles. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.53."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.54",
+    "title": "A Dichotomy Theorem for Linear Time Homomorphism Orbit Counting in Bounded Degeneracy Graphs.",
+    "venue": "isaac 2024",
+    "citation": "Paul-Pena, Daniel, and C. Seshadhri. A Dichotomy Theorem for Linear Time Homomorphism Orbit Counting in Bounded Degeneracy Graphs. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.54."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.3",
+    "title": "Role of Structured Matrices in Fine-Grained Algorithm Design (Invited Talk).",
+    "venue": "isaac 2024",
+    "citation": "Saha, Barna. Role of Structured Matrices in Fine-Grained Algorithm Design (Invited Talk). With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.3."
+  },
+  {
+    "doi": "10.4230/LIPICS.ISAAC.2024.55",
+    "title": "Optimal Offline ORAM with Perfect Security via Simple Oblivious Priority Queues.",
+    "venue": "isaac 2024",
+    "citation": "Thießen, Thore, and Jan Vahrenhold. Optimal Offline ORAM with Perfect Security via Simple Oblivious Priority Queues. With Julián Mestre and Anthony Wirth, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.ISAAC.2024.55."
   }
 ]
