@@ -3450,99 +3450,573 @@
     "citation": "Ye, Wenjia, et al. “Elucidating Type Conversions in SQL Engines.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 408–35. Crossref, https://doi.org/10.1007/978-3-031-91118-7_16."
   },
   {
-    "doi": "10.1007/978-981-97-2300-3_14",
-    "title": "Rhyme: A Data-Centric Multi-paradigm Query Language Based on Functional Logic Metaprogramming - System Description.",
-    "venue": "flops 2024",
-    "citation": "Abeysinghe, Supun, and Tiark Rompf. “Rhyme: A Data-Centric Multi-Paradigm Query Language Based on Functional Logic Metaprogramming.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 273–88. Crossref, https://doi.org/10.1007/978-981-97-2300-3_14."
+    "doi": "10.1145/3732772.3733525",
+    "title": "Byzantine Stable Matching.",
+    "venue": "podc 2025",
+    "citation": "Constantinescu, Andrei, et al. “Byzantine Stable Matching.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 181–91. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733525."
   },
   {
-    "doi": "10.1007/978-981-97-2300-3_8",
-    "title": "A Constraint-Based Mathematical Modeling Library in Prolog with Answer Constraint Semantics.",
-    "venue": "flops 2024",
-    "citation": "Fages, François. “A Constraint-Based Mathematical Modeling Library in Prolog with Answer Constraint Semantics.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 135–50. Crossref, https://doi.org/10.1007/978-981-97-2300-3_8."
+    "doi": "10.1145/3732772.3733501",
+    "title": "Density-Dependent Graph Orientation and Coloring in Scalable MPC.",
+    "venue": "podc 2025",
+    "citation": "Ghaffari, Mohsen, and Christoph Grunau. “Density-Dependent Graph Orientation and Coloring in Scalable MPC.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 349–59. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733501."
   },
   {
-    "doi": "10.1007/978-981-97-2300-3_15",
-    "title": "Language-parameterized Proofs for Functional Languages with Subtyping.",
-    "venue": "flops 2024",
-    "citation": "Galasso, Seth, and Matteo Cimini. “Language-Parameterized Proofs for Functional Languages with Subtyping.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 291–310. Crossref, https://doi.org/10.1007/978-981-97-2300-3_15."
+    "doi": "10.1145/3732772.3733556",
+    "title": "Brief Announcement: Towards Scalable YOSO MPC via Packed Secret-Sharing.",
+    "venue": "podc 2025",
+    "citation": "Escudero, Daniel, et al. “Brief Announcement: Towards Scalable YOSO MPC via Packed Secret-Sharing.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 162–65. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733556."
   },
   {
-    "doi": "10.1007/978-981-97-2300-3_2",
-    "title": "ACGtk: A Toolkit for Developing and Running Abstract Categorial Grammars.",
-    "venue": "flops 2024",
-    "citation": "Guillaume, Maxime, et al. “ACGtk: A Toolkit for Developing and Running Abstract Categorial Grammars.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 13–30. Crossref, https://doi.org/10.1007/978-981-97-2300-3_2."
+    "doi": "10.1145/3732772.3733565",
+    "title": "Towards Optimal Deterministic LOCAL Algorithms on Trees.",
+    "venue": "podc 2025",
+    "citation": "Brandt, Sebastian, and Ananth Narayanan. “Towards Optimal Deterministic LOCAL Algorithms on Trees.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 66–76. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733565."
   },
   {
-    "doi": "10.1007/978-981-97-2300-3_10",
-    "title": "Inferring Non-failure Conditions for Declarative Programs.",
-    "venue": "flops 2024",
-    "citation": "Hanus, Michael. “Inferring Non-Failure Conditions for Declarative Programs.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 167–87. Crossref, https://doi.org/10.1007/978-981-97-2300-3_10."
+    "doi": "10.1145/3732772.3733504",
+    "title": "Brief Announcement: Rise and Shine Efficiently! The Complexity of Adversarial Wake-up.",
+    "venue": "podc 2025",
+    "citation": "Robinson, Peter, and Ming Ming Tan. “Brief Announcement: Rise and Shine Efficiently! The Complexity of Adversarial Wake-Up.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 440–43. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733504."
   },
   {
-    "doi": "10.1007/978-981-97-2300-3_1",
-    "title": "Algebraic Connection Between Logic Programming and Machine Learning (Extended Abstract).",
-    "venue": "flops 2024",
-    "citation": "Inoue, Katsumi. “Algebraic Connection Between Logic Programming and Machine Learning (Extended Abstract).” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 3–9. Crossref, https://doi.org/10.1007/978-981-97-2300-3_1."
+    "doi": "10.1145/3732772.3733550",
+    "title": "You can lie but not deny: SWMR registers with signature properties in systems with Byzantine processes.",
+    "venue": "podc 2025",
+    "citation": "Hu, Xing, and Sam Toueg. “You Can Lie but Not Deny: SWMR Registers with Signature Properties in Systems with Byzantine Processes.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 141–50. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733550."
   },
   {
-    "doi": "10.1007/978-981-97-2300-3_4",
-    "title": "A Complete Dependency Pair Framework for Almost-Sure Innermost Termination of Probabilistic Term Rewriting.",
-    "venue": "flops 2024",
-    "citation": "Kassing, Jan-Christoph, et al. “A Complete Dependency Pair Framework for Almost-Sure Innermost Termination of Probabilistic Term Rewriting.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 62–80. Crossref, https://doi.org/10.1007/978-981-97-2300-3_4."
+    "doi": "10.1145/3732772.3733521",
+    "title": "Distributed Maximum Flow in Planar Graphs.",
+    "venue": "podc 2025",
+    "citation": "Abd-Elhaleem, Yaseen, et al. “Distributed Maximum Flow in Planar Graphs.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 278–86. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733521."
   },
   {
-    "doi": "10.1007/978-981-97-2300-3_12",
-    "title": "MetaOCaml: Ten Years Later - System Description.",
-    "venue": "flops 2024",
-    "citation": "Kiselyov, Oleg. “MetaOCaml: Ten Years Later.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 219–36. Crossref, https://doi.org/10.1007/978-981-97-2300-3_12."
+    "doi": "10.1145/3732772.3733533",
+    "title": "Asynchronous Algorand: Reaching Agreement with Near Linear Communication and Constant Expected Time.",
+    "venue": "podc 2025",
+    "citation": "Abraham, Ittai, et al. “Asynchronous Algorand: Reaching Agreement with Near Linear Communication and Constant Expected Time.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 28–38. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733533."
   },
   {
-    "doi": "10.1007/978-981-97-2300-3_11",
-    "title": "Being Lazy When It Counts - Practical Constant-Time Memory Management for Functional Programming.",
-    "venue": "flops 2024",
-    "citation": "Lam, Chun Kit, and Lionel Parreaux. “Being Lazy When It Counts.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 188–216. Crossref, https://doi.org/10.1007/978-981-97-2300-3_11."
+    "doi": "10.1145/3732772.3733552",
+    "title": "Model Checking and Synthesis for Optimal Use of Knowledge in Consensus Protocols.",
+    "venue": "podc 2025",
+    "citation": "Alpturer, Kaya, et al. “Model Checking and Synthesis for Optimal Use of Knowledge in Consensus Protocols.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 131–40. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733552."
   },
   {
-    "doi": "10.1007/978-981-97-2300-3_16",
-    "title": "System Description: A Theorem-Prover for Subregular Systems: The Language Toolkit and Its Interpreter, Plebby.",
-    "venue": "flops 2024",
-    "citation": "Lambert, Dakotah. “System Description: A Theorem-Prover for Subregular Systems: The Language Toolkit and Its Interpreter, Plebby.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 311–28. Crossref, https://doi.org/10.1007/978-981-97-2300-3_16."
+    "doi": "10.1145/3732772.3733527",
+    "title": "DAG-based Consensus with Asymmetric Trust.",
+    "venue": "podc 2025",
+    "citation": "Amores-Sesar, Ignacio, et al. “DAG-Based Consensus with Asymmetric Trust.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 151–61. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733527."
   },
   {
-    "doi": "10.1007/978-981-97-2300-3_9",
-    "title": "Grants4Companies: Applying Declarative Methods for Recommending and Reasoning About Business Grants in the Austrian Public Administration (System Description).",
-    "venue": "flops 2024",
-    "citation": "Lellmann, Björn, et al. “Grants4Companies: Applying Declarative Methods for Recommending and Reasoning About Business Grants in the Austrian Public Administration (System Description).” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 151–64. Crossref, https://doi.org/10.1007/978-981-97-2300-3_9."
+    "doi": "10.1145/3732772.3733539",
+    "title": "Brief Announcement: Optimal Construction of Unique Identifiers from Bounded Registers.",
+    "venue": "podc 2025",
+    "citation": "Anoprenko, Michael, et al. “Brief Announcement: Optimal Construction of Unique Identifiers from Bounded Registers.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 62–65. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733539."
   },
   {
-    "doi": "10.1007/978-981-97-2300-3_3",
-    "title": "Term Evaluation Systems with Refinements: First-Order, Second-Order, and Contextual Improvement.",
-    "venue": "flops 2024",
-    "citation": "Muroya, Koko, and Makoto Hamana. “Term Evaluation Systems with Refinements: First-Order, Second-Order, and Contextual Improvement.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 31–61. Crossref, https://doi.org/10.1007/978-981-97-2300-3_3."
+    "doi": "10.1145/3732772.3733516",
+    "title": "Auditing without Leaks Despite Curiosity.",
+    "venue": "podc 2025",
+    "citation": "Attiya, Hagit, et al. “Auditing without Leaks Despite Curiosity.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 455–65. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733516."
   },
   {
-    "doi": "10.1007/978-981-97-2300-3_13",
-    "title": "An ML-Style Module System for Cross-Stage Type Abstraction in Multi-stage Programming.",
-    "venue": "flops 2024",
-    "citation": "Suwa, Takashi, and Atsushi Igarashi. “An ML-Style Module System for Cross-Stage Type Abstraction in Multi-Stage Programming.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 237–72. Crossref, https://doi.org/10.1007/978-981-97-2300-3_13."
+    "doi": "10.1145/3732772.3733548",
+    "title": "Solvability Characterization for General Three-Process Tasks.",
+    "venue": "podc 2025",
+    "citation": "Attiya, Hagit, et al. “Solvability Characterization for General Three-Process Tasks.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 488–98. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733548."
   },
   {
-    "doi": "10.1007/978-981-97-2300-3_7",
-    "title": "System Description: DeepLLM, Casting Dialog Threads into Logic Programs.",
-    "venue": "flops 2024",
-    "citation": "Tarau, Paul. “System Description: DeepLLM, Casting Dialog Threads into Logic Programs.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 117–34. Crossref, https://doi.org/10.1007/978-981-97-2300-3_7."
+    "doi": "10.1145/3732772.3733526",
+    "title": "Brief Announcement: Distributed Download from an External Data Source in Byzantine Majority Settings.",
+    "venue": "podc 2025",
+    "citation": "Augustine, John, et al. “Brief Announcement: Distributed Download from an External Data Source in Byzantine Majority Settings.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 166–68. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733526."
   },
   {
-    "doi": "10.1007/978-981-97-2300-3_6",
-    "title": "Declarative Pearl: Rigged Contracts.",
-    "venue": "flops 2024",
-    "citation": "Vandenbroucke, Alexander, and Tom Schrijvers. “Declarative Pearl: Rigged Contracts.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 99–114. Crossref, https://doi.org/10.1007/978-981-97-2300-3_6."
+    "doi": "10.1145/3732772.3733557",
+    "title": "A Space-Time Trade-off for Fast Self-Stabilizing Leader Election in Population Protocols.",
+    "venue": "podc 2025",
+    "citation": "Austin, Henry, et al. “A Space-Time Trade-off for Fast Self-Stabilizing Leader Election in Population Protocols.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 521–31. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733557."
   },
   {
-    "doi": "10.1007/978-981-97-2300-3_5",
-    "title": "Tabulation with Zippers.",
-    "venue": "flops 2024",
-    "citation": "Viera, Marcos, et al. “Tabulation with Zippers.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 83–98. Crossref, https://doi.org/10.1007/978-981-97-2300-3_5."
+    "doi": "10.1145/3732772.3733523",
+    "title": "Brief Announcement: Amnesiac Flooding: Easy to Break, Difficult to Escape.",
+    "venue": "podc 2025",
+    "citation": "Austin, Henry, et al. “Brief Announcement: Amnesiac Flooding: Easy to Break, Difficult to Escape.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 541–44. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733523."
+  },
+  {
+    "doi": "10.1145/3732772.3733561",
+    "title": "Brief Announcement: Robust and Scalable Renaming with Subquadratic Bits.",
+    "venue": "podc 2025",
+    "citation": "Bai, Sirui, et al. “Brief Announcement: Robust and Scalable Renaming with Subquadratic Bits.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 264–67. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733561."
+  },
+  {
+    "doi": "10.1145/3732772.3733499",
+    "title": "Solving Sequential Greedy Problems Distributedly with Sub-Logarithmic Energy Cost.",
+    "venue": "podc 2025",
+    "citation": "Balliu, Alkida, et al. “Solving Sequential Greedy Problems Distributedly with Sub-Logarithmic Energy Cost.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 417–27. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733499."
+  },
+  {
+    "doi": "10.1145/3732772.3733532",
+    "title": "Brief Announcement: Fast and Gas-efficient Private Sealed-bid Auctions.",
+    "venue": "podc 2025",
+    "citation": "Ballweg, Jonas, et al. “Brief Announcement: Fast and Gas-Efficient Private Sealed-Bid Auctions.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 169–72. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733532."
+  },
+  {
+    "doi": "10.1145/3732772.3733560",
+    "title": "Brief Announcement: Energy-Efficient Maximal Independent Sets in Radio Networks.",
+    "venue": "podc 2025",
+    "citation": "Banasik, Dominick, et al. “Brief Announcement: Energy-Efficient Maximal Independent Sets in Radio Networks.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 432–35. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733560."
+  },
+  {
+    "doi": "10.1145/3732772.3733503",
+    "title": "Optimal Local Certification on Graphs of Bounded Pathwidth.",
+    "venue": "podc 2025",
+    "citation": "Baterisna, Dan Alden, and Yi-Jun Chang. “Optimal Local Certification on Graphs of Bounded Pathwidth.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 99–109. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733503."
+  },
+  {
+    "doi": "10.1145/3732772.3733547",
+    "title": "Nearly-Optimal Distributed Ruling Sets for Trees and high-girth graphs.",
+    "venue": "podc 2025",
+    "citation": "Baumecker, Malte, et al. “Nearly-Optimal Distributed Ruling Sets for Trees and High-Girth Graphs.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 88–98. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733547."
+  },
+  {
+    "doi": "10.1145/3732772.3733518",
+    "title": "Byzantine Agreement with Predictions.",
+    "venue": "podc 2025",
+    "citation": "Ben-David, Naama, et al. “Byzantine Agreement with Predictions.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 3–14. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733518."
+  },
+  {
+    "doi": "10.1145/3732772.3733540",
+    "title": "Brief Announcement: Fast Atomic Snapshot and Asynchronous Latency.",
+    "venue": "podc 2025",
+    "citation": "Bezerra, João Paulo, et al. “Brief Announcement: Fast Atomic Snapshot and Asynchronous Latency.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 260–63. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733540."
+  },
+  {
+    "doi": "10.1145/3732772.3733531",
+    "title": "Local Constant Approximation for Dominating Set on Graphs Excluding Large Minors.",
+    "venue": "podc 2025",
+    "citation": "Bonamy, Marthe, et al. “Local Constant Approximation for Dominating Set on Graphs Excluding Large Minors.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 77–87. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733531."
+  },
+  {
+    "doi": "10.1145/3732772.3733537",
+    "title": "Brief Announcement: Optimal Deterministic Rendezvous in Labeled Lines.",
+    "venue": "podc 2025",
+    "citation": "Bourreau, Yann, et al. “Brief Announcement: Optimal Deterministic Rendezvous in Labeled Lines.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 436–39. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733537."
+  },
+  {
+    "doi": "10.1145/3732772.3733530",
+    "title": "Brief Announcement: Distributed Graph Algorithms with Predictions.",
+    "venue": "podc 2025",
+    "citation": "Boyar, Joan, et al. “Brief Announcement: Distributed Graph Algorithms with Predictions.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 322–25. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733530."
+  },
+  {
+    "doi": "10.1145/3732772.3733512",
+    "title": "Brief Announcement: Minimizing Energy Solves Relative Majority with a Cubic Number of States in Population Protocols.",
+    "venue": "podc 2025",
+    "citation": "Breitkopf, Tom-Lukas, et al. “Brief Announcement: Minimizing Energy Solves Relative Majority with a Cubic Number of States in Population Protocols.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 549–52. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733512."
+  },
+  {
+    "doi": "10.1145/3732772.3733515",
+    "title": "Brief Announcement: Local Computation Algorithms for Knapsack: impossibility results, and how to avoid them.",
+    "venue": "podc 2025",
+    "citation": "Canonne, Clément, et al. “Brief Announcement: Local Computation Algorithms for Knapsack: Impossibility Results, and How to Avoid Them.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 372–74. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733515."
+  },
+  {
+    "doi": "10.1145/3732772.3733514",
+    "title": "Asynchronous Fault-Tolerant Language Decidability for Runtime Verification of Distributed Systems.",
+    "venue": "podc 2025",
+    "citation": "Castañeda, Armando, and Gilde Valeria Rodríguez. “Asynchronous Fault-Tolerant Language Decidability for Runtime Verification of Distributed Systems.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 218–29. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733514."
+  },
+  {
+    "doi": "10.1145/3732772.3733522",
+    "title": "Brief Announcement: The Complexity Landscape of Dynamic Distributed Subgraph Finding.",
+    "venue": "podc 2025",
+    "citation": "Chang, Yi-Jun, et al. “Brief Announcement: The Complexity Landscape of Dynamic Distributed Subgraph Finding.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 314–17. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733522."
+  },
+  {
+    "doi": "10.1145/3732772.3733513",
+    "title": "Optimal Distributed Replacement Paths.",
+    "venue": "podc 2025",
+    "citation": "Chang, Yi-Jun, et al. “Optimal Distributed Replacement Paths.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 287–98. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733513."
+  },
+  {
+    "doi": "10.1145/3732772.3733508",
+    "title": "Round and Communication Efficient Graph Coloring.",
+    "venue": "podc 2025",
+    "citation": "Chang, Yi-Jun, et al. “Round and Communication Efficient Graph Coloring.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 360–71. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733508."
+  },
+  {
+    "doi": "10.1145/3732772.3733544",
+    "title": "When is liquid democracy possible?: On the manipulation of variance.",
+    "venue": "podc 2025",
+    "citation": "Chatterjee, Krishnendu, et al. “When Is Liquid Democracy Possible?” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 241–51. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733544."
+  },
+  {
+    "doi": "10.1145/3732772.3733520",
+    "title": "Repeated Agreement is Cheap! On Weak Accountability and Multishot Byzantine Agreement.",
+    "venue": "podc 2025",
+    "citation": "Civit, Pierre, et al. “Repeated Agreement Is Cheap! On Weak Accountability and Multishot Byzantine Agreement.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 15–27. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733520."
+  },
+  {
+    "doi": "10.1145/3732772.3733562",
+    "title": "A tight meta-theorem for LOCAL certification of MSO2 properties within bounded treewidth graphs.",
+    "venue": "podc 2025",
+    "citation": "Cook, Linda, et al. “A Tight Meta-Theorem for LOCAL Certification of MSO2 Properties within Bounded Treewidth Graphs.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 110–20. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733562."
+  },
+  {
+    "doi": "10.1145/3732772.3733543",
+    "title": "Brief Announcement: Fast and Robust Information Spreading in the Noisy PULL Model.",
+    "venue": "podc 2025",
+    "citation": "D’Archivio, Niccolò, et al. “Brief Announcement: Fast and Robust Information Spreading in the Noisy PULL Model.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 545–48. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733543."
+  },
+  {
+    "doi": "10.1145/3732772.3733509",
+    "title": "Quantum Communication Advantage for Leader Election and Agreement.",
+    "venue": "podc 2025",
+    "citation": "Dufoulon, Fabien, et al. “Quantum Communication Advantage for Leader Election and Agreement.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 230–40. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733509."
+  },
+  {
+    "doi": "10.1145/3732772.3733553",
+    "title": "Improved Byzantine Agreement under an Adaptive Adversary.",
+    "venue": "podc 2025",
+    "citation": "Dufoulon, Fabien, and Gopal Pandurangan. “Improved Byzantine Agreement under an Adaptive Adversary.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 173–80. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733553."
+  },
+  {
+    "doi": "10.1145/3732772.3733506",
+    "title": "Message Optimality and Message-Time Trade-offs for APSP and Beyond.",
+    "venue": "podc 2025",
+    "citation": "Dufoulon, Fabien, et al. “Message Optimality and Message-Time Trade-Offs for APSP and Beyond.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 299–309. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733506."
+  },
+  {
+    "doi": "10.1145/3732772.3733505",
+    "title": "An Almost Tight Lower Bound for Plurality Consensus with Undecided State Dynamics in the Population Protocol Model.",
+    "venue": "podc 2025",
+    "citation": "El-Hayek, Antoine, et al. “An Almost Tight Lower Bound for Plurality Consensus with Undecided State Dynamics in the Population Protocol Model.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 532–40. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733505."
+  },
+  {
+    "doi": "10.1145/3732772.3733502",
+    "title": "Brief Announcement: Extending Asynchronous Byzantine Agreement with Crusader Agreement.",
+    "venue": "podc 2025",
+    "citation": "Mizrahi Erbes, Mose, and Roger Wattenhofer. “Brief Announcement: Extending Asynchronous Byzantine Agreement with Crusader Agreement.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 50–53. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733502."
+  },
+  {
+    "doi": "10.1145/3732772.3733517",
+    "title": "Brief Announcement: Using Detectability to Simplify the Design of Concurrent Algorithms for Persistent Memory.",
+    "venue": "podc 2025",
+    "citation": "Fahmy, Ahmed, et al. “Brief Announcement: Using Detectability to Simplify the Design of Concurrent Algorithms for Persistent Memory.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 252–55. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733517."
+  },
+  {
+    "doi": "10.1145/3732772.3733536",
+    "title": "All-to-All Communication with Mobile Edge Adversary: Almost Linearly More Faults, For Free.",
+    "venue": "podc 2025",
+    "citation": "Fischer, Orr, and Merav Parter. “All-to-All Communication with Mobile Edge Adversary: Almost Linearly More Faults, For Free.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 326–36. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733536."
+  },
+  {
+    "doi": "10.1145/3732772.3733549",
+    "title": "Decentralized Distributed Graph Coloring: Cluster Graphs.",
+    "venue": "podc 2025",
+    "citation": "Flin, Maxime, et al. “Decentralized Distributed Graph Coloring: Cluster Graphs.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 394–405. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733549."
+  },
+  {
+    "doi": "10.1145/3732772.3733507",
+    "title": "Brief Announcement: Deciding FO Formulas Efficiently in Congested Networks.",
+    "venue": "podc 2025",
+    "citation": "Fomin, Fedor V., et al. “Brief Announcement: Deciding FO Formulas Efficiently in Congested Networks.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 310–13. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733507."
+  },
+  {
+    "doi": "10.1145/3732772.3733555",
+    "title": "Brief Announcement: Towards Round-Optimal Approximate Agreement on Trees.",
+    "venue": "podc 2025",
+    "citation": "Fuchs, Marc, et al. “Brief Announcement: Towards Round-Optimal Approximate Agreement on Trees.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 54–57. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733555."
+  },
+  {
+    "doi": "10.1145/3732772.3733545",
+    "title": "Brief Announcement: Stranger-Free Tasks.",
+    "venue": "podc 2025",
+    "citation": "Gafni, Eli, et al. “Brief Announcement: Stranger-Free Tasks.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 203–06. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733545."
+  },
+  {
+    "doi": "10.1145/3732772.3733528",
+    "title": "Improving Efficiency in Near-State and State-Optimal Self-Stabilising Leader Election Population Protocols.",
+    "venue": "podc 2025",
+    "citation": "Gasieniec, Leszek, et al. “Improving Efficiency in Near-State and State-Optimal Self-Stabilising Leader Election Population Protocols.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 510–20. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733528."
+  },
+  {
+    "doi": "10.1145/3732772.3733538",
+    "title": "Distributed Freeze Tag: a sustainable solution to discover and wake-up a robot swarm.",
+    "venue": "podc 2025",
+    "citation": "Gavoille, Cyril, et al. “Distributed Freeze Tag: A Sustainable Solution to Discover and Wake-up a Robot Swarm.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 383–93. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733538."
+  },
+  {
+    "doi": "10.1145/3732772.3733551",
+    "title": "Communication-Optimal Convex Agreement.",
+    "venue": "podc 2025",
+    "citation": "Ghinea, Diana, et al. “Communication-Optimal Convex Agreement.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 39–49. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733551."
+  },
+  {
+    "doi": "10.1145/3732772.3733535",
+    "title": "Brief Announcement: New Distributed Interactive Proofs for Planarity: A Matter of Left and Right.",
+    "venue": "podc 2025",
+    "citation": "Gil, Yuval, and Merav Parter. “Brief Announcement: New Distributed Interactive Proofs for Planarity: A Matter of Left and Right.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 375–78. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733535."
+  },
+  {
+    "doi": "10.1145/3732772.3733564",
+    "title": "Brief Announcement: Self-Stabilizing Recoverable Mutual Exclusion.",
+    "venue": "podc 2025",
+    "citation": "Golab, Wojciech, and Elad Michael Schiller. “Brief Announcement: Self-Stabilizing Recoverable Mutual Exclusion.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 256–59. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733564."
+  },
+  {
+    "doi": "10.1145/3732772.3733519",
+    "title": "Brief Announcement: Towards Optimal Distributed Delta Coloring.",
+    "venue": "podc 2025",
+    "citation": "Jakob, Manuel, and Yannic Maus. “Brief Announcement: Towards Optimal Distributed Delta Coloring.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 318–21. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733519."
+  },
+  {
+    "doi": "10.1145/3732772.3733558",
+    "title": "Deterministic Distributed DFS via Cycle Separators in Planar Graphs.",
+    "venue": "podc 2025",
+    "citation": "Jauregui, Benjamin, et al. “Deterministic Distributed DFS via Cycle Separators in Planar Graphs.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 268–77. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733558."
+  },
+  {
+    "doi": "10.1145/3732772.3733563",
+    "title": "On Interplanetary and Relativistic Distributed Computing.",
+    "venue": "podc 2025",
+    "citation": "Jayanti, Siddhartha Visveswara. “On Interplanetary and Relativistic Distributed Computing.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 192–202. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733563."
+  },
+  {
+    "doi": "10.1145/3732772.3733542",
+    "title": "A Shared Archive of Snapshots.",
+    "venue": "podc 2025",
+    "citation": "Jayanti, Prasad, and Siddhartha Visveswara Jayanti. “A Shared Archive of Snapshots.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 466–76. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733542."
+  },
+  {
+    "doi": "10.1145/3732772.3733554",
+    "title": "Brief Announcement: Towards Energy-Efficient Distributed Agreement.",
+    "venue": "podc 2025",
+    "citation": "Mirault, Hugo, and Peter Robinson. “Brief Announcement: Towards Energy-Efficient Distributed Agreement.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 428–31. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733554."
+  },
+  {
+    "doi": "10.1145/3732772.3733546",
+    "title": "Brief Announcement: Strong and Hiding Distributed Certification of k-Coloring.",
+    "venue": "podc 2025",
+    "citation": "Modanese, Augusto, et al. “Brief Announcement: Strong and Hiding Distributed Certification of $k$-Coloring.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 379–82. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733546."
+  },
+  {
+    "doi": "10.1145/3732772.3733529",
+    "title": "Tight Bounds on Channel Reliability via Generalized Quorum Systems.",
+    "venue": "podc 2025",
+    "citation": "Naser-Pastoriza, Alejandro, et al. “Tight Bounds on Channel Reliability via Generalized Quorum Systems.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 444–54. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733529."
+  },
+  {
+    "doi": "10.1145/3732772.3733534",
+    "title": "An Exact Characterization of the Two-shot Deterministic Objects Solving Two-process Consensus.",
+    "venue": "podc 2025",
+    "citation": "Nguyen, Minh Tung, and Pierre Sutra. “An Exact Characterization of the Two-Shot Deterministic Objects Solving Two-Process Consensus.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 477–87. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733534."
+  },
+  {
+    "doi": "10.1145/3732772.3733500",
+    "title": "Perfectly-secure Network-agnostic MPC with Optimal Resiliency.",
+    "venue": "podc 2025",
+    "citation": "Patil, Shravani, and Arpita Patra. “Perfectly-Secure Network-Agnostic MPC with Optimal Resiliency.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 121–30. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733500."
+  },
+  {
+    "doi": "10.1145/3732772.3733510",
+    "title": "Sublinear-Time Sampling of Spanning Trees in the Congested Clique.",
+    "venue": "podc 2025",
+    "citation": "Pemmaraju, Sriram V., et al. “Sublinear-Time Sampling of Spanning Trees in the Congested Clique.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 337–48. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733510."
+  },
+  {
+    "doi": "10.1145/3732772.3733541",
+    "title": "Brief Announcement: Revisiting Lower Bounds for Two-Step Consensus.",
+    "venue": "podc 2025",
+    "citation": "Ryabinin, Fedor, et al. “Brief Announcement: Revisiting Lower Bounds for Two-Step Consensus.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 58–61. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733541."
+  },
+  {
+    "doi": "10.1145/3732772.3733511",
+    "title": "3-Majority and 2-Choices with Many Opinions.",
+    "venue": "podc 2025",
+    "citation": "Shimizu, Nobutaka, and Takeharu Shiraga. “3-Majority and 2-Choices with Many Opinions.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 207–17. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733511."
+  },
+  {
+    "doi": "10.1145/3732772.3733524",
+    "title": "Clock Distribution with Gradient TRIX.",
+    "venue": "podc 2025",
+    "citation": "Srinivas, Shreyas, and Christoph Lenzen. “Clock Distribution with Gradient TRIX.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 499–509. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733524."
+  },
+  {
+    "doi": "10.1145/3732772.3733559",
+    "title": "Minimalist Leader Election Under Weak Communication.",
+    "venue": "podc 2025",
+    "citation": "Vacus, Robin, and Isabella Ziccardi. “Minimalist Leader Election Under Weak Communication.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 406–16. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733559."
+  },
+  {
+    "doi": "10.1007/978-3-031-91736-3_1",
+    "title": "Support + Belief = Decision Trust.",
+    "venue": "sirocco 2025",
+    "citation": "Aldini, Alessandro, et al. “Support + Belief = Decision Trust.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 3–22. Crossref, https://doi.org/10.1007/978-3-031-91736-3_1."
+  },
+  {
+    "doi": "10.1007/978-3-031-91736-3_2",
+    "title": "Asynchronous Byzantine Consensus with Trusted Monotonic Counters.",
+    "venue": "sirocco 2025",
+    "citation": "Amoussou-Guenou, Yackolley, et al. “Asynchronous Byzantine Consensus with Trusted Monotonic Counters.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 23–38. Crossref, https://doi.org/10.1007/978-3-031-91736-3_2."
+  },
+  {
+    "doi": "10.1007/978-3-031-91736-3_3",
+    "title": "Sublinear-Time Collision Detection with a Polynomial Number of States in Population Protocols.",
+    "venue": "sirocco 2025",
+    "citation": "Araya, Takumi, and Yuichi Sudo. “Sublinear-Time Collision Detection with a Polynomial Number of States in Population Protocols.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 39–55. Crossref, https://doi.org/10.1007/978-3-031-91736-3_3."
+  },
+  {
+    "doi": "10.1007/978-3-031-91736-3_4",
+    "title": "On the Existence of Extension-Based Proofs of Impossibility for Set-Agreement.",
+    "venue": "sirocco 2025",
+    "citation": "Attiya, Hagit, et al. “On the Existence of Extension-Based Proofs of Impossibility for Set-Agreement.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 56–73. Crossref, https://doi.org/10.1007/978-3-031-91736-3_4."
+  },
+  {
+    "doi": "10.1007/978-3-031-91736-3_5",
+    "title": "Exploration of Convex Terrains by a Deterministic Automaton with Pebbles.",
+    "venue": "sirocco 2025",
+    "citation": "Baaziz, Mohamed Anouar, and Andrzej Pelc. “Exploration of Convex Terrains by a Deterministic Automaton with Pebbles.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 74–91. Crossref, https://doi.org/10.1007/978-3-031-91736-3_5."
+  },
+  {
+    "doi": "10.1007/978-3-031-91736-3_6",
+    "title": "Explicit Token-Based Communication for Mobile Entities.",
+    "venue": "sirocco 2025",
+    "citation": "Balamohan, Balasingham, et al. “Explicit Token-Based Communication for Mobile Entities.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 92–108. Crossref, https://doi.org/10.1007/978-3-031-91736-3_6."
+  },
+  {
+    "doi": "10.1007/978-3-031-91736-3_25",
+    "title": "Brief Announcement: Relaxation for Efficient Asynchronous Queues.",
+    "venue": "sirocco 2025",
+    "citation": "Baldwin, Samuel, et al. “Brief Announcement: Relaxation for Efficient Asynchronous Queues.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 419–24. Crossref, https://doi.org/10.1007/978-3-031-91736-3_25."
+  },
+  {
+    "doi": "10.1007/978-3-031-91736-3_7",
+    "title": "Red-Blue Pebbling with Multiple Processors: Time, Communication and Memory Trade-Offs.",
+    "venue": "sirocco 2025",
+    "citation": "Böhnlein, Toni, et al. “Red-Blue Pebbling with Multiple Processors: Time, Communication and Memory Trade-Offs.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 109–26. Crossref, https://doi.org/10.1007/978-3-031-91736-3_7."
+  },
+  {
+    "doi": "10.1007/978-3-031-91736-3_8",
+    "title": "Deterministic Color-Optimal Self-stabilizing Semi-synchronous Gathering: A Certified Algorithm.",
+    "venue": "sirocco 2025",
+    "citation": "Bonnet, François, et al. “Deterministic Color-Optimal Self-Stabilizing Semi-Synchronous Gathering: A Certified Algorithm.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 127–43. Crossref, https://doi.org/10.1007/978-3-031-91736-3_8."
+  },
+  {
+    "doi": "10.1007/978-3-031-91736-3_9",
+    "title": "Approximating Independent Sets in Constant Distributed Rounds.",
+    "venue": "sirocco 2025",
+    "citation": "Boppana, Ravi B., and Magnús M. Halldórsson. “Approximating Independent Sets in Constant Distributed Rounds.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 144–58. Crossref, https://doi.org/10.1007/978-3-031-91736-3_9."
+  },
+  {
+    "doi": "10.1007/978-3-031-91736-3_10",
+    "title": "A Visibility vs. Memory Trade-Off for Stand-Up Indulgent Gathering on Lines.",
+    "venue": "sirocco 2025",
+    "citation": "Bramas, Quentin, et al. “A Visibility vs. Memory Trade-Off for Stand-Up Indulgent Gathering on Lines.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 159–75. Crossref, https://doi.org/10.1007/978-3-031-91736-3_10."
+  },
+  {
+    "doi": "10.1007/978-3-031-91736-3_11",
+    "title": "Simplicial Belief.",
+    "venue": "sirocco 2025",
+    "citation": "Cachin, Christian, et al. “Simplicial Belief.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 176–93. Crossref, https://doi.org/10.1007/978-3-031-91736-3_11."
+  },
+  {
+    "doi": "10.1007/978-3-031-91736-3_12",
+    "title": "When MIS and Maximal Matching are Easy in the Congested Clique.",
+    "venue": "sirocco 2025",
+    "citation": "Censor-Hillel, Keren, et al. “When MIS and Maximal Matching Are Easy in the Congested Clique.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 194–210. Crossref, https://doi.org/10.1007/978-3-031-91736-3_12."
+  },
+  {
+    "doi": "10.1007/978-3-031-91736-3_13",
+    "title": "Bankrupting DoS Attackers.",
+    "venue": "sirocco 2025",
+    "citation": "Chakraborty, Trisha, et al. “Bankrupting DoS Attackers.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 211–27. Crossref, https://doi.org/10.1007/978-3-031-91736-3_13."
+  },
+  {
+    "doi": "10.1007/978-3-031-91736-3_14",
+    "title": "Low-Distortion Clustering in Bounded Growth Graphs.",
+    "venue": "sirocco 2025",
+    "citation": "Chang, Yi-Jun, et al. “Low-Distortion Clustering in Bounded Growth Graphs.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 228–44. Crossref, https://doi.org/10.1007/978-3-031-91736-3_14."
+  },
+  {
+    "doi": "10.1007/978-3-031-91736-3_15",
+    "title": "Multimodal Search on a Line.",
+    "venue": "sirocco 2025",
+    "citation": "Coleman, Jared, et al. “Multimodal Search on a Line.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 245–61. Crossref, https://doi.org/10.1007/978-3-031-91736-3_15."
+  },
+  {
+    "doi": "10.1007/978-3-031-91736-3_16",
+    "title": "Multi-agent Disk Inspection.",
+    "venue": "sirocco 2025",
+    "citation": "Conley, James, and Konstantinos Georgiou. “Multi-Agent Disk Inspection.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 262–80. Crossref, https://doi.org/10.1007/978-3-031-91736-3_16."
+  },
+  {
+    "doi": "10.1007/978-3-031-91736-3_26",
+    "title": "Brief Announcement: A Sheaf-Theoretic Characterization of Tasks in Distributed Systems.",
+    "venue": "sirocco 2025",
+    "citation": "Felber, Stephan, et al. “Brief Announcement: A Sheaf-Theoretic Characterization of Tasks in Distributed Systems.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 425–30. Crossref, https://doi.org/10.1007/978-3-031-91736-3_26."
+  },
+  {
+    "doi": "10.1007/978-3-031-91736-3_17",
+    "title": "Pointer Chasing with Unlimited Interaction.",
+    "venue": "sirocco 2025",
+    "citation": "Fischer, Orr, et al. “Pointer Chasing with Unlimited Interaction.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 281–96. Crossref, https://doi.org/10.1007/978-3-031-91736-3_17."
+  },
+  {
+    "doi": "10.1007/978-3-031-91736-3_18",
+    "title": "Oblivious Robots Under Sequential Schedulers: Universal Pattern Formation.",
+    "venue": "sirocco 2025",
+    "citation": "Flocchini, Paola, et al. “Oblivious Robots Under Sequential Schedulers: Universal Pattern Formation.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 297–314. Crossref, https://doi.org/10.1007/978-3-031-91736-3_18."
+  },
+  {
+    "doi": "10.1007/978-3-031-91736-3_19",
+    "title": "On the Dynamical Hierarchy in Gathering Protocols with Circulant Topologies.",
+    "venue": "sirocco 2025",
+    "citation": "Gerlach, Raphael, et al. “On the Dynamical Hierarchy in Gathering Protocols with Circulant Topologies.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 315–32. Crossref, https://doi.org/10.1007/978-3-031-91736-3_19."
+  },
+  {
+    "doi": "10.1007/978-3-031-91736-3_20",
+    "title": "Low-Bandwidth Matrix Multiplication: Faster Algorithms and More General Forms of Sparsity.",
+    "venue": "sirocco 2025",
+    "citation": "Gupta, Chetan, et al. “Low-Bandwidth Matrix Multiplication: Faster Algorithms and More General Forms of Sparsity.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 333–49. Crossref, https://doi.org/10.1007/978-3-031-91736-3_20."
+  },
+  {
+    "doi": "10.1007/978-3-031-91736-3_27",
+    "title": "Brief Announcement: Hardness of Approximate Vertex Ranking by Betweenness Centrality in the CONGEST Model.",
+    "venue": "sirocco 2025",
+    "citation": "Kawashima, Yuki, et al. “Brief Announcement: Hardness of Approximate Vertex Ranking by Betweenness Centrality in the CONGEST Model.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 431–36. Crossref, https://doi.org/10.1007/978-3-031-91736-3_27."
+  },
+  {
+    "doi": "10.1007/978-3-031-91736-3_21",
+    "title": "Lower Bounds for Uniform Read-Once Threshold Formulae in the Randomized Decision Tree Model.",
+    "venue": "sirocco 2025",
+    "citation": "Leonardos, Nikos. “Lower Bounds for Uniform Read-Once Threshold Formulae in the Randomized Decision Tree Model.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 350–65. Crossref, https://doi.org/10.1007/978-3-031-91736-3_21."
+  },
+  {
+    "doi": "10.1007/978-3-031-91736-3_22",
+    "title": "Distributed Distance Sensitivity Oracles.",
+    "venue": "sirocco 2025",
+    "citation": "Manoharan, Vignesh, and Vijaya Ramachandran. “Distributed Distance Sensitivity Oracles.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 366–83. Crossref, https://doi.org/10.1007/978-3-031-91736-3_22."
+  },
+  {
+    "doi": "10.1007/978-3-031-91736-3_28",
+    "title": "Brief Announcement: Perfect Matching with Few Link Activations.",
+    "venue": "sirocco 2025",
+    "citation": "Mirault, Hugo, et al. “Brief Announcement: Perfect Matching with Few Link Activations.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 437–43. Crossref, https://doi.org/10.1007/978-3-031-91736-3_28."
+  },
+  {
+    "doi": "10.1007/978-3-031-91736-3_24",
+    "title": "Labeling Embeddings of Planar Graphs for Face-Adjacency.",
+    "venue": "sirocco 2025",
+    "citation": "Šimić, Borna, and Roger Wattenhofer. “Labeling Embeddings of Planar Graphs for Face-Adjacency.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 401–15. Crossref, https://doi.org/10.1007/978-3-031-91736-3_24."
+  },
+  {
+    "doi": "10.1007/978-3-031-91736-3_23",
+    "title": "Self-stabilizing Graph Exploration by a Single Agent.",
+    "venue": "sirocco 2025",
+    "citation": "Sudo, Yuichi, et al. “Self-Stabilizing Graph Exploration by a Single Agent.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 384–400. Crossref, https://doi.org/10.1007/978-3-031-91736-3_23."
   }
 ]
