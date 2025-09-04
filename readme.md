@@ -26,7 +26,7 @@ student organization.
 
 ## Everyday use
 
-**Common commands**
+### Common commands
 
 | Command                    | Effect                                                 |
 |:---------------------------|--------------------------------------------------------|
@@ -58,8 +58,7 @@ You can use this to discover conferences by browsing DBLP.
 **Notes.**
 -   Venues other than conferences (e.g. journals) are not supported at the moment.
 -   This software identifies papers by their DOI,
-    so conferences that do not register their papers with the DOI Foundation are
-    not supported.
+    so conferences that do not register DOIs for their papers are not supported.
 
 ### Filtering papers by keywords
 
@@ -116,7 +115,7 @@ Light maintenance is needed between semesters/reading periods.
 
 ### Start of semester
 
-1.  **Archive the previous semester.**
+1.  Archive the previous semester:
     Run the script to archive the most recent semester
     ``` bash
     bash archive_semester.sh <SEMESTER> <YEAR>
@@ -126,7 +125,7 @@ Light maintenance is needed between semesters/reading periods.
     copy the reading group info for the past semester to that directory and
     clear the automatically generated files in `docs/`.
 
-2.  **Clear the Schedule.**
+2.  Clear the Schedule:
     Edit the schedule (the table at the bottom of `docs/index.md`).
     Adjust dates, locations etc. as appropriate.
     Fill the description colum with a placeholder.
@@ -139,9 +138,9 @@ Light maintenance is needed between semesters/reading periods.
     to a regular expression which matches your placeholder
     (and no other part of `index.md`).
 
-3.  **Edit** `readme.md` to reflect information about the new semester.
+3.  Edit `readme.md` to reflect information about the new semester.
 
-4.  **Enable** one of the paper selection [workflow](#using-the-workflows).
+4.  Enable one of the paper selection [workflows](#using-the-workflows).
 
 ### End of semester
 
@@ -149,7 +148,7 @@ Disable the configured workflow.
 
 ## Editing
 
-**Development commands**
+### Development commands
 
 | Command          | Effect                                                       |
 |:-----------------|--------------------------------------------------------------|
@@ -275,13 +274,13 @@ The relevant GitHub actions is "Random paper".
 
 Complete the following steps to activate the automated actions.
 
-+   **Enable workflow permissions** in _settings > actions > general_:
++   Enable workflow permissions in _settings > actions > general_:
     -   choose "Read and write permissions"
     -   check "Allow GitHub Actions to create and approve pull requests
-+   **Create environment secrets and variables**,
++   Create environment secrets and variables
     with empty default values, in _settings > secrets and variables > actions_:
     -   secrets: `DISCORD_WEBHOOK_URL` and `AUTOMERGE_PAT`
     -   variables: `PAPER_CHOOSE_ON` and `PAPER_VOTE_ON` and `REVIEWERS` and
         `OPTIONS` and `OPTION_COUNT`
-+   **Configure a paper selection workflow** as described above to enable
++   Configure a paper selection workflow as described above to enable
     automated paper suggestions.

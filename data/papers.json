@@ -3948,6 +3948,336 @@
     "citation": "Vacus, Robin, and Isabella Ziccardi. “Minimalist Leader Election Under Weak Communication.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 406–16. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, https://doi.org/10.1145/3732772.3733559."
   },
   {
+    "doi": "10.4230/LIPICS.DISC.2024.43",
+    "title": "Brief Announcement: Unifying Partial Synchrony.",
+    "venue": "wdag 2024",
+    "citation": "Constantinescu, Andrei, et al. Brief Announcement: Unifying Partial Synchrony. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.43."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.15",
+    "title": "Convex Consensus with Asynchronous Fallback.",
+    "venue": "wdag 2024",
+    "citation": "Constantinescu, Andrei, et al. Convex Consensus with Asynchronous Fallback. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.15."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.53",
+    "title": "Brief Announcement: Concurrent Aggregate Queries.",
+    "venue": "wdag 2024",
+    "citation": "Sela, Gal, and Erez Petrank. Brief Announcement: Concurrent Aggregate Queries. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.53."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.51",
+    "title": "Brief Announcement: Clock Distribution with Gradient TRIX.",
+    "venue": "wdag 2024",
+    "citation": "Lenzen, Christoph, and Shreyas Srinivas. Brief Announcement: Clock Distribution with Gradient TRIX. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.51."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.45",
+    "title": "Brief Announcement: Best-Possible Unpredictable Proof-Of-Stake.",
+    "venue": "wdag 2024",
+    "citation": "Fan, Lei, et al. Brief Announcement: Best-Possible Unpredictable Proof-Of-Stake. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.45."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.40",
+    "title": "Brief Announcement: Distributed Maximum Flow in Planar Graphs.",
+    "venue": "wdag 2024",
+    "citation": "Abd-Elhaleem, Yaseen, et al. Brief Announcement: Distributed Maximum Flow in Planar Graphs. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.40."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.41",
+    "title": "Brief Announcement: Towards Optimal Communication Byzantine Reliable Broadcast Under a Message Adversary.",
+    "venue": "wdag 2024",
+    "citation": "Albouy, Timothé, et al. Brief Announcement: Towards Optimal Communication Byzantine Reliable Broadcast Under a Message Adversary. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.41."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.2",
+    "title": "A Knowledge-Based Analysis of Intersection Protocols.",
+    "venue": "wdag 2024",
+    "citation": "Alpturer, Kaya, et al. A Knowledge-Based Analysis of Intersection Protocols. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.2."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.42",
+    "title": "Brief Announcement: Solvability of Three-Process General Tasks.",
+    "venue": "wdag 2024",
+    "citation": "Attiya, Hagit, et al. Brief Announcement: Solvability of Three-Process General Tasks. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.42."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.3",
+    "title": "Byzantine Resilient Distributed Computing on External Data.",
+    "venue": "wdag 2024",
+    "citation": "Augustine, John, et al. Byzantine Resilient Distributed Computing on External Data. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.3."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.4",
+    "title": "Almost Optimal Algorithms for Token Collision in Anonymous Networks.",
+    "venue": "wdag 2024",
+    "citation": "Bai, Sirui, et al. Almost Optimal Algorithms for Token Collision in Anonymous Networks. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.4."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.5",
+    "title": "Asynchronous Fault-Tolerant Distributed Proper Coloring of Graphs.",
+    "venue": "wdag 2024",
+    "citation": "Balliu, Alkida, et al. Asynchronous Fault-Tolerant Distributed Proper Coloring of Graphs. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.5."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.6",
+    "title": "Speedup of Distributed Algorithms for Power Graphs in the CONGEST Model.",
+    "venue": "wdag 2024",
+    "citation": "Barenboim, Leonid, and Uri Goldenberg. Speedup of Distributed Algorithms for Power Graphs in the CONGEST Model. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.6."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.7",
+    "title": "A Fully Concurrent Adaptive Snapshot Object for RMWable Shared-Memory.",
+    "venue": "wdag 2024",
+    "citation": "Bashari, Benyamin, et al. A Fully Concurrent Adaptive Snapshot Object for RMWable Shared-Memory. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.7."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.9",
+    "title": "Freeze-Tag in L₁ Has Wake-Up Time Five with Linear Complexity.",
+    "venue": "wdag 2024",
+    "citation": "Bonichon, Nicolas, et al. Freeze-Tag in L₁ Has Wake-Up Time Five with Linear Complexity. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.9."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.10",
+    "title": "Vertical Atomic Broadcast and Passive Replication.",
+    "venue": "wdag 2024",
+    "citation": "Bravo, Manuel, et al. Vertical Atomic Broadcast and Passive Replication. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.10."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.11",
+    "title": "What Cannot Be Implemented on Weak Memory?",
+    "venue": "wdag 2024",
+    "citation": "Castañeda, Armando, et al. What Cannot Be Implemented on Weak Memory? With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.11."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.12",
+    "title": "Faster Cycle Detection in the Congested Clique.",
+    "venue": "wdag 2024",
+    "citation": "Censor-Hillel, Keren, et al. Faster Cycle Detection in the Congested Clique. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.12."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.13",
+    "title": "Deterministic Self-Stabilising Leader Election for Programmable Matter with Constant Memory.",
+    "venue": "wdag 2024",
+    "citation": "Chalopin, Jérémie, et al. Deterministic Self-Stabilising Leader Election for Programmable Matter with Constant Memory. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.13."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.14",
+    "title": "Efficient Signature-Free Validated Agreement.",
+    "venue": "wdag 2024",
+    "citation": "Civit, Pierre, et al. Efficient Signature-Free Validated Agreement. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.14."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.16",
+    "title": "A Simple Computability Theorem for Colorless Tasks in Submodels of the Iterated Immediate Snapshot.",
+    "venue": "wdag 2024",
+    "citation": "Coutouly, Yannis, and Emmanuel Godard. A Simple Computability Theorem for Colorless Tasks in Submodels of the Iterated Immediate Snapshot. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.16."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.17",
+    "title": "Breaking Through the Ω(n)-Space Barrier: Population Protocols Decide Double-Exponential Thresholds.",
+    "venue": "wdag 2024",
+    "citation": "Czerner, Philipp. Breaking Through the Ω(n)-Space Barrier: Population Protocols Decide Double-Exponential Thresholds. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.17."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.44",
+    "title": "Brief Announcement: The Expressive Power of Uniform Population Protocols with Logarithmic Space.",
+    "venue": "wdag 2024",
+    "citation": "Czerner, Philipp, et al. Brief Announcement: The Expressive Power of Uniform Population Protocols with Logarithmic Space. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.44."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.18",
+    "title": "On the Limits of Information Spread by Memory-Less Agents.",
+    "venue": "wdag 2024",
+    "citation": "D’Archivio, Niccolò, and Robin Vacus. On the Limits of Information Spread by Memory-Less Agents. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.18."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.19",
+    "title": "Parallel Set Cover and Hypergraph Matching via Uniform Random Sampling.",
+    "venue": "wdag 2024",
+    "citation": "Dhulipala, Laxman, et al. Parallel Set Cover and Hypergraph Matching via Uniform Random Sampling. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.19."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.20",
+    "title": "The Computational Power of Discrete Chemical Reaction Networks with Bounded Executions.",
+    "venue": "wdag 2024",
+    "citation": "Doty, David, and Ben Heckmann. The Computational Power of Discrete Chemical Reaction Networks with Bounded Executions. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.20."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.21",
+    "title": "Broadcast and Consensus in Stochastic Dynamic Networks with Byzantine Nodes and Adversarial Edges.",
+    "venue": "wdag 2024",
+    "citation": "El-Hayek, Antoine, et al. Broadcast and Consensus in Stochastic Dynamic Networks with Byzantine Nodes and Adversarial Edges. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.21."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.22",
+    "title": "On the Power of Graphical Reconfigurable Circuits.",
+    "venue": "wdag 2024",
+    "citation": "Emek, Yuval, et al. On the Power of Graphical Reconfigurable Circuits. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.22."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.23",
+    "title": "Lock-Free Augmented Trees.",
+    "venue": "wdag 2024",
+    "citation": "Fatourou, Panagiota, and Eric Ruppert. Lock-Free Augmented Trees. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.23."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.46",
+    "title": "Brief Announcement: Optimal Uniform Circle Formation by Asynchronous Luminous Robots.",
+    "venue": "wdag 2024",
+    "citation": "Feletti, Caterina, et al. Brief Announcement: Optimal Uniform Circle Formation by Asynchronous Luminous Robots. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.46."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.24",
+    "title": "Decentralized Distributed Graph Coloring II: Degree+1-Coloring Virtual Graphs.",
+    "venue": "wdag 2024",
+    "citation": "Flin, Maxime, et al. Decentralized Distributed Graph Coloring II: Degree+1-Coloring Virtual Graphs. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.24."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.25",
+    "title": "Distributed Model Checking on Graphs of Bounded Treedepth.",
+    "venue": "wdag 2024",
+    "citation": "Fomin, Fedor V., et al. Distributed Model Checking on Graphs of Bounded Treedepth. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.25."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.47",
+    "title": "Brief Announcement: Agreement Tasks in Fault-Prone Synchronous Networks of Arbitrary Structures.",
+    "venue": "wdag 2024",
+    "citation": "Fraigniaud, Pierre, et al. Brief Announcement: Agreement Tasks in Fault-Prone Synchronous Networks of Arbitrary Structures. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.47."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.48",
+    "title": "Brief Announcement: Distinct Gathering Under Round Robin.",
+    "venue": "wdag 2024",
+    "citation": "Frei, Fabian, and Koichi Wada. Brief Announcement: Distinct Gathering Under Round Robin. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.48."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.26",
+    "title": "Content-Oblivious Leader Election on Rings.",
+    "venue": "wdag 2024",
+    "citation": "Frei, Fabian, et al. Content-Oblivious Leader Election on Rings. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.26."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.27",
+    "title": "Sorting in One and Two Rounds Using t-Comparators.",
+    "venue": "wdag 2024",
+    "citation": "Gelles, Ran, et al. Sorting in One and Two Rounds Using T-Comparators. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.27."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.28",
+    "title": "Self-Stabilizing MIS Computation in the Beeping Model.",
+    "venue": "wdag 2024",
+    "citation": "Giakkoupis, George, et al. Self-Stabilizing MIS Computation in the Beeping Model. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.28."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.29",
+    "title": "Massively Parallel Ruling Set Made Deterministic.",
+    "venue": "wdag 2024",
+    "citation": "Giliberti, Jeff, and Zahra Parsaeian. Massively Parallel Ruling Set Made Deterministic. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.29."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.30",
+    "title": "Granular Synchrony.",
+    "venue": "wdag 2024",
+    "citation": "Giridharan, Neil, et al. Granular Synchrony. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.30."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.31",
+    "title": "Distributed Delta-Coloring Under Bandwidth Limitations.",
+    "venue": "wdag 2024",
+    "citation": "Halldórsson, Magnús M., and Yannic Maus. Distributed Delta-Coloring Under Bandwidth Limitations. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.31."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.49",
+    "title": "Brief Announcement: Decreasing Verification Radius in Local Certification.",
+    "venue": "wdag 2024",
+    "citation": "Křišťan, Jan Matyáš, and Josef Erik Sedláček. Brief Announcement: Decreasing Verification Radius in Local Certification. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.49."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.50",
+    "title": "Brief Announcement: Agent-Based Leader Election, MST, and Beyond.",
+    "venue": "wdag 2024",
+    "citation": "Kshemkalyani, Ajay D., et al. Brief Announcement: Agent-Based Leader Election, MST, and Beyond. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.50."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.32",
+    "title": "Quantum Byzantine Agreement Against Full-Information Adversary.",
+    "venue": "wdag 2024",
+    "citation": "Li, Longcheng, et al. Quantum Byzantine Agreement Against Full-Information Adversary. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.32."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.52",
+    "title": "Brief Announcement: Reconfigurable Heterogeneous Quorum Systems.",
+    "venue": "wdag 2024",
+    "citation": "Li, Xiao, and Mohsen Lesani. Brief Announcement: Reconfigurable Heterogeneous Quorum Systems. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.52."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.33",
+    "title": "Communication Requirements for Linearizable Registers.",
+    "venue": "wdag 2024",
+    "citation": "Nataf, Raïssa, and Yoram Moses. Communication Requirements for Linearizable Registers. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.33."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.34",
+    "title": "Single Bridge Formation in Self-Organizing Particle Systems.",
+    "venue": "wdag 2024",
+    "citation": "Oh, Shunhao, et al. Single Bridge Formation in Self-Organizing Particle Systems. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.34."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.35",
+    "title": "Memory Lower Bounds and Impossibility Results for Anonymous Dynamic Broadcast.",
+    "venue": "wdag 2024",
+    "citation": "Parzych, Garrett, and Joshua J. Daymude. Memory Lower Bounds and Impossibility Results for Anonymous Dynamic Broadcast. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.35."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.36",
+    "title": "Connectivity Labeling in Faulty Colored Graphs.",
+    "venue": "wdag 2024",
+    "citation": "Petruschka, Asaf, et al. Connectivity Labeling in Faulty Colored Graphs. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.36."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.54",
+    "title": "Brief Announcement: Colorless Tasks and Extension-Based Proofs.",
+    "venue": "wdag 2024",
+    "citation": "Shi, Yusong, and Weidong Liu. Brief Announcement: Colorless Tasks and Extension-Based Proofs. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.54."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.8",
+    "title": "Hyperproperty-Preserving Register Specifications.",
+    "venue": "wdag 2024",
+    "citation": "Ben Shimon, Yoav, et al. Hyperproperty-Preserving Register Specifications. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.8."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.37",
+    "title": "Sing a Song of Simplex.",
+    "venue": "wdag 2024",
+    "citation": "Shoup, Victor. Sing a Song of Simplex. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.37."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.55",
+    "title": "Brief Announcement: Self-Stabilizing Graph Exploration by a Single Agent.",
+    "venue": "wdag 2024",
+    "citation": "Sudo, Yuichi, et al. Brief Announcement: Self-Stabilizing Graph Exploration by a Single Agent. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.55."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.38",
+    "title": "Near-Linear Time Dispersion of Mobile Agents.",
+    "venue": "wdag 2024",
+    "citation": "Sudo, Yuichi, et al. Near-Linear Time Dispersion of Mobile Agents. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.38."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.1",
+    "title": "Fully Local Succinct Distributed Arguments.",
+    "venue": "wdag 2024",
+    "citation": "Aldema Tshuva, Eden, and Rotem Oshman. Fully Local Succinct Distributed Arguments. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.1."
+  },
+  {
+    "doi": "10.4230/LIPICS.DISC.2024.39",
+    "title": "The Power of Abstract MAC Layer: A Fault-Tolerance Perspective.",
+    "venue": "wdag 2024",
+    "citation": "Zhang, Qinzi, and Lewis Tseng. The Power of Abstract MAC Layer: A Fault-Tolerance Perspective. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, https://doi.org/10.4230/LIPICS.DISC.2024.39."
+  },
+  {
     "doi": "10.1007/978-3-031-91736-3_1",
     "title": "Support + Belief = Decision Trust.",
     "venue": "sirocco 2025",
