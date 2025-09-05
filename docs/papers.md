@@ -1,2 +1,3 @@
 1. Ahrens, Emma, et al. Weighted Rewriting: Semiring Semantics for Abstract Reduction Systems. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, <https://doi.org/10.4230/LIPICS.FSCD.2025.6>.
 1. Xu, Qiyuan, et al. “Generically Automating Separation Logic by Functors, Homomorphisms, and Modules.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1992–2024. Crossref, <https://doi.org/10.1145/3704903>.
+1. Kidney, Donnacha Oisín, and Nicolas Wu. “Formalising Graph Algorithms with Coinduction.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1657–86. Crossref, <https://doi.org/10.1145/3704892>.
