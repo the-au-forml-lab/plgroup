@@ -34,7 +34,7 @@ organization.
 | 2.  | August 29    | Weighted Rewriting: Semiring Semantics for Abstract Reduction Systems.    | UH227 (Fishbowl) |
 | 3.  | September 5  | Generically Automating Separation Logic by Functors, Homomorphisms, and Modules.    | UH227 (Fishbowl) |
 | 4.  | September 12 | Formalising Graph Algorithms with Coinduction.    | UH227 (Fishbowl) |
-| 5.  | September 19 | Paper 04 discussion    | UH227 (Fishbowl) |
+| 5.  | September 19 | Designing Automated Market Makers for Combinatorial Securities: A Geometric Viewpoint.    | UH227 (Fishbowl) |
 | 6.  | September 26 | Paper 05 discussion    | UH227 (Fishbowl) |
 | 7.  | October 3    | Paper 06 discussion    | UH227 (Fishbowl) |
 | 8.  | October 10   | _Fall pause_           |                  |
