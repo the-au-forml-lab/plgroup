@@ -35,7 +35,7 @@ organization.
 | 3.  | September 5  | Generically Automating Separation Logic by Functors, Homomorphisms, and Modules.    | UH227 (Fishbowl) |
 | 4.  | September 12 | Formalising Graph Algorithms with Coinduction.    | UH227 (Fishbowl) |
 | 5.  | September 19 | An Almost Tight Lower Bound for Plurality Consensus with Undecided State Dynamics in the Population Protocol Model.    | UH227 (Fishbowl) |
-| 6.  | September 26 | Paper 05 discussion    | UH227 (Fishbowl) |
+| 6.  | September 26 | FlowCert: Translation Validation for Asynchronous Dataflow via Dynamic Fractional Permissions.    | UH227 (Fishbowl) |
 | 7.  | October 3    | Paper 06 discussion    | UH227 (Fishbowl) |
 | 8.  | October 10   | _Fall pause_           |                  |
 | 9.  | October 17   | Paper 07 discussion    | UH227 (Fishbowl) |
