@@ -36,7 +36,7 @@ jobs:
     # Sequentially generate suggestions, if paper vote is enabled
     strategy:
       matrix:
-        options: ${{ fromJSON(needs.choices.ouputs.choices) }}
+        options: ${{ fromJSON(needs.choices.outputs.choices) }}
       max-parallel: 1
     steps:
       - uses: actions/checkout@v4
