@@ -267,7 +267,7 @@
     "doi": "10.1145/3704899",
     "title": "Sound and Complete Proof Rules for Probabilistic Termination.",
     "venue": "popl 2025",
-    "citation": "Majumdar, Rupak, and V.R. Sathiyanarayana. “Sound and Complete Proof Rules for Probabilistic Termination.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1871–902. Crossref, https://doi.org/10.1145/3704899."
+    "citation": "Majumdar, Rupak, and V. R. Sathiyanarayana. “Sound and Complete Proof Rules for Probabilistic Termination.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1871–902. Crossref, https://doi.org/10.1145/3704899."
   },
   {
     "doi": "10.1145/3704862",
@@ -1533,7 +1533,7 @@
     "doi": "10.1145/3689744",
     "title": "Automating Pruning in Top-Down Enumeration for Program Synthesis Problems with Monotonic Semantics.",
     "venue": "oopsla 2024",
-    "citation": "Johnson, Keith J.C., et al. “Automating Pruning in Top-Down Enumeration for Program Synthesis Problems with Monotonic Semantics.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 935–61. Crossref, https://doi.org/10.1145/3689744."
+    "citation": "Johnson, Keith J. C., et al. “Automating Pruning in Top-Down Enumeration for Program Synthesis Problems with Monotonic Semantics.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 935–61. Crossref, https://doi.org/10.1145/3689744."
   },
   {
     "doi": "10.1145/3689737",
@@ -1797,7 +1797,7 @@
     "doi": "10.1145/3689752",
     "title": "Compilation of Shape Operators on Sparse Arrays.",
     "venue": "oopsla 2024",
-    "citation": "Root, Alexander J, et al. “Compilation of Shape Operators on Sparse Arrays.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1162–88. Crossref, https://doi.org/10.1145/3689752."
+    "citation": "Root, Alexander J., et al. “Compilation of Shape Operators on Sparse Arrays.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1162–88. Crossref, https://doi.org/10.1145/3689752."
   },
   {
     "doi": "10.1145/3649863",
@@ -2223,205 +2223,205 @@
     "doi": "10.4230/LIPICS.FSCD.2025.1",
     "title": "Computation First: Rebuilding Constructivism with Effects (Invited Talk).",
     "venue": "fscd 2025",
-    "citation": "Cohen, Liron. Computation First: Rebuilding Constructivism with Effects (Invited Talk). With Maribel Fernández, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.1."
+    "citation": "Cohen, Liron. Computation First: Rebuilding Constructivism with Effects (Invited Talk). Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.1."
   },
   {
     "doi": "10.4230/LIPICS.FSCD.2025.29",
     "title": "Linear Logic Using Negative Connectives.",
     "venue": "fscd 2025",
-    "citation": "Miller, Dale. Linear Logic Using Negative Connectives. With Maribel Fernández, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.29."
+    "citation": "Miller, Dale. Linear Logic Using Negative Connectives. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.29."
   },
   {
     "doi": "10.4230/LIPICS.FSCD.2025.14",
     "title": "From Partial to Monadic: Combinatory Algebra with Effects.",
     "venue": "fscd 2025",
-    "citation": "Cohen, Liron, et al. From Partial to Monadic: Combinatory Algebra with Effects. With Maribel Fernández, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.14."
+    "citation": "Cohen, Liron, et al. From Partial to Monadic: Combinatory Algebra with Effects. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.14."
   },
   {
     "doi": "10.4230/LIPICS.FSCD.2025.4",
     "title": "Substructural Parametricity.",
     "venue": "fscd 2025",
-    "citation": "Aberlé, C. B., et al. Substructural Parametricity. With Maribel Fernández, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.4."
+    "citation": "Aberlé, C. B., et al. Substructural Parametricity. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.4."
   },
   {
     "doi": "10.4230/LIPICS.FSCD.2025.5",
     "title": "The Cost of Skeletal Call-By-Need, Smoothly.",
     "venue": "fscd 2025",
-    "citation": "Accattoli, Beniamino, et al. The Cost of Skeletal Call-By-Need, Smoothly. With Maribel Fernández, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.5."
+    "citation": "Accattoli, Beniamino, et al. The Cost of Skeletal Call-By-Need, Smoothly. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.5."
   },
   {
     "doi": "10.4230/LIPICS.FSCD.2025.6",
     "title": "Weighted Rewriting: Semiring Semantics for Abstract Reduction Systems.",
     "venue": "fscd 2025",
-    "citation": "Ahrens, Emma, et al. Weighted Rewriting: Semiring Semantics for Abstract Reduction Systems. With Maribel Fernández, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.6."
+    "citation": "Ahrens, Emma, et al. Weighted Rewriting: Semiring Semantics for Abstract Reduction Systems. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.6."
   },
   {
     "doi": "10.4230/LIPICS.FSCD.2025.7",
     "title": "Combining Generalization Algorithms in Regular Collapse-Free Theories.",
     "venue": "fscd 2025",
-    "citation": "Ayala-Rincón, Mauricio, et al. Combining Generalization Algorithms in Regular Collapse-Free Theories. With Maribel Fernández, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.7."
+    "citation": "Ayala-Rincón, Mauricio, et al. Combining Generalization Algorithms in Regular Collapse-Free Theories. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.7."
   },
   {
     "doi": "10.4230/LIPICS.FSCD.2025.8",
     "title": "The Unification Type of an Equational Theory May Depend on the Instantiation Preorder.",
     "venue": "fscd 2025",
-    "citation": "Baader, Franz, and Oliver Fernández Gil. The Unification Type of an Equational Theory May Depend on the Instantiation Preorder. With Maribel Fernández, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.8."
+    "citation": "Baader, Franz, and Oliver Fernández Gil. The Unification Type of an Equational Theory May Depend on the Instantiation Preorder. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.8."
   },
   {
     "doi": "10.4230/LIPICS.FSCD.2025.9",
     "title": "A Zoo of Continuity Properties in Constructive Type Theory.",
     "venue": "fscd 2025",
-    "citation": "Baillon, Martin, et al. A Zoo of Continuity Properties in Constructive Type Theory. With Maribel Fernández, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.9."
+    "citation": "Baillon, Martin, et al. A Zoo of Continuity Properties in Constructive Type Theory. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.9."
   },
   {
     "doi": "10.4230/LIPICS.FSCD.2025.10",
     "title": "Categorical Continuation Semantics for Concurrency.",
     "venue": "fscd 2025",
-    "citation": "Breuvart, Flavien, and Hugo Paquet. Categorical Continuation Semantics for Concurrency. With Maribel Fernández, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.10."
+    "citation": "Breuvart, Flavien, and Hugo Paquet. Categorical Continuation Semantics for Concurrency. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.10."
   },
   {
     "doi": "10.4230/LIPICS.FSCD.2025.11",
     "title": "Impredicative Encodings of Inductive and Coinductive Types.",
     "venue": "fscd 2025",
-    "citation": "Bronsveld, Steven, et al. Impredicative Encodings of Inductive and Coinductive Types. With Maribel Fernández, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.11."
+    "citation": "Bronsveld, Steven, et al. Impredicative Encodings of Inductive and Coinductive Types. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.11."
   },
   {
     "doi": "10.4230/LIPICS.FSCD.2025.12",
     "title": "Ohana Trees and Taylor Expansion for the λI-Calculus: No variable gets left behind or forgotten!",
     "venue": "fscd 2025",
-    "citation": "Cerda, Rémy, et al. Ohana Trees and Taylor Expansion for the λI-Calculus: No Variable Gets Left behind or Forgotten! With Maribel Fernández, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.12."
+    "citation": "Cerda, Rémy, et al. Ohana Trees and Taylor Expansion for the λI-Calculus: No Variable Gets Left behind or Forgotten! Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.12."
   },
   {
     "doi": "10.4230/LIPICS.FSCD.2025.13",
     "title": "Unifying Boolean and Algebraic Descriptive Complexity.",
     "venue": "fscd 2025",
-    "citation": "Chanus, Baptiste, et al. Unifying Boolean and Algebraic Descriptive Complexity. With Maribel Fernández, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.13."
+    "citation": "Chanus, Baptiste, et al. Unifying Boolean and Algebraic Descriptive Complexity. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.13."
   },
   {
     "doi": "10.4230/LIPICS.FSCD.2025.2",
     "title": "Vehicle: Bridging the Embedding Gap in the Verification of Neuro-Symbolic Programs (Invited Talk).",
     "venue": "fscd 2025",
-    "citation": "Daggitt, Matthew L., et al. Vehicle: Bridging the Embedding Gap in the Verification of Neuro-Symbolic Programs (Invited Talk). With Maribel Fernández, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.2."
+    "citation": "Daggitt, Matthew L., et al. Vehicle: Bridging the Embedding Gap in the Verification of Neuro-Symbolic Programs (Invited Talk). Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.2."
   },
   {
     "doi": "10.4230/LIPICS.FSCD.2025.3",
     "title": "Unsolvable Terms in Filter Models (Invited Talk).",
     "venue": "fscd 2025",
-    "citation": "Dezani-Ciancaglini, Mariangiola, et al. Unsolvable Terms in Filter Models (Invited Talk). With Maribel Fernández, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.3."
+    "citation": "Dezani-Ciancaglini, Mariangiola, et al. Unsolvable Terms in Filter Models (Invited Talk). Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.3."
   },
   {
     "doi": "10.4230/LIPICS.FSCD.2025.17",
     "title": "Mechanized Undecidability of Higher-Order Beta-Matching.",
     "venue": "fscd 2025",
-    "citation": "Dudenhefner, Andrej. Mechanized Undecidability of Higher-Order Beta-Matching. With Maribel Fernández, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.17."
+    "citation": "Dudenhefner, Andrej. Mechanized Undecidability of Higher-Order Beta-Matching. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.17."
   },
   {
     "doi": "10.4230/LIPICS.FSCD.2025.18",
     "title": "Knowledge Problems vs Unification and Matching: Dichotomy Results.",
     "venue": "fscd 2025",
-    "citation": "Erbatur, Serdar, et al. Knowledge Problems vs Unification and Matching: Dichotomy Results. With Maribel Fernández, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.18."
+    "citation": "Erbatur, Serdar, et al. Knowledge Problems vs Unification and Matching: Dichotomy Results. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.18."
   },
   {
     "doi": "10.4230/LIPICS.FSCD.2025.19",
     "title": "Internal Effectful Forcing in System T.",
     "venue": "fscd 2025",
-    "citation": "Escardó, Martín H., et al. Internal Effectful Forcing in System T. With Maribel Fernández, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.19."
+    "citation": "Escardó, Martín H., et al. Internal Effectful Forcing in System T. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.19."
   },
   {
     "doi": "10.4230/LIPICS.FSCD.2025.20",
     "title": "An Innermost DP Framework for Constrained Higher-Order Rewriting.",
     "venue": "fscd 2025",
-    "citation": "Fuhs, Carsten, et al. An Innermost DP Framework for Constrained Higher-Order Rewriting. With Maribel Fernández, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.20."
+    "citation": "Fuhs, Carsten, et al. An Innermost DP Framework for Constrained Higher-Order Rewriting. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.20."
   },
   {
     "doi": "10.4230/LIPICS.FSCD.2025.16",
     "title": "Yeo&apos;s Theorem for Locally Colored Graphs: the Path to Sequentialization in Linear Logic.",
     "venue": "fscd 2025",
-    "citation": "Di Guardia, Rémi, et al. Yeo’s Theorem for Locally Colored Graphs: The Path to Sequentialization in Linear Logic. With Maribel Fernández, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.16."
+    "citation": "Di Guardia, Rémi, et al. Yeo’s Theorem for Locally Colored Graphs: The Path to Sequentialization in Linear Logic. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.16."
   },
   {
     "doi": "10.4230/LIPICS.FSCD.2025.21",
     "title": "An Expressive Trace Logic for Recursive Programs.",
     "venue": "fscd 2025",
-    "citation": "Gurov, Dilian, and Reiner Hähnle. An Expressive Trace Logic for Recursive Programs. With Maribel Fernández, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.21."
+    "citation": "Gurov, Dilian, and Reiner Hähnle. An Expressive Trace Logic for Recursive Programs. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.21."
   },
   {
     "doi": "10.4230/LIPICS.FSCD.2025.22",
     "title": "Branch Sequentialization in Quantum Polytime.",
     "venue": "fscd 2025",
-    "citation": "Hainry, Emmanuel, et al. Branch Sequentialization in Quantum Polytime. With Maribel Fernández, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.22."
+    "citation": "Hainry, Emmanuel, et al. Branch Sequentialization in Quantum Polytime. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.22."
   },
   {
     "doi": "10.4230/LIPICS.FSCD.2025.23",
     "title": "∞-Categorical Models of Linear Logic.",
     "venue": "fscd 2025",
-    "citation": "Harington, Eliès, and Samuel Mimram. ∞-Categorical Models of Linear Logic. With Maribel Fernández, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.23."
+    "citation": "Harington, Eliès, and Samuel Mimram. ∞-Categorical Models of Linear Logic. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.23."
   },
   {
     "doi": "10.4230/LIPICS.FSCD.2025.24",
     "title": "Quantitative Types for the Functional Machine Calculus.",
     "venue": "fscd 2025",
-    "citation": "Heijltjes, Willem. Quantitative Types for the Functional Machine Calculus. With Maribel Fernández, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.24."
+    "citation": "Heijltjes, Willem. Quantitative Types for the Functional Machine Calculus. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.24."
   },
   {
     "doi": "10.4230/LIPICS.FSCD.2025.25",
     "title": "Completeness of the Decreasing Diagrams Method for Proving Confluence of Rewriting Systems of the Least Uncountable Cardinality.",
     "venue": "fscd 2025",
-    "citation": "Ivanov, Ievgen. Completeness of the Decreasing Diagrams Method for Proving Confluence of Rewriting Systems of the Least Uncountable Cardinality. With Maribel Fernández, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.25."
+    "citation": "Ivanov, Ievgen. Completeness of the Decreasing Diagrams Method for Proving Confluence of Rewriting Systems of the Least Uncountable Cardinality. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.25."
   },
   {
     "doi": "10.4230/LIPICS.FSCD.2025.26",
     "title": "Functorial Models of Differential Linear Logic.",
     "venue": "fscd 2025",
-    "citation": "Kerjean, Marie, et al. Functorial Models of Differential Linear Logic. With Maribel Fernández, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.26."
+    "citation": "Kerjean, Marie, et al. Functorial Models of Differential Linear Logic. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.26."
   },
   {
     "doi": "10.4230/LIPICS.FSCD.2025.15",
     "title": "On the Metric Nature of (Differential) Logical Relations.",
     "venue": "fscd 2025",
-    "citation": "Dal Lago, Ugo, et al. On the Metric Nature of (Differential) Logical Relations. With Maribel Fernández, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.15."
+    "citation": "Dal Lago, Ugo, et al. On the Metric Nature of (Differential) Logical Relations. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.15."
   },
   {
     "doi": "10.4230/LIPICS.FSCD.2025.27",
     "title": "What Does It Take to Certify a Conversion Checker?",
     "venue": "fscd 2025",
-    "citation": "Lennon-Bertrand, Meven. What Does It Take to Certify a Conversion Checker? With Maribel Fernández, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.27."
+    "citation": "Lennon-Bertrand, Meven. What Does It Take to Certify a Conversion Checker? Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.27."
   },
   {
     "doi": "10.4230/LIPICS.FSCD.2025.28",
     "title": "Grading Call-By-Push-Value, Explicitly and Implicitly.",
     "venue": "fscd 2025",
-    "citation": "McDermott, Dylan. Grading Call-By-Push-Value, Explicitly and Implicitly. With Maribel Fernández, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.28."
+    "citation": "McDermott, Dylan. Grading Call-By-Push-Value, Explicitly and Implicitly. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.28."
   },
   {
     "doi": "10.4230/LIPICS.FSCD.2025.30",
     "title": "Coherent Tietze Transformations of 1-Polygraphs in Homotopy Type Theory.",
     "venue": "fscd 2025",
-    "citation": "Mimram, Samuel, and Émile Oleon. Coherent Tietze Transformations of 1-Polygraphs in Homotopy Type Theory. With Maribel Fernández, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.30."
+    "citation": "Mimram, Samuel, and Émile Oleon. Coherent Tietze Transformations of 1-Polygraphs in Homotopy Type Theory. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.30."
   },
   {
     "doi": "10.4230/LIPICS.FSCD.2025.31",
     "title": "Higher-Dimensional Automata: Extension to Infinite Tracks.",
     "venue": "fscd 2025",
-    "citation": "Passemard, Luc, et al. Higher-Dimensional Automata: Extension to Infinite Tracks. With Maribel Fernández, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.31."
+    "citation": "Passemard, Luc, et al. Higher-Dimensional Automata: Extension to Infinite Tracks. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.31."
   },
   {
     "doi": "10.4230/LIPICS.FSCD.2025.32",
     "title": "Interpolation as Cut-Introduction: On the Computational Content of Craig-Lyndon Interpolation.",
     "venue": "fscd 2025",
-    "citation": "Saurin, Alexis. Interpolation as Cut-Introduction: On the Computational Content of Craig-Lyndon Interpolation. With Maribel Fernández, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.32."
+    "citation": "Saurin, Alexis. Interpolation as Cut-Introduction: On the Computational Content of Craig-Lyndon Interpolation. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.32."
   },
   {
     "doi": "10.4230/LIPICS.FSCD.2025.33",
     "title": "Solving Guarded Domain Equations in Presheaves over Ordinals and Mechanizing It.",
     "venue": "fscd 2025",
-    "citation": "Stepanenko, Sergei, and Amin Timany. Solving Guarded Domain Equations in Presheaves over Ordinals and Mechanizing It. With Maribel Fernández, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.33."
+    "citation": "Stepanenko, Sergei, and Amin Timany. Solving Guarded Domain Equations in Presheaves over Ordinals and Mechanizing It. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.33."
   },
   {
     "doi": "10.4230/LIPICS.FSCD.2025.34",
     "title": "Monad Translations for Higher-Order Logic.",
     "venue": "fscd 2025",
-    "citation": "Traversié, Thomas. Monad Translations for Higher-Order Logic. With Maribel Fernández, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.34."
+    "citation": "Traversié, Thomas. Monad Translations for Higher-Order Logic. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.FSCD.2025.34."
   },
   {
     "doi": "10.1007/978-3-031-98685-7_8",
@@ -3009,253 +3009,253 @@
     "doi": "10.4230/LIPICS.ECOOP.2025.12",
     "title": "Automatic Goal Clone Detection in Rocq.",
     "venue": "ecoop 2025",
-    "citation": "Ghanbari, Ali. Automatic Goal Clone Detection in Rocq. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.12."
+    "citation": "Ghanbari, Ali. Automatic Goal Clone Detection in Rocq. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.12."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.15",
     "title": "Spegion: Implicit and Non-Lexical Regions with Sized Allocations.",
     "venue": "ecoop 2025",
-    "citation": "Hughes, Jack, et al. Spegion: Implicit and Non-Lexical Regions with Sized Allocations. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.15."
+    "citation": "Hughes, Jack, et al. Spegion: Implicit and Non-Lexical Regions with Sized Allocations. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.15."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.1",
     "title": "A Theory of (Linear-Time) Timed Monitors.",
     "venue": "ecoop 2025",
-    "citation": "Amara, Mouloud, et al. A Theory of (Linear-Time) Timed Monitors. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.1."
+    "citation": "Amara, Mouloud, et al. A Theory of (Linear-Time) Timed Monitors. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.1."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.21",
     "title": "GSOHC: Global Synchronization Optimization in Heterogeneous Computing.",
     "venue": "ecoop 2025",
-    "citation": "Kumar Basu, Soumik, and Jyothi Vedurada. GSOHC: Global Synchronization Optimization in Heterogeneous Computing. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.21."
+    "citation": "Kumar Basu, Soumik, and Jyothi Vedurada. GSOHC: Global Synchronization Optimization in Heterogeneous Computing. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.21."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.2",
     "title": "The Algebra of Patterns.",
     "venue": "ecoop 2025",
-    "citation": "Binder, David, and Lean Ermantraut. The Algebra of Patterns. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.2."
+    "citation": "Binder, David, and Lean Ermantraut. The Algebra of Patterns. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.2."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.3",
     "title": "Pydrofoil: Accelerating Sail-Based Instruction Set Simulators.",
     "venue": "ecoop 2025",
-    "citation": "Bolz-Tereick, Carl Friedrich, et al. Pydrofoil: Accelerating Sail-Based Instruction Set Simulators. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.3."
+    "citation": "Bolz-Tereick, Carl Friedrich, et al. Pydrofoil: Accelerating Sail-Based Instruction Set Simulators. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.3."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.4",
     "title": "Ensuring Convergence and Invariants Without Coordination.",
     "venue": "ecoop 2025",
-    "citation": "Borrego, Dina, et al. Ensuring Convergence and Invariants Without Coordination. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.4."
+    "citation": "Borrego, Dina, et al. Ensuring Convergence and Invariants Without Coordination. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.4."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.5",
     "title": "Compositional Bug Detection for Internally Unsafe Libraries: A Logical Approach to Type Unsoundness.",
     "venue": "ecoop 2025",
-    "citation": "Carrott, Pedro, et al. Compositional Bug Detection for Internally Unsafe Libraries: A Logical Approach to Type Unsoundness. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.5."
+    "citation": "Carrott, Pedro, et al. Compositional Bug Detection for Internally Unsafe Libraries: A Logical Approach to Type Unsoundness. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.5."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.6",
     "title": "Detecting Functionality-Specific Vulnerabilities via Retrieving Individual Functionality-Equivalent APIs in Open-Source Repositories.",
     "venue": "ecoop 2025",
-    "citation": "Chen, Tianyu, et al. Detecting Functionality-Specific Vulnerabilities via Retrieving Individual Functionality-Equivalent APIs in Open-Source Repositories. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.6."
+    "citation": "Chen, Tianyu, et al. Detecting Functionality-Specific Vulnerabilities via Retrieving Individual Functionality-Equivalent APIs in Open-Source Repositories. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.6."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.40",
     "title": "Scaling Up: Revisiting Mining Android Sandboxes at Scale for Malware Classification (Replication Paper).",
     "venue": "ecoop 2025",
-    "citation": "Handrick Tomaz da Costa, Francisco, et al. Scaling Up: Revisiting Mining Android Sandboxes at Scale for Malware Classification (Replication Paper). With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.40."
+    "citation": "Handrick Tomaz da Costa, Francisco, et al. Scaling Up: Revisiting Mining Android Sandboxes at Scale for Malware Classification (Replication Paper). Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.40."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.37",
     "title": "RacerF: Lightweight Static Data Race Detection for C Code (Experience Paper).",
     "venue": "ecoop 2025",
-    "citation": "Dacík, Tomáš, and Tomáš Vojnar. RacerF: Lightweight Static Data Race Detection for C Code (Experience Paper). With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.37."
+    "citation": "Dacík, Tomáš, and Tomáš Vojnar. RacerF: Lightweight Static Data Race Detection for C Code (Experience Paper). Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.37."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.7",
     "title": "Monadic Type-And-Effect Soundness.",
     "venue": "ecoop 2025",
-    "citation": "Dagnino, Francesco, et al. Monadic Type-And-Effect Soundness. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.7."
+    "citation": "Dagnino, Francesco, et al. Monadic Type-And-Effect Soundness. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.7."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.8",
     "title": "An Effectful Object Calculus.",
     "venue": "ecoop 2025",
-    "citation": "Dagnino, Francesco, et al. An Effectful Object Calculus. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.8."
+    "citation": "Dagnino, Francesco, et al. An Effectful Object Calculus. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.8."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.9",
     "title": "Event Race Detection for Node.js Using Delay Injections.",
     "venue": "ecoop 2025",
-    "citation": "Endo, Andre Takeshi, and Anders Møller. Event Race Detection for Node.Js Using Delay Injections. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.9."
+    "citation": "Endo, Andre Takeshi, and Anders Møller. Event Race Detection for Node.Js Using Delay Injections. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.9."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.10",
     "title": "Bottom-Up Synthesis of Memory Mutations with Separation Logic.",
     "venue": "ecoop 2025",
-    "citation": "Ferdowsi, Kasra, and Hila Peleg. Bottom-Up Synthesis of Memory Mutations with Separation Logic. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.10."
+    "citation": "Ferdowsi, Kasra, and Hila Peleg. Bottom-Up Synthesis of Memory Mutations with Separation Logic. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.10."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.11",
     "title": "Contract Usage and Evolution in Android Mobile Applications.",
     "venue": "ecoop 2025",
-    "citation": "Ferreira, David R., et al. Contract Usage and Evolution in Android Mobile Applications. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.11."
+    "citation": "Ferreira, David R., et al. Contract Usage and Evolution in Android Mobile Applications. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.11."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.13",
     "title": "FuzzFlesh: Randomised Testing of Decompilers via Control Flow Graph-Based Program Generation.",
     "venue": "ecoop 2025",
-    "citation": "Gorzynski, Amber, and Alastair F. Donaldson. FuzzFlesh: Randomised Testing of Decompilers via Control Flow Graph-Based Program Generation. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.13."
+    "citation": "Gorzynski, Amber, and Alastair F. Donaldson. FuzzFlesh: Randomised Testing of Decompilers via Control Flow Graph-Based Program Generation. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.13."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.14",
     "title": "IsaBIL: A Framework for Verifying (In)correctness of Binaries in Isabelle/HOL.",
     "venue": "ecoop 2025",
-    "citation": "Griffin, Matt, et al. IsaBIL: A Framework for Verifying (In)Correctness of Binaries in Isabelle/HOL. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.14."
+    "citation": "Griffin, Matt, et al. IsaBIL: A Framework for Verifying (In)Correctness of Binaries in Isabelle/HOL. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.14."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.16",
     "title": "A Lightweight Method for Generating Multi-Tier JIT Compilation Virtual Machine in a Meta-Tracing Compiler Framework.",
     "venue": "ecoop 2025",
-    "citation": "Izawa, Yusuke, et al. A Lightweight Method for Generating Multi-Tier JIT Compilation Virtual Machine in a Meta-Tracing Compiler Framework. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.16."
+    "citation": "Izawa, Yusuke, et al. A Lightweight Method for Generating Multi-Tier JIT Compilation Virtual Machine in a Meta-Tracing Compiler Framework. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.16."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.38",
     "title": "Type-Safe and Portable Support for Packed Data (Experience Paper).",
     "venue": "ecoop 2025",
-    "citation": "Jamet, Arthur, and Michael Vollmer. Type-Safe and Portable Support for Packed Data (Experience Paper). With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.38."
+    "citation": "Jamet, Arthur, and Michael Vollmer. Type-Safe and Portable Support for Packed Data (Experience Paper). Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.38."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.17",
     "title": "Contrasting Deadlock-Free Session Processes.",
     "venue": "ecoop 2025",
-    "citation": "Jaramillo, Juan C., and Jorge A. Pérez. Contrasting Deadlock-Free Session Processes. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.17."
+    "citation": "Jaramillo, Juan C., and Jorge A. Pérez. Contrasting Deadlock-Free Session Processes. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.17."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.18",
     "title": "Practical Type-Based Taint Checking and Inference.",
     "venue": "ecoop 2025",
-    "citation": "Karimipour, Nima, et al. Practical Type-Based Taint Checking and Inference. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.18."
+    "citation": "Karimipour, Nima, et al. Practical Type-Based Taint Checking and Inference. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.18."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.41",
     "title": "Shouting at Memory: Where Did My Write Go? (Pearl/Brave New Idea).",
     "venue": "ecoop 2025",
-    "citation": "Klimis, Vasileios. Shouting at Memory: Where Did My Write Go? (Pearl/Brave New Idea). With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.41."
+    "citation": "Klimis, Vasileios. Shouting at Memory: Where Did My Write Go? (Pearl/Brave New Idea). Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.41."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.19",
     "title": "Profile-Guided Field Externalization in an Ahead-Of-Time Compiler.",
     "venue": "ecoop 2025",
-    "citation": "Kloibhofer, Sebastian, et al. Profile-Guided Field Externalization in an Ahead-Of-Time Compiler. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.19."
+    "citation": "Kloibhofer, Sebastian, et al. Profile-Guided Field Externalization in an Ahead-Of-Time Compiler. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.19."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.20",
     "title": "Incremental Computing by Differential Execution.",
     "venue": "ecoop 2025",
-    "citation": "Kumar, Prashant, et al. Incremental Computing by Differential Execution. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.20."
+    "citation": "Kumar, Prashant, et al. Incremental Computing by Differential Execution. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.20."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.22",
     "title": "Quantifying Cache Side-Channel Leakage by Refining Set-Based Abstractions.",
     "venue": "ecoop 2025",
-    "citation": "Mitchell, Jacqueline L., and Chao Wang. Quantifying Cache Side-Channel Leakage by Refining Set-Based Abstractions. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.22."
+    "citation": "Mitchell, Jacqueline L., and Chao Wang. Quantifying Cache Side-Channel Leakage by Refining Set-Based Abstractions. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.22."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.42",
     "title": "Contract Systems Need Domain-Specific Notations (Pearl/Brave New Idea).",
     "venue": "ecoop 2025",
-    "citation": "Moy, Cameron, et al. Contract Systems Need Domain-Specific Notations (Pearl/Brave New Idea). With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.42."
+    "citation": "Moy, Cameron, et al. Contract Systems Need Domain-Specific Notations (Pearl/Brave New Idea). Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.42."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.23",
     "title": "Wastrumentation: Portable WebAssembly Dynamic Analysis with Support for Intercession.",
     "venue": "ecoop 2025",
-    "citation": "Munsters, Aäron, et al. Wastrumentation: Portable WebAssembly Dynamic Analysis with Support for Intercession. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.23."
+    "citation": "Munsters, Aäron, et al. Wastrumentation: Portable WebAssembly Dynamic Analysis with Support for Intercession. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.23."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.24",
     "title": "Fair Termination of Asynchronous Binary Sessions.",
     "venue": "ecoop 2025",
-    "citation": "Padovani, Luca, and Gianluigi Zavattaro. Fair Termination of Asynchronous Binary Sessions. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.24."
+    "citation": "Padovani, Luca, and Gianluigi Zavattaro. Fair Termination of Asynchronous Binary Sessions. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.24."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.25",
     "title": "Reusing Highly Optimized IR in Dynamic Compilation.",
     "venue": "ecoop 2025",
-    "citation": "Pečimúth, Andrej, et al. Reusing Highly Optimized IR in Dynamic Compilation. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.25."
+    "citation": "Pečimúth, Andrej, et al. Reusing Highly Optimized IR in Dynamic Compilation. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.25."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.26",
     "title": "Lightweight Diagramming for Lightweight Formal Methods: A Grounded Language Design.",
     "venue": "ecoop 2025",
-    "citation": "Prasad, Siddhartha, et al. Lightweight Diagramming for Lightweight Formal Methods: A Grounded Language Design. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.26."
+    "citation": "Prasad, Siddhartha, et al. Lightweight Diagramming for Lightweight Formal Methods: A Grounded Language Design. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.26."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.27",
     "title": "PoTo: A Hybrid Andersen&apos;s Points-To Analysis for Python.",
     "venue": "ecoop 2025",
-    "citation": "Rak-amnouykit, Ingkarat, et al. PoTo: A Hybrid Andersen’s Points-To Analysis for Python. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.27."
+    "citation": "Rak-amnouykit, Ingkarat, et al. PoTo: A Hybrid Andersen’s Points-To Analysis for Python. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.27."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.28",
     "title": "Reusing Caches and Invariants for Efficient and Sound Incremental Static Analysis.",
     "venue": "ecoop 2025",
-    "citation": "Razafintsialonina, Mamy, et al. Reusing Caches and Invariants for Efficient and Sound Incremental Static Analysis. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.28."
+    "citation": "Razafintsialonina, Mamy, et al. Reusing Caches and Invariants for Efficient and Sound Incremental Static Analysis. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.28."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.29",
     "title": "Declarative Dynamic Object Reclassification.",
     "venue": "ecoop 2025",
-    "citation": "Sieve, Riccardo, et al. Declarative Dynamic Object Reclassification. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.29."
+    "citation": "Sieve, Riccardo, et al. Declarative Dynamic Object Reclassification. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.29."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.30",
     "title": "In-Memory Object Graph Stores.",
     "venue": "ecoop 2025",
-    "citation": "Thimmaiah, Aditya, et al. In-Memory Object Graph Stores. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.30."
+    "citation": "Thimmaiah, Aditya, et al. In-Memory Object Graph Stores. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.30."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.31",
     "title": "Multiparty Asynchronous Session Types: A Mechanised Proof of Subject Reduction.",
     "venue": "ecoop 2025",
-    "citation": "Tirore, Dawit, et al. Multiparty Asynchronous Session Types: A Mechanised Proof of Subject Reduction. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.31."
+    "citation": "Tirore, Dawit, et al. Multiparty Asynchronous Session Types: A Mechanised Proof of Subject Reduction. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.31."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.32",
     "title": "Compositional Static Value Analysis for Higher-Order Numerical Programs.",
     "venue": "ecoop 2025",
-    "citation": "Valnet, Milla, et al. Compositional Static Value Analysis for Higher-Order Numerical Programs. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.32."
+    "citation": "Valnet, Milla, et al. Compositional Static Value Analysis for Higher-Order Numerical Programs. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.32."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.39",
     "title": "WebGlitch: A Randomised Testing Tool for the WebGPU API (Experience Paper).",
     "venue": "ecoop 2025",
-    "citation": "Wong, Matthew K. L., and Alastair F. Donaldson. WebGlitch: A Randomised Testing Tool for the WebGPU API (Experience Paper). With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.39."
+    "citation": "Wong, Matthew K. L., and Alastair F. Donaldson. WebGlitch: A Randomised Testing Tool for the WebGPU API (Experience Paper). Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.39."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.33",
     "title": "Mono Types - First-Class Containers for Datalog.",
     "venue": "ecoop 2025",
-    "citation": "Xu, Runqing, et al. Mono Types - First-Class Containers for Datalog. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.33."
+    "citation": "Xu, Runqing, et al. Mono Types - First-Class Containers for Datalog. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.33."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.34",
     "title": "Taming and Dissecting Recursions Through Interprocedural Weak Topological Ordering.",
     "venue": "ecoop 2025",
-    "citation": "Yang, Jiawei, et al. Taming and Dissecting Recursions Through Interprocedural Weak Topological Ordering. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.34."
+    "citation": "Yang, Jiawei, et al. Taming and Dissecting Recursions Through Interprocedural Weak Topological Ordering. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.34."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.35",
     "title": "Chain of Grounded Objectives: Concise Goal-Oriented Prompting for Code Generation.",
     "venue": "ecoop 2025",
-    "citation": "Yeo, Sangyeop, et al. Chain of Grounded Objectives: Concise Goal-Oriented Prompting for Code Generation. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.35."
+    "citation": "Yeo, Sangyeop, et al. Chain of Grounded Objectives: Concise Goal-Oriented Prompting for Code Generation. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.35."
   },
   {
     "doi": "10.4230/LIPICS.ECOOP.2025.36",
     "title": "Efficient Neural Network Verification via Order Leading Exploration of Branch-and-Bound Trees.",
     "venue": "ecoop 2025",
-    "citation": "Zhang, Guanqin, et al. Efficient Neural Network Verification via Order Leading Exploration of Branch-and-Bound Trees. With Jonathan Aldrich and Alexandra Silva, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.36."
+    "citation": "Zhang, Guanqin, et al. Efficient Neural Network Verification via Order Leading Exploration of Branch-and-Bound Trees. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, https://doi.org/10.4230/LIPICS.ECOOP.2025.36."
   },
   {
     "doi": "10.1007/978-3-031-91118-7_1",
