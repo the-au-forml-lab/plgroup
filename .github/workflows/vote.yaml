@@ -49,12 +49,12 @@ jobs:
           DISCORD_AVATAR: ${{ env.AVATAR }}
           DISCORD_USERNAME: ${{ env.USERNAME }}
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          DISCORD_EMBEDS: ${{ toJSON([{
-            color: "steps.vars.outputs.color",
-            title: "Option matrix.options: fromJSON(steps.vars.outputs.title)",
-            url: "fromJSON(steps.vars.outputs.doi)",
-            description: "steps.vars.outputs.citation\n\n[Merge PR steps.pr.outputs.pull-request-number](steps.pr.outputs.pull-request-url)"
-              }]) }}
+          DISCORD_EMBEDS: |-
+            [{ "color": "${{ steps.vars.outputs.color }}",
+               "title": ${{ toJSON("Option  matrix.options: fromJSON(steps.vars.outputs.title)" }},
+               "url": "${{ fromJSON(steps.vars.outputs.doi) }}",
+               "description" : " ${{ fromJSON(steps.vars.outputs.citation) }}\n\n[Merge PR ${{ steps.pr.outputs.pull-request-number }}](${{ steps.pr.outputs.pull-request-url }})"
+            }]
 
   post_actions:
     needs: vote_options
