@@ -56,9 +56,9 @@ jobs:
                                    fromJSON(steps.vars.outputs.title))) }},
                "url": "${{ fromJSON(steps.vars.outputs.doi) }}",
                "description" : ${{
-                             toJSON(format('''{0}
+                             toJSON(format('{0}
 
-                                           [Merge PR {1}]({2})''',
+                                           [Merge PR {1}]({2})',
                                            fromJSON(steps.vars.outputs.citation),
                                            steps.pr.outputs.pull-request-number,
                                            steps.pr.outputs.pull-request-url)) }}
