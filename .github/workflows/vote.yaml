@@ -12,37 +12,55 @@ env:
   COLORS: ("" "26367" "16750848" "65433" "10027263" "2609060" "2605775" "13579303" "13593639")
 
 jobs:
-  vote_options:
-    # Sequentially generate suggestions, if paper vote is enabled
+  choices:
+    runs-on: ubuntu-latest
     if: ${{ vars.PAPER_VOTE_ON == 1 }}
-    runs-on: ubuntu-22.04
+    outputs:
+      choices: ${{ steps.choices.outputs.choices }}
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
+      with:
+        node-version: 24
+    - name: Choose papers randomly
+      id: choices
+      run: |
+        npm run choose -- ${{ vars.OPTIONS }}
+        # I expect this to write `data/choices.json` all on one line
+        # dont' forget to update the npm run script
+        echo choices="$(< data/choices.json)" >> $GITHUB_OUTPUT
+  announce_options:
+    needs: selections
+    runs-on: ubuntu-latest
+    # Sequentially generate suggestions, if paper vote is enabled
     strategy:
       matrix:
-        options: ${{ fromJSON(vars.OPTIONS) }}
+        options: ${{ fromJSON(needs.choices.ouputs.choices) }}
       max-parallel: 1
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 24
-      - name: 🔮 Choose random paper
-        run: npm run choose
-      - name: 🔎 Lookup selection details
+      - name: set variables
         id: vars
         run: |
-          array=${{ env.COLORS }}
-          echo "color=${array[${{ matrix.options }}]}" >> $GITHUB_OUTPUT
+          #array=${{ env.COLORS }}
+          #echo "color=${array[${{ matrix.options }}]}" >> $GITHUB_OUTPUT
+          npm run set -- ${{ matrix.options }}
+          SHA=$(echo ${{ matrix.options }} | sha256sum | head -c6)
+          echo "color=$SHA" >> $GITHUB_OUTPUT
+          echo "suffix=$SHA" >> $GITHUB_OUTPUT
           cat data/vars.txt >> $GITHUB_OUTPUT
-      - name: 🔖️ Create a pull request
+      - name: Create a pull request
         uses: peter-evans/create-pull-request@v6
         id: pr
         with:
           labels: paper-vote,next-paper
-          branch: paper-vote-${{ matrix.options }}
+          branch: paper-vote-${{ steps.vars.outputs.suffix }}
           title: ${{ fromJSON(steps.vars.outputs.title) }}
           body: ${{ fromJSON(steps.vars.outputs.body) }}
           delete-branch: true
-      - name: 🗳️ Post vote option to Discord
+      - name: Post vote option to Discord
         uses: Ilshidur/action-discord@master
         if: ${{ env.DISCORD_WEBHOOK != '' }}
         env:
@@ -65,7 +83,7 @@ jobs:
             }]
 
   post_actions:
-    needs: vote_options
+    needs: announce_options
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
