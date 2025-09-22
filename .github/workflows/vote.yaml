@@ -17,17 +17,19 @@ jobs:
     if: ${{ vars.PAPER_VOTE_ON == 1 }}
     outputs:
       choices: ${{ steps.choices.outputs.choices }}
-    - uses: actions/checkout@v4
-    - uses: actions/setup-node@v4
-      with:
-        node-version: 24
-    - name: Choose papers randomly
-      id: choices
-      run: |
-        npm run choose -- ${{ vars.OPTIONS }}
-        # I expect this to write `data/choices.json` all on one line
-        # dont' forget to update the npm run script
-        echo choices="$(< data/choices.json)" >> $GITHUB_OUTPUT
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Choose papers randomly
+        id: choices
+        run: |
+          npm run choose -- ${{ vars.OPTIONS }}
+          # I expect this to write `data/choices.json` all on one line
+          # dont' forget to update the npm run script
+          echo choices="$(< data/choices.json)" >> $GITHUB_OUTPUT
+
   announce_options:
     needs: selections
     runs-on: ubuntu-latest
