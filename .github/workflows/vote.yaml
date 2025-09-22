@@ -31,7 +31,7 @@ jobs:
           echo choices="$(< data/choices.json)" >> $GITHUB_OUTPUT
 
   announce_options:
-    needs: selections
+    needs: choices
     runs-on: ubuntu-latest
     # Sequentially generate suggestions, if paper vote is enabled
     strategy:
