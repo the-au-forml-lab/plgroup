@@ -51,9 +51,9 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
           DISCORD_EMBEDS: |-
             [{ "color": "${{ steps.vars.outputs.color }}",
-               "title": "Option ${{ matrix.options }}: ${{ fromJSON(steps.vars.outputs.title )}}",
+               "title": "Option ${{ matrix.options }}: ${{ steps.vars.outputs.title }}",
                "url": "${{ fromJSON(steps.vars.outputs.doi) }}",
-               "description" : " ${{ fromJSON(steps.vars.outputs.citation) }}\n\n[Merge PR ${{ steps.pr.outputs.pull-request-number }}](${{ steps.pr.outputs.pull-request-url }})"
+               "description" : " ${{ steps.vars.outputs.citation }}\n\n[Merge PR ${{ steps.pr.outputs.pull-request-number }}](${{ steps.pr.outputs.pull-request-url }})"
             }]
 
   post_actions:
