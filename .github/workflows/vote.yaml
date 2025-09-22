@@ -51,7 +51,7 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
           DISCORD_EMBEDS: |-
             [{ "color": "${{ steps.vars.outputs.color }}",
-               "title": ${{ toJSON(format("Option {0}: {1}"),
+               "title": ${{ toJSON(format('Option {0}: {1}'),
                                    matrix.options,
                                    fromJSON(steps.vars.outputs.title)) }}
                "url": "${{ fromJSON(steps.vars.outputs.doi) }}",
