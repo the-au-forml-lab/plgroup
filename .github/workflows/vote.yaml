@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: '0 14  *  *  3'
   workflow_dispatch:
-    branches: [ main, new-semester-dev ]
+    branches: [ main, dev ]
 
 env:
   USERNAME: "PL Reading Group Paper Vote"
