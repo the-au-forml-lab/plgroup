@@ -1,9 +1,9 @@
-import {FILES, SCHEDULE_PLACEHOLDER_RE, DBLP} from './config.ts';
+import {FILES, SCHEDULE_PLACEHOLDER_RE, DBLP, RANDOM_POLICY} from './config.ts';
 import {FileSystem, log, LogLv} from './util.ts';
 import {type Paper, DataSet} from './dataset.ts';
 import {lookupDoi} from './doi.ts';
 import {loadVenues} from './dblp.ts';
-import {random, pickN} from './random.ts';
+import {pickN, pickNKey} from './random.ts';
 
 function doiUrl(doi: string, target: 'plain'|'discord'|'gfm'){
     // target selects for which application to format:
@@ -78,24 +78,33 @@ function hasStopWords(paper: Paper, stopwords: RegExp[]): boolean {
     return false;
 }
 
-export function chooseNext(n: number = 1): void {
+function selectablePapers(): Paper[] {
     const dataSet = DataSet.load()
     const stopwords = FileSystem.readLines(FILES.STOPWORDS)
         .map(l => new RegExp(l, 'gmi'));
     const history = new Set(FileSystem.readLines(FILES.ALLTIME_HISTORY));
-    const selectable = dataSet.papers()
+    return dataSet.papers()
         .filter(x => !hasStopWords(x, stopwords))
         .filter(x => !history.has(x.doi))
-        .map(x => x.doi);
-    const selected = (() => {
-        try {
-            return pickN(n, selectable);
-        } catch {
-            throw new Error('Not enough selectable papers remaining');
-        }
-    })();
-    FileSystem.writeJSON(FILES.CHOICES, selected);
-    log(LogLv.normal, selected);
+}
+
+export function chooseNext(n: number = 1): void {
+    const pool = selectablePapers();
+    if (n > pool.length){
+        throw new Error('Not enough selectable papers remaining');
+    }
+    let chosen;
+    switch(RANDOM_POLICY){
+        case('uniform'):
+            chosen = pickN(n, pool);
+            break;
+        case('uniform_venue'):
+            chosen = pickNKey(n, pool, p => p.venue ?? '');
+            break;
+    }
+    let chosen_dois = chosen.map(c => c.doi);
+    FileSystem.writeJSON(FILES.CHOICES, chosen_dois);
+    log(LogLv.normal, chosen);
 }
 
 export async function details(doi: string): Promise<void> {
@@ -125,7 +134,7 @@ export function stats(): void {
 function table(data: Map<string,number>): void{
     const columnOffset = 3;
     const sorted: Array<[string, number]> =
-        [...data.entries()].sort(([,n], [,m]) => n - m);
+          [...data.entries()].sort(([,n], [,m]) => n - m);
 
     const total = sorted
         .map(([, n]) => n)
