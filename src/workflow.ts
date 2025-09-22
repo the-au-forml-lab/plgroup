@@ -3,6 +3,7 @@ import {FileSystem, log, LogLv} from './util.ts';
 import {type Paper, DataSet} from './dataset.ts';
 import {lookupDoi} from './doi.ts';
 import {loadVenues} from './dblp.ts';
+import {random, pickN} from './random.ts';
 
 function doiUrl(doi: string, target: 'plain'|'discord'|'gfm'){
     // target selects for which application to format:
@@ -77,20 +78,24 @@ function hasStopWords(paper: Paper, stopwords: RegExp[]): boolean {
     return false;
 }
 
-export async function chooseNext(): Promise<void> {
+export function chooseNext(n: number = 1): void {
     const dataSet = DataSet.load()
     const stopwords = FileSystem.readLines(FILES.STOPWORDS)
         .map(l => new RegExp(l, 'gmi'));
     const history = new Set(FileSystem.readLines(FILES.ALLTIME_HISTORY));
     const selectable = dataSet.papers()
         .filter(x => !hasStopWords(x, stopwords))
-        .filter(x => !history.has(x.doi));
-    if(selectable.length === 0){
-        throw new Error('No selectable papers remaining');
-    }
-    const index = Math.floor(Math.random() * (selectable.length));
-    const selected = selectable[index];
-    writeNext(selected);
+        .filter(x => !history.has(x.doi))
+        .map(x => x.doi);
+    const selected = (() => {
+        try {
+            return pickN(n, selectable);
+        } catch {
+            throw new Error('Not enough selectable papers remaining');
+        }
+    })();
+    FileSystem.writeJSON(FILES.CHOICES, selected);
+    log(LogLv.normal, selected);
 }
 
 export async function details(doi: string): Promise<void> {

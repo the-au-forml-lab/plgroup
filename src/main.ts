@@ -17,7 +17,8 @@ async function main() {
     let todo: Function;
     switch (action) {
         case ACTIONS.CHOOSE:
-            todo = () => workflow.chooseNext();
+            const p = Number(param);
+            todo = () => workflow.chooseNext(p);
             break;
         case ACTIONS.DETAILS:
             todo = () => workflow.details(param);

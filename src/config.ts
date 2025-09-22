@@ -31,6 +31,11 @@ export const FILES = {
     ACTION_VARS: './data/vars.txt',
 
     /**
+     * where to write chose papers
+     */
+    CHOICES: './data/choices.json',
+
+    /**
      * list of paper citations on the website
      */
     WEB_PAPERS: './docs/papers.md',
