@@ -1,10 +1,6 @@
 blockchain
-machine learning
-deep learning
 keynote
-sql
-neural network
-TF-Coder
 replication study
 experience report
 reinforcement learning
+brief announcement
