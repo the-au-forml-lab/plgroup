@@ -49,7 +49,7 @@ jobs:
           color: ${{ steps.vars.outputs.color }}
           title: Option ${{ matrix.options }}: ${{ fromJSON(steps.vars.outputs.title) }}
           url: ${{ fromJSON(steps.vars.outputs.doi) }}
-          description |-
+          description: |-
             ${{ steps.vars.outputs.citation }}
 
             [Merge PR ${{ steps.pr.outputs.pull-request-number }}](${{ steps.pr.outputs.pull-request-url }})
