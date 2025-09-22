@@ -47,7 +47,7 @@ jobs:
         if: ${{ env.DISCORD_WEBHOOK != '' }}
         embeds:
           color: ${{ steps.vars.outputs.color }}
-          title: Option ${{ matrix.options }}: ${{ fromJSON(steps.vars.outputs.title) }}
+          title: "Option ${{ matrix.options }}: ${{ fromJSON(steps.vars.outputs.title) }}"
           url: ${{ fromJSON(steps.vars.outputs.doi) }}
           description: |-
             ${{ steps.vars.outputs.citation }}
