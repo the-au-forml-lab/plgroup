@@ -36,7 +36,7 @@ organization.
 | 4.  | September 12 | Formalising Graph Algorithms with Coinduction.    | UH227 (Fishbowl) |
 | 5.  | September 19 | An Almost Tight Lower Bound for Plurality Consensus with Undecided State Dynamics in the Population Protocol Model.    | UH227 (Fishbowl) |
 | 6.  | September 26 | The Hypergraph Removal Process.    | UH227 (Fishbowl) |
-| 7.  | October 3    | Paper 06 discussion    | UH227 (Fishbowl) |
+| 7.  | October 3    | Active Learning of Symbolic NetKAT Automata.    | UH227 (Fishbowl) |
 | 8.  | October 10   | _Fall pause_           |                  |
 | 9.  | October 17   | Paper 07 discussion    | UH227 (Fishbowl) |
 | 10. | October 24   | Paper 08 discussion    | UH227 (Fishbowl) |
