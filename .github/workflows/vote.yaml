@@ -50,7 +50,7 @@ jobs:
           #echo "color=${array[${{ matrix.options }}]}" >> $GITHUB_OUTPUT
           npm run set -- ${{ matrix.options }}
           SHA=$(echo ${{ matrix.options }} | sha256sum | head -c6)
-          echo "color=$SHA" >> $GITHUB_OUTPUT
+          echo "color=$((16#$SHA))" >> $GITHUB_OUTPUT
           echo "suffix=$SHA" >> $GITHUB_OUTPUT
           cat data/vars.txt >> $GITHUB_OUTPUT
       - name: Create a pull request
