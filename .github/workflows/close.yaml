@@ -15,19 +15,14 @@ jobs:
     if: ${{ github.event_name != 'pull_request' ||
            (github.event.pull_request.merged == true
             && contains(github.event.pull_request.labels.*.name, 'paper-vote')) }}
-    runs-on: ubuntu-22.04
-    strategy:
-      matrix:
-        options: ${{ fromJSON(vars.OPTIONS) }}
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: 🕵️ Locate remaining vote option pull requests
-        uses: juliangruber/find-pull-request-action@v1
-        id: find-pr
-        with:
-          branch: paper-vote-${{ matrix.options }}
-      - name: 🏁 Close pull request ${{ matrix.options }}
-        if: ${{ steps.find-pr.outputs.number }}
-        run: gh pr close --delete-branch ${{ steps.find-pr.outputs.number }}
+      - name: close next-paper PRs
+        run: |
+          prs=$(gh pr list --label "paper-vote" --state open --json number --jq '.[].number')
+          for pr in $prs; do
+            gh pr close $pr --delete-branch=true
+          done
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

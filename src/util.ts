@@ -1,6 +1,6 @@
 import fs from 'fs';
 import util from 'util';
-import {LOG} from './config.ts'; 
+import {LOG} from './config.ts';
 
 export const LogLv = {
     quiet: 0,
@@ -137,4 +137,33 @@ export function localTimeString(){
           date.getSeconds(),
         ];
     return `${year}-${month}-${day}T${hour}.${minutes}.${seconds}`;
+}
+
+export function groupBy<T>(ts: T[], key: (t: T) => string): T[][]{
+    const groups = new Map<string, T[]>;
+    for(const t of ts){
+        const k = key(t);
+        const group = groups.get(k);
+        if(group !== undefined){
+            group.push(t);
+        } else {
+            groups.set(k, [t]);
+        }
+    }
+    const result = [];
+    for(const group of groups.values()){
+        result.push(group);
+    }
+    return result;
+}
+
+export function parseIntWithDefault(s: string|undefined, d: number): number {
+    if(s === undefined){
+        return d;
+    }
+    const n = Number(s);
+    if(!isFinite(n)){
+        throw new Error(`Expected an integer, got ${s}`);
+    }
+    return n;
 }

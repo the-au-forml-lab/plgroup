@@ -31,6 +31,11 @@ export const FILES = {
     ACTION_VARS: './data/vars.txt',
 
     /**
+     * where to write chose papers
+     */
+    CHOICES: './data/choices.json',
+
+    /**
      * list of paper citations on the website
      */
     WEB_PAPERS: './docs/papers.md',
@@ -126,3 +131,11 @@ export const DBLP = {
      */
     MAX_HITS_PER_CONFERENCE: 1000,
 }
+
+/**
+ * policy for selecting random papers.
+ * - 'uniform' draws from all papers with equal probability.
+ * - 'uniform_venue' first picks venues uniformly at random,
+ *   then selects one paper from each venue.
+ */
+export const RANDOM_POLICY: 'uniform'|'uniform_venue' = 'uniform_venue'

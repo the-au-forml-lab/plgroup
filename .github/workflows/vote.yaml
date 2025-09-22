@@ -4,45 +4,59 @@ on:
   schedule:
     - cron: '0 14  *  *  3'
   workflow_dispatch:
-    branches: [ main, new-semester-dev ]
+    branches: [ main, dev ]
 
 env:
   USERNAME: "PL Reading Group Paper Vote"
   AVATAR: https://raw.githubusercontent.com/the-au-forml-lab/plgroup/main/.github/assets/vote.png
-  COLORS: ("" "26367" "16750848" "65433" "10027263" "2609060" "2605775" "13579303" "13593639")
 
 jobs:
-  vote_options:
-    # Sequentially generate suggestions, if paper vote is enabled
+  choices:
+    runs-on: ubuntu-latest
     if: ${{ vars.PAPER_VOTE_ON == 1 }}
-    runs-on: ubuntu-22.04
-    strategy:
-      matrix:
-        options: ${{ fromJSON(vars.OPTIONS) }}
-      max-parallel: 1
+    outputs:
+      choices: ${{ steps.choices.outputs.choices }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 24
-      - name: 🔮 Choose random paper
-        run: npm run choose
-      - name: 🔎 Lookup selection details
+      - name: Choose papers randomly
+        id: choices
+        run: |
+          npm run choose -- ${{ vars.OPTIONS }}
+          echo choices="$(< data/choices.json)" >> $GITHUB_OUTPUT
+
+  announce_options:
+    needs: choices
+    runs-on: ubuntu-latest
+    # Sequentially generate suggestions, if paper vote is enabled
+    strategy:
+      matrix:
+        options: ${{ fromJSON(needs.choices.outputs.choices) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: set variables
         id: vars
         run: |
-          array=${{ env.COLORS }}
-          echo "color=${array[${{ matrix.options }}]}" >> $GITHUB_OUTPUT
+          npm run set -- ${{ matrix.options }}
+          SHA=$(echo ${{ matrix.options }} | sha256sum | head -c6)
+          echo "color=$((16#$SHA))" >> $GITHUB_OUTPUT
+          echo "suffix=$SHA" >> $GITHUB_OUTPUT
           cat data/vars.txt >> $GITHUB_OUTPUT
-      - name: 🔖️ Create a pull request
+      - name: Create a pull request
         uses: peter-evans/create-pull-request@v6
         id: pr
         with:
           labels: paper-vote,next-paper
-          branch: paper-vote-${{ matrix.options }}
+          branch: paper-vote-${{ steps.vars.outputs.suffix }}
           title: ${{ fromJSON(steps.vars.outputs.title) }}
           body: ${{ fromJSON(steps.vars.outputs.body) }}
           delete-branch: true
-      - name: 🗳️ Post vote option to Discord
+      - name: Post vote option to Discord
         uses: Ilshidur/action-discord@master
         if: ${{ env.DISCORD_WEBHOOK != '' }}
         env:
@@ -51,13 +65,20 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
           DISCORD_EMBEDS: |-
             [{ "color": "${{ steps.vars.outputs.color }}",
-               "title": "Option ${{ matrix.options }}: ${{ fromJSON(steps.vars.outputs.title )}}",
+               "title": ${{ steps.vars.outputs.title }},
                "url": "${{ fromJSON(steps.vars.outputs.doi) }}",
-               "description" : " ${{ fromJSON(steps.vars.outputs.citation) }}\n\n[Merge PR ${{ steps.pr.outputs.pull-request-number }}](${{ steps.pr.outputs.pull-request-url }})"
+               "description" : ${{
+                             toJSON(format('{0}
+
+                             [Merge PR {1}]({2})',
+                                           fromJSON(steps.vars.outputs.citation),
+                                           steps.pr.outputs.pull-request-number,
+                                           steps.pr.outputs.pull-request-url,
+                                           '\n')) }}
             }]
 
   post_actions:
-    needs: vote_options
+    needs: announce_options
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

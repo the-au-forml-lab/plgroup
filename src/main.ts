@@ -1,5 +1,5 @@
 import {makeDataSet} from './dataset.ts';
-import {log, LogLv} from './util.ts';
+import {log, LogLv, parseIntWithDefault} from './util.ts';
 import * as workflow from './workflow.ts';
 
 const ACTIONS = {
@@ -17,7 +17,8 @@ async function main() {
     let todo: Function;
     switch (action) {
         case ACTIONS.CHOOSE:
-            todo = () => workflow.chooseNext();
+            const n = parseIntWithDefault(param, 1);
+            todo = () => workflow.chooseNext(n);
             break;
         case ACTIONS.DETAILS:
             todo = () => workflow.details(param);
