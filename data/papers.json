@@ -10,23 +10,5 @@
     "title": "sfHornStr: Invariant Synthesis for Regular Model Checking as Constrained Horn Clauses.",
     "venue": "cav 2025",
     "citation": "Jiang, Hongjian, et al. “$$\\textsf{HornStr}$$: Invariant Synthesis for Regular Model Checking as Constrained Horn Clauses.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 200–14. Crossref, https://doi.org/10.1007/978-3-031-98668-0_10."
-  },
-  {
-    "doi": "10.1007/978-3-031-98679-6_10",
-    "title": "StatWhy: Formal Verification Tool for Statistical Hypothesis Testing Programs.",
-    "venue": "cav 2025",
-    "citation": "Kawamoto, Yusuke, et al. “StatWhy: Formal Verification Tool for Statistical Hypothesis Testing Programs.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 216–30. Crossref, https://doi.org/10.1007/978-3-031-98679-6_10."
-  },
-  {
-    "doi": "10.1007/978-3-031-98679-6_6",
-    "title": "A Formally Verified IEEE 754 Floating-Point Implementation of Interval Iteration for MDPs.",
-    "venue": "cav 2025",
-    "citation": "Kohlen, Bram, et al. “A Formally Verified IEEE 754 Floating-Point Implementation of Interval Iteration for MDPs.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 122–46. Crossref, https://doi.org/10.1007/978-3-031-98679-6_6."
-  },
-  {
-    "doi": "10.1007/978-3-031-98682-6_15",
-    "title": "Space Explanations of Neural Network Classification.",
-    "venue": "cav 2025",
-    "citation": "Labbaf, Faezeh, et al. “Space Explanations of Neural Network Classification.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 287–303. Crossref, https://doi.org/10.1007/978-3-031-98682-6_15."
   }
 ]
