@@ -30,14 +30,14 @@ student organization.
 
 | Command                    | Effect                                                 |
 |:---------------------------|--------------------------------------------------------|
-| `npm run choose`           | [select a paper randomly][choose] from the dataset     |
+| `npm run choose [-- n]`    | [select `n` papers randomly][choose] from the dataset  |
 | `npm run details -- <DOI>` | look up title and citation of the paper with given DOI |
 | `npm run set -- <DOI>`     | [manually set the next paper][manual]                  |
 | `npm run stats`            | print statistics about the dataset                     |
 | `npm run update`           | [update the dataset](#updating-the-dataset)            |
 
 [manual]: #manually-setting-the-next-paper
-[choose]: #getting-a-next-paper-suggestion
+[choose]: #getting-the-next-paper-suggestion
 
 
 ### Setting sources for paper selection
@@ -64,8 +64,8 @@ You can use this to discover conferences by browsing DBLP.
 
 Each line of the file `data/stopwords.txt` contains a keywords to exclude during
 the selection process.
-Any paper whose title contains (case-insensitively) such a keyword will not be
-suggested for reading.
+Any paper whose title contains (case-insensitively) any of the keywords will not
+be suggested for reading.
 
 ### Updating the dataset
 
@@ -89,7 +89,14 @@ Doing so will generate PRs with paper suggestions.
 Only those with the appropriate repository permissions may run these workflows
 manually.
 
-Both workflows invoke `npm run choose` in the background.
+Both workflows invoke `npm run choose` and `npm run set` in the background.
+The command `npm run choose` takes an optional numerical parameter `n`,
+the number of papers that should be selected.
+If no parameter is given, it defaults to `1`.
+This command prints prints the selected papers,
+and writes an array containing their DOIs to the file `data/choices.json`.
+Other than that, it does not modify the repository.
+The choices are made according to the `RANDOM_POLICY` [option][#configuration-file].
 
 ### Manually setting the next paper
 
@@ -101,6 +108,7 @@ information about the paper will be retrieved from the internet
 and added to the dataset.
 
 The corresponding command is `npm run set -- <DOI>`.
+This command also modifies the website files, history, etc.
 
 ### Configuration file
 
@@ -235,9 +243,9 @@ The relevant GitHub actions are "Vote open" and "Vote close".
 This workflow requires Discord integration to conduct voting.
 
 +   Set `DISCORD_WEBHOOK_URL` secret to direct to the intended discord channel.
-+   Set `PAPER_VOTE_ON` variable to `1` to enable voting.
-+   Set `OPTIONS` to a numerical list of options, e.g. `[1, 2, 3]` means three
-    options.
++   Set `PAPER_VOTE_ON` variable to `1` to enable voting, or `0` to disable.
++   Set `OPTIONS` to the number of options you want to select,
+    e.g. `3` means three options.
 +   Set `OPTION_COUNT` to a the discord-string-representation of the emoji
     representing the number of options.
     For example, for three options the emoji 3️⃣ is typed in discord as `:three:`,
