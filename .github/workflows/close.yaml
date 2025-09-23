@@ -12,7 +12,7 @@ jobs:
     # This workflow runs when:
     # 1. dispatched manually or
     # 2. "paper-vote"-labelled PR was merged to main branch
-    if: ${{ github.event_name != 'pull_request' ||
+    if: ${{ github.event_name == 'workflow_dispatch' ||
            (github.event.pull_request.merged == true
             && contains(github.event.pull_request.labels.*.name, 'paper-vote')) }}
     runs-on: ubuntu-latest

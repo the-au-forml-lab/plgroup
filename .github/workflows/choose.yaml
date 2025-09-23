@@ -15,11 +15,11 @@ jobs:
     #  (a) Workflow was dispatched manually -or-
     #  (b) Paper suggestion PR was closed without merging
     if: ${{ vars.PAPER_CHOOSE_ON == 1 && (
-            github.event_name != 'pull_request' ||
+            github.event_name == 'workflow_dispatch' ||
            (contains(github.event.pull_request.labels.*.name, 'next-paper') &&
            !contains(github.event.pull_request.labels.*.name, 'paper-vote') &&
             github.event.pull_request.merged == false))}}
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
