@@ -96,7 +96,7 @@ If no parameter is given, it defaults to `1`.
 This command prints prints the selected papers,
 and writes an array containing their DOIs to the file `data/choices.json`.
 Other than that, it does not modify the repository.
-The choices are made according to the `RANDOM_POLICY` [option][#configuration-file].
+The choices are made according to the `RANDOM_POLICY` [option](#configuration-file).
 
 ### Manually setting the next paper
 
