@@ -68,8 +68,9 @@ function writeNext(paper: Paper): void {
     log(LogLv.normal, paper);
 }
 
-function hasStopWords(paper: Paper, stopwords: RegExp[]): boolean {
-    for(const re of stopwords){
+function hasStopWords(paper: Paper, stopwords: string[]): boolean {
+    for(const word of stopwords){
+        const re = new RegExp(word, 'mi');
         if(re.test(paper.title)){
             log(LogLv.debug, `Found stopwords in paper: ${paper.title}`);
             return true;
@@ -80,16 +81,16 @@ function hasStopWords(paper: Paper, stopwords: RegExp[]): boolean {
 
 function selectablePapers(): Paper[] {
     const dataSet = DataSet.load()
-    const stopwords = FileSystem.readLines(FILES.STOPWORDS)
-        .map(l => new RegExp(l, 'gmi'));
+    const stopwords = FileSystem.readLines(FILES.STOPWORDS);
     const history = new Set(FileSystem.readLines(FILES.ALLTIME_HISTORY));
     return dataSet.papers()
         .filter(x => !hasStopWords(x, stopwords))
-        .filter(x => !history.has(x.doi))
+        .filter(x => !history.has(x.doi));
 }
 
 export function chooseNext(n: number = 1): void {
     const pool = selectablePapers();
+    log(LogLv.debug, pool.map(p => p.title).join('\n'));
     if (n > pool.length){
         throw new Error('Not enough selectable papers remaining');
     }
