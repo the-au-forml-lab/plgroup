@@ -38,7 +38,7 @@ organization.
 | 6.  | September 26 | The Hypergraph Removal Process.    | UH227 (Fishbowl) |
 | 7.  | October 3    | A Complete Axiomatisation of Equivalence for Discrete Probabilistic Programming.    | UH227 (Fishbowl) |
 | 8.  | October 10   | _Fall pause_           |                  |
-| 9.  | October 17   | Paper 07 discussion    | UH227 (Fishbowl) |
+| 9.  | October 17   | Inferring Non-failure Conditions for Declarative Programs.    | UH227 (Fishbowl) |
 | 10. | October 24   | Paper 08 discussion    | UH227 (Fishbowl) |
 | 11. | October 31   | 🎃 Paper 09 discussion | UH227 (Fishbowl) |
 | 12. | November 7   | Paper 10 discussion    | UH227 (Fishbowl) |
