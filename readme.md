@@ -246,7 +246,7 @@ This workflow requires Discord integration to conduct voting.
 +   Set `PAPER_VOTE_ON` variable to `1` to enable voting, or `0` to disable.
 +   Set `OPTIONS` to the number of options you want to select,
     e.g. `3` means three options.
-+   Set `OPTION_COUNT` to a the discord-string-representation of the emoji
++   Set `OPTION_EMOJI` to a the discord-string-representation of the emoji
     representing the number of options.
     For example, for three options the emoji 3️⃣ is typed in discord as `:three:`,
     so set this variable to `:three:`.
