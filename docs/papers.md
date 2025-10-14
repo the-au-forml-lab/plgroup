@@ -5,3 +5,4 @@
 1. Joos, Felix, and Marcus Kühn. “The Hypergraph Removal Process.” Proceedings of the 57th Annual ACM Symposium on Theory of Computing, ACM, 15 June 2025, pp. 301–09. STOC ’25: 57th Annual ACM Symposium on Theory of Computing, Crossref, <https://doi.org/10.1145/3717823.3718110>.
 1. Piedeleu, Robin, et al. “A Complete Axiomatisation of Equivalence for Discrete Probabilistic Programming.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 202–29. Crossref, <https://doi.org/10.1007/978-3-031-91121-7_9>.
 1. Hanus, Michael. “Inferring Non-Failure Conditions for Declarative Programs.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 167–87. Crossref, <https://doi.org/10.1007/978-981-97-2300-3_10>.
+1. Dal Lago, Ugo, et al. On the Metric Nature of (Differential) Logical Relations. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, <https://doi.org/10.4230/LIPICS.FSCD.2025.15>.
