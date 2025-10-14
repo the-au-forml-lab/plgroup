@@ -5,3 +5,4 @@
 1. Joos, Felix, and Marcus Kühn. “The Hypergraph Removal Process.” Proceedings of the 57th Annual ACM Symposium on Theory of Computing, ACM, 15 June 2025, pp. 301–09. STOC ’25: 57th Annual ACM Symposium on Theory of Computing, Crossref, <https://doi.org/10.1145/3717823.3718110>.
 1. Piedeleu, Robin, et al. “A Complete Axiomatisation of Equivalence for Discrete Probabilistic Programming.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 202–29. Crossref, <https://doi.org/10.1007/978-3-031-91121-7_9>.
 1. Hanus, Michael. “Inferring Non-Failure Conditions for Declarative Programs.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 167–87. Crossref, <https://doi.org/10.1007/978-981-97-2300-3_10>.
+1. Alves, Sandra, et al. “Extending the Quantitative Pattern-Matching Paradigm.” Lecture Notes in Computer Science, Springer Nature Singapore, 28 Oct. 2024, pp. 84–105. Crossref, <https://doi.org/10.1007/978-981-97-8943-6_5>.
