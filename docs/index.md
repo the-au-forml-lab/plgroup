@@ -40,7 +40,7 @@ organization.
 | 8.  | October 10   | _Fall pause_           |                  |
 | 9.  | October 17   | Inferring Non-failure Conditions for Declarative Programs.    | UH227 (Fishbowl) |
 | 10. | October 24   | Extending the Quantitative Pattern-Matching Paradigm.    | UH314 |
-| 11. | October 31   | 🎃 Paper 09 discussion | UH227 (Fishbowl) |
+| 11. | October 31   | 🎃 The Power of Abstract MAC Layer: A Fault-Tolerance Perspective. | UH227 (Fishbowl) |
 | 12. | November 7   | Paper 10 discussion    | UH227 (Fishbowl) |
 | 13. | November 22  | Awards Gala            | UH227 (Fishbowl) |
 

@@ -6,3 +6,4 @@
 1. Piedeleu, Robin, et al. “A Complete Axiomatisation of Equivalence for Discrete Probabilistic Programming.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 202–29. Crossref, <https://doi.org/10.1007/978-3-031-91121-7_9>.
 1. Hanus, Michael. “Inferring Non-Failure Conditions for Declarative Programs.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 167–87. Crossref, <https://doi.org/10.1007/978-981-97-2300-3_10>.
 1. Alves, Sandra, et al. “Extending the Quantitative Pattern-Matching Paradigm.” Lecture Notes in Computer Science, Springer Nature Singapore, 28 Oct. 2024, pp. 84–105. Crossref, <https://doi.org/10.1007/978-981-97-8943-6_5>.
+1. Zhang, Qinzi, and Lewis Tseng. The Power of Abstract MAC Layer: A Fault-Tolerance Perspective. With Dan Alistarh, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, <https://doi.org/10.4230/LIPICS.DISC.2024.39>.
