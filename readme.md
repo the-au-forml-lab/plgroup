@@ -114,7 +114,7 @@ This command also modifies the website files, history, etc.
 
 The file `src/config.ts` contains various settings for the runtime behavior of
 the paper selection script.
-The effects of individual configuration options is described in the comments of
+The effects of individual configuration options are described in the comments of
 that file.
 
 ## Semester maintenance
@@ -189,7 +189,7 @@ directory.
 ### Editing the website
 
 Basic edits to the website can be performed by editing the markdown files in the
-`docs` directory.
+`docs/` directory.
 For more comprehensive edits,
 follow the instructions at [website development](#website-development).
 
