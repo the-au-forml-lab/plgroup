@@ -7,3 +7,4 @@
 1. Hanus, Michael. “Inferring Non-Failure Conditions for Declarative Programs.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 167–87. Crossref, <https://doi.org/10.1007/978-981-97-2300-3_10>.
 1. Alves, Sandra, et al. “Extending the Quantitative Pattern-Matching Paradigm.” Lecture Notes in Computer Science, Springer Nature Singapore, 28 Oct. 2024, pp. 84–105. Crossref, <https://doi.org/10.1007/978-981-97-8943-6_5>.
 1. Yamada, Risa, et al. “On the Relationship between Dijkstra Monads and Higher-Order Fixpoint Logic.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 402–28. Crossref, <https://doi.org/10.1007/978-3-031-91121-7_16>.
+1. Ho, Son, et al. “Sound Borrow-Checking for Rust via Symbolic Semantics.” Proceedings of the ACM on Programming Languages, vol. 8, no. ICFP, Aug. 2024, pp. 426–54. Crossref, <https://doi.org/10.1145/3674640>.
