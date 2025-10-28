@@ -41,7 +41,7 @@ organization.
 | 9.  | October 17   | Inferring Non-failure Conditions for Declarative Programs.    | UH227 (Fishbowl) |
 | 10. | October 24   | Extending the Quantitative Pattern-Matching Paradigm.    | UH314 |
 | 11. | October 31 🎃| On the Relationship between Dijkstra Monads and Higher-Order Fixpoint Logic. | UH227 (Fishbowl) |
-| 12. | November 7   | Paper 10 discussion    | UH227 (Fishbowl) |
+| 12. | November 7   | A General Completeness Theorem for Skip-Free Star Algebras.    | UH227 (Fishbowl) |
 | 13. | November 22  | Awards Gala            | UH227 (Fishbowl) |
 
 [1]: https://augusta.presence.io/event/neeas-dissertation-defense
