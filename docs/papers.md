@@ -7,3 +7,4 @@
 1. Hanus, Michael. “Inferring Non-Failure Conditions for Declarative Programs.” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 167–87. Crossref, <https://doi.org/10.1007/978-981-97-2300-3_10>.
 1. Alves, Sandra, et al. “Extending the Quantitative Pattern-Matching Paradigm.” Lecture Notes in Computer Science, Springer Nature Singapore, 28 Oct. 2024, pp. 84–105. Crossref, <https://doi.org/10.1007/978-981-97-8943-6_5>.
 1. Yamada, Risa, et al. “On the Relationship between Dijkstra Monads and Higher-Order Fixpoint Logic.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 402–28. Crossref, <https://doi.org/10.1007/978-3-031-91121-7_16>.
+1. Hoefer, Martin, et al. Designing Exploration Contracts. With Olaf Beyersdorff et al., Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, <https://doi.org/10.4230/LIPICS.STACS.2025.50>.
