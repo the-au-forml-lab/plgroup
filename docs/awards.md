@@ -8,7 +8,7 @@ and hope for a better world.
 This award goes to the paper that best represents the spirit of enlightenment
 and the path to a brighter future.
 
-#### The Key to My Soul (Edit name to convey lasting memories)
+#### Written in Stone
 
 Some art pieces leave a lasting impression on the viewer.
 They may leave you inspired to action, enchanted by their beauty,
@@ -35,7 +35,7 @@ Occam's Razor. This is awarded to those that took complex problems
 and conquered them with surprisingly elegant or simple solutions.
 
 
-#### Turning a New Leaf (Consider Edit name to convey changing perspective)
+#### Lasik
 
 Some arguments are so good that you leaf a changed person. Sometimes for the better, sometimes 
 for the worse. This award is for the paper that challenged previously held beliefs, whether 
