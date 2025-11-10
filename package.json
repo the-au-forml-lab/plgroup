@@ -27,7 +27,7 @@
         "node": ">=22.6.0"
     },
     "devDependencies": {
-        "@types/node": "^24.9.0",
+        "@types/node": "^24.10.0",
         "typescript": "^5.9.3",
         "typescript-language-server": "^4.4.0"
     }
