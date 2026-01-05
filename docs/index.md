@@ -13,7 +13,7 @@ perspectives on PL research topics. We randomly select papers from the major
 PL conferences. At the end of the semester we gather for a lively discussion
 to give prestigious awards to select papers.
 
-**We meet weekly on Fridays at 3–4 pm in <mark>UH 227</mark> (Summerville).**
+**We meet weekly on Fridays at 3–4 pm in <mark>TBA</mark> (Summerville).**
 
 We encourage everyone to join our reading group. Even if your primary focus
 is not PL, this is a chance to learn about various new topics that may become
