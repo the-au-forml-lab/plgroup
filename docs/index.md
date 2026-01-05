@@ -1,7 +1,7 @@
 ---
 layout: semester
-semester: Fall
-year: 2025
+semester: Spring
+year: 2026
 awards: false
 note: set awards to true when there is a file awards.md and false otherwise
 ---
@@ -13,7 +13,7 @@ perspectives on PL research topics. We randomly select papers from the major
 PL conferences. At the end of the semester we gather for a lively discussion
 to give prestigious awards to select papers.
 
-**We meet weekly on Fridays at 2–3 pm in <mark>UH 227</mark> (Summerville).**
+**We meet weekly on Fridays at 3–4 pm in <mark>UH 227</mark> (Summerville).**
 
 We encourage everyone to join our reading group. Even if your primary focus
 is not PL, this is a chance to learn about various new topics that may become
@@ -26,22 +26,21 @@ organization.
 ### Semester Schedule
 
 
+| \#  | Date        | Description         | Location         |
+|:---:|:------------|:--------------------|:-----------------|
+| 0.  | January 9   | Planning Meeting    | UH 117 (Palazzo) |
+| 1.  | January 23  | Paper 1 discussion  | TBA              |
+| 2.  | January 30  | Paper 2 discussion  | TBA              |
+| 3.  | February 6  | Paper 3 discussion  | TBA              |
+| 4.  | February 13 | Paper 4 discussion  | TBA              |
+| 5.  | February 20 | Paper 5 discussion  | TBA              |
+| 6.  | February 27 | Paper 6 discussion  | TBA              |
+| 7.  | March 13    | Paper 7 discussion  | TBA              |
+| 8.  | March 20    | Paper 8 discussion  | TBA              |
+| 9.  | March 27    | Paper 9 discussion  | TBA              |
+| 10. | April 3     | Paper 10 discussion | TBA              |
+| 11. | April 10    | Paper 11 discussion | TBA              |
+| 12. | April 24    | Awards Gala         | TBA              |
 
-| \#  | Date         | Description            | Location         |
-|:---:|:-------------|:-----------------------|:-----------------|
-| 0.  | August 15    | [Neea's defense][1]    | JSAC 155         |
-| 1.  | August 22    | opening meeting        | UH117 (Palazzo)  |
-| 2.  | August 29    | Weighted Rewriting: Semiring Semantics for Abstract Reduction Systems.    | UH227 (Fishbowl) |
-| 3.  | September 5  | Generically Automating Separation Logic by Functors, Homomorphisms, and Modules.    | UH227 (Fishbowl) |
-| 4.  | September 12 | Formalising Graph Algorithms with Coinduction.    | UH227 (Fishbowl) |
-| 5.  | September 19 | An Almost Tight Lower Bound for Plurality Consensus with Undecided State Dynamics in the Population Protocol Model.    | UH227 (Fishbowl) |
-| 6.  | September 26 | The Hypergraph Removal Process.    | UH227 (Fishbowl) |
-| 7.  | October 3    | A Complete Axiomatisation of Equivalence for Discrete Probabilistic Programming.    | UH227 (Fishbowl) |
-| 8.  | October 10   | _Fall pause_           |                  |
-| 9.  | October 17   | Inferring Non-failure Conditions for Declarative Programs.    | UH227 (Fishbowl) |
-| 10. | October 24   | Extending the Quantitative Pattern-Matching Paradigm.    | UH314 |
-| 11. | October 31 🎃| On the Relationship between Dijkstra Monads and Higher-Order Fixpoint Logic. | UH227 (Fishbowl) |
-| 12. | November 7   | Effect Handlers for C via Coroutines.    | UH227 (Fishbowl) |
-| 13. | November 22  | Awards Gala            | UH227 (Fishbowl) |
-
-[1]: https://augusta.presence.io/event/neeas-dissertation-defense
+No meetings March 6 (Spring Pause) and April 10 (Spring Break).
+The week of April 17 is reserved for awards gala preparation.
