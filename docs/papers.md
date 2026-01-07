@@ -1,0 +1,1 @@
+1. Jayanti, Prasad, and Siddhartha Visveswara Jayanti. “A Shared Archive of Snapshots.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, pp. 466–76. PODC ’25: ACM Symposium on Principles of Distributed Computing, Crossref, <https://doi.org/10.1145/3732772.3733542>.
