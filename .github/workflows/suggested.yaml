@@ -25,7 +25,8 @@ jobs:
         id: choices
         run: |
           JQ_SCRIPT='split("\n"; "g") | map(select(length > 0)) | tostring | "choices=" + .'
-          jq --raw-input --slurp --raw-output "$JQ_SCRIPT" suggestions.txt >> $GITHUB_OUTPUT
+          SED_SCRIPT='s!^.*://!!; s!www[.]!!; s!dx[.]!!; s!doi[.]org/!!;'
+          sed -E "$SED_SCRIPT" suggestions.txt | jq --raw-input --slurp --raw-output "$JQ_SCRIPT" >> $GITHUB_OUTPUT
           
   announce_options:
     needs: choices
