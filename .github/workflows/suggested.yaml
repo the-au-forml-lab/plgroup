@@ -27,7 +27,7 @@ jobs:
           JQ_SCRIPT='split("\n"; "g") | map(select(length > 0)) | tostring | "choices=" + .'
           SED_SCRIPT='s!^.*://!!; s!www[.]!!; s!dx[.]!!; s!doi[.]org/!!;'
           sed -E "$SED_SCRIPT" suggestions.txt | jq --raw-input --slurp --raw-output "$JQ_SCRIPT" >> $GITHUB_OUTPUT
-          
+
   announce_options:
     needs: choices
     runs-on: ubuntu-latest
@@ -82,8 +82,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: |
-          VT=$(cat .github/assets/voting.md | jq --raw-input --slurp)
-          echo "VOTING=${VT/:OPTION_EMOJI:/${{ vars.OPTION_EMOJI }}}" >> $GITHUB_ENV
+          VT=$(cat .github/assets/voting_suggested.md | jq --raw-input --slurp)
+          echo "VOTING=${VT}" >> $GITHUB_ENV
       - uses: Ilshidur/action-discord@master
         env:
           DISCORD_AVATAR: ${{ env.AVATAR }}
