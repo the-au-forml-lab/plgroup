@@ -29,7 +29,7 @@ organization.
 | \#  | Date        | Description         | Location         |
 |:---:|:------------|:--------------------|:-----------------|
 | 0.  | January 9   | Planning Meeting    | UH 117 (Palazzo) |
-| 1.  | January 23  | Paper 1 discussion  | TBA              |
+| 1.  | January 23  | Quantum Communication Advantage for Leader Election and Agreement.  | TBA              |
 | 2.  | January 30  | Paper 2 discussion  | TBA              |
 | 3.  | February 6  | Paper 3 discussion  | TBA              |
 | 4.  | February 13 | Paper 4 discussion  | TBA              |
