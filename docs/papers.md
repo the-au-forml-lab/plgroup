@@ -1,0 +1,1 @@
+1. Kumar Basu, Soumik, and Jyothi Vedurada. GSOHC: Global Synchronization Optimization in Heterogeneous Computing. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, <https://doi.org/10.4230/LIPICS.ECOOP.2025.21>.
