@@ -1,0 +1,1 @@
+1. Jiang, Hongjian, et al. “$$\textsf{HornStr}$$: Invariant Synthesis for Regular Model Checking as Constrained Horn Clauses.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 200–14. Crossref, <https://doi.org/10.1007/978-3-031-98668-0_10>.
