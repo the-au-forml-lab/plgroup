@@ -1,0 +1,1 @@
+1. Ferreira Pinto Jr., Renato, and Nathaniel Harms. “Testing Support Size More Efficiently Than Learning Histograms.” Proceedings of the 57th Annual ACM Symposium on Theory of Computing, ACM, 15 June 2025, pp. 995–1006. STOC ’25: 57th Annual ACM Symposium on Theory of Computing, Crossref, <https://doi.org/10.1145/3717823.3718134>.
