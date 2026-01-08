@@ -1,0 +1,1 @@
+1. Lellmann, Björn, et al. “Grants4Companies: Applying Declarative Methods for Recommending and Reasoning About Business Grants in the Austrian Public Administration (System Description).” Lecture Notes in Computer Science, Springer Nature Singapore, 2024, pp. 151–64. Crossref, <https://doi.org/10.1007/978-981-97-2300-3_9>.
