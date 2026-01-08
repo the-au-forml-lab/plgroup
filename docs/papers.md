@@ -1,0 +1,1 @@
+1. Garza, Kristian, et al. “Framing the Community Data System Interface.” Proceedings of the 2015 British HCI Conference, ACM, 13 July 2015, British HCI 2015: 2015 British Human Computer Interaction Conference, pp. 269–70. Crossref, https://doi.org/10.1145/2783446.2783605.
