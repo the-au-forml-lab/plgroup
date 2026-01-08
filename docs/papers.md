@@ -1,0 +1,1 @@
+1. Stassen, Philipp, et al. “Modelling Recursion and Probabilistic Choice in Guarded Type Theory.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 1417–45. Crossref, <https://doi.org/10.1145/3704884>.
