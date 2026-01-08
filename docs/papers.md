@@ -1,0 +1,1 @@
+1. Saha, Barna, et al. “Fine-Grained Optimality of Partially Dynamic Shortest Paths and More.” Proceedings of the 2025 Annual ACM-SIAM Symposium on Discrete Algorithms (SODA), Society for Industrial and Applied Mathematics, Jan. 2025, pp. 5147–90. Crossref, <https://doi.org/10.1137/1.9781611978322.175>.
