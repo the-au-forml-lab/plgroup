@@ -1,0 +1,1 @@
+1. Dufoulon, Fabien, et al. “Quantum Communication Advantage for Leader Election and Agreement.” Proceedings of the ACM Symposium on Principles of Distributed Computing, ACM, 13 June 2025, PODC ’25: ACM Symposium on Principles of Distributed Computing, pp. 230–40. Crossref, https://doi.org/10.1145/3732772.3733509.
