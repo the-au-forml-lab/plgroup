@@ -1,0 +1,1 @@
+1. Sekiyama, Taro, and Hiroshi Unno. “Higher-Order Model Checking of Effect-Handling Programs with Answer-Type Modification.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 2662–91. Crossref, <https://doi.org/10.1145/3689805>.
