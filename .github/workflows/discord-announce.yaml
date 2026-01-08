@@ -9,6 +9,9 @@ on:
       voting_instructions:
         required: true
         type: string
+    secrets:
+      DISCORD_WEBHOOK_URL:
+        required: true
 
 env:
   USERNAME: "PL Reading Group Paper Vote"

@@ -29,3 +29,5 @@ jobs:
     with:
       choices: ${{ needs.choices.outputs.choices }}
       voting_instructions: .github/assets/voting.md
+    secrets:
+      DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
