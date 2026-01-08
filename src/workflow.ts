@@ -10,7 +10,7 @@ function doiUrl(doi: string, target: 'plain'|'discord'|'gfm'){
     // - plain text
     // - discord
     // - github flavored markdown (gfm)
-    const url = `https://doi.org/${doi}`;
+    const url = `https://doi.org/${doi.trim()}`;
     switch(target){
         case 'plain':
         case 'discord':
