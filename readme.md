@@ -103,7 +103,7 @@ The choices are made according to the `RANDOM_POLICY` [option](#configuration-fi
 Manually run the
 [set paper](https://github.com/the-au-forml-lab/plgroup/actions/workflows/set.yaml)
 workflow with the desired paper's DOI as input.
-If the DOI does not correspond to any paper in the data set,
+If the DOI does not correspond to any paper in the dataset,
 information about the paper will be retrieved from the internet
 and added to the dataset.
 
@@ -246,12 +246,21 @@ This workflow requires Discord integration to conduct voting.
 +   Set `PAPER_VOTE_ON` variable to `1` to enable voting, or `0` to disable.
 +   Set `OPTIONS` to the number of options you want to select,
     e.g. `3` means three options.
-+   Set `OPTION_EMOJI` to a the discord-string-representation of the emoji
-    representing the number of options.
-    For example, for three options the emoji 3️⃣ is typed in discord as `:three:`,
-    so set this variable to `:three:`.
 
-### Workflow II: reviewer approval
+### Workflow II: participants suggest papers
+
+This workflow functions as _ranked choice voting_ above,
+but instead of suggesting random papers from the dataset,
+the vote options are suggested by the reading group participants.
+
+To suggest papers, write their DOIs (one per line) to the file `suggestions.txt`.
+This workflow runs automatically when `suggestions.txt` is modified,
+and creates a vote option and PR for each paper specified in that file.
+
+Set `DISCORD_WEBHOOK_URL` secret to direct to the intended discord channel.
+(same as for _ranked choice voting_)
+
+### Workflow III: reviewer approval
 
 This picks one paper at random and suggets it as the next paper.
 Designated reviewers must approve the suggetion which comes in the form of PR.
