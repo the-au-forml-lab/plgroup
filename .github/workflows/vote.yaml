@@ -25,7 +25,7 @@ jobs:
 
   announce_and_post:
     needs: choices
-    uses: the-au-forml-lab/plgroup/.github/workflows/discord-announce.yml@main
+    uses: the-au-forml-lab/plgroup/.github/workflows/discord-announce.yaml@main
     with:
       choices: ${{ needs.choices.outputs.choices }}
       voting_instructions: .github/assets/voting.md
