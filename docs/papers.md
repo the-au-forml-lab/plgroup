@@ -1,0 +1,1 @@
+1. Ayala-Rincón, Mauricio, et al. Combining Generalization Algorithms in Regular Collapse-Free Theories. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, <https://doi.org/10.4230/LIPICS.FSCD.2025.7>.
