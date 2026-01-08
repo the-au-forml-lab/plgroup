@@ -1,0 +1,1 @@
+1. Gomes, Leandro, et al. “BiGKAT: An Algebraic Framework for Relational Verification of Probabilistic Programs.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 243–64. Crossref, <https://doi.org/10.1007/978-3-031-90897-2_12>.
