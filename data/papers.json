@@ -7720,5 +7720,10 @@
     "title": "Learning the Structure of Any Hamiltonian from Minimal Assumptions.",
     "venue": "stoc 2025",
     "citation": "Zhao, Andrew. “Learning the Structure of Any Hamiltonian from Minimal Assumptions.” Proceedings of the 57th Annual ACM Symposium on Theory of Computing, ACM, 15 June 2025, pp. 1201–11. STOC ’25: 57th Annual ACM Symposium on Theory of Computing, Crossref, https://doi.org/10.1145/3717823.3718115."
+  },
+  {
+    "doi": "10.1007/978-3-031-98668-0_10\r",
+    "title": "$$\\textsf{HornStr}$$: Invariant Synthesis for Regular Model Checking as Constrained Horn Clauses",
+    "citation": "Jiang, Hongjian, et al. “$$\\textsf{HornStr}$$: Invariant Synthesis for Regular Model Checking as Constrained Horn Clauses.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 200–14. Crossref, https://doi.org/10.1007/978-3-031-98668-0_10."
   }
 ]
