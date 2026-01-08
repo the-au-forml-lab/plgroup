@@ -1,0 +1,1 @@
+1. Razafintsialonina, Mamy, et al. Reusing Caches and Invariants for Efficient and Sound Incremental Static Analysis. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, <https://doi.org/10.4230/LIPICS.ECOOP.2025.28>.
