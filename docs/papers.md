@@ -1,0 +1,1 @@
+1. Fischer, Orr, et al. “Pointer Chasing with Unlimited Interaction.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 281–96. Crossref, <https://doi.org/10.1007/978-3-031-91736-3_17>.
