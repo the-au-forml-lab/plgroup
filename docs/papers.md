@@ -1,0 +1,1 @@
+1. Jiang, Kunming, et al. “CoBBL: Dynamic Constraint Generation for SNARKs.” 2025 IEEE Symposium on Security and Privacy (SP), IEEE, 12 May 2025, 2025 IEEE Symposium on Security and Privacy (SP), pp. 3347–63. Crossref, <https://doi.org/10.1109/SP61157.2025.00200>.
