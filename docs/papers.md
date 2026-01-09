@@ -1,0 +1,1 @@
+1. Kolosick, Matthew, et al. “Robust Constant-Time Cryptography.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1491–515. Crossref, <https://doi.org/10.1145/3729310>.
