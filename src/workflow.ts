@@ -112,6 +112,7 @@ export async function details(doi: string): Promise<void> {
     const paper = await lookupDoi(doi);
     console.log(paper);
 }
+
 export async function setNext(doi: string, addToDataSet=true): Promise<void> {
     const paper = await lookupDoi(doi, addToDataSet);
     writeNext(paper);
@@ -121,10 +122,6 @@ export function stats(): void {
     const dataSet = DataSet.load();
     const unknownVenue = 'no venue';
     const venues = dataSet.papers().map(p => p.venue ?? unknownVenue);
-    /**
-     * count using a hash map; while we're at it, accumulate the
-     * `total` number of papers and a `width` for displaying later.
-     */
     const counter: Map<string,number> = new Map();
     venues.forEach(v => {
         counter.set(v, (counter.get(v) ?? 0) + 1);
@@ -154,7 +151,6 @@ function table(data: Map<string,number>): void{
         printLine(...line);
     }
     printLine('TOTAL', total);
-
 }
 
 export function venues(): void {
