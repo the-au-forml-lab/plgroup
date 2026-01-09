@@ -1,0 +1,1 @@
+1. Liu, Yiyun, et al. “Consistency of a Dependent Calculus of Indistinguishability.” Proceedings of the ACM on Programming Languages, vol. 9, no. POPL, Jan. 2025, pp. 183–209. Crossref, <https://doi.org/10.1145/3704843>.
