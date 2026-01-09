@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - 'suggestions.txt'
+    branches:
+      - 'main'
   workflow_dispatch:
     branches: [ main, dev ]
 
