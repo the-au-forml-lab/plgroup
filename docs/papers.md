@@ -1,0 +1,1 @@
+1. Batz, Kevin, et al. “Quantifier Elimination and Craig Interpolation: The Quantitative Way.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 176–97. Crossref, <https://doi.org/10.1007/978-3-031-90897-2_9>.
