@@ -1,0 +1,1 @@
+1. Ehrhard, Thomas, et al. “Variable Elimination as Rewriting in a Linear Lambda Calculus.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 292–321. Crossref, <https://doi.org/10.1007/978-3-031-91118-7_12>.
