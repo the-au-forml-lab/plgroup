@@ -1,0 +1,1 @@
+1. Liu, Zhengyang, et al. “Minotaur: A SIMD-Oriented Synthesizing Superoptimizer.” Proceedings of the ACM on Programming Languages, vol. 8, no. OOPSLA2, Oct. 2024, pp. 1561–85. Crossref, <https://doi.org/10.1145/3689766>.
