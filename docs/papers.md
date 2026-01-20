@@ -1,1 +1,2 @@
 1. Kolosick, Matthew, et al. “Robust Constant-Time Cryptography.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1491–515. Crossref, <https://doi.org/10.1145/3729310>.
+1. Arnone, William, and Ivan Lanese. “Tallulah, a Tool to Support the Axiomatic Approach to Causal-Consistent Reversibility.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2025, pp. 1–8. Crossref, <https://doi.org/10.1007/978-3-031-97063-4_1>.
