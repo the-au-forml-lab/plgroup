@@ -1,1 +1,2 @@
 1. Kolosick, Matthew, et al. “Robust Constant-Time Cryptography.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1491–515. Crossref, <https://doi.org/10.1145/3729310>.
+1. Aydemir, Brian E., et al. “Mechanized Metatheory for the Masses: The PoplMark Challenge.” Lecture Notes in Computer Science, Springer Berlin Heidelberg, 2005, pp. 50–65. Crossref, <https://doi.org/10.1007/11541868_4>.

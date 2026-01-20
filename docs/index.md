@@ -30,7 +30,7 @@ organization.
 |:---:|:------------|:-----------------------------------|:------------------|
 | 0.  | January 9   | Planning Meeting                   | UH 117 (Palazzo)  |
 | 1.  | January 23  | Robust Constant-Time Cryptography. | UH 314            |
-| 2.  | January 30  | Paper 2 discussion                 | UH 227 (Fishbowl) |
+| 2.  | January 30  | Mechanized Metatheory for the Masses: The PoplMark Challenge                 | UH 227 (Fishbowl) |
 | 3.  | February 6  | Paper 3 discussion                 | UH 227 (Fishbowl) |
 | 4.  | February 13 | Paper 4 discussion                 | UH 227 (Fishbowl) |
 | 5.  | February 20 | Paper 5 discussion                 | UH 227 (Fishbowl) |
