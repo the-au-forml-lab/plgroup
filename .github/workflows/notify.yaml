@@ -6,6 +6,10 @@ on:
       - closed
   workflow_dispatch:
 
+env:
+  AVATAR: https://raw.githubusercontent.com/the-au-forml-lab/plgroup/refs/heads/main/.github/assets/bot.svg
+  USERNAME: "Vote Result"
+
 jobs:
   notifications:
     # Run whenever next-paper labelled PR is merged to main branch -OR- when triggered manually
@@ -34,3 +38,5 @@ jobs:
           args: ${{ steps.vars.outputs.BODY }}
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DISCORD_AVATAR: ${{ env.AVATAR }}
+          DISCORD_USERNAME: ${{ env.USERNAME }}
