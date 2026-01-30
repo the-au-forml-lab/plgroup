@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 env:
-  AVATAR: https://raw.githubusercontent.com/the-au-forml-lab/plgroup/refs/heads/main/.github/assets/bot.svg
+  AVATAR: https://raw.githubusercontent.com/the-au-forml-lab/plgroup/refs/heads/main/.github/assets/bot.png
   USERNAME: "Vote Result"
 
 jobs:
