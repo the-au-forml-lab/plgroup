@@ -31,7 +31,7 @@ jobs:
       - name: set variables
         id: vars
         run: |
-          npm run set -- ${{ matrix.options }}
+          npm run set -- "${{ matrix.options }}"
           SHA=$(echo ${{ matrix.options }} | sha256sum | head -c6)
           echo "color=$((16#$SHA))" >> $GITHUB_OUTPUT
           echo "suffix=$SHA" >> $GITHUB_OUTPUT
