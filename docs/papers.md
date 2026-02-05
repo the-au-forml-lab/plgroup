@@ -1,3 +1,4 @@
 1. Kolosick, Matthew, et al. “Robust Constant-Time Cryptography.” Proceedings of the ACM on Programming Languages, vol. 9, no. PLDI, June 2025, pp. 1491–515. Crossref, <https://doi.org/10.1145/3729310>.
 1. DINGES, ALEXANDER, and RALF HINZE. “Binary Search—Think Positive.” Journal of Functional Programming, vol. 35, 2025. Crossref, <https://doi.org/10.1017/S0956796825000061>.
 1. Gouni, Hemant, et al. “Security Reasoning via Substructural Dependency Tracking.” Proceedings of the ACM on Programming Languages, vol. 10, no. POPL, Jan. 2026, pp. 777–805. Crossref, <https://doi.org/10.1145/3776669>.
+1. Forster, Yannick, et al. “A Mechanised Proof of the Time Invariance Thesis for the Weak Call-By-Value λ-Calculus.” LIPIcs, Volume 193, ITP 2021, edited by Liron Cohen and Cezary Kaliszyk, with Liron Cohen and Cezary Kaliszyk, vol. 193, no. 19, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2021, p. 19:1-19:20, <https://doi.org/10.4230/LIPIcs.ITP.2021.19>.
