@@ -33,7 +33,7 @@ organization.
 | 2.  | January 30  | Binary search—think positive                 | UH 227 (Fishbowl) |
 | 3.  | February 6  | Security Reasoning via Substructural Dependency Tracking                 | UH 227 (Fishbowl) |
 | 4.  | February 13 | Verified programming of Turing machines in Coq                 | UH 227 (Fishbowl) |
-| 5.  | February 20 | Paper 5 discussion                 | UH 227 (Fishbowl) |
+| 5.  | February 20 | Intrinsically-typed definitional interpreters for imperative languages                 | UH 227 (Fishbowl) |
 | 6.  | February 27 | Paper 6 discussion                 | UH 227 (Fishbowl) |
 | 7.  | March 13    | Paper 7 discussion                 | UH 227 (Fishbowl) |
 | 8.  | March 20    | Paper 8 discussion                 | UH 227 (Fishbowl) |
