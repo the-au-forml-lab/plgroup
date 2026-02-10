@@ -2,3 +2,4 @@
 1. DINGES, ALEXANDER, and RALF HINZE. “Binary Search—Think Positive.” Journal of Functional Programming, vol. 35, 2025. Crossref, <https://doi.org/10.1017/S0956796825000061>.
 1. Gouni, Hemant, et al. “Security Reasoning via Substructural Dependency Tracking.” Proceedings of the ACM on Programming Languages, vol. 10, no. POPL, Jan. 2026, pp. 777–805. Crossref, <https://doi.org/10.1145/3776669>.
 1. Forster, Yannick, et al. “Verified Programming of Turing Machines in Coq.” Proceedings of the 9th ACM SIGPLAN International Conference on Certified Programs and Proofs, ACM, 20 Jan. 2020, POPL ’20: 47th Annual ACM SIGPLAN Symposium on Principles of Programming Languages, pp. 114–28. Crossref, <https://doi.org/10.1145/3372885.3373816>.
+1. Rabe, Florian, and Kristina Sojakova. “Logical Relations for a Logical Framework.” ACM Transactions on Computational Logic, vol. 14, no. 4, Nov. 2013, pp. 1–34. Crossref, <https://doi.org/10.1145/2536740.2536741>.
