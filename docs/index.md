@@ -34,7 +34,7 @@ organization.
 | 3.  | February 6  | Security Reasoning via Substructural Dependency Tracking                 | UH 227 (Fishbowl) |
 | 4.  | February 13 | Verified programming of Turing machines in Coq                 | UH 227 (Fishbowl) |
 | 5.  | February 20 | Logical relations for a logical framework                 | UH 227 (Fishbowl) |
-| 6.  | February 27 | Paper 6 discussion                 | UH 227 (Fishbowl) |
+| 6.  | February 27 | Linearizability: a correctness condition for concurrent objects                 | UH 227 (Fishbowl) |
 | 7.  | March 13    | Paper 7 discussion                 | UH 227 (Fishbowl) |
 | 8.  | March 20    | Paper 8 discussion                 | UH 227 (Fishbowl) |
 | 9.  | March 27    | Paper 9 discussion                 | UH 227 (Fishbowl) |
