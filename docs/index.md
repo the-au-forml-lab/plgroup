@@ -39,7 +39,6 @@ organization.
 | 8.  | March 20    | Paper 8 discussion                 | UH 227 (Fishbowl) |
 | 9.  | March 27    | Paper 9 discussion                 | UH 227 (Fishbowl) |
 | 10. | April 3     | Paper 10 discussion                | UH 227 (Fishbowl) |
-| 11. | April 10    | Paper 11 discussion                | UH 227 (Fishbowl) |
 | 12. | April 24    | Awards Gala                        | UH 227 (Fishbowl) |
 
 No meetings March 6 (Spring Pause) and April 10 (Spring Break).
