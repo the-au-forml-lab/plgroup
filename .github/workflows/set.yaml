@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: 24
       - name: 🎯 Set paper selection
-        run: npm run set -- ${{ github.event.inputs.doi }}
+        run: npm run set -- "${{ github.event.inputs.doi }}"
       - name: 🔎 Lookup paper details
         id: vars
         run: cat data/vars.txt >> $GITHUB_OUTPUT
