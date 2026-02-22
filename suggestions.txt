@@ -1,3 +1,3 @@
-https://doi.org/10.1145/78969.78972
-https://doi.org/10.4230/LIPIcs.CONCUR.2025.8
-https://doi.org/10.1145/3563293
+https://doi.org/10.1109/LICS.1991.151625
+https://doi.org/10.1016/j.tcs.2022.06.010
+https://doi.org/10.1017/S0956796822000120
