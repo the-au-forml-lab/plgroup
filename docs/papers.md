@@ -5,3 +5,4 @@
 1. Rabe, Florian, and Kristina Sojakova. “Logical Relations for a Logical Framework.” ACM Transactions on Computational Logic, vol. 14, no. 4, Nov. 2013, pp. 1–34. Crossref, <https://doi.org/10.1145/2536740.2536741>.
 1. Herlihy, Maurice P., and Jeannette M. Wing. “Linearizability: A Correctness Condition for Concurrent Objects.” ACM Transactions on Programming Languages and Systems, vol. 12, no. 3, July 1990, pp. 463–92. Crossref, <https://doi.org/10.1145/78969.78972>.
 1. CHAN, JONATHAN, et al. “Is Sized Typing for Coq Practical?” Journal of Functional Programming, vol. 33, 2023. Crossref, <https://doi.org/10.1017/S0956796822000120>.
+1. Chandra, Kartik, et al. “A Domain-Specific Probabilistic Programming Language for Reasoning about Reasoning (Or: A Memo on Memo).” Proceedings of the ACM on Programming Languages, vol. 9, no. OOPSLA2, Oct. 2025, pp. 784–814. Crossref, <https://doi.org/10.1145/3763078>.
