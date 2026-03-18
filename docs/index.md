@@ -37,7 +37,7 @@ organization.
 | 6.  | February 27 | Linearizability: a correctness condition for concurrent objects                 | UH 227 (Fishbowl) |
 | 7.  | March 13    | Is sized typing for Coq practical?                 | UH 227 (Fishbowl) |
 | 8.  | March 20    | A Domain-Specific Probabilistic Programming Language for Reasoning about Reasoning (Or: A Memo on memo)                 | UH 227 (Fishbowl) |
-| 9.  | March 27    | Paper 9 discussion                 | UH 227 (Fishbowl) |
+| 9.  | March 27    | Improved Byzantine Agreement under an Adaptive Adversary                 | UH 227 (Fishbowl) |
 | 10. | April 3     | Paper 10 discussion                | UH 227 (Fishbowl) |
 | 12. | April 24    | Awards Gala                        | UH 227 (Fishbowl) |
 
