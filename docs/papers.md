@@ -7,3 +7,4 @@
 1. CHAN, JONATHAN, et al. “Is Sized Typing for Coq Practical?” Journal of Functional Programming, vol. 33, 2023. Crossref, <https://doi.org/10.1017/S0956796822000120>.
 1. Chandra, Kartik, et al. “A Domain-Specific Probabilistic Programming Language for Reasoning about Reasoning (Or: A Memo on Memo).” Proceedings of the ACM on Programming Languages, vol. 9, no. OOPSLA2, Oct. 2025, pp. 784–814. Crossref, <https://doi.org/10.1145/3763078>.
 1. Dufoulon, Fabien, et al. “Distributed MIS in O(Log Log n) Awake Complexity.” Proceedings of the 2023 ACM Symposium on Principles of Distributed Computing, ACM, 16 June 2023, PODC ’23: 2023 ACM Symposium on Principles of Distributed Computing, pp. 135–45. Crossref, <https://doi.org/10.1145/3583668.3594574>.
+1. Chrobak, Marek, and Ming Li. “K+ 1Heads Are Better than k for PDAs.” Journal of Computer and System Sciences, vol. 37, no. 2, Oct. 1988, pp. 144–55. Crossref, https://doi.org/10.1016/0022-0000(88)90004-9.
