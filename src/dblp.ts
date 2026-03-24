@@ -8,14 +8,12 @@ import {all, log, LogLv, FileSystem} from './util.ts';
 // of the fields. The author field either contains the author of a single-author
 // paper or an array of authors for multi-author papers.
 //
-// Note also that:
-// 1. This interface was designed by DBLP, not by me.
-// 2. The API does not seem to be locked in, and is subject to change.
+// Note that the API does not seem to be locked in, and is subject to change.
 
-interface DblpApiResponse {
+export interface DblpHit {
     authors: {
-        author: {text:string, '@pid': string}
-            | Array< {text:string, '@pid': string}>
+        author: {text: string, '@pid': string}
+            | Array< {text: string, '@pid': string}>
     },
     title: string,
     venue: string,
@@ -29,7 +27,7 @@ interface DblpApiResponse {
     url: string,
 }
 
-function isPaper(info: DblpApiResponse): boolean {
+function isPaper(info: DblpHit): boolean {
     const tests: boolean[] = [
         /paper|article/i.test(info.type),
         /\d+-\d+/.test(info.pages),
@@ -39,32 +37,6 @@ function isPaper(info: DblpApiResponse): boolean {
     } else {
         log(LogLv.verbose, `Rejecting hit ${JSON.stringify(info, undefined, 2)}`);
         return false;
-    }
-}
-
-interface DblpHit {
-    info: DblpApiResponse
-};
-
-export class DblpPrePaper {
-    readonly doi: string;
-    readonly title: string;
-    readonly venue: string;
-
-    // construct objects of this type from `DblpInfo`s.
-    private constructor(doi: string, title: string, venue: string) {
-        this.doi = doi;
-        this.title = title;
-        this.venue = venue;
-    }
-
-    static parse(info: DblpApiResponse, venue: DblpVenue) {
-        const {doi, title} = info;
-        if(!doi || !title) {
-            throw new Error('Malformed DBLP Hit:\n'
-                + JSON.stringify(info, undefined, 2));
-        }
-        return new DblpPrePaper(doi, title, venue.toString());
     }
 }
 
@@ -102,20 +74,20 @@ class DblpVenue {
         }
     }
 
-    async getHits(): Promise<DblpPrePaper[]> {
-        const json = JSON.parse(await this.callApi());
-        const hits: DblpHit[] = json?.result?.hits?.hit;
+    async getHits(): Promise<Array<{info: DblpHit, venue: string}>> {
         log(LogLv.normal, `Fetching papers from DBLP venue ${this}`);
-        if(!Array.isArray(hits)) {
-            throw new Error(`Malformed response from DBLP venue ${this}`);
-        }
-        const filtered = hits
-            .map(({info}) => info)
-            .filter(info => isPaper(info));
+        const json = JSON.parse(await this.callApi());
+        const hits: DblpHit[] = json?.result?.hits?.hit
+            .map(({info} : {info: DblpHit}) => info);
+        const filtered = hits.filter(info => isPaper(info));
         log(LogLv.normal,
-            `...got ${hits.length} hits from ${this}: ${filtered.length} good and ${hits.length-filtered.length} rejected`);
+            `...got ${hits.length} hits from ${this}:`
+                +` ${filtered.length} good`
+                +` and ${hits.length-filtered.length} rejected`);
         try {
-                return filtered.map(info => DblpPrePaper.parse(info, this));
+            return filtered.map(info => {
+                return {info, venue: this.toString()}
+            });
         } catch (e) {
             log(LogLv.error,`Failed to parse hit from venue ${this}`);
             throw e;
