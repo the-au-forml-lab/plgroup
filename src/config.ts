@@ -97,7 +97,7 @@ export const REQUEST = {
     /**
      * delay between consecutive API calls in milliseconds, currently unused
      */
-    API_CALL_DELAY: 500,
+    API_CALL_DELAY: 900,
 
     /**
      * maximum number of redirects for a http request

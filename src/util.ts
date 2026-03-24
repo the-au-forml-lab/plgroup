@@ -1,6 +1,6 @@
 import fs from 'fs';
 import util from 'util';
-import {LOG} from './config.ts';
+import {LOG, REQUEST} from './config.ts';
 
 export const LogLv = {
     quiet: 0,
@@ -111,17 +111,18 @@ export function all(xs: boolean[]): boolean {
 
 type PromiseAllSplit<T> = Promise<{fulfilled : T[], rejected: any[]}>;
 export async function promiseAllSettledSplit<T>(
-    promises: Array<Promise<T>>
+    promises: Array<() => Promise<T>>
 ): PromiseAllSplit<T> {
-    const settled = await Promise.allSettled(promises);
     const fulfilled: T[] = [];
     const rejected: any[] = [];
-    for(const s of settled){
-        if(s.status === 'fulfilled'){
-            fulfilled.push(s.value);
-        } else {
-            rejected.push(s.reason);
+    for(const p of promises){
+        try {
+            const s = await p();
+            fulfilled.push(s);
+        } catch (e) {
+            rejected.push(e);
         }
+        await sleep(REQUEST.API_CALL_DELAY);
     }
     return {fulfilled, rejected};
 }
