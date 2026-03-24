@@ -7,6 +7,7 @@
     "scripts": {
         "choose": "node src/main.ts choose",
         "details": "node src/main.ts details",
+        "insert": "node src/main.ts insert",
         "set": "node src/main.ts set",
         "stats": "node src/main.ts stats",
         "update": "node src/main.ts update",

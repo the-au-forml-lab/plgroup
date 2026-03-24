@@ -1,7 +1,7 @@
 import {FILES, SCHEDULE_PLACEHOLDER_RE, DBLP, RANDOM_POLICY} from './config.ts';
 import {FileSystem, log, LogLv} from './util.ts';
 import {type Paper, DataSet} from './dataset.ts';
-import {lookupDoi} from './doi.ts';
+import {lookupDoi, insertDoi} from './doi.ts';
 import {loadVenues} from './dblp.ts';
 import {pickN, pickNKey} from './random.ts';
 
@@ -108,13 +108,15 @@ export function chooseNext(n: number = 1): void {
     log(LogLv.normal, chosen);
 }
 
+export const insert = insertDoi;
+
 export async function details(doi: string): Promise<void> {
     const paper = await lookupDoi(doi);
     console.log(paper);
 }
 
-export async function setNext(doi: string, addToDataSet=false): Promise<void> {
-    const paper = await lookupDoi(doi, addToDataSet);
+export async function setNext(doi: string): Promise<void> {
+    const paper = await lookupDoi(doi);
     writeNext(paper);
 }
 

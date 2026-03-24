@@ -5,6 +5,7 @@ import * as workflow from './workflow.ts';
 const ACTIONS = {
     CHOOSE: 'choose',
     DETAILS: 'details',
+    INSERT: 'insert',
     SET: 'set',
     STATS: 'stats',
     UPDATE: 'update',
@@ -22,6 +23,9 @@ async function main() {
             break;
         case ACTIONS.DETAILS:
             todo = () => workflow.details(param);
+            break;
+        case ACTIONS.INSERT:
+            todo = () => workflow.insert(param);
             break;
         case ACTIONS.SET:
             todo = () => workflow.setNext(param);

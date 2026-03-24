@@ -3,7 +3,12 @@ import {type Headers, readUrl} from './request.ts';
 import {log, LogLv, spaceFix} from './util.ts';
 import {type Paper, DataSet} from './dataset.ts';
 
-export async function getTitle(doi:string): Promise<string> {
+function normalizeDoi(k : string) : string {
+    const url : URL = new URL(k, 'https://doi.org/');
+    return url.pathname.slice(1); // remove the leading slash from pathname
+}
+
+async function getTitle(doi:string): Promise<string> {
     const url = `https://doi.org/${doi}`;
     const headers: Headers = {
         Accept: 'application/vnd.citationstyles.csl+json'
@@ -13,7 +18,7 @@ export async function getTitle(doi:string): Promise<string> {
     return title;
 }
 
-export async function getCitation(doi: string): Promise<string> {
+async function getCitation(doi: string): Promise<string> {
     const searchParams = new URLSearchParams({
         doi,
         style: DATASET.CITATION_STYLE,
@@ -25,7 +30,7 @@ export async function getCitation(doi: string): Promise<string> {
     return citation;
 }
 
-async function lookupDoiNoCache(doi: string): Promise<Paper> {
+async function getDetails(doi: string): Promise<Paper> {
     const [title, citation] = await Promise.all([
         getTitle(doi),
         getCitation(doi),
@@ -33,15 +38,17 @@ async function lookupDoiNoCache(doi: string): Promise<Paper> {
     return {doi, title, citation};
 }
 
-export async function lookupDoi(
-    doi: string,
-    addToDataSet=false
-): Promise<Paper> {
+export async function lookupDoi(doi: string): Promise<Paper> {
+    doi = normalizeDoi(doi);
     const dataSet = DataSet.load();
-    const paper = dataSet.get(doi) ?? await lookupDoiNoCache(doi);
-    if(addToDataSet){
-        dataSet.insert(paper);
-        dataSet.write();
-    }
+    const paper = dataSet.get(doi) ?? await getDetails(doi);
     return paper;
+}
+
+export async function insertDoi(doi: string): Promise<void> {
+    doi = normalizeDoi(doi);
+    const dataSet = DataSet.load();
+    const paper = await lookupDoi(doi);
+    dataSet.insert(paper);
+    dataSet.write();
 }
