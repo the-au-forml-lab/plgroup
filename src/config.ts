@@ -138,4 +138,4 @@ export const DBLP = {
  * - 'uniform_venue' first picks venues uniformly at random,
  *   then selects one paper from each venue.
  */
-export const RANDOM_POLICY: 'uniform'|'uniform_venue' = 'uniform_venue'
+export const RANDOM_POLICY: 'uniform'|'uniform_venue' = 'uniform'
