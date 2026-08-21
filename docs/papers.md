@@ -1,0 +1,1 @@
+1. Greutmann, Micha, et al. “Modular Reasoning About Object Relations.” Lecture Notes in Computer Science, Springer Nature Switzerland, 2026, pp. 117–40. Crossref, <https://doi.org/10.1007/978-3-032-32526-6_6>.

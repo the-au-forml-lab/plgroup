@@ -30,7 +30,7 @@ organization.
 |:---:|:-------------|:--------------------|:------------------|
 | 0.  | August 21    | Opening Meeting     | UH 277 (Fishbowl) |
 | 1.  | August 28    | TBA                 | UH 277 (Fishbowl) |
-| 2.  | September 04 | Paper 01 discussion | UH 277 (Fishbowl) |
+| 2.  | September 04 | Modular Reasoning About Object Relations | UH 277 (Fishbowl) |
 | 3.  | September 11 | Paper 02 discussion | UH 277 (Fishbowl) |
 | 4.  | September 18 | Paper 03 discussion | UH 277 (Fishbowl) |
 | 5.  | September 25 | Paper 04 discussion | UH 277 (Fishbowl) |
