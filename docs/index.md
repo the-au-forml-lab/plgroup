@@ -32,7 +32,7 @@ organization.
 | 1.  | August 28    | TBA                 | UH 277 (Fishbowl) |
 | 2.  | September 04 | 130k Lines of Formal Topology in Two Weeks: Simple and Cheap Autoformalization for Everyone? (Short Paper) | UH 277 (Fishbowl) |
 | 3.  | September 11 | An Equational Axiomatization of Dynamic Threads via Algebraic Effects: Presheaves on Finite Relations, Labelled Posets, and Parameterized Algebraic Theories | UH 277 (Fishbowl) |
-| 4.  | September 18 | Paper 03 discussion | UH 277 (Fishbowl) |
+| 4.  | September 18 | POPE | UH 277 (Fishbowl) |
 | 5.  | September 25 | Paper 04 discussion | UH 277 (Fishbowl) |
 | 6.  | October 02   | Paper 05 discussion | UH 277 (Fishbowl) |
 | 7.  | October 09   | Paper 06 discussion | UH 277 (Fishbowl) |
