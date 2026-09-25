@@ -34,7 +34,7 @@ organization.
 | 3.  | September 11 | An Equational Axiomatization of Dynamic Threads via Algebraic Effects: Presheaves on Finite Relations, Labelled Posets, and Parameterized Algebraic Theories | UH 277 (Fishbowl) |
 | 4.  | September 18 | POPE | UH 277 (Fishbowl) |
 | 5.  | September 25 | Reasoning about distributed reconfigurable systems | UH 277 (Fishbowl) |
-| 6.  | October 02   | Paper 05 discussion | UH 277 (Fishbowl) |
+| 6.  | October 02   | Unary Versus Binary Two-Way Automata | UH 277 (Fishbowl) |
 | 7.  | October 09   | Paper 06 discussion | UH 277 (Fishbowl) |
 | 8.  | October 16   | Paper 07 discussion | UH 277 (Fishbowl) |
 | 9.  | October 23   | Paper 08 discussion | UH 277 (Fishbowl) |
