@@ -8,6 +8,7 @@ on:
 
 jobs:
   test:
+    if: ${{ !contains(github.event.pull_request.labels.*.name, 'next-paper') }}
     name: Command tests
     runs-on: ubuntu-latest
     steps:
