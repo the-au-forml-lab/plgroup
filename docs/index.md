@@ -36,7 +36,7 @@ organization.
 | 5.  | September 25 | Reasoning about distributed reconfigurable systems | UH 277 (Fishbowl) |
 | 6.  | October 02   | Interaction Tree Semantics for RISC-V: Bridging Compiler and Hardware Verification | UH 277 (Fishbowl) |
 | 7.  | October 09   | On the minimal synchronism needed for distributed consensus | UH 277 (Fishbowl) |
-| 8.  | October 16   | Paper 07 discussion | UH 277 (Fishbowl) |
+| 8.  | October 16   | Adaptively Secure BLS Threshold Signatures from DDH and co-CDH | UH 277 (Fishbowl) |
 | 9.  | October 23   | Paper 08 discussion | UH 277 (Fishbowl) |
 | 10. | October 30   | Paper 09 discussion | UH 277 (Fishbowl) |
 | 11. | November 06  | Paper 10 discussion | UH 277 (Fishbowl) |
