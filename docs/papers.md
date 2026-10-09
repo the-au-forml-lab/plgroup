@@ -4,3 +4,4 @@
 1. Ahrens, Emma, et al. “Reasoning about Distributed Reconfigurable Systems.” Proceedings of the ACM on Programming Languages, vol. 6, no. OOPSLA2, Oct. 2022, pp. 145–74. Crossref, <https://doi.org/10.1145/3563293>.
 1. Kan, Shuanglong, and Sebastian Ertel. “Interaction Tree Semantics for RISC-V: Bridging Compiler and Hardware Verification.” Version 2, arXiv, 2026, <https://doi.org/10.48550/arXiv.2605.04933>.
 1. Dolev, Danny, et al. “On the Minimal Synchronism Needed for Distributed Consensus.” Journal of the ACM, vol. 34, no. 1, Jan. 1987, pp. 77–97. Crossref, <https://doi.org/10.1145/7531.7533>.
+1. Boneh, Dan, et al. “A Survey of Two Verifiable Delay Functions Using Proof of Exponentiation.” IACR Communications in Cryptology, Apr. 2024. Crossref, <https://doi.org/10.62056/av7tudhdj>.
