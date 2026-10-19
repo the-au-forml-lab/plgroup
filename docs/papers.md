@@ -6,3 +6,4 @@
 1. Dolev, Danny, et al. “On the Minimal Synchronism Needed for Distributed Consensus.” Journal of the ACM, vol. 34, no. 1, Jan. 1987, pp. 77–97. Crossref, <https://doi.org/10.1145/7531.7533>.
 1. Boneh, Dan, et al. “A Survey of Two Verifiable Delay Functions Using Proof of Exponentiation.” IACR Communications in Cryptology, Apr. 2024. Crossref, <https://doi.org/10.62056/av7tudhdj>.
 1. Chupin, Guerric, and Henrik Nilsson. “Functional Reactive Programming, Restated.” Proceedings of the 21st International Symposium on Principles and Practice of Declarative Programming, ACM, 7 Oct. 2019, PPDP ’19: Principles and Practice of Programming Languages 2019, pp. 1–14. Crossref, <https://doi.org/10.1145/3354166.3354172>.
+1. Sabelfeld, A., and A. C. Myers. “Language-Based Information-Flow Security.” IEEE Journal on Selected Areas in Communications, vol. 21, no. 1, Jan. 2003, pp. 5–19. Crossref, <https://doi.org/10.1109/JSAC.2002.806121>.
