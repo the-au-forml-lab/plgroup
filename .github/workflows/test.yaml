@@ -2,9 +2,12 @@ name: "Test changes"
 
 on:
   push:
-    branches: [ main, new-semester-dev ]
+    branches: [ main ]
+    paths: [ src/**.ts ]
   pull_request:
     branches: [ main ]
+    paths: [ src/**.ts ]
+
 
 jobs:
   test:
