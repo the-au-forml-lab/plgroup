@@ -31,13 +31,13 @@ organization.
 | 0.  | August 21    | Opening Meeting     | UH 277 (Fishbowl) |
 | 1.  | August 28    | TBA                 | UH 277 (Fishbowl) |
 | 2.  | September 04 | 130k Lines of Formal Topology in Two Weeks: Simple and Cheap Autoformalization for Everyone? (Short Paper) | UH 277 (Fishbowl) |
-| 3.  | September 11 | Paper 02 discussion | UH 277 (Fishbowl) |
-| 4.  | September 18 | Paper 03 discussion | UH 277 (Fishbowl) |
-| 5.  | September 25 | Paper 04 discussion | UH 277 (Fishbowl) |
-| 6.  | October 02   | Paper 05 discussion | UH 277 (Fishbowl) |
-| 7.  | October 09   | Paper 06 discussion | UH 277 (Fishbowl) |
-| 8.  | October 16   | Paper 07 discussion | UH 277 (Fishbowl) |
-| 9.  | October 23   | Paper 08 discussion | UH 277 (Fishbowl) |
+| 3.  | September 11 | An Equational Axiomatization of Dynamic Threads via Algebraic Effects: Presheaves on Finite Relations, Labelled Posets, and Parameterized Algebraic Theories | UH 277 (Fishbowl) |
+| 4.  | September 18 | POPE | UH 277 (Fishbowl) |
+| 5.  | September 25 | Reasoning about distributed reconfigurable systems | UH 277 (Fishbowl) |
+| 6.  | October 02   | Interaction Tree Semantics for RISC-V: Bridging Compiler and Hardware Verification | UH 277 (Fishbowl) |
+| 7.  | October 09   | On the minimal synchronism needed for distributed consensus | UH 277 (Fishbowl) |
+| 8.  | October 16   | A Survey of Two Verifiable Delay Functions Using Proof of Exponentiation | UH 277 (Fishbowl) |
+| 9.  | October 23   | Functional Reactive Programming, restated | UH 277 (Fishbowl) |
 | 10. | October 30   | Paper 09 discussion | UH 277 (Fishbowl) |
 | 11. | November 06  | Paper 10 discussion | UH 277 (Fishbowl) |
 | 12. | November 20  | Awards Gala         | UH 277 (Fishbowl) |
