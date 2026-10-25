@@ -3,10 +3,8 @@ name: "Test changes"
 on:
   push:
     branches: [ main ]
-    paths: [ src/**.ts, package-lock.json, package.json, tsconfig.json ]
   pull_request:
     branches: [ main ]
-    paths: [ src/**.ts, package-lock.json, package.json, tsconfig.json ]
 
 jobs:
   test:
