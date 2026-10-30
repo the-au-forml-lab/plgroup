@@ -7,3 +7,4 @@
 1. Boneh, Dan, et al. “A Survey of Two Verifiable Delay Functions Using Proof of Exponentiation.” IACR Communications in Cryptology, Apr. 2024. Crossref, <https://doi.org/10.62056/av7tudhdj>.
 1. Chupin, Guerric, and Henrik Nilsson. “Functional Reactive Programming, Restated.” Proceedings of the 21st International Symposium on Principles and Practice of Declarative Programming, ACM, 7 Oct. 2019, PPDP ’19: Principles and Practice of Programming Languages 2019, pp. 1–14. Crossref, <https://doi.org/10.1145/3354166.3354172>.
 1. Leroy, Xavier. “Formal Verification of a Realistic Compiler.” Communications of the ACM, vol. 52, no. 7, July 2009, pp. 107–15. Crossref, <https://doi.org/10.1145/1538788.1538814>.
+1. Knuth, Donald E. “Computer Programming as an Art.” ACM Turing Award Lectures, ACM, Jan. 2007, p. 1974. Crossref, <https://doi.org/10.1145/1283920.1283929>.
