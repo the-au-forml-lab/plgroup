@@ -26,11 +26,7 @@ The Rorschach
 
 #### Undergraduate Approved
 
-> This award is for the paper that 
-
-Sometimes, you don't know. And this paper helped me know, idk. This is for that person that didn't know, yknow?
-
-Sometimes you don't know. and this paper took a non-knower, and produced some know, y'know?
+> This award is for the paper that has an outstandingly approachable form and structure, so much so that even an undergraduate or someone unfamiliar with the field could read and understand the core ideas that lay within.
 
 #### Candy Wrapper
 
